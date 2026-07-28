@@ -1,0 +1,764 @@
+{
+  "version": 1,
+  "workbooks": [
+    {
+      "id": "angles",
+      "slug": "angles",
+      "title": "초등 수학 한 장: 각도",
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "각도",
+      "standardCodes": [
+        "[4수03-24]",
+        "[4수03-25]"
+      ],
+      "levels": [
+        "foundation",
+        "standard",
+        "challenge"
+      ],
+      "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+      "questions": [
+        {
+          "id": "q1",
+          "level": "foundation",
+          "standardCode": "[4수03-24]",
+          "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-24.concept",
+          "prompt": "각도의 단위를 기호로 쓰세요.",
+          "answer": "°",
+          "explanation": "각도는 도를 단위로 사용하고 °로 씁니다."
+        },
+        {
+          "id": "q2",
+          "level": "foundation",
+          "standardCode": "[4수03-24]",
+          "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-24.representation",
+          "prompt": "각도기로 재어 60°인 각은 예각, 직각, 둔각 중 무엇인가요?",
+          "answer": "예각",
+          "explanation": "60°는 90°보다 작습니다."
+        },
+        {
+          "id": "q3",
+          "level": "standard",
+          "standardCode": "[4수03-24]",
+          "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-24.application",
+          "prompt": "직각의 절반 크기는 몇 도인가요?",
+          "answer": "45°",
+          "explanation": "90÷2=45"
+        },
+        {
+          "id": "q4",
+          "level": "standard",
+          "standardCode": "[4수03-25]",
+          "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-25.representation",
+          "prompt": "삼각형의 두 각이 50°와 60°입니다. 나머지 한 각은 몇 도인가요?",
+          "answer": "70°",
+          "explanation": "180-50-60=70"
+        },
+        {
+          "id": "q5",
+          "level": "challenge",
+          "standardCode": "[4수03-25]",
+          "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-25.application",
+          "prompt": "사각형의 세 각이 85°, 95°, 110°입니다. 나머지 한 각은 몇 도인가요?",
+          "answer": "70°",
+          "explanation": "360-85-95-110=70"
+        },
+        {
+          "id": "q6",
+          "level": "challenge",
+          "standardCode": "[4수03-25]",
+          "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-25.application",
+          "prompt": "삼각형 가의 세 각은 40°, 65°, 75°이고, 나는 40°, 65°, 80°입니다. 가능한 삼각형을 고르고 설명하세요.",
+          "answer": "가",
+          "explanation": "가의 합은 180°이고 나의 합은 185°입니다."
+        }
+      ],
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/angles/01-cover.png",
+          "thumbnailPath": "/workbooks/angles/01-cover.webp",
+          "sha256": "019971fead2d2feadb5f683cdddb5272fa5e7d2bd665f7c716480b552f8fd03c",
+          "alt": "각도 학습지 표지",
+          "approved": true
+        },
+        {
+          "id": "worksheet-1",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/angles/02-worksheet-1.png",
+          "thumbnailPath": "/workbooks/angles/02-worksheet-1.webp",
+          "sha256": "40ab86c1192e60c020052d050a28bf66c2a5d9ca4f17e4ce6d0f6089ee86d392",
+          "alt": "각도 기초와 표준 문제 1쪽",
+          "approved": true
+        },
+        {
+          "id": "worksheet-2",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/angles/03-worksheet-2.png",
+          "thumbnailPath": "/workbooks/angles/03-worksheet-2.webp",
+          "sha256": "e87114e18c0510f79db008929cfed33c2a657f0cd3da3ed841a628bd469cf0f9",
+          "alt": "각도 표준과 도전 문제 2쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 4,
+          "role": "answer",
+          "imagePath": "/workbooks/angles/04-answers.png",
+          "thumbnailPath": "/workbooks/angles/04-answers.webp",
+          "sha256": "28bd0344528a042b3af2ad519375b46457ec9e2c500f9c05a5a716caa6c9fc3e",
+          "alt": "각도 정답과 풀이",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/angles/angles.pdf",
+        "pageCount": 4,
+        "sha256": "81003b6b49e7202089d2e6abe72ac22408cd05edb6d26eaeabf97a342ebe7748"
+      },
+      "transcriptPath": "/workbooks/angles/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-28",
+      "published": true
+    },
+    {
+      "id": "circle-pi-area",
+      "slug": "circle-pi-area",
+      "title": "초등 수학 한 장: 원주율과 원의 넓이",
+      "gradeBand": "5-6",
+      "domain": "도형과 측정",
+      "module": "원주율과 원의 넓이",
+      "standardCodes": [
+        "[6수03-15]",
+        "[6수03-16]"
+      ],
+      "levels": [
+        "foundation",
+        "standard",
+        "challenge"
+      ],
+      "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+      "questions": [
+        {
+          "id": "q1",
+          "level": "foundation",
+          "standardCode": "[6수03-16]",
+          "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.concept",
+          "prompt": "지름이 10cm인 원의 원주를 구하세요.",
+          "answer": "31.4cm",
+          "explanation": "10×3.14=31.4"
+        },
+        {
+          "id": "q2",
+          "level": "foundation",
+          "standardCode": "[6수03-16]",
+          "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.concept",
+          "prompt": "반지름이 4cm인 원의 넓이를 구하세요.",
+          "answer": "50.24cm²",
+          "explanation": "4×4×3.14=50.24"
+        },
+        {
+          "id": "q3",
+          "level": "standard",
+          "standardCode": "[6수03-15]",
+          "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-15.representation",
+          "prompt": "원주가 62.8cm인 원의 지름을 구하세요.",
+          "answer": "20cm",
+          "explanation": "62.8÷3.14=20"
+        },
+        {
+          "id": "q4",
+          "level": "standard",
+          "standardCode": "[6수03-16]",
+          "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.representation",
+          "prompt": "지름이 12cm인 원의 넓이를 구하세요.",
+          "answer": "113.04cm²",
+          "explanation": "반지름은 6cm이므로 6×6×3.14=113.04"
+        },
+        {
+          "id": "q5",
+          "level": "challenge",
+          "standardCode": "[6수03-16]",
+          "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.application",
+          "prompt": "반지름이 5m인 원형 트랙을 3바퀴 돌았습니다. 이동한 거리를 구하세요.",
+          "answer": "94.2m",
+          "explanation": "5×2×3.14×3=94.2"
+        },
+        {
+          "id": "q6",
+          "level": "challenge",
+          "standardCode": "[6수03-16]",
+          "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.application",
+          "prompt": "한 변이 14cm인 정사각형 안에 가장 큰 원을 그렸습니다. 정사각형에서 원을 뺀 부분의 넓이를 구하세요.",
+          "answer": "42.14cm²",
+          "explanation": "196-(7×7×3.14)=42.14"
+        }
+      ],
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/circle-pi-area/01-cover.png",
+          "thumbnailPath": "/workbooks/circle-pi-area/01-cover.webp",
+          "sha256": "fcb82c03e0b0f84f40d79dd5de55a512edeeb9b8ab09b5747782221dcac11bc5",
+          "alt": "원주율과 원의 넓이 학습지 표지",
+          "approved": true
+        },
+        {
+          "id": "worksheet-1",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/circle-pi-area/02-worksheet-1.png",
+          "thumbnailPath": "/workbooks/circle-pi-area/02-worksheet-1.webp",
+          "sha256": "d0e6cb51af5c8391c48ec8194b457b157b0b5db079b3b6f79342667dc538379d",
+          "alt": "원주율과 원의 넓이 기초와 표준 문제 1쪽",
+          "approved": true
+        },
+        {
+          "id": "worksheet-2",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/circle-pi-area/03-worksheet-2.png",
+          "thumbnailPath": "/workbooks/circle-pi-area/03-worksheet-2.webp",
+          "sha256": "5d2ef1d3089e01733646fda002e1c134a1af7284ad9b47552d6309e5bcd691bf",
+          "alt": "원주율과 원의 넓이 표준과 도전 문제 2쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 4,
+          "role": "answer",
+          "imagePath": "/workbooks/circle-pi-area/04-answers.png",
+          "thumbnailPath": "/workbooks/circle-pi-area/04-answers.webp",
+          "sha256": "c2041017df930310891db836e0a060e485c6e9e8cfb5f5c37644f2799f13ca3a",
+          "alt": "원주율과 원의 넓이 정답과 풀이",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/circle-pi-area/circle-pi-area.pdf",
+        "pageCount": 4,
+        "sha256": "42daa832351fbddf1af8a276b5de6740aacf7c50aa0d12b272d3c9ea5110c64a"
+      },
+      "transcriptPath": "/workbooks/circle-pi-area/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-28",
+      "published": true
+    },
+    {
+      "id": "fractions",
+      "slug": "fractions",
+      "title": "초등 수학 한 장: 분수",
+      "gradeBand": "3-4",
+      "domain": "수와 연산",
+      "module": "분수",
+      "standardCodes": [
+        "[4수01-09]",
+        "[4수01-10]",
+        "[4수01-11]"
+      ],
+      "levels": [
+        "foundation",
+        "standard",
+        "challenge"
+      ],
+      "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+      "questions": [
+        {
+          "id": "q1",
+          "level": "foundation",
+          "standardCode": "[4수01-09]",
+          "topicId": "kr.mt.math.number-operations.g3-4.s4-01-09.representation",
+          "prompt": "전체를 똑같이 8칸으로 나누어 3칸을 색칠했습니다. 색칠한 부분을 분수로 나타내세요.",
+          "answer": "3/8",
+          "explanation": "전체 8칸 중 3칸이므로 3/8입니다."
+        },
+        {
+          "id": "q2",
+          "level": "foundation",
+          "standardCode": "[4수01-10]",
+          "topicId": "kr.mt.math.number-operations.g3-4.s4-01-10.concept",
+          "prompt": "1/5, 3/5, 5/3 중 단위분수를 고르세요.",
+          "answer": "1/5",
+          "explanation": "분자가 1인 분수가 단위분수입니다."
+        },
+        {
+          "id": "q3",
+          "level": "standard",
+          "standardCode": "[4수01-10]",
+          "topicId": "kr.mt.math.number-operations.g3-4.s4-01-10.representation",
+          "prompt": "7/4을 대분수로 나타내세요.",
+          "answer": "1과 3/4",
+          "explanation": "7/4은 4/4와 3/4을 합한 수입니다."
+        },
+        {
+          "id": "q4",
+          "level": "standard",
+          "standardCode": "[4수01-11]",
+          "topicId": "kr.mt.math.number-operations.g3-4.s4-01-11.application",
+          "prompt": "3/7과 5/7 중 큰 수를 고르고 까닭을 쓰세요.",
+          "answer": "5/7",
+          "explanation": "분모가 같으면 분자가 큰 분수가 큽니다."
+        },
+        {
+          "id": "q5",
+          "level": "challenge",
+          "standardCode": "[4수01-11]",
+          "topicId": "kr.mt.math.number-operations.g3-4.s4-01-11.application",
+          "prompt": "1/3과 1/5 중 큰 수를 고르고, 같은 크기의 그림을 나눈다고 생각하여 설명하세요.",
+          "answer": "1/3",
+          "explanation": "같은 전체를 더 적은 수로 나눈 한 조각이 더 큽니다."
+        },
+        {
+          "id": "q6",
+          "level": "challenge",
+          "standardCode": "[4수01-10]",
+          "topicId": "kr.mt.math.number-operations.g3-4.s4-01-10.application",
+          "prompt": "1/4, 4/3, 3/3, 1과 1/2을 단위분수, 가분수, 대분수로 나누세요.",
+          "answer": "단위분수 1/4, 가분수 4/3·3/3, 대분수 1과 1/2",
+          "explanation": "분자가 1이면 단위분수, 분자가 분모 이상이면 가분수입니다."
+        }
+      ],
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/fractions/01-cover.png",
+          "thumbnailPath": "/workbooks/fractions/01-cover.webp",
+          "sha256": "057dfd18e563a49ec2d8fd164ac499472be87254d29ccb1bc5fb5fc54c4488ff",
+          "alt": "분수 학습지 표지",
+          "approved": true
+        },
+        {
+          "id": "worksheet-1",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/fractions/02-worksheet-1.png",
+          "thumbnailPath": "/workbooks/fractions/02-worksheet-1.webp",
+          "sha256": "0fc1e324059a723ee249e87207b743fa32c7284dab7330e6a331dc343061030a",
+          "alt": "분수 기초와 표준 문제 1쪽",
+          "approved": true
+        },
+        {
+          "id": "worksheet-2",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/fractions/03-worksheet-2.png",
+          "thumbnailPath": "/workbooks/fractions/03-worksheet-2.webp",
+          "sha256": "5beca32931c465f5da8053140211d9ab8a0d407bcab9daf0dd559f3aa2bda697",
+          "alt": "분수 표준과 도전 문제 2쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 4,
+          "role": "answer",
+          "imagePath": "/workbooks/fractions/04-answers.png",
+          "thumbnailPath": "/workbooks/fractions/04-answers.webp",
+          "sha256": "42248f1588de884183d589e326ff6d35e188112916c3450740c79bac3c844cd7",
+          "alt": "분수 정답과 풀이",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/fractions/fractions.pdf",
+        "pageCount": 4,
+        "sha256": "ce982014b924b0d2dafc4a76fdd02823346daec57b859ab952fc20a86508e778"
+      },
+      "transcriptPath": "/workbooks/fractions/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-28",
+      "published": true
+    },
+    {
+      "id": "plane-shapes",
+      "slug": "plane-shapes",
+      "title": "초등 수학 한 장: 평면도형과 그 구성 요소",
+      "gradeBand": "1-2",
+      "domain": "도형과 측정",
+      "module": "평면도형과 그 구성 요소",
+      "standardCodes": [
+        "[2수03-03]",
+        "[2수03-04]",
+        "[2수03-05]"
+      ],
+      "levels": [
+        "foundation",
+        "standard",
+        "challenge"
+      ],
+      "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+      "questions": [
+        {
+          "id": "q1",
+          "level": "foundation",
+          "standardCode": "[2수03-04]",
+          "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-04.concept",
+          "prompt": "가, 나, 다 중 세 변으로 둘러싸인 도형은 무엇인가요?",
+          "answer": "나",
+          "explanation": "삼각형은 세 변으로 둘러싸입니다."
+        },
+        {
+          "id": "q2",
+          "level": "foundation",
+          "standardCode": "[2수03-03]",
+          "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-03.concept",
+          "prompt": "가, 나, 다 중 모서리가 없이 둥근 도형은 무엇인가요?",
+          "answer": "가",
+          "explanation": "원은 모서리가 없이 둥글게 이어집니다."
+        },
+        {
+          "id": "q3",
+          "level": "standard",
+          "standardCode": "[2수03-05]",
+          "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-05.representation",
+          "prompt": "삼각형의 변과 꼭짓점은 각각 몇 개인가요?",
+          "answer": "변 3개, 꼭짓점 3개",
+          "explanation": "삼각형은 세 변과 세 꼭짓점이 있습니다."
+        },
+        {
+          "id": "q4",
+          "level": "standard",
+          "standardCode": "[2수03-05]",
+          "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-05.representation",
+          "prompt": "사각형의 공통점을 두 가지 쓰세요.",
+          "answer": "변 4개, 꼭짓점 4개",
+          "explanation": "사각형은 네 변과 네 꼭짓점을 가집니다."
+        },
+        {
+          "id": "q5",
+          "level": "challenge",
+          "standardCode": "[2수03-03]",
+          "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-03.application",
+          "prompt": "삼각형 지붕 1개, 사각형 집 1개, 원 창문 1개로 만든 집에서 각 도형은 몇 개인가요?",
+          "answer": "삼각형 1개, 사각형 1개, 원 1개",
+          "explanation": "집 그림을 도형별로 나누어 셉니다."
+        },
+        {
+          "id": "q6",
+          "level": "challenge",
+          "standardCode": "[2수03-04]",
+          "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-04.application",
+          "prompt": "같은 삼각형 두 개를 한 변끼리 맞대었습니다. 바깥쪽 변은 몇 개인가요?",
+          "answer": "4개",
+          "explanation": "맞댄 두 변은 안쪽으로 들어가고 바깥쪽에 네 변이 남습니다."
+        }
+      ],
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/plane-shapes/01-cover.png",
+          "thumbnailPath": "/workbooks/plane-shapes/01-cover.webp",
+          "sha256": "e172b8349857fd2d3a081fad7b6ad021d9fad64609e1ae06f2e1cd8180961288",
+          "alt": "평면도형과 그 구성 요소 학습지 표지",
+          "approved": true
+        },
+        {
+          "id": "worksheet-1",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/plane-shapes/02-worksheet-1.png",
+          "thumbnailPath": "/workbooks/plane-shapes/02-worksheet-1.webp",
+          "sha256": "4db87aec552b799381ca0452c11b99eea3c1c9ba9de3e3eafa9c7adfd5ca353d",
+          "alt": "평면도형 기초와 표준 문제 1쪽",
+          "approved": true
+        },
+        {
+          "id": "worksheet-2",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/plane-shapes/03-worksheet-2.png",
+          "thumbnailPath": "/workbooks/plane-shapes/03-worksheet-2.webp",
+          "sha256": "27df22bc730735a4b816d9fbb2f896434ad30c00d67ab528cb3f33e56b3b3128",
+          "alt": "평면도형 표준과 도전 문제 2쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 4,
+          "role": "answer",
+          "imagePath": "/workbooks/plane-shapes/04-answers.png",
+          "thumbnailPath": "/workbooks/plane-shapes/04-answers.webp",
+          "sha256": "b58ecf8cf56ee79b56555df50e3a9e83d4152917afa3488a1e302b08560870a7",
+          "alt": "평면도형 정답과 풀이",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/plane-shapes/plane-shapes.pdf",
+        "pageCount": 4,
+        "sha256": "70cd1113cb33cf2e734aab085d6e279e525c35d68662167dd039521978f70d83"
+      },
+      "transcriptPath": "/workbooks/plane-shapes/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-28",
+      "published": true
+    },
+    {
+      "id": "ratios-and-rates",
+      "slug": "ratios-and-rates",
+      "title": "초등 수학 한 장: 비와 비율",
+      "gradeBand": "5-6",
+      "domain": "변화와 관계",
+      "module": "비와 비율",
+      "standardCodes": [
+        "[6수02-02]",
+        "[6수02-03]"
+      ],
+      "levels": [
+        "foundation",
+        "standard",
+        "challenge"
+      ],
+      "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+      "questions": [
+        {
+          "id": "q1",
+          "level": "foundation",
+          "standardCode": "[6수02-02]",
+          "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-02.representation",
+          "prompt": "빨간 구슬 6개와 노란 구슬 4개가 있습니다. 빨간 구슬 수와 노란 구슬 수의 비를 쓰세요.",
+          "answer": "6:4",
+          "explanation": "비교하는 순서대로 6:4입니다."
+        },
+        {
+          "id": "q2",
+          "level": "foundation",
+          "standardCode": "[6수02-02]",
+          "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-02.concept",
+          "prompt": "전체 20명 중 8명이 안경을 썼습니다. 안경을 쓴 학생 수와 전체 학생 수의 비를 쓰세요.",
+          "answer": "8:20",
+          "explanation": "안경을 쓴 학생 수를 먼저 씁니다."
+        },
+        {
+          "id": "q3",
+          "level": "standard",
+          "standardCode": "[6수02-03]",
+          "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-03.representation",
+          "prompt": "12/30를 기약분수, 소수, 백분율로 나타내세요.",
+          "answer": "2/5, 0.4, 40%",
+          "explanation": "12/30=2/5=0.4=40%"
+        },
+        {
+          "id": "q4",
+          "level": "standard",
+          "standardCode": "[6수02-03]",
+          "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-03.representation",
+          "prompt": "0.65를 기약분수와 백분율로 나타내세요.",
+          "answer": "13/20, 65%",
+          "explanation": "0.65=65/100=13/20"
+        },
+        {
+          "id": "q5",
+          "level": "challenge",
+          "standardCode": "[6수02-03]",
+          "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-03.application",
+          "prompt": "학생 25명 중 60%가 자전거를 탑니다. 자전거를 타는 학생은 몇 명인가요?",
+          "answer": "15명",
+          "explanation": "25×0.6=15"
+        },
+        {
+          "id": "q6",
+          "level": "challenge",
+          "standardCode": "[6수02-03]",
+          "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-03.application",
+          "prompt": "가는 24문제 중 18문제, 나는 30문제 중 21문제를 맞혔습니다. 누가 몇 퍼센트포인트 더 높나요?",
+          "answer": "가, 5퍼센트포인트",
+          "explanation": "가는 75%, 나는 70%입니다."
+        }
+      ],
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/ratios-and-rates/01-cover.png",
+          "thumbnailPath": "/workbooks/ratios-and-rates/01-cover.webp",
+          "sha256": "c5b812fd857e1fdc4d571fe073d22fc484d722cb4eb650e4c13ac0b4bbd50e1a",
+          "alt": "비와 비율 학습지 표지",
+          "approved": true
+        },
+        {
+          "id": "worksheet-1",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/ratios-and-rates/02-worksheet-1.png",
+          "thumbnailPath": "/workbooks/ratios-and-rates/02-worksheet-1.webp",
+          "sha256": "de5ffb85214b2b7e7f76e043bbe5903ac0362777d27ef010f082236aeab56f4b",
+          "alt": "비와 비율 기초와 표준 문제 1쪽",
+          "approved": true
+        },
+        {
+          "id": "worksheet-2",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/ratios-and-rates/03-worksheet-2.png",
+          "thumbnailPath": "/workbooks/ratios-and-rates/03-worksheet-2.webp",
+          "sha256": "9485b63d8a4ce945d8f78076c8857d6f115498a27273ee4d7e77feb4e193df43",
+          "alt": "비와 비율 표준과 도전 문제 2쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 4,
+          "role": "answer",
+          "imagePath": "/workbooks/ratios-and-rates/04-answers.png",
+          "thumbnailPath": "/workbooks/ratios-and-rates/04-answers.webp",
+          "sha256": "40b5454045b1a1d6f6b32be68d6ad3173923ecfd94ba71690a5982b864711ea2",
+          "alt": "비와 비율 정답과 풀이",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/ratios-and-rates/ratios-and-rates.pdf",
+        "pageCount": 4,
+        "sha256": "5ea6887205c5a3023ab4d956803f9bce1965c3d83fdedf8dbea2852667b8aea4"
+      },
+      "transcriptPath": "/workbooks/ratios-and-rates/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-28",
+      "published": true
+    },
+    {
+      "id": "two-digit-addition-subtraction",
+      "slug": "two-digit-addition-subtraction",
+      "title": "초등 수학 한 장: 두 자리 수 범위의 덧셈과 뺄셈",
+      "gradeBand": "1-2",
+      "domain": "수와 연산",
+      "module": "두 자리 수 범위의 덧셈과 뺄셈",
+      "standardCodes": [
+        "[2수01-05]",
+        "[2수01-06]",
+        "[2수01-07]"
+      ],
+      "levels": [
+        "foundation",
+        "standard",
+        "challenge"
+      ],
+      "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+      "questions": [
+        {
+          "id": "q1",
+          "level": "foundation",
+          "standardCode": "[2수01-05]",
+          "topicId": "kr.mt.math.number-operations.g1-2.s2-01-05.concept",
+          "prompt": "사과가 23개 있습니다. 14개를 더 놓았습니다. 모두 몇 개인가요?",
+          "answer": "37개",
+          "explanation": "23+14=37"
+        },
+        {
+          "id": "q2",
+          "level": "foundation",
+          "standardCode": "[2수01-06]",
+          "topicId": "kr.mt.math.number-operations.g1-2.s2-01-06.concept",
+          "prompt": "52-21을 계산하세요.",
+          "answer": "31",
+          "explanation": "십의 자리와 일의 자리를 각각 빼면 31입니다."
+        },
+        {
+          "id": "q3",
+          "level": "standard",
+          "standardCode": "[2수01-06]",
+          "topicId": "kr.mt.math.number-operations.g1-2.s2-01-06.representation",
+          "prompt": "36+27을 계산하고, 계산 과정을 식으로 나타내세요.",
+          "answer": "63",
+          "explanation": "36+20=56, 56+7=63"
+        },
+        {
+          "id": "q4",
+          "level": "standard",
+          "standardCode": "[2수01-07]",
+          "topicId": "kr.mt.math.number-operations.g1-2.s2-01-07.representation",
+          "prompt": "45-18=27과 짝이 되는 덧셈식을 쓰세요.",
+          "answer": "27+18=45",
+          "explanation": "뺄셈의 차에 뺀 수를 더하면 처음 수가 됩니다."
+        },
+        {
+          "id": "q5",
+          "level": "challenge",
+          "standardCode": "[2수01-05]",
+          "topicId": "kr.mt.math.number-operations.g1-2.s2-01-05.application",
+          "prompt": "민아는 스티커 28개를 받고 16개를 더 받았습니다. 9개를 주었다면 몇 개가 남나요?",
+          "answer": "35개",
+          "explanation": "28+16-9=35"
+        },
+        {
+          "id": "q6",
+          "level": "challenge",
+          "standardCode": "[2수01-07]",
+          "topicId": "kr.mt.math.number-operations.g1-2.s2-01-07.application",
+          "prompt": "63-27=36이 맞는지 덧셈으로 확인하고, 두 식의 관계를 쓰세요.",
+          "answer": "36+27=63",
+          "explanation": "차와 뺀 수를 더하면 처음 수가 되어 계산이 맞습니다."
+        }
+      ],
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/two-digit-addition-subtraction/01-cover.png",
+          "thumbnailPath": "/workbooks/two-digit-addition-subtraction/01-cover.webp",
+          "sha256": "615ca8e954ab875c6727d7b0ff666b883831c9e013fdad882242425e40375172",
+          "alt": "두 자리 수 범위의 덧셈과 뺄셈 학습지 표지",
+          "approved": true
+        },
+        {
+          "id": "worksheet-1",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.png",
+          "thumbnailPath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.webp",
+          "sha256": "4391eba88652bd5f8a28b46147428de9e19e8df5670f243f3b981decde4bc4e5",
+          "alt": "두 자리 수 덧셈과 뺄셈 기초와 표준 문제 1쪽",
+          "approved": true
+        },
+        {
+          "id": "worksheet-2",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.png",
+          "thumbnailPath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.webp",
+          "sha256": "c2c46d7ccac8764bfa72ced89e3f3a78f8fbca14480d81b7042e0daa7e500419",
+          "alt": "두 자리 수 덧셈과 뺄셈 표준과 도전 문제 2쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 4,
+          "role": "answer",
+          "imagePath": "/workbooks/two-digit-addition-subtraction/04-answers.png",
+          "thumbnailPath": "/workbooks/two-digit-addition-subtraction/04-answers.webp",
+          "sha256": "fef85e1375001b4e5b6f258c1bcbb20702e7cead2a505867a9c3ed6c86a98e9c",
+          "alt": "두 자리 수 덧셈과 뺄셈 정답과 풀이",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/two-digit-addition-subtraction/two-digit-addition-subtraction.pdf",
+        "pageCount": 4,
+        "sha256": "7cae1a38497e9c1f3939d3f71bec920362a407e4080fa21b35a1404ac2786a5a"
+      },
+      "transcriptPath": "/workbooks/two-digit-addition-subtraction/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-28",
+      "published": true
+    }
+  ]
+}

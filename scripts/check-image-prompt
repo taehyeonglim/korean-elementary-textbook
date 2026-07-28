@@ -1,0 +1,13 @@
+#!/usr/bin/env sh
+# Validate a Gongnyang Image Prompt Kit prompt from this repository.
+set -eu
+
+project_dir=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+checker="$project_dir/.agents/skills/image-prompt/scripts/check_prompt.mjs"
+
+if ! command -v node >/dev/null 2>&1; then
+  echo "Node.js is required to run the image-prompt validator." >&2
+  exit 127
+fi
+
+exec node "$checker" "$@"

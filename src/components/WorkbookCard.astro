@@ -1,0 +1,41 @@
+---
+import { GRADE_BAND_LABELS, coverPage, publicAsset, type Workbook } from "../lib/catalog";
+
+interface Props {
+  workbook: Workbook;
+}
+
+const { workbook } = Astro.props;
+const cover = coverPage(workbook);
+const coverSource = cover ? publicAsset(cover.thumbnailPath || cover.imagePath) : undefined;
+const href = `${import.meta.env.BASE_URL}workbooks/${workbook.slug}/`;
+---
+
+<article class="workbook-card" data-grade-band={workbook.gradeBand} data-domain={workbook.domain} data-module={workbook.module}>
+  <a class="workbook-card__image-link" href={href} aria-label={`${workbook.title} 자세히 보기`}>
+    <div class="workbook-card__cover">
+      {coverSource ? (
+        <img src={coverSource} alt={cover?.alt ?? `${workbook.title} 표지`} loading="lazy" />
+      ) : (
+        <div class="workbook-card__cover-fallback" aria-hidden="true">
+          <span>수학</span>
+          <i></i><i></i><i></i>
+        </div>
+      )}
+      <span class="workbook-card__pages">{workbook.pdf.pageCount}쪽</span>
+    </div>
+  </a>
+  <div class="workbook-card__body">
+    <div class="workbook-card__eyebrow">
+      <span>{GRADE_BAND_LABELS[workbook.gradeBand]}</span>
+      <span aria-hidden="true">·</span>
+      <span>{workbook.domain}</span>
+    </div>
+    <h3><a href={href}>{workbook.title}</a></h3>
+    <p class="workbook-card__module">{workbook.module}</p>
+    <div class="workbook-card__footer">
+      <span class="standard-code">{workbook.standardCodes[0]}</span>
+      <span class="card-arrow" aria-hidden="true">↗</span>
+    </div>
+  </div>
+</article>

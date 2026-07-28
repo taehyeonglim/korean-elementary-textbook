@@ -1,0 +1,13 @@
+Scene:
+세로형 초등 수학 문제지 1쪽, 상단 제목 밴드 아래에 기초 두 문제와 표준 한 문제를 위에서 아래로 배치한 고밀도 C6 교육 인포그래픽. 세 문제 모두 계산 과정과 답을 학생이 직접 쓰는 넓은 빈 작업 공간을 중심으로 구성한다. 문제 1에는 옅은 5칸×3칸 정사각 격자와 긴 답안 상자, 문제 2에는 십의 자리와 일의 자리가 나뉜 빈 두 열 표와 답안 상자, 문제 3에는 계산 과정을 쓰는 빈 가로줄 세 줄과 아래쪽 식 답안 상자 세 개를 배치한다. 모든 작업 공간은 비어 있고 선과 칸만 또렷하다. 연필 외 모든 삽화·아이콘·수모형·사과·주판·블록 금지, 오직 제목·문항·빈 표·빈 풀이칸의 순수 타이포그래피로 구성한다. 각 카드에는 큰 문제 번호, 수준 칩, 5% 안전 여백을 둔다.
+Camera:
+정면 평면도, 한 페이지 안에서 위에서 아래로 읽는 세 개의 둥근 카드, 명확한 카드 간격과 좌측 정렬 축.
+Lighting:
+밝고 부드러운 교실 창가광, 카드 아래의 얕은 종이 그림자, 수 모형에 균일한 하이라이트.
+Color grading:
+#F7F4EC 바탕, 기초 카드 #DFF3E4, 표준 카드 #E7EEFF, 네이비 #0F1D30, 산호 #E76F51, 5000K.
+Texture/Medium:
+친환경 종이 질감, 또렷한 산세리프 활자, 색연필 삽화와 수 모형, quality high.
+Text-in-image:
+headline "두 자리 수 범위의 덧셈과 뺄셈". section label "문제 1". level 기초. question "사과가 23개 있습니다. 14개를 더 놓았습니다. 모두 몇 개인가요?". section label "문제 2". level 기초. question "52-21을 계산하세요.". section label "문제 3". level 표준. question "36+27을 계산하고, 계산 과정을 식으로 나타내세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

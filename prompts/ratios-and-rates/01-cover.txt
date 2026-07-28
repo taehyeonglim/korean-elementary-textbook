@@ -1,0 +1,13 @@
+Scene:
+세로형 초등 수학 표지, 크림색 종이 위에 빨간 구슬 6개와 노란 구슬 4개, 40% 원형 게이지, 분수·소수·백분율 변환 리더선이 있는 현대적 C6 교육 인포그래픽. 상단 제목, 중앙 비율 도해, 하단 성취기준과 저작권 정보 카드, A4 안전 여백 5%.
+Camera:
+정면 평면 포스터, 중앙 대칭형 데이터 도해와 세로 위계.
+Lighting:
+부드러운 확산광, 구슬의 은은한 반사와 종이 그림자.
+Color grading:
+#F7F4EC, #0F1D30, #E76F51, #F4C95D, #3B82F6.
+Texture/Medium:
+무광 종이, 둥근 구슬 일러스트, 얇은 데이터 리더선, quality high.
+Text-in-image:
+headline "초등 수학 한 장". subhead "비와 비율". caption "5-6학년군 · 변화와 관계". standard label "[6수02-02] [6수02-03]". level label "기초 · 표준 · 도전". author "Taehyeong Lim". license "CC BY-NC-SA 4.0". credit "이미지 제작에 공냥 프롬프트 킷을 사용했습니다." All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

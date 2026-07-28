@@ -1,0 +1,13 @@
+Scene:
+세로형 각도 문제지 1쪽, 기초 두 문제와 표준 한 문제 카드. 첫 카드에는 도 기호와 1도 눈금, 둘째에는 60° 각과 예각·직각·둔각 비교, 셋째에는 90°를 두 부분으로 나누는 각도 도해. 큰 번호, 수준 칩, 답안 줄을 갖춘 고밀도 C6 인포그래픽.
+Camera:
+정면 평면도, 세로 세 카드, 명확한 읽기 순서.
+Lighting:
+밝은 확산광, 각도기 눈금이 선명한 조명.
+Color grading:
+#F7F4EC, #0F1D30, #3B82F6, #E76F51, #F4C95D.
+Texture/Medium:
+투명 각도기, 연필 각선, 재생지 질감, quality high.
+Text-in-image:
+headline "각도". section label "문제 1". level 기초. question "각도의 단위를 기호로 쓰세요.". section label "문제 2". level 기초. question "각도기로 재어 60°인 각은 예각, 직각, 둔각 중 무엇인가요?". section label "문제 3". level 표준. question "직각의 절반 크기는 몇 도인가요?". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

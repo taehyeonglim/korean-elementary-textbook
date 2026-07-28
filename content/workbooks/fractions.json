@@ -1,0 +1,127 @@
+{
+  "id": "fractions",
+  "slug": "fractions",
+  "title": "초등 수학 한 장: 분수",
+  "gradeBand": "3-4",
+  "domain": "수와 연산",
+  "module": "분수",
+  "standardCodes": [
+    "[4수01-09]",
+    "[4수01-10]",
+    "[4수01-11]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수01-09]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-09.representation",
+      "prompt": "전체를 똑같이 8칸으로 나누어 3칸을 색칠했습니다. 색칠한 부분을 분수로 나타내세요.",
+      "answer": "3/8",
+      "explanation": "전체 8칸 중 3칸이므로 3/8입니다."
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수01-10]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-10.concept",
+      "prompt": "1/5, 3/5, 5/3 중 단위분수를 고르세요.",
+      "answer": "1/5",
+      "explanation": "분자가 1인 분수가 단위분수입니다."
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수01-10]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-10.representation",
+      "prompt": "7/4을 대분수로 나타내세요.",
+      "answer": "1과 3/4",
+      "explanation": "7/4은 4/4와 3/4을 합한 수입니다."
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수01-11]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-11.application",
+      "prompt": "3/7과 5/7 중 큰 수를 고르고 까닭을 쓰세요.",
+      "answer": "5/7",
+      "explanation": "분모가 같으면 분자가 큰 분수가 큽니다."
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수01-11]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-11.application",
+      "prompt": "1/3과 1/5 중 큰 수를 고르고, 같은 크기의 그림을 나눈다고 생각하여 설명하세요.",
+      "answer": "1/3",
+      "explanation": "같은 전체를 더 적은 수로 나눈 한 조각이 더 큽니다."
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수01-10]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-10.application",
+      "prompt": "1/4, 4/3, 3/3, 1과 1/2을 단위분수, 가분수, 대분수로 나누세요.",
+      "answer": "단위분수 1/4, 가분수 4/3·3/3, 대분수 1과 1/2",
+      "explanation": "분자가 1이면 단위분수, 분자가 분모 이상이면 가분수입니다."
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/fractions/01-cover.png",
+      "thumbnailPath": "/workbooks/fractions/01-cover.webp",
+      "sha256": "057dfd18e563a49ec2d8fd164ac499472be87254d29ccb1bc5fb5fc54c4488ff",
+      "alt": "분수 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/fractions/02-worksheet-1.png",
+      "thumbnailPath": "/workbooks/fractions/02-worksheet-1.webp",
+      "sha256": "0fc1e324059a723ee249e87207b743fa32c7284dab7330e6a331dc343061030a",
+      "alt": "분수 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/fractions/03-worksheet-2.png",
+      "thumbnailPath": "/workbooks/fractions/03-worksheet-2.webp",
+      "sha256": "5beca32931c465f5da8053140211d9ab8a0d407bcab9daf0dd559f3aa2bda697",
+      "alt": "분수 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/fractions/04-answers.png",
+      "thumbnailPath": "/workbooks/fractions/04-answers.webp",
+      "sha256": "42248f1588de884183d589e326ff6d35e188112916c3450740c79bac3c844cd7",
+      "alt": "분수 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/fractions/fractions.pdf",
+    "pageCount": 4,
+    "sha256": "ce982014b924b0d2dafc4a76fdd02823346daec57b859ab952fc20a86508e778"
+  },
+  "transcriptPath": "/workbooks/fractions/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-28",
+  "published": true
+}

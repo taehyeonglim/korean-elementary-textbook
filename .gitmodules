@@ -1,0 +1,3 @@
+[submodule "gongnyang-prompt-kit"]
+	path = vendor/gongnyang-prompt-kit
+	url = https://github.com/gongnyang/gongnyang-prompt-kit.git

@@ -1,0 +1,126 @@
+{
+  "id": "circle-pi-area",
+  "slug": "circle-pi-area",
+  "title": "초등 수학 한 장: 원주율과 원의 넓이",
+  "gradeBand": "5-6",
+  "domain": "도형과 측정",
+  "module": "원주율과 원의 넓이",
+  "standardCodes": [
+    "[6수03-15]",
+    "[6수03-16]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수03-16]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.concept",
+      "prompt": "지름이 10cm인 원의 원주를 구하세요.",
+      "answer": "31.4cm",
+      "explanation": "10×3.14=31.4"
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수03-16]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.concept",
+      "prompt": "반지름이 4cm인 원의 넓이를 구하세요.",
+      "answer": "50.24cm²",
+      "explanation": "4×4×3.14=50.24"
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수03-15]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-15.representation",
+      "prompt": "원주가 62.8cm인 원의 지름을 구하세요.",
+      "answer": "20cm",
+      "explanation": "62.8÷3.14=20"
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수03-16]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.representation",
+      "prompt": "지름이 12cm인 원의 넓이를 구하세요.",
+      "answer": "113.04cm²",
+      "explanation": "반지름은 6cm이므로 6×6×3.14=113.04"
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수03-16]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.application",
+      "prompt": "반지름이 5m인 원형 트랙을 3바퀴 돌았습니다. 이동한 거리를 구하세요.",
+      "answer": "94.2m",
+      "explanation": "5×2×3.14×3=94.2"
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수03-16]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.application",
+      "prompt": "한 변이 14cm인 정사각형 안에 가장 큰 원을 그렸습니다. 정사각형에서 원을 뺀 부분의 넓이를 구하세요.",
+      "answer": "42.14cm²",
+      "explanation": "196-(7×7×3.14)=42.14"
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/circle-pi-area/01-cover.png",
+      "thumbnailPath": "/workbooks/circle-pi-area/01-cover.webp",
+      "sha256": "fcb82c03e0b0f84f40d79dd5de55a512edeeb9b8ab09b5747782221dcac11bc5",
+      "alt": "원주율과 원의 넓이 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/circle-pi-area/02-worksheet-1.png",
+      "thumbnailPath": "/workbooks/circle-pi-area/02-worksheet-1.webp",
+      "sha256": "d0e6cb51af5c8391c48ec8194b457b157b0b5db079b3b6f79342667dc538379d",
+      "alt": "원주율과 원의 넓이 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/circle-pi-area/03-worksheet-2.png",
+      "thumbnailPath": "/workbooks/circle-pi-area/03-worksheet-2.webp",
+      "sha256": "5d2ef1d3089e01733646fda002e1c134a1af7284ad9b47552d6309e5bcd691bf",
+      "alt": "원주율과 원의 넓이 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/circle-pi-area/04-answers.png",
+      "thumbnailPath": "/workbooks/circle-pi-area/04-answers.webp",
+      "sha256": "c2041017df930310891db836e0a060e485c6e9e8cfb5f5c37644f2799f13ca3a",
+      "alt": "원주율과 원의 넓이 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/circle-pi-area/circle-pi-area.pdf",
+    "pageCount": 4,
+    "sha256": "42daa832351fbddf1af8a276b5de6740aacf7c50aa0d12b272d3c9ea5110c64a"
+  },
+  "transcriptPath": "/workbooks/circle-pi-area/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-28",
+  "published": true
+}

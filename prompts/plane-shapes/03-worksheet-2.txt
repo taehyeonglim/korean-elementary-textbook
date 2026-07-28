@@ -1,0 +1,13 @@
+Scene:
+세로형 평면도형 문제지 2쪽, 표준 한 문제와 도전 두 문제 카드가 세로로 배치된 고밀도 C6 인포그래픽. 첫 카드에는 사각형의 네 변과 네 꼭짓점 콜아웃, 둘째 카드에는 삼각형 지붕·사각형 집·원 창문으로 구성된 집 그림, 셋째 카드에는 한 변을 맞댄 같은 삼각형 두 개와 바깥쪽 변 표시가 있다. 각 카드에 큰 번호와 수준 색상, 넓은 답안 공간을 둔다.
+Camera:
+정면 평면 포스터, 위에서 아래로 읽는 세 장의 카드, 균일한 구분선과 여백.
+Lighting:
+부드러운 교실광, 도형의 얕은 입체 그림자, 선명한 선과 꼭짓점.
+Color grading:
+아이보리 #F7F4EC, 네이비 #0F1D30, 파랑 #3B82F6, 코랄 #E76F51, 노랑 #F4C95D.
+Texture/Medium:
+무광 색종이, 색연필 질감, 얇은 격자와 정밀한 리더선, quality high.
+Text-in-image:
+headline "평면도형과 그 구성 요소". section label "문제 4". level 표준. question "사각형의 공통점을 두 가지 쓰세요.". section label "문제 5". level 도전. question "삼각형 지붕 1개, 사각형 집 1개, 원 창문 1개로 만든 집에서 각 도형은 몇 개인가요?". section label "문제 6". level 도전. question "같은 삼각형 두 개를 한 변끼리 맞대었습니다. 바깥쪽 변은 몇 개인가요?". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

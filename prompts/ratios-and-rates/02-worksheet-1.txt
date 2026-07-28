@@ -1,0 +1,13 @@
+Scene:
+세로형 비와 비율 문제지 1쪽, 기초 두 문제와 표준 한 문제를 세로 카드로 구성한 고밀도 C6 인포그래픽. 문제 1 카드에는 빨간 구슬 6개와 노란 구슬 4개를 정확히 한 줄씩 배치한다. 문제 2 카드에는 안경을 쓴 중립색 사람 아이콘 8명과 안경을 쓰지 않은 중립색 사람 아이콘 12명을 같은 크기로 배치한다. 문제 3 카드에는 "12/30"만 크게 제시하고, 아래에 "기약분수", "소수", "백분율" 헤더가 있는 빈 세 열 답안 표와 넓은 빈칸을 배치한다. 문제 3의 답안 표에는 분수·소수·백분율의 결과, 계산식, 변환 화살표가 없고 학생이 직접 쓰는 선과 칸만 또렷하다.
+Camera:
+정면 평면도, 세로 세 카드, 큰 번호와 답안 줄.
+Lighting:
+밝은 확산광과 구슬의 부드러운 하이라이트.
+Color grading:
+#F7F4EC, #0F1D30, #E76F51, #F4C95D, #3B82F6.
+Texture/Medium:
+무광 공책 종이, 플랫 구슬과 동일한 중립색 사람 아이콘, 얇은 빈 답안 표, quality high.
+Text-in-image:
+headline "비와 비율". section label "문제 1". level 기초. question "빨간 구슬 6개와 노란 구슬 4개가 있습니다. 빨간 구슬 수와 노란 구슬 수의 비를 쓰세요.". section label "문제 2". level 기초. question "전체 20명 중 8명이 안경을 썼습니다. 안경을 쓴 학생 수와 전체 학생 수의 비를 쓰세요.". section label "문제 3". level 표준. question "12/30를 기약분수, 소수, 백분율로 나타내세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

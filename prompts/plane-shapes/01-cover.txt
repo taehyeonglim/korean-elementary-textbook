@@ -1,0 +1,13 @@
+Scene:
+세로형 초등 수학 학습지 표지, 크림색 종이 위에 원·삼각형·사각형 종이 도형이 균형 있게 떠 있는 현대적 교육 에디토리얼 C6 인포그래픽. 상단 넓은 제목 밴드, 중앙에는 세 도형과 얇은 리더선, 하단에는 성취기준과 저작권 정보를 담은 정렬된 정보 카드가 있다. 인쇄용 A4 안전 여백 5%, 차분하고 명료한 시각 위계.
+Camera:
+정면 평면 포스터 구도, 대칭형 중앙 도형 구성, 깨끗한 세로 페이지 전체.
+Lighting:
+부드러운 위쪽 확산광, 종이 도형 아래의 얕은 그림자, 가장자리 림 라이트.
+Color grading:
+아이보리 #F7F4EC, 네이비 #0F1D30, 코랄 #E76F51, 하늘 #3B82F6, 노랑 #F4C95D.
+Texture/Medium:
+무광 색종이, 연필선, 얇은 헤어라인, quality high.
+Text-in-image:
+headline "초등 수학 한 장". subhead "평면도형과 그 구성 요소". caption "1-2학년군 · 도형과 측정". standard label "[2수03-03] [2수03-04] [2수03-05]". level label "기초 · 표준 · 도전". author "Taehyeong Lim". license "CC BY-NC-SA 4.0". credit "이미지 제작에 공냥 프롬프트 킷을 사용했습니다." All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

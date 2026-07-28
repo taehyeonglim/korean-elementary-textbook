@@ -1,0 +1,285 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-07-28T00:00:00+09:00",
+  "generator": {
+    "curriculumMcp": "curriculum-kr",
+    "promptKit": "gongnyang-prompt-kit v4.0.0",
+    "category": "C6",
+    "tier": 1,
+    "aspectRatio": "2:3",
+    "size": "1024x1536",
+    "postGenerationTextOverlay": false
+  },
+  "workbooks": [
+    {
+      "id": "angles",
+      "pdfPath": "/workbooks/angles/angles.pdf",
+      "transcriptPath": "/workbooks/angles/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/angles/01-cover.txt",
+          "promptSha256": "a19e02d3c41cb237e1e32eeff4e833cbce2fe6beb93b2ab8b4a08c10b18bf575",
+          "expectedImagePath": "/workbooks/angles/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/angles/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "promptPath": "prompts/angles/02-worksheet-1.txt",
+          "promptSha256": "6ebe334acde61347795db2d95420b7bb04f9a2da35cc77756ab70b8066b3b070",
+          "expectedImagePath": "/workbooks/angles/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/angles/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "promptPath": "prompts/angles/03-worksheet-2.txt",
+          "promptSha256": "ab0e07a85cd34ff1fc39251f23a6e75247b0c1a5e1809125effe0b8f4f5f3dbc",
+          "expectedImagePath": "/workbooks/angles/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/angles/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "promptPath": "prompts/angles/04-answers.txt",
+          "promptSha256": "f4b42e926d16d69b6ad9919f16bad217ccce43208b5cadb0c68f01678b4500b1",
+          "expectedImagePath": "/workbooks/angles/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/angles/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 각도</h1><p>3-4학년군 · 도형과 측정 · 각도</p><p>성취기준: [4수03-24], [4수03-25]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>각도의 단위를 기호로 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: °</p><p>각도는 도를 단위로 사용하고 °로 씁니다.</p></details></li><li><h2>foundation</h2><p>각도기로 재어 60°인 각은 예각, 직각, 둔각 중 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 예각</p><p>60°는 90°보다 작습니다.</p></details></li><li><h2>standard</h2><p>직각의 절반 크기는 몇 도인가요?</p><details><summary>정답과 풀이</summary><p>정답: 45°</p><p>90÷2=45</p></details></li><li><h2>standard</h2><p>삼각형의 두 각이 50°와 60°입니다. 나머지 한 각은 몇 도인가요?</p><details><summary>정답과 풀이</summary><p>정답: 70°</p><p>180-50-60=70</p></details></li><li><h2>challenge</h2><p>사각형의 세 각이 85°, 95°, 110°입니다. 나머지 한 각은 몇 도인가요?</p><details><summary>정답과 풀이</summary><p>정답: 70°</p><p>360-85-95-110=70</p></details></li><li><h2>challenge</h2><p>삼각형 가의 세 각은 40°, 65°, 75°이고, 나는 40°, 65°, 80°입니다. 가능한 삼각형을 고르고 설명하세요.</p><details><summary>정답과 풀이</summary><p>정답: 가</p><p>가의 합은 180°이고 나의 합은 185°입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "circle-pi-area",
+      "pdfPath": "/workbooks/circle-pi-area/circle-pi-area.pdf",
+      "transcriptPath": "/workbooks/circle-pi-area/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/circle-pi-area/01-cover.txt",
+          "promptSha256": "6a65b52bc9f2ceadcc4e300dfdf2a1d94a99d2659ec02cc6b1973b538e23ff4f",
+          "expectedImagePath": "/workbooks/circle-pi-area/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/circle-pi-area/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "promptPath": "prompts/circle-pi-area/02-worksheet-1.txt",
+          "promptSha256": "6384fa156b4a37577f7189a7c4ded2012c28e5a770063f0ec5ee782f060a56d3",
+          "expectedImagePath": "/workbooks/circle-pi-area/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/circle-pi-area/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "promptPath": "prompts/circle-pi-area/03-worksheet-2.txt",
+          "promptSha256": "8a72cfebea92972c2b2f0de8f1fae10da8778837d8902b2412c69304ce37e7a1",
+          "expectedImagePath": "/workbooks/circle-pi-area/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/circle-pi-area/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "promptPath": "prompts/circle-pi-area/04-answers.txt",
+          "promptSha256": "9ed2766729893216d7a4d17f701a10feb3bde1ae48a7bd6838d961f44de80ce7",
+          "expectedImagePath": "/workbooks/circle-pi-area/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/circle-pi-area/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 원주율과 원의 넓이</h1><p>5-6학년군 · 도형과 측정 · 원주율과 원의 넓이</p><p>성취기준: [6수03-15], [6수03-16]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>지름이 10cm인 원의 원주를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 31.4cm</p><p>10×3.14=31.4</p></details></li><li><h2>foundation</h2><p>반지름이 4cm인 원의 넓이를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 50.24cm²</p><p>4×4×3.14=50.24</p></details></li><li><h2>standard</h2><p>원주가 62.8cm인 원의 지름을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 20cm</p><p>62.8÷3.14=20</p></details></li><li><h2>standard</h2><p>지름이 12cm인 원의 넓이를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 113.04cm²</p><p>반지름은 6cm이므로 6×6×3.14=113.04</p></details></li><li><h2>challenge</h2><p>반지름이 5m인 원형 트랙을 3바퀴 돌았습니다. 이동한 거리를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 94.2m</p><p>5×2×3.14×3=94.2</p></details></li><li><h2>challenge</h2><p>한 변이 14cm인 정사각형 안에 가장 큰 원을 그렸습니다. 정사각형에서 원을 뺀 부분의 넓이를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 42.14cm²</p><p>196-(7×7×3.14)=42.14</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "fractions",
+      "pdfPath": "/workbooks/fractions/fractions.pdf",
+      "transcriptPath": "/workbooks/fractions/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/fractions/01-cover.txt",
+          "promptSha256": "952d8ea683335d792f744d791fad1dcd8ba78adb2345d323baefcab2018fbe11",
+          "expectedImagePath": "/workbooks/fractions/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/fractions/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "promptPath": "prompts/fractions/02-worksheet-1.txt",
+          "promptSha256": "86b7931aad517c2d3a17f68c406fe752a7b1fd6f1374ac3fad9eb7593d85eeac",
+          "expectedImagePath": "/workbooks/fractions/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/fractions/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "promptPath": "prompts/fractions/03-worksheet-2.txt",
+          "promptSha256": "fe85282786fb89f6b620f589d2163555dac6bd7d145304446bc10c4bd7de5ec8",
+          "expectedImagePath": "/workbooks/fractions/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/fractions/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "promptPath": "prompts/fractions/04-answers.txt",
+          "promptSha256": "c8c013f89e6c26e23c78c5dd20e8f2691309066793ee120c2756b12f1021a587",
+          "expectedImagePath": "/workbooks/fractions/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/fractions/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 분수</h1><p>3-4학년군 · 수와 연산 · 분수</p><p>성취기준: [4수01-09], [4수01-10], [4수01-11]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>전체를 똑같이 8칸으로 나누어 3칸을 색칠했습니다. 색칠한 부분을 분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 3/8</p><p>전체 8칸 중 3칸이므로 3/8입니다.</p></details></li><li><h2>foundation</h2><p>1/5, 3/5, 5/3 중 단위분수를 고르세요.</p><details><summary>정답과 풀이</summary><p>정답: 1/5</p><p>분자가 1인 분수가 단위분수입니다.</p></details></li><li><h2>standard</h2><p>7/4을 대분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 1과 3/4</p><p>7/4은 4/4와 3/4을 합한 수입니다.</p></details></li><li><h2>standard</h2><p>3/7과 5/7 중 큰 수를 고르고 까닭을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 5/7</p><p>분모가 같으면 분자가 큰 분수가 큽니다.</p></details></li><li><h2>challenge</h2><p>1/3과 1/5 중 큰 수를 고르고, 같은 크기의 그림을 나눈다고 생각하여 설명하세요.</p><details><summary>정답과 풀이</summary><p>정답: 1/3</p><p>같은 전체를 더 적은 수로 나눈 한 조각이 더 큽니다.</p></details></li><li><h2>challenge</h2><p>1/4, 4/3, 3/3, 1과 1/2을 단위분수, 가분수, 대분수로 나누세요.</p><details><summary>정답과 풀이</summary><p>정답: 단위분수 1/4, 가분수 4/3·3/3, 대분수 1과 1/2</p><p>분자가 1이면 단위분수, 분자가 분모 이상이면 가분수입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "plane-shapes",
+      "pdfPath": "/workbooks/plane-shapes/plane-shapes.pdf",
+      "transcriptPath": "/workbooks/plane-shapes/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/plane-shapes/01-cover.txt",
+          "promptSha256": "c4d5ba30e413ed4b51dbb19d396ad12562944d7cd892dd56d02dec65c8cbc577",
+          "expectedImagePath": "/workbooks/plane-shapes/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/plane-shapes/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "promptPath": "prompts/plane-shapes/02-worksheet-1.txt",
+          "promptSha256": "5be38f6e16d1211642ce8dbb629b08c996d5edca191f04a261942d479f56418c",
+          "expectedImagePath": "/workbooks/plane-shapes/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/plane-shapes/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "promptPath": "prompts/plane-shapes/03-worksheet-2.txt",
+          "promptSha256": "2926370f6eaf2d65addd01effce5f0586454f00859b0921836ce7368a4d9e00a",
+          "expectedImagePath": "/workbooks/plane-shapes/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/plane-shapes/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "promptPath": "prompts/plane-shapes/04-answers.txt",
+          "promptSha256": "f7b26bba464e7087b61a7b7926abb531ce77c380e001ab6871058a0d58642875",
+          "expectedImagePath": "/workbooks/plane-shapes/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/plane-shapes/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 평면도형과 그 구성 요소</h1><p>1-2학년군 · 도형과 측정 · 평면도형과 그 구성 요소</p><p>성취기준: [2수03-03], [2수03-04], [2수03-05]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>가, 나, 다 중 세 변으로 둘러싸인 도형은 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 나</p><p>삼각형은 세 변으로 둘러싸입니다.</p></details></li><li><h2>foundation</h2><p>가, 나, 다 중 모서리가 없이 둥근 도형은 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 가</p><p>원은 모서리가 없이 둥글게 이어집니다.</p></details></li><li><h2>standard</h2><p>삼각형의 변과 꼭짓점은 각각 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 변 3개, 꼭짓점 3개</p><p>삼각형은 세 변과 세 꼭짓점이 있습니다.</p></details></li><li><h2>standard</h2><p>사각형의 공통점을 두 가지 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 변 4개, 꼭짓점 4개</p><p>사각형은 네 변과 네 꼭짓점을 가집니다.</p></details></li><li><h2>challenge</h2><p>삼각형 지붕 1개, 사각형 집 1개, 원 창문 1개로 만든 집에서 각 도형은 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 삼각형 1개, 사각형 1개, 원 1개</p><p>집 그림을 도형별로 나누어 셉니다.</p></details></li><li><h2>challenge</h2><p>같은 삼각형 두 개를 한 변끼리 맞대었습니다. 바깥쪽 변은 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 4개</p><p>맞댄 두 변은 안쪽으로 들어가고 바깥쪽에 네 변이 남습니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "ratios-and-rates",
+      "pdfPath": "/workbooks/ratios-and-rates/ratios-and-rates.pdf",
+      "transcriptPath": "/workbooks/ratios-and-rates/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/ratios-and-rates/01-cover.txt",
+          "promptSha256": "d41d0dd9c535598021e57b2973521b831f4b57f41b8f0a9bdd318dc626a39b17",
+          "expectedImagePath": "/workbooks/ratios-and-rates/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/ratios-and-rates/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "promptPath": "prompts/ratios-and-rates/02-worksheet-1.txt",
+          "promptSha256": "0c2c30a027aa6e30be39885b7493333386a774de3c98cd35e5395d9793f96e57",
+          "expectedImagePath": "/workbooks/ratios-and-rates/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/ratios-and-rates/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "promptPath": "prompts/ratios-and-rates/03-worksheet-2.txt",
+          "promptSha256": "39eab49820aee566bc6bfb59aa89f4e7327866fc79da4fad6c3ed82f24425c7f",
+          "expectedImagePath": "/workbooks/ratios-and-rates/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/ratios-and-rates/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "promptPath": "prompts/ratios-and-rates/04-answers.txt",
+          "promptSha256": "589720f8d5b81fa27bd93f78c85130f4e631bb68b599af75d9571565bf2797b5",
+          "expectedImagePath": "/workbooks/ratios-and-rates/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/ratios-and-rates/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 비와 비율</h1><p>5-6학년군 · 변화와 관계 · 비와 비율</p><p>성취기준: [6수02-02], [6수02-03]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>빨간 구슬 6개와 노란 구슬 4개가 있습니다. 빨간 구슬 수와 노란 구슬 수의 비를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 6:4</p><p>비교하는 순서대로 6:4입니다.</p></details></li><li><h2>foundation</h2><p>전체 20명 중 8명이 안경을 썼습니다. 안경을 쓴 학생 수와 전체 학생 수의 비를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 8:20</p><p>안경을 쓴 학생 수를 먼저 씁니다.</p></details></li><li><h2>standard</h2><p>12/30를 기약분수, 소수, 백분율로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 2/5, 0.4, 40%</p><p>12/30=2/5=0.4=40%</p></details></li><li><h2>standard</h2><p>0.65를 기약분수와 백분율로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 13/20, 65%</p><p>0.65=65/100=13/20</p></details></li><li><h2>challenge</h2><p>학생 25명 중 60%가 자전거를 탑니다. 자전거를 타는 학생은 몇 명인가요?</p><details><summary>정답과 풀이</summary><p>정답: 15명</p><p>25×0.6=15</p></details></li><li><h2>challenge</h2><p>가는 24문제 중 18문제, 나는 30문제 중 21문제를 맞혔습니다. 누가 몇 퍼센트포인트 더 높나요?</p><details><summary>정답과 풀이</summary><p>정답: 가, 5퍼센트포인트</p><p>가는 75%, 나는 70%입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "two-digit-addition-subtraction",
+      "pdfPath": "/workbooks/two-digit-addition-subtraction/two-digit-addition-subtraction.pdf",
+      "transcriptPath": "/workbooks/two-digit-addition-subtraction/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/two-digit-addition-subtraction/01-cover.txt",
+          "promptSha256": "01f97795fade04c65bcab06d8bd1578e9c69dab7f58e23ddb4fe2640f7fafdf5",
+          "expectedImagePath": "/workbooks/two-digit-addition-subtraction/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/two-digit-addition-subtraction/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "promptPath": "prompts/two-digit-addition-subtraction/02-worksheet-1.txt",
+          "promptSha256": "48bd470051d670cb0284174e92713fa427b8c012689ef091c432dffda81d8406",
+          "expectedImagePath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "promptPath": "prompts/two-digit-addition-subtraction/03-worksheet-2.txt",
+          "promptSha256": "23d0b5d3d6d17d0840c4344dcf72db2f9a77b230f7d00b22391bc6c779e6cc4d",
+          "expectedImagePath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "promptPath": "prompts/two-digit-addition-subtraction/04-answers.txt",
+          "promptSha256": "479ab730b639e5ea81b2bf5fd01ede3d5ea21dff56f8f0f1de660fbdd64a0178",
+          "expectedImagePath": "/workbooks/two-digit-addition-subtraction/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/two-digit-addition-subtraction/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 두 자리 수 범위의 덧셈과 뺄셈</h1><p>1-2학년군 · 수와 연산 · 두 자리 수 범위의 덧셈과 뺄셈</p><p>성취기준: [2수01-05], [2수01-06], [2수01-07]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>사과가 23개 있습니다. 14개를 더 놓았습니다. 모두 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 37개</p><p>23+14=37</p></details></li><li><h2>foundation</h2><p>52-21을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 31</p><p>십의 자리와 일의 자리를 각각 빼면 31입니다.</p></details></li><li><h2>standard</h2><p>36+27을 계산하고, 계산 과정을 식으로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 63</p><p>36+20=56, 56+7=63</p></details></li><li><h2>standard</h2><p>45-18=27과 짝이 되는 덧셈식을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 27+18=45</p><p>뺄셈의 차에 뺀 수를 더하면 처음 수가 됩니다.</p></details></li><li><h2>challenge</h2><p>민아는 스티커 28개를 받고 16개를 더 받았습니다. 9개를 주었다면 몇 개가 남나요?</p><details><summary>정답과 풀이</summary><p>정답: 35개</p><p>28+16-9=35</p></details></li><li><h2>challenge</h2><p>63-27=36이 맞는지 덧셈으로 확인하고, 두 식의 관계를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 36+27=63</p><p>차와 뺀 수를 더하면 처음 수가 되어 계산이 맞습니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    }
+  ]
+}

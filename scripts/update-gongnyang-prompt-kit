@@ -1,0 +1,17 @@
+#!/usr/bin/env sh
+# Move the pinned submodule to the current upstream main commit without changing
+# its tracked source manually. Review and commit the resulting gitlink change.
+set -eu
+
+project_dir=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
+kit_dir="$project_dir/vendor/gongnyang-prompt-kit"
+
+if [ ! -e "$kit_dir/.git" ]; then
+  echo "Toolkit checkout not found: $kit_dir" >&2
+  exit 1
+fi
+
+git -C "$kit_dir" fetch --tags origin
+git -C "$kit_dir" checkout --detach origin/main
+git -C "$project_dir" add .gitmodules vendor/gongnyang-prompt-kit
+echo "Pinned Gongnyang Prompt Kit at $(git -C "$kit_dir" rev-parse --short HEAD). Review and commit the gitlink update."

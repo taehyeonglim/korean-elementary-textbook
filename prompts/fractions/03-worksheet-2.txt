@@ -1,0 +1,13 @@
+Scene:
+세로형 분수 문제지 2쪽, 표준 한 문제와 도전 두 문제를 세 개의 번호 카드로 구성한 고밀도 C6 인포그래픽. 문제 4에는 같은 분모 비교를 위한 빈 답안 줄, 문제 5에는 같은 크기의 그림을 나누어 설명하는 넓은 빈 풀이칸을 배치한다. 문제 6 영역에는 "1/4", "4/3", "3/3", "1과 1/2"가 각각 들어간 네 개의 입력 카드를 2x2로 배치하고, 그 아래에는 헤더 "단위분수", "가분수", "대분수"만 있는 빈 3열 분류 표를 둔다. 문제 6의 네 입력 카드와 3열 표에는 정답·화살표·분류 결과가 없으며, 학생이 직접 옮겨 적고 분류하는 빈 칸과 선만 또렷하다.
+Camera:
+정면 평면 포스터, 세로 3단 카드 구도, 일관된 왼쪽 번호 축.
+Lighting:
+은은한 확산광, 분수 조각의 부드러운 림 라이트.
+Color grading:
+#F7F4EC, #0F1D30, #3B82F6, #E76F51, #F4C95D.
+Texture/Medium:
+무광 수학 공책 종이, 정밀한 분수 막대와 연필선, quality high.
+Text-in-image:
+headline "분수". section label "문제 4". level 표준. question "3/7과 5/7 중 큰 수를 고르고 까닭을 쓰세요.". section label "문제 5". level 도전. question "1/3과 1/5 중 큰 수를 고르고, 같은 크기의 그림을 나눈다고 생각하여 설명하세요.". section label "문제 6". level 도전. question "1/4, 4/3, 3/3, 1과 1/2을 단위분수, 가분수, 대분수로 나누세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

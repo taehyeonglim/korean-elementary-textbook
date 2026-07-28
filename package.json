@@ -1,0 +1,31 @@
+{
+  "name": "korean-elementary-textbook",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "check": "astro check && npm run validate:content && npm run validate:assets",
+    "build": "npm run check && astro build && npm run validate:public",
+    "preview": "astro preview",
+    "test": "node --test test/*.test.mjs",
+    "validate:content": "node scripts/validate-content.mjs",
+    "validate:assets": "node scripts/validate-assets.mjs",
+    "validate:public": "node scripts/check-public-output.mjs",
+    "build:pdf": "node scripts/build-pdf.mjs",
+    "build:thumbnails": "node scripts/build-thumbnails.mjs",
+    "check:image-prompt": "./scripts/check-image-prompt"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.4",
+    "astro": "7.1.4",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "sharp": "0.35.3"
+  }
+}

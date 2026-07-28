@@ -1,0 +1,127 @@
+{
+  "id": "two-digit-addition-subtraction",
+  "slug": "two-digit-addition-subtraction",
+  "title": "초등 수학 한 장: 두 자리 수 범위의 덧셈과 뺄셈",
+  "gradeBand": "1-2",
+  "domain": "수와 연산",
+  "module": "두 자리 수 범위의 덧셈과 뺄셈",
+  "standardCodes": [
+    "[2수01-05]",
+    "[2수01-06]",
+    "[2수01-07]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[2수01-05]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-05.concept",
+      "prompt": "사과가 23개 있습니다. 14개를 더 놓았습니다. 모두 몇 개인가요?",
+      "answer": "37개",
+      "explanation": "23+14=37"
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[2수01-06]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-06.concept",
+      "prompt": "52-21을 계산하세요.",
+      "answer": "31",
+      "explanation": "십의 자리와 일의 자리를 각각 빼면 31입니다."
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[2수01-06]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-06.representation",
+      "prompt": "36+27을 계산하고, 계산 과정을 식으로 나타내세요.",
+      "answer": "63",
+      "explanation": "36+20=56, 56+7=63"
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[2수01-07]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-07.representation",
+      "prompt": "45-18=27과 짝이 되는 덧셈식을 쓰세요.",
+      "answer": "27+18=45",
+      "explanation": "뺄셈의 차에 뺀 수를 더하면 처음 수가 됩니다."
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[2수01-05]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-05.application",
+      "prompt": "민아는 스티커 28개를 받고 16개를 더 받았습니다. 9개를 주었다면 몇 개가 남나요?",
+      "answer": "35개",
+      "explanation": "28+16-9=35"
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[2수01-07]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-07.application",
+      "prompt": "63-27=36이 맞는지 덧셈으로 확인하고, 두 식의 관계를 쓰세요.",
+      "answer": "36+27=63",
+      "explanation": "차와 뺀 수를 더하면 처음 수가 되어 계산이 맞습니다."
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/two-digit-addition-subtraction/01-cover.png",
+      "thumbnailPath": "/workbooks/two-digit-addition-subtraction/01-cover.webp",
+      "sha256": "615ca8e954ab875c6727d7b0ff666b883831c9e013fdad882242425e40375172",
+      "alt": "두 자리 수 범위의 덧셈과 뺄셈 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.png",
+      "thumbnailPath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.webp",
+      "sha256": "4391eba88652bd5f8a28b46147428de9e19e8df5670f243f3b981decde4bc4e5",
+      "alt": "두 자리 수 덧셈과 뺄셈 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.png",
+      "thumbnailPath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.webp",
+      "sha256": "c2c46d7ccac8764bfa72ced89e3f3a78f8fbca14480d81b7042e0daa7e500419",
+      "alt": "두 자리 수 덧셈과 뺄셈 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/two-digit-addition-subtraction/04-answers.png",
+      "thumbnailPath": "/workbooks/two-digit-addition-subtraction/04-answers.webp",
+      "sha256": "fef85e1375001b4e5b6f258c1bcbb20702e7cead2a505867a9c3ed6c86a98e9c",
+      "alt": "두 자리 수 덧셈과 뺄셈 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/two-digit-addition-subtraction/two-digit-addition-subtraction.pdf",
+    "pageCount": 4,
+    "sha256": "7cae1a38497e9c1f3939d3f71bec920362a407e4080fa21b35a1404ac2786a5a"
+  },
+  "transcriptPath": "/workbooks/two-digit-addition-subtraction/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-28",
+  "published": true
+}

@@ -1,0 +1,13 @@
+{
+  "schemaVersion":1,
+  "sourceSnapshot":"mcp-snapshots-2026-07-28.json",
+  "normalizationPolicy":"Preserve the MCP original in the snapshot. Remove only attached PDF page headers and exact following-module fragments in this normalized production index; do not alter the curriculum meaning.",
+  "records":[
+    {"code":"[2수03-04]","normalizedOfficialText":"삼각형, 사각형, 원을 직관적으로 이해하고, 그 모양을 그릴 수 있다.","removed":"13 수학과 교육과정"},
+    {"code":"[2수03-05]","normalizedOfficialText":"삼각형, 사각형에서 각각의 공통점을 찾아 말할 수 있다.","removed":"양의 비교"},
+    {"code":"[4수01-11]","normalizedOfficialText":"분모가 같은 분수끼리, 단위분수끼리 크기를 비교하고 그 방법을 설명할 수 있다.","removed":"소수"},
+    {"code":"[4수03-25]","normalizedOfficialText":"여러 가지 방법으로 삼각형과 사각형의 내각의 크기의 합을 추론하고, 자신의 추론 과정을 설명할 수 있다.","removed":"21 수학과 교육과정"},
+    {"code":"[6수02-03]","normalizedOfficialText":"비율을 이해하고, 비율을 분수, 소수, 백분율로 나타낼 수 있다.","removed":"비례식과 비례배분"},
+    {"code":"[6수03-16]","normalizedOfficialText":"원주와 원의 넓이를 구하는 방법을 이해하고, 이를 구할 수 있다.","removed":"입체도형의 겉넓이와 부피"}
+  ]
+}

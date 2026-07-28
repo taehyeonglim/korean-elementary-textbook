@@ -1,0 +1,112 @@
+---
+import { publicAsset, type WorkbookPage } from "../lib/catalog";
+
+interface Props {
+  workbookTitle: string;
+  pages: WorkbookPage[];
+}
+
+const { workbookTitle, pages } = Astro.props;
+const modalId = `gallery-${Math.random().toString(36).slice(2, 10)}`;
+---
+
+<section class="workbook-gallery" aria-labelledby="gallery-title">
+  <div class="section-heading section-heading--gallery">
+    <div>
+      <p class="eyebrow">PAGE PREVIEW</p>
+      <h2 id="gallery-title">학습지 미리보기</h2>
+    </div>
+    <p>이미지를 선택하면 크게 볼 수 있습니다.</p>
+  </div>
+
+  <ol class="page-grid" aria-label={`${workbookTitle} 페이지 목록`}>
+    {pages.map((page, index) => (
+      <li>
+        <button
+          class="page-preview"
+          type="button"
+          data-gallery-trigger
+          data-index={index}
+          aria-label={`${page.order}쪽 크게 보기`}
+        >
+          <img src={publicAsset(page.imagePath)} alt={page.alt} loading={index === 0 ? "eager" : "lazy"} />
+          <span class="page-preview__caption">
+            <span>{page.order.toString().padStart(2, "0")}</span>
+            <span>{page.role === "cover" ? "표지" : page.role === "answer" ? "정답·해설" : "문제"}</span>
+            <b aria-hidden="true">↗</b>
+          </span>
+        </button>
+      </li>
+    ))}
+  </ol>
+
+  <dialog class="image-dialog" id={modalId} aria-labelledby={`${modalId}-title`}>
+    <div class="image-dialog__bar">
+      <p id={`${modalId}-title`}>{workbookTitle} <span data-dialog-count></span></p>
+      <button class="dialog-close" type="button" data-dialog-close aria-label="미리보기 닫기">×</button>
+    </div>
+    <div class="image-dialog__stage" data-dialog-stage>
+      <button class="dialog-nav dialog-nav--previous" type="button" data-dialog-previous aria-label="이전 페이지">←</button>
+      <figure>
+        <img data-dialog-image src={pages[0] ? publicAsset(pages[0].imagePath) : ""} alt={pages[0]?.alt ?? ""} />
+        <figcaption data-dialog-caption></figcaption>
+      </figure>
+      <button class="dialog-nav dialog-nav--next" type="button" data-dialog-next aria-label="다음 페이지">→</button>
+    </div>
+    <p class="image-dialog__tip">← → 키 또는 화면을 좌우로 밀어 페이지를 넘길 수 있습니다.</p>
+  </dialog>
+</section>
+
+<script is:inline define:vars={{ modalId, pages: pages.map((page) => ({ order: page.order, src: publicAsset(page.imagePath), alt: page.alt, role: page.role })) }}>
+  const dialog = document.getElementById(modalId);
+  const triggers = Array.from(document.querySelectorAll(`[data-gallery-trigger]`));
+  const image = dialog?.querySelector("[data-dialog-image]");
+  const caption = dialog?.querySelector("[data-dialog-caption]");
+  const count = dialog?.querySelector("[data-dialog-count]");
+  const previous = dialog?.querySelector("[data-dialog-previous]");
+  const next = dialog?.querySelector("[data-dialog-next]");
+  const close = dialog?.querySelector("[data-dialog-close]");
+  const stage = dialog?.querySelector("[data-dialog-stage]");
+  let selectedIndex = 0;
+  let lastTrigger;
+  let pointerStartX = null;
+
+  const roleLabel = (role) => role === "cover" ? "표지" : role === "answer" ? "정답·해설" : "문제";
+  const renderPage = (index) => {
+    if (!pages.length || !image || !caption || !count || !previous || !next) return;
+    selectedIndex = (index + pages.length) % pages.length;
+    const page = pages[selectedIndex];
+    image.src = page.src;
+    image.alt = page.alt;
+    caption.textContent = `${page.order}쪽 · ${roleLabel(page.role)}`;
+    count.textContent = `${selectedIndex + 1} / ${pages.length}`;
+    previous.disabled = pages.length < 2;
+    next.disabled = pages.length < 2;
+  };
+  const open = (index, trigger) => {
+    if (!(dialog instanceof HTMLDialogElement)) return;
+    lastTrigger = trigger;
+    renderPage(index);
+    dialog.showModal();
+    close?.focus();
+  };
+  triggers.forEach((trigger) => trigger.addEventListener("click", () => open(Number(trigger.dataset.index), trigger)));
+  previous?.addEventListener("click", () => renderPage(selectedIndex - 1));
+  next?.addEventListener("click", () => renderPage(selectedIndex + 1));
+  close?.addEventListener("click", () => dialog?.close());
+  dialog?.addEventListener("click", (event) => { if (event.target === dialog) dialog.close(); });
+  dialog?.addEventListener("close", () => lastTrigger?.focus());
+  dialog?.addEventListener("keydown", (event) => {
+    if (event.key === "ArrowLeft") { event.preventDefault(); renderPage(selectedIndex - 1); }
+    if (event.key === "ArrowRight") { event.preventDefault(); renderPage(selectedIndex + 1); }
+  });
+  stage?.addEventListener("pointerdown", (event) => { pointerStartX = event.clientX; });
+  stage?.addEventListener("pointerup", (event) => {
+    if (pointerStartX === null) return;
+    const difference = event.clientX - pointerStartX;
+    pointerStartX = null;
+    if (Math.abs(difference) < 48) return;
+    renderPage(selectedIndex + (difference < 0 ? 1 : -1));
+  });
+  renderPage(0);
+</script>

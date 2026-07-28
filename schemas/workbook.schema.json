@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Elementary Math Workbook",
+  "type": "object",
+  "required": [
+    "id",
+    "slug",
+    "title",
+    "gradeBand",
+    "domain",
+    "module",
+    "standardCodes",
+    "levels",
+    "pages",
+    "pdf",
+    "transcriptPath",
+    "license",
+    "author",
+    "publishedAt",
+    "published"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$" },
+    "title": { "type": "string", "minLength": 1 },
+    "gradeBand": { "enum": ["1-2", "3-4", "5-6"] },
+    "grade": { "enum": [1, 2, 3, 4, 5, 6] },
+    "domain": { "type": "string", "minLength": 1 },
+    "module": { "type": "string", "minLength": 1 },
+    "standardCodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^\\[[0-9]+[가-힣][0-9]{2}-[0-9]{2}\\]$" }
+    },
+    "levels": {
+      "type": "array",
+      "const": ["foundation", "standard", "challenge"]
+    },
+    "pages": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/page" }
+    },
+    "pdf": { "$ref": "#/$defs/pdf" },
+    "transcriptPath": { "type": "string", "pattern": "^/workbooks/" },
+    "license": { "const": "CC-BY-NC-SA-4.0" },
+    "author": { "const": "Taehyeong Lim" },
+    "publishedAt": { "type": "string", "format": "date" },
+    "published": { "type": "boolean" }
+  },
+  "$defs": {
+    "page": {
+      "type": "object",
+      "required": ["id", "order", "role", "imagePath", "thumbnailPath", "sha256", "alt", "approved"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "order": { "type": "integer", "minimum": 1 },
+        "role": { "enum": ["cover", "worksheet", "answer"] },
+        "imagePath": { "type": "string", "pattern": "^/workbooks/" },
+        "thumbnailPath": { "type": "string", "pattern": "^/workbooks/" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "alt": { "type": "string", "minLength": 1 },
+        "approved": { "type": "boolean" }
+      }
+    },
+    "pdf": {
+      "type": "object",
+      "required": ["path", "pageCount", "sha256"],
+      "properties": {
+        "path": { "type": "string", "pattern": "^/workbooks/" },
+        "pageCount": { "type": "integer", "minimum": 1 },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      }
+    }
+  }
+}

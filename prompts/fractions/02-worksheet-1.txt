@@ -1,0 +1,13 @@
+Scene:
+세로형 분수 문제지 1쪽, 기초 두 문제와 표준 한 문제를 위에서 아래로 배치한 고밀도 C6 인포그래픽. 8칸 분수 모델, 단위분수 선택 칩, 7/4를 4/4와 3/4로 나누는 막대 도해를 큰 번호 카드와 답안 줄로 구성한다.
+Camera:
+정면 평면도, 세로 세 카드와 좌측 정렬 번호.
+Lighting:
+부드러운 교실 확산광과 카드의 얕은 그림자.
+Color grading:
+#F7F4EC, 기초 #DFF3E4, 표준 #E7EEFF, #0F1D30, #E76F51.
+Texture/Medium:
+재생지 질감, 또렷한 분수 막대와 색연필 삽화, quality high.
+Text-in-image:
+headline "분수". section label "문제 1". level 기초. question "전체를 똑같이 8칸으로 나누어 3칸을 색칠했습니다. 색칠한 부분을 분수로 나타내세요.". section label "문제 2". level 기초. question "1/5, 3/5, 5/3 중 단위분수를 고르세요.". section label "문제 3". level 표준. question "7/4을 대분수로 나타내세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

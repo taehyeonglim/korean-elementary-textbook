@@ -1,0 +1,13 @@
+Scene:
+세로형 원주율과 원의 넓이 문제지 2쪽, 표준 한 문제와 도전 두 문제 카드. 지름 12cm 원의 넓이를 반지름 6cm로 전환하는 도해, 반지름 5m 원형 트랙 3바퀴 화살표, 한 변 14cm 정사각형 안의 가장 큰 원과 남는 부분의 색칠 도해를 배치한 고밀도 C6 인포그래픽.
+Camera:
+정면 평면 포스터, 세로 3단 카드, 정밀한 치수선과 답안 공간.
+Lighting:
+부드러운 확산광, 도형 경계가 또렷한 균일 조명.
+Color grading:
+#F7F4EC, #0F1D30, #3B82F6, #E76F51, #F4C95D.
+Texture/Medium:
+무광 수학 공책 종이, 색연필 도형, 얇은 격자, quality high.
+Text-in-image:
+headline "원주율과 원의 넓이". section label "문제 4". level 표준. question "지름이 12cm인 원의 넓이를 구하세요.". section label "문제 5". level 도전. question "반지름이 5m인 원형 트랙을 3바퀴 돌았습니다. 이동한 거리를 구하세요.". section label "문제 6". level 도전. question "한 변이 14cm인 정사각형 안에 가장 큰 원을 그렸습니다. 정사각형에서 원을 뺀 부분의 넓이를 구하세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

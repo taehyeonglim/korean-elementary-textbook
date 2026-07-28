@@ -1,0 +1,126 @@
+{
+  "id": "angles",
+  "slug": "angles",
+  "title": "초등 수학 한 장: 각도",
+  "gradeBand": "3-4",
+  "domain": "도형과 측정",
+  "module": "각도",
+  "standardCodes": [
+    "[4수03-24]",
+    "[4수03-25]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수03-24]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-24.concept",
+      "prompt": "각도의 단위를 기호로 쓰세요.",
+      "answer": "°",
+      "explanation": "각도는 도를 단위로 사용하고 °로 씁니다."
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수03-24]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-24.representation",
+      "prompt": "각도기로 재어 60°인 각은 예각, 직각, 둔각 중 무엇인가요?",
+      "answer": "예각",
+      "explanation": "60°는 90°보다 작습니다."
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수03-24]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-24.application",
+      "prompt": "직각의 절반 크기는 몇 도인가요?",
+      "answer": "45°",
+      "explanation": "90÷2=45"
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수03-25]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-25.representation",
+      "prompt": "삼각형의 두 각이 50°와 60°입니다. 나머지 한 각은 몇 도인가요?",
+      "answer": "70°",
+      "explanation": "180-50-60=70"
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수03-25]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-25.application",
+      "prompt": "사각형의 세 각이 85°, 95°, 110°입니다. 나머지 한 각은 몇 도인가요?",
+      "answer": "70°",
+      "explanation": "360-85-95-110=70"
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수03-25]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-25.application",
+      "prompt": "삼각형 가의 세 각은 40°, 65°, 75°이고, 나는 40°, 65°, 80°입니다. 가능한 삼각형을 고르고 설명하세요.",
+      "answer": "가",
+      "explanation": "가의 합은 180°이고 나의 합은 185°입니다."
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/angles/01-cover.png",
+      "thumbnailPath": "/workbooks/angles/01-cover.webp",
+      "sha256": "019971fead2d2feadb5f683cdddb5272fa5e7d2bd665f7c716480b552f8fd03c",
+      "alt": "각도 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/angles/02-worksheet-1.png",
+      "thumbnailPath": "/workbooks/angles/02-worksheet-1.webp",
+      "sha256": "40ab86c1192e60c020052d050a28bf66c2a5d9ca4f17e4ce6d0f6089ee86d392",
+      "alt": "각도 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/angles/03-worksheet-2.png",
+      "thumbnailPath": "/workbooks/angles/03-worksheet-2.webp",
+      "sha256": "e87114e18c0510f79db008929cfed33c2a657f0cd3da3ed841a628bd469cf0f9",
+      "alt": "각도 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/angles/04-answers.png",
+      "thumbnailPath": "/workbooks/angles/04-answers.webp",
+      "sha256": "28bd0344528a042b3af2ad519375b46457ec9e2c500f9c05a5a716caa6c9fc3e",
+      "alt": "각도 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/angles/angles.pdf",
+    "pageCount": 4,
+    "sha256": "81003b6b49e7202089d2e6abe72ac22408cd05edb6d26eaeabf97a342ebe7748"
+  },
+  "transcriptPath": "/workbooks/angles/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-28",
+  "published": true
+}

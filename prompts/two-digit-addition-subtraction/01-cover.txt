@@ -1,0 +1,13 @@
+Scene:
+세로형 초등 수학 학습지 표지, 크림색 종이 질감 위에 빨강·파랑 수 모형 블록과 작은 사과 아이콘이 떠 있는 현대적 교육 에디토리얼 C6 인포그래픽. 상단 1/3에는 넓은 제목 밴드, 중앙에는 두 자리 수 덧셈과 뺄셈을 상징하는 23+14=37 수 모형, 하단에는 저작권 정보가 정렬된 네 개의 작은 정보 밴드. 인쇄용 A4 안전 여백 5%, 선명한 읽기 순서, 깨끗한 여백과 둥근 모서리 카드.
+Camera:
+정면에서 본 평면 포스터 구도, 세로 페이지 전체가 보이는 정렬된 레이아웃, 정밀한 인쇄물 가장자리와 균형 잡힌 3x3 그리드.
+Lighting:
+부드러운 위쪽 확산광, 종이 표면의 은은한 그림자, 숫자 블록 가장자리에 밝은 림 라이트.
+Color grading:
+따뜻한 아이보리 바탕 #F7F4EC, 네이비 #0F1D30, 산호 #E76F51, 하늘 #3B82F6, 노랑 #F4C95D, 5000K의 차분한 학교 인쇄물 색감.
+Texture/Medium:
+무광 재생지, 색연필 미세 질감, 또렷한 벡터형 수 모형과 얇은 헤어라인 구분선, quality high.
+Text-in-image:
+headline "초등 수학 한 장" in bold Korean geometric sans-serif, top-center. subhead "두 자리 수 범위의 덧셈과 뺄셈" directly below. caption "1-2학년군 · 수와 연산". standard label "[2수01-05] [2수01-06] [2수01-07]". level label "기초 · 표준 · 도전". author "Taehyeong Lim". license "CC BY-NC-SA 4.0". credit "이미지 제작에 공냥 프롬프트 킷을 사용했습니다." All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

@@ -1,0 +1,13 @@
+Scene:
+세로형 초등 수학 문제지 2쪽, 표준 한 문제와 도전 두 문제를 세 개의 번호 카드로 구성한 고밀도 C6 교육 인포그래픽. 첫 카드에는 45-18=27과 역연산 화살표, 둘째 카드에는 스티커 28개·16개·9개를 보여 주는 생활 그림, 셋째 카드에는 63-27=36과 덧셈 확인식을 서로 연결하는 리더선이 있다. 도전 카드에는 설명을 쓸 넓은 줄 공간을 두고, 문제 번호와 수준을 크게 표시한다.
+Camera:
+정면 평면 포스터, 세로 3단 카드 구도, 왼쪽의 큰 번호와 오른쪽의 수식 다이어그램이 균형을 이룬다.
+Lighting:
+은은한 확산광과 카드의 부드러운 그림자, 숫자 기호가 선명하게 보이는 균일한 조명.
+Color grading:
+아이보리 #F7F4EC, 표준 파랑 #3B82F6, 도전 산호 #E76F51, 네이비 #0F1D30, 노랑 #F4C95D.
+Texture/Medium:
+무광 수학 공책 종이, 얇은 격자와 연필 선, 둥근 플랫 일러스트, quality high.
+Text-in-image:
+headline "두 자리 수 범위의 덧셈과 뺄셈". section label "문제 4". level 표준. question "45-18=27과 짝이 되는 덧셈식을 쓰세요.". section label "문제 5". level 도전. question "민아는 스티커 28개를 받고 16개를 더 받았습니다. 9개를 주었다면 몇 개가 남나요?". section label "문제 6". level 도전. question "63-27=36이 맞는지 덧셈으로 확인하고, 두 식의 관계를 쓰세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

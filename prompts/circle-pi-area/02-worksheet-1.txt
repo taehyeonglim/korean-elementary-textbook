@@ -1,0 +1,13 @@
+Scene:
+세로형 원주율과 원의 넓이 문제지 1쪽, 기초 두 문제와 표준 한 문제 카드. 지름 10cm 원의 원주, 반지름 4cm 원의 넓이, 원주 62.8cm에서 지름을 찾는 역연산을 원 도해·리더선·답안 줄로 표현한 고밀도 C6 인포그래픽.
+Camera:
+정면 평면도, 세로 세 카드와 선명한 좌측 번호.
+Lighting:
+밝고 부드러운 확산광, 원 도해에 은은한 림 라이트.
+Color grading:
+#F7F4EC, #0F1D30, #3B82F6, #E76F51, #F4C95D.
+Texture/Medium:
+재생지 질감, 색연필 원과 정밀한 치수선, quality high.
+Text-in-image:
+headline "원주율과 원의 넓이". section label "문제 1". level 기초. question "지름이 10cm인 원의 원주를 구하세요.". section label "문제 2". level 기초. question "반지름이 4cm인 원의 넓이를 구하세요.". section label "문제 3". level 표준. question "원주가 62.8cm인 원의 지름을 구하세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

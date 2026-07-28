@@ -1,0 +1,13 @@
+Scene:
+세로형 초등 수학 표지, 크림색 종이 위에 원, 반지름, 지름, 원주율 3.14가 얇은 리더선으로 연결된 현대적 C6 교육 인포그래픽. 상단 제목 밴드, 중앙 원 도해, 하단 성취기준과 저작권 정보, A4 안전 여백 5%.
+Camera:
+정면 평면 포스터, 중앙 원 도해와 대칭형 정보 카드.
+Lighting:
+부드러운 확산광, 원형 종이 조각의 얕은 그림자.
+Color grading:
+#F7F4EC, #0F1D30, #3B82F6, #E76F51, #F4C95D.
+Texture/Medium:
+무광 종이, 색연필 원 도해, 정밀한 헤어라인, quality high.
+Text-in-image:
+headline "초등 수학 한 장". subhead "원주율과 원의 넓이". caption "5-6학년군 · 도형과 측정". standard label "[6수03-15] [6수03-16]". level label "기초 · 표준 · 도전". author "Taehyeong Lim". license "CC BY-NC-SA 4.0". credit "이미지 제작에 공냥 프롬프트 킷을 사용했습니다." All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

@@ -1,0 +1,13 @@
+Scene:
+세로형 평면도형 문제지 1쪽, 상단에 가=원, 나=삼각형, 다=사각형을 크게 보여 주는 한 줄 도형 도감이 있고, 아래에는 기초 두 문제와 표준 한 문제 카드가 위에서 아래로 배치된다. 문제 1과 2는 같은 도형 도감을 참조하도록 얇은 리더선을 연결하고, 문제 3은 삼각형의 변과 꼭짓점을 점과 선으로 명확히 표시한다. 답안 칸과 큰 번호, 수준 칩이 있는 고밀도 C6 교육 인포그래픽.
+Camera:
+정면 평면도, 상단 도형 도감과 세로 카드 세 장, 좌측 정렬된 번호 체계.
+Lighting:
+밝은 확산광, 종이 도형의 부드러운 그림자, 선과 꼭짓점이 또렷한 조명.
+Color grading:
+#F7F4EC, #0F1D30, 원 #3B82F6, 삼각형 #E76F51, 사각형 #F4C95D.
+Texture/Medium:
+색종이 콜라주와 또렷한 연필 윤곽, 무광 학습지 종이, quality high.
+Text-in-image:
+headline "평면도형과 그 구성 요소". diagram label "가 = 원, 나 = 삼각형, 다 = 사각형". section label "문제 1". level 기초. question "가, 나, 다 중 세 변으로 둘러싸인 도형은 무엇인가요?". section label "문제 2". level 기초. question "가, 나, 다 중 모서리가 없이 둥근 도형은 무엇인가요?". section label "문제 3". level 표준. question "삼각형의 변과 꼭짓점은 각각 몇 개인가요?". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

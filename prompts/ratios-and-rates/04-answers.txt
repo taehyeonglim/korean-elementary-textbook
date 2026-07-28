@@ -1,0 +1,13 @@
+Scene:
+세로형 초등 수학 정답과 풀이 페이지, 비와 비율의 여섯 문항을 정답 카드 여섯 장으로 정리한 고밀도 C6 교육 인포그래픽. 카드들은 위에서 아래로 읽히는 두 열 세 행 그리드이며, 카드마다 큰 번호 칩, 정답 A 라벨, 풀이 E 라벨, 넉넉한 줄 간격을 사용한다. 모든 카드는 텍스트와 얇은 구분선으로만 구성하며, 기초 01-02는 민트색, 표준 03-04는 파란색, 도전 05-06은 코랄색 카드 상단 밴드로 명확히 구분한다. 하단 전체 폭 푸터에는 학습 단계 안내와 저작권·제작 크레딧·쪽수를 한 줄씩 정렬한다. A4 안전 여백 5%, 선명한 읽기 순서.
+Camera:
+정면에서 본 평면 인쇄물, 두 열 세 행의 동일한 카드 그리드, 카드 사이의 균일한 거터, 하단 푸터 밴드가 보이는 세로 페이지 전체.
+Lighting:
+부드러운 위쪽 확산광, 무광 종이 위의 은은한 카드 그림자, 또렷한 활자 대비.
+Color grading:
+따뜻한 아이보리 바탕 #F7F4EC, 네이비 활자 #0F1D30, 기초 민트 #BFE6D0, 표준 파랑 #BFD7FF, 도전 코랄 #F6C1B6, 5000K 인쇄물 색감.
+Texture/Medium:
+무광 재생지, 미세한 종이 결, 깨끗한 기하학 산세리프 활자, 얇은 헤어라인, quality high.
+Text-in-image:
+headline "비와 비율 정답과 풀이" top-center. card A1, answer "A1: 6:4"; card E1, explanation "E1: 비교하는 순서대로 6:4입니다.". card A2, answer "A2: 8:20"; card E2, explanation "E2: 안경을 쓴 학생 수를 먼저 씁니다.". card A3, answer "A3: 2/5, 0.4, 40%"; card E3, explanation "E3: 12/30=2/5=0.4=40%". card A4, answer "A4: 13/20, 65%"; card E4, explanation "E4: 0.65=65/100=13/20". card A5, answer "A5: 15명"; card E5, explanation "E5: 25×0.6=15". card A6, answer "A6: 가, 5퍼센트포인트"; card E6, explanation "E6: 가는 75%, 나는 70%입니다.". notice "기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.". author "Taehyeong Lim". license "CC BY-NC-SA 4.0". credit "이미지 제작에 공냥 프롬프트 킷을 사용했습니다.". page "4 / 4". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

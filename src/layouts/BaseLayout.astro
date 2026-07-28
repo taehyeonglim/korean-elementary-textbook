@@ -1,0 +1,38 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title: string;
+  description?: string;
+  page?: "archive" | "workbook" | "license";
+}
+
+const { title, description = "2022 개정 교육과정 기반 초등 수학 학습지", page } = Astro.props;
+const canonical = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <title>{title}</title>
+  </head>
+  <body data-page={page}>
+    <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+    <header class="site-header">
+      <a class="brand" href={import.meta.env.BASE_URL}>초등 수학 한 장</a>
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <a href={import.meta.env.BASE_URL} aria-current={page === "archive" ? "page" : undefined}>학습지</a>
+        <a href={`${import.meta.env.BASE_URL}license/`} aria-current={page === "license" ? "page" : undefined}>이용 안내</a>
+      </nav>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <p>프로젝트 자체 문항·편집물은 CC BY-NC-SA 4.0으로 제공합니다. 저자 Taehyeong Lim · 시각 학습지 이미지는 GPT Image와 Gongnyang Prompt Kit을 활용해 제작했습니다.</p>
+      <p class="site-footer__mark">Elementary Math / Open Worksheet</p>
+    </footer>
+  </body>
+</html>
