@@ -40,14 +40,18 @@
         "수건"
       ],
       [
-        "일어난 일을 차례대로 쓰세요.",
-        "비가 옴 → 우산을 챙김 → 수건을 건넴 → 함께 웃음"
+        "서윤이가 수건을 건넨 까닭은 무엇인가요?",
+        "친구가 젖어 있었기 때문"
+      ],
+      [
+        "일어난 일을 먼저·다음·마지막으로 말해 보세요.",
+        "먼저 비가 왔다 → 다음 우산을 챙겼다 → 마지막 젖은 친구에게 수건을 건넸다"
       ]
     ],
     "textB": [
       "마음을 나누는 대화",
       "민준: 내 색연필이 부러져서 속상해.",
-      "하린: 많이 아끼던 색연필이었구나.",
+      "하린: 많이 아끼던 색연필이라 속상했구나.",
       "민준: 응. 내 말을 들어줘서 고마워.",
       "하린: 함께 새 색연필을 찾아보자."
     ],
@@ -57,16 +61,16 @@
         "속상함"
       ],
       [
-        "하린은 민준의 말을 어떻게 들었나요?",
-        "감정을 헤아리며 집중해서 들었다."
+        "하린은 민준의 말을 어떻게 듣고 대답했나요?",
+        "민준의 속상한 마음을 헤아려 말하고 함께 방법을 찾자고 했다."
       ],
       [
         "바르고 고운 말을 한 곳을 찾으세요.",
         "내 말을 들어줘서 고마워."
       ],
       [
-        "두 사람이 대화할 때 지켜야 할 것은 무엇인가요?",
-        "말차례"
+        "민준과 하린의 대화에서 지킨 말하기 약속 두 가지를 쓰세요.",
+        "상대 말을 집중해서 듣기, 말차례 지키기"
       ]
     ],
     "focus": [
@@ -75,12 +79,12 @@
         "바르게 선다."
       ],
       [
-        "친구가 말할 때 무엇을 하나요?",
-        "집중해서 듣는다."
+        "친구가 말할 때 눈과 몸은 어떻게 하나요?",
+        "말하는 친구를 보고 집중해서 듣는다."
       ],
       [
-        "내 차례가 아니면 어떻게 하나요?",
-        "기다린다."
+        "내 생각이 달라도 친구가 말하는 동안에는 어떻게 하나요?",
+        "끝까지 듣고 내 차례를 기다린다."
       ],
       [
         "경험 발표의 순서를 쓰세요.",
@@ -88,8 +92,8 @@
       ]
     ],
     "produce": [
-      "최근에 친구와 마음을 나눈 경험을 세 문장으로 말해 보세요.",
-      "짝과 번갈아 질문하고 대답한 뒤, 잘 들었다는 표시를 해 보세요."
+      "최근에 친구와 마음을 나눈 경험을 언제·무슨 일·내 마음의 순서로 세 문장 발표해 보세요.",
+      "짝의 경험을 들은 뒤, 중요한 일 한 가지와 친구의 마음을 다시 말하고 바르고 고운 말로 답해 보세요."
     ],
     "model": "어제 운동장에서 친구가 넘어졌습니다. 나는 친구의 말을 듣고 보건실에 함께 갔습니다. 친구가 안심해서 나도 기뻤습니다."
   },
@@ -120,7 +124,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-1-2-listening-speaking/03-questions-a.webp",
       "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/03-questions-a.webp",
-      "sha256": "b89547b9de7532938276a3d2103c0d39f695dba7c2bb8ee9634b75a7d48b50c4",
+      "sha256": "0ae5a57384a2cd4f8da2970b357fc4e9d50a1d7751666b0f04cf565d0c4d50b7",
       "alt": "차례를 지키며 마음 나누기 3쪽",
       "approved": true
     },
@@ -130,7 +134,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-1-2-listening-speaking/04-reading-b.webp",
       "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/04-reading-b.webp",
-      "sha256": "4f029f118bbfe4070079cae503270d43200054f70819be5657dde2b8e8b58953",
+      "sha256": "c948f1752294621be39c81386ae13da722a0b80b59aff3fa2b5144e9763aca81",
       "alt": "차례를 지키며 마음 나누기 4쪽",
       "approved": true
     },
@@ -140,7 +144,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-1-2-listening-speaking/05-questions-b.webp",
       "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/05-questions-b.webp",
-      "sha256": "ad28c94cd8096e20b583ccec586b29990491350d63782b1fd9c2ca427afbb24a",
+      "sha256": "b7d82621d515ceee2d0f0cad44f5ba60301e697107dfd5432ef7096dc808b119",
       "alt": "차례를 지키며 마음 나누기 5쪽",
       "approved": true
     },
@@ -150,7 +154,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-1-2-listening-speaking/06-focus.webp",
       "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/06-focus.webp",
-      "sha256": "7c820fe7e6d59ff1bf52f9b1a8c1c4ec93d6a8816880ec3c3930f99d48d548f8",
+      "sha256": "239a34a43d0098b129e9bce9f9d03e09bf57ec4ad27fe5637ea334f6685424fc",
       "alt": "차례를 지키며 마음 나누기 6쪽",
       "approved": true
     },
@@ -160,7 +164,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-1-2-listening-speaking/07-production.webp",
       "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/07-production.webp",
-      "sha256": "bbc202422fd35865165ecf8a7dc0372cabf9fc96189ebbab1fe1541101c67386",
+      "sha256": "36e976d5d75308eeb11cac3a5c69d0225f26b42166e7984817ba0e8177f813d8",
       "alt": "차례를 지키며 마음 나누기 7쪽",
       "approved": true
     },
@@ -170,7 +174,7 @@
       "role": "answer",
       "imagePath": "/workbooks/korean-1-2-listening-speaking/08-answers.webp",
       "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/08-answers.webp",
-      "sha256": "6808185b80bb345ef2dbedd3d89ccdca1ca2dc1a55234be923ee648f28ca46fc",
+      "sha256": "45fbcf57b6e143dcc8c6c81fe8ffbb75a8b4b2edcae749d3bee8919f7b48d85f",
       "alt": "차례를 지키며 마음 나누기 8쪽",
       "approved": true
     }
@@ -178,11 +182,159 @@
   "pdf": {
     "path": "/workbooks/korean-1-2-listening-speaking/korean-1-2-listening-speaking.pdf",
     "pageCount": 8,
-    "sha256": "fb4f41127f64a64391b8ba4cbb6cb514812f4b4cb840df4f8ccaa5994fd7b3d7"
+    "sha256": "7544097ed8dc3b29ab2fc69eedf16aef680ee352ea2c1bcc40e2b7152a8f95ee"
   },
   "transcriptPath": "/workbooks/korean-1-2-listening-speaking/transcript.html",
   "license": "CC-BY-NC-SA-4.0",
   "author": "Taehyeong Lim",
   "publishedAt": "2026-07-29",
-  "published": true
+  "published": true,
+  "qualityProfile": "pilot-v1",
+  "studentSelfCheck": [
+    {
+      "id": "sequence",
+      "label": "들은 이야기의 중요한 일을 순서대로 말할 수 있어요.",
+      "standardCodes": [
+        "[2국01-01]"
+      ]
+    },
+    {
+      "id": "kind-dialogue",
+      "label": "친구의 마음을 생각하며 바르고 고운 말로 대화할 수 있어요.",
+      "standardCodes": [
+        "[2국01-02]",
+        "[2국01-03]"
+      ]
+    },
+    {
+      "id": "experience-presentation",
+      "label": "바른 자세로 내 경험을 발표하고 친구 말을 잘 들을 수 있어요.",
+      "standardCodes": [
+        "[2국01-04]",
+        "[2국01-05]"
+      ]
+    }
+  ],
+  "teacherRubric": {
+    "disclaimer": "이 루브릭은 국가 성취수준이 아닌 수업 중 관찰과 피드백을 위한 프로젝트 기준입니다.",
+    "levels": [
+      {
+        "id": "needs-support",
+        "label": "도움 필요",
+        "descriptor": "그림, 질문, 문장 틀의 도움을 받아 수행한다."
+      },
+      {
+        "id": "meets",
+        "label": "도달",
+        "descriptor": "듣기·말하기의 기본 약속을 지키며 핵심 수행을 해낸다."
+      },
+      {
+        "id": "exceeds",
+        "label": "깊이 있게 도달",
+        "descriptor": "사건·감정·대화 약속을 연결하여 상대에게 알맞게 반응한다."
+      }
+    ],
+    "criteria": [
+      {
+        "id": "sequence-listening",
+        "label": "중요한 내용과 사건의 순서를 고려하여 듣고 말한다.",
+        "standardCodes": [
+          "[2국01-01]"
+        ],
+        "evidenceActivityIds": [
+          "kor12-sequence-listening",
+          "kor12-experience-sharing"
+        ]
+      },
+      {
+        "id": "empathetic-turn-taking",
+        "label": "바르고 고운 말로 감정을 나누고 말차례를 지킨다.",
+        "standardCodes": [
+          "[2국01-02]",
+          "[2국01-03]"
+        ],
+        "evidenceActivityIds": [
+          "kor12-feeling-dialogue",
+          "kor12-presentation-posture",
+          "kor12-experience-sharing"
+        ]
+      },
+      {
+        "id": "presentation-and-interest",
+        "label": "바른 자세로 경험을 발표하고 듣기·말하기에 관심을 보인다.",
+        "standardCodes": [
+          "[2국01-04]",
+          "[2국01-05]"
+        ],
+        "evidenceActivityIds": [
+          "kor12-presentation-posture",
+          "kor12-experience-sharing"
+        ]
+      }
+    ]
+  },
+  "activityEvidence": [
+    {
+      "id": "kor12-sequence-listening",
+      "activityKey": "questionsA",
+      "standardCodes": [
+        "[2국01-01]"
+      ],
+      "evidenceType": "oral-response",
+      "expectedResponse": "이야기의 중요한 일을 듣고 까닭을 말하며, 먼저·다음·마지막의 순서로 사건을 다시 말한다.",
+      "scoringRubric": {
+        "needsSupport": "사건의 중요한 내용이나 순서를 말할 때 그림·질문의 도움이 필요하다.",
+        "meets": "중요한 사건을 찾아 알맞은 순서로 말한다.",
+        "exceeds": "사건의 순서와 까닭을 연결하여 또렷하게 다시 말한다."
+      }
+    },
+    {
+      "id": "kor12-feeling-dialogue",
+      "activityKey": "questionsB",
+      "standardCodes": [
+        "[2국01-02]",
+        "[2국01-03]"
+      ],
+      "evidenceType": "constructed-response",
+      "expectedResponse": "민준의 감정과 하린의 공감 표현을 찾고, 집중해서 듣기와 말차례 지키기를 대화 약속으로 말한다.",
+      "scoringRubric": {
+        "needsSupport": "상대의 감정이나 대화 약속을 찾을 때 예시의 도움이 필요하다.",
+        "meets": "바르고 고운 공감 표현과 대화 약속을 찾아 말한다.",
+        "exceeds": "상대의 감정을 헤아리는 말과 말차례 지키기가 필요한 까닭을 연결해 설명한다."
+      }
+    },
+    {
+      "id": "kor12-presentation-posture",
+      "activityKey": "focus",
+      "standardCodes": [
+        "[2국01-03]",
+        "[2국01-04]"
+      ],
+      "evidenceType": "performance-observation",
+      "expectedResponse": "발표 자세와 듣는 자세를 설명하고, 경험 발표를 언제·어디서-한 일-생각이나 느낌의 순서로 준비한다.",
+      "scoringRubric": {
+        "needsSupport": "발표·듣기 자세와 발표 순서를 기억하는 데 도움을 받는다.",
+        "meets": "바른 자세와 경험 발표의 기본 순서를 알고 적용한다.",
+        "exceeds": "상대의 말을 들으며 자신의 발표 순서를 조절해 또렷하게 발표한다."
+      }
+    },
+    {
+      "id": "kor12-experience-sharing",
+      "activityKey": "produce",
+      "standardCodes": [
+        "[2국01-01]",
+        "[2국01-02]",
+        "[2국01-03]",
+        "[2국01-04]",
+        "[2국01-05]"
+      ],
+      "evidenceType": "oral-performance",
+      "expectedResponse": "자신의 경험을 순서 있게 발표하고, 짝의 중요한 일과 마음을 다시 말한 뒤 바르고 고운 말로 반응한다.",
+      "scoringRubric": {
+        "needsSupport": "경험을 말하거나 짝의 말에 반응할 때 질문·문장 틀의 도움이 필요하다.",
+        "meets": "경험을 순서 있게 말하고 짝의 말에 집중하여 적절히 반응한다.",
+        "exceeds": "경험의 느낌을 구체적으로 말하고 짝의 중요한 일과 마음을 정확히 되짚어 따뜻하게 반응한다."
+      }
+    }
+  ]
 }

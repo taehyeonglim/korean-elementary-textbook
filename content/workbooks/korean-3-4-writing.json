@@ -24,7 +24,7 @@
       "목적: 종이 모양에 따라 버티는 힘이 달라지는지 알아본다.",
       "절차: 평평한 종이와 접은 종이를 같은 간격의 책 위에 올린다.",
       "결과: 접은 종이가 더 많은 지우개를 버텼다.",
-      "알게 된 점: 종이를 접으면 더 단단해질 수 있다."
+      "결론: 종이를 접으면 더 단단해져 더 많은 무게를 버틸 수 있다."
     ],
     "questionsA": [
       [
@@ -40,12 +40,16 @@
         "접은 종이가 더 많은 지우개를 버텼다."
       ],
       [
+        "두 종이를 공정하게 비교하려고 같게 한 조건은 무엇인가요?",
+        "책 사이의 간격"
+      ],
+      [
         "보고 글의 순서를 쓰세요.",
-        "목적 → 절차 → 결과 → 알게 된 점"
+        "목적 → 절차 → 결과 → 결론"
       ]
     ],
     "textB": [
-      "고마운 마음을 전하는 글",
+      "고마움을 전하는 편지",
       "지민아, 발표 연습을 할 때 내 말을 끝까지 들어줘서 고마워.",
       "네가 고개를 끄덕여 준 덕분에 긴장이 줄었어.",
       "다음 발표 준비 때에는 내가 네 연습을 도와줄게.",
@@ -65,8 +69,8 @@
         "긴장이 줄었다."
       ],
       [
-        "글의 목적은 무엇인가요?",
-        "고마운 마음을 전하기"
+        "글쓴이가 지민에게 전하고 싶은 마음과 그 까닭을 쓰세요.",
+        "발표 연습을 끝까지 들어준 지민에게 고마운 마음을 전하기"
       ]
     ],
     "focus": [
@@ -79,17 +83,17 @@
         "뒷받침 문장"
       ],
       [
-        "의견 글에 필요한 두 요소는 무엇인가요?",
-        "의견, 이유"
+        "의견 문단에 필요한 두 요소와 뒷받침 문장은 무엇인가요?",
+        "의견, 이유 / 의견을 자세히 설명하는 문장"
       ],
       [
         "고쳐 쓸 때 살필 것은 무엇인가요?",
-        "문장과 문단의 연결, 정확한 표현"
+        "문장과 문단의 연결, 정확한 표현, 목적과 독자에 맞는 말"
       ]
     ],
     "produce": [
-      "학교에서 바꾸고 싶은 점에 대한 의견 문단을 쓰세요.",
-      "고마운 사람에게 구체적인 일과 마음이 드러나는 글을 쓰세요."
+      "학교에서 바꾸고 싶은 점에 대해 중심 문장 한 개와 뒷받침 문장 두 개를 갖춘 의견 문단을 쓴 뒤, 연결이 어색한 문장 한 곳을 고쳐 쓰세요.",
+      "고마운 사람에게 구체적인 일·내 마음·앞으로의 약속이 드러나는 편지를 쓰고, 독자가 알기 쉬운지 짝과 함께 고쳐 보세요."
     ],
     "model": "저는 교실에 종이 분리함을 더 놓아야 한다고 생각합니다. 종이를 다시 쓰거나 올바르게 버리기 쉬워지기 때문입니다."
   },
@@ -110,7 +114,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-3-4-writing/02-reading-a.webp",
       "thumbnailPath": "/workbooks/korean-3-4-writing/02-reading-a.webp",
-      "sha256": "bfba479159b1295cc4152837c3d7c50fb40b859df530388d9a29c2bc4bbfab40",
+      "sha256": "2b81154531b149de6529c1960daa1089996de17b58c9e77ac18c578156855d4a",
       "alt": "문단과 목적에 맞는 글쓰기 2쪽",
       "approved": true
     },
@@ -120,7 +124,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-3-4-writing/03-questions-a.webp",
       "thumbnailPath": "/workbooks/korean-3-4-writing/03-questions-a.webp",
-      "sha256": "d47e129fe68b373b1bc588a1a0e8c720918072d5faa1ed70cc9eea25adf85eab",
+      "sha256": "125b3f343e85f1c80d1d026e007492701cc1ff74bd7ef33a709d928743b3ad08",
       "alt": "문단과 목적에 맞는 글쓰기 3쪽",
       "approved": true
     },
@@ -130,7 +134,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-3-4-writing/04-reading-b.webp",
       "thumbnailPath": "/workbooks/korean-3-4-writing/04-reading-b.webp",
-      "sha256": "b34c7610a6cc05e111362f142bfd82da64ecba5004301b6f85e57cfbb233af7b",
+      "sha256": "e7714dc1dd18879e469e899a0f5d135e0ddd7ab67a94b668fd3d35e6ee602934",
       "alt": "문단과 목적에 맞는 글쓰기 4쪽",
       "approved": true
     },
@@ -140,7 +144,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-3-4-writing/05-questions-b.webp",
       "thumbnailPath": "/workbooks/korean-3-4-writing/05-questions-b.webp",
-      "sha256": "d3c6283633d28fc2fa460ae9dd54f771500b8b34cf7571fd6b7f1bff4e5a416a",
+      "sha256": "44d77a1a98e0584b703b1d9004a8ceaac2772ad02fbb56ff39e15a7198adfb2c",
       "alt": "문단과 목적에 맞는 글쓰기 5쪽",
       "approved": true
     },
@@ -150,7 +154,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-3-4-writing/06-focus.webp",
       "thumbnailPath": "/workbooks/korean-3-4-writing/06-focus.webp",
-      "sha256": "1ddbcb2b009df5fd472eb567b5d84d6031481a0ce13327604fd029670104010d",
+      "sha256": "a2599c07acfbdd962c53863d21315f31611efbc86cb30ea7f7c04537e73c933c",
       "alt": "문단과 목적에 맞는 글쓰기 6쪽",
       "approved": true
     },
@@ -160,7 +164,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-3-4-writing/07-production.webp",
       "thumbnailPath": "/workbooks/korean-3-4-writing/07-production.webp",
-      "sha256": "72d2274dd412b28238b8240647e5ce4b431075ebfb7b3370966bc93bfb474178",
+      "sha256": "491a146a4e8de630fd9e64dec185a4159065e10073588b8c2c747475458038d9",
       "alt": "문단과 목적에 맞는 글쓰기 7쪽",
       "approved": true
     },
@@ -170,7 +174,7 @@
       "role": "answer",
       "imagePath": "/workbooks/korean-3-4-writing/08-answers.webp",
       "thumbnailPath": "/workbooks/korean-3-4-writing/08-answers.webp",
-      "sha256": "0714e13c8518f85782b037d56dff19b0c2903df50eb7e7952e54ddc58eee743a",
+      "sha256": "029b3022d41433aef45840196b1ecb48c8e770e596138403d8555a0750448def",
       "alt": "문단과 목적에 맞는 글쓰기 8쪽",
       "approved": true
     }
@@ -178,11 +182,175 @@
   "pdf": {
     "path": "/workbooks/korean-3-4-writing/korean-3-4-writing.pdf",
     "pageCount": 8,
-    "sha256": "b68d5fd8c1af425c9b3d75983a250b3e91575506c4b2c5877c339a3e87f1394d"
+    "sha256": "3e0df0625801832bed17bb4f521e4f72a821cc6be0e072aa01f5931a7746cf0c"
   },
   "transcriptPath": "/workbooks/korean-3-4-writing/transcript.html",
   "license": "CC-BY-NC-SA-4.0",
   "author": "Taehyeong Lim",
   "publishedAt": "2026-07-29",
-  "published": true
+  "published": true,
+  "qualityProfile": "pilot-v1",
+  "studentSelfCheck": [
+    {
+      "id": "report-genre",
+      "label": "보고 글에서 목적·절차·결과·결론을 찾을 수 있어요.",
+      "standardCodes": [
+        "[4국03-02]"
+      ]
+    },
+    {
+      "id": "paragraph-opinion",
+      "label": "의견과 이유를 중심 문장과 뒷받침 문장으로 쓸 수 있어요.",
+      "standardCodes": [
+        "[4국03-01]",
+        "[4국03-03]"
+      ]
+    },
+    {
+      "id": "letter-revision",
+      "label": "독자에게 마음을 전하는 글을 쓰고 고쳐 볼 수 있어요.",
+      "standardCodes": [
+        "[4국03-04]",
+        "[4국03-05]"
+      ]
+    }
+  ],
+  "teacherRubric": {
+    "disclaimer": "이 루브릭은 국가 성취수준이 아닌 수업 중 관찰과 피드백을 위한 프로젝트 기준입니다.",
+    "levels": [
+      {
+        "id": "needs-support",
+        "label": "도움 필요",
+        "descriptor": "장르의 틀, 예시, 질문을 바탕으로 수행한다."
+      },
+      {
+        "id": "meets",
+        "label": "도달",
+        "descriptor": "글의 목적과 기본 구조에 맞게 핵심 수행을 해낸다."
+      },
+      {
+        "id": "exceeds",
+        "label": "깊이 있게 도달",
+        "descriptor": "독자와 목적을 고려해 내용·표현·연결을 스스로 고쳐 확장한다."
+      }
+    ],
+    "criteria": [
+      {
+        "id": "paragraph-and-opinion",
+        "label": "문단을 구성하여 의견과 이유가 드러나게 쓴다.",
+        "standardCodes": [
+          "[4국03-01]",
+          "[4국03-03]"
+        ],
+        "evidenceActivityIds": [
+          "kor34-paragraph-and-revision",
+          "kor34-opinion-paragraph"
+        ]
+      },
+      {
+        "id": "report-and-letter",
+        "label": "보고 글과 편지의 목적·구조에 맞게 내용을 이해하고 쓴다.",
+        "standardCodes": [
+          "[4국03-02]",
+          "[4국03-04]"
+        ],
+        "evidenceActivityIds": [
+          "kor34-report-genre",
+          "kor34-letter-purpose",
+          "kor34-gratitude-letter"
+        ]
+      },
+      {
+        "id": "revision",
+        "label": "쓰기 과정을 점검하며 문장과 문단을 고쳐 쓴다.",
+        "standardCodes": [
+          "[4국03-05]"
+        ],
+        "evidenceActivityIds": [
+          "kor34-paragraph-and-revision",
+          "kor34-opinion-paragraph",
+          "kor34-gratitude-letter"
+        ]
+      }
+    ]
+  },
+  "activityEvidence": [
+    {
+      "id": "kor34-report-genre",
+      "activityKey": "questionsA",
+      "standardCodes": [
+        "[4국03-02]"
+      ],
+      "evidenceType": "constructed-response",
+      "expectedResponse": "실험 보고서에서 목적·절차·결과·결론을 구분하고, 공정한 비교를 위해 같게 한 조건을 찾는다.",
+      "scoringRubric": {
+        "needsSupport": "보고 글의 요소나 절차를 구분할 때 낱말표의 도움이 필요하다.",
+        "meets": "보고 글의 목적·절차·결과·결론을 구분하고 핵심 정보를 답한다.",
+        "exceeds": "결과와 결론을 연결하고 정확한 보고 표현이 필요한 까닭을 설명한다."
+      }
+    },
+    {
+      "id": "kor34-letter-purpose",
+      "activityKey": "questionsB",
+      "standardCodes": [
+        "[4국03-04]"
+      ],
+      "evidenceType": "constructed-response",
+      "expectedResponse": "편지의 독자, 구체적으로 고마운 일, 글쓴이 마음과 글의 목적을 연결하여 답한다.",
+      "scoringRubric": {
+        "needsSupport": "독자와 글쓴이의 마음을 연결할 때 질문의 도움이 필요하다.",
+        "meets": "독자와 구체적인 일을 근거로 편지의 목적을 설명한다.",
+        "exceeds": "독자에게 알맞은 마음 표현과 구체적 사실의 효과를 설명한다."
+      }
+    },
+    {
+      "id": "kor34-paragraph-and-revision",
+      "activityKey": "focus",
+      "standardCodes": [
+        "[4국03-01]",
+        "[4국03-03]",
+        "[4국03-05]"
+      ],
+      "evidenceType": "concept-explanation",
+      "expectedResponse": "중심 문장·뒷받침 문장, 의견·이유, 고쳐 쓸 때 살필 점을 설명한다.",
+      "scoringRubric": {
+        "needsSupport": "문단 요소와 고쳐쓰기 기준을 구분할 때 예시의 도움이 필요하다.",
+        "meets": "문단과 의견 글의 기본 요소 및 고쳐쓰기 기준을 말한다.",
+        "exceeds": "글의 목적과 독자를 고려해 어떤 부분을 어떻게 고칠지 제안한다."
+      }
+    },
+    {
+      "id": "kor34-opinion-paragraph",
+      "activityKey": "produce",
+      "promptIndex": 0,
+      "standardCodes": [
+        "[4국03-01]",
+        "[4국03-03]",
+        "[4국03-05]"
+      ],
+      "evidenceType": "written-product",
+      "expectedResponse": "학교에서 바꾸고 싶은 점에 대한 의견, 이유를 뒷받침하는 문장 두 개, 고쳐 쓴 한 문장을 포함한 문단을 쓴다.",
+      "scoringRubric": {
+        "needsSupport": "의견과 이유를 문단으로 조직하거나 고쳐 쓸 때 문장 틀의 도움이 필요하다.",
+        "meets": "중심 문장과 뒷받침 문장을 갖추어 의견과 이유가 드러나는 문단을 쓰고 한 곳을 고쳐 쓴다.",
+        "exceeds": "이유를 구체적으로 뒷받침하고 문장 연결을 스스로 점검하여 더 명확하게 고쳐 쓴다."
+      }
+    },
+    {
+      "id": "kor34-gratitude-letter",
+      "activityKey": "produce",
+      "promptIndex": 1,
+      "standardCodes": [
+        "[4국03-04]",
+        "[4국03-05]"
+      ],
+      "evidenceType": "written-product",
+      "expectedResponse": "독자에게 구체적으로 고마웠던 일과 마음, 앞으로의 약속을 전하는 편지를 쓰고 독자 관점에서 고쳐 쓴다.",
+      "scoringRubric": {
+        "needsSupport": "독자에게 전할 구체적 사실과 마음을 고를 때 도움을 받는다.",
+        "meets": "독자·구체적 일·마음이 드러나는 편지를 쓰고 점검한다.",
+        "exceeds": "독자에게 알맞은 표현을 선택하고 짝의 피드백을 반영해 목적이 더 분명하도록 고쳐 쓴다."
+      }
+    }
+  ]
 }

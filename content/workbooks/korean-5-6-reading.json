@@ -21,10 +21,11 @@
   "activities": {
     "textA": [
       "빗물 정원의 원리",
-      "빗물 정원은 비가 올 때 물을 잠시 모아 두는 낮은 공간입니다.",
+      "빗물 정원은 비가 올 때 물을 잠시 모아 두는 낮은 식재 공간입니다.",
       "먼저 지붕과 길에서 흐른 빗물이 정원으로 들어옵니다.",
       "그다음 흙과 식물 뿌리가 물을 천천히 흡수하고 일부 오염 물질을 거릅니다.",
-      "따라서 빗물 정원은 침수를 줄이고 생물의 작은 터전도 만듭니다."
+      "따라서 빗물 정원은 한꺼번에 흐르는 물을 줄여 침수 위험을 낮추고 생물의 작은 터전도 만듭니다.",
+      "다만 정원의 크기와 관리 상태에 따라 효과는 달라질 수 있습니다."
     ],
     "questionsA": [
       [
@@ -37,7 +38,15 @@
       ],
       [
         "두 가지 효과를 쓰세요.",
-        "침수 감소, 생물 터전 조성"
+        "침수 위험 감소, 생물 터전 조성"
+      ],
+      [
+        "‘생물의 작은 터전’이 뜻하는 바를 문맥으로 추론해 쓰세요.",
+        "곤충이나 작은 동물이 머물거나 살아갈 수 있는 곳"
+      ],
+      [
+        "‘빗물 정원은 모든 침수를 막는다’는 말이 글에 비추어 타당한가요? 까닭을 쓰세요.",
+        "타당하지 않다. 글은 침수 위험을 낮춘다고 했고, 효과는 크기와 관리 상태에 따라 달라진다고 했기 때문이다."
       ],
       [
         "글의 구조에 맞게 요약하세요.",
@@ -45,33 +54,33 @@
       ]
     ],
     "textB": [
-      "운동장 나무 심기 두 관점",
-      "관점 가: 나무를 심으면 그늘과 쉼터가 생기고 여름 운동장 온도를 낮출 수 있습니다.",
-      "관점 나: 경기 공간이 줄고 뿌리가 달리기를 방해하지 않도록 위치와 종류를 신중히 정해야 합니다.",
-      "문제를 해결하려면 장점과 우려를 함께 살펴 심을 장소와 수종을 결정해야 합니다."
+      "운동장 나무 심기: 두 의견서",
+      "관점 가: 나무를 심으면 그늘과 쉼터가 생기고 여름 운동장 온도를 낮출 수 있습니다. 오후에 서쪽 운동장에 그늘이 거의 없었다는 관찰을 근거로 듭니다.",
+      "관점 나: 경기 공간이 줄고 뿌리가 달리기를 방해하지 않도록 위치와 종류를 신중히 정해야 합니다. 경기 구역과 달리기 길의 안전을 먼저 살펴야 한다고 말합니다.",
+      "문제를 해결하려면 두 장점과 우려를 함께 살피고, 운동장 지도·나무의 뿌리 성장 정보·이용자 의견을 확인하여 장소와 수종을 결정해야 합니다."
     ],
     "questionsB": [
       [
-        "관점 가가 강조한 장점은 무엇인가요?",
-        "그늘·쉼터·온도 감소"
+        "관점 가의 주장과 근거를 각각 쓰세요.",
+        "주장: 나무를 심으면 그늘·쉼터가 생기고 온도를 낮출 수 있다 / 근거: 오후 서쪽 운동장에 그늘이 거의 없었다는 관찰"
       ],
       [
         "관점 나가 걱정한 점은 무엇인가요?",
-        "경기 공간과 뿌리 안전"
+        "경기 공간이 줄고 뿌리가 달리기를 방해할 수 있는 안전 문제"
       ],
       [
-        "두 관점을 함께 고려한 해결 방법은 무엇인가요?",
-        "경기를 방해하지 않는 곳에 알맞은 수종을 심는다."
+        "결정을 내리기 전에 더 확인해야 할 정보 한 가지를 고르고, 그 까닭을 쓰세요.",
+        "운동장 지도 / 나무의 뿌리 성장 정보 / 이용자 의견 중 하나와, 안전하고 알맞은 장소·수종을 정하는 데 필요하다는 까닭"
       ],
       [
-        "글의 표현이 타당한 까닭은 무엇인가요?",
-        "두 관점의 이유를 구체적으로 제시했기 때문"
+        "두 관점을 함께 고려한 해결안을 근거와 함께 쓰세요.",
+        "경기를 방해하지 않는 가장자리에 뿌리 성장을 고려한 나무를 심고, 이용자 의견을 확인한다. 그늘을 만들면서 안전과 경기 공간을 지킬 수 있기 때문이다."
       ]
     ],
     "focus": [
       [
         "함축된 표현은 어떻게 추론하나요?",
-        "문맥과 앞뒤 단서로"
+        "문맥과 앞뒤 단서, 글의 목적을 살펴서"
       ],
       [
         "주장은 무엇인가요?",
@@ -79,16 +88,16 @@
       ],
       [
         "타당성 평가 기준은 무엇인가요?",
-        "근거의 관련성·충분성·신뢰성"
+        "주장과 근거의 관련성·충분성·신뢰성, 표현의 정확성"
       ],
       [
         "적극적 읽기의 예는 무엇인가요?",
-        "질문하고 메모하며 다른 자료와 연결하기"
+        "질문하고 메모하며 다른 자료와 연결하고, 생각이 바뀐 점을 확인하기"
       ]
     ],
     "produce": [
-      "첫 글을 70자 안으로 요약하세요.",
-      "두 관점을 비교한 뒤 가장 타당한 해결안을 근거와 함께 쓰세요."
+      "첫 글을 정의 → 작동 과정 → 효과의 구조가 드러나게 70자 안으로 요약하고, 빗물 정원의 효과에 대해 더 알고 싶은 질문 한 가지를 쓰세요.",
+      "두 관점을 비교한 뒤 가장 타당한 해결안을 근거 두 가지와 결정 전에 확인할 정보 한 가지를 포함해 쓰세요."
     ],
     "model": "운동장 가장자리에 뿌리가 깊게 퍼지지 않는 나무를 심자. 경기 공간과 안전을 지키면서 그늘을 만들 수 있다."
   },
@@ -109,7 +118,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-5-6-reading/02-reading-a.webp",
       "thumbnailPath": "/workbooks/korean-5-6-reading/02-reading-a.webp",
-      "sha256": "5aca3f0606451d1b12f37a8196eff8e0a9d28da58105877c62067b4d4ebc53cf",
+      "sha256": "2400055fe89cc5859399cc2f86cce684cdc07cb5c60875279d75e519a3a58057",
       "alt": "구조를 읽고 관점 평가하기 2쪽",
       "approved": true
     },
@@ -119,7 +128,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-5-6-reading/03-questions-a.webp",
       "thumbnailPath": "/workbooks/korean-5-6-reading/03-questions-a.webp",
-      "sha256": "94827740d064ca87327d73b6e174c40e2446adbe28e25c9443f2fee2bbfcafc4",
+      "sha256": "5d70d34a60f7e6c4b65d83f4daef9802a8f69db3a8a98dc4812016d96550f311",
       "alt": "구조를 읽고 관점 평가하기 3쪽",
       "approved": true
     },
@@ -129,7 +138,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-5-6-reading/04-reading-b.webp",
       "thumbnailPath": "/workbooks/korean-5-6-reading/04-reading-b.webp",
-      "sha256": "2f36ee876eeef0e7f9b72802a26308c5665906732d4bf678e25b156d022e174f",
+      "sha256": "f06c3de975a6f178a5e8b506f56f35fcad0bf9729f45a9af100bff9690b6b0eb",
       "alt": "구조를 읽고 관점 평가하기 4쪽",
       "approved": true
     },
@@ -139,7 +148,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-5-6-reading/05-questions-b.webp",
       "thumbnailPath": "/workbooks/korean-5-6-reading/05-questions-b.webp",
-      "sha256": "33c2c36497d3a5801d456d6515b84692c5f415d09f98e4a71b1a47daeada32bb",
+      "sha256": "3c6f95edaf4be157d58ed211918edad09d72d8b1e4150b4bff2b9936be1be875",
       "alt": "구조를 읽고 관점 평가하기 5쪽",
       "approved": true
     },
@@ -159,7 +168,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/korean-5-6-reading/07-production.webp",
       "thumbnailPath": "/workbooks/korean-5-6-reading/07-production.webp",
-      "sha256": "228d4e7013f3ea2864f742ce418260441e5fa1be33f995aa3666de0c2c718c74",
+      "sha256": "7549c756ee767f3feb6a471d9b24fd433cf9d38ea9d881125917edbe238873b2",
       "alt": "구조를 읽고 관점 평가하기 7쪽",
       "approved": true
     },
@@ -169,7 +178,7 @@
       "role": "answer",
       "imagePath": "/workbooks/korean-5-6-reading/08-answers.webp",
       "thumbnailPath": "/workbooks/korean-5-6-reading/08-answers.webp",
-      "sha256": "18dec7ed02645d0684039a58d7e825989599a8a80627e9f9ebfe700af9a22133",
+      "sha256": "bc591fc76322b47a5470528a517d421dad8fb5a7171a79b59d9748561b619862",
       "alt": "구조를 읽고 관점 평가하기 8쪽",
       "approved": true
     }
@@ -177,11 +186,173 @@
   "pdf": {
     "path": "/workbooks/korean-5-6-reading/korean-5-6-reading.pdf",
     "pageCount": 8,
-    "sha256": "429eb5b78057f1afa6b85a1322338913c88a2e479034016cb7e93a7eeca88001"
+    "sha256": "06d8a085707e966c739b9900038c0bf1342425da8b03991982f92577e030878e"
   },
   "transcriptPath": "/workbooks/korean-5-6-reading/transcript.html",
   "license": "CC-BY-NC-SA-4.0",
   "author": "Taehyeong Lim",
   "publishedAt": "2026-07-29",
-  "published": true
+  "published": true,
+  "qualityProfile": "pilot-v1",
+  "studentSelfCheck": [
+    {
+      "id": "structure-inference",
+      "label": "글의 구조를 따라 요약하고 문맥으로 표현의 뜻을 추론할 수 있어요.",
+      "standardCodes": [
+        "[6국02-01]",
+        "[6국02-02]"
+      ]
+    },
+    {
+      "id": "evaluate",
+      "label": "글의 주장과 근거가 타당한지 살필 수 있어요.",
+      "standardCodes": [
+        "[6국02-03]"
+      ]
+    },
+    {
+      "id": "perspective-solution",
+      "label": "여러 관점을 비교해 해결안을 쓰고 읽으며 질문할 수 있어요.",
+      "standardCodes": [
+        "[6국02-04]",
+        "[6국02-05]"
+      ]
+    }
+  ],
+  "teacherRubric": {
+    "disclaimer": "이 루브릭은 국가 성취수준이 아닌 수업 중 관찰과 피드백을 위한 프로젝트 기준입니다.",
+    "levels": [
+      {
+        "id": "needs-support",
+        "label": "도움 필요",
+        "descriptor": "구조 표시, 질문, 근거 틀을 바탕으로 수행한다."
+      },
+      {
+        "id": "meets",
+        "label": "도달",
+        "descriptor": "글의 단서를 활용해 핵심 내용을 요약·추론·평가한다."
+      },
+      {
+        "id": "exceeds",
+        "label": "깊이 있게 도달",
+        "descriptor": "근거의 범위와 한계를 따져 여러 관점을 조정한 해결안을 제시한다."
+      }
+    ],
+    "criteria": [
+      {
+        "id": "structure-and-inference",
+        "label": "글의 구조를 고려해 요약하고 문맥으로 함축된 표현을 추론한다.",
+        "standardCodes": [
+          "[6국02-01]",
+          "[6국02-02]"
+        ],
+        "evidenceActivityIds": [
+          "kor56-structure-summary",
+          "kor56-context-inference",
+          "kor56-active-reading"
+        ]
+      },
+      {
+        "id": "validity-and-perspectives",
+        "label": "표현과 근거의 타당성을 평가하고 여러 관점을 문제 해결에 활용한다.",
+        "standardCodes": [
+          "[6국02-03]",
+          "[6국02-04]"
+        ],
+        "evidenceActivityIds": [
+          "kor56-validity-evaluation",
+          "kor56-perspective-solution",
+          "kor56-active-reading"
+        ]
+      },
+      {
+        "id": "active-reading",
+        "label": "질문과 점검을 통해 적극적으로 읽기에 참여한다.",
+        "standardCodes": [
+          "[6국02-05]"
+        ],
+        "evidenceActivityIds": [
+          "kor56-active-reading"
+        ]
+      }
+    ]
+  },
+  "activityEvidence": [
+    {
+      "id": "kor56-structure-summary",
+      "activityKey": "questionsA",
+      "standardCodes": [
+        "[6국02-01]"
+      ],
+      "evidenceType": "constructed-response",
+      "expectedResponse": "빗물 정원의 정의·작동 과정·효과를 구분하고 글의 구조에 맞게 요약한다.",
+      "scoringRubric": {
+        "needsSupport": "글의 부분을 구분하거나 요약할 때 구조 표시의 도움이 필요하다.",
+        "meets": "정의·과정·효과를 구분하여 중심 내용을 요약한다.",
+        "exceeds": "글의 구조를 활용해 핵심 내용을 간결하게 연결하고 누락된 핵심이 없는지 점검한다."
+      }
+    },
+    {
+      "id": "kor56-context-inference",
+      "activityKey": "questionsA",
+      "promptIndex": 3,
+      "standardCodes": [
+        "[6국02-02]"
+      ],
+      "evidenceType": "constructed-response",
+      "expectedResponse": "앞뒤 문장의 물 흡수와 생물 관련 단서로 ‘생물의 작은 터전’의 뜻을 추론한다.",
+      "scoringRubric": {
+        "needsSupport": "함축된 표현의 뜻을 추론할 때 단서를 찾는 도움이 필요하다.",
+        "meets": "문맥 단서에 근거하여 함축된 표현의 뜻을 추론한다.",
+        "exceeds": "둘 이상의 문맥 단서를 제시하여 추론의 근거를 분명히 설명한다."
+      }
+    },
+    {
+      "id": "kor56-validity-evaluation",
+      "activityKey": "questionsA",
+      "promptIndex": 4,
+      "standardCodes": [
+        "[6국02-03]"
+      ],
+      "evidenceType": "evidence-based-evaluation",
+      "expectedResponse": "‘모든 침수를 막는다’는 과장된 표현이 글의 ‘위험을 낮춘다’, ‘효과는 달라질 수 있다’와 맞지 않음을 근거로 평가한다.",
+      "scoringRubric": {
+        "needsSupport": "주장과 글의 정보를 비교해 평가할 때 질문의 도움이 필요하다.",
+        "meets": "글의 표현이 타당한지 판단하고 글 속 근거 한 가지를 든다.",
+        "exceeds": "표현의 정확성과 근거의 범위를 함께 살펴 타당성을 설명한다."
+      }
+    },
+    {
+      "id": "kor56-perspective-solution",
+      "activityKey": "questionsB",
+      "standardCodes": [
+        "[6국02-03]",
+        "[6국02-04]"
+      ],
+      "evidenceType": "evidence-based-evaluation",
+      "expectedResponse": "두 의견의 주장·근거·우려를 비교하고, 추가 정보가 필요한 까닭을 말한 뒤 두 관점을 반영한 해결안을 제안한다.",
+      "scoringRubric": {
+        "needsSupport": "두 관점의 정보나 추가 확인할 자료를 구분할 때 도움을 받는다.",
+        "meets": "두 관점의 핵심을 비교하고 근거를 갖춘 해결안을 제안한다.",
+        "exceeds": "근거의 충분성을 따져 필요한 자료를 제안하고, 두 관점의 우려를 조정한 실행 가능한 해결안을 제시한다."
+      }
+    },
+    {
+      "id": "kor56-active-reading",
+      "activityKey": "produce",
+      "standardCodes": [
+        "[6국02-01]",
+        "[6국02-03]",
+        "[6국02-04]",
+        "[6국02-05]"
+      ],
+      "evidenceType": "written-product",
+      "expectedResponse": "글의 구조를 활용한 요약과 질문을 쓰고, 관점 비교·근거·추가 확인 정보를 포함한 해결안을 작성한다.",
+      "scoringRubric": {
+        "needsSupport": "요약·질문·해결안을 구성할 때 구조 틀의 도움이 필요하다.",
+        "meets": "요약과 질문을 쓰고, 두 관점을 고려한 근거 있는 해결안을 제시한다.",
+        "exceeds": "읽으며 생긴 질문을 추가 자료 탐색으로 연결하고, 근거의 한계를 보완한 해결안을 구체적으로 제안한다."
+      }
+    }
+  ]
 }

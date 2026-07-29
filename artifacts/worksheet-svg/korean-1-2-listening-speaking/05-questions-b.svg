@@ -17,7 +17,7 @@
 <rect x="72" y="550" width="880" height="218" rx="22" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
 <circle cx="102" cy="592" r="25" fill="#E97863"/>
 <text x="102" y="601" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#FFF" text-anchor="middle">2</text>
-<text x="150" y="602" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">하린은 민준의 말을 어떻게 들었나요?</tspan></text>
+<text x="150" y="602" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">하린은 민준의 말을 어떻게 듣고 대답했나요?</tspan></text>
 <line x1="108" y1="670" x2="920" y2="670" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="108" y1="704" x2="920" y2="704" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="108" y1="738" x2="920" y2="738" stroke="#D8CEDB" stroke-width="2"/>
@@ -31,7 +31,7 @@
 <rect x="72" y="1050" width="880" height="218" rx="22" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
 <circle cx="102" cy="1092" r="25" fill="#E97863"/>
 <text x="102" y="1101" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#FFF" text-anchor="middle">4</text>
-<text x="150" y="1102" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">두 사람이 대화할 때 지켜야 할 것은 무엇인가요?</tspan></text>
+<text x="150" y="1102" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">민준과 하린의 대화에서 지킨 말하기 약속 두 가지를 쓰세요.</tspan></text>
 <line x1="108" y1="1170" x2="920" y2="1170" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="108" y1="1204" x2="920" y2="1204" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="108" y1="1238" x2="920" y2="1238" stroke="#D8CEDB" stroke-width="2"/>

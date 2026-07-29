@@ -155,6 +155,14 @@ UNITS: list[dict[str, Any]] = [
   "produce":["같은 주제의 온라인 자료 두 개를 찾아 신뢰성을 비교하는 계획을 세우세요.","대상과 매체를 정해 안전 캠페인 한 장 자료의 구성안을 만드세요."],"model":"대상: 1학년 / 매체: 교실 포스터 / 핵심 행동: 계단에서 걷기 / 구성: 큰 제목, 세 단계 그림, 짧은 설명, 출처"},
 ]
 
+PILOT_UNIT_IDS={"korean-1-2-listening-speaking","korean-3-4-writing","korean-5-6-reading"}
+READING_TIPS={
+ "korean-5-6-reading":{
+  "a":"정의 → 작동 과정 → 효과와 한계를 표시하며 읽으세요.",
+  "b":"주장·근거·우려를 비교하며 읽으세요."
+ }
+}
+
 W,H,M=1024,1536,72
 C={"paper":"#FFFCF5","ink":"#2E2740","muted":"#685F74","brand":"#62406F","coral":"#E97863","teal":"#3E8276","line":"#D8CEDB","cream":"#FFF0D5","mint":"#E1F0EA","lav":"#EEE7F4"}
 FONT="Apple SD Gothic Neo, Noto Sans KR, sans-serif"
@@ -183,13 +191,24 @@ def cover(u:dict[str,Any])->str:
 def reading(u:dict[str,Any],page:int,key:str,title_label:str)->str:
     data=u[key]; p=shell(u,page,title_label); p += [txt("ORIGINAL TEXT",M,240,18,C["coral"],800),txt(data[0],M,286,31,C["brand"],800),f'<rect x="{M}" y="330" width="{W-2*M}" height="900" rx="24" fill="#FFF" stroke="{C["line"]}" stroke-width="2"/>']
     for i,line in enumerate(data[1:]):p.append(para(line,M+38,405+i*135,27,45,37,C["ink"],620))
-    p += [f'<rect x="{M}" y="1260" width="{W-2*M}" height="124" rx="20" fill="{C["mint"]}"/>',txt("읽기 도움",M+26,1302,17,C["teal"],800),para("핵심 낱말에 표시하고, 인물·사건·정보의 관계를 생각하며 두 번 읽으세요.",M+26,1340,21,54,29,C["ink"],600)]
+    tip=READING_TIPS.get(u["id"],{}).get(key,"핵심 낱말에 표시하고, 인물·사건·정보의 관계를 생각하며 두 번 읽으세요.")
+    p += [f'<rect x="{M}" y="1260" width="{W-2*M}" height="124" rx="20" fill="{C["mint"]}"/>',txt("읽기 도움",M+26,1302,17,C["teal"],800),para(tip,M+26,1340,21,54,29,C["ink"],600)]
     footer(p); return "\n".join(p)
 def questions(u:dict[str,Any],page:int,key:str,label:str)->str:
     p=shell(u,page,label); p += [txt("생각 확인",M,245,31,C["brand"],800)]
-    for i,(q,a) in enumerate(u[key]):
-        y=300+i*250; p += [f'<rect x="{M}" y="{y}" width="{W-2*M}" height="218" rx="22" fill="#FFF" stroke="{C["line"]}" stroke-width="2"/>',f'<circle cx="{M+30}" cy="{y+42}" r="25" fill="{C["coral"]}"/>',txt(str(i+1),M+30,y+51,24,"#FFF",800,"middle"),para(q,M+78,y+52,23,52,32,C["ink"],680)]
-        for n in range(3):p.append(f'<line x1="{M+36}" y1="{y+120+n*34}" x2="{W-M-32}" y2="{y+120+n*34}" stroke="{C["line"]}" stroke-width="2"/>')
+    items=u[key]
+    if len(items)<=4:
+        for i,(q,a) in enumerate(items):
+            y=300+i*250; p += [f'<rect x="{M}" y="{y}" width="{W-2*M}" height="218" rx="22" fill="#FFF" stroke="{C["line"]}" stroke-width="2"/>',f'<circle cx="{M+30}" cy="{y+42}" r="25" fill="{C["coral"]}"/>',txt(str(i+1),M+30,y+51,24,"#FFF",800,"middle"),para(q,M+78,y+52,23,52,32,C["ink"],680)]
+            for n in range(3):p.append(f'<line x1="{M+36}" y1="{y+120+n*34}" x2="{W-M-32}" y2="{y+120+n*34}" stroke="{C["line"]}" stroke-width="2"/>')
+    else:
+        # Five and six question pages use a two-column compact grid so every
+        # prompt and answer area remains above the footer.
+        gap=28; card_w=(W-2*M-gap)//2; card_h=310
+        for i,(q,a) in enumerate(items):
+            col=i%2; row=i//2; x=M+col*(card_w+gap); y=300+row*(card_h+22)
+            p += [f'<rect x="{x}" y="{y}" width="{card_w}" height="{card_h}" rx="22" fill="#FFF" stroke="{C["line"]}" stroke-width="2"/>',f'<circle cx="{x+29}" cy="{y+40}" r="23" fill="{C["coral"]}"/>',txt(str(i+1),x+29,y+48,22,"#FFF",800,"middle"),para(q,x+66,y+47,20,25,28,C["ink"],680)]
+            for n in range(3):p.append(f'<line x1="{x+26}" y1="{y+205+n*31}" x2="{x+card_w-26}" y2="{y+205+n*31}" stroke="{C["line"]}" stroke-width="2"/>')
     footer(p); return "\n".join(p)
 def focus_page(u:dict[str,Any])->str:
     p=shell(u,6,"개념 탐구"); p += [txt("LANGUAGE & LITERACY",M,242,18,C["coral"],800),txt("성취기준 핵심을 확인하세요.",M,286,29,C["brand"],800)]
@@ -225,17 +244,39 @@ def transcript(u:dict[str,Any],w:dict[str,Any])->str:
     def qs(title,key):return f"<h2>{title}</h2><ol>"+''.join(f"<li>{esc(q)} <strong>정답: {esc(a)}</strong></li>" for q,a in u[key])+"</ol>"
     return f"<!doctype html><html lang='ko'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width'><title>{esc(w['title'])} 전문</title></head><body><main><h1>{esc(w['title'])}</h1><p>{' '.join(w['standardCodes'])}</p>{section('첫 글','a')}{qs('첫 글 확인','qa')}{section('둘째 글','b')}{qs('둘째 글 확인','qb')}{qs('개념 탐구','focus')}<h2>표현·성찰</h2><p>{esc(u['produce'][0])}</p><p>{esc(u['produce'][1])}</p><p><strong>예시:</strong> {esc(u['model'])}</p></main></body></html>\n"
 def main()->int:
-    parser=argparse.ArgumentParser();parser.add_argument("--unit",action="append");args=parser.parse_args();selected=set(args.unit or []);units=[u for u in UNITS if not selected or u["id"] in selected]
+    parser=argparse.ArgumentParser();parser.add_argument("--unit",action="append");parser.add_argument("--pilot",action="store_true");parser.add_argument("--preserve-covers",action="store_true");args=parser.parse_args()
+    if args.pilot and args.unit:raise ValueError("Use --pilot or --unit, not both")
+    selected=PILOT_UNIT_IDS if args.pilot else set(args.unit or []);preserve_covers=args.preserve_covers or args.pilot;units=[u for u in UNITS if not selected or u["id"] in selected]
     missing=selected-{u["id"] for u in units}
     if missing:raise ValueError(f"Unknown units: {missing}")
-    cp=CONTENT/"catalog.json";cat=json.loads(cp.read_text());replace={u["id"] for u in units};cat["workbooks"]=[w for w in cat["workbooks"] if w["id"] not in replace]
+    cp=CONTENT/"catalog.json";cat=json.loads(cp.read_text());existing_by_id={workbook["id"]:workbook for workbook in cat["workbooks"]}
+    for source in (CONTENT/"workbooks").glob("*.json"):
+        current=json.loads(source.read_text(encoding="utf-8"));existing_by_id[current["id"]]=current
+    replace={u["id"] for u in units};cat["workbooks"]=[w for w in cat["workbooks"] if w["id"] not in replace]
     for u in units:
         slug=u["id"];out=PUBLIC/"workbooks"/slug;sd=SVG_ROOT/slug;out.mkdir(parents=True,exist_ok=True);sd.mkdir(parents=True,exist_ok=True)
+        current=existing_by_id.get(slug,{});activities=current.get("activities")
+        if "gradeBand" in current:u={**u,"band":current["gradeBand"]}
+        if "standardCodes" in current:u={**u,"standards":current["standardCodes"]}
+        if "domain" in current:u={**u,"domain":current["domain"]}
+        if "module" in current:u={**u,"module":current["module"]}
+        if isinstance(activities,dict):
+            u={**u,
+               **({"a":activities["textA"]} if "textA" in activities else {}),
+               **({"qa":activities["questionsA"]} if "questionsA" in activities else {}),
+               **({"b":activities["textB"]} if "textB" in activities else {}),
+               **({"qb":activities["questionsB"]} if "questionsB" in activities else {}),
+               **{key:activities[key] for key in ("focus","produce","model") if key in activities}}
         sources=[cover(u),reading(u,2,"a","첫 글 읽기"),questions(u,3,"qa","첫 글 탐구"),reading(u,4,"b","둘째 글 읽기"),questions(u,5,"qb","둘째 글 탐구"),focus_page(u),production(u),answers(u)]
         names=["01-cover","02-reading-a","03-questions-a","04-reading-b","05-questions-b","06-focus","07-production","08-answers"];roles=["cover"]+["worksheet"]*6+["answer"];pages=[]
         for i,(name,source,role) in enumerate(zip(names,sources,roles),1):
+            if preserve_covers and name=="01-cover":
+                current_cover=next((page for page in current.get("pages",[]) if page.get("id")=="cover"),None)
+                if not current_cover:raise ValueError(f"{slug}: --preserve-covers requires existing cover metadata")
+                pages.append(current_cover);continue
             sp=sd/f"{name}.svg";wp=out/f"{name}.webp";sp.write_text(source,encoding="utf-8");raster(sp,wp);pages.append({"id":name[3:],"order":i,"role":role,"imagePath":f"/workbooks/{slug}/{name}.webp","thumbnailPath":f"/workbooks/{slug}/{name}.webp","sha256":sha(wp),"alt":f'{u["module"]} {i}쪽',"approved":True})
-        workbook={"id":slug,"slug":slug,"subject":"korean","title":f'초등 국어 한 장: {u["module"]}',"gradeBand":u["band"],"domain":u["domain"],"module":u["module"],"standardCodes":u["standards"],"levels":["read","explore","express"],"activities":{"textA":u["a"],"questionsA":u["qa"],"textB":u["b"],"questionsB":u["qb"],"focus":u["focus"],"produce":u["produce"],"model":u["model"]},"pages":pages,"pdf":{"path":f"/workbooks/{slug}/{slug}.pdf","pageCount":8,"sha256":"0"*64},"transcriptPath":f"/workbooks/{slug}/transcript.html","license":"CC-BY-NC-SA-4.0","author":"Taehyeong Lim","publishedAt":"2026-07-29","published":True}
+        generated={"id":slug,"slug":slug,"subject":"korean","title":f'초등 국어 한 장: {u["module"]}',"gradeBand":u["band"],"domain":u["domain"],"module":u["module"],"standardCodes":u["standards"],"levels":["read","explore","express"],"activities":{"textA":u["a"],"questionsA":u["qa"],"textB":u["b"],"questionsB":u["qb"],"focus":u["focus"],"produce":u["produce"],"model":u["model"]},"pages":pages,"pdf":{"path":f"/workbooks/{slug}/{slug}.pdf","pageCount":8,"sha256":"0"*64},"transcriptPath":f"/workbooks/{slug}/transcript.html","license":"CC-BY-NC-SA-4.0","author":"Taehyeong Lim","publishedAt":"2026-07-29","published":True}
+        workbook={**generated,**current,"pages":pages,"pdf":generated["pdf"],"transcriptPath":current.get("transcriptPath",generated["transcriptPath"])}
         pdf(workbook);workbook["pdf"]["sha256"]=sha(PUBLIC/workbook["pdf"]["path"].lstrip("/"));(out/"transcript.html").write_text(transcript(u,workbook),encoding="utf-8");(CONTENT/"workbooks"/f"{slug}.json").write_text(json.dumps(workbook,ensure_ascii=False,indent=2)+"\n",encoding="utf-8");cat["workbooks"].append(workbook);print(f"Rendered {slug}: 8 pages")
     cat["workbooks"].sort(key=lambda w:w["id"]);cp.write_text(json.dumps(cat,ensure_ascii=False,indent=2)+"\n",encoding="utf-8");return 0
 if __name__=="__main__":raise SystemExit(main())

@@ -7,6 +7,10 @@
   "domain": "이야기·공감",
   "module": "A Small Seed",
   "standardCodes": [
+    "[4영01-05]",
+    "[4영01-06]",
+    "[4영01-07]",
+    "[4영01-08]",
     "[4영01-09]"
   ],
   "levels": [
@@ -42,10 +46,10 @@
       ]
     ],
     "text": [
-      "A small seed sleeps in the soil.",
-      "Rain comes. The seed wakes up.",
-      "The sun shines. A green stem grows.",
-      "At last, a yellow flower smiles."
+      "A small seed rests beneath the soil.",
+      "Rain falls, and the seed begins to wake.",
+      "Then the sun shines, and a green stem grows.",
+      "At last, a bright yellow flower opens."
     ],
     "practice": [
       [
@@ -84,7 +88,7 @@
       ]
     ],
     "produce": [
-      "가장 마음에 드는 장면과 까닭 말하기",
+      "그림 네 장을 보며 이야기를 다시 듣고, 가장 마음에 드는 장면을 가리킨 뒤 “I like ___ because ___.”로 말하기",
       "씨앗에게 한 문장 편지 쓰기"
     ],
     "model": "Dear Seed, grow strong and bright!"
@@ -106,7 +110,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/english-3-4-story-listening/02-input.webp",
       "thumbnailPath": "/workbooks/english-3-4-story-listening/02-input.webp",
-      "sha256": "2b1fc4af7b367b8e9e57db2d140eadef05125ee5844a70fa48f76a99a21ccf2c",
+      "sha256": "8bc42e14cdcf6aac2e4600bb2e93d8c0069142458221f9fd72f3267892231c6d",
       "alt": "A Small Seed 2쪽",
       "approved": true
     },
@@ -136,7 +140,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/english-3-4-story-listening/05-speak-write.webp",
       "thumbnailPath": "/workbooks/english-3-4-story-listening/05-speak-write.webp",
-      "sha256": "5691f645b4926f69f2a7f653c9038e27fb16af2eaf9c43b181a2588a73245221",
+      "sha256": "92b75b11a8cb18fc1f02b351418f23ab3d9b3714933995d2db09a70eb65bc68e",
       "alt": "A Small Seed 5쪽",
       "approved": true
     },
@@ -154,11 +158,179 @@
   "pdf": {
     "path": "/workbooks/english-3-4-story-listening/english-3-4-story-listening.pdf",
     "pageCount": 6,
-    "sha256": "1f50138a77988198f7d0b191fef1ea17929809a563fa71c3f54eb5e39a851983"
+    "sha256": "2d2bbb574537a83093cd11c25dc6e232392fabb5773b90bbefb04a27271e4163"
   },
   "transcriptPath": "/workbooks/english-3-4-story-listening/transcript.html",
   "license": "CC-BY-NC-SA-4.0",
   "author": "Taehyeong Lim",
   "publishedAt": "2026-07-29",
-  "published": true
+  "published": true,
+  "qualityProfile": "pilot-v1",
+  "studentSelfCheck": [
+    {
+      "id": "word-meaning",
+      "label": "이야기 속 쉬운 낱말의 뜻을 찾을 수 있어요.",
+      "standardCodes": [
+        "[4영01-05]"
+      ]
+    },
+    {
+      "id": "main-information",
+      "label": "씨앗 이야기의 중요한 일을 순서대로 찾을 수 있어요.",
+      "standardCodes": [
+        "[4영01-06]",
+        "[4영01-07]"
+      ]
+    },
+    {
+      "id": "story-response",
+      "label": "이야기를 듣고 마음에 든 장면을 말할 수 있어요.",
+      "standardCodes": [
+        "[4영01-08]",
+        "[4영01-09]"
+      ]
+    }
+  ],
+  "teacherRubric": {
+    "disclaimer": "이 루브릭은 국가 성취수준이 아닌 수업 중 관찰과 피드백을 위한 프로젝트 기준입니다.",
+    "levels": [
+      {
+        "id": "needs-support",
+        "label": "도움 필요",
+        "descriptor": "교사나 또래의 질문, 보기, 재청취를 통해 수행한다."
+      },
+      {
+        "id": "meets",
+        "label": "도달",
+        "descriptor": "학습지의 단서와 자신의 말로 핵심 수행을 해낸다."
+      },
+      {
+        "id": "exceeds",
+        "label": "깊이 있게 도달",
+        "descriptor": "여러 단서를 연결하고 이유를 덧붙여 수행을 확장한다."
+      }
+    ],
+    "criteria": [
+      {
+        "id": "meaning-and-information",
+        "label": "쉬운 낱말의 뜻과 이야기의 핵심 정보를 이해한다.",
+        "standardCodes": [
+          "[4영01-05]",
+          "[4영01-06]"
+        ],
+        "evidenceActivityIds": [
+          "eng34-word-meaning",
+          "eng34-main-information"
+        ]
+      },
+      {
+        "id": "strategy-use",
+        "label": "그림과 순서 단서를 활용하여 이야기를 이해한다.",
+        "standardCodes": [
+          "[4영01-07]"
+        ],
+        "evidenceActivityIds": [
+          "eng34-listening-strategy"
+        ]
+      },
+      {
+        "id": "story-engagement",
+        "label": "다양한 매체의 이야기에 흥미를 보이며 공감하여 반응한다.",
+        "standardCodes": [
+          "[4영01-08]",
+          "[4영01-09]"
+        ],
+        "evidenceActivityIds": [
+          "eng34-story-response"
+        ]
+      }
+    ]
+  },
+  "activityEvidence": [
+    {
+      "id": "eng34-word-meaning",
+      "activityKey": "words",
+      "standardCodes": [
+        "[4영01-05]"
+      ],
+      "evidenceType": "selected-response",
+      "expectedResponse": "story 단어를 알맞은 우리말 뜻과 연결한다.",
+      "scoringRubric": {
+        "needsSupport": "핵심 단어의 뜻을 연결하는 데 지속적인 도움을 받는다.",
+        "meets": "핵심 단어의 뜻을 대부분 알맞게 연결한다.",
+        "exceeds": "핵심 단어의 뜻을 정확히 연결하고 이야기 속 장면과 함께 설명한다."
+      }
+    },
+    {
+      "id": "eng34-main-information",
+      "activityKey": "practice",
+      "standardCodes": [
+        "[4영01-06]"
+      ],
+      "evidenceType": "constructed-response",
+      "expectedResponse": "씨앗의 장소, 변화를 일으킨 비와 햇빛, 마지막 장면을 글의 순서에 맞게 답한다.",
+      "scoringRubric": {
+        "needsSupport": "글의 핵심 정보를 찾을 때 보기나 재청취의 도움이 필요하다.",
+        "meets": "글의 핵심 정보를 찾아 짧은 낱말이나 어구로 답한다.",
+        "exceeds": "핵심 정보를 정확히 연결하고 이야기의 기분을 글의 표현으로 뒷받침한다."
+      }
+    },
+    {
+      "id": "eng34-listening-strategy",
+      "activityKey": "check",
+      "standardCodes": [
+        "[4영01-05]",
+        "[4영01-07]"
+      ],
+      "evidenceType": "selected-response",
+      "expectedResponse": "색깔 낱말을 찾아 줄기와 꽃을 구별하고, 되읽기·그림 단서를 활용해 seed-stem-flower의 순서를 정한다.",
+      "scoringRubric": {
+        "needsSupport": "낱말이나 순서를 확인할 때 교사의 직접적인 안내가 필요하다.",
+        "meets": "글의 낱말과 그림·순서 단서를 활용하여 답한다.",
+        "exceeds": "자신이 활용한 단서를 말하고, 그 단서로 답을 확인한다."
+      }
+    },
+    {
+      "id": "eng34-story-response",
+      "activityKey": "produce",
+      "promptIndex": 0,
+      "standardCodes": [
+        "[4영01-08]",
+        "[4영01-09]"
+      ],
+      "evidenceType": "oral-performance",
+      "expectedResponse": "그림과 다시 들은 이야기를 바탕으로 한 장면을 고르고 간단한 이유를 말한다.",
+      "scoringRubric": {
+        "needsSupport": "그림과 이야기를 연결해 장면을 고르는 데 문장 틀이나 질문의 도움이 필요하다.",
+        "meets": "이야기 속 장면 하나를 고르고 간단한 이유를 말한다.",
+        "exceeds": "흥미로운 장면과 이유를 이야기 속 낱말 또는 사건과 연결해 자신 있게 말한다."
+      }
+    }
+  ],
+  "audio": {
+    "path": "/workbooks/english-3-4-story-listening/listening.mp3",
+    "transcriptPath": "/workbooks/english-3-4-story-listening/listening-transcript.html",
+    "metadataPath": "/workbooks/english-3-4-story-listening/listening.metadata.json",
+    "aiGenerated": true,
+    "backend": "kokoro",
+    "model": "hexgrad/Kokoro-82M",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "license": "Apache-2.0",
+    "disclosure": "AI 생성 음성입니다. Kokoro-82M의 미국식 영어 합성 음성을 사용했으며 실제 인물의 음성을 모방하거나 복제하지 않았습니다.",
+    "voices": [
+      {
+        "role": "narrator",
+        "voice": "af_bella",
+        "locale": "en-US",
+        "sha256": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6"
+      }
+    ],
+    "playbackRates": [
+      0.75,
+      1
+    ],
+    "durationSeconds": 14.3,
+    "sha256": "3696f7138d01c5e3ac0155d1828f17b1ec0e692a2e7b6ac737f8a86c4d829268"
+  }
 }

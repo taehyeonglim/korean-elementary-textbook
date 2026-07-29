@@ -85,7 +85,7 @@ UNITS: list[dict[str, Any]] = [
         "id":"english-3-4-story-listening","band":"3-4","domain":"이야기·공감","module":"A Small Seed",
         "standards":["[4영01-09]"],
         "words":[["seed","씨앗"],["soil","흙"],["rain","비"],["sun","해"],["grow","자라다"],["flower","꽃"]],
-        "text":["A small seed sleeps in the soil.","Rain comes. The seed wakes up.","The sun shines. A green stem grows.","At last, a yellow flower smiles."],
+        "text":["A small seed rests beneath the soil.","Rain falls, and the seed begins to wake.","Then the sun shines, and a green stem grows.","At last, a bright yellow flower opens."],
         "practice":[["씨앗이 처음 있는 곳은 어디인가요?","in the soil"],["씨앗을 깨우는 것은 무엇인가요?","rain"],["비 다음에 오는 것은 무엇인가요?","the sun"],["마지막에 피는 것은 무엇인가요?","a yellow flower"],["이야기의 기분을 한 낱말로 쓰세요.","happy / hopeful"]],
         "check":[["What color is the stem?","green"],["What color is the flower?","yellow"],["Put in order: flower / seed / stem","seed, stem, flower"]],
         "produce":["가장 마음에 드는 장면과 까닭 말하기","씨앗에게 한 문장 편지 쓰기"],"model":"Dear Seed, grow strong and bright!"
@@ -166,12 +166,14 @@ UNITS: list[dict[str, Any]] = [
         "id":"english-5-6-stories-culture-team","band":"5-6","domain":"이야기·문화·협력","module":"Stories Connect Us",
         "standards":["[6영01-08]","[6영01-09]","[6영01-10]","[6영02-10]"],
         "words":[["story","이야기"],["view","관점"],["custom","생활 문화"],["compare","비교하다"],["agree","동의하다"],["add","덧붙이다"]],
-        "text":["Four students read a story about sharing food.","Lina says, “The family eats together on a mat.”","Joon says, “My family eats together at a table.”","They find a difference and the same warm feeling.","The team listens and makes one culture poster together."],
+        "text":["Four students look at a story card and two photo captions about families sharing food.","Lina says, “At celebrations, my family sometimes shares dishes from the middle of the table.”","Joon says, “At my home, we often serve each person a plate.”","Both notice that the meals look different, but food can bring people together.","Before making a poster, each student asks one respectful question and listens."],
         "practice":[["학생들이 읽은 이야기의 주제를 쓰세요.","sharing food"],["Lina의 가족이 식사하는 곳을 쓰세요.","on a mat"],["Joon의 가족이 식사하는 곳을 쓰세요.","at a table"],["두 가족에게 같은 것을 쓰세요.","a warm feeling / eating together"],["모둠이 함께 만든 것을 쓰세요.","a culture poster"]],
         "check":[["Do the students have the same custom?","No."],["What do they do before making the poster?","They listen."],["What attitude does the text show?","openness and respect"]],
         "produce":["I agree / I want to add로 모둠 의견 이어 말하기","두 문화를 비교하고 공통점을 존중하는 4문장 쓰기"],"model":"The places are different. Both families eat together. I like both ideas. We can learn from each other."
     },
 ]
+
+PILOT_UNIT_IDS = {"english-3-4-story-listening", "english-5-6-stories-culture-team"}
 
 W, H, M = 1024, 1536, 72
 COLORS = {"paper":"#FFFDF8","ink":"#172A46","muted":"#53657A","blue":"#285A9F","sky":"#DCEEFF","coral":"#F47C68","mint":"#DDF4EC","line":"#C8D8E8","yellow":"#FFF1BA"}
@@ -240,7 +242,14 @@ def input_page(unit: dict[str, Any]) -> str:
         col, row = i % 2, i // 2; x, y = M + col*454, 314 + row*90
         p += [f'<rect x="{x}" y="{y}" width="426" height="68" rx="16" fill="{COLORS["sky"]}"/>', text(word, x+20, y+30, 22, COLORS["blue"], 800), text(meaning, x+20, y+55, 16, COLORS["muted"], 600)]
     p += [text("READING", M, 640, 18, COLORS["coral"], 800), f'<rect x="{M}" y="674" width="{W-2*M}" height="548" rx="24" fill="#FFFFFF" stroke="{COLORS["line"]}" stroke-width="2"/>']
-    for i, line in enumerate(unit["text"]): p.append(para(line, M+34, 738+i*82, 27, 47, 34, COLORS["ink"], 650))
+    reading_y = 738
+    for line in unit["text"]:
+        # A wrapped paragraph needs its own line height before the next line.
+        # Keep the familiar 82-unit rhythm for one-line readings, while making
+        # multi-line dialogue passages expand instead of colliding.
+        wrapped_lines = wrap(line, 47)
+        p.append(para(line, M+34, reading_y, 27, 47, 34, COLORS["ink"], 650))
+        reading_y += max(82, len(wrapped_lines) * 34 + 18)
     p += [f'<rect x="{M}" y="1252" width="{W-2*M}" height="138" rx="20" fill="{COLORS["mint"]}"/>', text("읽기 전략", M+28, 1294, 18, COLORS["blue"], 800), para("제목과 낱말 단서를 먼저 보고, 문장을 소리 내어 두 번 읽으세요.", M+28, 1334, 22, 50, 30, COLORS["ink"], 600)]
     footer(p); return "\n".join(p)
 
@@ -312,26 +321,53 @@ def transcript(unit: dict[str, Any], workbook: dict[str, Any]) -> str:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--unit", action="append", help="Render only this English workbook ID; repeatable.")
+    parser.add_argument("--pilot", action="store_true", help="Render only the approved English pilots and retain approved covers.")
+    parser.add_argument("--preserve-covers", action="store_true", help="Keep current approved cover assets and metadata.")
     args = parser.parse_args()
-    selected = set(args.unit or [])
+    if args.pilot and args.unit: raise ValueError("Use --pilot or --unit, not both")
+    selected = PILOT_UNIT_IDS if args.pilot else set(args.unit or [])
+    preserve_covers = args.preserve_covers or args.pilot
     units = [unit for unit in UNITS if not selected or unit["id"] in selected]
     missing = selected - {unit["id"] for unit in units}
     if missing: raise ValueError(f"Unknown English workbook IDs: {', '.join(sorted(missing))}")
     catalog_path = CONTENT/"catalog.json"; catalog = json.loads(catalog_path.read_text())
+    # Rendered fields are deterministic; pilot assessment/audio metadata is authored
+    # separately and must survive a page/PDF refresh.
+    existing_by_id = {workbook["id"]: workbook for workbook in catalog["workbooks"]}
+    for source in (CONTENT / "workbooks").glob("*.json"):
+        current = json.loads(source.read_text(encoding="utf-8"))
+        existing_by_id[current["id"]] = current
     replace_ids = {unit["id"] for unit in units}
     catalog["workbooks"] = [w for w in catalog["workbooks"] if w["id"] not in replace_ids]
     for unit in units:
         slug = unit["id"]; out = PUBLIC/"workbooks"/slug; svg_dir = SVG_ROOT/slug
         out.mkdir(parents=True, exist_ok=True); svg_dir.mkdir(parents=True, exist_ok=True)
+        # The checked-in workbook JSON is authoritative for pilot learning text.
+        # Rendering uses the fixed layout but never rewrites editorial activity data.
+        current = existing_by_id.get(slug, {})
+        unit = {**unit, **{key: current[key] for key in ("band", "domain", "module", "standards") if key in current}}
+        if "gradeBand" in current: unit["band"] = current["gradeBand"]
+        if "standardCodes" in current: unit["standards"] = current["standardCodes"]
+        activities = current.get("activities")
+        if isinstance(activities, dict):
+            unit = {**unit, **{key: activities[key] for key in ("words", "text", "practice", "check", "produce", "model") if key in activities}}
         sources = [cover(unit), input_page(unit), list_page(unit,3,"표현 연습","PRACTICE",unit["practice"]), list_page(unit,4,"내용 확인","CHECK THE TEXT",unit["check"]), production_page(unit), answer_page(unit)]
         page_names = ["01-cover","02-input","03-practice","04-check","05-speak-write","06-answers"]
         roles = ["cover","worksheet","worksheet","worksheet","worksheet","answer"]
         pages = []
         for i, (name, source, role) in enumerate(zip(page_names,sources,roles),1):
+            if preserve_covers and name == "01-cover":
+                current_cover = next((page for page in current.get("pages", []) if page.get("id") == "cover"), None)
+                if not current_cover: raise ValueError(f"{slug}: --preserve-covers requires existing cover metadata")
+                pages.append(current_cover)
+                continue
             svg = svg_dir/f"{name}.svg"; webp = out/f"{name}.webp"
             svg.write_text(source, encoding="utf-8"); rasterize(svg,webp)
             pages.append({"id":name[3:],"order":i,"role":role,"imagePath":f"/workbooks/{slug}/{name}.webp","thumbnailPath":f"/workbooks/{slug}/{name}.webp","sha256":sha(webp),"alt":f'{unit["module"]} {i}쪽',"approved":True})
-        workbook = {"id":slug,"slug":slug,"subject":"english","title":f'초등 영어 한 장: {unit["module"]}',"gradeBand":unit["band"],"domain":unit["domain"],"module":unit["module"],"standardCodes":unit["standards"],"levels":["input","practice","production"],"activities":{"words":unit["words"],"text":unit["text"],"practice":unit["practice"],"check":unit["check"],"produce":unit["produce"],"model":unit["model"]},"pages":pages,"pdf":{"path":f"/workbooks/{slug}/{slug}.pdf","pageCount":6,"sha256":"0"*64},"transcriptPath":f"/workbooks/{slug}/transcript.html","license":"CC-BY-NC-SA-4.0","author":"Taehyeong Lim","publishedAt":"2026-07-29","published":True}
+        generated = {"id":slug,"slug":slug,"subject":"english","title":f'초등 영어 한 장: {unit["module"]}',"gradeBand":unit["band"],"domain":unit["domain"],"module":unit["module"],"standardCodes":unit["standards"],"levels":["input","practice","production"],"activities":{"words":unit["words"],"text":unit["text"],"practice":unit["practice"],"check":unit["check"],"produce":unit["produce"],"model":unit["model"]},"pages":pages,"pdf":{"path":f"/workbooks/{slug}/{slug}.pdf","pageCount":6,"sha256":"0"*64},"transcriptPath":f"/workbooks/{slug}/transcript.html","license":"CC-BY-NC-SA-4.0","author":"Taehyeong Lim","publishedAt":"2026-07-29","published":True}
+        # Keep the canonical object intact; rendering is allowed to refresh only
+        # page records, the matching PDF hash, and the derived transcript file.
+        workbook = {**generated, **current, "pages": pages, "pdf": generated["pdf"], "transcriptPath": current.get("transcriptPath", generated["transcriptPath"])}
         build_pdf(workbook); workbook["pdf"]["sha256"] = sha(PUBLIC/workbook["pdf"]["path"].lstrip("/"))
         (out/"transcript.html").write_text(transcript(unit,workbook),encoding="utf-8")
         (CONTENT/"workbooks"/f"{slug}.json").write_text(json.dumps(workbook,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")

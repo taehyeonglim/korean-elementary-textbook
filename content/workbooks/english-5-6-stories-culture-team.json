@@ -45,11 +45,11 @@
       ]
     ],
     "text": [
-      "Four students read a story about sharing food.",
-      "Lina says, “The family eats together on a mat.”",
-      "Joon says, “My family eats together at a table.”",
-      "They find a difference and the same warm feeling.",
-      "The team listens and makes one culture poster together."
+      "Four students look at a story card and two photo captions about families sharing food.",
+      "Lina says, “At celebrations, my family sometimes shares dishes from the middle of the table.”",
+      "Joon says, “At my home, we often serve each person a plate.”",
+      "Both notice that the meals look different, but food can bring people together.",
+      "Before making a poster, each student asks one respectful question and listens."
     ],
     "practice": [
       [
@@ -57,20 +57,20 @@
         "sharing food"
       ],
       [
-        "Lina의 가족이 식사하는 곳을 쓰세요.",
-        "on a mat"
+        "Lina의 가족이 음식을 나누는 방법을 쓰세요.",
+        "sharing dishes from the middle of the table"
       ],
       [
-        "Joon의 가족이 식사하는 곳을 쓰세요.",
-        "at a table"
+        "Joon의 가족이 음식을 차리는 방법을 쓰세요.",
+        "serving each person a plate"
       ],
       [
-        "두 가족에게 같은 것을 쓰세요.",
-        "a warm feeling / eating together"
+        "두 가족의 식사에서 공통으로 찾을 수 있는 의미를 쓰세요.",
+        "food can bring people together"
       ],
       [
-        "모둠이 함께 만든 것을 쓰세요.",
-        "a culture poster"
+        "포스터를 만들기 전에 학생들이 한 행동을 쓰세요.",
+        "They ask one respectful question and listen."
       ]
     ],
     "check": [
@@ -80,7 +80,7 @@
       ],
       [
         "What do they do before making the poster?",
-        "They listen."
+        "They ask one respectful question and listen."
       ],
       [
         "What attitude does the text show?",
@@ -88,10 +88,10 @@
       ]
     ],
     "produce": [
-      "I agree / I want to add로 모둠 의견 이어 말하기",
-      "두 문화를 비교하고 공통점을 존중하는 4문장 쓰기"
+      "이야기 카드와 사진 설명을 보며 I noticed ... / Can I add ...?로 차이 한 가지와 공통점 한 가지를 모둠에서 이어 말하기",
+      "두 가족의 식사 문화를 비교하는 4문장을 쓰되, 차이·공통점·존중하는 질문을 모두 넣기"
     ],
-    "model": "The places are different. Both families eat together. I like both ideas. We can learn from each other."
+    "model": "The customs are different. In Lina's family, dishes are shared. In Joon's family, each person often has a plate. Both meals bring people together."
   },
   "pages": [
     {
@@ -110,7 +110,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/english-5-6-stories-culture-team/02-input.webp",
       "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/02-input.webp",
-      "sha256": "db77fbd04a89e6fe45c76695c9c080f7d0432fdfe527f703e7aadb3694e8452e",
+      "sha256": "e6bc3f01130eaf301ef5a2c661f3aa1eed3a5fb0fff90d2bbd89213774e7a3e6",
       "alt": "Stories Connect Us 2쪽",
       "approved": true
     },
@@ -120,7 +120,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/english-5-6-stories-culture-team/03-practice.webp",
       "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/03-practice.webp",
-      "sha256": "ee1caeccf745057eee20e33ac6f5e671e904d9a4ca49bf96a5ca06c1fcdbff92",
+      "sha256": "5a1523f40b0fbe0693f37cd8866c038f764c13d78280533d364d2a160d8bf1f5",
       "alt": "Stories Connect Us 3쪽",
       "approved": true
     },
@@ -140,7 +140,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/english-5-6-stories-culture-team/05-speak-write.webp",
       "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/05-speak-write.webp",
-      "sha256": "2ae502980fd0e3867d9a15d9743e59c2ad150888eda1fb6a6bad05ffd6b44412",
+      "sha256": "4c6442fcceae368ed5d7bb617b53925095b10b56965741f6adabaf8cea014324",
       "alt": "Stories Connect Us 5쪽",
       "approved": true
     },
@@ -150,7 +150,7 @@
       "role": "answer",
       "imagePath": "/workbooks/english-5-6-stories-culture-team/06-answers.webp",
       "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/06-answers.webp",
-      "sha256": "399b4c9e81c560851d9986a48a6f1f977680881081f4e4897e5ba0f17059b6db",
+      "sha256": "7d1a4f3cfe5750c1263edbe203e56752c5bef472ba77f309512c845c3fa10050",
       "alt": "Stories Connect Us 6쪽",
       "approved": true
     }
@@ -158,11 +158,188 @@
   "pdf": {
     "path": "/workbooks/english-5-6-stories-culture-team/english-5-6-stories-culture-team.pdf",
     "pageCount": 6,
-    "sha256": "19cc48ee1078919881c75465d6a788eddb9d162bf52a465a8217d25f7a3e9299"
+    "sha256": "b881a1e7e5f61e043171f2b6e128a8b046b3dbecffe66a1d9e96535d58d302e6"
   },
   "transcriptPath": "/workbooks/english-5-6-stories-culture-team/transcript.html",
   "license": "CC-BY-NC-SA-4.0",
   "author": "Taehyeong Lim",
   "publishedAt": "2026-07-29",
-  "published": true
+  "published": true,
+  "qualityProfile": "pilot-v1",
+  "studentSelfCheck": [
+    {
+      "id": "media-story",
+      "label": "이야기 카드와 사진 설명을 읽고 중요한 내용을 찾을 수 있어요.",
+      "standardCodes": [
+        "[6영01-08]",
+        "[6영01-09]"
+      ]
+    },
+    {
+      "id": "culture-compare",
+      "label": "다른 음식 문화를 비교하고 공통점을 존중할 수 있어요.",
+      "standardCodes": [
+        "[6영01-10]"
+      ]
+    },
+    {
+      "id": "team-dialogue",
+      "label": "영어로 친구의 의견을 듣고 내 생각을 덧붙일 수 있어요.",
+      "standardCodes": [
+        "[6영02-10]"
+      ]
+    }
+  ],
+  "teacherRubric": {
+    "disclaimer": "이 루브릭은 국가 성취수준이 아닌 수업 중 관찰과 피드백을 위한 프로젝트 기준입니다.",
+    "levels": [
+      {
+        "id": "needs-support",
+        "label": "도움 필요",
+        "descriptor": "교사나 또래의 질문, 보기, 문장 틀을 통해 수행한다."
+      },
+      {
+        "id": "meets",
+        "label": "도달",
+        "descriptor": "학습 자료의 단서와 자신의 말로 핵심 수행을 해낸다."
+      },
+      {
+        "id": "exceeds",
+        "label": "깊이 있게 도달",
+        "descriptor": "정보와 관점을 연결하고 상대의 의견을 확장하며 수행한다."
+      }
+    ],
+    "criteria": [
+      {
+        "id": "story-and-media",
+        "label": "이야기와 다양한 매체 자료를 공감하며 이해한다.",
+        "standardCodes": [
+          "[6영01-08]",
+          "[6영01-09]"
+        ],
+        "evidenceActivityIds": [
+          "eng56-media-story"
+        ]
+      },
+      {
+        "id": "cultural-openness",
+        "label": "문화의 차이와 공통점을 포용의 태도로 이해한다.",
+        "standardCodes": [
+          "[6영01-10]"
+        ],
+        "evidenceActivityIds": [
+          "eng56-culture-compare",
+          "eng56-respectful-listening"
+        ]
+      },
+      {
+        "id": "collaborative-speaking",
+        "label": "의사소통 활동에 참여하여 모둠 과업을 협력적으로 수행한다.",
+        "standardCodes": [
+          "[6영02-10]"
+        ],
+        "evidenceActivityIds": [
+          "eng56-team-dialogue"
+        ]
+      }
+    ]
+  },
+  "activityEvidence": [
+    {
+      "id": "eng56-media-story",
+      "activityKey": "text",
+      "standardCodes": [
+        "[6영01-08]",
+        "[6영01-09]"
+      ],
+      "evidenceType": "media-response",
+      "expectedResponse": "이야기 카드와 사진 설명을 흥미와 자신감을 가지고 읽고, 인물들이 음식 나눔에서 찾은 의미를 말한다.",
+      "scoringRubric": {
+        "needsSupport": "매체 자료의 핵심 장면이나 이야기를 이해할 때 질문의 도움이 필요하다.",
+        "meets": "이야기 카드와 사진 설명의 핵심 내용을 이해하고 반응한다.",
+        "exceeds": "두 매체의 정보를 연결해 이야기의 공감되는 의미를 자신의 말로 설명한다."
+      }
+    },
+    {
+      "id": "eng56-culture-compare",
+      "activityKey": "practice",
+      "standardCodes": [
+        "[6영01-10]"
+      ],
+      "evidenceType": "constructed-response",
+      "expectedResponse": "두 가족의 음식 나눔 방식에서 차이와 공통의 의미를 구분하여 답한다.",
+      "scoringRubric": {
+        "needsSupport": "두 문화의 정보를 구분하거나 공통점을 찾는 데 도움을 받는다.",
+        "meets": "차이와 공통점을 글의 정보에 근거하여 답한다.",
+        "exceeds": "차이를 판단 없이 설명하고, 공통점과 존중의 태도를 연결한다."
+      }
+    },
+    {
+      "id": "eng56-respectful-listening",
+      "activityKey": "check",
+      "standardCodes": [
+        "[6영01-10]"
+      ],
+      "evidenceType": "selected-response",
+      "expectedResponse": "같은 관습이 아님을 인정하고, 질문하고 듣는 태도가 존중과 포용을 보여 준다고 답한다.",
+      "scoringRubric": {
+        "needsSupport": "글 속 태도와 행동을 연결할 때 안내가 필요하다.",
+        "meets": "글에 드러난 존중의 행동과 태도를 찾는다.",
+        "exceeds": "포용의 태도가 필요한 까닭을 글의 사례와 연결해 설명한다."
+      }
+    },
+    {
+      "id": "eng56-team-dialogue",
+      "activityKey": "produce",
+      "promptIndex": 0,
+      "standardCodes": [
+        "[6영02-10]"
+      ],
+      "evidenceType": "oral-performance",
+      "expectedResponse": "I noticed ... / Can I add ...?를 사용하여 모둠원의 말을 잇고, 차이와 공통점을 협력적으로 말한다.",
+      "scoringRubric": {
+        "needsSupport": "대화에 참여하거나 상대 말에 반응할 때 문장 틀과 촉진이 필요하다.",
+        "meets": "정해진 표현을 사용하여 모둠원의 말에 반응하고 과업을 함께 수행한다.",
+        "exceeds": "상대의 의견을 확인·확장하며 모두의 의견이 반영되도록 협력한다."
+      }
+    }
+  ],
+  "audio": {
+    "path": "/workbooks/english-5-6-stories-culture-team/listening.mp3",
+    "transcriptPath": "/workbooks/english-5-6-stories-culture-team/listening-transcript.html",
+    "metadataPath": "/workbooks/english-5-6-stories-culture-team/listening.metadata.json",
+    "aiGenerated": true,
+    "backend": "kokoro",
+    "model": "hexgrad/Kokoro-82M",
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "license": "Apache-2.0",
+    "disclosure": "AI 생성 음성입니다. Kokoro-82M의 미국식 영어 합성 음성을 사용했으며 실제 인물의 음성을 모방하거나 복제하지 않았습니다.",
+    "voices": [
+      {
+        "role": "narrator",
+        "voice": "af_bella",
+        "locale": "en-US",
+        "sha256": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6"
+      },
+      {
+        "role": "lina",
+        "voice": "af_heart",
+        "locale": "en-US",
+        "sha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff"
+      },
+      {
+        "role": "joon",
+        "voice": "am_michael",
+        "locale": "en-US",
+        "sha256": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37"
+      }
+    ],
+    "playbackRates": [
+      0.75,
+      1
+    ],
+    "durationSeconds": 29.55,
+    "sha256": "bae3d7d0b6b15a27ef358b3cbd3dd7d413b9d72f1ab4604630ccfa442804f6cc"
+  }
 }

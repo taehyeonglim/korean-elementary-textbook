@@ -27,6 +27,70 @@ export interface WorkbookPdf {
   sha256: string;
 }
 
+/** Audio is optional: only listening-assessment pilots ship a recording. */
+export interface WorkbookAudioVoice {
+  role: string;
+  voice: string;
+  locale: "en-US";
+  sha256: string | null;
+}
+
+export interface WorkbookAudio {
+  path: string;
+  transcriptPath: string;
+  metadataPath: string;
+  aiGenerated: true;
+  backend: "kokoro" | "openai";
+  model: string;
+  modelRevision: string;
+  modelSha256: string | null;
+  license: string;
+  disclosure: string;
+  voices: WorkbookAudioVoice[];
+  playbackRates: number[];
+  durationSeconds: number;
+  sha256: string;
+}
+
+export interface StudentSelfCheck {
+  id: string;
+  label: string;
+  standardCodes: string[];
+}
+
+export interface TeacherRubricLevel {
+  id: string;
+  label: string;
+  descriptor: string;
+}
+
+export interface TeacherRubricCriterion {
+  id: string;
+  label: string;
+  standardCodes: string[];
+  evidenceActivityIds: string[];
+}
+
+export interface TeacherRubric {
+  disclaimer: string;
+  levels: TeacherRubricLevel[];
+  criteria: TeacherRubricCriterion[];
+}
+
+export interface ActivityEvidence {
+  id: string;
+  activityKey: string;
+  promptIndex?: number;
+  standardCodes: string[];
+  evidenceType: string;
+  expectedResponse: string;
+  scoringRubric: {
+    needsSupport: string;
+    meets: string;
+    exceeds: string;
+  };
+}
+
 export interface Workbook {
   id: string;
   slug: string;
@@ -43,6 +107,11 @@ export interface Workbook {
   pages: WorkbookPage[];
   pdf: WorkbookPdf;
   transcriptPath: string;
+  qualityProfile?: "pilot-v1";
+  studentSelfCheck?: StudentSelfCheck[];
+  teacherRubric?: TeacherRubric;
+  activityEvidence?: ActivityEvidence[];
+  audio?: WorkbookAudio;
   license: "CC-BY-NC-SA-4.0";
   author: "Taehyeong Lim";
   publishedAt: string;

@@ -1,4 +1,8 @@
 #!/usr/bin/env node
+import { execFile } from "node:child_process";
+import { readFile } from "node:fs/promises";
+import path from "node:path";
+import { promisify } from "node:util";
 import { PDFDocument } from "pdf-lib";
 import sharp from "sharp";
 import {
@@ -8,6 +12,8 @@ import {
   toPublicFile,
 } from "./lib/catalog-utils.mjs";
 import { loadAndValidateContent } from "./validate-content.mjs";
+
+const execFileAsync = promisify(execFile);
 
 async function validateImage(workbook, page) {
   const source = toPublicFile(page.imagePath);
@@ -33,6 +39,35 @@ async function validatePdf(workbook) {
   if (title !== workbook.title || author !== workbook.author) fail(`${workbook.id}: PDF metadata must carry workbook title and author`);
 }
 
+async function validateAudio(workbook) {
+  if (!workbook.audio) return;
+  const { audio } = workbook;
+  const source = toPublicFile(audio.path);
+  const transcript = toPublicFile(audio.transcriptPath);
+  const metadata = toPublicFile(audio.metadataPath);
+  for (const [label, target] of [["MP3", source], ["listening transcript", transcript], ["audio metadata", metadata]]) {
+    if (!(await fileExists(target))) fail(`${workbook.id}: missing ${label} ${path.basename(target)}`);
+  }
+  if (await sha256(source) !== audio.sha256) fail(`${workbook.id}: audio hash does not match ${audio.path}`);
+  await execFileAsync("ffmpeg", ["-v", "error", "-i", source, "-f", "null", "-"], { windowsHide: true });
+  const { stdout } = await execFileAsync("ffprobe", ["-v", "error", "-show_entries", "format=duration,format_name", "-of", "json", source], { windowsHide: true });
+  const probe = JSON.parse(stdout);
+  const duration = Number(probe?.format?.duration);
+  if (!String(probe?.format?.format_name || "").includes("mp3") || !Number.isFinite(duration) || Math.abs(duration - audio.durationSeconds) > 0.02) {
+    fail(`${workbook.id}: audio decode metadata does not match catalog duration`);
+  }
+  const manifest = JSON.parse(await readFile(metadata, "utf8"));
+  if (manifest.workbookId !== workbook.id || manifest.audio?.path !== audio.path || manifest.audio?.sha256 !== audio.sha256 || manifest.audio?.durationSeconds !== audio.durationSeconds) {
+    fail(`${workbook.id}: audio metadata manifest is not synchronized with catalog`);
+  }
+  for (const field of ["backend", "model", "modelRevision", "modelSha256", "license", "disclosure", "transcriptPath"]) {
+    if (manifest[field] !== audio[field]) fail(`${workbook.id}: audio metadata ${field} does not match catalog`);
+  }
+  if (JSON.stringify(manifest.voices) !== JSON.stringify(audio.voices)) fail(`${workbook.id}: audio metadata voices do not match catalog`);
+  const transcriptText = await readFile(transcript, "utf8");
+  if (!transcriptText.includes(audio.disclosure)) fail(`${workbook.id}: listening transcript omits AI disclosure`);
+}
+
 export async function validateAssets() {
   const { workbooks } = await loadAndValidateContent();
   for (const workbook of workbooks) {
@@ -41,6 +76,7 @@ export async function validateAssets() {
     await validatePdf(workbook);
     const transcript = toPublicFile(workbook.transcriptPath);
     if (!(await fileExists(transcript))) fail(`${workbook.id}: missing accessible transcript ${workbook.transcriptPath}`);
+    await validateAudio(workbook);
   }
   return workbooks.filter((workbook) => workbook.published).length;
 }

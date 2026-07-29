@@ -9,13 +9,14 @@
 <text x="72" y="240" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#E97863" text-anchor="start">ORIGINAL TEXT</text>
 <text x="72" y="286" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="31" font-weight="800" fill="#62406F" text-anchor="start">빗물 정원의 원리</text>
 <rect x="72" y="330" width="880" height="900" rx="24" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
-<text x="110" y="405" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">빗물 정원은 비가 올 때 물을 잠시 모아 두는 낮은 공간입니다.</tspan></text>
+<text x="110" y="405" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">빗물 정원은 비가 올 때 물을 잠시 모아 두는 낮은 식재 공간입니다.</tspan></text>
 <text x="110" y="540" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">먼저 지붕과 길에서 흐른 빗물이 정원으로 들어옵니다.</tspan></text>
 <text x="110" y="675" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">그다음 흙과 식물 뿌리가 물을 천천히 흡수하고 일부 오염 물질을 거릅니다.</tspan></text>
-<text x="110" y="810" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">따라서 빗물 정원은 침수를 줄이고 생물의 작은 터전도 만듭니다.</tspan></text>
+<text x="110" y="810" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">따라서 빗물 정원은 한꺼번에 흐르는 물을 줄여 침수 위험을 낮추고 생물의 작은</tspan><tspan x="110" dy="37">터전도 만듭니다.</tspan></text>
+<text x="110" y="945" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">다만 정원의 크기와 관리 상태에 따라 효과는 달라질 수 있습니다.</tspan></text>
 <rect x="72" y="1260" width="880" height="124" rx="20" fill="#E1F0EA"/>
 <text x="98" y="1302" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="800" fill="#3E8276" text-anchor="start">읽기 도움</text>
-<text x="98" y="1340" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="600" fill="#2E2740"><tspan x="98" dy="0">핵심 낱말에 표시하고, 인물·사건·정보의 관계를 생각하며 두 번 읽으세요.</tspan></text>
+<text x="98" y="1340" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="600" fill="#2E2740"><tspan x="98" dy="0">정의 → 작동 과정 → 효과와 한계를 표시하며 읽으세요.</tspan></text>
 <line x1="72" y1="1460" x2="952" y2="1460" stroke="#D8CEDB" stroke-width="2"/>
 <text x="72" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="600" fill="#685F74" text-anchor="start">Taehyeong Lim · CC BY-NC-SA 4.0</text>
 <text x="952" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="500" fill="#685F74" text-anchor="end">표지 이미지: GPT Image · Gongnyang Prompt Kit</text>

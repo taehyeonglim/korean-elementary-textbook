@@ -20,7 +20,11 @@
     "build:thumbnails": "node scripts/build-thumbnails.mjs",
     "render:worksheets": "python3 scripts/render_worksheets.py --sync-metadata",
     "render:korean": "python3 scripts/render_korean_worksheets.py",
-    "verify:worksheets": "python3 scripts/verify_worksheets.py",
+    "audio:setup-kokoro": "uv venv .generated/kokoro-venv --python /opt/homebrew/bin/python3.11 && uv pip install --python .generated/kokoro-venv/bin/python -r requirements/kokoro-tts.txt",
+    "audio:dry-run": "node scripts/generate-audio.mjs --dry-run",
+    "audio:generate": "node scripts/generate-audio.mjs",
+    "verify:worksheets": "python3 scripts/verify_worksheets.py --report reports/worksheet-quality.json",
+    "validate:quality": "node scripts/validate-content.mjs && python3 scripts/verify_worksheets.py",
     "check:image-prompt": "./scripts/check-image-prompt"
   },
   "devDependencies": {

@@ -10,7 +10,7 @@
 <text x="72" y="282" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="800" fill="#285A9F" text-anchor="start">읽은 표현을 나의 말과 글로 바꾸어 보세요.</text>
 <rect x="72" y="340" width="880" height="300" rx="24" fill="#DDF4EC" stroke="#C8D8E8" stroke-width="2"/>
 <text x="100" y="388" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#F47C68" text-anchor="start">1. SPEAK</text>
-<text x="100" y="432" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">가장 마음에 드는 장면과 까닭 말하기</tspan></text>
+<text x="100" y="432" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">그림 네 장을 보며 이야기를 다시 듣고, 가장 마음에 드는 장면을 가리킨 뒤 “I like</tspan><tspan x="100" dy="34">___ because ___.”로 말하기</tspan></text>
 <line x1="102" y1="500" x2="922" y2="500" stroke="#C8D8E8" stroke-width="2"/>
 <line x1="102" y1="534" x2="922" y2="534" stroke="#C8D8E8" stroke-width="2"/>
 <line x1="102" y1="568" x2="922" y2="568" stroke="#C8D8E8" stroke-width="2"/>

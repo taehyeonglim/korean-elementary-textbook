@@ -4,7 +4,7 @@ import path from "node:path";
 import { projectDir, fail, loadCatalog, readJson } from "./lib/catalog-utils.mjs";
 
 const distDir = path.join(projectDir, "dist");
-const ALLOWED_EXTENSIONS = new Set([".html", ".css", ".js", ".json", ".map", ".png", ".jpg", ".jpeg", ".webp", ".svg", ".ico", ".pdf", ".txt", ".xml", ".woff", ".woff2"]);
+const ALLOWED_EXTENSIONS = new Set([".html", ".css", ".js", ".json", ".map", ".png", ".jpg", ".jpeg", ".webp", ".svg", ".ico", ".pdf", ".mp3", ".txt", ".xml", ".woff", ".woff2"]);
 const FORBIDDEN_PATH_PARTS = ["prompt", "snapshot", "private", ".env", "credential", "secret"];
 const FORBIDDEN_CONTENT = [/api[_-]?key/i, /BEGIN (?:RSA |OPENSSH )?PRIVATE KEY/, /curriculum.*mcp.*raw/i];
 
@@ -88,7 +88,12 @@ export async function checkPublicOutput() {
   await assertPage("math/workbooks/angles", ["태블릿으로 풀기", "math/workbooks/angles/solve/"]);
   for (const workbook of publishedEnglish) {
     const route = `english/workbooks/${workbook.slug}`;
-    await assertPage(route, [workbook.title.split("&")[0].trim(), `${workbook.pdf.pageCount}쪽`]);
+    const detail = await assertPage(route, [workbook.title.split("&")[0].trim(), `${workbook.pdf.pageCount}쪽`]);
+    if (workbook.audio) {
+      for (const asset of [workbook.audio.path, workbook.audio.transcriptPath, workbook.audio.metadataPath]) {
+        if (!detail.includes(asset)) fail(`English listening player is missing ${asset}: ${route}`);
+      }
+    }
     if (!englishArchive.includes(`${route}/`)) fail(`English archive does not link to: ${route}`);
   }
   for (const workbook of publishedKorean) {

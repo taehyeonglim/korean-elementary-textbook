@@ -10,7 +10,7 @@
 <text x="72" y="286" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" font-weight="800" fill="#62406F" text-anchor="start">읽고 생각한 내용을 나의 말과 글로 표현하세요.</text>
 <rect x="72" y="350" width="880" height="330" rx="24" fill="#E1F0EA" stroke="#D8CEDB" stroke-width="2"/>
 <text x="100" y="398" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#E97863" text-anchor="start">1. 말하기</text>
-<text x="100" y="444" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#2E2740"><tspan x="100" dy="0">학교에서 바꾸고 싶은 점에 대한 의견 문단을 쓰세요.</tspan></text>
+<text x="100" y="444" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#2E2740"><tspan x="100" dy="0">학교에서 바꾸고 싶은 점에 대해 중심 문장 한 개와 뒷받침 문장 두 개를 갖춘 의견 문단을 쓴</tspan><tspan x="100" dy="33">뒤, 연결이 어색한 문장 한 곳을 고쳐 쓰세요.</tspan></text>
 <line x1="102" y1="520" x2="922" y2="520" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="102" y1="552" x2="922" y2="552" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="102" y1="584" x2="922" y2="584" stroke="#D8CEDB" stroke-width="2"/>
@@ -18,7 +18,7 @@
 <line x1="102" y1="648" x2="922" y2="648" stroke="#D8CEDB" stroke-width="2"/>
 <rect x="72" y="730" width="880" height="330" rx="24" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
 <text x="100" y="778" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#E97863" text-anchor="start">2. 쓰기</text>
-<text x="100" y="824" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#2E2740"><tspan x="100" dy="0">고마운 사람에게 구체적인 일과 마음이 드러나는 글을 쓰세요.</tspan></text>
+<text x="100" y="824" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#2E2740"><tspan x="100" dy="0">고마운 사람에게 구체적인 일·내 마음·앞으로의 약속이 드러나는 편지를 쓰고, 독자가 알기</tspan><tspan x="100" dy="33">쉬운지 짝과 함께 고쳐 보세요.</tspan></text>
 <line x1="102" y1="900" x2="922" y2="900" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="102" y1="932" x2="922" y2="932" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="102" y1="964" x2="922" y2="964" stroke="#D8CEDB" stroke-width="2"/>

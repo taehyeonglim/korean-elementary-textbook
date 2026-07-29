@@ -1,0 +1,6 @@
+# Local English listening-audio toolchain. Install in the isolated venv with:
+# npm run audio:setup-kokoro
+#
+# The upstream inference library is pinned to an official hexgrad Git commit.
+kokoro @ git+https://github.com/hexgrad/kokoro.git@dfb907a02bba8152ca444717ca5d78747ccb4bec
+soundfile==0.13.1

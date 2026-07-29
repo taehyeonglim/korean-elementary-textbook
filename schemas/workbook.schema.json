@@ -1,27 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Elementary Math Workbook",
+  "title": "Elementary subject workbook",
   "type": "object",
-  "required": [
-    "id",
-    "slug",
-    "title",
-    "gradeBand",
-    "domain",
-    "module",
-    "standardCodes",
-    "levels",
-    "pages",
-    "pdf",
-    "transcriptPath",
-    "license",
-    "author",
-    "publishedAt",
-    "published"
-  ],
+  "required": ["id", "slug", "subject", "title", "gradeBand", "domain", "module", "standardCodes", "levels", "pages", "pdf", "transcriptPath", "license", "author", "publishedAt", "published"],
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$" },
     "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$" },
+    "subject": { "enum": ["math", "english", "korean"] },
     "title": { "type": "string", "minLength": 1 },
     "gradeBand": { "enum": ["1-2", "3-4", "5-6"] },
     "grade": { "enum": [1, 2, 3, 4, 5, 6] },
@@ -32,15 +17,23 @@
       "minItems": 1,
       "items": { "type": "string", "pattern": "^\\[[0-9]+[가-힣][0-9]{2}-[0-9]{2}\\]$" }
     },
-    "levels": {
-      "type": "array",
-      "const": ["foundation", "standard", "challenge"]
-    },
-    "pages": {
+    "levels": { "type": "array", "minItems": 1, "items": { "type": "string", "minLength": 1 } },
+    "activities": { "type": "object" },
+    "qualityProfile": { "const": "pilot-v1" },
+    "activityEvidence": {
       "type": "array",
       "minItems": 1,
-      "items": { "$ref": "#/$defs/page" }
+      "items": { "$ref": "#/$defs/activityEvidence" }
     },
+    "studentSelfCheck": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": { "$ref": "#/$defs/studentSelfCheck" }
+    },
+    "teacherRubric": { "$ref": "#/$defs/teacherRubric" },
+    "audio": { "$ref": "#/$defs/audio" },
+    "pages": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/page" } },
     "pdf": { "$ref": "#/$defs/pdf" },
     "transcriptPath": { "type": "string", "pattern": "^/workbooks/" },
     "license": { "const": "CC-BY-NC-SA-4.0" },
@@ -48,7 +41,166 @@
     "publishedAt": { "type": "string", "format": "date" },
     "published": { "type": "boolean" }
   },
+  "allOf": [
+    {
+      "if": { "properties": { "subject": { "const": "math" } }, "required": ["subject"] },
+      "then": { "properties": { "levels": { "const": ["foundation", "standard", "challenge"] } } }
+    },
+    {
+      "if": { "properties": { "subject": { "const": "english" } }, "required": ["subject"] },
+      "then": {
+        "properties": { "levels": { "const": ["input", "practice", "production"] } },
+        "required": ["activities"]
+      }
+    },
+    {
+      "if": { "properties": { "subject": { "const": "korean" } }, "required": ["subject"] },
+      "then": {
+        "properties": { "levels": { "const": ["read", "explore", "express"] } },
+        "required": ["activities"]
+      }
+    },
+    {
+      "if": { "properties": { "qualityProfile": { "const": "pilot-v1" } }, "required": ["qualityProfile"] },
+      "then": { "required": ["activityEvidence", "studentSelfCheck", "teacherRubric"] }
+    }
+  ],
   "$defs": {
+    "standardCodes": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "type": "string", "pattern": "^\\[[0-9]+[가-힣][0-9]{2}-[0-9]{2}\\]$" }
+    },
+    "activityEvidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "activityKey", "standardCodes", "evidenceType", "expectedResponse", "scoringRubric"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" },
+        "activityKey": { "type": "string", "minLength": 1 },
+        "promptIndex": { "type": "integer", "minimum": 0 },
+        "standardCodes": { "$ref": "#/$defs/standardCodes" },
+        "evidenceType": { "type": "string", "minLength": 1 },
+        "expectedResponse": { "type": "string", "minLength": 1 },
+        "scoringRubric": { "$ref": "#/$defs/scoringRubric" }
+      }
+    },
+    "scoringRubric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["needsSupport", "meets", "exceeds"],
+      "properties": {
+        "needsSupport": { "type": "string", "minLength": 1 },
+        "meets": { "type": "string", "minLength": 1 },
+        "exceeds": { "type": "string", "minLength": 1 }
+      }
+    },
+    "studentSelfCheck": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "standardCodes"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" },
+        "label": { "type": "string", "minLength": 1 },
+        "standardCodes": { "$ref": "#/$defs/standardCodes" }
+      }
+    },
+    "teacherRubric": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["disclaimer", "levels", "criteria"],
+      "properties": {
+        "disclaimer": { "type": "string", "minLength": 1 },
+        "levels": {
+          "type": "array",
+          "minItems": 3,
+          "maxItems": 3,
+          "items": { "$ref": "#/$defs/rubricLevel" }
+        },
+        "criteria": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/rubricCriterion" }
+        }
+      }
+    },
+    "rubricLevel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "descriptor"],
+      "properties": {
+        "id": { "enum": ["needs-support", "meets", "exceeds"] },
+        "label": { "type": "string", "minLength": 1 },
+        "descriptor": { "type": "string", "minLength": 1 }
+      }
+    },
+    "rubricCriterion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "standardCodes", "evidenceActivityIds"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" },
+        "label": { "type": "string", "minLength": 1 },
+        "standardCodes": { "$ref": "#/$defs/standardCodes" },
+        "evidenceActivityIds": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]{1,63}$" }
+        }
+      }
+    },
+    "audio": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "transcriptPath", "metadataPath", "aiGenerated", "backend", "model", "modelRevision", "modelSha256", "license", "disclosure", "voices", "playbackRates", "durationSeconds", "sha256"],
+      "properties": {
+        "path": { "type": "string", "pattern": "^/workbooks/.+\\.(mp3|m4a|wav|ogg)$" },
+        "transcriptPath": { "type": "string", "pattern": "^/workbooks/" },
+        "metadataPath": { "type": "string", "pattern": "^/workbooks/.+\\.json$" },
+        "aiGenerated": { "type": "boolean" },
+        "backend": { "enum": ["kokoro", "openai"] },
+        "model": { "type": "string", "minLength": 1 },
+        "modelRevision": { "type": "string", "minLength": 1 },
+        "modelSha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" },
+        "license": { "type": "string", "minLength": 1 },
+        "disclosure": { "type": "string", "minLength": 1 },
+        "voices": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "oneOf": [
+              {
+                "type": "object",
+                "required": ["role", "voice", "locale", "sha256"],
+                "additionalProperties": false,
+                "properties": {
+                  "role": { "type": "string", "minLength": 1 },
+                  "voice": { "type": "string", "minLength": 1 },
+                  "locale": { "const": "en-US" },
+                  "sha256": { "type": ["string", "null"], "pattern": "^[a-f0-9]{64}$" }
+                }
+              }
+            ]
+          }
+        },
+        "playbackRates": { "type": "array", "minItems": 1, "items": { "type": "number", "exclusiveMinimum": 0, "maximum": 4 } },
+        "durationSeconds": { "type": "number", "exclusiveMinimum": 0 },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "backend": { "const": "kokoro" } } },
+          "then": {
+            "properties": {
+              "model": { "const": "hexgrad/Kokoro-82M" },
+              "modelRevision": { "const": "f3ff3571791e39611d31c381e3a41a3af07b4987" },
+              "modelSha256": { "const": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4" },
+              "license": { "const": "Apache-2.0" }
+            }
+          }
+        }
+      ]
+    },
     "page": {
       "type": "object",
       "required": ["id", "order", "role", "imagePath", "thumbnailPath", "sha256", "alt", "approved"],

@@ -22,7 +22,7 @@
 <line x1="150" y1="740" x2="917" y2="740" stroke="#D8CEDB" stroke-width="2"/>
 <rect x="72" y="822" width="880" height="205" rx="22" fill="#EEE7F4"/>
 <text x="100" y="872" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#62406F" text-anchor="start">3.</text>
-<text x="150" y="872" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#2E2740"><tspan x="150" dy="0">의견 글에 필요한 두 요소는 무엇인가요?</tspan></text>
+<text x="150" y="872" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#2E2740"><tspan x="150" dy="0">의견 문단에 필요한 두 요소와 뒷받침 문장은 무엇인가요?</tspan></text>
 <text x="150" y="935" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="700" fill="#685F74" text-anchor="start">내 답</text>
 <line x1="212" y1="938" x2="917" y2="938" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="150" y1="980" x2="917" y2="980" stroke="#D8CEDB" stroke-width="2"/>

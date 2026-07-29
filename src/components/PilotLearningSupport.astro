@@ -1,0 +1,125 @@
+---
+import { publicAsset, type Workbook } from "../lib/catalog";
+
+interface Props {
+  workbook: Workbook;
+}
+
+const { workbook } = Astro.props;
+const audio = workbook.audio;
+const hasPilotSupport = workbook.qualityProfile === "pilot-v1" || Boolean(audio) || Boolean(workbook.teacherRubric);
+const audioId = `audio-${workbook.slug}`;
+const supportId = `${audioId}-support`;
+---
+
+{hasPilotSupport && (
+  <section id={supportId} class="pilot-learning-support" aria-labelledby={`${workbook.slug}-pilot-title`}>
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">PILOT LEARNING SUPPORT</p>
+        <h2 id={`${workbook.slug}-pilot-title`}>학습·성찰·관찰 자료</h2>
+      </div>
+      <p>학습 과정의 확인을 돕는 시범 자료입니다. 교사의 전문적 판단을 대신하지 않습니다.</p>
+    </div>
+
+    {audio && (
+      <div class="audio-panel">
+        <div class="audio-panel__copy">
+          <p class="eyebrow">LISTENING AUDIO</p>
+          <h3>미국식 영어 듣기</h3>
+          <p>내용을 먼저 듣고, 필요하면 전문을 함께 읽어 보세요.</p>
+        </div>
+        <div class="audio-panel__player">
+          <audio id={audioId} controls preload="metadata">
+            <source src={publicAsset(audio.path)} type="audio/mpeg" />
+            이 브라우저에서는 오디오를 재생할 수 없습니다. 아래 전문을 이용해 주세요.
+          </audio>
+          <div class="audio-rates" aria-label="재생 속도">
+            {audio.playbackRates.map((rate) => (
+              <button type="button" data-audio-rate={rate} aria-pressed={rate === 1 ? "true" : "false"}>{rate}x</button>
+            ))}
+          </div>
+        </div>
+        <div class="audio-panel__notice">
+          <p><strong>AI 생성 음성 안내</strong> {audio.disclosure}</p>
+          <p>{audio.model} · {audio.license} · {audio.durationSeconds}초</p>
+          <p><a href={publicAsset(audio.transcriptPath)}>접근 가능한 듣기 전문 보기 <span aria-hidden="true">↗</span></a> · <a href={publicAsset(audio.metadataPath)}>음원 생성 정보 <span aria-hidden="true">↗</span></a></p>
+        </div>
+      </div>
+    )}
+
+    {workbook.studentSelfCheck && workbook.studentSelfCheck.length > 0 && (
+      <section class="self-check" aria-labelledby={`${workbook.slug}-self-check-title`}>
+        <div>
+          <p class="eyebrow">STUDENT SELF-CHECK</p>
+          <h3 id={`${workbook.slug}-self-check-title`}>나는 이렇게 해 보았어요</h3>
+        </div>
+        <ul>
+          {workbook.studentSelfCheck.map((item) => (
+            <li>
+              <label><input type="checkbox" /> <span>{item.label}</span></label>
+              <small>{item.standardCodes.join(" ")}</small>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {workbook.teacherRubric && (
+      <details class="teacher-rubric">
+        <summary>교사용 관찰 루브릭 보기</summary>
+        <p class="teacher-rubric__disclaimer">{workbook.teacherRubric.disclaimer}</p>
+        <div class="rubric-levels" aria-label="관찰 수준 설명">
+          {workbook.teacherRubric.levels.map((level) => <p><strong>{level.label}</strong><span>{level.descriptor}</span></p>)}
+        </div>
+        <div class="rubric-table-wrap">
+          <table>
+            <thead><tr><th scope="col">관찰 기준</th><th scope="col">성취기준</th><th scope="col">확인 활동</th></tr></thead>
+            <tbody>
+              {workbook.teacherRubric.criteria.map((criterion) => (
+                <tr>
+                  <th scope="row">{criterion.label}</th>
+                  <td>{criterion.standardCodes.join(" ")}</td>
+                  <td>{criterion.evidenceActivityIds.join(", ")}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        {workbook.activityEvidence && workbook.activityEvidence.length > 0 && (
+          <details class="evidence-guide">
+            <summary>활동별 관찰 근거와 피드백 기준</summary>
+            <ul>
+              {workbook.activityEvidence.map((evidence) => (
+                <li>
+                  <h4>{evidence.id} · {evidence.evidenceType}</h4>
+                  <p><strong>기대 응답:</strong> {evidence.expectedResponse}</p>
+                  <dl>
+                    <div><dt>도움 필요</dt><dd>{evidence.scoringRubric.needsSupport}</dd></div>
+                    <div><dt>기대 도달</dt><dd>{evidence.scoringRubric.meets}</dd></div>
+                    <div><dt>확장</dt><dd>{evidence.scoringRubric.exceeds}</dd></div>
+                  </dl>
+                </li>
+              ))}
+            </ul>
+          </details>
+        )}
+      </details>
+    )}
+  </section>
+)}
+
+{audio && (
+  <script is:inline define:vars={{ audioId, supportId }}>
+    const player = document.getElementById(audioId);
+    const support = document.getElementById(supportId);
+    const rateButtons = Array.from(support?.querySelectorAll(`[data-audio-rate]`) ?? []);
+    rateButtons.forEach((button) => button.addEventListener("click", () => {
+      if (!(player instanceof HTMLAudioElement) || !(button instanceof HTMLButtonElement)) return;
+      const rate = Number(button.dataset.audioRate);
+      if (!Number.isFinite(rate)) return;
+      player.playbackRate = rate;
+      rateButtons.forEach((candidate) => candidate.setAttribute("aria-pressed", String(candidate === button)));
+    }));
+  </script>
+)}

@@ -1,5 +1,6 @@
 ---
 import WorkbookGallery from "../../../components/WorkbookGallery.astro";
+import PilotLearningSupport from "../../../components/PilotLearningSupport.astro";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
 import { GRADE_BAND_LABELS, publicAsset, publishedWorkbooks, type Workbook } from "../../../lib/catalog";
 
@@ -31,6 +32,7 @@ const pages = [...workbook.pages].sort((a, b) => a.order - b.order);
         <dt>구성</dt><dd>글 읽기 2편 · 내용 확인 · 원리 탐구 · 표현 · 정답 / {workbook.pdf.pageCount}쪽</dd>
       </dl></aside>
     </header>
+    <PilotLearningSupport workbook={workbook} />
     <WorkbookGallery workbookTitle={workbook.title} pages={pages} />
     <section class="detail-bottom" aria-label="이용 및 접근성 안내">
       <div class="transcript-panel"><p class="eyebrow">ACCESSIBLE TEXT</p><h2>텍스트로 읽고 답 확인하기</h2><p>읽기 글, 문항, 표현 활동, 정답과 예시 답안을 HTML 전문으로 제공합니다.</p><a class="button button--plain" href={publicAsset(workbook.transcriptPath)}>접근 가능한 전문 <span aria-hidden="true">↗</span></a></div>

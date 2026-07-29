@@ -1,0 +1,72 @@
+{
+  "schemaVersion": 1,
+  "workbookId": "english-5-6-stories-culture-team",
+  "aiGenerated": true,
+  "disclosure": "AI 생성 음성입니다. Kokoro-82M의 미국식 영어 합성 음성을 사용했으며 실제 인물의 음성을 모방하거나 복제하지 않았습니다.",
+  "backend": "kokoro",
+  "model": "hexgrad/Kokoro-82M",
+  "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+  "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+  "license": "Apache-2.0",
+  "voices": [
+    {
+      "role": "narrator",
+      "voice": "af_bella",
+      "locale": "en-US",
+      "sha256": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6"
+    },
+    {
+      "role": "lina",
+      "voice": "af_heart",
+      "locale": "en-US",
+      "sha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff"
+    },
+    {
+      "role": "joon",
+      "voice": "am_michael",
+      "locale": "en-US",
+      "sha256": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37"
+    }
+  ],
+  "audio": {
+    "path": "/workbooks/english-5-6-stories-culture-team/listening.mp3",
+    "sha256": "bae3d7d0b6b15a27ef358b3cbd3dd7d413b9d72f1ab4604630ccfa442804f6cc",
+    "durationSeconds": 29.55,
+    "sampleRate": 24000,
+    "codec": "mp3"
+  },
+  "transcriptPath": "/workbooks/english-5-6-stories-culture-team/listening-transcript.html",
+  "synthesis": {
+    "backend": "kokoro",
+    "durationSeconds": 29.55,
+    "frames": 709200,
+    "model": "hexgrad/Kokoro-82M",
+    "modelArtifacts": {
+      "config": {
+        "path": "config.json",
+        "sha256": "5abb01e2403b072bf03d04fde160443e209d7a0dad49a423be15196b9b43c17f"
+      },
+      "weights": {
+        "path": "kokoro-v1_0.pth",
+        "sha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4"
+      }
+    },
+    "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+    "pcmSha256": "cdb59ec34d720561046b803ea3a0cc26507bd21997af5d441c4165aef7dff19b",
+    "sampleRate": 24000,
+    "voiceArtifacts": {
+      "af_bella": {
+        "path": "voices/af_bella.pt",
+        "sha256": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6"
+      },
+      "af_heart": {
+        "path": "voices/af_heart.pt",
+        "sha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff"
+      },
+      "am_michael": {
+        "path": "voices/am_michael.pt",
+        "sha256": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37"
+      }
+    }
+  }
+}

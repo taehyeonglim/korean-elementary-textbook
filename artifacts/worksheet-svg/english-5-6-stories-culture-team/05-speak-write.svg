@@ -10,21 +10,21 @@
 <text x="72" y="282" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="800" fill="#285A9F" text-anchor="start">읽은 표현을 나의 말과 글로 바꾸어 보세요.</text>
 <rect x="72" y="340" width="880" height="300" rx="24" fill="#DDF4EC" stroke="#C8D8E8" stroke-width="2"/>
 <text x="100" y="388" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#F47C68" text-anchor="start">1. SPEAK</text>
-<text x="100" y="432" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">I agree / I want to add로 모둠 의견 이어 말하기</tspan></text>
+<text x="100" y="432" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">이야기 카드와 사진 설명을 보며 I noticed ... / Can I add ...?로 차이</tspan><tspan x="100" dy="34">한 가지와 공통점 한 가지를 모둠에서 이어 말하기</tspan></text>
 <line x1="102" y1="500" x2="922" y2="500" stroke="#C8D8E8" stroke-width="2"/>
 <line x1="102" y1="534" x2="922" y2="534" stroke="#C8D8E8" stroke-width="2"/>
 <line x1="102" y1="568" x2="922" y2="568" stroke="#C8D8E8" stroke-width="2"/>
 <line x1="102" y1="602" x2="922" y2="602" stroke="#C8D8E8" stroke-width="2"/>
 <rect x="72" y="680" width="880" height="300" rx="24" fill="#FFFFFF" stroke="#C8D8E8" stroke-width="2"/>
 <text x="100" y="728" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#F47C68" text-anchor="start">2. WRITE</text>
-<text x="100" y="772" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">두 문화를 비교하고 공통점을 존중하는 4문장 쓰기</tspan></text>
+<text x="100" y="772" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">두 가족의 식사 문화를 비교하는 4문장을 쓰되, 차이·공통점·존중하는 질문을 모두 넣기</tspan></text>
 <line x1="102" y1="840" x2="922" y2="840" stroke="#C8D8E8" stroke-width="2"/>
 <line x1="102" y1="874" x2="922" y2="874" stroke="#C8D8E8" stroke-width="2"/>
 <line x1="102" y1="908" x2="922" y2="908" stroke="#C8D8E8" stroke-width="2"/>
 <line x1="102" y1="942" x2="922" y2="942" stroke="#C8D8E8" stroke-width="2"/>
 <rect x="72" y="1050" width="880" height="292" rx="24" fill="#FFF1BA"/>
 <text x="100" y="1102" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#285A9F" text-anchor="start">MODEL</text>
-<text x="100" y="1152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">The places are different. Both families eat</tspan><tspan x="100" dy="35">together. I like both ideas. We can learn from</tspan><tspan x="100" dy="35">each other.</tspan></text>
+<text x="100" y="1152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">The customs are different. In Lina&#x27;s family,</tspan><tspan x="100" dy="35">dishes are shared. In Joon&#x27;s family, each person</tspan><tspan x="100" dy="35">often has a plate. Both meals bring people</tspan><tspan x="100" dy="35">together.</tspan></text>
 <text x="100" y="1300" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="600" fill="#53657A" text-anchor="start">모델을 그대로 베끼기보다 낱말과 내용을 바꾸어 표현하세요.</text>
 <line x1="72" y1="1460" x2="952" y2="1460" stroke="#C8D8E8" stroke-width="2"/>
 <text x="72" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="600" fill="#53657A" text-anchor="start">Taehyeong Lim · CC BY-NC-SA 4.0</text>

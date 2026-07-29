@@ -10,7 +10,7 @@
 <rect x="72" y="300" width="880" height="218" rx="22" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
 <circle cx="102" cy="342" r="25" fill="#E97863"/>
 <text x="102" y="351" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#FFF" text-anchor="middle">1</text>
-<text x="150" y="352" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">관점 가가 강조한 장점은 무엇인가요?</tspan></text>
+<text x="150" y="352" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">관점 가의 주장과 근거를 각각 쓰세요.</tspan></text>
 <line x1="108" y1="420" x2="920" y2="420" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="108" y1="454" x2="920" y2="454" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="108" y1="488" x2="920" y2="488" stroke="#D8CEDB" stroke-width="2"/>
@@ -24,14 +24,14 @@
 <rect x="72" y="800" width="880" height="218" rx="22" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
 <circle cx="102" cy="842" r="25" fill="#E97863"/>
 <text x="102" y="851" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#FFF" text-anchor="middle">3</text>
-<text x="150" y="852" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">두 관점을 함께 고려한 해결 방법은 무엇인가요?</tspan></text>
+<text x="150" y="852" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">결정을 내리기 전에 더 확인해야 할 정보 한 가지를 고르고, 그 까닭을 쓰세요.</tspan></text>
 <line x1="108" y1="920" x2="920" y2="920" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="108" y1="954" x2="920" y2="954" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="108" y1="988" x2="920" y2="988" stroke="#D8CEDB" stroke-width="2"/>
 <rect x="72" y="1050" width="880" height="218" rx="22" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
 <circle cx="102" cy="1092" r="25" fill="#E97863"/>
 <text x="102" y="1101" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#FFF" text-anchor="middle">4</text>
-<text x="150" y="1102" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">글의 표현이 타당한 까닭은 무엇인가요?</tspan></text>
+<text x="150" y="1102" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">두 관점을 함께 고려한 해결안을 근거와 함께 쓰세요.</tspan></text>
 <line x1="108" y1="1170" x2="920" y2="1170" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="108" y1="1204" x2="920" y2="1204" stroke="#D8CEDB" stroke-width="2"/>
 <line x1="108" y1="1238" x2="920" y2="1238" stroke="#D8CEDB" stroke-width="2"/>

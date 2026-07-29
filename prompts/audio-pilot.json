@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "defaultBackend": "kokoro",
+  "workbooks": [
+    {
+      "id": "english-3-4-story-listening",
+      "title": "A Small Seed",
+      "audio": {
+        "path": "/workbooks/english-3-4-story-listening/listening.mp3",
+        "transcriptPath": "/workbooks/english-3-4-story-listening/listening-transcript.html",
+        "metadataPath": "/workbooks/english-3-4-story-listening/listening.metadata.json",
+        "aiGenerated": true,
+        "backend": "kokoro",
+        "model": "hexgrad/Kokoro-82M",
+        "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+        "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+        "license": "Apache-2.0",
+        "disclosure": "AI 생성 음성입니다. Kokoro-82M의 미국식 영어 합성 음성을 사용했으며 실제 인물의 음성을 모방하거나 복제하지 않았습니다.",
+        "voices": [{ "role": "narrator", "voice": "af_bella", "locale": "en-US", "sha256": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6" }],
+        "playbackRates": [0.75, 1]
+      },
+      "segments": [
+        {
+          "role": "narrator",
+          "text": "A small seed rests beneath the soil."
+        },
+        {
+          "role": "narrator",
+          "text": "Rain falls, and the seed begins to wake."
+        },
+        {
+          "role": "narrator",
+          "text": "Then the sun shines, and a green stem grows."
+        },
+        {
+          "role": "narrator",
+          "text": "At last, a bright yellow flower opens."
+        }
+      ]
+    },
+    {
+      "id": "english-5-6-stories-culture-team",
+      "title": "Stories Connect Us",
+      "audio": {
+        "path": "/workbooks/english-5-6-stories-culture-team/listening.mp3",
+        "transcriptPath": "/workbooks/english-5-6-stories-culture-team/listening-transcript.html",
+        "metadataPath": "/workbooks/english-5-6-stories-culture-team/listening.metadata.json",
+        "aiGenerated": true,
+        "backend": "kokoro",
+        "model": "hexgrad/Kokoro-82M",
+        "modelRevision": "f3ff3571791e39611d31c381e3a41a3af07b4987",
+        "modelSha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+        "license": "Apache-2.0",
+        "disclosure": "AI 생성 음성입니다. Kokoro-82M의 미국식 영어 합성 음성을 사용했으며 실제 인물의 음성을 모방하거나 복제하지 않았습니다.",
+        "voices": [{ "role": "narrator", "voice": "af_bella", "locale": "en-US", "sha256": "8cb64e02fcc8de0327a8e13817e49c76c945ecf0052ceac97d3081480e8e48d6" }, { "role": "lina", "voice": "af_heart", "locale": "en-US", "sha256": "0ab5709b8ffab19bfd849cd11d98f75b60af7733253ad0d67b12382a102cb4ff" }, { "role": "joon", "voice": "am_michael", "locale": "en-US", "sha256": "9a443b79a4b22489a5b0ab7c651a0bcd1a30bef675c28333f06971abbd47bd37" }],
+        "playbackRates": [0.75, 1]
+      },
+      "segments": [
+        {
+          "role": "narrator",
+          "text": "Four students look at a story card and two photo captions about families sharing food."
+        },
+        {
+          "role": "lina",
+          "text": "Lina says, “At celebrations, my family sometimes shares dishes from the middle of the table.”"
+        },
+        {
+          "role": "joon",
+          "text": "Joon says, “At my home, we often serve each person a plate.”"
+        },
+        {
+          "role": "narrator",
+          "text": "Both notice that the meals look different, but food can bring people together."
+        },
+        {
+          "role": "narrator",
+          "text": "Before making a poster, each student asks one respectful question and listens."
+        }
+      ]
+    }
+  ]
+}
