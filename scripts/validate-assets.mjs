@@ -14,6 +14,7 @@ import {
 import { loadAndValidateContent } from "./validate-content.mjs";
 
 const execFileAsync = promisify(execFile);
+const MP3_DURATION_TOLERANCE_SECONDS = 0.05;
 
 async function validateImage(workbook, page) {
   const source = toPublicFile(page.imagePath);
@@ -53,7 +54,8 @@ async function validateAudio(workbook) {
   const { stdout } = await execFileAsync("ffprobe", ["-v", "error", "-show_entries", "format=duration,format_name", "-of", "json", source], { windowsHide: true });
   const probe = JSON.parse(stdout);
   const duration = Number(probe?.format?.duration);
-  if (!String(probe?.format?.format_name || "").includes("mp3") || !Number.isFinite(duration) || Math.abs(duration - audio.durationSeconds) > 0.02) {
+  // FFmpeg versions can include or exclude one MP3 frame of encoder padding.
+  if (!String(probe?.format?.format_name || "").includes("mp3") || !Number.isFinite(duration) || Math.abs(duration - audio.durationSeconds) > MP3_DURATION_TOLERANCE_SECONDS) {
     fail(`${workbook.id}: audio decode metadata does not match catalog duration`);
   }
   const manifest = JSON.parse(await readFile(metadata, "utf8"));
