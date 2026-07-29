@@ -1,0 +1,2 @@
+# Runtime dependency for scripts/verify_worksheets.py in the CI quality gate.
+Pillow==11.3.0
