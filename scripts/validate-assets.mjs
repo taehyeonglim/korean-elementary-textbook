@@ -14,7 +14,7 @@ import {
 import { loadAndValidateContent } from "./validate-content.mjs";
 
 const execFileAsync = promisify(execFile);
-const MP3_DURATION_TOLERANCE_SECONDS = 0.05;
+const MP3_DURATION_TOLERANCE_SECONDS = 0.15;
 
 async function validateImage(workbook, page) {
   const source = toPublicFile(page.imagePath);
@@ -54,9 +54,11 @@ async function validateAudio(workbook) {
   const { stdout } = await execFileAsync("ffprobe", ["-v", "error", "-show_entries", "format=duration,format_name", "-of", "json", source], { windowsHide: true });
   const probe = JSON.parse(stdout);
   const duration = Number(probe?.format?.duration);
-  // FFmpeg versions can include or exclude one MP3 frame of encoder padding.
+  // FFmpeg versions can disagree by a few MP3 frames when accounting for
+  // encoder delay and end padding. Decode integrity and SHA-256 are checked
+  // independently above.
   if (!String(probe?.format?.format_name || "").includes("mp3") || !Number.isFinite(duration) || Math.abs(duration - audio.durationSeconds) > MP3_DURATION_TOLERANCE_SECONDS) {
-    fail(`${workbook.id}: audio decode metadata does not match catalog duration`);
+    fail(`${workbook.id}: audio decode metadata does not match catalog duration (expected ${audio.durationSeconds}s, measured ${duration}s)`);
   }
   const manifest = JSON.parse(await readFile(metadata, "utf8"));
   if (manifest.workbookId !== workbook.id || manifest.audio?.path !== audio.path || manifest.audio?.sha256 !== audio.sha256 || manifest.audio?.durationSeconds !== audio.durationSeconds) {
