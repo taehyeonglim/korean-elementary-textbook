@@ -128,6 +128,7 @@ main { width: min(1260px, calc(100% - 2rem)); margin-inline: auto; padding-botto
 .hub-hero { min-height: 620px; padding: clamp(4rem, 8vw, 8rem) clamp(.25rem, 2vw, 1.75rem); display: grid; grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr); align-items: center; gap: clamp(2.5rem, 7vw, 7rem); border-bottom: 1px solid var(--line); }
 .hub-hero__copy h1 { max-width: 8ch; margin: 0; font-family: var(--display); font-size: clamp(3.5rem, 8vw, 7.6rem); line-height: .92; letter-spacing: -.1em; }
 .hub-hero__copy > p:not(.eyebrow) { max-width: 46ch; margin: 1.6rem 0 0; color: var(--muted-ink); font-size: clamp(1rem, 1.8vw, 1.18rem); }
+.hub-hero__copy h1 span { display: block; white-space: nowrap; }
 .hub-stats { display: flex; gap: clamp(1rem, 4vw, 3.2rem); margin-top: 2.7rem; }
 .hub-stats div { display: grid; gap: .15rem; }.hub-stats strong { color: var(--pine); font-family: var(--display); font-size: clamp(1.6rem, 3vw, 2.2rem); line-height: 1; }.hub-stats span { color: var(--muted-ink); font-size: .72rem; }
 .hub-hero__orbit { width: min(100%, 480px); aspect-ratio: 1; justify-self: end; position: relative; border: 1px solid var(--line); border-radius: 50%; background: radial-gradient(circle at center, var(--paper) 0 20%, transparent 20.5%), linear-gradient(145deg, #dce9d7, #f1dfcd); }
