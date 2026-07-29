@@ -78,6 +78,7 @@ main { width: min(1260px, calc(100% - 2rem)); margin-inline: auto; padding-botto
 .section-heading > p { max-width: 30ch; margin: 0; color: var(--muted-ink); font-size: .87rem; }
 .filter-shell { position: sticky; z-index: 10; top: .5rem; padding: .85rem; margin-bottom: 2.2rem; border: 1px solid var(--line); background: color-mix(in srgb, var(--paper) 88%, transparent); box-shadow: 0 9px 24px rgba(47, 67, 57, .06); backdrop-filter: blur(12px); }
 .filter-form { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)) auto; gap: .7rem; align-items: end; }
+.filter-form--english { grid-template-columns: repeat(2, minmax(0, 1fr)) auto; }
 .filter-form label { display: grid; gap: .28rem; color: var(--muted-ink); font-family: var(--mono); font-size: .65rem; letter-spacing: .04em; }
 .filter-form select { min-width: 0; min-height: 2.85rem; padding: .45rem 2.1rem .45rem .65rem; color: var(--ink); background: #fffdfa; border: 1px solid var(--line); border-radius: 0; }
 .filter-form select:hover { border-color: var(--pine); }

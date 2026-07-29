@@ -1,0 +1,11 @@
+# 1. Scene
+A child-friendly editorial key art for an elementary English workbook cover: two Korean elementary students at a round library table, one pointing to alphabet cards while the other follows a tiny illustrated storybook, paper speech shapes, letter blocks, pencils, and a small globe forming a gentle upward rhythm around them. The students are focused, curious, and collaborative. Reserve a calm pale-sky band across the upper quarter and a clean warm-paper band across the lower eighth for deterministic title and credit overlays. The complete image contains only illustrated people, objects, abstract letter-like shapes, and open space.
+# 2. Camera
+Slightly elevated three-quarter view, medium-wide composition, clear silhouettes, generous vertical cover spacing.
+# 3. Lighting
+Soft daylight from upper left, open shadows, warm reflected fill, subtle coral rim accents.
+# 4. Color grading
+Sky blue #4B8FE2, warm paper #FFF7E8, coral #F47C68, navy #17365D, leaf green #68B88E.
+# 5. Texture/Medium
+Layered cut-paper gouache illustration, visible paper fibers, crisp rounded edges, subtle screen-print grain.
+AR 2:3

@@ -1,0 +1,166 @@
+{
+  "id": "english-5-6-find-the-main-idea",
+  "slug": "english-5-6-find-the-main-idea",
+  "subject": "english",
+  "title": "초등 영어 한 장: Find the Main Idea",
+  "gradeBand": "5-6",
+  "domain": "중심 내용·전략",
+  "module": "Find the Main Idea",
+  "standardCodes": [
+    "[6영01-05]",
+    "[6영01-07]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "main idea",
+        "중심 생각"
+      ],
+      [
+        "detail",
+        "세부 내용"
+      ],
+      [
+        "title",
+        "제목"
+      ],
+      [
+        "predict",
+        "예측하다"
+      ],
+      [
+        "scan",
+        "찾아 읽다"
+      ],
+      [
+        "check",
+        "확인하다"
+      ]
+    ],
+    "text": [
+      "Our Class Garden",
+      "Our class grows vegetables behind the school.",
+      "Each team waters the plants on a different day.",
+      "We use the vegetables in a class salad.",
+      "The garden helps us learn and work together."
+    ],
+    "practice": [
+      [
+        "글의 제목을 쓰세요.",
+        "Our Class Garden"
+      ],
+      [
+        "학생들이 기르는 것을 쓰세요.",
+        "vegetables"
+      ],
+      [
+        "학생들이 식물에 하는 일을 쓰세요.",
+        "water the plants"
+      ],
+      [
+        "채소로 만드는 것을 쓰세요.",
+        "a class salad"
+      ],
+      [
+        "가장 알맞은 중심 생각을 쓰세요.",
+        "The class learns and works together through a garden."
+      ]
+    ],
+    "check": [
+      [
+        "Where is the garden?",
+        "behind the school"
+      ],
+      [
+        "Does every team water on the same day?",
+        "No."
+      ],
+      [
+        "Which strategy finds one fact quickly?",
+        "scan"
+      ]
+    ],
+    "produce": [
+      "제목을 보고 읽기 전 예측 말하기",
+      "중심 생각 1문장과 뒷받침 내용 2개 쓰기"
+    ],
+    "model": "Main idea: Our garden brings the class together. Details: Teams water plants. We make salad."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-5-6-find-the-main-idea/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/01-cover.webp",
+      "sha256": "fc846a5d09e1f8d08472bfa722b907c7cb31322c8a08bc947a152262fa9acdf8",
+      "alt": "Find the Main Idea 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-find-the-main-idea/02-input.webp",
+      "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/02-input.webp",
+      "sha256": "7e3d6d16298a2fe013df7cb441cf0f78ac0f814da3b3d56a9c15461ec699330f",
+      "alt": "Find the Main Idea 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-find-the-main-idea/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/03-practice.webp",
+      "sha256": "ae999ff4e45fb6e0a4b39942525e370c3befbb0204959a66cf8e106b0d774fc7",
+      "alt": "Find the Main Idea 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-find-the-main-idea/04-check.webp",
+      "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/04-check.webp",
+      "sha256": "5b2ae7d1c545e731db9b5515eaa1cf09b863d9c1e2d1fe33e2fa5671c2e653c0",
+      "alt": "Find the Main Idea 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-find-the-main-idea/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/05-speak-write.webp",
+      "sha256": "e8838a5e40e564b2ecf088b9fb650a3e603feff069cbda4a397ac73f574c1964",
+      "alt": "Find the Main Idea 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-5-6-find-the-main-idea/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/06-answers.webp",
+      "sha256": "df7a56a55a0a8a1d6cbbc96292c03d2f190022ab591f24496608fbf5d26dc31b",
+      "alt": "Find the Main Idea 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-5-6-find-the-main-idea/english-5-6-find-the-main-idea.pdf",
+    "pageCount": 6,
+    "sha256": "759c88ee08edd81990f9f456c4d4155436ea3716073b621110bca4ab83934aa9"
+  },
+  "transcriptPath": "/workbooks/english-5-6-find-the-main-idea/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

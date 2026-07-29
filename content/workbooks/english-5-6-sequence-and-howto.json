@@ -1,0 +1,166 @@
+{
+  "id": "english-5-6-sequence-and-howto",
+  "slug": "english-5-6-sequence-and-howto",
+  "subject": "english",
+  "title": "초등 영어 한 장: Sequence & How-to",
+  "gradeBand": "5-6",
+  "domain": "순서·방법",
+  "module": "Sequence & How-to",
+  "standardCodes": [
+    "[6영01-06]",
+    "[6영02-05]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "first",
+        "먼저"
+      ],
+      [
+        "next",
+        "다음에"
+      ],
+      [
+        "then",
+        "그런 다음"
+      ],
+      [
+        "finally",
+        "마지막으로"
+      ],
+      [
+        "pour",
+        "붓다"
+      ],
+      [
+        "mix",
+        "섞다"
+      ]
+    ],
+    "text": [
+      "How to Make Lemon Water",
+      "First, wash one lemon.",
+      "Next, cut the lemon with an adult.",
+      "Then, put the slices in water.",
+      "Finally, mix and enjoy."
+    ],
+    "practice": [
+      [
+        "가장 먼저 하는 일을 쓰세요.",
+        "wash one lemon"
+      ],
+      [
+        "레몬을 자를 때 함께해야 하는 사람은 누구인가요?",
+        "an adult"
+      ],
+      [
+        "물에 넣는 것을 쓰세요.",
+        "the slices"
+      ],
+      [
+        "mix 앞의 순서 낱말을 쓰세요.",
+        "finally"
+      ],
+      [
+        "순서 낱말 4개를 차례로 쓰세요.",
+        "first, next, then, finally"
+      ]
+    ],
+    "check": [
+      [
+        "What comes after washing?",
+        "cut the lemon"
+      ],
+      [
+        "What comes before mixing?",
+        "put the slices in water"
+      ],
+      [
+        "Is this a story or a how-to text?",
+        "a how-to text"
+      ]
+    ],
+    "produce": [
+      "손 씻는 방법을 순서대로 말하기",
+      "4단계 방법 설명문 쓰기"
+    ],
+    "model": "First, turn on the water. Next, use soap. Then, wash well. Finally, dry your hands."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-5-6-sequence-and-howto/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/01-cover.webp",
+      "sha256": "1bf63a67756a148c571a2369fa8274c040c95f787e4db6268444ce13263352a2",
+      "alt": "Sequence & How-to 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-sequence-and-howto/02-input.webp",
+      "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/02-input.webp",
+      "sha256": "f85eea4e74ac2ccb372a2aba182a2fb3907a0efb0c8acc90d6f9ee287b8fad71",
+      "alt": "Sequence & How-to 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-sequence-and-howto/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/03-practice.webp",
+      "sha256": "540a6ac13745bfb47ae50a2ba821860b5d415fc430d3b68684b9021f458adae2",
+      "alt": "Sequence & How-to 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-sequence-and-howto/04-check.webp",
+      "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/04-check.webp",
+      "sha256": "6403ef90e317c9a29fb13c4da05420878eda89ce7c464d41cc8dc119fe554735",
+      "alt": "Sequence & How-to 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-sequence-and-howto/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/05-speak-write.webp",
+      "sha256": "9b573aa478c3448ddc45cb2c292c41b82e7294974cae143494a9a38b45c50f29",
+      "alt": "Sequence & How-to 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-5-6-sequence-and-howto/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/06-answers.webp",
+      "sha256": "ee716c575a5bca3468853105cbab86460bda0bfa1c2142f319f96669994554a5",
+      "alt": "Sequence & How-to 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-5-6-sequence-and-howto/english-5-6-sequence-and-howto.pdf",
+    "pageCount": 6,
+    "sha256": "ff2f2833c5b29ebbc3c8767da9ccf0a83627c13cbab4e9b5100cedf5502ec926"
+  },
+  "transcriptPath": "/workbooks/english-5-6-sequence-and-howto/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1024 1536">
+<rect width="1024" height="1536" fill="#FFFDF8"/>
+<rect width="1024" height="184" fill="#285A9F"/>
+<text x="72" y="54" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="start">초등 영어 한 장</text>
+<text x="72" y="108" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="start">Sequence &amp; How-to</text>
+<text x="72" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="start">5-6학년군 · 순서·방법 · 말하고 쓰기</text>
+<text x="952" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="end">5</text>
+<text x="72" y="242" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#F47C68" text-anchor="start">USE ENGLISH</text>
+<text x="72" y="282" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="28" font-weight="800" fill="#285A9F" text-anchor="start">읽은 표현을 나의 말과 글로 바꾸어 보세요.</text>
+<rect x="72" y="340" width="880" height="300" rx="24" fill="#DDF4EC" stroke="#C8D8E8" stroke-width="2"/>
+<text x="100" y="388" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#F47C68" text-anchor="start">1. SPEAK</text>
+<text x="100" y="432" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">손 씻는 방법을 순서대로 말하기</tspan></text>
+<line x1="102" y1="500" x2="922" y2="500" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="102" y1="534" x2="922" y2="534" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="102" y1="568" x2="922" y2="568" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="102" y1="602" x2="922" y2="602" stroke="#C8D8E8" stroke-width="2"/>
+<rect x="72" y="680" width="880" height="300" rx="24" fill="#FFFFFF" stroke="#C8D8E8" stroke-width="2"/>
+<text x="100" y="728" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#F47C68" text-anchor="start">2. WRITE</text>
+<text x="100" y="772" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">4단계 방법 설명문 쓰기</tspan></text>
+<line x1="102" y1="840" x2="922" y2="840" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="102" y1="874" x2="922" y2="874" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="102" y1="908" x2="922" y2="908" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="102" y1="942" x2="922" y2="942" stroke="#C8D8E8" stroke-width="2"/>
+<rect x="72" y="1050" width="880" height="292" rx="24" fill="#FFF1BA"/>
+<text x="100" y="1102" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#285A9F" text-anchor="start">MODEL</text>
+<text x="100" y="1152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="700" fill="#172A46"><tspan x="100" dy="0">First, turn on the water. Next, use soap. Then,</tspan><tspan x="100" dy="35">wash well. Finally, dry your hands.</tspan></text>
+<text x="100" y="1300" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="600" fill="#53657A" text-anchor="start">모델을 그대로 베끼기보다 낱말과 내용을 바꾸어 표현하세요.</text>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#C8D8E8" stroke-width="2"/>
+<text x="72" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="600" fill="#53657A" text-anchor="start">Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="500" fill="#53657A" text-anchor="end">표지 이미지: GPT Image · Gongnyang Prompt Kit</text>
+</svg>

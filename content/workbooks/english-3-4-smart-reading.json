@@ -1,0 +1,167 @@
+{
+  "id": "english-3-4-smart-reading",
+  "slug": "english-3-4-smart-reading",
+  "subject": "english",
+  "title": "초등 영어 한 장: Smart Reading",
+  "gradeBand": "3-4",
+  "domain": "읽기 전략·매체",
+  "module": "Smart Reading",
+  "standardCodes": [
+    "[4영01-07]",
+    "[4영01-08]",
+    "[4영02-09]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "title",
+        "제목"
+      ],
+      [
+        "picture",
+        "그림"
+      ],
+      [
+        "guess",
+        "짐작하다"
+      ],
+      [
+        "read again",
+        "다시 읽다"
+      ],
+      [
+        "key word",
+        "핵심 낱말"
+      ],
+      [
+        "card",
+        "카드"
+      ]
+    ],
+    "text": [
+      "Title: A Rainy Day",
+      "Look at the cloud picture.",
+      "Jin has boots and an umbrella.",
+      "He jumps in a puddle.",
+      "He feels happy."
+    ],
+    "practice": [
+      [
+        "읽기 전에 먼저 볼 두 가지를 쓰세요.",
+        "title, picture"
+      ],
+      [
+        "Jin이 가진 물건 2개를 쓰세요.",
+        "boots, umbrella"
+      ],
+      [
+        "모르는 문장이 있으면 사용할 전략을 쓰세요.",
+        "read again"
+      ],
+      [
+        "날씨를 나타내는 낱말을 쓰세요.",
+        "rainy"
+      ],
+      [
+        "Jin의 기분을 쓰세요.",
+        "happy"
+      ]
+    ],
+    "check": [
+      [
+        "What is the title?",
+        "A Rainy Day"
+      ],
+      [
+        "Where does Jin jump?",
+        "in a puddle"
+      ],
+      [
+        "Which clue shows the weather?",
+        "cloud / boots / umbrella"
+      ]
+    ],
+    "produce": [
+      "제목과 그림 단서로 다음 장면 짐작해 말하기",
+      "핵심 낱말 3개로 디지털 카드 문구 만들기"
+    ],
+    "model": "Rainy day · red boots · happy jump"
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-3-4-smart-reading/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-3-4-smart-reading/01-cover.webp",
+      "sha256": "b09b67fb888b6465137fa90ec479c15c32c7fb82ec4269d13b6f0d3268d0bf72",
+      "alt": "Smart Reading 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-smart-reading/02-input.webp",
+      "thumbnailPath": "/workbooks/english-3-4-smart-reading/02-input.webp",
+      "sha256": "a78f672d3158bc073a3fbca7b079bc659cc127cd223b5eb46f217459b8774757",
+      "alt": "Smart Reading 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-smart-reading/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-3-4-smart-reading/03-practice.webp",
+      "sha256": "0d672fa0c0ba7043e1f11bf781e6dd3e8705ea879ccff60b908b0f5d4d823ae9",
+      "alt": "Smart Reading 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-smart-reading/04-check.webp",
+      "thumbnailPath": "/workbooks/english-3-4-smart-reading/04-check.webp",
+      "sha256": "8bd15df26d6949c68657471d7bfe9e335bd1127b037faf05ad18548d6394c2ec",
+      "alt": "Smart Reading 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-smart-reading/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-3-4-smart-reading/05-speak-write.webp",
+      "sha256": "a3bb8f978dd449c55c37a202f2fdba874080b71d87301d378b4688e87c184dfc",
+      "alt": "Smart Reading 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-3-4-smart-reading/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-3-4-smart-reading/06-answers.webp",
+      "sha256": "90b992b07630a2228bb7873453b3bb198677a1f0a29512a4b739d906571ee079",
+      "alt": "Smart Reading 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-3-4-smart-reading/english-3-4-smart-reading.pdf",
+    "pageCount": 6,
+    "sha256": "c4cb74e17a654b9e401472ad0816cf30b841f28bd8d0009b10b9389d12235dd9"
+  },
+  "transcriptPath": "/workbooks/english-3-4-smart-reading/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

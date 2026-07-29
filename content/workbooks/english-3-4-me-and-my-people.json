@@ -1,0 +1,167 @@
+{
+  "id": "english-3-4-me-and-my-people",
+  "slug": "english-3-4-me-and-my-people",
+  "subject": "english",
+  "title": "초등 영어 한 장: Me & My People",
+  "gradeBand": "3-4",
+  "domain": "소개·대화",
+  "module": "Me & My People",
+  "standardCodes": [
+    "[4영01-06]",
+    "[4영02-05]",
+    "[4영02-08]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "name",
+        "이름"
+      ],
+      [
+        "friend",
+        "친구"
+      ],
+      [
+        "kind",
+        "친절한"
+      ],
+      [
+        "funny",
+        "재미있는"
+      ],
+      [
+        "like",
+        "좋아하다"
+      ],
+      [
+        "together",
+        "함께"
+      ]
+    ],
+    "text": [
+      "Hi, I’m Mina.",
+      "I am ten years old.",
+      "This is my friend, Joon.",
+      "He is kind and funny.",
+      "We like drawing together."
+    ],
+    "practice": [
+      [
+        "Mina의 나이는 몇 살인가요?",
+        "ten"
+      ],
+      [
+        "Joon을 나타내는 낱말 2개를 쓰세요.",
+        "kind, funny"
+      ],
+      [
+        "둘이 함께 좋아하는 일은 무엇인가요?",
+        "drawing"
+      ],
+      [
+        "이름을 묻는 문장을 쓰세요.",
+        "What’s your name?"
+      ],
+      [
+        "좋아하는 것을 묻는 문장을 쓰세요.",
+        "What do you like?"
+      ]
+    ],
+    "check": [
+      [
+        "Who is Joon?",
+        "Mina’s friend"
+      ],
+      [
+        "Is Joon kind?",
+        "Yes, he is."
+      ],
+      [
+        "What do they like?",
+        "They like drawing."
+      ]
+    ],
+    "produce": [
+      "짝에게 이름과 좋아하는 것 묻기",
+      "나와 친구를 소개하는 3문장 쓰기"
+    ],
+    "model": "I’m Yuna. This is Min. We like soccer."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-3-4-me-and-my-people/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/01-cover.webp",
+      "sha256": "735ef7dad81bbdd9d728aae08f56d6856484589cb9fb049a26c8a866ede19bab",
+      "alt": "Me & My People 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-me-and-my-people/02-input.webp",
+      "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/02-input.webp",
+      "sha256": "1655bc524783446c5c9b427ad355c85beccd5a2a3aefc155727869e24da2ff16",
+      "alt": "Me & My People 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-me-and-my-people/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/03-practice.webp",
+      "sha256": "ccc30016998926a2de16feaff6c6fd2ba15fc33001489bd07020156c2951dd82",
+      "alt": "Me & My People 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-me-and-my-people/04-check.webp",
+      "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/04-check.webp",
+      "sha256": "b8808f192fc1bf4967d9f93afebaa6607e6f6cede284e4a04b6281821c9944eb",
+      "alt": "Me & My People 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-me-and-my-people/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/05-speak-write.webp",
+      "sha256": "35f42dbfb50af2532b94883aaa1746e22d4b34690302fc16742a4ac336881ede",
+      "alt": "Me & My People 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-3-4-me-and-my-people/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/06-answers.webp",
+      "sha256": "d2e4cdda8a4e5fe21d3c7e2713d0316bd4d9a4b4e8cd6b2202a605dc62b5ff67",
+      "alt": "Me & My People 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-3-4-me-and-my-people/english-3-4-me-and-my-people.pdf",
+    "pageCount": 6,
+    "sha256": "62d88a0c40accdd698f293f6bf4cbcfbc7ce2adebdb1906ee5dc71c982bbddde"
+  },
+  "transcriptPath": "/workbooks/english-3-4-me-and-my-people/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

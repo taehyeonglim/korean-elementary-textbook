@@ -1,7 +1,7 @@
 ---
 import WorkbookGallery from "../../../components/WorkbookGallery.astro";
 import BaseLayout from "../../../layouts/BaseLayout.astro";
-import { GRADE_BAND_LABELS, LEVEL_LABELS, publicAsset, publishedWorkbooks, type Workbook } from "../../../lib/catalog";
+import { GRADE_BAND_LABELS, LEVEL_LABELS, publicAsset, publishedWorkbooks, type ProjectLevel, type Workbook } from "../../../lib/catalog";
 
 export function getStaticPaths() {
   return publishedWorkbooks("math").map((workbook) => ({ params: { slug: workbook.slug }, props: { workbook } }));
@@ -23,7 +23,7 @@ const pages = [...workbook.pages].sort((a, b) => a.order - b.order);
           <a class="button button--primary" href={publicAsset(workbook.pdf.path)} download>PDF 내려받기 <span aria-hidden="true">↓</span></a>
           <a class="button button--plain" href={publicAsset(workbook.transcriptPath)}>문항·정답 전문 보기 <span aria-hidden="true">↗</span></a>
         </div>
-        <p class="level-note">{workbook.levels.map((level) => LEVEL_LABELS[level]).join(" · ")}은 프로젝트 자체 학습 단계이며 국가 공식 성취수준이 아닙니다.</p>
+        <p class="level-note">{(workbook.levels as ProjectLevel[]).map((level) => LEVEL_LABELS[level]).join(" · ")}은 프로젝트 자체 학습 단계이며 국가 공식 성취수준이 아닙니다.</p>
       </div>
       <aside class="detail-meta" aria-label="학습지 정보">
         <dl>

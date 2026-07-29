@@ -1,6 +1,6 @@
 # 초등 학습지 한 장
 
-2022 개정 교육과정에 연결된 무료 초등 학습지를 과목별로 탐색하고 PDF로 내려받는 정적 사이트입니다. 현재 수학 53권을 공개하고 있으며, 영어 과목 공간은 교육과정 구조를 바탕으로 준비 중입니다.
+2022 개정 교육과정에 연결된 무료 초등 학습지를 과목별로 탐색하고 PDF로 내려받는 정적 사이트입니다. 현재 수학 53권과 영어 16권을 공개하고 있습니다. 영어 컬렉션은 40개 성취기준 전체를 input → practice → production 흐름의 6쪽 학습지로 연결합니다.
 
 ## 개발
 
@@ -20,8 +20,6 @@ npm run build
 - `npm run validate:public`: Pages 산출물 allowlist 및 비공개 자료 유출 검사
 
 GitHub Pages의 고정 배포 경로는 `/korean-elementary-textbook/`입니다. Pages 환경에서 GitHub Actions를 허용하고 배포 소스를 **GitHub Actions**로 설정해야 합니다.
-
-## Gongnyang Prompt Kit
 
 ## Gongnyang Prompt Kit
 

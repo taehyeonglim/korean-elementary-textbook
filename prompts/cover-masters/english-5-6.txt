@@ -1,0 +1,11 @@
+# 1. Scene
+A child-friendly editorial key art for an upper-elementary English workbook cover: three Korean elementary students collaborating around a large folded neighborhood map and a tablet-sized story panel, one tracing a route, one arranging short message cards, and one presenting an idea with an open hand. Small visual motifs of a calendar, location pin, envelope, book, and speech shapes connect as a flowing path through the scene. Reserve a calm pale-sky band across the upper quarter and a clean warm-paper band across the lower eighth for deterministic title and credit overlays. The complete image contains only illustrated people, objects, abstract letter-like shapes, and open space.
+# 2. Camera
+Slightly elevated three-quarter view, medium-wide composition with layered depth and strong vertical reading order.
+# 3. Lighting
+Soft daylight from upper left, open shadows, warm reflected fill, restrained coral edge light.
+# 4. Color grading
+Deep blue #285A9F, warm paper #FFF7E8, coral #F47C68, navy #17365D, mint #72C7B0.
+# 5. Texture/Medium
+Layered cut-paper gouache illustration, visible paper fibers, crisp geometric accents, subtle screen-print grain.
+AR 2:3

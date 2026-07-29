@@ -1,0 +1,167 @@
+{
+  "id": "english-5-6-detail-detective",
+  "slug": "english-5-6-detail-detective",
+  "subject": "english",
+  "title": "초등 영어 한 장: Detail Detective",
+  "gradeBand": "5-6",
+  "domain": "세부 정보·질문",
+  "module": "Detail Detective",
+  "standardCodes": [
+    "[6영01-03]",
+    "[6영01-04]",
+    "[6영02-07]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "when",
+        "언제"
+      ],
+      [
+        "where",
+        "어디"
+      ],
+      [
+        "who",
+        "누구"
+      ],
+      [
+        "bring",
+        "가져오다"
+      ],
+      [
+        "meet",
+        "만나다"
+      ],
+      [
+        "library",
+        "도서관"
+      ]
+    ],
+    "text": [
+      "Book Club Notice",
+      "When: Friday, 3:30 p.m.",
+      "Where: School library",
+      "Bring: one favorite book",
+      "Meet Ms. Han by the front desk."
+    ],
+    "practice": [
+      [
+        "모임 요일을 쓰세요.",
+        "Friday"
+      ],
+      [
+        "모임 시각을 쓰세요.",
+        "3:30 p.m."
+      ],
+      [
+        "장소를 쓰세요.",
+        "school library"
+      ],
+      [
+        "가져갈 것을 쓰세요.",
+        "one favorite book"
+      ],
+      [
+        "만날 사람을 쓰세요.",
+        "Ms. Han"
+      ]
+    ],
+    "check": [
+      [
+        "When is the club?",
+        "Friday at 3:30 p.m."
+      ],
+      [
+        "Where do students meet Ms. Han?",
+        "by the front desk"
+      ],
+      [
+        "What question asks for a place?",
+        "Where is the club?"
+      ]
+    ],
+    "produce": [
+      "공지의 세부 정보를 묻는 질문 3개 말하기",
+      "나만의 짧은 모임 공지 쓰기"
+    ],
+    "model": "Art Club · Tuesday, 2:30 p.m. · Art room · Bring a pencil."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-5-6-detail-detective/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-5-6-detail-detective/01-cover.webp",
+      "sha256": "1f3e52bdffd821ca27a7689287e609d946116bb018b1be343e86ca2ecfb14765",
+      "alt": "Detail Detective 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-detail-detective/02-input.webp",
+      "thumbnailPath": "/workbooks/english-5-6-detail-detective/02-input.webp",
+      "sha256": "39ed196ba1c0f8edd9029321919db170e2e34b8810e47f9ef8e2e824a527410a",
+      "alt": "Detail Detective 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-detail-detective/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-5-6-detail-detective/03-practice.webp",
+      "sha256": "299cf2853547f6cc20ef8358fe00200bda943dfeebd005cd3559e336f5a7e836",
+      "alt": "Detail Detective 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-detail-detective/04-check.webp",
+      "thumbnailPath": "/workbooks/english-5-6-detail-detective/04-check.webp",
+      "sha256": "44a69bbbec4212fa50c4f3d049dc7467de611aa0f832096843675035224427e5",
+      "alt": "Detail Detective 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-detail-detective/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-5-6-detail-detective/05-speak-write.webp",
+      "sha256": "ce2a530ab8f5e5de7cca4add430e62cdf8ab80873875507084c8310496717277",
+      "alt": "Detail Detective 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-5-6-detail-detective/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-5-6-detail-detective/06-answers.webp",
+      "sha256": "b765c6f96ed6ab5235f7f133cf0ab6a18020a5c4c556fed14e9dc4d3286619ec",
+      "alt": "Detail Detective 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-5-6-detail-detective/english-5-6-detail-detective.pdf",
+    "pageCount": 6,
+    "sha256": "0580428d5286b545aefd35af2870cd370e9be3868de867bdbc3f431c9bf507c0"
+  },
+  "transcriptPath": "/workbooks/english-5-6-detail-detective/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

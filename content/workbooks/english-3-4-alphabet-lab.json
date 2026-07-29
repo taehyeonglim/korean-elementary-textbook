@@ -1,0 +1,168 @@
+{
+  "id": "english-3-4-alphabet-lab",
+  "slug": "english-3-4-alphabet-lab",
+  "subject": "english",
+  "title": "초등 영어 한 장: Alphabet Lab",
+  "gradeBand": "3-4",
+  "domain": "알파벳·소리",
+  "module": "Alphabet Lab",
+  "standardCodes": [
+    "[4영01-01]",
+    "[4영01-02]",
+    "[4영02-02]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "A a",
+        "apple"
+      ],
+      [
+        "B b",
+        "book"
+      ],
+      [
+        "C c",
+        "cat"
+      ],
+      [
+        "D d",
+        "desk"
+      ],
+      [
+        "E e",
+        "egg"
+      ],
+      [
+        "F f",
+        "fish"
+      ]
+    ],
+    "text": [
+      "A is for apple.",
+      "B is for book.",
+      "C is for cat.",
+      "D is for desk.",
+      "E is for egg.",
+      "F is for fish."
+    ],
+    "practice": [
+      [
+        "A의 소문자를 쓰세요.",
+        "a"
+      ],
+      [
+        "b의 대문자를 쓰세요.",
+        "B"
+      ],
+      [
+        "cat의 첫 글자를 쓰세요.",
+        "c"
+      ],
+      [
+        "fish의 첫 글자를 쓰세요.",
+        "f"
+      ],
+      [
+        "book과 같은 첫소리 단어를 고르세요: desk / ball",
+        "ball"
+      ]
+    ],
+    "check": [
+      [
+        "Which word begins with C?",
+        "cat"
+      ],
+      [
+        "Which word begins with E?",
+        "egg"
+      ],
+      [
+        "Write the pair for D.",
+        "D d"
+      ]
+    ],
+    "produce": [
+      "내 이름의 첫 글자를 대문자와 소문자로 쓰기",
+      "교실에서 찾은 영어 글자 3개 쓰기"
+    ],
+    "model": "T t · P p · B b"
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-3-4-alphabet-lab/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/01-cover.webp",
+      "sha256": "580aead00ceb593eab310d637586eb829eb7019f9259975dcced115670210797",
+      "alt": "Alphabet Lab 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-alphabet-lab/02-input.webp",
+      "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/02-input.webp",
+      "sha256": "ba8c27d0ffd5609dfadb91631f6f698e799b5ddea39afe1d844261e5525d7530",
+      "alt": "Alphabet Lab 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-alphabet-lab/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/03-practice.webp",
+      "sha256": "dc2a99b9b277a96bbbe04825eabffaa8cbdfaacfba37b8ffca0f379a32b8f352",
+      "alt": "Alphabet Lab 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-alphabet-lab/04-check.webp",
+      "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/04-check.webp",
+      "sha256": "f2bc3a9630a116c55fd0766cfd10b3e61de95d06ae4a391d4de92a4a7a2b5ea8",
+      "alt": "Alphabet Lab 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-alphabet-lab/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/05-speak-write.webp",
+      "sha256": "594cf6e3a8149417a06a3cf069634bb9a7887b2c5b404efdb5269a5361cd2606",
+      "alt": "Alphabet Lab 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-3-4-alphabet-lab/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/06-answers.webp",
+      "sha256": "c21d42a0283cb6992c382d95c321da4b048efc6de59cbf0724c29daf5618ed6a",
+      "alt": "Alphabet Lab 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-3-4-alphabet-lab/english-3-4-alphabet-lab.pdf",
+    "pageCount": 6,
+    "sha256": "5014f9727f7618596a6e11b20867880371eac6a7c453230ace278d1c4247b7b5"
+  },
+  "transcriptPath": "/workbooks/english-3-4-alphabet-lab/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

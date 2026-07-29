@@ -397,6 +397,2669 @@
       "subject": "math"
     },
     {
+      "id": "english-3-4-alphabet-lab",
+      "slug": "english-3-4-alphabet-lab",
+      "subject": "english",
+      "title": "초등 영어 한 장: Alphabet Lab",
+      "gradeBand": "3-4",
+      "domain": "알파벳·소리",
+      "module": "Alphabet Lab",
+      "standardCodes": [
+        "[4영01-01]",
+        "[4영01-02]",
+        "[4영02-02]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "A a",
+            "apple"
+          ],
+          [
+            "B b",
+            "book"
+          ],
+          [
+            "C c",
+            "cat"
+          ],
+          [
+            "D d",
+            "desk"
+          ],
+          [
+            "E e",
+            "egg"
+          ],
+          [
+            "F f",
+            "fish"
+          ]
+        ],
+        "text": [
+          "A is for apple.",
+          "B is for book.",
+          "C is for cat.",
+          "D is for desk.",
+          "E is for egg.",
+          "F is for fish."
+        ],
+        "practice": [
+          [
+            "A의 소문자를 쓰세요.",
+            "a"
+          ],
+          [
+            "b의 대문자를 쓰세요.",
+            "B"
+          ],
+          [
+            "cat의 첫 글자를 쓰세요.",
+            "c"
+          ],
+          [
+            "fish의 첫 글자를 쓰세요.",
+            "f"
+          ],
+          [
+            "book과 같은 첫소리 단어를 고르세요: desk / ball",
+            "ball"
+          ]
+        ],
+        "check": [
+          [
+            "Which word begins with C?",
+            "cat"
+          ],
+          [
+            "Which word begins with E?",
+            "egg"
+          ],
+          [
+            "Write the pair for D.",
+            "D d"
+          ]
+        ],
+        "produce": [
+          "내 이름의 첫 글자를 대문자와 소문자로 쓰기",
+          "교실에서 찾은 영어 글자 3개 쓰기"
+        ],
+        "model": "T t · P p · B b"
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-3-4-alphabet-lab/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/01-cover.webp",
+          "sha256": "580aead00ceb593eab310d637586eb829eb7019f9259975dcced115670210797",
+          "alt": "Alphabet Lab 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-alphabet-lab/02-input.webp",
+          "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/02-input.webp",
+          "sha256": "ba8c27d0ffd5609dfadb91631f6f698e799b5ddea39afe1d844261e5525d7530",
+          "alt": "Alphabet Lab 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-alphabet-lab/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/03-practice.webp",
+          "sha256": "dc2a99b9b277a96bbbe04825eabffaa8cbdfaacfba37b8ffca0f379a32b8f352",
+          "alt": "Alphabet Lab 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-alphabet-lab/04-check.webp",
+          "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/04-check.webp",
+          "sha256": "f2bc3a9630a116c55fd0766cfd10b3e61de95d06ae4a391d4de92a4a7a2b5ea8",
+          "alt": "Alphabet Lab 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-alphabet-lab/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/05-speak-write.webp",
+          "sha256": "594cf6e3a8149417a06a3cf069634bb9a7887b2c5b404efdb5269a5361cd2606",
+          "alt": "Alphabet Lab 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-3-4-alphabet-lab/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-3-4-alphabet-lab/06-answers.webp",
+          "sha256": "c21d42a0283cb6992c382d95c321da4b048efc6de59cbf0724c29daf5618ed6a",
+          "alt": "Alphabet Lab 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-3-4-alphabet-lab/english-3-4-alphabet-lab.pdf",
+        "pageCount": 6,
+        "sha256": "5014f9727f7618596a6e11b20867880371eac6a7c453230ace278d1c4247b7b5"
+      },
+      "transcriptPath": "/workbooks/english-3-4-alphabet-lab/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-3-4-classroom-actions",
+      "slug": "english-3-4-classroom-actions",
+      "subject": "english",
+      "title": "초등 영어 한 장: Classroom Actions",
+      "gradeBand": "3-4",
+      "domain": "교실 영어",
+      "module": "Classroom Actions",
+      "standardCodes": [
+        "[4영01-05]",
+        "[4영02-04]",
+        "[4영02-06]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "open",
+            "열다"
+          ],
+          [
+            "close",
+            "닫다"
+          ],
+          [
+            "stand",
+            "서다"
+          ],
+          [
+            "sit",
+            "앉다"
+          ],
+          [
+            "listen",
+            "듣다"
+          ],
+          [
+            "write",
+            "쓰다"
+          ]
+        ],
+        "text": [
+          "Open your book.",
+          "Listen to the teacher.",
+          "Write your name.",
+          "Close your book.",
+          "Stand up and say, “Done!”"
+        ],
+        "practice": [
+          [
+            "책을 펴라는 문장을 쓰세요.",
+            "Open your book."
+          ],
+          [
+            "이름을 쓰라는 문장을 쓰세요.",
+            "Write your name."
+          ],
+          [
+            "앉으라는 표현을 쓰세요.",
+            "Sit down."
+          ],
+          [
+            "close의 반대말을 쓰세요.",
+            "open"
+          ],
+          [
+            "동작 순서의 첫 문장을 쓰세요.",
+            "Open your book."
+          ]
+        ],
+        "check": [
+          [
+            "What do you write?",
+            "your name"
+          ],
+          [
+            "What do you close?",
+            "your book"
+          ],
+          [
+            "What do you say at the end?",
+            "Done!"
+          ]
+        ],
+        "produce": [
+          "친구에게 교실 행동 지시 2개 말하기",
+          "나만의 3단계 교실 규칙 쓰기"
+        ],
+        "model": "Stand up. Open your book. Write one word."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-3-4-classroom-actions/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-3-4-classroom-actions/01-cover.webp",
+          "sha256": "7ba8aeb0face9b616519df7d370f93966314b8fdaaa88b56f8cc22c64968cc6b",
+          "alt": "Classroom Actions 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-classroom-actions/02-input.webp",
+          "thumbnailPath": "/workbooks/english-3-4-classroom-actions/02-input.webp",
+          "sha256": "4dd70970a13e9c5a2e0e8255b37c17e936f68ffe5a91e2e2affdee8328b595e6",
+          "alt": "Classroom Actions 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-classroom-actions/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-3-4-classroom-actions/03-practice.webp",
+          "sha256": "34c5fa91c3cba58b9c8978eb3de05e8742f774d4c6fa8acd80b8ed48b31c493a",
+          "alt": "Classroom Actions 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-classroom-actions/04-check.webp",
+          "thumbnailPath": "/workbooks/english-3-4-classroom-actions/04-check.webp",
+          "sha256": "109bb9b5213184c1a8a87ac65344a821c736f2a7a767e20a787ff8f72356f6a3",
+          "alt": "Classroom Actions 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-classroom-actions/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-3-4-classroom-actions/05-speak-write.webp",
+          "sha256": "df5eda627f721f2a31a675f93b71e9b1beaf71390ea50acaef49848a0648bbe3",
+          "alt": "Classroom Actions 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-3-4-classroom-actions/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-3-4-classroom-actions/06-answers.webp",
+          "sha256": "fe80cbfb32c7eaef1bdae24ede97a2cf77262aa18d8aee399b5921a395177879",
+          "alt": "Classroom Actions 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-3-4-classroom-actions/english-3-4-classroom-actions.pdf",
+        "pageCount": 6,
+        "sha256": "411a054b2043a06f003a56c2b1e94132cb1e5a8c750738c0116e6504ac71d76a"
+      },
+      "transcriptPath": "/workbooks/english-3-4-classroom-actions/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-3-4-culture-around-us",
+      "slug": "english-3-4-culture-around-us",
+      "subject": "english",
+      "title": "초등 영어 한 장: Hello Around Us",
+      "gradeBand": "3-4",
+      "domain": "문화·존중",
+      "module": "Hello Around Us",
+      "standardCodes": [
+        "[4영01-10]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "hello",
+            "안녕하세요"
+          ],
+          [
+            "bow",
+            "인사로 고개 숙이기"
+          ],
+          [
+            "wave",
+            "손 흔들기"
+          ],
+          [
+            "share",
+            "나누다"
+          ],
+          [
+            "different",
+            "다른"
+          ],
+          [
+            "respect",
+            "존중하다"
+          ]
+        ],
+        "text": [
+          "People greet in different ways.",
+          "Some people wave. Some people bow.",
+          "Families eat different foods.",
+          "Different can be interesting.",
+          "We listen, learn, and show respect."
+        ],
+        "practice": [
+          [
+            "사람들이 하는 인사 2가지를 쓰세요.",
+            "wave, bow"
+          ],
+          [
+            "가족마다 다를 수 있는 것을 쓰세요.",
+            "foods"
+          ],
+          [
+            "different의 뜻을 쓰세요.",
+            "다른"
+          ],
+          [
+            "존중하는 행동 2개를 찾으세요.",
+            "listen, learn"
+          ],
+          [
+            "글의 중심 낱말을 쓰세요.",
+            "respect"
+          ]
+        ],
+        "check": [
+          [
+            "Do all people greet in one way?",
+            "No."
+          ],
+          [
+            "Can different be interesting?",
+            "Yes."
+          ],
+          [
+            "How do we show respect?",
+            "We listen and learn."
+          ]
+        ],
+        "produce": [
+          "내가 아는 인사 방법 하나 소개하기",
+          "다른 생활 방식을 존중하는 약속 쓰기"
+        ],
+        "model": "We can listen. We can ask kindly. We respect differences."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-3-4-culture-around-us/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-3-4-culture-around-us/01-cover.webp",
+          "sha256": "3c3e0b8259c09d87a7683fdde266dcf10d370345ba79d815eb542cd56390aaca",
+          "alt": "Hello Around Us 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-culture-around-us/02-input.webp",
+          "thumbnailPath": "/workbooks/english-3-4-culture-around-us/02-input.webp",
+          "sha256": "0cdd0a3e230993c2be194447b66da0f3d1659d3b498ba79398a788aa71f24749",
+          "alt": "Hello Around Us 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-culture-around-us/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-3-4-culture-around-us/03-practice.webp",
+          "sha256": "45c5de15bc525c8b0c364d64c2d9f3b228d22cf2e5789c42675e282c240d0338",
+          "alt": "Hello Around Us 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-culture-around-us/04-check.webp",
+          "thumbnailPath": "/workbooks/english-3-4-culture-around-us/04-check.webp",
+          "sha256": "fd3aa53bd39816d27f9f661577c4f85a299d01f4cd92a68a3a9982c068d169ed",
+          "alt": "Hello Around Us 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-culture-around-us/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-3-4-culture-around-us/05-speak-write.webp",
+          "sha256": "938296fab9c74e696d7b802083e470a47909aec54326ce2380aa47bca4a466b3",
+          "alt": "Hello Around Us 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-3-4-culture-around-us/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-3-4-culture-around-us/06-answers.webp",
+          "sha256": "da9e3098407769095a242caf245312ecf7fc8f8133988702939afb15417de494",
+          "alt": "Hello Around Us 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-3-4-culture-around-us/english-3-4-culture-around-us.pdf",
+        "pageCount": 6,
+        "sha256": "0ab2129c68a8680c767318c7260ea3408532028fc0a9e555b50c6218b975bac4"
+      },
+      "transcriptPath": "/workbooks/english-3-4-culture-around-us/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-3-4-feelings-and-kind-talk",
+      "slug": "english-3-4-feelings-and-kind-talk",
+      "subject": "english",
+      "title": "초등 영어 한 장: Feelings & Kind Talk",
+      "gradeBand": "3-4",
+      "domain": "감정·예절",
+      "module": "Feelings & Kind Talk",
+      "standardCodes": [
+        "[4영02-07]",
+        "[4영02-10]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "happy",
+            "기쁜"
+          ],
+          [
+            "sad",
+            "슬픈"
+          ],
+          [
+            "tired",
+            "피곤한"
+          ],
+          [
+            "sorry",
+            "미안한"
+          ],
+          [
+            "please",
+            "부탁할 때"
+          ],
+          [
+            "thank you",
+            "고마울 때"
+          ]
+        ],
+        "text": [
+          "A: How are you?",
+          "B: I’m tired.",
+          "A: Please sit here.",
+          "B: Thank you.",
+          "A: You’re welcome."
+        ],
+        "practice": [
+          [
+            "기분을 묻는 문장을 쓰세요.",
+            "How are you?"
+          ],
+          [
+            "피곤하다고 답하세요.",
+            "I’m tired."
+          ],
+          [
+            "부탁할 때 덧붙이는 말을 쓰세요.",
+            "please"
+          ],
+          [
+            "도움을 받았을 때 하는 말을 쓰세요.",
+            "Thank you."
+          ],
+          [
+            "Thank you에 알맞게 답하세요.",
+            "You’re welcome."
+          ]
+        ],
+        "check": [
+          [
+            "How does B feel?",
+            "tired"
+          ],
+          [
+            "What kind word does A use?",
+            "please"
+          ],
+          [
+            "Does the talk end politely?",
+            "Yes."
+          ]
+        ],
+        "produce": [
+          "happy, sad, tired 중 오늘의 기분 말하기",
+          "부탁과 감사가 들어간 4줄 대화 쓰기"
+        ],
+        "model": "A: How are you? B: I’m happy. A: Great! B: Thank you."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/01-cover.webp",
+          "sha256": "7d867a4346627f50ee058a075318e52d185b1045954fd8eb90d54cbf116b9300",
+          "alt": "Feelings & Kind Talk 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/02-input.webp",
+          "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/02-input.webp",
+          "sha256": "301d3cbd5f614264c833d2c71067486ef948b99f8da777bc354c851dd0363aac",
+          "alt": "Feelings & Kind Talk 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/03-practice.webp",
+          "sha256": "e83a39b582bcd2ac0170f0ddeab417ebd681b1fe55823fabb193e26226eba1b9",
+          "alt": "Feelings & Kind Talk 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/04-check.webp",
+          "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/04-check.webp",
+          "sha256": "0a9230aac620b69166b17f123a06a6573cdf1ad15a4cc63f2a8f9eeca54e0726",
+          "alt": "Feelings & Kind Talk 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/05-speak-write.webp",
+          "sha256": "38328540a25acff9d0642b5ab915c27e4150e45d6c7f27e75c90a15bf44fea68",
+          "alt": "Feelings & Kind Talk 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/06-answers.webp",
+          "sha256": "00ed409cfccd19bb8b5dbfe71258c1a312ee5c2946e26181cd81ce6af54cef8c",
+          "alt": "Feelings & Kind Talk 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-3-4-feelings-and-kind-talk/english-3-4-feelings-and-kind-talk.pdf",
+        "pageCount": 6,
+        "sha256": "fac9ead324260a5c1e2c4c6c8325d9b0012cda9e39eebfa20aee913d0ecf8bd4"
+      },
+      "transcriptPath": "/workbooks/english-3-4-feelings-and-kind-talk/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-3-4-me-and-my-people",
+      "slug": "english-3-4-me-and-my-people",
+      "subject": "english",
+      "title": "초등 영어 한 장: Me & My People",
+      "gradeBand": "3-4",
+      "domain": "소개·대화",
+      "module": "Me & My People",
+      "standardCodes": [
+        "[4영01-06]",
+        "[4영02-05]",
+        "[4영02-08]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "name",
+            "이름"
+          ],
+          [
+            "friend",
+            "친구"
+          ],
+          [
+            "kind",
+            "친절한"
+          ],
+          [
+            "funny",
+            "재미있는"
+          ],
+          [
+            "like",
+            "좋아하다"
+          ],
+          [
+            "together",
+            "함께"
+          ]
+        ],
+        "text": [
+          "Hi, I’m Mina.",
+          "I am ten years old.",
+          "This is my friend, Joon.",
+          "He is kind and funny.",
+          "We like drawing together."
+        ],
+        "practice": [
+          [
+            "Mina의 나이는 몇 살인가요?",
+            "ten"
+          ],
+          [
+            "Joon을 나타내는 낱말 2개를 쓰세요.",
+            "kind, funny"
+          ],
+          [
+            "둘이 함께 좋아하는 일은 무엇인가요?",
+            "drawing"
+          ],
+          [
+            "이름을 묻는 문장을 쓰세요.",
+            "What’s your name?"
+          ],
+          [
+            "좋아하는 것을 묻는 문장을 쓰세요.",
+            "What do you like?"
+          ]
+        ],
+        "check": [
+          [
+            "Who is Joon?",
+            "Mina’s friend"
+          ],
+          [
+            "Is Joon kind?",
+            "Yes, he is."
+          ],
+          [
+            "What do they like?",
+            "They like drawing."
+          ]
+        ],
+        "produce": [
+          "짝에게 이름과 좋아하는 것 묻기",
+          "나와 친구를 소개하는 3문장 쓰기"
+        ],
+        "model": "I’m Yuna. This is Min. We like soccer."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-3-4-me-and-my-people/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/01-cover.webp",
+          "sha256": "735ef7dad81bbdd9d728aae08f56d6856484589cb9fb049a26c8a866ede19bab",
+          "alt": "Me & My People 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-me-and-my-people/02-input.webp",
+          "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/02-input.webp",
+          "sha256": "1655bc524783446c5c9b427ad355c85beccd5a2a3aefc155727869e24da2ff16",
+          "alt": "Me & My People 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-me-and-my-people/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/03-practice.webp",
+          "sha256": "ccc30016998926a2de16feaff6c6fd2ba15fc33001489bd07020156c2951dd82",
+          "alt": "Me & My People 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-me-and-my-people/04-check.webp",
+          "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/04-check.webp",
+          "sha256": "b8808f192fc1bf4967d9f93afebaa6607e6f6cede284e4a04b6281821c9944eb",
+          "alt": "Me & My People 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-me-and-my-people/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/05-speak-write.webp",
+          "sha256": "35f42dbfb50af2532b94883aaa1746e22d4b34690302fc16742a4ac336881ede",
+          "alt": "Me & My People 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-3-4-me-and-my-people/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-3-4-me-and-my-people/06-answers.webp",
+          "sha256": "d2e4cdda8a4e5fe21d3c7e2713d0316bd4d9a4b4e8cd6b2202a605dc62b5ff67",
+          "alt": "Me & My People 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-3-4-me-and-my-people/english-3-4-me-and-my-people.pdf",
+        "pageCount": 6,
+        "sha256": "62d88a0c40accdd698f293f6bf4cbcfbc7ce2adebdb1906ee5dc71c982bbddde"
+      },
+      "transcriptPath": "/workbooks/english-3-4-me-and-my-people/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-3-4-smart-reading",
+      "slug": "english-3-4-smart-reading",
+      "subject": "english",
+      "title": "초등 영어 한 장: Smart Reading",
+      "gradeBand": "3-4",
+      "domain": "읽기 전략·매체",
+      "module": "Smart Reading",
+      "standardCodes": [
+        "[4영01-07]",
+        "[4영01-08]",
+        "[4영02-09]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "title",
+            "제목"
+          ],
+          [
+            "picture",
+            "그림"
+          ],
+          [
+            "guess",
+            "짐작하다"
+          ],
+          [
+            "read again",
+            "다시 읽다"
+          ],
+          [
+            "key word",
+            "핵심 낱말"
+          ],
+          [
+            "card",
+            "카드"
+          ]
+        ],
+        "text": [
+          "Title: A Rainy Day",
+          "Look at the cloud picture.",
+          "Jin has boots and an umbrella.",
+          "He jumps in a puddle.",
+          "He feels happy."
+        ],
+        "practice": [
+          [
+            "읽기 전에 먼저 볼 두 가지를 쓰세요.",
+            "title, picture"
+          ],
+          [
+            "Jin이 가진 물건 2개를 쓰세요.",
+            "boots, umbrella"
+          ],
+          [
+            "모르는 문장이 있으면 사용할 전략을 쓰세요.",
+            "read again"
+          ],
+          [
+            "날씨를 나타내는 낱말을 쓰세요.",
+            "rainy"
+          ],
+          [
+            "Jin의 기분을 쓰세요.",
+            "happy"
+          ]
+        ],
+        "check": [
+          [
+            "What is the title?",
+            "A Rainy Day"
+          ],
+          [
+            "Where does Jin jump?",
+            "in a puddle"
+          ],
+          [
+            "Which clue shows the weather?",
+            "cloud / boots / umbrella"
+          ]
+        ],
+        "produce": [
+          "제목과 그림 단서로 다음 장면 짐작해 말하기",
+          "핵심 낱말 3개로 디지털 카드 문구 만들기"
+        ],
+        "model": "Rainy day · red boots · happy jump"
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-3-4-smart-reading/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-3-4-smart-reading/01-cover.webp",
+          "sha256": "b09b67fb888b6465137fa90ec479c15c32c7fb82ec4269d13b6f0d3268d0bf72",
+          "alt": "Smart Reading 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-smart-reading/02-input.webp",
+          "thumbnailPath": "/workbooks/english-3-4-smart-reading/02-input.webp",
+          "sha256": "a78f672d3158bc073a3fbca7b079bc659cc127cd223b5eb46f217459b8774757",
+          "alt": "Smart Reading 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-smart-reading/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-3-4-smart-reading/03-practice.webp",
+          "sha256": "0d672fa0c0ba7043e1f11bf781e6dd3e8705ea879ccff60b908b0f5d4d823ae9",
+          "alt": "Smart Reading 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-smart-reading/04-check.webp",
+          "thumbnailPath": "/workbooks/english-3-4-smart-reading/04-check.webp",
+          "sha256": "8bd15df26d6949c68657471d7bfe9e335bd1127b037faf05ad18548d6394c2ec",
+          "alt": "Smart Reading 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-smart-reading/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-3-4-smart-reading/05-speak-write.webp",
+          "sha256": "a3bb8f978dd449c55c37a202f2fdba874080b71d87301d378b4688e87c184dfc",
+          "alt": "Smart Reading 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-3-4-smart-reading/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-3-4-smart-reading/06-answers.webp",
+          "sha256": "90b992b07630a2228bb7873453b3bb198677a1f0a29512a4b739d906571ee079",
+          "alt": "Smart Reading 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-3-4-smart-reading/english-3-4-smart-reading.pdf",
+        "pageCount": 6,
+        "sha256": "c4cb74e17a654b9e401472ad0816cf30b841f28bd8d0009b10b9389d12235dd9"
+      },
+      "transcriptPath": "/workbooks/english-3-4-smart-reading/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-3-4-sound-and-rhythm",
+      "slug": "english-3-4-sound-and-rhythm",
+      "subject": "english",
+      "title": "초등 영어 한 장: Sound & Rhythm",
+      "gradeBand": "3-4",
+      "domain": "소리·읽기",
+      "module": "Sound & Rhythm",
+      "standardCodes": [
+        "[4영01-03]",
+        "[4영01-04]",
+        "[4영02-01]",
+        "[4영02-03]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "cat",
+            "고양이"
+          ],
+          [
+            "map",
+            "지도"
+          ],
+          [
+            "sun",
+            "해"
+          ],
+          [
+            "run",
+            "달리다"
+          ],
+          [
+            "sit",
+            "앉다"
+          ],
+          [
+            "big",
+            "큰"
+          ]
+        ],
+        "text": [
+          "Cat, cat, on the map.",
+          "Run, run, in the sun.",
+          "Sit, sit, by the big cat.",
+          "Read each line with a steady beat."
+        ],
+        "practice": [
+          [
+            "c_t의 빈 글자를 쓰세요.",
+            "a"
+          ],
+          [
+            "m_p의 빈 글자를 쓰세요.",
+            "a"
+          ],
+          [
+            "s_n의 빈 글자를 쓰세요.",
+            "u"
+          ],
+          [
+            "r_n의 빈 글자를 쓰세요.",
+            "u"
+          ],
+          [
+            "같은 가운데 소리끼리 짝지으세요: cat / sun / map / run",
+            "cat-map, sun-run"
+          ]
+        ],
+        "check": [
+          [
+            "Where is the cat?",
+            "on the map"
+          ],
+          [
+            "What do you do in the sun?",
+            "run"
+          ],
+          [
+            "Which words share the short i sound: sit / big / cat?",
+            "sit, big"
+          ]
+        ],
+        "produce": [
+          "손뼉을 치며 첫 두 문장 읽기",
+          "cat, map, sun, run 중 두 단어로 짧은 구 만들기"
+        ],
+        "model": "a big cat · run in the sun"
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-3-4-sound-and-rhythm/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-3-4-sound-and-rhythm/01-cover.webp",
+          "sha256": "5a7fff91b613d7ec9fd7d7e53a067d2a7e966bed4a20fffa287c8482ef0d035c",
+          "alt": "Sound & Rhythm 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-sound-and-rhythm/02-input.webp",
+          "thumbnailPath": "/workbooks/english-3-4-sound-and-rhythm/02-input.webp",
+          "sha256": "a4d8c6b3adf466841c3dd7ddc74617d43c5f9d91c5f3bff6d1fcb7e73710818f",
+          "alt": "Sound & Rhythm 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-sound-and-rhythm/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-3-4-sound-and-rhythm/03-practice.webp",
+          "sha256": "e67a619ec175f37d3bcefa42ed8fca2a9c3ed7331275acef767e9ebebce3488e",
+          "alt": "Sound & Rhythm 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-sound-and-rhythm/04-check.webp",
+          "thumbnailPath": "/workbooks/english-3-4-sound-and-rhythm/04-check.webp",
+          "sha256": "24e0cc50b45c0e6103d84a6ccc497a2d1f0035947242f4f332ccfa3c3171ebad",
+          "alt": "Sound & Rhythm 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-sound-and-rhythm/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-3-4-sound-and-rhythm/05-speak-write.webp",
+          "sha256": "9f5812efb55fc3c7c7a03f2b4bed544093021d2581962b3b8d22d29f0e019866",
+          "alt": "Sound & Rhythm 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-3-4-sound-and-rhythm/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-3-4-sound-and-rhythm/06-answers.webp",
+          "sha256": "51ed1e6c766198d686efa9b64f112c51fb33466c6f7a5091a4d6576cc7e593ff",
+          "alt": "Sound & Rhythm 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-3-4-sound-and-rhythm/english-3-4-sound-and-rhythm.pdf",
+        "pageCount": 6,
+        "sha256": "f6fe8c15332a89bdcd33e781ba8067fcc3c0d5ec0e3bd56882c486ab6f52d096"
+      },
+      "transcriptPath": "/workbooks/english-3-4-sound-and-rhythm/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-3-4-story-listening",
+      "slug": "english-3-4-story-listening",
+      "subject": "english",
+      "title": "초등 영어 한 장: A Small Seed",
+      "gradeBand": "3-4",
+      "domain": "이야기·공감",
+      "module": "A Small Seed",
+      "standardCodes": [
+        "[4영01-09]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "seed",
+            "씨앗"
+          ],
+          [
+            "soil",
+            "흙"
+          ],
+          [
+            "rain",
+            "비"
+          ],
+          [
+            "sun",
+            "해"
+          ],
+          [
+            "grow",
+            "자라다"
+          ],
+          [
+            "flower",
+            "꽃"
+          ]
+        ],
+        "text": [
+          "A small seed sleeps in the soil.",
+          "Rain comes. The seed wakes up.",
+          "The sun shines. A green stem grows.",
+          "At last, a yellow flower smiles."
+        ],
+        "practice": [
+          [
+            "씨앗이 처음 있는 곳은 어디인가요?",
+            "in the soil"
+          ],
+          [
+            "씨앗을 깨우는 것은 무엇인가요?",
+            "rain"
+          ],
+          [
+            "비 다음에 오는 것은 무엇인가요?",
+            "the sun"
+          ],
+          [
+            "마지막에 피는 것은 무엇인가요?",
+            "a yellow flower"
+          ],
+          [
+            "이야기의 기분을 한 낱말로 쓰세요.",
+            "happy / hopeful"
+          ]
+        ],
+        "check": [
+          [
+            "What color is the stem?",
+            "green"
+          ],
+          [
+            "What color is the flower?",
+            "yellow"
+          ],
+          [
+            "Put in order: flower / seed / stem",
+            "seed, stem, flower"
+          ]
+        ],
+        "produce": [
+          "가장 마음에 드는 장면과 까닭 말하기",
+          "씨앗에게 한 문장 편지 쓰기"
+        ],
+        "model": "Dear Seed, grow strong and bright!"
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-3-4-story-listening/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-3-4-story-listening/01-cover.webp",
+          "sha256": "03d84f8c88118b0df51a7b9bd6f7b6222e48a2f6d971f9529814f5962e92b44c",
+          "alt": "A Small Seed 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-story-listening/02-input.webp",
+          "thumbnailPath": "/workbooks/english-3-4-story-listening/02-input.webp",
+          "sha256": "2b1fc4af7b367b8e9e57db2d140eadef05125ee5844a70fa48f76a99a21ccf2c",
+          "alt": "A Small Seed 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-story-listening/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-3-4-story-listening/03-practice.webp",
+          "sha256": "97ef562d9c80c8b79c5845f875dc4babc66e6aa2c4606443b8d8d4f753965b07",
+          "alt": "A Small Seed 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-story-listening/04-check.webp",
+          "thumbnailPath": "/workbooks/english-3-4-story-listening/04-check.webp",
+          "sha256": "bae90350861a30953aaff10da61c12d6f0c600db4441865e44d29c6610843152",
+          "alt": "A Small Seed 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-3-4-story-listening/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-3-4-story-listening/05-speak-write.webp",
+          "sha256": "5691f645b4926f69f2a7f653c9038e27fb16af2eaf9c43b181a2588a73245221",
+          "alt": "A Small Seed 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-3-4-story-listening/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-3-4-story-listening/06-answers.webp",
+          "sha256": "c0705f258318839d4178e8c9e8e61bfa3209062a16d9cd2ea3913f4030b4dab6",
+          "alt": "A Small Seed 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-3-4-story-listening/english-3-4-story-listening.pdf",
+        "pageCount": 6,
+        "sha256": "1f50138a77988198f7d0b191fef1ea17929809a563fa71c3f54eb5e39a851983"
+      },
+      "transcriptPath": "/workbooks/english-3-4-story-listening/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-5-6-describe-clearly",
+      "slug": "english-5-6-describe-clearly",
+      "subject": "english",
+      "title": "초등 영어 한 장: Describe Clearly",
+      "gradeBand": "5-6",
+      "domain": "묘사·문장",
+      "module": "Describe Clearly",
+      "standardCodes": [
+        "[6영02-02]",
+        "[6영02-03]",
+        "[6영02-04]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "curly",
+            "곱슬곱슬한"
+          ],
+          [
+            "quiet",
+            "조용한"
+          ],
+          [
+            "bright",
+            "밝은"
+          ],
+          [
+            "round",
+            "둥근"
+          ],
+          [
+            "useful",
+            "유용한"
+          ],
+          [
+            "because",
+            "왜냐하면"
+          ]
+        ],
+        "text": [
+          "This is my friend, Sora.",
+          "She has curly hair and a bright smile.",
+          "She is quiet, but she is very helpful.",
+          "Her blue bag is big and useful.",
+          "I like Sora because she is kind."
+        ],
+        "practice": [
+          [
+            "Sora의 머리 모양을 쓰세요.",
+            "curly"
+          ],
+          [
+            "Sora의 미소를 나타내는 낱말을 쓰세요.",
+            "bright"
+          ],
+          [
+            "가방의 색을 쓰세요.",
+            "blue"
+          ],
+          [
+            "문장을 바르게 고치세요: she is kind",
+            "She is kind."
+          ],
+          [
+            "물음표가 필요한 문장을 고르세요: She is kind / Is she kind",
+            "Is she kind?"
+          ]
+        ],
+        "check": [
+          [
+            "What is Sora like?",
+            "quiet, helpful, kind"
+          ],
+          [
+            "What is big and useful?",
+            "her blue bag"
+          ],
+          [
+            "Why does the writer like Sora?",
+            "because she is kind"
+          ]
+        ],
+        "produce": [
+          "친구나 물건의 특징을 3문장으로 말하기",
+          "대문자와 문장 부호를 확인해 묘사 글 쓰기"
+        ],
+        "model": "This is my pencil case. It is round and bright. I like it because it is useful."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-5-6-describe-clearly/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-5-6-describe-clearly/01-cover.webp",
+          "sha256": "fdbb8a9d62fbcd707f2d519020c8496f7b5c151c49494a76b70124e78a2fe5c2",
+          "alt": "Describe Clearly 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-describe-clearly/02-input.webp",
+          "thumbnailPath": "/workbooks/english-5-6-describe-clearly/02-input.webp",
+          "sha256": "98cb0b8f349b860438b080b9e65e023331f26e7d602a1402e06b1307acc69324",
+          "alt": "Describe Clearly 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-describe-clearly/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-5-6-describe-clearly/03-practice.webp",
+          "sha256": "0169cc7b7f90bfc4fbb4faecb45ab5df29db3d9d0481fbdc76da1262977f0eac",
+          "alt": "Describe Clearly 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-describe-clearly/04-check.webp",
+          "thumbnailPath": "/workbooks/english-5-6-describe-clearly/04-check.webp",
+          "sha256": "93d6cd13d18b2a0a853cae76602d60026bae6df19b189b5d1b485107cde2cc3d",
+          "alt": "Describe Clearly 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-describe-clearly/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-5-6-describe-clearly/05-speak-write.webp",
+          "sha256": "1f12e1bd76e5071df1a002543d8d340c8debfd59c42ad1991cf9aca2e77f306c",
+          "alt": "Describe Clearly 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-5-6-describe-clearly/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-5-6-describe-clearly/06-answers.webp",
+          "sha256": "bbbe324ee11cb7cd29d8712da4f03859c471f05f3fcdb745437f6f831fff86a7",
+          "alt": "Describe Clearly 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-5-6-describe-clearly/english-5-6-describe-clearly.pdf",
+        "pageCount": 6,
+        "sha256": "bd810b35b7a250cf3550adcfd5516df607c652fc6e67b76a64e673da593f0174"
+      },
+      "transcriptPath": "/workbooks/english-5-6-describe-clearly/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-5-6-detail-detective",
+      "slug": "english-5-6-detail-detective",
+      "subject": "english",
+      "title": "초등 영어 한 장: Detail Detective",
+      "gradeBand": "5-6",
+      "domain": "세부 정보·질문",
+      "module": "Detail Detective",
+      "standardCodes": [
+        "[6영01-03]",
+        "[6영01-04]",
+        "[6영02-07]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "when",
+            "언제"
+          ],
+          [
+            "where",
+            "어디"
+          ],
+          [
+            "who",
+            "누구"
+          ],
+          [
+            "bring",
+            "가져오다"
+          ],
+          [
+            "meet",
+            "만나다"
+          ],
+          [
+            "library",
+            "도서관"
+          ]
+        ],
+        "text": [
+          "Book Club Notice",
+          "When: Friday, 3:30 p.m.",
+          "Where: School library",
+          "Bring: one favorite book",
+          "Meet Ms. Han by the front desk."
+        ],
+        "practice": [
+          [
+            "모임 요일을 쓰세요.",
+            "Friday"
+          ],
+          [
+            "모임 시각을 쓰세요.",
+            "3:30 p.m."
+          ],
+          [
+            "장소를 쓰세요.",
+            "school library"
+          ],
+          [
+            "가져갈 것을 쓰세요.",
+            "one favorite book"
+          ],
+          [
+            "만날 사람을 쓰세요.",
+            "Ms. Han"
+          ]
+        ],
+        "check": [
+          [
+            "When is the club?",
+            "Friday at 3:30 p.m."
+          ],
+          [
+            "Where do students meet Ms. Han?",
+            "by the front desk"
+          ],
+          [
+            "What question asks for a place?",
+            "Where is the club?"
+          ]
+        ],
+        "produce": [
+          "공지의 세부 정보를 묻는 질문 3개 말하기",
+          "나만의 짧은 모임 공지 쓰기"
+        ],
+        "model": "Art Club · Tuesday, 2:30 p.m. · Art room · Bring a pencil."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-5-6-detail-detective/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-5-6-detail-detective/01-cover.webp",
+          "sha256": "1f3e52bdffd821ca27a7689287e609d946116bb018b1be343e86ca2ecfb14765",
+          "alt": "Detail Detective 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-detail-detective/02-input.webp",
+          "thumbnailPath": "/workbooks/english-5-6-detail-detective/02-input.webp",
+          "sha256": "39ed196ba1c0f8edd9029321919db170e2e34b8810e47f9ef8e2e824a527410a",
+          "alt": "Detail Detective 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-detail-detective/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-5-6-detail-detective/03-practice.webp",
+          "sha256": "299cf2853547f6cc20ef8358fe00200bda943dfeebd005cd3559e336f5a7e836",
+          "alt": "Detail Detective 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-detail-detective/04-check.webp",
+          "thumbnailPath": "/workbooks/english-5-6-detail-detective/04-check.webp",
+          "sha256": "44a69bbbec4212fa50c4f3d049dc7467de611aa0f832096843675035224427e5",
+          "alt": "Detail Detective 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-detail-detective/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-5-6-detail-detective/05-speak-write.webp",
+          "sha256": "ce2a530ab8f5e5de7cca4add430e62cdf8ab80873875507084c8310496717277",
+          "alt": "Detail Detective 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-5-6-detail-detective/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-5-6-detail-detective/06-answers.webp",
+          "sha256": "b765c6f96ed6ab5235f7f133cf0ab6a18020a5c4c556fed14e9dc4d3286619ec",
+          "alt": "Detail Detective 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-5-6-detail-detective/english-5-6-detail-detective.pdf",
+        "pageCount": 6,
+        "sha256": "0580428d5286b545aefd35af2870cd370e9be3868de867bdbc3f431c9bf507c0"
+      },
+      "transcriptPath": "/workbooks/english-5-6-detail-detective/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-5-6-feelings-plans",
+      "slug": "english-5-6-feelings-plans",
+      "subject": "english",
+      "title": "초등 영어 한 장: Feelings, Experiences & Plans",
+      "gradeBand": "5-6",
+      "domain": "감정·경험·계획",
+      "module": "Feelings, Experiences & Plans",
+      "standardCodes": [
+        "[6영02-06]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "excited",
+            "신이 난"
+          ],
+          [
+            "proud",
+            "자랑스러운"
+          ],
+          [
+            "because",
+            "왜냐하면"
+          ],
+          [
+            "yesterday",
+            "어제"
+          ],
+          [
+            "tomorrow",
+            "내일"
+          ],
+          [
+            "plan",
+            "계획"
+          ]
+        ],
+        "text": [
+          "Yesterday, I finished my first long book.",
+          "I felt proud because I did not give up.",
+          "Tomorrow, I will visit the library.",
+          "I plan to choose a mystery story.",
+          "I am excited about my next book."
+        ],
+        "practice": [
+          [
+            "글쓴이가 어제 끝낸 것을 쓰세요.",
+            "a long book"
+          ],
+          [
+            "글쓴이의 기분을 쓰세요.",
+            "proud"
+          ],
+          [
+            "그렇게 느낀 까닭을 쓰세요.",
+            "because the writer did not give up"
+          ],
+          [
+            "내일 갈 장소를 쓰세요.",
+            "the library"
+          ],
+          [
+            "고를 책의 종류를 쓰세요.",
+            "a mystery story"
+          ]
+        ],
+        "check": [
+          [
+            "What happened yesterday?",
+            "The writer finished a long book."
+          ],
+          [
+            "What is the plan for tomorrow?",
+            "Visit the library and choose a mystery story."
+          ],
+          [
+            "How does the writer feel now?",
+            "excited"
+          ]
+        ],
+        "produce": [
+          "최근 경험과 기분을 because로 연결해 말하기",
+          "어제의 경험 1문장과 내일의 계획 2문장 쓰기"
+        ],
+        "model": "Yesterday, I played in a concert. I felt happy because my friends came. Tomorrow, I will rest."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-5-6-feelings-plans/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-5-6-feelings-plans/01-cover.webp",
+          "sha256": "46f3fb41e75dc832675eeb7d4f8e7ce95b47e35030f36547bc90e2513618e12e",
+          "alt": "Feelings, Experiences & Plans 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-feelings-plans/02-input.webp",
+          "thumbnailPath": "/workbooks/english-5-6-feelings-plans/02-input.webp",
+          "sha256": "3556f5820bb4be0f968ed2d31b9b52bbfda17d956423c46521ce992cbabd8f41",
+          "alt": "Feelings, Experiences & Plans 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-feelings-plans/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-5-6-feelings-plans/03-practice.webp",
+          "sha256": "2d3597bdb0b9308a9771114bc0b1fe15f767c84ea19267af46bcc9c9e563e12a",
+          "alt": "Feelings, Experiences & Plans 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-feelings-plans/04-check.webp",
+          "thumbnailPath": "/workbooks/english-5-6-feelings-plans/04-check.webp",
+          "sha256": "38f7b5d00006def9be750f525f4b395b0311f46c8659c5918adb8859d812421c",
+          "alt": "Feelings, Experiences & Plans 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-feelings-plans/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-5-6-feelings-plans/05-speak-write.webp",
+          "sha256": "db6c8157362689b0c7cdd874306706491ca9cc02b8aa46844e9a94eb37103a2d",
+          "alt": "Feelings, Experiences & Plans 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-5-6-feelings-plans/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-5-6-feelings-plans/06-answers.webp",
+          "sha256": "2b85361e8a858ccef6523a9f239cea66630ed379213f96f59a7515b4a7cb2b9c",
+          "alt": "Feelings, Experiences & Plans 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-5-6-feelings-plans/english-5-6-feelings-plans.pdf",
+        "pageCount": 6,
+        "sha256": "a5b47afff94db38fbd9933eb89e602fcb92891bc3b2a5de8259cddb07cfaa9fb"
+      },
+      "transcriptPath": "/workbooks/english-5-6-feelings-plans/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-5-6-find-the-main-idea",
+      "slug": "english-5-6-find-the-main-idea",
+      "subject": "english",
+      "title": "초등 영어 한 장: Find the Main Idea",
+      "gradeBand": "5-6",
+      "domain": "중심 내용·전략",
+      "module": "Find the Main Idea",
+      "standardCodes": [
+        "[6영01-05]",
+        "[6영01-07]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "main idea",
+            "중심 생각"
+          ],
+          [
+            "detail",
+            "세부 내용"
+          ],
+          [
+            "title",
+            "제목"
+          ],
+          [
+            "predict",
+            "예측하다"
+          ],
+          [
+            "scan",
+            "찾아 읽다"
+          ],
+          [
+            "check",
+            "확인하다"
+          ]
+        ],
+        "text": [
+          "Our Class Garden",
+          "Our class grows vegetables behind the school.",
+          "Each team waters the plants on a different day.",
+          "We use the vegetables in a class salad.",
+          "The garden helps us learn and work together."
+        ],
+        "practice": [
+          [
+            "글의 제목을 쓰세요.",
+            "Our Class Garden"
+          ],
+          [
+            "학생들이 기르는 것을 쓰세요.",
+            "vegetables"
+          ],
+          [
+            "학생들이 식물에 하는 일을 쓰세요.",
+            "water the plants"
+          ],
+          [
+            "채소로 만드는 것을 쓰세요.",
+            "a class salad"
+          ],
+          [
+            "가장 알맞은 중심 생각을 쓰세요.",
+            "The class learns and works together through a garden."
+          ]
+        ],
+        "check": [
+          [
+            "Where is the garden?",
+            "behind the school"
+          ],
+          [
+            "Does every team water on the same day?",
+            "No."
+          ],
+          [
+            "Which strategy finds one fact quickly?",
+            "scan"
+          ]
+        ],
+        "produce": [
+          "제목을 보고 읽기 전 예측 말하기",
+          "중심 생각 1문장과 뒷받침 내용 2개 쓰기"
+        ],
+        "model": "Main idea: Our garden brings the class together. Details: Teams water plants. We make salad."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-5-6-find-the-main-idea/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/01-cover.webp",
+          "sha256": "fc846a5d09e1f8d08472bfa722b907c7cb31322c8a08bc947a152262fa9acdf8",
+          "alt": "Find the Main Idea 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-find-the-main-idea/02-input.webp",
+          "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/02-input.webp",
+          "sha256": "7e3d6d16298a2fe013df7cb441cf0f78ac0f814da3b3d56a9c15461ec699330f",
+          "alt": "Find the Main Idea 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-find-the-main-idea/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/03-practice.webp",
+          "sha256": "ae999ff4e45fb6e0a4b39942525e370c3befbb0204959a66cf8e106b0d774fc7",
+          "alt": "Find the Main Idea 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-find-the-main-idea/04-check.webp",
+          "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/04-check.webp",
+          "sha256": "5b2ae7d1c545e731db9b5515eaa1cf09b863d9c1e2d1fe33e2fa5671c2e653c0",
+          "alt": "Find the Main Idea 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-find-the-main-idea/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/05-speak-write.webp",
+          "sha256": "e8838a5e40e564b2ecf088b9fb650a3e603feff069cbda4a397ac73f574c1964",
+          "alt": "Find the Main Idea 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-5-6-find-the-main-idea/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-5-6-find-the-main-idea/06-answers.webp",
+          "sha256": "df7a56a55a0a8a1d6cbbc96292c03d2f190022ab591f24496608fbf5d26dc31b",
+          "alt": "Find the Main Idea 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-5-6-find-the-main-idea/english-5-6-find-the-main-idea.pdf",
+        "pageCount": 6,
+        "sha256": "759c88ee08edd81990f9f456c4d4155436ea3716073b621110bca4ab83934aa9"
+      },
+      "transcriptPath": "/workbooks/english-5-6-find-the-main-idea/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-5-6-sequence-and-howto",
+      "slug": "english-5-6-sequence-and-howto",
+      "subject": "english",
+      "title": "초등 영어 한 장: Sequence & How-to",
+      "gradeBand": "5-6",
+      "domain": "순서·방법",
+      "module": "Sequence & How-to",
+      "standardCodes": [
+        "[6영01-06]",
+        "[6영02-05]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "first",
+            "먼저"
+          ],
+          [
+            "next",
+            "다음에"
+          ],
+          [
+            "then",
+            "그런 다음"
+          ],
+          [
+            "finally",
+            "마지막으로"
+          ],
+          [
+            "pour",
+            "붓다"
+          ],
+          [
+            "mix",
+            "섞다"
+          ]
+        ],
+        "text": [
+          "How to Make Lemon Water",
+          "First, wash one lemon.",
+          "Next, cut the lemon with an adult.",
+          "Then, put the slices in water.",
+          "Finally, mix and enjoy."
+        ],
+        "practice": [
+          [
+            "가장 먼저 하는 일을 쓰세요.",
+            "wash one lemon"
+          ],
+          [
+            "레몬을 자를 때 함께해야 하는 사람은 누구인가요?",
+            "an adult"
+          ],
+          [
+            "물에 넣는 것을 쓰세요.",
+            "the slices"
+          ],
+          [
+            "mix 앞의 순서 낱말을 쓰세요.",
+            "finally"
+          ],
+          [
+            "순서 낱말 4개를 차례로 쓰세요.",
+            "first, next, then, finally"
+          ]
+        ],
+        "check": [
+          [
+            "What comes after washing?",
+            "cut the lemon"
+          ],
+          [
+            "What comes before mixing?",
+            "put the slices in water"
+          ],
+          [
+            "Is this a story or a how-to text?",
+            "a how-to text"
+          ]
+        ],
+        "produce": [
+          "손 씻는 방법을 순서대로 말하기",
+          "4단계 방법 설명문 쓰기"
+        ],
+        "model": "First, turn on the water. Next, use soap. Then, wash well. Finally, dry your hands."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-5-6-sequence-and-howto/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/01-cover.webp",
+          "sha256": "1bf63a67756a148c571a2369fa8274c040c95f787e4db6268444ce13263352a2",
+          "alt": "Sequence & How-to 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-sequence-and-howto/02-input.webp",
+          "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/02-input.webp",
+          "sha256": "f85eea4e74ac2ccb372a2aba182a2fb3907a0efb0c8acc90d6f9ee287b8fad71",
+          "alt": "Sequence & How-to 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-sequence-and-howto/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/03-practice.webp",
+          "sha256": "540a6ac13745bfb47ae50a2ba821860b5d415fc430d3b68684b9021f458adae2",
+          "alt": "Sequence & How-to 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-sequence-and-howto/04-check.webp",
+          "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/04-check.webp",
+          "sha256": "6403ef90e317c9a29fb13c4da05420878eda89ce7c464d41cc8dc119fe554735",
+          "alt": "Sequence & How-to 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-sequence-and-howto/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/05-speak-write.webp",
+          "sha256": "9b573aa478c3448ddc45cb2c292c41b82e7294974cae143494a9a38b45c50f29",
+          "alt": "Sequence & How-to 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-5-6-sequence-and-howto/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-5-6-sequence-and-howto/06-answers.webp",
+          "sha256": "ee716c575a5bca3468853105cbab86460bda0bfa1c2142f319f96669994554a5",
+          "alt": "Sequence & How-to 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-5-6-sequence-and-howto/english-5-6-sequence-and-howto.pdf",
+        "pageCount": 6,
+        "sha256": "ff2f2833c5b29ebbc3c8767da9ccf0a83627c13cbab4e9b5100cedf5502ec926"
+      },
+      "transcriptPath": "/workbooks/english-5-6-sequence-and-howto/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-5-6-speak-with-rhythm",
+      "slug": "english-5-6-speak-with-rhythm",
+      "subject": "english",
+      "title": "초등 영어 한 장: Speak with Rhythm",
+      "gradeBand": "5-6",
+      "domain": "소리·유창성",
+      "module": "Speak with Rhythm",
+      "standardCodes": [
+        "[6영01-01]",
+        "[6영01-02]",
+        "[6영02-01]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "question",
+            "질문"
+          ],
+          [
+            "answer",
+            "대답"
+          ],
+          [
+            "stress",
+            "강세"
+          ],
+          [
+            "rhythm",
+            "리듬"
+          ],
+          [
+            "rise",
+            "올라가다"
+          ],
+          [
+            "fall",
+            "내려가다"
+          ]
+        ],
+        "text": [
+          "Do you like music? ↗",
+          "Yes, I do. ↘",
+          "What do you play? ↘",
+          "I play the drums. ↘",
+          "Read in thought groups: I play / after school."
+        ],
+        "practice": [
+          [
+            "Yes/No 질문 끝에 알맞은 기호를 쓰세요.",
+            "↗"
+          ],
+          [
+            "평서문 끝에 알맞은 기호를 쓰세요.",
+            "↘"
+          ],
+          [
+            "I play the drums.에서 강하게 읽을 핵심어를 쓰세요.",
+            "play, drums"
+          ],
+          [
+            "의미 단위로 나누세요: I practice after school.",
+            "I practice / after school."
+          ],
+          [
+            "질문에 답하세요: Do you like music?",
+            "Yes, I do. / No, I don’t."
+          ]
+        ],
+        "check": [
+          [
+            "Which sentence is a yes/no question?",
+            "Do you like music?"
+          ],
+          [
+            "What does the speaker play?",
+            "the drums"
+          ],
+          [
+            "When does the speaker play?",
+            "after school"
+          ]
+        ],
+        "produce": [
+          "올라가는 억양과 내려가는 억양으로 대화 읽기",
+          "취미에 관한 질문과 대답 2쌍 쓰기"
+        ],
+        "model": "Do you like art? Yes, I do. What do you draw? I draw animals."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-5-6-speak-with-rhythm/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/01-cover.webp",
+          "sha256": "b52cf00740857c9c7d212002627dae10d9394ee284e9884366846db9c42818fc",
+          "alt": "Speak with Rhythm 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-speak-with-rhythm/02-input.webp",
+          "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/02-input.webp",
+          "sha256": "cf8532140405b21a0befa9d51e3b4dc442df863ae0a3f579ad0422ffa420c927",
+          "alt": "Speak with Rhythm 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-speak-with-rhythm/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/03-practice.webp",
+          "sha256": "b0af661684a7ca8c7e1dd5d146d33ba8698c60fe46301a220f30cb5d3ec28918",
+          "alt": "Speak with Rhythm 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-speak-with-rhythm/04-check.webp",
+          "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/04-check.webp",
+          "sha256": "c0078dbd4f4d651e1b0cba8e03a6db19f7d1fc4899fb7afc74611c829cbe783c",
+          "alt": "Speak with Rhythm 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-speak-with-rhythm/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/05-speak-write.webp",
+          "sha256": "689ef80b9dda3acdcd981292a18a47af7976c19537859cca881aee28e186ef98",
+          "alt": "Speak with Rhythm 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-5-6-speak-with-rhythm/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/06-answers.webp",
+          "sha256": "5fa5417bbf2fb1f0205e4f2d51fb7775e525cc71a5c9305a9bae6aca30cff8f6",
+          "alt": "Speak with Rhythm 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-5-6-speak-with-rhythm/english-5-6-speak-with-rhythm.pdf",
+        "pageCount": 6,
+        "sha256": "714c619e00df7f38b015ce781a8a90909a9ce8f501a50853e13ef98bc4363863"
+      },
+      "transcriptPath": "/workbooks/english-5-6-speak-with-rhythm/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-5-6-stories-culture-team",
+      "slug": "english-5-6-stories-culture-team",
+      "subject": "english",
+      "title": "초등 영어 한 장: Stories Connect Us",
+      "gradeBand": "5-6",
+      "domain": "이야기·문화·협력",
+      "module": "Stories Connect Us",
+      "standardCodes": [
+        "[6영01-08]",
+        "[6영01-09]",
+        "[6영01-10]",
+        "[6영02-10]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "story",
+            "이야기"
+          ],
+          [
+            "view",
+            "관점"
+          ],
+          [
+            "custom",
+            "생활 문화"
+          ],
+          [
+            "compare",
+            "비교하다"
+          ],
+          [
+            "agree",
+            "동의하다"
+          ],
+          [
+            "add",
+            "덧붙이다"
+          ]
+        ],
+        "text": [
+          "Four students read a story about sharing food.",
+          "Lina says, “The family eats together on a mat.”",
+          "Joon says, “My family eats together at a table.”",
+          "They find a difference and the same warm feeling.",
+          "The team listens and makes one culture poster together."
+        ],
+        "practice": [
+          [
+            "학생들이 읽은 이야기의 주제를 쓰세요.",
+            "sharing food"
+          ],
+          [
+            "Lina의 가족이 식사하는 곳을 쓰세요.",
+            "on a mat"
+          ],
+          [
+            "Joon의 가족이 식사하는 곳을 쓰세요.",
+            "at a table"
+          ],
+          [
+            "두 가족에게 같은 것을 쓰세요.",
+            "a warm feeling / eating together"
+          ],
+          [
+            "모둠이 함께 만든 것을 쓰세요.",
+            "a culture poster"
+          ]
+        ],
+        "check": [
+          [
+            "Do the students have the same custom?",
+            "No."
+          ],
+          [
+            "What do they do before making the poster?",
+            "They listen."
+          ],
+          [
+            "What attitude does the text show?",
+            "openness and respect"
+          ]
+        ],
+        "produce": [
+          "I agree / I want to add로 모둠 의견 이어 말하기",
+          "두 문화를 비교하고 공통점을 존중하는 4문장 쓰기"
+        ],
+        "model": "The places are different. Both families eat together. I like both ideas. We can learn from each other."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-5-6-stories-culture-team/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/01-cover.webp",
+          "sha256": "067a5e9bd2c3b162b8bfcec27effae1008bc8c95edddf43fdebf54577dd9fc39",
+          "alt": "Stories Connect Us 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-stories-culture-team/02-input.webp",
+          "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/02-input.webp",
+          "sha256": "db77fbd04a89e6fe45c76695c9c080f7d0432fdfe527f703e7aadb3694e8452e",
+          "alt": "Stories Connect Us 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-stories-culture-team/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/03-practice.webp",
+          "sha256": "ee1caeccf745057eee20e33ac6f5e671e904d9a4ca49bf96a5ca06c1fcdbff92",
+          "alt": "Stories Connect Us 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-stories-culture-team/04-check.webp",
+          "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/04-check.webp",
+          "sha256": "ebfbd5ed6ad85b11c25f2f3d93d13bf32df5858c1bc117f7690612542a58e90c",
+          "alt": "Stories Connect Us 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-stories-culture-team/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/05-speak-write.webp",
+          "sha256": "2ae502980fd0e3867d9a15d9743e59c2ad150888eda1fb6a6bad05ffd6b44412",
+          "alt": "Stories Connect Us 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-5-6-stories-culture-team/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/06-answers.webp",
+          "sha256": "399b4c9e81c560851d9986a48a6f1f977680881081f4e4897e5ba0f17059b6db",
+          "alt": "Stories Connect Us 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-5-6-stories-culture-team/english-5-6-stories-culture-team.pdf",
+        "pageCount": 6,
+        "sha256": "19cc48ee1078919881c75465d6a788eddb9d162bf52a465a8217d25f7a3e9299"
+      },
+      "transcriptPath": "/workbooks/english-5-6-stories-culture-team/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "english-5-6-write-for-a-purpose",
+      "slug": "english-5-6-write-for-a-purpose",
+      "subject": "english",
+      "title": "초등 영어 한 장: Write for a Purpose",
+      "gradeBand": "5-6",
+      "domain": "목적 글쓰기·매체",
+      "module": "Write for a Purpose",
+      "standardCodes": [
+        "[6영02-08]",
+        "[6영02-09]"
+      ],
+      "levels": [
+        "input",
+        "practice",
+        "production"
+      ],
+      "activities": {
+        "words": [
+          [
+            "to",
+            "받는 사람"
+          ],
+          [
+            "from",
+            "보낸 사람"
+          ],
+          [
+            "invite",
+            "초대하다"
+          ],
+          [
+            "thank",
+            "감사하다"
+          ],
+          [
+            "date",
+            "날짜"
+          ],
+          [
+            "place",
+            "장소"
+          ]
+        ],
+        "text": [
+          "To: Alex",
+          "Please come to our class game day!",
+          "Date: May 20, 2 p.m.",
+          "Place: School gym",
+          "From: Class 6"
+        ],
+        "practice": [
+          [
+            "받는 사람을 쓰세요.",
+            "Alex"
+          ],
+          [
+            "글의 목적을 쓰세요.",
+            "to invite Alex"
+          ],
+          [
+            "날짜와 시각을 쓰세요.",
+            "May 20, 2 p.m."
+          ],
+          [
+            "장소를 쓰세요.",
+            "school gym"
+          ],
+          [
+            "보낸 사람을 쓰세요.",
+            "Class 6"
+          ]
+        ],
+        "check": [
+          [
+            "What kind of message is this?",
+            "an invitation"
+          ],
+          [
+            "What information helps Alex arrive?",
+            "date, time, place"
+          ],
+          [
+            "Which line is the greeting/request?",
+            "Please come to our class game day!"
+          ]
+        ],
+        "produce": [
+          "목적에 맞는 매체를 하나 고르고 까닭 말하기",
+          "예시를 참고해 초대 또는 감사 카드 쓰기"
+        ],
+        "model": "To: Mina · Thank you for your help. You made our project better! · From: Joon"
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/english-5-6-write-for-a-purpose/01-cover.webp",
+          "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/01-cover.webp",
+          "sha256": "b1718ccad9c389979a52392209bb8bb439e77a441d1a7ff66cf8ae2e3d6de9e4",
+          "alt": "Write for a Purpose 1쪽",
+          "approved": true
+        },
+        {
+          "id": "input",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-write-for-a-purpose/02-input.webp",
+          "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/02-input.webp",
+          "sha256": "48375ea3a765bfe1b2fda6c690b60615562f5d99b6330184788b50cafc2cc2a5",
+          "alt": "Write for a Purpose 2쪽",
+          "approved": true
+        },
+        {
+          "id": "practice",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-write-for-a-purpose/03-practice.webp",
+          "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/03-practice.webp",
+          "sha256": "711d39ed3110e7df627d9025f0483f13d9eb56ed739fa13d8d737ece7f344a1c",
+          "alt": "Write for a Purpose 3쪽",
+          "approved": true
+        },
+        {
+          "id": "check",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-write-for-a-purpose/04-check.webp",
+          "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/04-check.webp",
+          "sha256": "6372659d70bb063b6f81148881173b46e7667c8cb4356e1acfb8b5154a3dc5c8",
+          "alt": "Write for a Purpose 4쪽",
+          "approved": true
+        },
+        {
+          "id": "speak-write",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/english-5-6-write-for-a-purpose/05-speak-write.webp",
+          "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/05-speak-write.webp",
+          "sha256": "edee7dcdf8c8a142d154c277192022e0d72c543806b91018b5efd4e582d80f56",
+          "alt": "Write for a Purpose 5쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 6,
+          "role": "answer",
+          "imagePath": "/workbooks/english-5-6-write-for-a-purpose/06-answers.webp",
+          "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/06-answers.webp",
+          "sha256": "2d6c264972ebf85cbc8e6e601b1902d2201c14ee504e9a19b17332def4a138fc",
+          "alt": "Write for a Purpose 6쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/english-5-6-write-for-a-purpose/english-5-6-write-for-a-purpose.pdf",
+        "pageCount": 6,
+        "sha256": "a5885956ceca6d097f431a34e0866eb26fd3d8cbbb5cfed55a6ffd2fc0cbdaa8"
+      },
+      "transcriptPath": "/workbooks/english-5-6-write-for-a-purpose/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
       "id": "fractions",
       "slug": "fractions",
       "title": "초등 수학 한 장: 분수",

@@ -1,0 +1,167 @@
+{
+  "id": "english-5-6-describe-clearly",
+  "slug": "english-5-6-describe-clearly",
+  "subject": "english",
+  "title": "초등 영어 한 장: Describe Clearly",
+  "gradeBand": "5-6",
+  "domain": "묘사·문장",
+  "module": "Describe Clearly",
+  "standardCodes": [
+    "[6영02-02]",
+    "[6영02-03]",
+    "[6영02-04]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "curly",
+        "곱슬곱슬한"
+      ],
+      [
+        "quiet",
+        "조용한"
+      ],
+      [
+        "bright",
+        "밝은"
+      ],
+      [
+        "round",
+        "둥근"
+      ],
+      [
+        "useful",
+        "유용한"
+      ],
+      [
+        "because",
+        "왜냐하면"
+      ]
+    ],
+    "text": [
+      "This is my friend, Sora.",
+      "She has curly hair and a bright smile.",
+      "She is quiet, but she is very helpful.",
+      "Her blue bag is big and useful.",
+      "I like Sora because she is kind."
+    ],
+    "practice": [
+      [
+        "Sora의 머리 모양을 쓰세요.",
+        "curly"
+      ],
+      [
+        "Sora의 미소를 나타내는 낱말을 쓰세요.",
+        "bright"
+      ],
+      [
+        "가방의 색을 쓰세요.",
+        "blue"
+      ],
+      [
+        "문장을 바르게 고치세요: she is kind",
+        "She is kind."
+      ],
+      [
+        "물음표가 필요한 문장을 고르세요: She is kind / Is she kind",
+        "Is she kind?"
+      ]
+    ],
+    "check": [
+      [
+        "What is Sora like?",
+        "quiet, helpful, kind"
+      ],
+      [
+        "What is big and useful?",
+        "her blue bag"
+      ],
+      [
+        "Why does the writer like Sora?",
+        "because she is kind"
+      ]
+    ],
+    "produce": [
+      "친구나 물건의 특징을 3문장으로 말하기",
+      "대문자와 문장 부호를 확인해 묘사 글 쓰기"
+    ],
+    "model": "This is my pencil case. It is round and bright. I like it because it is useful."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-5-6-describe-clearly/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-5-6-describe-clearly/01-cover.webp",
+      "sha256": "fdbb8a9d62fbcd707f2d519020c8496f7b5c151c49494a76b70124e78a2fe5c2",
+      "alt": "Describe Clearly 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-describe-clearly/02-input.webp",
+      "thumbnailPath": "/workbooks/english-5-6-describe-clearly/02-input.webp",
+      "sha256": "98cb0b8f349b860438b080b9e65e023331f26e7d602a1402e06b1307acc69324",
+      "alt": "Describe Clearly 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-describe-clearly/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-5-6-describe-clearly/03-practice.webp",
+      "sha256": "0169cc7b7f90bfc4fbb4faecb45ab5df29db3d9d0481fbdc76da1262977f0eac",
+      "alt": "Describe Clearly 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-describe-clearly/04-check.webp",
+      "thumbnailPath": "/workbooks/english-5-6-describe-clearly/04-check.webp",
+      "sha256": "93d6cd13d18b2a0a853cae76602d60026bae6df19b189b5d1b485107cde2cc3d",
+      "alt": "Describe Clearly 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-describe-clearly/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-5-6-describe-clearly/05-speak-write.webp",
+      "sha256": "1f12e1bd76e5071df1a002543d8d340c8debfd59c42ad1991cf9aca2e77f306c",
+      "alt": "Describe Clearly 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-5-6-describe-clearly/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-5-6-describe-clearly/06-answers.webp",
+      "sha256": "bbbe324ee11cb7cd29d8712da4f03859c471f05f3fcdb745437f6f831fff86a7",
+      "alt": "Describe Clearly 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-5-6-describe-clearly/english-5-6-describe-clearly.pdf",
+    "pageCount": 6,
+    "sha256": "bd810b35b7a250cf3550adcfd5516df607c652fc6e67b76a64e673da593f0174"
+  },
+  "transcriptPath": "/workbooks/english-5-6-describe-clearly/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

@@ -38,8 +38,8 @@ export interface Workbook {
   domain: string;
   module: string;
   standardCodes: string[];
-  /** Project-defined learning stages; they are not a national achievement-level label. */
-  levels: ["foundation", "standard", "challenge"];
+  /** Subject-specific project learning flow; not a national achievement-level label. */
+  levels: ["foundation", "standard", "challenge"] | ["input", "practice", "production"];
   pages: WorkbookPage[];
   pdf: WorkbookPdf;
   transcriptPath: string;

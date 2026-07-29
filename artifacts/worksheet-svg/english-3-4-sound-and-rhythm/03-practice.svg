@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1024 1536">
+<rect width="1024" height="1536" fill="#FFFDF8"/>
+<rect width="1024" height="184" fill="#285A9F"/>
+<text x="72" y="54" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="start">초등 영어 한 장</text>
+<text x="72" y="108" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="start">Sound &amp; Rhythm</text>
+<text x="72" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="start">3-4학년군 · 소리·읽기 · 표현 연습</text>
+<text x="952" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="end">3</text>
+<text x="72" y="244" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="30" font-weight="800" fill="#285A9F" text-anchor="start">PRACTICE</text>
+<rect x="72" y="292" width="880" height="178" rx="22" fill="#FFFFFF" stroke="#C8D8E8" stroke-width="2"/>
+<circle cx="100" cy="331" r="24" fill="#F47C68"/>
+<text x="100" y="340" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="800" fill="#FFFFFF" text-anchor="middle">1</text>
+<text x="142" y="340" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="650" fill="#172A46"><tspan x="142" dy="0">c_t의 빈 글자를 쓰세요.</tspan></text>
+<line x1="142" y1="418" x2="918" y2="418" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="142" y1="450" x2="918" y2="450" stroke="#C8D8E8" stroke-width="2"/>
+<rect x="72" y="497" width="880" height="178" rx="22" fill="#FFFFFF" stroke="#C8D8E8" stroke-width="2"/>
+<circle cx="100" cy="536" r="24" fill="#F47C68"/>
+<text x="100" y="545" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="800" fill="#FFFFFF" text-anchor="middle">2</text>
+<text x="142" y="545" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="650" fill="#172A46"><tspan x="142" dy="0">m_p의 빈 글자를 쓰세요.</tspan></text>
+<line x1="142" y1="623" x2="918" y2="623" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="142" y1="655" x2="918" y2="655" stroke="#C8D8E8" stroke-width="2"/>
+<rect x="72" y="702" width="880" height="178" rx="22" fill="#FFFFFF" stroke="#C8D8E8" stroke-width="2"/>
+<circle cx="100" cy="741" r="24" fill="#F47C68"/>
+<text x="100" y="750" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="800" fill="#FFFFFF" text-anchor="middle">3</text>
+<text x="142" y="750" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="650" fill="#172A46"><tspan x="142" dy="0">s_n의 빈 글자를 쓰세요.</tspan></text>
+<line x1="142" y1="828" x2="918" y2="828" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="142" y1="860" x2="918" y2="860" stroke="#C8D8E8" stroke-width="2"/>
+<rect x="72" y="907" width="880" height="178" rx="22" fill="#FFFFFF" stroke="#C8D8E8" stroke-width="2"/>
+<circle cx="100" cy="946" r="24" fill="#F47C68"/>
+<text x="100" y="955" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="800" fill="#FFFFFF" text-anchor="middle">4</text>
+<text x="142" y="955" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="650" fill="#172A46"><tspan x="142" dy="0">r_n의 빈 글자를 쓰세요.</tspan></text>
+<line x1="142" y1="1033" x2="918" y2="1033" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="142" y1="1065" x2="918" y2="1065" stroke="#C8D8E8" stroke-width="2"/>
+<rect x="72" y="1112" width="880" height="178" rx="22" fill="#FFFFFF" stroke="#C8D8E8" stroke-width="2"/>
+<circle cx="100" cy="1151" r="24" fill="#F47C68"/>
+<text x="100" y="1160" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="800" fill="#FFFFFF" text-anchor="middle">5</text>
+<text x="142" y="1160" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="650" fill="#172A46"><tspan x="142" dy="0">같은 가운데 소리끼리 짝지으세요: cat / sun / map / run</tspan></text>
+<line x1="142" y1="1238" x2="918" y2="1238" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="142" y1="1270" x2="918" y2="1270" stroke="#C8D8E8" stroke-width="2"/>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#C8D8E8" stroke-width="2"/>
+<text x="72" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="600" fill="#53657A" text-anchor="start">Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="500" fill="#53657A" text-anchor="end">표지 이미지: GPT Image · Gongnyang Prompt Kit</text>
+</svg>

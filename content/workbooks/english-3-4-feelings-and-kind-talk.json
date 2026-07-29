@@ -1,0 +1,166 @@
+{
+  "id": "english-3-4-feelings-and-kind-talk",
+  "slug": "english-3-4-feelings-and-kind-talk",
+  "subject": "english",
+  "title": "초등 영어 한 장: Feelings & Kind Talk",
+  "gradeBand": "3-4",
+  "domain": "감정·예절",
+  "module": "Feelings & Kind Talk",
+  "standardCodes": [
+    "[4영02-07]",
+    "[4영02-10]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "happy",
+        "기쁜"
+      ],
+      [
+        "sad",
+        "슬픈"
+      ],
+      [
+        "tired",
+        "피곤한"
+      ],
+      [
+        "sorry",
+        "미안한"
+      ],
+      [
+        "please",
+        "부탁할 때"
+      ],
+      [
+        "thank you",
+        "고마울 때"
+      ]
+    ],
+    "text": [
+      "A: How are you?",
+      "B: I’m tired.",
+      "A: Please sit here.",
+      "B: Thank you.",
+      "A: You’re welcome."
+    ],
+    "practice": [
+      [
+        "기분을 묻는 문장을 쓰세요.",
+        "How are you?"
+      ],
+      [
+        "피곤하다고 답하세요.",
+        "I’m tired."
+      ],
+      [
+        "부탁할 때 덧붙이는 말을 쓰세요.",
+        "please"
+      ],
+      [
+        "도움을 받았을 때 하는 말을 쓰세요.",
+        "Thank you."
+      ],
+      [
+        "Thank you에 알맞게 답하세요.",
+        "You’re welcome."
+      ]
+    ],
+    "check": [
+      [
+        "How does B feel?",
+        "tired"
+      ],
+      [
+        "What kind word does A use?",
+        "please"
+      ],
+      [
+        "Does the talk end politely?",
+        "Yes."
+      ]
+    ],
+    "produce": [
+      "happy, sad, tired 중 오늘의 기분 말하기",
+      "부탁과 감사가 들어간 4줄 대화 쓰기"
+    ],
+    "model": "A: How are you? B: I’m happy. A: Great! B: Thank you."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/01-cover.webp",
+      "sha256": "7d867a4346627f50ee058a075318e52d185b1045954fd8eb90d54cbf116b9300",
+      "alt": "Feelings & Kind Talk 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/02-input.webp",
+      "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/02-input.webp",
+      "sha256": "301d3cbd5f614264c833d2c71067486ef948b99f8da777bc354c851dd0363aac",
+      "alt": "Feelings & Kind Talk 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/03-practice.webp",
+      "sha256": "e83a39b582bcd2ac0170f0ddeab417ebd681b1fe55823fabb193e26226eba1b9",
+      "alt": "Feelings & Kind Talk 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/04-check.webp",
+      "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/04-check.webp",
+      "sha256": "0a9230aac620b69166b17f123a06a6573cdf1ad15a4cc63f2a8f9eeca54e0726",
+      "alt": "Feelings & Kind Talk 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/05-speak-write.webp",
+      "sha256": "38328540a25acff9d0642b5ab915c27e4150e45d6c7f27e75c90a15bf44fea68",
+      "alt": "Feelings & Kind Talk 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-3-4-feelings-and-kind-talk/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-3-4-feelings-and-kind-talk/06-answers.webp",
+      "sha256": "00ed409cfccd19bb8b5dbfe71258c1a312ee5c2946e26181cd81ce6af54cef8c",
+      "alt": "Feelings & Kind Talk 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-3-4-feelings-and-kind-talk/english-3-4-feelings-and-kind-talk.pdf",
+    "pageCount": 6,
+    "sha256": "fac9ead324260a5c1e2c4c6c8325d9b0012cda9e39eebfa20aee913d0ecf8bd4"
+  },
+  "transcriptPath": "/workbooks/english-3-4-feelings-and-kind-talk/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

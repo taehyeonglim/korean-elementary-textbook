@@ -4,6 +4,8 @@ import { coverPage, publicAsset, publishedWorkbooks } from "../lib/catalog";
 import { SUBJECT_LIST } from "../lib/subjects";
 
 const mathWorkbooks = publishedWorkbooks("math");
+const englishWorkbooks = publishedWorkbooks("english");
+const allWorkbooks = publishedWorkbooks();
 const mathCovers = mathWorkbooks.slice(0, 3).map((workbook) => {
   const cover = coverPage(workbook);
   return cover ? { src: publicAsset(cover.thumbnailPath || cover.imagePath), alt: `${workbook.title} 표지` } : undefined;
@@ -18,7 +20,7 @@ const mathCovers = mathWorkbooks.slice(0, 3).map((workbook) => {
       <p>배움의 흐름을 한눈에 보고, 필요한 과목의 한 장을 바로 찾아보세요. 교육과정 성취기준에 연결한 무료 학습지 아카이브입니다.</p>
       <div class="hub-stats" aria-label="프로젝트 현황">
         <div><strong>2</strong><span>과목 공간</span></div>
-        <div><strong>{mathWorkbooks.length}</strong><span>공개 학습지</span></div>
+        <div><strong>{allWorkbooks.length}</strong><span>공개 학습지</span></div>
         <div><strong>PDF</strong><span>무료 다운로드</span></div>
       </div>
     </div>
@@ -52,9 +54,11 @@ const mathCovers = mathWorkbooks.slice(0, 3).map((workbook) => {
               {mathCovers.map((cover, index) => cover && <img src={cover.src} alt={cover.alt} loading={index ? "lazy" : "eager"} />)}
             </div>
           ) : (
-            <div class="english-motif" aria-hidden="true">
-              <span>A</span><span>B</span><span>C</span>
-              <i></i><i></i>
+            <div class="subject-card__covers subject-card__covers--english" aria-label="영어 학습지 표지">
+              {englishWorkbooks.slice(0, 3).map((workbook) => {
+                const cover = coverPage(workbook);
+                return cover && <img src={publicAsset(cover.thumbnailPath || cover.imagePath)} alt={`${workbook.title} 표지`} loading="lazy" />;
+              })}
             </div>
           )}
           <div class="subject-card__body">

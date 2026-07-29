@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1024 1536">
+<rect width="1024" height="1536" fill="#FFFDF8"/>
+<rect width="1024" height="184" fill="#285A9F"/>
+<text x="72" y="54" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="start">초등 영어 한 장</text>
+<text x="72" y="108" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="start">Me &amp; My People</text>
+<text x="72" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="start">3-4학년군 · 소개·대화 · 정답·예시 답안</text>
+<text x="952" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="end">6</text>
+<text x="72" y="238" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#F47C68" text-anchor="start">PRACTICE</text>
+<text x="72" y="278" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#285A9F" text-anchor="start">1.</text>
+<text x="120" y="278" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="650" fill="#172A46"><tspan x="120" dy="0">ten</tspan></text>
+<text x="72" y="370" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#285A9F" text-anchor="start">2.</text>
+<text x="120" y="370" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="650" fill="#172A46"><tspan x="120" dy="0">kind, funny</tspan></text>
+<text x="72" y="462" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#285A9F" text-anchor="start">3.</text>
+<text x="120" y="462" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="650" fill="#172A46"><tspan x="120" dy="0">drawing</tspan></text>
+<text x="72" y="554" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#285A9F" text-anchor="start">4.</text>
+<text x="120" y="554" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="650" fill="#172A46"><tspan x="120" dy="0">What’s your name?</tspan></text>
+<text x="72" y="646" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#285A9F" text-anchor="start">5.</text>
+<text x="120" y="646" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="650" fill="#172A46"><tspan x="120" dy="0">What do you like?</tspan></text>
+<text x="72" y="780" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#F47C68" text-anchor="start">CHECK THE TEXT</text>
+<text x="72" y="824" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#285A9F" text-anchor="start">1.</text>
+<text x="120" y="824" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="650" fill="#172A46"><tspan x="120" dy="0">Mina’s friend</tspan></text>
+<text x="72" y="924" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#285A9F" text-anchor="start">2.</text>
+<text x="120" y="924" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="650" fill="#172A46"><tspan x="120" dy="0">Yes, he is.</tspan></text>
+<text x="72" y="1024" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="800" fill="#285A9F" text-anchor="start">3.</text>
+<text x="120" y="1024" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="650" fill="#172A46"><tspan x="120" dy="0">They like drawing.</tspan></text>
+<rect x="72" y="1135" width="880" height="225" rx="22" fill="#FFF1BA"/>
+<text x="100" y="1182" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#285A9F" text-anchor="start">말하기·쓰기 예시</text>
+<text x="100" y="1230" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#172A46"><tspan x="100" dy="0">I’m Yuna. This is Min. We like soccer.</tspan></text>
+<text x="100" y="1328" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#53657A" text-anchor="start">자유 응답은 의미가 통하고 활동 조건에 맞으면 정답으로 봅니다.</text>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#C8D8E8" stroke-width="2"/>
+<text x="72" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="600" fill="#53657A" text-anchor="start">Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="500" fill="#53657A" text-anchor="end">표지 이미지: GPT Image · Gongnyang Prompt Kit</text>
+</svg>

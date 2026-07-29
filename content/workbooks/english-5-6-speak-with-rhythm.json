@@ -1,0 +1,167 @@
+{
+  "id": "english-5-6-speak-with-rhythm",
+  "slug": "english-5-6-speak-with-rhythm",
+  "subject": "english",
+  "title": "초등 영어 한 장: Speak with Rhythm",
+  "gradeBand": "5-6",
+  "domain": "소리·유창성",
+  "module": "Speak with Rhythm",
+  "standardCodes": [
+    "[6영01-01]",
+    "[6영01-02]",
+    "[6영02-01]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "question",
+        "질문"
+      ],
+      [
+        "answer",
+        "대답"
+      ],
+      [
+        "stress",
+        "강세"
+      ],
+      [
+        "rhythm",
+        "리듬"
+      ],
+      [
+        "rise",
+        "올라가다"
+      ],
+      [
+        "fall",
+        "내려가다"
+      ]
+    ],
+    "text": [
+      "Do you like music? ↗",
+      "Yes, I do. ↘",
+      "What do you play? ↘",
+      "I play the drums. ↘",
+      "Read in thought groups: I play / after school."
+    ],
+    "practice": [
+      [
+        "Yes/No 질문 끝에 알맞은 기호를 쓰세요.",
+        "↗"
+      ],
+      [
+        "평서문 끝에 알맞은 기호를 쓰세요.",
+        "↘"
+      ],
+      [
+        "I play the drums.에서 강하게 읽을 핵심어를 쓰세요.",
+        "play, drums"
+      ],
+      [
+        "의미 단위로 나누세요: I practice after school.",
+        "I practice / after school."
+      ],
+      [
+        "질문에 답하세요: Do you like music?",
+        "Yes, I do. / No, I don’t."
+      ]
+    ],
+    "check": [
+      [
+        "Which sentence is a yes/no question?",
+        "Do you like music?"
+      ],
+      [
+        "What does the speaker play?",
+        "the drums"
+      ],
+      [
+        "When does the speaker play?",
+        "after school"
+      ]
+    ],
+    "produce": [
+      "올라가는 억양과 내려가는 억양으로 대화 읽기",
+      "취미에 관한 질문과 대답 2쌍 쓰기"
+    ],
+    "model": "Do you like art? Yes, I do. What do you draw? I draw animals."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-5-6-speak-with-rhythm/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/01-cover.webp",
+      "sha256": "b52cf00740857c9c7d212002627dae10d9394ee284e9884366846db9c42818fc",
+      "alt": "Speak with Rhythm 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-speak-with-rhythm/02-input.webp",
+      "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/02-input.webp",
+      "sha256": "cf8532140405b21a0befa9d51e3b4dc442df863ae0a3f579ad0422ffa420c927",
+      "alt": "Speak with Rhythm 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-speak-with-rhythm/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/03-practice.webp",
+      "sha256": "b0af661684a7ca8c7e1dd5d146d33ba8698c60fe46301a220f30cb5d3ec28918",
+      "alt": "Speak with Rhythm 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-speak-with-rhythm/04-check.webp",
+      "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/04-check.webp",
+      "sha256": "c0078dbd4f4d651e1b0cba8e03a6db19f7d1fc4899fb7afc74611c829cbe783c",
+      "alt": "Speak with Rhythm 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-speak-with-rhythm/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/05-speak-write.webp",
+      "sha256": "689ef80b9dda3acdcd981292a18a47af7976c19537859cca881aee28e186ef98",
+      "alt": "Speak with Rhythm 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-5-6-speak-with-rhythm/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-5-6-speak-with-rhythm/06-answers.webp",
+      "sha256": "5fa5417bbf2fb1f0205e4f2d51fb7775e525cc71a5c9305a9bae6aca30cff8f6",
+      "alt": "Speak with Rhythm 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-5-6-speak-with-rhythm/english-5-6-speak-with-rhythm.pdf",
+    "pageCount": 6,
+    "sha256": "714c619e00df7f38b015ce781a8a90909a9ce8f501a50853e13ef98bc4363863"
+  },
+  "transcriptPath": "/workbooks/english-5-6-speak-with-rhythm/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

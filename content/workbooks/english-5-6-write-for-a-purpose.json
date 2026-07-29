@@ -1,0 +1,166 @@
+{
+  "id": "english-5-6-write-for-a-purpose",
+  "slug": "english-5-6-write-for-a-purpose",
+  "subject": "english",
+  "title": "초등 영어 한 장: Write for a Purpose",
+  "gradeBand": "5-6",
+  "domain": "목적 글쓰기·매체",
+  "module": "Write for a Purpose",
+  "standardCodes": [
+    "[6영02-08]",
+    "[6영02-09]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "to",
+        "받는 사람"
+      ],
+      [
+        "from",
+        "보낸 사람"
+      ],
+      [
+        "invite",
+        "초대하다"
+      ],
+      [
+        "thank",
+        "감사하다"
+      ],
+      [
+        "date",
+        "날짜"
+      ],
+      [
+        "place",
+        "장소"
+      ]
+    ],
+    "text": [
+      "To: Alex",
+      "Please come to our class game day!",
+      "Date: May 20, 2 p.m.",
+      "Place: School gym",
+      "From: Class 6"
+    ],
+    "practice": [
+      [
+        "받는 사람을 쓰세요.",
+        "Alex"
+      ],
+      [
+        "글의 목적을 쓰세요.",
+        "to invite Alex"
+      ],
+      [
+        "날짜와 시각을 쓰세요.",
+        "May 20, 2 p.m."
+      ],
+      [
+        "장소를 쓰세요.",
+        "school gym"
+      ],
+      [
+        "보낸 사람을 쓰세요.",
+        "Class 6"
+      ]
+    ],
+    "check": [
+      [
+        "What kind of message is this?",
+        "an invitation"
+      ],
+      [
+        "What information helps Alex arrive?",
+        "date, time, place"
+      ],
+      [
+        "Which line is the greeting/request?",
+        "Please come to our class game day!"
+      ]
+    ],
+    "produce": [
+      "목적에 맞는 매체를 하나 고르고 까닭 말하기",
+      "예시를 참고해 초대 또는 감사 카드 쓰기"
+    ],
+    "model": "To: Mina · Thank you for your help. You made our project better! · From: Joon"
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-5-6-write-for-a-purpose/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/01-cover.webp",
+      "sha256": "b1718ccad9c389979a52392209bb8bb439e77a441d1a7ff66cf8ae2e3d6de9e4",
+      "alt": "Write for a Purpose 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-write-for-a-purpose/02-input.webp",
+      "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/02-input.webp",
+      "sha256": "48375ea3a765bfe1b2fda6c690b60615562f5d99b6330184788b50cafc2cc2a5",
+      "alt": "Write for a Purpose 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-write-for-a-purpose/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/03-practice.webp",
+      "sha256": "711d39ed3110e7df627d9025f0483f13d9eb56ed739fa13d8d737ece7f344a1c",
+      "alt": "Write for a Purpose 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-write-for-a-purpose/04-check.webp",
+      "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/04-check.webp",
+      "sha256": "6372659d70bb063b6f81148881173b46e7667c8cb4356e1acfb8b5154a3dc5c8",
+      "alt": "Write for a Purpose 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-write-for-a-purpose/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/05-speak-write.webp",
+      "sha256": "edee7dcdf8c8a142d154c277192022e0d72c543806b91018b5efd4e582d80f56",
+      "alt": "Write for a Purpose 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-5-6-write-for-a-purpose/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-5-6-write-for-a-purpose/06-answers.webp",
+      "sha256": "2d6c264972ebf85cbc8e6e601b1902d2201c14ee504e9a19b17332def4a138fc",
+      "alt": "Write for a Purpose 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-5-6-write-for-a-purpose/english-5-6-write-for-a-purpose.pdf",
+    "pageCount": 6,
+    "sha256": "a5885956ceca6d097f431a34e0866eb26fd3d8cbbb5cfed55a6ffd2fc0cbdaa8"
+  },
+  "transcriptPath": "/workbooks/english-5-6-write-for-a-purpose/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

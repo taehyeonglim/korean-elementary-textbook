@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1024 1536">
+<rect width="1024" height="1536" fill="#FFFDF8"/>
+<rect width="1024" height="184" fill="#285A9F"/>
+<text x="72" y="54" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="start">초등 영어 한 장</text>
+<text x="72" y="108" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" text-anchor="start">Alphabet Lab</text>
+<text x="72" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#FFFFFF" text-anchor="start">3-4학년군 · 알파벳·소리 · 읽고 익히기</text>
+<text x="952" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFFFFF" text-anchor="end">2</text>
+<text x="72" y="236" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#F47C68" text-anchor="start">WORD BANK</text>
+<text x="72" y="274" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="700" fill="#172A46" text-anchor="start">먼저 낱말을 읽고 뜻을 확인하세요.</text>
+<rect x="72" y="314" width="426" height="68" rx="16" fill="#DCEEFF"/>
+<text x="92" y="344" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#285A9F" text-anchor="start">A a</text>
+<text x="92" y="369" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#53657A" text-anchor="start">apple</text>
+<rect x="526" y="314" width="426" height="68" rx="16" fill="#DCEEFF"/>
+<text x="546" y="344" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#285A9F" text-anchor="start">B b</text>
+<text x="546" y="369" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#53657A" text-anchor="start">book</text>
+<rect x="72" y="404" width="426" height="68" rx="16" fill="#DCEEFF"/>
+<text x="92" y="434" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#285A9F" text-anchor="start">C c</text>
+<text x="92" y="459" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#53657A" text-anchor="start">cat</text>
+<rect x="526" y="404" width="426" height="68" rx="16" fill="#DCEEFF"/>
+<text x="546" y="434" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#285A9F" text-anchor="start">D d</text>
+<text x="546" y="459" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#53657A" text-anchor="start">desk</text>
+<rect x="72" y="494" width="426" height="68" rx="16" fill="#DCEEFF"/>
+<text x="92" y="524" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#285A9F" text-anchor="start">E e</text>
+<text x="92" y="549" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#53657A" text-anchor="start">egg</text>
+<rect x="526" y="494" width="426" height="68" rx="16" fill="#DCEEFF"/>
+<text x="546" y="524" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#285A9F" text-anchor="start">F f</text>
+<text x="546" y="549" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#53657A" text-anchor="start">fish</text>
+<text x="72" y="640" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#F47C68" text-anchor="start">READING</text>
+<rect x="72" y="674" width="880" height="548" rx="24" fill="#FFFFFF" stroke="#C8D8E8" stroke-width="2"/>
+<text x="106" y="738" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="650" fill="#172A46"><tspan x="106" dy="0">A is for apple.</tspan></text>
+<text x="106" y="820" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="650" fill="#172A46"><tspan x="106" dy="0">B is for book.</tspan></text>
+<text x="106" y="902" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="650" fill="#172A46"><tspan x="106" dy="0">C is for cat.</tspan></text>
+<text x="106" y="984" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="650" fill="#172A46"><tspan x="106" dy="0">D is for desk.</tspan></text>
+<text x="106" y="1066" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="650" fill="#172A46"><tspan x="106" dy="0">E is for egg.</tspan></text>
+<text x="106" y="1148" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="650" fill="#172A46"><tspan x="106" dy="0">F is for fish.</tspan></text>
+<rect x="72" y="1252" width="880" height="138" rx="20" fill="#DDF4EC"/>
+<text x="100" y="1294" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#285A9F" text-anchor="start">읽기 전략</text>
+<text x="100" y="1334" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="600" fill="#172A46"><tspan x="100" dy="0">제목과 낱말 단서를 먼저 보고, 문장을 소리 내어 두 번 읽으세요.</tspan></text>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#C8D8E8" stroke-width="2"/>
+<text x="72" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="600" fill="#53657A" text-anchor="start">Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="500" fill="#53657A" text-anchor="end">표지 이미지: GPT Image · Gongnyang Prompt Kit</text>
+</svg>

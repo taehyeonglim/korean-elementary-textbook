@@ -1,0 +1,164 @@
+{
+  "id": "english-3-4-story-listening",
+  "slug": "english-3-4-story-listening",
+  "subject": "english",
+  "title": "초등 영어 한 장: A Small Seed",
+  "gradeBand": "3-4",
+  "domain": "이야기·공감",
+  "module": "A Small Seed",
+  "standardCodes": [
+    "[4영01-09]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "seed",
+        "씨앗"
+      ],
+      [
+        "soil",
+        "흙"
+      ],
+      [
+        "rain",
+        "비"
+      ],
+      [
+        "sun",
+        "해"
+      ],
+      [
+        "grow",
+        "자라다"
+      ],
+      [
+        "flower",
+        "꽃"
+      ]
+    ],
+    "text": [
+      "A small seed sleeps in the soil.",
+      "Rain comes. The seed wakes up.",
+      "The sun shines. A green stem grows.",
+      "At last, a yellow flower smiles."
+    ],
+    "practice": [
+      [
+        "씨앗이 처음 있는 곳은 어디인가요?",
+        "in the soil"
+      ],
+      [
+        "씨앗을 깨우는 것은 무엇인가요?",
+        "rain"
+      ],
+      [
+        "비 다음에 오는 것은 무엇인가요?",
+        "the sun"
+      ],
+      [
+        "마지막에 피는 것은 무엇인가요?",
+        "a yellow flower"
+      ],
+      [
+        "이야기의 기분을 한 낱말로 쓰세요.",
+        "happy / hopeful"
+      ]
+    ],
+    "check": [
+      [
+        "What color is the stem?",
+        "green"
+      ],
+      [
+        "What color is the flower?",
+        "yellow"
+      ],
+      [
+        "Put in order: flower / seed / stem",
+        "seed, stem, flower"
+      ]
+    ],
+    "produce": [
+      "가장 마음에 드는 장면과 까닭 말하기",
+      "씨앗에게 한 문장 편지 쓰기"
+    ],
+    "model": "Dear Seed, grow strong and bright!"
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-3-4-story-listening/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-3-4-story-listening/01-cover.webp",
+      "sha256": "03d84f8c88118b0df51a7b9bd6f7b6222e48a2f6d971f9529814f5962e92b44c",
+      "alt": "A Small Seed 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-story-listening/02-input.webp",
+      "thumbnailPath": "/workbooks/english-3-4-story-listening/02-input.webp",
+      "sha256": "2b1fc4af7b367b8e9e57db2d140eadef05125ee5844a70fa48f76a99a21ccf2c",
+      "alt": "A Small Seed 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-story-listening/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-3-4-story-listening/03-practice.webp",
+      "sha256": "97ef562d9c80c8b79c5845f875dc4babc66e6aa2c4606443b8d8d4f753965b07",
+      "alt": "A Small Seed 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-story-listening/04-check.webp",
+      "thumbnailPath": "/workbooks/english-3-4-story-listening/04-check.webp",
+      "sha256": "bae90350861a30953aaff10da61c12d6f0c600db4441865e44d29c6610843152",
+      "alt": "A Small Seed 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-story-listening/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-3-4-story-listening/05-speak-write.webp",
+      "sha256": "5691f645b4926f69f2a7f653c9038e27fb16af2eaf9c43b181a2588a73245221",
+      "alt": "A Small Seed 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-3-4-story-listening/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-3-4-story-listening/06-answers.webp",
+      "sha256": "c0705f258318839d4178e8c9e8e61bfa3209062a16d9cd2ea3913f4030b4dab6",
+      "alt": "A Small Seed 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-3-4-story-listening/english-3-4-story-listening.pdf",
+    "pageCount": 6,
+    "sha256": "1f50138a77988198f7d0b191fef1ea17929809a563fa71c3f54eb5e39a851983"
+  },
+  "transcriptPath": "/workbooks/english-3-4-story-listening/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

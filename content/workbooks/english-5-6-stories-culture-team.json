@@ -1,0 +1,168 @@
+{
+  "id": "english-5-6-stories-culture-team",
+  "slug": "english-5-6-stories-culture-team",
+  "subject": "english",
+  "title": "초등 영어 한 장: Stories Connect Us",
+  "gradeBand": "5-6",
+  "domain": "이야기·문화·협력",
+  "module": "Stories Connect Us",
+  "standardCodes": [
+    "[6영01-08]",
+    "[6영01-09]",
+    "[6영01-10]",
+    "[6영02-10]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "story",
+        "이야기"
+      ],
+      [
+        "view",
+        "관점"
+      ],
+      [
+        "custom",
+        "생활 문화"
+      ],
+      [
+        "compare",
+        "비교하다"
+      ],
+      [
+        "agree",
+        "동의하다"
+      ],
+      [
+        "add",
+        "덧붙이다"
+      ]
+    ],
+    "text": [
+      "Four students read a story about sharing food.",
+      "Lina says, “The family eats together on a mat.”",
+      "Joon says, “My family eats together at a table.”",
+      "They find a difference and the same warm feeling.",
+      "The team listens and makes one culture poster together."
+    ],
+    "practice": [
+      [
+        "학생들이 읽은 이야기의 주제를 쓰세요.",
+        "sharing food"
+      ],
+      [
+        "Lina의 가족이 식사하는 곳을 쓰세요.",
+        "on a mat"
+      ],
+      [
+        "Joon의 가족이 식사하는 곳을 쓰세요.",
+        "at a table"
+      ],
+      [
+        "두 가족에게 같은 것을 쓰세요.",
+        "a warm feeling / eating together"
+      ],
+      [
+        "모둠이 함께 만든 것을 쓰세요.",
+        "a culture poster"
+      ]
+    ],
+    "check": [
+      [
+        "Do the students have the same custom?",
+        "No."
+      ],
+      [
+        "What do they do before making the poster?",
+        "They listen."
+      ],
+      [
+        "What attitude does the text show?",
+        "openness and respect"
+      ]
+    ],
+    "produce": [
+      "I agree / I want to add로 모둠 의견 이어 말하기",
+      "두 문화를 비교하고 공통점을 존중하는 4문장 쓰기"
+    ],
+    "model": "The places are different. Both families eat together. I like both ideas. We can learn from each other."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-5-6-stories-culture-team/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/01-cover.webp",
+      "sha256": "067a5e9bd2c3b162b8bfcec27effae1008bc8c95edddf43fdebf54577dd9fc39",
+      "alt": "Stories Connect Us 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-stories-culture-team/02-input.webp",
+      "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/02-input.webp",
+      "sha256": "db77fbd04a89e6fe45c76695c9c080f7d0432fdfe527f703e7aadb3694e8452e",
+      "alt": "Stories Connect Us 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-stories-culture-team/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/03-practice.webp",
+      "sha256": "ee1caeccf745057eee20e33ac6f5e671e904d9a4ca49bf96a5ca06c1fcdbff92",
+      "alt": "Stories Connect Us 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-stories-culture-team/04-check.webp",
+      "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/04-check.webp",
+      "sha256": "ebfbd5ed6ad85b11c25f2f3d93d13bf32df5858c1bc117f7690612542a58e90c",
+      "alt": "Stories Connect Us 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-stories-culture-team/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/05-speak-write.webp",
+      "sha256": "2ae502980fd0e3867d9a15d9743e59c2ad150888eda1fb6a6bad05ffd6b44412",
+      "alt": "Stories Connect Us 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-5-6-stories-culture-team/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-5-6-stories-culture-team/06-answers.webp",
+      "sha256": "399b4c9e81c560851d9986a48a6f1f977680881081f4e4897e5ba0f17059b6db",
+      "alt": "Stories Connect Us 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-5-6-stories-culture-team/english-5-6-stories-culture-team.pdf",
+    "pageCount": 6,
+    "sha256": "19cc48ee1078919881c75465d6a788eddb9d162bf52a465a8217d25f7a3e9299"
+  },
+  "transcriptPath": "/workbooks/english-5-6-stories-culture-team/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

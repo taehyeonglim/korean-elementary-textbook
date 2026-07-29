@@ -1,0 +1,165 @@
+{
+  "id": "english-5-6-feelings-plans",
+  "slug": "english-5-6-feelings-plans",
+  "subject": "english",
+  "title": "초등 영어 한 장: Feelings, Experiences & Plans",
+  "gradeBand": "5-6",
+  "domain": "감정·경험·계획",
+  "module": "Feelings, Experiences & Plans",
+  "standardCodes": [
+    "[6영02-06]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "excited",
+        "신이 난"
+      ],
+      [
+        "proud",
+        "자랑스러운"
+      ],
+      [
+        "because",
+        "왜냐하면"
+      ],
+      [
+        "yesterday",
+        "어제"
+      ],
+      [
+        "tomorrow",
+        "내일"
+      ],
+      [
+        "plan",
+        "계획"
+      ]
+    ],
+    "text": [
+      "Yesterday, I finished my first long book.",
+      "I felt proud because I did not give up.",
+      "Tomorrow, I will visit the library.",
+      "I plan to choose a mystery story.",
+      "I am excited about my next book."
+    ],
+    "practice": [
+      [
+        "글쓴이가 어제 끝낸 것을 쓰세요.",
+        "a long book"
+      ],
+      [
+        "글쓴이의 기분을 쓰세요.",
+        "proud"
+      ],
+      [
+        "그렇게 느낀 까닭을 쓰세요.",
+        "because the writer did not give up"
+      ],
+      [
+        "내일 갈 장소를 쓰세요.",
+        "the library"
+      ],
+      [
+        "고를 책의 종류를 쓰세요.",
+        "a mystery story"
+      ]
+    ],
+    "check": [
+      [
+        "What happened yesterday?",
+        "The writer finished a long book."
+      ],
+      [
+        "What is the plan for tomorrow?",
+        "Visit the library and choose a mystery story."
+      ],
+      [
+        "How does the writer feel now?",
+        "excited"
+      ]
+    ],
+    "produce": [
+      "최근 경험과 기분을 because로 연결해 말하기",
+      "어제의 경험 1문장과 내일의 계획 2문장 쓰기"
+    ],
+    "model": "Yesterday, I played in a concert. I felt happy because my friends came. Tomorrow, I will rest."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-5-6-feelings-plans/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-5-6-feelings-plans/01-cover.webp",
+      "sha256": "46f3fb41e75dc832675eeb7d4f8e7ce95b47e35030f36547bc90e2513618e12e",
+      "alt": "Feelings, Experiences & Plans 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-feelings-plans/02-input.webp",
+      "thumbnailPath": "/workbooks/english-5-6-feelings-plans/02-input.webp",
+      "sha256": "3556f5820bb4be0f968ed2d31b9b52bbfda17d956423c46521ce992cbabd8f41",
+      "alt": "Feelings, Experiences & Plans 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-feelings-plans/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-5-6-feelings-plans/03-practice.webp",
+      "sha256": "2d3597bdb0b9308a9771114bc0b1fe15f767c84ea19267af46bcc9c9e563e12a",
+      "alt": "Feelings, Experiences & Plans 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-feelings-plans/04-check.webp",
+      "thumbnailPath": "/workbooks/english-5-6-feelings-plans/04-check.webp",
+      "sha256": "38f7b5d00006def9be750f525f4b395b0311f46c8659c5918adb8859d812421c",
+      "alt": "Feelings, Experiences & Plans 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-5-6-feelings-plans/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-5-6-feelings-plans/05-speak-write.webp",
+      "sha256": "db6c8157362689b0c7cdd874306706491ca9cc02b8aa46844e9a94eb37103a2d",
+      "alt": "Feelings, Experiences & Plans 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-5-6-feelings-plans/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-5-6-feelings-plans/06-answers.webp",
+      "sha256": "2b85361e8a858ccef6523a9f239cea66630ed379213f96f59a7515b4a7cb2b9c",
+      "alt": "Feelings, Experiences & Plans 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-5-6-feelings-plans/english-5-6-feelings-plans.pdf",
+    "pageCount": 6,
+    "sha256": "a5b47afff94db38fbd9933eb89e602fcb92891bc3b2a5de8259cddb07cfaa9fb"
+  },
+  "transcriptPath": "/workbooks/english-5-6-feelings-plans/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

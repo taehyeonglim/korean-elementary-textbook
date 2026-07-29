@@ -1,0 +1,165 @@
+{
+  "id": "english-3-4-culture-around-us",
+  "slug": "english-3-4-culture-around-us",
+  "subject": "english",
+  "title": "초등 영어 한 장: Hello Around Us",
+  "gradeBand": "3-4",
+  "domain": "문화·존중",
+  "module": "Hello Around Us",
+  "standardCodes": [
+    "[4영01-10]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "hello",
+        "안녕하세요"
+      ],
+      [
+        "bow",
+        "인사로 고개 숙이기"
+      ],
+      [
+        "wave",
+        "손 흔들기"
+      ],
+      [
+        "share",
+        "나누다"
+      ],
+      [
+        "different",
+        "다른"
+      ],
+      [
+        "respect",
+        "존중하다"
+      ]
+    ],
+    "text": [
+      "People greet in different ways.",
+      "Some people wave. Some people bow.",
+      "Families eat different foods.",
+      "Different can be interesting.",
+      "We listen, learn, and show respect."
+    ],
+    "practice": [
+      [
+        "사람들이 하는 인사 2가지를 쓰세요.",
+        "wave, bow"
+      ],
+      [
+        "가족마다 다를 수 있는 것을 쓰세요.",
+        "foods"
+      ],
+      [
+        "different의 뜻을 쓰세요.",
+        "다른"
+      ],
+      [
+        "존중하는 행동 2개를 찾으세요.",
+        "listen, learn"
+      ],
+      [
+        "글의 중심 낱말을 쓰세요.",
+        "respect"
+      ]
+    ],
+    "check": [
+      [
+        "Do all people greet in one way?",
+        "No."
+      ],
+      [
+        "Can different be interesting?",
+        "Yes."
+      ],
+      [
+        "How do we show respect?",
+        "We listen and learn."
+      ]
+    ],
+    "produce": [
+      "내가 아는 인사 방법 하나 소개하기",
+      "다른 생활 방식을 존중하는 약속 쓰기"
+    ],
+    "model": "We can listen. We can ask kindly. We respect differences."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-3-4-culture-around-us/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-3-4-culture-around-us/01-cover.webp",
+      "sha256": "3c3e0b8259c09d87a7683fdde266dcf10d370345ba79d815eb542cd56390aaca",
+      "alt": "Hello Around Us 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-culture-around-us/02-input.webp",
+      "thumbnailPath": "/workbooks/english-3-4-culture-around-us/02-input.webp",
+      "sha256": "0cdd0a3e230993c2be194447b66da0f3d1659d3b498ba79398a788aa71f24749",
+      "alt": "Hello Around Us 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-culture-around-us/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-3-4-culture-around-us/03-practice.webp",
+      "sha256": "45c5de15bc525c8b0c364d64c2d9f3b228d22cf2e5789c42675e282c240d0338",
+      "alt": "Hello Around Us 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-culture-around-us/04-check.webp",
+      "thumbnailPath": "/workbooks/english-3-4-culture-around-us/04-check.webp",
+      "sha256": "fd3aa53bd39816d27f9f661577c4f85a299d01f4cd92a68a3a9982c068d169ed",
+      "alt": "Hello Around Us 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-culture-around-us/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-3-4-culture-around-us/05-speak-write.webp",
+      "sha256": "938296fab9c74e696d7b802083e470a47909aec54326ce2380aa47bca4a466b3",
+      "alt": "Hello Around Us 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-3-4-culture-around-us/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-3-4-culture-around-us/06-answers.webp",
+      "sha256": "da9e3098407769095a242caf245312ecf7fc8f8133988702939afb15417de494",
+      "alt": "Hello Around Us 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-3-4-culture-around-us/english-3-4-culture-around-us.pdf",
+    "pageCount": 6,
+    "sha256": "0ab2129c68a8680c767318c7260ea3408532028fc0a9e555b50c6218b975bac4"
+  },
+  "transcriptPath": "/workbooks/english-3-4-culture-around-us/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

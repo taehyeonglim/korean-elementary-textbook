@@ -1,0 +1,167 @@
+{
+  "id": "english-3-4-classroom-actions",
+  "slug": "english-3-4-classroom-actions",
+  "subject": "english",
+  "title": "초등 영어 한 장: Classroom Actions",
+  "gradeBand": "3-4",
+  "domain": "교실 영어",
+  "module": "Classroom Actions",
+  "standardCodes": [
+    "[4영01-05]",
+    "[4영02-04]",
+    "[4영02-06]"
+  ],
+  "levels": [
+    "input",
+    "practice",
+    "production"
+  ],
+  "activities": {
+    "words": [
+      [
+        "open",
+        "열다"
+      ],
+      [
+        "close",
+        "닫다"
+      ],
+      [
+        "stand",
+        "서다"
+      ],
+      [
+        "sit",
+        "앉다"
+      ],
+      [
+        "listen",
+        "듣다"
+      ],
+      [
+        "write",
+        "쓰다"
+      ]
+    ],
+    "text": [
+      "Open your book.",
+      "Listen to the teacher.",
+      "Write your name.",
+      "Close your book.",
+      "Stand up and say, “Done!”"
+    ],
+    "practice": [
+      [
+        "책을 펴라는 문장을 쓰세요.",
+        "Open your book."
+      ],
+      [
+        "이름을 쓰라는 문장을 쓰세요.",
+        "Write your name."
+      ],
+      [
+        "앉으라는 표현을 쓰세요.",
+        "Sit down."
+      ],
+      [
+        "close의 반대말을 쓰세요.",
+        "open"
+      ],
+      [
+        "동작 순서의 첫 문장을 쓰세요.",
+        "Open your book."
+      ]
+    ],
+    "check": [
+      [
+        "What do you write?",
+        "your name"
+      ],
+      [
+        "What do you close?",
+        "your book"
+      ],
+      [
+        "What do you say at the end?",
+        "Done!"
+      ]
+    ],
+    "produce": [
+      "친구에게 교실 행동 지시 2개 말하기",
+      "나만의 3단계 교실 규칙 쓰기"
+    ],
+    "model": "Stand up. Open your book. Write one word."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/english-3-4-classroom-actions/01-cover.webp",
+      "thumbnailPath": "/workbooks/english-3-4-classroom-actions/01-cover.webp",
+      "sha256": "7ba8aeb0face9b616519df7d370f93966314b8fdaaa88b56f8cc22c64968cc6b",
+      "alt": "Classroom Actions 1쪽",
+      "approved": true
+    },
+    {
+      "id": "input",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-classroom-actions/02-input.webp",
+      "thumbnailPath": "/workbooks/english-3-4-classroom-actions/02-input.webp",
+      "sha256": "4dd70970a13e9c5a2e0e8255b37c17e936f68ffe5a91e2e2affdee8328b595e6",
+      "alt": "Classroom Actions 2쪽",
+      "approved": true
+    },
+    {
+      "id": "practice",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-classroom-actions/03-practice.webp",
+      "thumbnailPath": "/workbooks/english-3-4-classroom-actions/03-practice.webp",
+      "sha256": "34c5fa91c3cba58b9c8978eb3de05e8742f774d4c6fa8acd80b8ed48b31c493a",
+      "alt": "Classroom Actions 3쪽",
+      "approved": true
+    },
+    {
+      "id": "check",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-classroom-actions/04-check.webp",
+      "thumbnailPath": "/workbooks/english-3-4-classroom-actions/04-check.webp",
+      "sha256": "109bb9b5213184c1a8a87ac65344a821c736f2a7a767e20a787ff8f72356f6a3",
+      "alt": "Classroom Actions 4쪽",
+      "approved": true
+    },
+    {
+      "id": "speak-write",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/english-3-4-classroom-actions/05-speak-write.webp",
+      "thumbnailPath": "/workbooks/english-3-4-classroom-actions/05-speak-write.webp",
+      "sha256": "df5eda627f721f2a31a675f93b71e9b1beaf71390ea50acaef49848a0648bbe3",
+      "alt": "Classroom Actions 5쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 6,
+      "role": "answer",
+      "imagePath": "/workbooks/english-3-4-classroom-actions/06-answers.webp",
+      "thumbnailPath": "/workbooks/english-3-4-classroom-actions/06-answers.webp",
+      "sha256": "fe80cbfb32c7eaef1bdae24ede97a2cf77262aa18d8aee399b5921a395177879",
+      "alt": "Classroom Actions 6쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/english-3-4-classroom-actions/english-3-4-classroom-actions.pdf",
+    "pageCount": 6,
+    "sha256": "411a054b2043a06f003a56c2b1e94132cb1e5a8c750738c0116e6504ac71d76a"
+  },
+  "transcriptPath": "/workbooks/english-3-4-classroom-actions/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

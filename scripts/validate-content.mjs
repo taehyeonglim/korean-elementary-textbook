@@ -15,6 +15,7 @@ const STANDARD_CODE = /^\[[0-9]+[가-힣][0-9]{2}-[0-9]{2}\]$/;
 const SHA256 = /^[a-f0-9]{64}$/;
 const PUBLIC_PATH = /^\/workbooks\/[a-z0-9][a-z0-9/_-]*\.(?:png|jpe?g|webp|pdf|html)$/;
 const LEVELS = ["foundation", "standard", "challenge"];
+const ENGLISH_STAGES = ["input", "practice", "production"];
 const ROLES = new Set(["cover", "worksheet", "answer"]);
 const GRADE_BANDS = new Set(["1-2", "3-4", "5-6"]);
 const SUBJECTS = new Set(["math", "english"]);
@@ -53,7 +54,15 @@ export function validateWorkbook(workbook, source) {
   if (workbook.standardCodes.some((code) => !code.includes(SUBJECT_CODE_MARKERS[workbook.subject]))) {
     fail(`${label}.standardCodes must match subject ${workbook.subject}`);
   }
-  if (JSON.stringify(workbook.levels) !== JSON.stringify(LEVELS)) fail(`${label}.levels must exactly be foundation, standard, challenge`);
+  const expectedStages = workbook.subject === "math" ? LEVELS : ENGLISH_STAGES;
+  if (JSON.stringify(workbook.levels) !== JSON.stringify(expectedStages)) fail(`${label}.levels must match the subject learning flow`);
+  if (workbook.subject === "english") {
+    if (!isPlainObject(workbook.activities)) fail(`${label}.activities must describe the English input, practice, and production flow`);
+    for (const key of ["words", "text", "practice", "check", "produce"]) {
+      if (!Array.isArray(workbook.activities[key]) || workbook.activities[key].length === 0) fail(`${label}.activities.${key} must not be empty`);
+    }
+    assertString(workbook.activities.model, `${label}.activities.model`);
+  }
   if (!Array.isArray(workbook.pages) || workbook.pages.length === 0) fail(`${label}.pages must not be empty`);
   workbook.pages.forEach((page, index) => validatePage(page, workbook, index));
   const orders = workbook.pages.map((page) => page.order).sort((a, b) => a - b);
