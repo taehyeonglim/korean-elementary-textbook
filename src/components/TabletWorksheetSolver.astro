@@ -41,7 +41,7 @@ const pageData = pages.map((page) => ({
 
   <p class="tablet-solver__status" data-save-status role="status" aria-live="polite">이 기기에 자동 저장됩니다.</p>
 
-  <div class="tablet-solver__controls" aria-label="학습지 도구">
+  <div class="tablet-solver__controls" role="group" aria-label="학습지 도구">
     <nav class="tablet-pager" aria-label="페이지 이동">
       <button class="tablet-icon-button" type="button" data-previous-page aria-label="이전 페이지">←</button>
       <span class="tablet-pager__label" data-page-label aria-live="polite"></span>
@@ -82,7 +82,7 @@ const pageData = pages.map((page) => ({
     </div>
   </div>
 
-  <p class="tablet-solver__tip" id="tablet-solver-tip">페이지를 넘겨도 필기가 남습니다. 두 손가락 확대 대신 도구 모음의 확대 버튼을 사용하세요.</p>
+  <p class="tablet-solver__tip" id="tablet-solver-tip">페이지를 넘겨도 필기가 남습니다. 확대할 때는 도구 모음의 버튼을 사용하고, 확대된 학습지는 회색 여백을 드래그해 옮길 수 있어요.</p>
 
   <div class="tablet-sheet-viewport" data-sheet-viewport>
     <div class="tablet-sheet" data-sheet>
@@ -346,6 +346,9 @@ const pageData = pages.map((page) => ({
       updateToolControls();
       viewport?.scrollTo({ left: 0, top: 0, behavior: "smooth" });
     };
+    const redrawAfterViewportChange = () => window.requestAnimationFrame(() => {
+      if (!activeStroke) redraw();
+    });
     const loadImage = (source: string) => new Promise<HTMLImageElement>((resolve, reject) => {
       const image = new Image();
       image.onload = () => resolve(image);
@@ -446,6 +449,8 @@ const pageData = pages.map((page) => ({
       event.preventDefault();
       if (event.shiftKey) redo(); else undo();
     });
+    window.addEventListener("resize", redrawAfterViewportChange);
+    window.addEventListener("orientationchange", redrawAfterViewportChange);
 
     pages.forEach((page) => loadPage(page.id));
     updateToolControls();
