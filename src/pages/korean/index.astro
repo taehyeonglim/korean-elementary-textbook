@@ -61,20 +61,16 @@ const domains = korean.areas;
     <ul class="workbook-grid" id="workbook-list" aria-label="국어 학습지 목록">{workbooks.map((workbook) => <li><WorkbookCard workbook={workbook} /></li>)}</ul>
     <div class="empty-state" id="empty-state" hidden><h3>조건에 맞는 학습지가 없어요</h3><p>필터를 초기화하고 다시 살펴보세요.</p></div>
   </section>
-  <script is:inline>
-    const form = document.querySelector("#filters");
-    const items = Array.from(document.querySelectorAll("#workbook-list > li"));
-    const apply = () => {
-      if (!(form instanceof HTMLFormElement)) return;
-      const values = new FormData(form); let visible = 0;
-      items.forEach((item) => {
-        const card = item.querySelector("[data-grade-band]");
-        const matches = ["gradeBand", "domain"].every((name) => !String(values.get(name) ?? "") || card?.dataset[name] === String(values.get(name)));
-        item.hidden = !matches; if (matches) visible += 1;
-      });
-      const empty = document.querySelector("#empty-state"); if (empty instanceof HTMLElement) empty.hidden = visible !== 0;
-      const count = document.querySelector("#result-count"); if (count) count.textContent = `총 ${visible}개의 국어 학습지`;
-    };
-    apply(); form?.addEventListener("change", apply); form?.addEventListener("reset", () => requestAnimationFrame(apply));
+  <script>
+    import { initCascadingFilters } from "../../scripts/cascading-filters.js";
+
+    initCascadingFilters({
+      form: "#filters",
+      list: "#workbook-list > li",
+      empty: "#empty-state",
+      count: "#result-count",
+      fields: ["gradeBand", "domain"],
+      resultLabel: "국어 학습지",
+    });
   </script>
 </BaseLayout>

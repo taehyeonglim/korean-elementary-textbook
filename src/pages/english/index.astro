@@ -91,23 +91,16 @@ const domains = [...new Set(workbooks.map((workbook) => workbook.domain))].sort(
     <div class="empty-state" id="empty-state" hidden><h3>조건에 맞는 학습지가 없어요</h3><p>필터를 초기화하고 다시 살펴보세요.</p></div>
   </section>
 
-  <script is:inline>
-    const form = document.querySelector("#filters");
-    const listItems = Array.from(document.querySelectorAll("#workbook-list > li"));
-    const empty = document.querySelector("#empty-state");
-    const count = document.querySelector("#result-count");
-    const fields = ["gradeBand", "domain"];
-    const apply = () => {
-      if (!(form instanceof HTMLFormElement)) return;
-      const values = new FormData(form); let visible = 0;
-      listItems.forEach((item) => {
-        const card = item.querySelector("[data-grade-band]");
-        const matches = fields.every((name) => !String(values.get(name) ?? "") || card?.dataset[name] === String(values.get(name)));
-        item.hidden = !matches; if (matches) visible += 1;
-      });
-      if (empty instanceof HTMLElement) empty.hidden = visible !== 0;
-      if (count) count.textContent = `총 ${visible}개의 영어 학습지`;
-    };
-    apply(); form?.addEventListener("change", apply); form?.addEventListener("reset", () => requestAnimationFrame(apply));
+  <script>
+    import { initCascadingFilters } from "../../scripts/cascading-filters.js";
+
+    initCascadingFilters({
+      form: "#filters",
+      list: "#workbook-list > li",
+      empty: "#empty-state",
+      count: "#result-count",
+      fields: ["gradeBand", "domain"],
+      resultLabel: "영어 학습지",
+    });
   </script>
 </BaseLayout>

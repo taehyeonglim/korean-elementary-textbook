@@ -85,52 +85,16 @@ const heroCovers = workbooks.slice(0, 3).map((workbook) => {
     </div>
   </section>
 
-  <script is:inline>
-    const form = document.querySelector("#filters");
-    const listItems = Array.from(document.querySelectorAll("#workbook-list > li"));
-    const empty = document.querySelector("#empty-state");
-    const count = document.querySelector("#result-count");
-    const supportedFields = ["gradeBand", "domain", "module"];
+  <script>
+    import { initCascadingFilters } from "../../scripts/cascading-filters.js";
 
-    const loadFromUrl = () => {
-      if (!(form instanceof HTMLFormElement)) return;
-      const params = new URLSearchParams(window.location.search);
-      supportedFields.forEach((name) => {
-        const field = form.elements.namedItem(name);
-        const value = params.get(name) ?? "";
-        if (field instanceof HTMLSelectElement && Array.from(field.options).some((option) => option.value === value)) field.value = value;
-      });
-    };
-    const applyFilters = ({ updateUrl = true } = {}) => {
-      if (!(form instanceof HTMLFormElement)) return;
-      const values = new FormData(form);
-      let visible = 0;
-      listItems.forEach((item) => {
-        const card = item.querySelector("[data-grade-band]");
-        const matches = supportedFields.every((name) => {
-          const selected = String(values.get(name) ?? "");
-          return !selected || card?.dataset[name] === selected;
-        });
-        item.hidden = !matches;
-        if (matches) visible += 1;
-      });
-      if (empty instanceof HTMLElement) empty.hidden = visible !== 0;
-      if (count) count.textContent = `총 ${visible}개의 학습지`;
-      if (updateUrl) {
-        const next = new URLSearchParams();
-        supportedFields.forEach((name) => {
-          const value = String(values.get(name) ?? "");
-          if (value) next.set(name, value);
-        });
-        const query = next.toString();
-        window.history.replaceState(null, "", `${window.location.pathname}${query ? `?${query}` : ""}`);
-      }
-    };
-
-    loadFromUrl();
-    applyFilters({ updateUrl: false });
-    form?.addEventListener("change", () => applyFilters());
-    form?.addEventListener("reset", () => window.requestAnimationFrame(() => applyFilters()));
-    window.addEventListener("popstate", () => { loadFromUrl(); applyFilters({ updateUrl: false }); });
+    initCascadingFilters({
+      form: "#filters",
+      list: "#workbook-list > li",
+      empty: "#empty-state",
+      count: "#result-count",
+      fields: ["gradeBand", "domain", "module"],
+      resultLabel: "학습지",
+    });
   </script>
 </BaseLayout>
