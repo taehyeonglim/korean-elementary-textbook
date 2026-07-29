@@ -23,7 +23,18 @@
       "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-24.concept",
       "prompt": "각도의 단위를 기호로 쓰세요.",
       "answer": "°",
-      "explanation": "각도는 도를 단위로 사용하고 °로 씁니다."
+      "explanation": "각도는 도를 단위로 사용하고 °로 씁니다.",
+      "acceptableAnswers": [
+        "°"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[4수03-24] 각도 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [4수03-24] 각도 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'각도'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-24]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
     },
     {
       "id": "q2",
@@ -32,7 +43,18 @@
       "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-24.representation",
       "prompt": "각도기로 재어 60°인 각은 예각, 직각, 둔각 중 무엇인가요?",
       "answer": "예각",
-      "explanation": "60°는 90°보다 작습니다."
+      "explanation": "60°는 90°보다 작습니다.",
+      "acceptableAnswers": [
+        "예각"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[4수03-24] 각도 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'각도'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q3",
@@ -41,7 +63,19 @@
       "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-24.application",
       "prompt": "직각의 절반 크기는 몇 도인가요?",
       "answer": "45°",
-      "explanation": "90÷2=45"
+      "explanation": "90÷2=45",
+      "acceptableAnswers": [
+        "45°",
+        "45"
+      ],
+      "unit": "°",
+      "curriculumBasis": {
+        "evidence": [
+          "[4수03-24] 각도 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [4수03-24] 각도 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'각도'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     },
     {
       "id": "q4",
@@ -50,7 +84,19 @@
       "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-25.representation",
       "prompt": "삼각형의 두 각이 50°와 60°입니다. 나머지 한 각은 몇 도인가요?",
       "answer": "70°",
-      "explanation": "180-50-60=70"
+      "explanation": "180-50-60=70",
+      "acceptableAnswers": [
+        "70°",
+        "70"
+      ],
+      "unit": "°",
+      "curriculumBasis": {
+        "evidence": [
+          "[4수03-25] 각도 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'각도'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q5",
@@ -59,7 +105,19 @@
       "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-25.application",
       "prompt": "사각형의 세 각이 85°, 95°, 110°입니다. 나머지 한 각은 몇 도인가요?",
       "answer": "70°",
-      "explanation": "360-85-95-110=70"
+      "explanation": "360-85-95-110=70",
+      "acceptableAnswers": [
+        "70°",
+        "70"
+      ],
+      "unit": "°",
+      "curriculumBasis": {
+        "evidence": [
+          "[4수03-25] 각도 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [4수03-25] 각도 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'각도'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     },
     {
       "id": "q6",
@@ -68,7 +126,18 @@
       "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-25.application",
       "prompt": "삼각형 가의 세 각은 40°, 65°, 75°이고, 나는 40°, 65°, 80°입니다. 가능한 삼각형을 고르고 설명하세요.",
       "answer": "가",
-      "explanation": "가의 합은 180°이고 나의 합은 185°입니다."
+      "explanation": "가의 합은 180°이고 나의 합은 185°입니다.",
+      "acceptableAnswers": [
+        "가"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[4수03-25] 각도 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [4수03-25] 각도 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'각도'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     }
   ],
   "pages": [
@@ -76,9 +145,9 @@
       "id": "cover",
       "order": 1,
       "role": "cover",
-      "imagePath": "/workbooks/angles/01-cover.png",
+      "imagePath": "/workbooks/angles/01-cover.webp",
       "thumbnailPath": "/workbooks/angles/01-cover.webp",
-      "sha256": "019971fead2d2feadb5f683cdddb5272fa5e7d2bd665f7c716480b552f8fd03c",
+      "sha256": "7573970c2e73941a7785a273206266fe1a12f0c505fb4c953a4a876fdefdf10e",
       "alt": "각도 학습지 표지",
       "approved": true
     },
@@ -86,9 +155,9 @@
       "id": "worksheet-1",
       "order": 2,
       "role": "worksheet",
-      "imagePath": "/workbooks/angles/02-worksheet-1.png",
+      "imagePath": "/workbooks/angles/02-worksheet-1.webp",
       "thumbnailPath": "/workbooks/angles/02-worksheet-1.webp",
-      "sha256": "48479789bd187b034d5f3ca635d545ffb18b103a6d557d233c9747394f968f9a",
+      "sha256": "7fd964106a713cad8f06d10d7b0cf40a4b0fbb4804483ad8154b2514887aab37",
       "alt": "각도 기초와 표준 문제 1쪽",
       "approved": true
     },
@@ -96,9 +165,9 @@
       "id": "worksheet-2",
       "order": 3,
       "role": "worksheet",
-      "imagePath": "/workbooks/angles/03-worksheet-2.png",
+      "imagePath": "/workbooks/angles/03-worksheet-2.webp",
       "thumbnailPath": "/workbooks/angles/03-worksheet-2.webp",
-      "sha256": "9f1bb9c7ce5c95b7049b93c4fac0da9eaa0630397a7d4263b6bdc5336834556e",
+      "sha256": "6ffdf6a4f52af93a9532b85b6db384ae580772f05f4cb6685c3b11a6e3413631",
       "alt": "각도 표준과 도전 문제 2쪽",
       "approved": true
     },
@@ -106,9 +175,9 @@
       "id": "answers",
       "order": 4,
       "role": "answer",
-      "imagePath": "/workbooks/angles/04-answers.png",
+      "imagePath": "/workbooks/angles/04-answers.webp",
       "thumbnailPath": "/workbooks/angles/04-answers.webp",
-      "sha256": "3d65ad7b494669408979b2bbffd550ed22b09d6431fbb61f7ea96c77412cdb35",
+      "sha256": "1807817398a376a3158283ed94468c11c67a308f8b3c6e788435b18cf65b4af0",
       "alt": "각도 정답과 풀이",
       "approved": true
     }
@@ -116,7 +185,7 @@
   "pdf": {
     "path": "/workbooks/angles/angles.pdf",
     "pageCount": 4,
-    "sha256": "04ce93c9c499d4b0715a22a5f111c08308bfed31ab03a86585df99b01b37bfc8"
+    "sha256": "de8556ea08f71f3e9de96a8dca1746d9a8960d3c86b5767582a5c8acdd0b7b71"
   },
   "transcriptPath": "/workbooks/angles/transcript.html",
   "license": "CC-BY-NC-SA-4.0",

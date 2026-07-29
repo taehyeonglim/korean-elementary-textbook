@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 2480 3508" role="img">
+<rect width="100%" height="100%" fill="#FFFDF8"/>
+<g transform="scale(2.42187500 2.28385417)">
+<rect width="100%" height="184" fill="#1E3A5F"/>
+<text x="72" y="58" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="start" >초등 수학 한 장</text>
+<text x="72" y="112" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="43" font-weight="800" fill="#FFFFFF" text-anchor="start" >세 자리 수의 덧셈과 뺄셈</text>
+<text x="72" y="152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="400" fill="#FFFFFF" text-anchor="start" >3-4학년군 · 문제</text>
+<text x="952" y="152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="end" >2</text>
+<rect x="72" y="213" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="213" width="14" height="391" rx="7" fill="#DDF3E4"/>
+<rect x="102" y="237" width="128" height="36" rx="18" fill="#DDF3E4"/>
+<text x="166" y="262" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >기초 다지기</text>
+<text x="102" y="319" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >1.</text>
+<text x="156" y="317" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">326+241을 계산하세요.</tspan></text>
+<g id="diagram-q1" data-role="math-diagram" data-diagram-kind="blank-workspace" data-geometry="text-calculation-workspace"><rect x="724" y="358" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="768" y="358" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="812" y="358" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="724" y="402" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="768" y="402" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="812" y="402" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="724" y="446" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="768" y="446" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="812" y="446" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><line x1="724" y1="512" x2="856" y2="512" stroke="#51606F" stroke-width="2"/><line x1="724" y1="536" x2="856" y2="536" stroke="#51606F" stroke-width="2"/></g>
+<line x1="106" y1="483" x2="690" y2="483" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="525" x2="690" y2="525" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="567" x2="690" y2="567" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="580" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[4수01-03]</text>
+<rect x="72" y="626" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="626" width="14" height="391" rx="7" fill="#DDF3E4"/>
+<rect x="102" y="650" width="128" height="36" rx="18" fill="#DDF3E4"/>
+<text x="166" y="675" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >기초 다지기</text>
+<text x="102" y="732" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >2.</text>
+<text x="156" y="730" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">754-321을 계산하세요.</tspan></text>
+<g id="diagram-q2" data-role="math-diagram" data-diagram-kind="blank-workspace" data-geometry="text-calculation-workspace"><rect x="724" y="771" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="768" y="771" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="812" y="771" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="724" y="815" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="768" y="815" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="812" y="815" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="724" y="859" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="768" y="859" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="812" y="859" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><line x1="724" y1="925" x2="856" y2="925" stroke="#51606F" stroke-width="2"/><line x1="724" y1="949" x2="856" y2="949" stroke="#51606F" stroke-width="2"/></g>
+<line x1="106" y1="896" x2="690" y2="896" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="938" x2="690" y2="938" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="980" x2="690" y2="980" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="993" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[4수01-03]</text>
+<rect x="72" y="1039" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="1039" width="14" height="391" rx="7" fill="#DDEBFA"/>
+<rect x="102" y="1063" width="128" height="36" rx="18" fill="#DDEBFA"/>
+<text x="166" y="1088" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >기본 완성</text>
+<text x="102" y="1145" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >3.</text>
+<text x="156" y="1143" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">468+357을 계산하세요.</tspan></text>
+<g id="diagram-q3" data-role="math-diagram" data-diagram-kind="blank-workspace" data-geometry="text-calculation-workspace"><rect x="724" y="1184" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="768" y="1184" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="812" y="1184" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="724" y="1228" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="768" y="1228" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="812" y="1228" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="724" y="1272" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="768" y="1272" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><rect x="812" y="1272" width="44" height="44" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><line x1="724" y1="1338" x2="856" y2="1338" stroke="#51606F" stroke-width="2"/><line x1="724" y1="1362" x2="856" y2="1362" stroke="#51606F" stroke-width="2"/></g>
+<line x1="106" y1="1309" x2="690" y2="1309" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="1351" x2="690" y2="1351" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="1393" x2="690" y2="1393" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="1406" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[4수01-03]</text>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#CFD7DE" stroke-width="2"/>
+<text x="72" y="1494" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1474" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="400" fill="#51606F" text-anchor="end" >이미지 제작: Gongnyang Prompt Kit</text>
+<text x="952" y="1501" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="400" fill="#51606F" text-anchor="end" >문항·해설은 학습지 JSON에서 결정론적으로 생성됨</text>
+</g></svg>

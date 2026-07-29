@@ -1,0 +1,193 @@
+{
+  "id": "g5-6-decimal-multiplication-division",
+  "slug": "g5-6-decimal-multiplication-division",
+  "title": "초등 수학 한 장: 소수의 곱셈과 나눗셈",
+  "gradeBand": "5-6",
+  "domain": "수와 연산",
+  "module": "소수의 곱셈과 나눗셈",
+  "standardCodes": [
+    "[6수01-13]",
+    "[6수01-14]",
+    "[6수01-15]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수01-13]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-13.concept",
+      "prompt": "2.4×3을 계산하세요.",
+      "answer": "7.2",
+      "acceptableAnswers": [
+        "7.2"
+      ],
+      "unit": null,
+      "explanation": "24×3=72에서 소수점을 한 자리 옮겨 7.2입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-13] 소수의 곱셈과 나눗셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [6수01-13] 소수의 곱셈과 나눗셈 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'소수의 곱셈과 나눗셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수01-13]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수01-13]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-13.representation",
+      "prompt": "0.75×0.4를 계산하세요.",
+      "answer": "0.3",
+      "acceptableAnswers": [
+        "0.3"
+      ],
+      "unit": null,
+      "explanation": "75×4=300에서 소수점 세 자리를 옮기면 0.300=0.3입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-13] 소수의 곱셈과 나눗셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'소수의 곱셈과 나눗셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수01-14]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-14.concept",
+      "prompt": "3÷4를 소수로 나타내세요.",
+      "answer": "0.75",
+      "acceptableAnswers": [
+        "0.75"
+      ],
+      "unit": null,
+      "explanation": "3÷4=0.75입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-14] 소수의 곱셈과 나눗셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [6수01-14] 소수의 곱셈과 나눗셈 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'소수의 곱셈과 나눗셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수01-14]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수01-14]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-14.representation",
+      "prompt": "7÷2를 소수로 나타내세요.",
+      "answer": "3.5",
+      "acceptableAnswers": [
+        "3.5"
+      ],
+      "unit": null,
+      "explanation": "7÷2=3.5입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-14] 소수의 곱셈과 나눗셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'소수의 곱셈과 나눗셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수01-15]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-15.application",
+      "prompt": "4.8÷0.6을 계산하세요.",
+      "answer": "8",
+      "acceptableAnswers": [
+        "8"
+      ],
+      "unit": null,
+      "explanation": "두 수에 10을 곱하면 48÷6=8입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-15] 소수의 곱셈과 나눗셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수01-15] 소수의 곱셈과 나눗셈 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'소수의 곱셈과 나눗셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수01-15]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-15.application",
+      "prompt": "5.3÷2를 계산하세요.",
+      "answer": "2.65",
+      "acceptableAnswers": [
+        "2.65"
+      ],
+      "unit": null,
+      "explanation": "5.3을 2로 똑같이 나누면 2.65입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-15] 소수의 곱셈과 나눗셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수01-15] 소수의 곱셈과 나눗셈 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'소수의 곱셈과 나눗셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-decimal-multiplication-division/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-decimal-multiplication-division/01-cover.webp",
+      "sha256": "c3f91ee10d42455fb0f280682f18e40b63887ea135c021e7312278dfffc80a39",
+      "alt": "소수의 곱셈과 나눗셈 cover 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-decimal-multiplication-division/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-decimal-multiplication-division/02-worksheet-1.webp",
+      "sha256": "3e4b318d314f67046aa4c4d7126c8f5769ab033792b9414cb60a2e0bda7b0634",
+      "alt": "소수의 곱셈과 나눗셈 worksheet-1 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-decimal-multiplication-division/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-decimal-multiplication-division/03-worksheet-2.webp",
+      "sha256": "3fdbdefc3c33bc260491dbd50ca6b83c94653ebaefda385500047a64a6f4a025",
+      "alt": "소수의 곱셈과 나눗셈 worksheet-2 초안",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-decimal-multiplication-division/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-decimal-multiplication-division/04-answers.webp",
+      "sha256": "05f5cdf596884e7610afc5955b1e84002094639a3f1ce9ee992cdbbdc0454631",
+      "alt": "소수의 곱셈과 나눗셈 answers 초안",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-decimal-multiplication-division/g5-6-decimal-multiplication-division.pdf",
+    "pageCount": 4,
+    "sha256": "781ffd133d41cb5c36f5cf204835072b8ef35d384f00418010372186d8ba2f80"
+  },
+  "transcriptPath": "/workbooks/g5-6-decimal-multiplication-division/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

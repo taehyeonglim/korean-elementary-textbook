@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 2480 3508" role="img">
+<rect width="100%" height="100%" fill="#FFFDF8"/>
+<g transform="scale(2.42187500 2.28385417)">
+<rect width="100%" height="184" fill="#1E3A5F"/>
+<text x="72" y="58" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="start" >초등 수학 한 장</text>
+<text x="72" y="112" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="43" font-weight="800" fill="#FFFFFF" text-anchor="start" >원기둥, 원뿔, 구</text>
+<text x="72" y="152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="400" fill="#FFFFFF" text-anchor="start" >5-6학년군 · 문제</text>
+<text x="952" y="152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="end" >3</text>
+<rect x="72" y="213" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="213" width="14" height="391" rx="7" fill="#DDEBFA"/>
+<rect x="102" y="237" width="128" height="36" rx="18" fill="#DDEBFA"/>
+<text x="166" y="262" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >기본 완성</text>
+<text x="102" y="319" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >4.</text>
+<text x="156" y="317" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">원기둥 전개도에서 직사각형의 서로 마주 보는</tspan><tspan x="156" dy="37">두 변에 원을 한 개씩 붙이는 까닭을 쓰세요.</tspan></text>
+<g id="diagram-q4" data-role="math-diagram" data-diagram-kind="solid" data-geometry="solid-shape-model"><polygon points="759,424 828,386 898,424 828,462" fill="#EAF2FB" stroke="#1E3A5F" stroke-width="4"/><polygon points="759,424 828,462 828,542 759,504" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="4"/><polygon points="828,462 898,424 898,504 828,542" fill="#DDEBFA" stroke="#1E3A5F" stroke-width="4"/></g>
+<line x1="106" y1="483" x2="690" y2="483" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="525" x2="690" y2="525" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="567" x2="690" y2="567" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="580" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[6수03-08]</text>
+<rect x="72" y="626" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="626" width="14" height="391" rx="7" fill="#FDE6D7"/>
+<rect x="102" y="650" width="128" height="36" rx="18" fill="#FDE6D7"/>
+<text x="166" y="675" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >도전 확장</text>
+<text x="102" y="732" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >5.</text>
+<text x="156" y="730" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">어느 방향으로 굴려도 같은 모양으로 보이는 공</tspan><tspan x="156" dy="37">모양 장식에 알맞은 입체도형 이름을 쓰고, 그</tspan><tspan x="156" dy="37">까닭을 간단히 쓰세요.</tspan></text>
+<g id="diagram-q5" data-role="math-diagram" data-diagram-kind="solid" data-geometry="solid-shape-model"><polygon points="759,837 828,799 898,837 828,875" fill="#EAF2FB" stroke="#1E3A5F" stroke-width="4"/><polygon points="759,837 828,875 828,955 759,917" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="4"/><polygon points="828,875 898,837 898,917 828,955" fill="#DDEBFA" stroke="#1E3A5F" stroke-width="4"/></g>
+<line x1="106" y1="896" x2="690" y2="896" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="938" x2="690" y2="938" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="980" x2="690" y2="980" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="993" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[6수03-07]</text>
+<rect x="72" y="1039" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="1039" width="14" height="391" rx="7" fill="#FDE6D7"/>
+<rect x="102" y="1063" width="128" height="36" rx="18" fill="#FDE6D7"/>
+<text x="166" y="1088" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >도전 확장</text>
+<text x="102" y="1145" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >6.</text>
+<text x="156" y="1143" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">뚜껑과 바닥이 있는 원기둥 모양 상자의</tspan><tspan x="156" dy="37">전개도를 만들려 합니다. 잘라 낼 도형의</tspan><tspan x="156" dy="37">종류와 개수를 쓰세요.</tspan></text>
+<g id="diagram-q6" data-role="math-diagram" data-diagram-kind="solid" data-geometry="solid-shape-model"><polygon points="759,1250 828,1212 898,1250 828,1288" fill="#EAF2FB" stroke="#1E3A5F" stroke-width="4"/><polygon points="759,1250 828,1288 828,1368 759,1330" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="4"/><polygon points="828,1288 898,1250 898,1330 828,1368" fill="#DDEBFA" stroke="#1E3A5F" stroke-width="4"/></g>
+<line x1="106" y1="1309" x2="690" y2="1309" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="1351" x2="690" y2="1351" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="1393" x2="690" y2="1393" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="1406" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[6수03-08]</text>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#CFD7DE" stroke-width="2"/>
+<text x="72" y="1494" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1474" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="400" fill="#51606F" text-anchor="end" >이미지 제작: Gongnyang Prompt Kit</text>
+<text x="952" y="1501" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="400" fill="#51606F" text-anchor="end" >문항·해설은 학습지 JSON에서 결정론적으로 생성됨</text>
+</g></svg>

@@ -1,0 +1,192 @@
+{
+  "id": "g5-6-proportions",
+  "slug": "g5-6-proportions",
+  "title": "초등 수학 한 장: 비례식과 비례배분",
+  "gradeBand": "5-6",
+  "domain": "변화와 관계",
+  "module": "비례식과 비례배분",
+  "standardCodes": [
+    "[6수02-04]",
+    "[6수02-05]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수02-04]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-04.concept",
+      "prompt": "2:3=8:□에서 □를 구하세요.",
+      "answer": "12",
+      "acceptableAnswers": [
+        "12"
+      ],
+      "unit": null,
+      "explanation": "2에서 8로 4배이므로 3도 4배한 12입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-04] 비례식과 비례배분 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "변화와 관계 사례에서 [6수02-04] 비례식과 비례배분 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'비례식과 비례배분'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수02-04]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수02-04]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-04.representation",
+      "prompt": "5:7=□:21에서 □를 구하세요.",
+      "answer": "15",
+      "acceptableAnswers": [
+        "15"
+      ],
+      "unit": null,
+      "explanation": "7에서 21로 3배이므로 5도 3배한 15입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-04] 비례식과 비례배분 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 변화와 관계 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'비례식과 비례배분'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수02-04]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-04.representation",
+      "prompt": "3:4=12:□에서 □를 구하세요.",
+      "answer": "16",
+      "acceptableAnswers": [
+        "16"
+      ],
+      "unit": null,
+      "explanation": "3에서 12로 4배이므로 4도 4배합니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-04] 비례식과 비례배분 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 변화와 관계 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'비례식과 비례배분'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수02-05]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-05.concept",
+      "prompt": "사과와 배를 2:3으로 나누어 모두 25개입니다. 사과는 몇 개인가요?",
+      "answer": "10개",
+      "acceptableAnswers": [
+        "10개"
+      ],
+      "unit": "개",
+      "explanation": "전체 5부분 중 사과는 2부분이므로 25×2/5=10입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-05] 비례식과 비례배분 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "변화와 관계 사례에서 [6수02-05] 비례식과 비례배분 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'비례식과 비례배분'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수02-05]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수02-05]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-05.application",
+      "prompt": "48을 5:3으로 비례배분할 때 큰 몫을 구하세요.",
+      "answer": "30",
+      "acceptableAnswers": [
+        "30"
+      ],
+      "unit": null,
+      "explanation": "전체 8부분 중 큰 몫은 5부분이므로 48×5/8=30입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-05] 비례식과 비례배분 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수02-05] 비례식과 비례배분 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'비례식과 비례배분'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수02-05]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-05.application",
+      "prompt": "90을 2:3:4로 비례배분할 때 가장 작은 몫을 구하세요.",
+      "answer": "20",
+      "acceptableAnswers": [
+        "20"
+      ],
+      "unit": null,
+      "explanation": "전체 9부분 중 2부분이므로 90×2/9=20입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-05] 비례식과 비례배분 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수02-05] 비례식과 비례배분 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'비례식과 비례배분'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-proportions/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-proportions/01-cover.webp",
+      "sha256": "a2ac50635845b6f24fa8425883ea27989143cf6740be62d4cfa1cd844d193fe2",
+      "alt": "비례식과 비례배분 cover 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-proportions/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-proportions/02-worksheet-1.webp",
+      "sha256": "cd536a4eebf0036322b10ffcfc46d22ebdb82168f1aa0dff16a53197ffe43749",
+      "alt": "비례식과 비례배분 worksheet-1 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-proportions/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-proportions/03-worksheet-2.webp",
+      "sha256": "16a050eaff1285b374c919caf261e936612d1c9cd19c21f05f826e0e1ce84793",
+      "alt": "비례식과 비례배분 worksheet-2 초안",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-proportions/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-proportions/04-answers.webp",
+      "sha256": "e9ca8175b260c98be1b643242c45a51d9e12362830ce9dea846240c4655e60bc",
+      "alt": "비례식과 비례배분 answers 초안",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-proportions/g5-6-proportions.pdf",
+    "pageCount": 4,
+    "sha256": "8569e8f3c7781d0d52cb47b93d0bf597f0479e420cac4743b19df0a3b455f62e"
+  },
+  "transcriptPath": "/workbooks/g5-6-proportions/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

@@ -1,0 +1,198 @@
+{
+  "id": "g5-6-congruence-symmetry",
+  "slug": "g5-6-congruence-symmetry",
+  "title": "초등 수학 한 장: 합동과 대칭",
+  "gradeBand": "5-6",
+  "domain": "도형과 측정",
+  "module": "합동과 대칭",
+  "standardCodes": [
+    "[6수03-01]",
+    "[6수03-02]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수03-01]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-01.concept",
+      "prompt": "가로 4cm, 세로 3cm인 직사각형 A와 같은 크기의 직사각형 B가 있습니다. B를 돌려 놓아도 A와 B는 합동인가요?",
+      "answer": "합동이다",
+      "acceptableAnswers": [
+        "합동이다",
+        "네, 합동입니다"
+      ],
+      "unit": null,
+      "explanation": "합동인 도형은 돌리거나 뒤집어도 모양과 크기가 같습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-01] 합동과 대칭 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-01] 합동과 대칭 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'합동과 대칭'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-01]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수03-02]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-02.concept",
+      "prompt": "정사각형에는 선대칭축이 몇 개인가요?",
+      "answer": "4개",
+      "acceptableAnswers": [
+        "4개",
+        "4"
+      ],
+      "unit": "개",
+      "explanation": "정사각형은 가로, 세로, 두 대각선의 4개 직선을 따라 접어 포개집니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-02] 합동과 대칭 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-02] 합동과 대칭 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'합동과 대칭'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-02]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수03-01]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-01.representation",
+      "prompt": "삼각형 A의 세 변 길이는 3cm, 4cm, 5cm이고, 삼각형 B의 세 변 길이도 5cm, 3cm, 4cm입니다. 두 삼각형은 합동인지 쓰세요.",
+      "answer": "합동이다",
+      "acceptableAnswers": [
+        "합동이다",
+        "네, 합동입니다"
+      ],
+      "unit": null,
+      "explanation": "각각 대응하는 세 변의 길이가 같으므로 두 삼각형은 합동입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-01] 합동과 대칭 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'합동과 대칭'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수03-02]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-02.representation",
+      "prompt": "점 O를 대칭의 중심으로 하는 점대칭에서, 점 P가 O에서 오른쪽으로 3칸, 위로 2칸에 있습니다. 대응점의 위치를 말하세요.",
+      "answer": "O에서 왼쪽으로 3칸, 아래로 2칸",
+      "acceptableAnswers": [
+        "O에서 왼쪽으로 3칸, 아래로 2칸",
+        "왼쪽 3칸, 아래 2칸"
+      ],
+      "unit": null,
+      "explanation": "점대칭의 대응점은 중심 O를 사이에 두고 반대 방향으로 같은 거리만큼 떨어져 있습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-02] 합동과 대칭 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'합동과 대칭'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수03-01]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-01.application",
+      "prompt": "가로 8cm, 세로 5cm인 직사각형 종이에서 가로 3cm, 세로 2cm인 직사각형 두 장을 같은 모양으로 잘라 냈습니다. 잘라 낸 두 도형은 합동인지와 이유를 쓰세요.",
+      "answer": "합동이다. 가로와 세로의 길이가 각각 같아서 모양과 크기가 같다.",
+      "acceptableAnswers": [
+        "합동이다. 가로와 세로의 길이가 각각 같아서 모양과 크기가 같다.",
+        "합동이다. 두 직사각형의 크기와 모양이 같다."
+      ],
+      "unit": null,
+      "explanation": "두 직사각형의 대응하는 변의 길이가 모두 같으므로 합동입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-01] 합동과 대칭 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-01] 합동과 대칭 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'합동과 대칭'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수03-02]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-02.application",
+      "prompt": "세로선이 선대칭축입니다. 축에서 왼쪽으로 4칸, 위로 2칸인 곳에 별이 있습니다. 대칭인 별의 위치를 말하세요.",
+      "answer": "축에서 오른쪽으로 4칸, 위로 2칸",
+      "acceptableAnswers": [
+        "축에서 오른쪽으로 4칸, 위로 2칸",
+        "오른쪽 4칸, 위로 2칸"
+      ],
+      "unit": null,
+      "explanation": "선대칭축에서의 가로 거리는 같고, 축의 반대쪽으로 위치가 옮겨집니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-02] 합동과 대칭 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-02] 합동과 대칭 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'합동과 대칭'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-congruence-symmetry/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-congruence-symmetry/01-cover.webp",
+      "sha256": "b6e17381073d79d8cb803f78e71868b4139a359fb9133c35e68ba4d74a88d1f1",
+      "alt": "합동과 대칭 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-congruence-symmetry/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-congruence-symmetry/02-worksheet-1.webp",
+      "sha256": "a264a42af534cd6eee889139a4805cd8ce6c40a80b3c48b7f34e6e9c4784935e",
+      "alt": "합동과 대칭 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-congruence-symmetry/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-congruence-symmetry/03-worksheet-2.webp",
+      "sha256": "1ed31ee85ea2f1a15d859dcf7c838e8e0a2e06757dc712cb5f85bd8462c43dd9",
+      "alt": "합동과 대칭 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-congruence-symmetry/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-congruence-symmetry/04-answers.webp",
+      "sha256": "9bd500b29e2d16b0f73aa0eae41cc5a516e0859ba1af5ae439af83489db50b50",
+      "alt": "합동과 대칭 정답과 해설",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-congruence-symmetry/g5-6-congruence-symmetry.pdf",
+    "pageCount": 4,
+    "sha256": "749279e4c46ead739cd696e31f08e07d6458e2a52e37344916fa809c744313db"
+  },
+  "transcriptPath": "/workbooks/g5-6-congruence-symmetry/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

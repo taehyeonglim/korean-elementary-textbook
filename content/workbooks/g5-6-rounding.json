@@ -1,0 +1,193 @@
+{
+  "id": "g5-6-rounding",
+  "slug": "g5-6-rounding",
+  "title": "초등 수학 한 장: 수의 범위와 올림, 버림, 반올림",
+  "gradeBand": "5-6",
+  "domain": "수와 연산",
+  "module": "수의 범위와 올림, 버림, 반올림",
+  "standardCodes": [
+    "[6수01-02]",
+    "[6수01-03]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수01-02]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-02.concept",
+      "prompt": "8 이상 12 미만인 자연수를 모두 쓰세요.",
+      "answer": "8, 9, 10, 11",
+      "acceptableAnswers": [
+        "8, 9, 10, 11"
+      ],
+      "unit": null,
+      "explanation": "8과 12는 각각 경계이며, 8은 포함하고 12는 포함하지 않습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-02] 수의 범위와 올림, 버림, 반올림 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [6수01-02] 수의 범위와 올림, 버림, 반올림 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'수의 범위와 올림, 버림, 반올림'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수01-02]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수01-03]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-03.concept",
+      "prompt": "47.36을 소수 첫째 자리까지 버림하여 나타내세요.",
+      "answer": "47.3",
+      "acceptableAnswers": [
+        "47.3"
+      ],
+      "unit": null,
+      "explanation": "소수 둘째 자리 이하를 버리면 47.3입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-03] 수의 범위와 올림, 버림, 반올림 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [6수01-03] 수의 범위와 올림, 버림, 반올림 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'수의 범위와 올림, 버림, 반올림'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수01-03]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수01-02]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-02.representation",
+      "prompt": "키가 120cm 이상인 사람이 탈 수 있는 놀이기구가 있습니다. 키가 119.9cm인 사람은 탈 수 있는지 쓰세요.",
+      "answer": "탈 수 없습니다.",
+      "acceptableAnswers": [
+        "탈 수 없습니다.",
+        "탈 수 없다"
+      ],
+      "unit": null,
+      "explanation": "119.9cm는 경계인 120cm보다 작아 ‘120cm 이상’의 범위에 들지 않습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-02] 수의 범위와 올림, 버림, 반올림 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'수의 범위와 올림, 버림, 반올림'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수01-03]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-03.representation",
+      "prompt": "3486을 백의 자리까지 버림하여 나타내세요.",
+      "answer": "3,400",
+      "acceptableAnswers": [
+        "3,400"
+      ],
+      "unit": null,
+      "explanation": "십의 자리 이하를 버리면 3400입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-03] 수의 범위와 올림, 버림, 반올림 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'수의 범위와 올림, 버림, 반올림'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수01-02]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-02.application",
+      "prompt": "25 초과 30 이하인 자연수를 모두 쓰세요.",
+      "answer": "26, 27, 28, 29, 30",
+      "acceptableAnswers": [
+        "26, 27, 28, 29, 30"
+      ],
+      "unit": null,
+      "explanation": "25는 포함하지 않고 30은 포함하므로 26부터 30까지입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-02] 수의 범위와 올림, 버림, 반올림 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수01-02] 수의 범위와 올림, 버림, 반올림 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'수의 범위와 올림, 버림, 반올림'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수01-03]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-03.application",
+      "prompt": "일의 자리에서 반올림하여 십의 자리까지 나타내면 430이 되는 자연수의 범위를 쓰세요.",
+      "answer": "425 이상 435 미만",
+      "acceptableAnswers": [
+        "425 이상 435 미만"
+      ],
+      "unit": null,
+      "explanation": "일의 자리에서 반올림해 430이 되는 자연수는 425부터 434까지이므로 425 이상 435 미만입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-03] 수의 범위와 올림, 버림, 반올림 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수01-03] 수의 범위와 올림, 버림, 반올림 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'수의 범위와 올림, 버림, 반올림'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-rounding/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-rounding/01-cover.webp",
+      "sha256": "d0f94544ad6b10334bdbf70f85dda497a617bc0d103e89e1c67e4fa191544c94",
+      "alt": "수의 범위와 올림, 버림, 반올림 표지 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-rounding/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-rounding/02-worksheet-1.webp",
+      "sha256": "a2c7c5b22bf68df97eae087240b76a23aa1e23715e1d368cc27b2b7ee465d2c0",
+      "alt": "수의 범위와 올림, 버림, 반올림 문제 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-rounding/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-rounding/03-worksheet-2.webp",
+      "sha256": "dfb87543fec38b150ef5ebd7391b9f51b49483c329734a3011fd7a9962896a57",
+      "alt": "수의 범위와 올림, 버림, 반올림 문제 초안",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-rounding/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-rounding/04-answers.webp",
+      "sha256": "a7275819bba4c91a16302ae11dc7ac4dfa59f5638813fe0d9acf93371a5e9304",
+      "alt": "수의 범위와 올림, 버림, 반올림 정답 초안",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-rounding/g5-6-rounding.pdf",
+    "pageCount": 4,
+    "sha256": "97be8d132e1f90081b26d254f806777a78860b43581b4348f6e7df7ebb0a684c"
+  },
+  "transcriptPath": "/workbooks/g5-6-rounding/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

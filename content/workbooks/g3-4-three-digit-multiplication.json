@@ -1,0 +1,175 @@
+{
+  "id": "g3-4-three-digit-multiplication",
+  "slug": "g3-4-three-digit-multiplication",
+  "title": "초등 수학 한 장: 세 자리 수 범위의 곱셈",
+  "gradeBand": "3-4",
+  "domain": "수와 연산",
+  "module": "세 자리 수 범위의 곱셈",
+  "standardCodes": [
+    "[4수01-04]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수01-04]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-04.concept",
+      "prompt": "213×3을 계산하세요.",
+      "answer": "639",
+      "acceptableAnswers": [
+        "639"
+      ],
+      "unit": null,
+      "explanation": "213을 3번 더한 것과 같으므로 213×3=639입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-04] 세 자리 수 범위의 곱셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 곱셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수01-04]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수01-04]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-04.representation",
+      "prompt": "124×2를 계산하세요.",
+      "answer": "248",
+      "acceptableAnswers": [
+        "248"
+      ],
+      "unit": null,
+      "explanation": "100×2+20×2+4×2=200+40+8=248입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-04] 세 자리 수 범위의 곱셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 곱셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수01-04]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-04.representation",
+      "prompt": "36×24를 계산하세요.",
+      "answer": "864",
+      "acceptableAnswers": [
+        "864"
+      ],
+      "unit": null,
+      "explanation": "36×20=720, 36×4=144이므로 720+144=864입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-04] 세 자리 수 범위의 곱셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 곱셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수01-04]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-04.application",
+      "prompt": "128×7을 계산하세요.",
+      "answer": "896",
+      "acceptableAnswers": [
+        "896"
+      ],
+      "unit": null,
+      "explanation": "128×7=(100×7)+(20×7)+(8×7)=700+140+56=896입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-04] 세 자리 수 범위의 곱셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 곱셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수01-04]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-04.application",
+      "prompt": "연필이 한 상자에 32자루씩 들어 있습니다. 24상자에는 연필이 모두 몇 자루 있나요?",
+      "answer": "768자루",
+      "acceptableAnswers": [
+        "768자루",
+        "768 자루"
+      ],
+      "unit": "자루",
+      "explanation": "32×24=32×20+32×4=640+128=768이므로 768자루입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-04] 세 자리 수 범위의 곱셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 곱셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수01-04]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-04.application",
+      "prompt": "125×24를 계산하세요.",
+      "answer": "3,000",
+      "acceptableAnswers": [
+        "3,000",
+        "3000"
+      ],
+      "unit": null,
+      "explanation": "125×24=125×(6×4)=(125×4)×6=500×6=3,000입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-04] 세 자리 수 범위의 곱셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 곱셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-three-digit-multiplication/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-three-digit-multiplication/01-cover.webp",
+      "sha256": "3b32b759f8e44f415296dde60dad4001c32023125cc02024c56b776b1616b746",
+      "alt": "세 자리 수 범위의 곱셈 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-three-digit-multiplication/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-three-digit-multiplication/02-worksheet-1.webp",
+      "sha256": "0c0a1e315a121abdce36528756a354a627ee9dcf2c4a728027643f68b9c407a0",
+      "alt": "세 자리 수 범위의 곱셈 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-three-digit-multiplication/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-three-digit-multiplication/03-worksheet-2.webp",
+      "sha256": "7ca3ad5ceeef131b955273229893865afdb5483be27b21bbef2b9f88938d5760",
+      "alt": "세 자리 수 범위의 곱셈 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-three-digit-multiplication/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-three-digit-multiplication/04-answers.webp",
+      "sha256": "f1d6dbbc71ca5a28010780c5df38e9b2bd50b95eba09468a75437887a7c962ec",
+      "alt": "세 자리 수 범위의 곱셈 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-three-digit-multiplication/g3-4-three-digit-multiplication.pdf",
+    "pageCount": 4,
+    "sha256": "d18b552f48c3229beb8f0db18a01bc8e072301782dff4c3e9bbea13b2dbac1d0"
+  },
+  "transcriptPath": "/workbooks/g3-4-three-digit-multiplication/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-07-28T00:00:00+09:00",
+  "generatedAt": "2026-07-29T00:00:00+09:00",
   "generator": {
     "curriculumMcp": "curriculum-kr",
     "promptKit": "gongnyang-prompt-kit v4.0.0",
@@ -147,6 +147,1839 @@
       "transcriptHtml": "<main><h1>초등 수학 한 장: 분수</h1><p>3-4학년군 · 수와 연산 · 분수</p><p>성취기준: [4수01-09], [4수01-10], [4수01-11]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>전체를 똑같이 8칸으로 나누어 3칸을 색칠했습니다. 색칠한 부분을 분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 3/8</p><p>전체 8칸 중 3칸이므로 3/8입니다.</p></details></li><li><h2>foundation</h2><p>1/5, 3/5, 5/3 중 단위분수를 고르세요.</p><details><summary>정답과 풀이</summary><p>정답: 1/5</p><p>분자가 1인 분수가 단위분수입니다.</p></details></li><li><h2>standard</h2><p>7/4을 대분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 1과 3/4</p><p>7/4은 4/4와 3/4을 합한 수입니다.</p></details></li><li><h2>standard</h2><p>3/7과 5/7 중 큰 수를 고르고 까닭을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 5/7</p><p>분모가 같으면 분자가 큰 분수가 큽니다.</p></details></li><li><h2>challenge</h2><p>1/3과 1/5 중 큰 수를 고르고, 같은 크기의 그림을 나눈다고 생각하여 설명하세요.</p><details><summary>정답과 풀이</summary><p>정답: 1/3</p><p>같은 전체를 더 적은 수로 나눈 한 조각이 더 큽니다.</p></details></li><li><h2>challenge</h2><p>1/4, 4/3, 3/3, 1과 1/2을 단위분수, 가분수, 대분수로 나누세요.</p><details><summary>정답과 풀이</summary><p>정답: 단위분수 1/4, 가분수 4/3·3/3, 대분수 1과 1/2</p><p>분자가 1이면 단위분수, 분자가 분모 이상이면 가분수, 자연수와 진분수로 나타낸 수는 대분수입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
     },
     {
+      "id": "g1-2-data-organization",
+      "pdfPath": "/workbooks/g1-2-data-organization/g1-2-data-organization.pdf",
+      "transcriptPath": "/workbooks/g1-2-data-organization/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g1-2-data-organization/01-cover.txt",
+          "promptSha256": "dabb113cfbb8604b10685dafdeae59e2b776eac3fc25f65914f93222fa979996",
+          "expectedImagePath": "/workbooks/g1-2-data-organization/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-data-organization/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g1-2-data-organization/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-data-organization/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g1-2-data-organization/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-data-organization/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g1-2-data-organization/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-data-organization/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 자료의 정리</h1><p>1-2학년군 · 자료와 가능성 · 자료의 정리</p><p>성취기준: [2수04-01], [2수04-02], [2수04-03]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>사과 3개, 배 2개, 포도 4송이를 종류별로 분류했습니다. 가장 많은 것은 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 포도</p><p>사과 3, 배 2, 포도 4이므로 포도가 가장 많습니다.</p></details></li><li><h2>foundation</h2><p>좋아하는 동물을 조사한 표에서 고양이 4명, 강아지 3명, 토끼 2명입니다. 조사한 학생은 모두 몇 명인가요?</p><details><summary>정답과 풀이</summary><p>정답: 9명</p><p>4+3+2=9이므로 모두 9명입니다.</p></details></li><li><h2>standard</h2><p>○ 한 개가 1명을 나타내는 그래프에서 가 5개, 나 3개, 다 4개입니다. 가장 많은 항목은 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 가</p><p>○의 수가 각각 5, 3, 4이므로 가가 가장 많습니다.</p></details></li><li><h2>standard</h2><p>빨간 단추 4개와 파란 단추 3개를 색에 따라 분류했습니다. 분류 기준과 각 모둠의 개수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 색, 빨강 4개·파랑 3개</p><p>색을 기준으로 나누면 빨강 모둠 4개와 파랑 모둠 3개가 됩니다.</p></details></li><li><h2>challenge</h2><p>자료를 표로 나타내면 편리한 점을 한 가지 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 항목별 개수를 한눈에 비교할 수 있습니다.</p><p>표는 항목과 개수를 가지런히 보여 주어 자료를 비교하기 편리합니다.</p></details></li><li><h2>challenge</h2><p>교통수단 표에서 버스 4명, 걷기 2명, 자전거 3명입니다. ○ 한 개를 1명으로 하여 자전거 그래프를 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: ○○○</p><p>자전거는 3명이므로 ○를 3개 그립니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g1-2-length",
+      "pdfPath": "/workbooks/g1-2-length/g1-2-length.pdf",
+      "transcriptPath": "/workbooks/g1-2-length/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g1-2-length/01-cover.txt",
+          "promptSha256": "d31f1b3308e6a9346376ec50336ac6285075749fe004c4fd31beb0948ab58986",
+          "expectedImagePath": "/workbooks/g1-2-length/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-length/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g1-2-length/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-length/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g1-2-length/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-length/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g1-2-length/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-length/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 길이</h1><p>1-2학년군 · 도형과 측정 · 길이</p><p>성취기준: [2수03-10], [2수03-11], [2수03-12], [2수03-13]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>연필의 한쪽 끝이 자의 0cm, 다른 쪽 끝이 8cm 눈금에 있습니다. 연필의 길이는 얼마인가요?</p><details><summary>정답과 풀이</summary><p>정답: 8cm</p><p>0cm부터 8cm까지의 길이는 8cm입니다.</p></details></li><li><h2>foundation</h2><p>2m 35cm를 cm로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 235cm</p><p>2m는 200cm이므로 200+35=235cm입니다.</p></details></li><li><h2>standard</h2><p>보통 연필 한 자루의 길이로 가장 알맞은 것을 고르세요: 2cm, 15cm, 2m</p><details><summary>정답과 풀이</summary><p>정답: 15cm</p><p>연필 한 자루는 2cm보다 길고 2m보다 훨씬 짧으므로 약 15cm가 알맞습니다.</p></details></li><li><h2>standard</h2><p>45cm인 리본과 27cm인 리본을 이어 붙였습니다. 전체 길이는 얼마인가요?</p><details><summary>정답과 풀이</summary><p>정답: 72cm</p><p>45+27=72이므로 전체 길이는 72cm입니다.</p></details></li><li><h2>challenge</h2><p>164cm를 몇 m 몇 cm로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 1m 64cm</p><p>164cm는 100cm와 64cm이므로 1m 64cm입니다.</p></details></li><li><h2>challenge</h2><p>2m 30cm인 끈에서 80cm를 잘랐습니다. 남은 길이는 몇 m 몇 cm인가요?</p><details><summary>정답과 풀이</summary><p>정답: 1m 50cm</p><p>2m 30cm는 230cm이고, 230-80=150cm이므로 1m 50cm입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g1-2-numbers-to-100",
+      "pdfPath": "/workbooks/g1-2-numbers-to-100/g1-2-numbers-to-100.pdf",
+      "transcriptPath": "/workbooks/g1-2-numbers-to-100/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g1-2-numbers-to-100/01-cover.txt",
+          "promptSha256": "75785c0c3464d724e753c37525fd2ba26d090fb978c275f03be4eaea5d101bb8",
+          "expectedImagePath": "/workbooks/g1-2-numbers-to-100/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-numbers-to-100/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g1-2-numbers-to-100/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-numbers-to-100/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g1-2-numbers-to-100/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-numbers-to-100/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g1-2-numbers-to-100/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-numbers-to-100/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 네 자리 이하의 수</h1><p>1-2학년군 · 수와 연산 · 네 자리 이하의 수</p><p>성취기준: [2수01-01], [2수01-02], [2수01-03], [2수01-04]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>수 모형이 십 6개와 일 8개를 나타냅니다. 이 수를 쓰고 읽으세요.</p><details><summary>정답과 풀이</summary><p>정답: 68, 육십팔</p><p>십 6개는 60, 일 8개는 8이므로 68이고 육십팔이라고 읽습니다.</p></details></li><li><h2>foundation</h2><p>3482에서 숫자 4가 나타내는 값은 얼마인가요?</p><details><summary>정답과 풀이</summary><p>정답: 400</p><p>4는 백의 자리에 있으므로 400을 나타냅니다.</p></details></li><li><h2>standard</h2><p>998, 999, □, 1001에서 □에 알맞은 수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 1000</p><p>1씩 커지는 수의 계열이므로 999 다음 수는 1000입니다.</p></details></li><li><h2>standard</h2><p>47을 십의 묶음과 낱개로 나누어 두 수의 합으로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 40+7=47</p><p>47은 십의 묶음 4개인 40과 낱개 7로 분해할 수 있습니다.</p></details></li><li><h2>challenge</h2><p>오천이십삼을 숫자로 쓰고, 각 자리의 숫자를 차례로 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 5023, 천의 자리 5·백의 자리 0·십의 자리 2·일의 자리 3</p><p>오천은 5000, 이십은 20, 삼은 3이므로 5023입니다.</p></details></li><li><h2>challenge</h2><p>3098과 3089 중 큰 수를 고르고, 어느 자리에서 크기가 결정되는지 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 3098, 십의 자리</p><p>천과 백의 자리 숫자는 같고, 십의 자리에서 9가 8보다 크므로 3098이 더 큽니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g1-2-one-digit-multiplication",
+      "pdfPath": "/workbooks/g1-2-one-digit-multiplication/g1-2-one-digit-multiplication.pdf",
+      "transcriptPath": "/workbooks/g1-2-one-digit-multiplication/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g1-2-one-digit-multiplication/01-cover.txt",
+          "promptSha256": "9d5314834f1df145af1dc72e36b7007b7c826108ab65f13fe0df1b140e7f35d5",
+          "expectedImagePath": "/workbooks/g1-2-one-digit-multiplication/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-one-digit-multiplication/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g1-2-one-digit-multiplication/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-one-digit-multiplication/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g1-2-one-digit-multiplication/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-one-digit-multiplication/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g1-2-one-digit-multiplication/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-one-digit-multiplication/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 한 자리 수의 곱셈</h1><p>1-2학년군 · 수와 연산 · 한 자리 수의 곱셈</p><p>성취기준: [2수01-10], [2수01-11]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>접시 4개에 귤이 3개씩 있습니다. 귤은 모두 몇 개인가요? 덧셈식과 곱셈식을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 12개, 3+3+3+3=12, 3×4=12</p><p>3개씩 4묶음이므로 3을 네 번 더하거나 3×4로 나타냅니다.</p></details></li><li><h2>foundation</h2><p>6×7을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 42</p><p>6단 곱셈구구에서 6×7=42입니다.</p></details></li><li><h2>standard</h2><p>공책이 한 묶음에 4권씩, 5묶음 있습니다. 공책 수를 곱셈식으로 나타내고 답을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 4×5=20, 20권</p><p>4권씩 5묶음이므로 4×5=20입니다.</p></details></li><li><h2>standard</h2><p>8×9를 계산하고, 8×10을 이용한 방법을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 72, 80-8=72</p><p>8×10=80에서 8을 한 번 빼면 8×9=72입니다.</p></details></li><li><h2>challenge</h2><p>의자가 한 줄에 6개씩 3줄 있습니다. 3×6과 6×3의 값이 같은 까닭을 배열로 설명하세요.</p><details><summary>정답과 풀이</summary><p>정답: 둘 다 18이며, 같은 배열을 가로와 세로로 본 것입니다.</p><p>3줄에 6개인 배열을 돌려 보면 6줄에 3개인 같은 18개 배열입니다.</p></details></li><li><h2>challenge</h2><p>7×□=56에서 □에 알맞은 수를 쓰고 곱셈구구로 확인하세요.</p><details><summary>정답과 풀이</summary><p>정답: 8, 7×8=56</p><p>7단 곱셈구구에서 7×8=56이므로 □는 8입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g1-2-patterns",
+      "pdfPath": "/workbooks/g1-2-patterns/g1-2-patterns.pdf",
+      "transcriptPath": "/workbooks/g1-2-patterns/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g1-2-patterns/01-cover.txt",
+          "promptSha256": "6b1ac65aaa5068cb353bbe9e7182cf88188b388bffd7b219ebc623e580403cba",
+          "expectedImagePath": "/workbooks/g1-2-patterns/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-patterns/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g1-2-patterns/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-patterns/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g1-2-patterns/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-patterns/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g1-2-patterns/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-patterns/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 규칙 찾기</h1><p>1-2학년군 · 변화와 관계 · 규칙 찾기</p><p>성취기준: [2수02-01], [2수02-02]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>빨강, 파랑, 빨강, 파랑, □의 규칙에서 □에 알맞은 색을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 빨강</p><p>빨강과 파랑이 번갈아 나오므로 다음은 빨강입니다.</p></details></li><li><h2>foundation</h2><p>○, △, △가 반복되는 규칙을 이어서 모양 3개를 쓰세요: ○, △, △, ○, △, △, □, □, □</p><details><summary>정답과 풀이</summary><p>정답: ○, △, △</p><p>○, △, △ 세 모양이 한 묶음으로 반복됩니다.</p></details></li><li><h2>standard</h2><p>2, 5, 8, 11, □에서 □에 알맞은 수와 규칙을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 14, 3씩 커집니다.</p><p>앞의 수에 3을 더하면 다음 수가 됩니다.</p></details></li><li><h2>standard</h2><p>4에서 시작하여 4씩 커지는 수를 5개 배열하세요.</p><details><summary>정답과 풀이</summary><p>정답: 4, 8, 12, 16, 20</p><p>4에서 시작해 매번 4를 더합니다.</p></details></li><li><h2>challenge</h2><p>1, 2, 4, 7, 11, □에서 □에 알맞은 수와 규칙을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 16, 차례로 1, 2, 3, 4, 5를 더합니다.</p><p>더하는 수가 1, 2, 3, 4, 5로 1씩 커지므로 11+5=16입니다.</p></details></li><li><h2>challenge</h2><p>3에서 시작하여 2씩 커지는 수를 5개 배열하고, 같은 규칙으로 다음 수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 3, 5, 7, 9, 11, 다음 수 13</p><p>앞의 수에 2를 계속 더하므로 11 다음은 13입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g1-2-quantity-comparison",
+      "pdfPath": "/workbooks/g1-2-quantity-comparison/g1-2-quantity-comparison.pdf",
+      "transcriptPath": "/workbooks/g1-2-quantity-comparison/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g1-2-quantity-comparison/01-cover.txt",
+          "promptSha256": "5cb08dc11eab2c97378ac80454302cdcd323cef13afc4393a99b1a2855eb2c9e",
+          "expectedImagePath": "/workbooks/g1-2-quantity-comparison/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-quantity-comparison/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g1-2-quantity-comparison/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-quantity-comparison/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g1-2-quantity-comparison/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-quantity-comparison/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g1-2-quantity-comparison/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-quantity-comparison/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 양의 비교</h1><p>1-2학년군 · 도형과 측정 · 양의 비교</p><p>성취기준: [2수03-06]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>두 리본을 같은 곳에서 시작해 곧게 놓았습니다. 더 멀리 뻗은 가 리본과 나 리본 중 어느 것이 더 긴가요?</p><details><summary>정답과 풀이</summary><p>정답: 가 리본</p><p>같은 곳에서 시작했을 때 더 멀리 뻗은 가 리본이 더 깁니다.</p></details></li><li><h2>foundation</h2><p>같은 크기의 두 컵에서 물 높이가 더 높은 것은 나 컵입니다. 물이 더 많은 컵은 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 나 컵</p><p>같은 크기의 컵에서는 물 높이가 더 높은 나 컵에 물이 더 많습니다.</p></details></li><li><h2>standard</h2><p>양팔저울에서 가 물건 쪽이 아래로 내려갔습니다. 어느 물건이 더 무거운가요?</p><details><summary>정답과 풀이</summary><p>정답: 가 물건</p><p>양팔저울에서 더 무거운 쪽이 아래로 내려갑니다.</p></details></li><li><h2>standard</h2><p>종이 가를 종이 나 위에 포개었더니 가가 나를 완전히 덮고도 남았습니다. 어느 종이가 더 넓은가요?</p><details><summary>정답과 풀이</summary><p>정답: 종이 가</p><p>포개었을 때 다른 종이를 완전히 덮고 남는 종이 가가 더 넓습니다.</p></details></li><li><h2>challenge</h2><p>막대 가는 나보다 길고, 나는 다보다 깁니다. 세 막대를 긴 것부터 차례로 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 가, 나, 다</p><p>가는 나보다 길고 나도 다보다 길므로 가, 나, 다 순서입니다.</p></details></li><li><h2>challenge</h2><p>상자 가는 나보다 크지만, 양팔저울에서는 나 쪽이 내려갔습니다. 더 큰 상자와 더 무거운 상자를 각각 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 더 큰 상자 가, 더 무거운 상자 나</p><p>겉보기 크기와 무게는 다를 수 있으며, 저울에서 내려간 나가 더 무겁습니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g1-2-solid-shapes",
+      "pdfPath": "/workbooks/g1-2-solid-shapes/g1-2-solid-shapes.pdf",
+      "transcriptPath": "/workbooks/g1-2-solid-shapes/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g1-2-solid-shapes/01-cover.txt",
+          "promptSha256": "b28a3df74290282a1769d8c5d4c3325cb98103f0777da1257ebe4ca23181cd5b",
+          "expectedImagePath": "/workbooks/g1-2-solid-shapes/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-solid-shapes/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g1-2-solid-shapes/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-solid-shapes/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g1-2-solid-shapes/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-solid-shapes/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g1-2-solid-shapes/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-solid-shapes/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 입체도형의 모양</h1><p>1-2학년군 · 도형과 측정 · 입체도형의 모양</p><p>성취기준: [2수03-01], [2수03-02]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>공처럼 어느 방향으로도 잘 굴러가는 물건과 같은 입체도형의 모양은 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 구</p><p>구는 둥근 면으로 되어 있어 어느 방향으로도 잘 굴러갑니다.</p></details></li><li><h2>foundation</h2><p>쌓기나무 두 개를 아래에 나란히 놓고, 한 개를 왼쪽 쌓기나무 위에 놓았습니다. 위 쌓기나무의 위치를 말하세요.</p><details><summary>정답과 풀이</summary><p>정답: 왼쪽 아래 쌓기나무의 위</p><p>위 쌓기나무는 아래 두 개 중 왼쪽 쌓기나무 바로 위에 있습니다.</p></details></li><li><h2>standard</h2><p>상자, 음료수 캔, 공을 직육면체, 원기둥, 구의 모양으로 알맞게 짝 지으세요.</p><details><summary>정답과 풀이</summary><p>정답: 상자-직육면체, 음료수 캔-원기둥, 공-구</p><p>상자는 직육면체, 캔은 원기둥, 공은 구와 모양이 닮았습니다.</p></details></li><li><h2>standard</h2><p>쌓기나무 세 개가 아래에 가로로 놓여 있고, 가운데 것 위에 한 개가 있습니다. 위 쌓기나무의 위치를 말하세요.</p><details><summary>정답과 풀이</summary><p>정답: 가운데 아래 쌓기나무의 위</p><p>위의 한 개는 아래 세 개 중 가운데 쌓기나무 바로 위에 있습니다.</p></details></li><li><h2>challenge</h2><p>직육면체 모양 1개 위에 원기둥 모양 1개를 놓아 만든 모양을 설명하세요.</p><details><summary>정답과 풀이</summary><p>정답: 직육면체 모양 위에 원기둥 모양이 있습니다.</p><p>사용한 입체도형의 모양과 위아래 위치를 함께 말하면 됩니다.</p></details></li><li><h2>challenge</h2><p>쌓기나무가 아래층 왼쪽과 오른쪽에 한 개씩 있고, 위층 오른쪽에 한 개 있습니다. 빈 위층 자리는 어디인가요?</p><details><summary>정답과 풀이</summary><p>정답: 위층 왼쪽</p><p>위층 오른쪽에는 이미 한 개가 있으므로 빈 자리는 그 왼쪽입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g1-2-time",
+      "pdfPath": "/workbooks/g1-2-time/g1-2-time.pdf",
+      "transcriptPath": "/workbooks/g1-2-time/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g1-2-time/01-cover.txt",
+          "promptSha256": "9feab820cadeaef87890cf06a97c55674cf3dcde77a623b9f566712e7592ff53",
+          "expectedImagePath": "/workbooks/g1-2-time/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-time/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g1-2-time/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-time/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g1-2-time/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-time/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g1-2-time/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g1-2-time/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 시각과 시간</h1><p>1-2학년군 · 도형과 측정 · 시각과 시간</p><p>성취기준: [2수03-07], [2수03-08], [2수03-09]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>긴바늘이 4, 짧은바늘이 3과 4 사이를 가리키는 시각을 읽으세요.</p><details><summary>정답과 풀이</summary><p>정답: 3시 20분</p><p>긴바늘이 4를 가리키면 20분이고, 짧은바늘은 3시를 지난 곳에 있습니다.</p></details></li><li><h2>foundation</h2><p>1시간은 몇 분인가요?</p><details><summary>정답과 풀이</summary><p>정답: 60분</p><p>시계의 분침이 한 바퀴 도는 60분이 1시간입니다.</p></details></li><li><h2>standard</h2><p>1주일은 며칠인가요?</p><details><summary>정답과 풀이</summary><p>정답: 7일</p><p>월요일부터 일요일까지 7일이 한 주일입니다.</p></details></li><li><h2>standard</h2><p>긴바늘이 9, 짧은바늘이 8과 9 사이를 가리키는 시각을 읽으세요.</p><details><summary>정답과 풀이</summary><p>정답: 8시 45분</p><p>긴바늘이 9를 가리키면 45분이고, 짧은바늘은 8시를 지난 곳에 있습니다.</p></details></li><li><h2>challenge</h2><p>2시간 30분은 모두 몇 분인가요?</p><details><summary>정답과 풀이</summary><p>정답: 150분</p><p>2시간은 120분이고, 120+30=150분입니다.</p></details></li><li><h2>challenge</h2><p>이번 주 월요일부터 다음 주 월요일까지는 며칠이며 몇 주일인가요?</p><details><summary>정답과 풀이</summary><p>정답: 7일, 1주일</p><p>같은 요일에서 다음 주의 같은 요일까지는 7일, 곧 1주일입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-capacity",
+      "pdfPath": "/workbooks/g3-4-capacity/g3-4-capacity.pdf",
+      "transcriptPath": "/workbooks/g3-4-capacity/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-capacity/01-cover.txt",
+          "promptSha256": "ab3415676fe4e20c902c57cf5aa70b524a4f73e68c8fc3b78161a7b2935424cc",
+          "expectedImagePath": "/workbooks/g3-4-capacity/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-capacity/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-capacity/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-capacity/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-capacity/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-capacity/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-capacity/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-capacity/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 들이</h1><p>3-4학년군 · 도형과 측정 · 들이</p><p>성취기준: [4수03-17], [4수03-18], [4수03-19]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>약을 먹는 작은 숟가락 한 개의 들이로 알맞은 것은 5mL와 5L 중 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 5mL</p><p>작은 숟가락의 들이는 매우 적으므로 5mL가 알맞습니다.</p></details></li><li><h2>foundation</h2><p>2L 350mL를 몇 mL로 나타낼 수 있나요?</p><details><summary>정답과 풀이</summary><p>정답: 2,350mL</p><p>1L=1,000mL이므로 2L 350mL=2,000mL+350mL=2,350mL입니다.</p></details></li><li><h2>standard</h2><p>1L 750mL와 850mL를 더하면 몇 L 몇 mL인가요?</p><details><summary>정답과 풀이</summary><p>정답: 2L 600mL</p><p>1,750mL+850mL=2,600mL이고, 2,600mL=2L 600mL입니다.</p></details></li><li><h2>standard</h2><p>청소용 물통 한 개의 들이를 어림한 값으로 알맞은 것은 8mL, 8L, 800L 중 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 8L</p><p>손으로 들 수 있는 청소용 물통의 들이는 보통 몇 L이므로 8L가 알맞습니다.</p></details></li><li><h2>challenge</h2><p>4,250mL를 몇 L 몇 mL로 나타낼 수 있나요?</p><details><summary>정답과 풀이</summary><p>정답: 4L 250mL</p><p>4,250mL=4,000mL+250mL이고 4,000mL=4L이므로 4L 250mL입니다.</p></details></li><li><h2>challenge</h2><p>물 5L 중 1L 875mL와 2L 450mL를 사용했습니다. 남은 물은 몇 mL인가요?</p><details><summary>정답과 풀이</summary><p>정답: 675mL</p><p>사용한 물은 1,875+2,450=4,325mL이고, 5,000-4,325=675mL입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-circle-elements",
+      "pdfPath": "/workbooks/g3-4-circle-elements/g3-4-circle-elements.pdf",
+      "transcriptPath": "/workbooks/g3-4-circle-elements/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-circle-elements/01-cover.txt",
+          "promptSha256": "ace377a25db4af1d096859dbf38408c8777c9b30fa423d4e2e1fa9460971e162",
+          "expectedImagePath": "/workbooks/g3-4-circle-elements/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-circle-elements/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-circle-elements/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-circle-elements/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-circle-elements/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-circle-elements/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-circle-elements/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-circle-elements/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 원의 구성 요소</h1><p>3-4학년군 · 도형과 측정 · 원의 구성 요소</p><p>성취기준: [4수03-06], [4수03-07]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>원의 중심과 원 위의 한 점을 이은 선분을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 반지름</p><p>원의 중심에서 원 위의 한 점까지 이은 선분은 반지름입니다.</p></details></li><li><h2>foundation</h2><p>반지름이 4cm인 원의 지름은 몇 cm인가요?</p><details><summary>정답과 풀이</summary><p>정답: 8cm</p><p>지름은 반지름의 2배이므로 4×2=8cm입니다.</p></details></li><li><h2>standard</h2><p>컴퍼스의 두 다리 사이를 3cm로 벌려 원을 그렸습니다. 이 원의 반지름은 몇 cm인가요?</p><details><summary>정답과 풀이</summary><p>정답: 3cm</p><p>컴퍼스의 침과 연필심 사이의 거리가 그린 원의 반지름이므로 3cm입니다.</p></details></li><li><h2>standard</h2><p>지름이 14cm인 원의 반지름은 몇 cm인가요?</p><details><summary>정답과 풀이</summary><p>정답: 7cm</p><p>반지름은 지름의 절반이므로 14÷2=7cm입니다.</p></details></li><li><h2>challenge</h2><p>중심이 같은 반지름 2cm와 5cm인 두 원을 그리려 합니다. 컴퍼스를 각각 몇 cm로 벌려야 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 2cm와 5cm</p><p>컴퍼스를 원하는 반지름만큼 벌려야 하므로 각각 2cm와 5cm로 벌립니다.</p></details></li><li><h2>challenge</h2><p>한 원의 지름과 반지름의 길이를 더하면 18cm입니다. 이 원의 반지름은 몇 cm인가요?</p><details><summary>정답과 풀이</summary><p>정답: 6cm</p><p>지름은 반지름의 2배이므로 지름과 반지름의 합은 반지름의 3배입니다. 18÷3=6cm입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-data-collection",
+      "pdfPath": "/workbooks/g3-4-data-collection/g3-4-data-collection.pdf",
+      "transcriptPath": "/workbooks/g3-4-data-collection/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-data-collection/01-cover.txt",
+          "promptSha256": "3469a6edde05c5657f8bf6264ce44e23497634f03f67aa49cb375449ef457f5e",
+          "expectedImagePath": "/workbooks/g3-4-data-collection/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-data-collection/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-data-collection/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-data-collection/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-data-collection/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-data-collection/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-data-collection/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-data-collection/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 자료의 수집과 정리</h1><p>3-4학년군 · 자료와 가능성 · 자료의 수집과 정리</p><p>성취기준: [4수04-01], [4수04-02], [4수04-03]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>막대그래프에 읽은 책 수가 월요일 3권, 화요일 5권, 수요일 4권으로 나타나 있습니다. 가장 많이 읽은 요일과 책 수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 화요일, 5권</p><p>월요일 3권, 화요일 5권, 수요일 4권 중 5권이 가장 많으므로 화요일입니다.</p></details></li><li><h2>foundation</h2><p>꺾은선그래프의 기온이 월요일 18°C, 화요일 21°C, 수요일 19°C, 목요일 24°C입니다. 기온이 가장 많이 오른 때와 오른 값을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 수요일에서 목요일, 5°C</p><p>월요일에서 화요일은 3°C 상승하고 수요일에서 목요일은 5°C 상승하므로 수요일에서 목요일이 가장 큽니다.</p></details></li><li><h2>standard</h2><p>하루 동안 한 시간마다 측정한 기온이 시간에 따라 어떻게 변하는지 알아보려 합니다. 막대그래프와 꺾은선그래프 중 어느 것이 더 알맞나요?</p><details><summary>정답과 풀이</summary><p>정답: 꺾은선그래프</p><p>시간의 흐름에 따른 연속적인 변화를 살펴볼 때는 꺾은선그래프가 알맞습니다.</p></details></li><li><h2>standard</h2><p>막대그래프에 세 체험관의 방문 학생 수가 가 12명, 나 18명, 다 15명으로 나타나 있습니다. 세 체험관의 방문 학생은 모두 몇 명인가요?</p><details><summary>정답과 풀이</summary><p>정답: 45명</p><p>12+18+15=45이므로 방문 학생은 모두 45명입니다.</p></details></li><li><h2>challenge</h2><p>꺾은선그래프에 식물의 키가 월요일 10cm, 화요일 14cm, 수요일 13cm, 목요일 18cm로 나타나 있습니다. 월요일부터 목요일까지 전체적으로 몇 cm 커졌나요?</p><details><summary>정답과 풀이</summary><p>정답: 8cm</p><p>처음 10cm에서 마지막 18cm가 되었으므로 전체적으로 18-10=8cm 커졌습니다.</p></details></li><li><h2>challenge</h2><p>좋아하는 과일을 조사했더니 사과 8명, 배 5명, 포도 7명이었습니다. 배가 가장 많은 응답이 되려면 적어도 몇 명이 더 배를 골라야 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 4명</p><p>현재 가장 많은 사과는 8명입니다. 배가 8명보다 많아지려면 5명에서 9명이 되어야 하므로 4명이 더 필요합니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-decimal-addition-subtraction",
+      "pdfPath": "/workbooks/g3-4-decimal-addition-subtraction/g3-4-decimal-addition-subtraction.pdf",
+      "transcriptPath": "/workbooks/g3-4-decimal-addition-subtraction/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-decimal-addition-subtraction/01-cover.txt",
+          "promptSha256": "201547f6437d7a39f6dff8e3aa0518678c8b7ed15632faf18c48e548508345c5",
+          "expectedImagePath": "/workbooks/g3-4-decimal-addition-subtraction/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-decimal-addition-subtraction/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-decimal-addition-subtraction/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-decimal-addition-subtraction/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-decimal-addition-subtraction/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-decimal-addition-subtraction/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-decimal-addition-subtraction/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-decimal-addition-subtraction/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 소수의 덧셈과 뺄셈</h1><p>3-4학년군 · 수와 연산 · 소수의 덧셈과 뺄셈</p><p>성취기준: [4수01-16]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>2.3+1.4를 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 3.7</p><p>소수점을 맞추어 3/10+4/10=7/10으로 계산하면 3.7입니다.</p></details></li><li><h2>foundation</h2><p>5.8-2.6을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 3.2</p><p>소수점을 맞추어 빼면 5.8-2.6=3.2입니다.</p></details></li><li><h2>standard</h2><p>4.75+3.6을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 8.35</p><p>3.6을 3.60으로 나타내어 소수점을 맞추면 4.75+3.60=8.35입니다.</p></details></li><li><h2>standard</h2><p>9.02-4.87을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 4.15</p><p>소수점을 맞추고 받아내림하여 계산하면 9.02-4.87=4.15입니다.</p></details></li><li><h2>challenge</h2><p>두 리본의 길이가 12.45m와 7.8m입니다. 이어 붙인 전체 길이는 몇 m인가요?</p><details><summary>정답과 풀이</summary><p>정답: 20.25m</p><p>7.8을 7.80으로 나타내면 12.45+7.80=20.25이므로 20.25m입니다.</p></details></li><li><h2>challenge</h2><p>물 15L 중 3.78L와 4.95L를 사용했습니다. 남은 물은 몇 L인가요?</p><details><summary>정답과 풀이</summary><p>정답: 6.27L</p><p>사용한 물은 3.78+4.95=8.73L이고, 남은 물은 15.00-8.73=6.27L입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-decimals",
+      "pdfPath": "/workbooks/g3-4-decimals/g3-4-decimals.pdf",
+      "transcriptPath": "/workbooks/g3-4-decimals/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-decimals/01-cover.txt",
+          "promptSha256": "2e5d8141c6e87585ffcd39a5610f2ea183d3daaf72e4ce3f32049698efefad5d",
+          "expectedImagePath": "/workbooks/g3-4-decimals/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-decimals/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-decimals/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-decimals/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-decimals/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-decimals/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-decimals/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-decimals/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 소수</h1><p>3-4학년군 · 수와 연산 · 소수</p><p>성취기준: [4수01-12], [4수01-13], [4수01-14]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>7/10을 소수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 0.7</p><p>7/10은 0.1이 7개인 수이므로 0.7입니다.</p></details></li><li><h2>foundation</h2><p>4.263에서 숫자 6이 나타내는 값은 얼마인가요?</p><details><summary>정답과 풀이</summary><p>정답: 0.06</p><p>6은 소수 둘째 자리에 있으므로 0.06, 즉 6/100을 나타냅니다.</p></details></li><li><h2>standard</h2><p>‘십이 점 삼 영 오’를 숫자로 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 12.305</p><p>소수점 아래 숫자를 차례로 3, 0, 5로 쓰면 12.305입니다.</p></details></li><li><h2>standard</h2><p>3.47과 3.407 중 더 큰 수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 3.47</p><p>3.47을 3.470으로 나타내면 소수 둘째 자리에서 7이 0보다 크므로 3.47이 더 큽니다.</p></details></li><li><h2>challenge</h2><p>0.4를 분모가 10인 분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 4/10</p><p>0.4는 0.1이 4개인 수이므로 4/10입니다.</p></details></li><li><h2>challenge</h2><p>2.09, 2.9, 2.099를 작은 수부터 차례로 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 2.09, 2.099, 2.9</p><p>2.090, 2.099, 2.900으로 자릿수를 맞추어 비교하면 2.09&lt;2.099&lt;2.9입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-equality",
+      "pdfPath": "/workbooks/g3-4-equality/g3-4-equality.pdf",
+      "transcriptPath": "/workbooks/g3-4-equality/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-equality/01-cover.txt",
+          "promptSha256": "3a0a77514e313d8e0afd47874f6f4cd2a467102f4feb04f087b47989858f7c2a",
+          "expectedImagePath": "/workbooks/g3-4-equality/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-equality/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-equality/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-equality/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-equality/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-equality/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-equality/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-equality/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 등호와 동치 관계</h1><p>3-4학년군 · 변화와 관계 · 등호와 동치 관계</p><p>성취기준: [4수02-03]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>7+5=□에서 □에 알맞은 수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 12</p><p>등호 양쪽의 값이 같아야 하므로 7+5=12입니다.</p></details></li><li><h2>foundation</h2><p>18-6=3×4가 옳은 식인지 판단하세요.</p><details><summary>정답과 풀이</summary><p>정답: 옳다</p><p>18-6=12이고 3×4=12이므로 등호 양쪽의 값이 같습니다.</p></details></li><li><h2>standard</h2><p>□+17=45에서 □에 알맞은 수를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 28</p><p>등호 양쪽을 같게 하려면 □=45-17=28입니다.</p></details></li><li><h2>standard</h2><p>6×8=□÷2에서 □에 알맞은 수를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 96</p><p>6×8=48이므로 □÷2=48입니다. 따라서 □=48×2=96입니다.</p></details></li><li><h2>challenge</h2><p>125+78=140+□에서 □에 알맞은 수를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 63</p><p>왼쪽은 125+78=203이므로 오른쪽도 203이어야 합니다. □=203-140=63입니다.</p></details></li><li><h2>challenge</h2><p>3□+27=65에서 □에 들어갈 한 자리 수를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 8</p><p>65-27=38이므로 3□는 38입니다. 따라서 □에 들어갈 숫자는 8입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-estimation",
+      "pdfPath": "/workbooks/g3-4-estimation/g3-4-estimation.pdf",
+      "transcriptPath": "/workbooks/g3-4-estimation/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-estimation/01-cover.txt",
+          "promptSha256": "f8cf13df9781f4105519bf97d666cc4a906a76cf3032032c2cb2a887d5af42fe",
+          "expectedImagePath": "/workbooks/g3-4-estimation/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-estimation/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-estimation/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-estimation/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-estimation/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-estimation/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-estimation/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-estimation/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 자연수의 어림셈</h1><p>3-4학년군 · 수와 연산 · 자연수의 어림셈</p><p>성취기준: [4수01-08]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>398+205를 각각 백의 자리까지 어림하여 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 약 600</p><p>398은 약 400, 205는 약 200이므로 합은 약 600입니다.</p></details></li><li><h2>foundation</h2><p>801-297을 각각 백의 자리까지 어림하여 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 약 500</p><p>801은 약 800, 297은 약 300이므로 차는 약 500입니다.</p></details></li><li><h2>standard</h2><p>49×21을 각각 십의 자리까지 어림하여 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 약 1,000</p><p>49는 약 50, 21은 약 20이므로 50×20=1,000입니다.</p></details></li><li><h2>standard</h2><p>798÷41을 800÷40으로 어림하여 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 약 20</p><p>798을 800으로, 41을 40으로 보면 800÷40=20입니다.</p></details></li><li><h2>challenge</h2><p>두 공연의 관람객이 1,976명과 3,084명입니다. 각각 백의 자리까지 반올림하여 전체 관람객 수를 어림하세요.</p><details><summary>정답과 풀이</summary><p>정답: 약 5,100명</p><p>1,976은 2,000, 3,084는 3,100으로 어림되므로 합은 약 5,100명입니다.</p></details></li><li><h2>challenge</h2><p>3,048명을 한 대에 45명씩 태웁니다. 3,048을 3,000으로, 45를 50으로 어림하면 버스는 몇 대쯤인가요?</p><details><summary>정답과 풀이</summary><p>정답: 약 60대</p><p>3,000÷50=60이므로 버스는 약 60대로 어림할 수 있습니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-fraction-addition-subtraction",
+      "pdfPath": "/workbooks/g3-4-fraction-addition-subtraction/g3-4-fraction-addition-subtraction.pdf",
+      "transcriptPath": "/workbooks/g3-4-fraction-addition-subtraction/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-fraction-addition-subtraction/01-cover.txt",
+          "promptSha256": "e0b92a46beaf1adf3ccfa3dc796019b4096f60dbebfacdb7177aa67c37d2346d",
+          "expectedImagePath": "/workbooks/g3-4-fraction-addition-subtraction/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-fraction-addition-subtraction/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-fraction-addition-subtraction/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-fraction-addition-subtraction/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-fraction-addition-subtraction/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-fraction-addition-subtraction/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-fraction-addition-subtraction/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-fraction-addition-subtraction/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 분수의 덧셈과 뺄셈</h1><p>3-4학년군 · 수와 연산 · 분수의 덧셈과 뺄셈</p><p>성취기준: [4수01-15]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>2/7+3/7을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 5/7</p><p>분모가 같으므로 분자는 2+3=5로 더하고 분모 7은 그대로 둡니다.</p></details></li><li><h2>foundation</h2><p>6/9-2/9를 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 4/9</p><p>분모가 같으므로 분자는 6-2=4로 빼고 분모 9는 그대로 둡니다.</p></details></li><li><h2>standard</h2><p>1과 2/5+2와 1/5을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 3과 3/5</p><p>자연수끼리 더하면 3이고 분수끼리 더하면 3/5이므로 3과 3/5입니다.</p></details></li><li><h2>standard</h2><p>3과 1/8-1과 5/8을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 1과 4/8</p><p>3과 1/8을 2와 9/8로 바꾸면 2와 9/8-1과 5/8=1과 4/8입니다.</p></details></li><li><h2>challenge</h2><p>민수는 책의 5/12를 오전에, 4/12를 오후에 읽었습니다. 모두 얼마만큼 읽었나요?</p><details><summary>정답과 풀이</summary><p>정답: 9/12</p><p>같은 책을 기준으로 5/12+4/12=9/12만큼 읽었습니다.</p></details></li><li><h2>challenge</h2><p>2와 3/7-□=1과 5/7일 때 □에 알맞은 분수를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 5/7</p><p>□=2와 3/7-1과 5/7이고, 2와 3/7을 1과 10/7로 바꾸어 빼면 5/7입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-geometry-basics",
+      "pdfPath": "/workbooks/g3-4-geometry-basics/g3-4-geometry-basics.pdf",
+      "transcriptPath": "/workbooks/g3-4-geometry-basics/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-geometry-basics/01-cover.txt",
+          "promptSha256": "b600456dc7a260538451160ad34030e6fc85ea7b092b1934c954c5a083f3b7a7",
+          "expectedImagePath": "/workbooks/g3-4-geometry-basics/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-geometry-basics/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-geometry-basics/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-geometry-basics/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-geometry-basics/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-geometry-basics/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-geometry-basics/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-geometry-basics/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 도형의 기초</h1><p>3-4학년군 · 도형과 측정 · 도형의 기초</p><p>성취기준: [4수03-01], [4수03-02], [4수03-03]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>두 점을 곧게 이은 부분으로 양 끝이 정해진 도형을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 선분</p><p>두 끝점과 그 사이의 곧은 부분으로 이루어진 도형은 선분입니다.</p></details></li><li><h2>foundation</h2><p>크기가 35°인 각은 예각, 직각, 둔각 중 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 예각</p><p>35°는 직각인 90°보다 작으므로 예각입니다.</p></details></li><li><h2>standard</h2><p>두 직선이 만나서 이루는 각이 직각일 때, 두 직선은 서로 어떤 관계인가요?</p><details><summary>정답과 풀이</summary><p>정답: 수직</p><p>두 직선이 만나 직각을 이루면 두 직선은 서로 수직입니다.</p></details></li><li><h2>standard</h2><p>한 점에서 시작하여 한쪽 방향으로 끝없이 뻗은 곧은 선을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 반직선</p><p>한 점을 끝점으로 하고 한쪽 방향으로 끝없이 뻗은 선은 반직선입니다.</p></details></li><li><h2>challenge</h2><p>크기가 120°인 각을 직각과 비교하여 예각, 직각, 둔각 중 하나로 분류하세요.</p><details><summary>정답과 풀이</summary><p>정답: 둔각</p><p>120°는 90°보다 크고 180°보다 작으므로 둔각입니다.</p></details></li><li><h2>challenge</h2><p>같은 평면에서 아무리 길게 늘여도 만나지 않고 두 직선 사이의 거리가 일정한 관계를 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 평행</p><p>같은 평면에서 만나지 않고 간격이 일정한 두 직선은 서로 평행합니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-large-numbers",
+      "pdfPath": "/workbooks/g3-4-large-numbers/g3-4-large-numbers.pdf",
+      "transcriptPath": "/workbooks/g3-4-large-numbers/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-large-numbers/01-cover.txt",
+          "promptSha256": "8cc0b80ef020794f5b9493fe0452bf31d2e9bdddb91af06298850d794d2bc53d",
+          "expectedImagePath": "/workbooks/g3-4-large-numbers/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-large-numbers/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-large-numbers/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-large-numbers/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-large-numbers/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-large-numbers/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-large-numbers/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-large-numbers/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 다섯 자리 이상의 수</h1><p>3-4학년군 · 수와 연산 · 다섯 자리 이상의 수</p><p>성취기준: [4수01-01], [4수01-02]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>407,215에서 숫자 7이 나타내는 값은 얼마인가요?</p><details><summary>정답과 풀이</summary><p>정답: 7,000</p><p>7은 천의 자리에 있으므로 7×1,000=7,000입니다.</p></details></li><li><h2>foundation</h2><p>‘육십만 오천사십’을 숫자로 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 605,040</p><p>육십만은 600,000, 오천은 5,000, 사십은 40이므로 605,040입니다.</p></details></li><li><h2>standard</h2><p>398,000, 399,000, □, 401,000에서 □에 알맞은 수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 400,000</p><p>1,000씩 커지는 수의 계열이므로 399,000 다음은 400,000입니다.</p></details></li><li><h2>standard</h2><p>572,904와 572,940 중 더 큰 수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 572,940</p><p>십의 자리에서 4가 0보다 크므로 572,940이 더 큽니다.</p></details></li><li><h2>challenge</h2><p>300,000+40,000+500+6으로 나타낸 수를 쓰고 읽으세요.</p><details><summary>정답과 풀이</summary><p>정답: 340,506, 삼십사만 오백육</p><p>각 자릿값을 합하면 340,506이고, 삼십사만 오백육이라고 읽습니다.</p></details></li><li><h2>challenge</h2><p>숫자 0, 2, 5, 7, 8, 9를 한 번씩 모두 사용하여 만들 수 있는 가장 큰 여섯 자리 수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 987,520</p><p>큰 자리부터 9, 8, 7, 5, 2, 0을 차례로 놓으면 가장 큰 수 987,520이 됩니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-length",
+      "pdfPath": "/workbooks/g3-4-length/g3-4-length.pdf",
+      "transcriptPath": "/workbooks/g3-4-length/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-length/01-cover.txt",
+          "promptSha256": "601d2a68714a633ca9b0c62c8714bc7271ba5d7b73e7ada62a0de6198f138ed1",
+          "expectedImagePath": "/workbooks/g3-4-length/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-length/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-length/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-length/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-length/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-length/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-length/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-length/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 길이</h1><p>3-4학년군 · 도형과 측정 · 길이</p><p>성취기준: [4수03-15], [4수03-16]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>동전 한 개의 두께를 나타내기에 알맞은 것은 2mm, 2m, 2km 중 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 2mm</p><p>동전의 두께처럼 매우 짧은 길이는 mm로 나타내는 것이 알맞습니다.</p></details></li><li><h2>foundation</h2><p>두 도시 사이의 거리를 나타내기에 알맞은 것은 120mm, 120m, 120km 중 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 120km</p><p>두 도시 사이처럼 매우 먼 거리는 km로 나타내는 것이 알맞습니다.</p></details></li><li><h2>standard</h2><p>4cm 7mm를 몇 mm로 나타낼 수 있나요?</p><details><summary>정답과 풀이</summary><p>정답: 47mm</p><p>1cm=10mm이므로 4cm 7mm=40mm+7mm=47mm입니다.</p></details></li><li><h2>standard</h2><p>3km 250m를 몇 m로 나타낼 수 있나요?</p><details><summary>정답과 풀이</summary><p>정답: 3,250m</p><p>1km=1,000m이므로 3km 250m=3,000m+250m=3,250m입니다.</p></details></li><li><h2>challenge</h2><p>교실 책상의 높이를 어림한 값으로 알맞은 것은 70mm, 70cm, 70km 중 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 70cm</p><p>교실 책상의 높이는 보통 수십 cm이므로 70cm가 알맞습니다.</p></details></li><li><h2>challenge</h2><p>가 산책로의 길이는 4km 130m이고 나 산책로의 길이는 4,130m입니다. 두 산책로의 길이를 비교하세요.</p><details><summary>정답과 풀이</summary><p>정답: 두 길이는 같다</p><p>1km=1,000m이므로 4km 130m=4,000m+130m=4,130m입니다. 따라서 두 길이는 같습니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-mass",
+      "pdfPath": "/workbooks/g3-4-mass/g3-4-mass.pdf",
+      "transcriptPath": "/workbooks/g3-4-mass/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-mass/01-cover.txt",
+          "promptSha256": "b16a82e6272e30b4b9813acd48d655d8f938a6274b22d7ef083cebcbe9660970",
+          "expectedImagePath": "/workbooks/g3-4-mass/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-mass/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-mass/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-mass/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-mass/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-mass/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-mass/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-mass/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 무게</h1><p>3-4학년군 · 도형과 측정 · 무게</p><p>성취기준: [4수03-20], [4수03-21], [4수03-22], [4수03-23]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>지우개 한 개의 무게로 알맞은 것은 25g과 25kg 중 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 25g</p><p>지우개처럼 가벼운 물건의 무게는 g으로 나타내는 것이 알맞습니다.</p></details></li><li><h2>foundation</h2><p>3kg 450g을 몇 g으로 나타낼 수 있나요?</p><details><summary>정답과 풀이</summary><p>정답: 3,450g</p><p>1kg=1,000g이므로 3kg 450g=3,000g+450g=3,450g입니다.</p></details></li><li><h2>standard</h2><p>2t을 몇 kg으로 나타낼 수 있나요?</p><details><summary>정답과 풀이</summary><p>정답: 2,000kg</p><p>1t=1,000kg이므로 2t=2×1,000=2,000kg입니다.</p></details></li><li><h2>standard</h2><p>1kg 750g과 850g을 더하면 몇 kg 몇 g인가요?</p><details><summary>정답과 풀이</summary><p>정답: 2kg 600g</p><p>1,750g+850g=2,600g이고, 2,600g=2kg 600g입니다.</p></details></li><li><h2>challenge</h2><p>수박 한 통의 무게를 어림한 값으로 알맞은 것은 4g, 4kg, 4t 중 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 4kg</p><p>수박 한 통은 보통 몇 kg이므로 4kg가 알맞습니다.</p></details></li><li><h2>challenge</h2><p>최대 3t까지 실을 수 있는 트럭에 짐 1t 850kg을 실었습니다. 더 실을 수 있는 무게는 몇 t 몇 kg인가요?</p><details><summary>정답과 풀이</summary><p>정답: 1t 150kg</p><p>3t=3,000kg이고 1t 850kg=1,850kg이므로 3,000-1,850=1,150kg, 즉 1t 150kg입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-plane-transformations",
+      "pdfPath": "/workbooks/g3-4-plane-transformations/g3-4-plane-transformations.pdf",
+      "transcriptPath": "/workbooks/g3-4-plane-transformations/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-plane-transformations/01-cover.txt",
+          "promptSha256": "6362769bb919042fe120a7d4812df401bc731d2a3b7a449a75582152ba48f5a0",
+          "expectedImagePath": "/workbooks/g3-4-plane-transformations/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-plane-transformations/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-plane-transformations/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-plane-transformations/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-plane-transformations/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-plane-transformations/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-plane-transformations/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-plane-transformations/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 평면도형의 이동</h1><p>3-4학년군 · 도형과 측정 · 평면도형의 이동</p><p>성취기준: [4수03-04], [4수03-05]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>도형의 방향을 바꾸지 않고 오른쪽으로 3칸 옮기는 이동을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 밀기</p><p>모양과 방향을 그대로 두고 위치만 옮기는 이동은 밀기입니다.</p></details></li><li><h2>foundation</h2><p>거울에 비친 모습처럼 도형의 왼쪽과 오른쪽이 서로 바뀌는 이동을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 뒤집기</p><p>한 직선을 기준으로 거울에 비친 것처럼 바뀌는 이동은 뒤집기입니다.</p></details></li><li><h2>standard</h2><p>점이 위에서 2째 줄, 왼쪽에서 3째 칸에 있습니다. 오른쪽으로 2칸 이동한 위치를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 위에서 2째 줄, 왼쪽에서 5째 칸</p><p>세로 위치는 그대로이고 가로 위치만 3+2=5가 됩니다.</p></details></li><li><h2>standard</h2><p>점이 위에서 5째 줄, 왼쪽에서 4째 칸에 있습니다. 위로 3칸, 왼쪽으로 1칸 이동한 위치를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 위에서 2째 줄, 왼쪽에서 3째 칸</p><p>위로 3칸 가면 5-3=2째 줄, 왼쪽으로 1칸 가면 4-1=3째 칸입니다.</p></details></li><li><h2>challenge</h2><p>위를 향한 화살표를 시계 방향으로 90° 돌리면 어느 방향을 향하나요?</p><details><summary>정답과 풀이</summary><p>정답: 오른쪽</p><p>위를 향한 화살표를 시계 방향으로 직각만큼 돌리면 오른쪽을 향합니다.</p></details></li><li><h2>challenge</h2><p>점이 위에서 4째 줄, 왼쪽에서 2째 칸에 있습니다. 오른쪽 3칸, 위쪽 2칸, 왼쪽 1칸 이동한 위치를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 위에서 2째 줄, 왼쪽에서 4째 칸</p><p>가로로는 3칸 오른쪽 뒤 1칸 왼쪽이므로 2칸 오른쪽, 세로로는 2칸 위입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-polygons",
+      "pdfPath": "/workbooks/g3-4-polygons/g3-4-polygons.pdf",
+      "transcriptPath": "/workbooks/g3-4-polygons/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-polygons/01-cover.txt",
+          "promptSha256": "22a0f50822d23e008937c93e692898e800b8f2a3f07715953bde39767b18a02c",
+          "expectedImagePath": "/workbooks/g3-4-polygons/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-polygons/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-polygons/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-polygons/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-polygons/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-polygons/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-polygons/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-polygons/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 다각형</h1><p>3-4학년군 · 도형과 측정 · 다각형</p><p>성취기준: [4수03-11], [4수03-12]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>선분만으로 둘러싸인 닫힌 평면도형을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 다각형</p><p>선분만으로 둘러싸여 있고 닫혀 있는 평면도형은 다각형입니다.</p></details></li><li><h2>foundation</h2><p>변의 길이와 각의 크기가 각각 모두 같은 다각형을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 정다각형</p><p>모든 변의 길이가 같고 모든 각의 크기도 같은 다각형은 정다각형입니다.</p></details></li><li><h2>standard</h2><p>두 직각삼각형의 변 길이가 각각 3cm, 4cm, 5cm입니다. 길이 5cm인 변끼리 맞대어 네 각이 직각이 되게 만들 수 있는 사각형은 무엇인가요?</p><details><summary>정답과 풀이</summary><p>정답: 직사각형</p><p>두 삼각형의 빗변을 맞대면 바깥쪽 변은 3cm와 4cm가 되고 네 각이 직각인 직사각형이 됩니다.</p></details></li><li><h2>standard</h2><p>한 각이 60°인 정삼각형 6개를 한 꼭짓점에 모으면 빈틈없이 채워집니다. 모인 각의 크기의 합은 몇 도인가요?</p><details><summary>정답과 풀이</summary><p>정답: 360°</p><p>정삼각형의 한 각은 60°이고 60×6=360이므로 한 점 둘레를 빈틈없이 채웁니다.</p></details></li><li><h2>challenge</h2><p>한 변의 길이가 4cm인 정육각형의 둘레는 몇 cm인가요?</p><details><summary>정답과 풀이</summary><p>정답: 24cm</p><p>정육각형은 길이가 같은 변이 6개이므로 둘레는 4×6=24cm입니다.</p></details></li><li><h2>challenge</h2><p>한 변이 1cm인 정사각형 12개를 겹치지 않게 3줄에 4개씩 붙여 직사각형을 만들었습니다. 만든 도형의 둘레는 몇 cm인가요?</p><details><summary>정답과 풀이</summary><p>정답: 14cm</p><p>만든 직사각형의 가로는 4cm, 세로는 3cm이므로 둘레는 (4+3)×2=14cm입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-quadrilaterals",
+      "pdfPath": "/workbooks/g3-4-quadrilaterals/g3-4-quadrilaterals.pdf",
+      "transcriptPath": "/workbooks/g3-4-quadrilaterals/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-quadrilaterals/01-cover.txt",
+          "promptSha256": "04995b4a5b6bf4fab33db636e1a0b003d92cb619da32436fd5404859b3306497",
+          "expectedImagePath": "/workbooks/g3-4-quadrilaterals/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-quadrilaterals/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-quadrilaterals/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-quadrilaterals/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-quadrilaterals/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-quadrilaterals/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-quadrilaterals/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-quadrilaterals/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 여러 가지 사각형</h1><p>3-4학년군 · 도형과 측정 · 여러 가지 사각형</p><p>성취기준: [4수03-10]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>네 각이 모두 직각인 사각형을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 직사각형</p><p>네 각이 모두 직각인 사각형은 직사각형입니다.</p></details></li><li><h2>foundation</h2><p>네 변의 길이가 모두 같고 네 각이 모두 직각인 사각형을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 정사각형</p><p>네 변이 모두 같고 네 각이 모두 직각인 사각형은 정사각형입니다.</p></details></li><li><h2>standard</h2><p>마주 보는 변 한 쌍만 서로 평행하고 다른 한 쌍은 평행하지 않은 사각형을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 사다리꼴</p><p>마주 보는 변 한 쌍이 서로 평행한 사각형은 사다리꼴로 분류할 수 있습니다.</p></details></li><li><h2>standard</h2><p>마주 보는 두 쌍의 변이 각각 서로 평행한 사각형을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 평행사변형</p><p>마주 보는 두 쌍의 변이 각각 평행한 사각형은 평행사변형입니다.</p></details></li><li><h2>challenge</h2><p>네 변의 길이가 모두 같지만 직각은 하나도 없는 사각형을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 마름모</p><p>네 변의 길이가 모두 같은 사각형은 마름모이며, 직각이 없다는 조건으로 정사각형과 구별됩니다.</p></details></li><li><h2>challenge</h2><p>정사각형은 직사각형과 마름모의 성질을 모두 가집니다. 그 까닭을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 네 각이 모두 직각이고 네 변의 길이가 모두 같기 때문</p><p>네 각이 모두 직각이어서 직사각형이고, 네 변이 모두 같아서 마름모이기도 합니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-rules-expressions",
+      "pdfPath": "/workbooks/g3-4-rules-expressions/g3-4-rules-expressions.pdf",
+      "transcriptPath": "/workbooks/g3-4-rules-expressions/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-rules-expressions/01-cover.txt",
+          "promptSha256": "5f92b039c4a9de5f0e1a4536d87a858d1ffe029c30aea1be141fafe11a2a78c0",
+          "expectedImagePath": "/workbooks/g3-4-rules-expressions/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-rules-expressions/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-rules-expressions/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-rules-expressions/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-rules-expressions/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-rules-expressions/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-rules-expressions/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-rules-expressions/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 규칙을 수나 식으로 나타내기</h1><p>3-4학년군 · 변화와 관계 · 규칙을 수나 식으로 나타내기</p><p>성취기준: [4수02-01], [4수02-02]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>3, 6, 9, 12, □의 규칙을 찾고 □에 알맞은 수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 15</p><p>앞의 수에 3씩 더하는 규칙이므로 12+3=15입니다.</p></details></li><li><h2>foundation</h2><p>들어가는 수에 4를 더해 나오는 수를 만듭니다. 들어가는 수가 7이면 나오는 수는 얼마인가요?</p><details><summary>정답과 풀이</summary><p>정답: 11</p><p>나오는 수=들어가는 수+4이므로 7+4=11입니다.</p></details></li><li><h2>standard</h2><p>9×1=9, 9×2=18, 9×3=27의 배열을 보고 9×6의 결과를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 54</p><p>곱하는 수가 1씩 커질 때 결과는 9씩 커지므로 9×6=54입니다.</p></details></li><li><h2>standard</h2><p>1=1, 1+3=4, 1+3+5=9의 규칙을 이용해 1+3+5+7의 결과를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 16</p><p>홀수를 차례로 더한 결과는 1², 2², 3², 4²이 되므로 1+3+5+7=16입니다.</p></details></li><li><h2>challenge</h2><p>성냥개비로 정사각형을 옆으로 이어 만듭니다. 1개에는 4개, 2개에는 7개가 필요합니다. 정사각형 8개에는 몇 개가 필요한가요?</p><details><summary>정답과 풀이</summary><p>정답: 25개</p><p>정사각형을 하나 늘릴 때마다 3개가 더 필요하므로 4+3×7=25개입니다.</p></details></li><li><h2>challenge</h2><p>99×1=99, 99×2=198, 99×3=297의 규칙을 이용하여 99×7을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 693</p><p>곱하는 수가 1씩 커질 때 결과는 99씩 커지므로 99×7=693입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-three-digit-addition-subtraction",
+      "pdfPath": "/workbooks/g3-4-three-digit-addition-subtraction/g3-4-three-digit-addition-subtraction.pdf",
+      "transcriptPath": "/workbooks/g3-4-three-digit-addition-subtraction/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-three-digit-addition-subtraction/01-cover.txt",
+          "promptSha256": "b95876f9b914dc8d055e56b8bc9a1a9ff2b0bc3a5efd7ec37fed4a3aca0e0cf5",
+          "expectedImagePath": "/workbooks/g3-4-three-digit-addition-subtraction/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-addition-subtraction/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-three-digit-addition-subtraction/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-addition-subtraction/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-three-digit-addition-subtraction/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-addition-subtraction/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-three-digit-addition-subtraction/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-addition-subtraction/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 세 자리 수의 덧셈과 뺄셈</h1><p>3-4학년군 · 수와 연산 · 세 자리 수의 덧셈과 뺄셈</p><p>성취기준: [4수01-03]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>326+241을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 567</p><p>일의 자리부터 자릿값을 맞추어 더하면 326+241=567입니다.</p></details></li><li><h2>foundation</h2><p>754-321을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 433</p><p>자릿값을 맞추어 빼면 754-321=433입니다.</p></details></li><li><h2>standard</h2><p>468+357을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 825</p><p>8+7=15에서 1을 받아 올리고, 6+5+1=12에서 다시 1을 받아 올리면 825입니다.</p></details></li><li><h2>standard</h2><p>803-476을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 327</p><p>백의 자리에서 받아내림하여 계산하면 803-476=327입니다.</p></details></li><li><h2>challenge</h2><p>도서관에 동화책 275권과 과학책 348권이 있습니다. 두 종류의 책은 모두 몇 권인가요?</p><details><summary>정답과 풀이</summary><p>정답: 623권</p><p>275+348=623이므로 모두 623권입니다.</p></details></li><li><h2>challenge</h2><p>구슬 900개 중 빨간 구슬 286개와 파란 구슬 147개를 사용했습니다. 남은 구슬은 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 467개</p><p>사용한 구슬은 286+147=433개이고, 남은 구슬은 900-433=467개입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-three-digit-division",
+      "pdfPath": "/workbooks/g3-4-three-digit-division/g3-4-three-digit-division.pdf",
+      "transcriptPath": "/workbooks/g3-4-three-digit-division/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-three-digit-division/01-cover.txt",
+          "promptSha256": "f6b4373d84c7a06145838a243a0fdb4446f9c22dde9154aaa598de5bffd50940",
+          "expectedImagePath": "/workbooks/g3-4-three-digit-division/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-division/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-three-digit-division/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-division/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-three-digit-division/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-division/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-three-digit-division/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-division/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 세 자리 수 범위의 나눗셈</h1><p>3-4학년군 · 수와 연산 · 세 자리 수 범위의 나눗셈</p><p>성취기준: [4수01-05], [4수01-06], [4수01-07]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>7×8=56을 이용하여 56÷7의 몫을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 8</p><p>7×8=56이므로 56을 7씩 묶으면 8묶음입니다. 따라서 56÷7=8입니다.</p></details></li><li><h2>foundation</h2><p>84÷4를 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 21</p><p>80÷4=20, 4÷4=1이므로 84÷4=21입니다.</p></details></li><li><h2>standard</h2><p>157÷6의 몫과 나머지를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 몫 26, 나머지 1</p><p>6×26=156이고 157-156=1이므로 몫은 26, 나머지는 1입니다.</p></details></li><li><h2>standard</h2><p>864÷24를 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 36</p><p>24×30=720, 24×6=144이고 720+144=864이므로 864÷24=36입니다.</p></details></li><li><h2>challenge</h2><p>학생 96명을 한 모둠에 8명씩 똑같이 나누면 몇 모둠이 되나요?</p><details><summary>정답과 풀이</summary><p>정답: 12모둠</p><p>96÷8=12이므로 12모둠이 됩니다.</p></details></li><li><h2>challenge</h2><p>975÷32의 몫과 나머지를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 몫 30, 나머지 15</p><p>32×30=960이고 975-960=15이므로 몫은 30, 나머지는 15입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-three-digit-multiplication",
+      "pdfPath": "/workbooks/g3-4-three-digit-multiplication/g3-4-three-digit-multiplication.pdf",
+      "transcriptPath": "/workbooks/g3-4-three-digit-multiplication/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-three-digit-multiplication/01-cover.txt",
+          "promptSha256": "dddc86c8c96af80419965f0e1b6e9872cb3668cb26adad300a151e23fcba2bc0",
+          "expectedImagePath": "/workbooks/g3-4-three-digit-multiplication/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-multiplication/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-three-digit-multiplication/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-multiplication/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-three-digit-multiplication/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-multiplication/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-three-digit-multiplication/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-three-digit-multiplication/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 세 자리 수 범위의 곱셈</h1><p>3-4학년군 · 수와 연산 · 세 자리 수 범위의 곱셈</p><p>성취기준: [4수01-04]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>213×3을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 639</p><p>213을 3번 더한 것과 같으므로 213×3=639입니다.</p></details></li><li><h2>foundation</h2><p>124×2를 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 248</p><p>100×2+20×2+4×2=200+40+8=248입니다.</p></details></li><li><h2>standard</h2><p>36×24를 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 864</p><p>36×20=720, 36×4=144이므로 720+144=864입니다.</p></details></li><li><h2>standard</h2><p>128×7을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 896</p><p>128×7=(100×7)+(20×7)+(8×7)=700+140+56=896입니다.</p></details></li><li><h2>challenge</h2><p>연필이 한 상자에 32자루씩 들어 있습니다. 24상자에는 연필이 모두 몇 자루 있나요?</p><details><summary>정답과 풀이</summary><p>정답: 768자루</p><p>32×24=32×20+32×4=640+128=768이므로 768자루입니다.</p></details></li><li><h2>challenge</h2><p>125×24를 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 3,000</p><p>125×24=125×(6×4)=(125×4)×6=500×6=3,000입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-time",
+      "pdfPath": "/workbooks/g3-4-time/g3-4-time.pdf",
+      "transcriptPath": "/workbooks/g3-4-time/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-time/01-cover.txt",
+          "promptSha256": "f2741e708d10c88af055922b00576925704a11b3c84b87f9927c3feca720820a",
+          "expectedImagePath": "/workbooks/g3-4-time/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-time/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-time/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-time/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-time/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-time/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-time/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-time/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 시각과 시간</h1><p>3-4학년군 · 도형과 측정 · 시각과 시간</p><p>성취기준: [4수03-13], [4수03-14]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>1분은 몇 초인가요?</p><details><summary>정답과 풀이</summary><p>정답: 60초</p><p>1분은 60초입니다.</p></details></li><li><h2>foundation</h2><p>전자시계에 02:07:09라고 표시되어 있습니다. 시각을 몇 시 몇 분 몇 초로 읽나요?</p><details><summary>정답과 풀이</summary><p>정답: 2시 7분 9초</p><p>시, 분, 초를 차례로 읽으면 2시 7분 9초입니다.</p></details></li><li><h2>standard</h2><p>3분 25초와 2분 48초를 더하세요.</p><details><summary>정답과 풀이</summary><p>정답: 6분 13초</p><p>25+48=73초는 1분 13초이므로 3분+2분+1분 13초=6분 13초입니다.</p></details></li><li><h2>standard</h2><p>8분 10초에서 3분 45초를 빼세요.</p><details><summary>정답과 풀이</summary><p>정답: 4분 25초</p><p>8분 10초를 7분 70초로 바꾸면 7분 70초-3분 45초=4분 25초입니다.</p></details></li><li><h2>challenge</h2><p>185초를 몇 분 몇 초로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 3분 5초</p><p>185=60×3+5이므로 185초는 3분 5초입니다.</p></details></li><li><h2>challenge</h2><p>동영상이 10시 15분 48초에 시작하여 2분 35초 동안 재생되었습니다. 끝난 시각은 몇 시 몇 분 몇 초인가요?</p><details><summary>정답과 풀이</summary><p>정답: 10시 18분 23초</p><p>48초+35초=83초는 1분 23초이므로 분은 15+2+1=18분, 초는 23초입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g3-4-triangles",
+      "pdfPath": "/workbooks/g3-4-triangles/g3-4-triangles.pdf",
+      "transcriptPath": "/workbooks/g3-4-triangles/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g3-4-triangles/01-cover.txt",
+          "promptSha256": "47ca9b948a976dd4bfefb01913e774bec844ca9730ec8cbcc5781d1d06fd7a44",
+          "expectedImagePath": "/workbooks/g3-4-triangles/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-triangles/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g3-4-triangles/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-triangles/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g3-4-triangles/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-triangles/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g3-4-triangles/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g3-4-triangles/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 여러 가지 삼각형</h1><p>3-4학년군 · 도형과 측정 · 여러 가지 삼각형</p><p>성취기준: [4수03-08], [4수03-09]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>세 변의 길이가 모두 같은 삼각형을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 정삼각형</p><p>세 변의 길이가 모두 같은 삼각형은 정삼각형입니다.</p></details></li><li><h2>foundation</h2><p>한 각이 직각인 삼각형을 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 직각삼각형</p><p>세 각 중 한 각이 직각인 삼각형은 직각삼각형입니다.</p></details></li><li><h2>standard</h2><p>세 변의 길이가 5cm, 5cm, 8cm인 삼각형은 변의 길이에 따라 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 이등변삼각형</p><p>길이가 같은 두 변이 있으므로 이등변삼각형입니다.</p></details></li><li><h2>standard</h2><p>세 각의 크기가 50°, 60°, 70°인 삼각형은 각의 크기에 따라 무엇이라고 하나요?</p><details><summary>정답과 풀이</summary><p>정답: 예각삼각형</p><p>세 각이 모두 90°보다 작으므로 예각삼각형입니다.</p></details></li><li><h2>challenge</h2><p>둘레가 27cm인 정삼각형의 한 변의 길이는 몇 cm인가요?</p><details><summary>정답과 풀이</summary><p>정답: 9cm</p><p>정삼각형은 세 변의 길이가 같으므로 27÷3=9cm입니다.</p></details></li><li><h2>challenge</h2><p>세 각의 크기가 45°, 45°, 90°인 삼각형을 변과 각의 특징에 따라 모두 분류하세요.</p><details><summary>정답과 풀이</summary><p>정답: 이등변삼각형이면서 직각삼각형</p><p>45°인 두 각이 같아 마주 보는 두 변의 길이가 같고, 90°인 각이 있으므로 두 분류에 모두 해당합니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-congruence-symmetry",
+      "pdfPath": "/workbooks/g5-6-congruence-symmetry/g5-6-congruence-symmetry.pdf",
+      "transcriptPath": "/workbooks/g5-6-congruence-symmetry/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-congruence-symmetry/01-cover.txt",
+          "promptSha256": "4d6e37f7bba88a4ad3222761b8decc3576564851c30d03d60cf2c1b152f9ac1e",
+          "expectedImagePath": "/workbooks/g5-6-congruence-symmetry/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-congruence-symmetry/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-congruence-symmetry/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-congruence-symmetry/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-congruence-symmetry/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-congruence-symmetry/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-congruence-symmetry/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-congruence-symmetry/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 합동과 대칭</h1><p>5-6학년군 · 도형과 측정 · 합동과 대칭</p><p>성취기준: [6수03-01], [6수03-02]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>가로 4cm, 세로 3cm인 직사각형 A와 같은 크기의 직사각형 B가 있습니다. B를 돌려 놓아도 A와 B는 합동인가요?</p><details><summary>정답과 풀이</summary><p>정답: 합동이다</p><p>합동인 도형은 돌리거나 뒤집어도 모양과 크기가 같습니다.</p></details></li><li><h2>foundation</h2><p>정사각형에는 선대칭축이 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 4개</p><p>정사각형은 가로, 세로, 두 대각선의 4개 직선을 따라 접어 포개집니다.</p></details></li><li><h2>standard</h2><p>삼각형 A의 세 변 길이는 3cm, 4cm, 5cm이고, 삼각형 B의 세 변 길이도 5cm, 3cm, 4cm입니다. 두 삼각형은 합동인지 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 합동이다</p><p>각각 대응하는 세 변의 길이가 같으므로 두 삼각형은 합동입니다.</p></details></li><li><h2>standard</h2><p>점 O를 대칭의 중심으로 하는 점대칭에서, 점 P가 O에서 오른쪽으로 3칸, 위로 2칸에 있습니다. 대응점의 위치를 말하세요.</p><details><summary>정답과 풀이</summary><p>정답: O에서 왼쪽으로 3칸, 아래로 2칸</p><p>점대칭의 대응점은 중심 O를 사이에 두고 반대 방향으로 같은 거리만큼 떨어져 있습니다.</p></details></li><li><h2>challenge</h2><p>가로 8cm, 세로 5cm인 직사각형 종이에서 가로 3cm, 세로 2cm인 직사각형 두 장을 같은 모양으로 잘라 냈습니다. 잘라 낸 두 도형은 합동인지와 이유를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 합동이다. 가로와 세로의 길이가 각각 같아서 모양과 크기가 같다.</p><p>두 직사각형의 대응하는 변의 길이가 모두 같으므로 합동입니다.</p></details></li><li><h2>challenge</h2><p>세로선이 선대칭축입니다. 축에서 왼쪽으로 4칸, 위로 2칸인 곳에 별이 있습니다. 대칭인 별의 위치를 말하세요.</p><details><summary>정답과 풀이</summary><p>정답: 축에서 오른쪽으로 4칸, 위로 2칸</p><p>선대칭축에서의 가로 거리는 같고, 축의 반대쪽으로 위치가 옮겨집니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-correspondence",
+      "pdfPath": "/workbooks/g5-6-correspondence/g5-6-correspondence.pdf",
+      "transcriptPath": "/workbooks/g5-6-correspondence/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-correspondence/01-cover.txt",
+          "promptSha256": "cc1d55e637e8cfc3b7fac72f3f74058c68b0b0961ed92594a5be9e246c5f83d6",
+          "expectedImagePath": "/workbooks/g5-6-correspondence/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-correspondence/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-correspondence/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-correspondence/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-correspondence/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-correspondence/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-correspondence/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-correspondence/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 대응 관계</h1><p>5-6학년군 · 변화와 관계 · 대응 관계</p><p>성취기준: [6수02-01]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>□가 1, 2, 3일 때 △가 4, 8, 12입니다. □가 5일 때 △를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 20</p><p>△는 □의 4배이므로 5×4=20입니다.</p></details></li><li><h2>foundation</h2><p>□가 1, 2, 3일 때 △가 4, 8, 12입니다. 관계식을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: △=4×□</p><p>□가 1 늘 때 △는 4씩 늘고 △는 □의 4배입니다.</p></details></li><li><h2>standard</h2><p>연필 1자루는 700원입니다. 연필 6자루의 가격을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 4200원</p><p>700×6=4200입니다.</p></details></li><li><h2>standard</h2><p>한 변이 □cm인 정사각형의 둘레 △cm를 식으로 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: △=4×□</p><p>정사각형의 네 변 길이가 같습니다.</p></details></li><li><h2>challenge</h2><p>한 병에 물을 0.4L씩 담습니다. 병 수를 □, 전체 물의 양을 △L라 할 때 관계식을 쓰고, 5병의 전체 양을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: △=0.4×□, 2L</p><p>전체 양은 한 병의 양 0.4L에 병 수를 곱하므로 △=0.4×□이고, 5병이면 2L입니다.</p></details></li><li><h2>challenge</h2><p>시속 60km로 □시간 달릴 때 거리 △km를 식으로 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: △=60×□</p><p>거리=속력×시간입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-cuboids-cubes",
+      "pdfPath": "/workbooks/g5-6-cuboids-cubes/g5-6-cuboids-cubes.pdf",
+      "transcriptPath": "/workbooks/g5-6-cuboids-cubes/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-cuboids-cubes/01-cover.txt",
+          "promptSha256": "bd8742c120ba10c0739e597ca5eb5e40bd87caa9712d2d1c4257b315860f3f3c",
+          "expectedImagePath": "/workbooks/g5-6-cuboids-cubes/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-cuboids-cubes/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-cuboids-cubes/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-cuboids-cubes/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-cuboids-cubes/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-cuboids-cubes/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-cuboids-cubes/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-cuboids-cubes/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 직육면체와 정육면체</h1><p>5-6학년군 · 도형과 측정 · 직육면체와 정육면체</p><p>성취기준: [6수03-03], [6수03-04]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>정육면체의 면, 모서리, 꼭짓점은 각각 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 면 6개, 모서리 12개, 꼭짓점 8개</p><p>정육면체는 같은 정사각형 면 6개로 이루어져 있습니다.</p></details></li><li><h2>foundation</h2><p>직육면체의 겨냥도에서 보이지 않는 모서리는 보통 어떤 선으로 그리나요?</p><details><summary>정답과 풀이</summary><p>정답: 점선</p><p>겨냥도에서는 보이지 않는 모서리를 점선으로 나타냅니다.</p></details></li><li><h2>standard</h2><p>가로 4cm, 세로 3cm, 높이 2cm인 직육면체의 모든 모서리 길이의 합을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 36cm</p><p>가로·세로·높이 길이가 각각 4개씩 있으므로 4×(4+3+2)=36입니다.</p></details></li><li><h2>standard</h2><p>가로 5cm, 세로 3cm, 높이 2cm인 직육면체의 전개도에 필요한 직사각형의 크기와 개수를 모두 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 5cm×3cm 2개, 5cm×2cm 2개, 3cm×2cm 2개</p><p>서로 마주 보는 합동인 면이 두 개씩 있으므로 세 종류의 직사각형이 각각 2개 필요합니다.</p></details></li><li><h2>challenge</h2><p>한 모서리의 길이가 6cm인 정육면체의 12개 모서리를 각각 한 번씩 덮는 데 필요한 리본의 총길이는 몇 cm인가요?</p><details><summary>정답과 풀이</summary><p>정답: 72cm</p><p>정육면체의 모서리 12개가 모두 6cm이므로 총길이는 6×12=72cm입니다.</p></details></li><li><h2>challenge</h2><p>같은 크기의 정사각형 4개를 가로로 잇고, 왼쪽에서 두 번째 정사각형의 위와 아래에 한 개씩 붙였습니다. 이 모양은 정육면체의 전개도가 될 수 있나요?</p><details><summary>정답과 풀이</summary><p>정답: 될 수 있습니다.</p><p>여섯 정사각형을 접으면 겹치지 않고 정육면체의 여섯 면을 이룹니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-cylinder-cone-sphere",
+      "pdfPath": "/workbooks/g5-6-cylinder-cone-sphere/g5-6-cylinder-cone-sphere.pdf",
+      "transcriptPath": "/workbooks/g5-6-cylinder-cone-sphere/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-cylinder-cone-sphere/01-cover.txt",
+          "promptSha256": "47103ba3c9158708314cb9e577a1ca39a4a1bd96c5c781e781a9f2bab4127ccd",
+          "expectedImagePath": "/workbooks/g5-6-cylinder-cone-sphere/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-cylinder-cone-sphere/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-cylinder-cone-sphere/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-cylinder-cone-sphere/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-cylinder-cone-sphere/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-cylinder-cone-sphere/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-cylinder-cone-sphere/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-cylinder-cone-sphere/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 원기둥, 원뿔, 구</h1><p>5-6학년군 · 도형과 측정 · 원기둥, 원뿔, 구</p><p>성취기준: [6수03-07], [6수03-08]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>원기둥에는 원 모양의 밑면이 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 2개</p><p>원기둥에는 서로 평행하고 같은 크기의 원 모양 밑면이 위와 아래에 있습니다.</p></details></li><li><h2>foundation</h2><p>원기둥의 전개도는 원과 직사각형으로 이루어집니다. 원은 몇 개, 직사각형은 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 원 2개, 직사각형 1개</p><p>원기둥의 위아래 밑면은 원 2개이고 옆면은 직사각형 1개입니다.</p></details></li><li><h2>standard</h2><p>음료수 캔, 아이스크림 콘, 축구공을 원기둥·원뿔·구와 알맞게 짝 지으세요.</p><details><summary>정답과 풀이</summary><p>정답: 음료수 캔-원기둥, 아이스크림 콘-원뿔, 축구공-구</p><p>생활 속 물건의 모양을 각 입체도형의 특징과 연결할 수 있습니다.</p></details></li><li><h2>standard</h2><p>원기둥 전개도에서 직사각형의 서로 마주 보는 두 변에 원을 한 개씩 붙이는 까닭을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 두 원이 원기둥의 위와 아래 밑면이 되기 때문입니다.</p><p>직사각형은 옆면이 되고, 서로 마주 보는 두 변에 붙인 원은 위와 아래의 밑면이 됩니다.</p></details></li><li><h2>challenge</h2><p>어느 방향으로 굴려도 같은 모양으로 보이는 공 모양 장식에 알맞은 입체도형 이름을 쓰고, 그 까닭을 간단히 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 구. 어느 방향에서 보아도 둥글고 꼭짓점이 없기 때문이다.</p><p>구는 모든 방향에서 둥근 모양이며 모서리와 꼭짓점이 없습니다.</p></details></li><li><h2>challenge</h2><p>뚜껑과 바닥이 있는 원기둥 모양 상자의 전개도를 만들려 합니다. 잘라 낼 도형의 종류와 개수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 원 2개와 직사각형 1개</p><p>닫힌 원기둥은 원형 밑면 2개와 옆면 직사각형 1개를 모두 필요로 합니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-data-collection",
+      "pdfPath": "/workbooks/g5-6-data-collection/g5-6-data-collection.pdf",
+      "transcriptPath": "/workbooks/g5-6-data-collection/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-data-collection/01-cover.txt",
+          "promptSha256": "aa7c0e9f7ceb8c60056be92d12dd51ca86e7128a0e8e1b9494e46fd639dde76a",
+          "expectedImagePath": "/workbooks/g5-6-data-collection/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-data-collection/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-data-collection/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-data-collection/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-data-collection/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-data-collection/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-data-collection/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-data-collection/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 자료의 수집과 정리</h1><p>5-6학년군 · 자료와 가능성 · 자료의 수집과 정리</p><p>성취기준: [6수04-01], [6수04-02], [6수04-03]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>4, 6, 8, 10의 평균을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 7</p><p>(4+6+8+10)÷4=7입니다.</p></details></li><li><h2>foundation</h2><p>12, 15, 18의 평균을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 15</p><p>(12+15+18)÷3=15입니다.</p></details></li><li><h2>standard</h2><p>띠그래프에서 전체 20명 중 축구 8명일 때 축구의 비율을 백분율로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 40%</p><p>8÷20=0.4=40%입니다.</p></details></li><li><h2>standard</h2><p>원그래프에서 전체 40명 중 독서 10명일 때 독서 부분의 중심각을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 90°</p><p>10/40×360=90입니다.</p></details></li><li><h2>challenge</h2><p>탐구 문제 “우리 반 학생은 어떤 과일을 좋아할까?”에 알맞은 자료 수집 방법을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 설문 조사</p><p>학생에게 직접 묻는 설문 조사가 알맞습니다.</p></details></li><li><h2>challenge</h2><p>자료 5, 7, 8, 10의 평균이 7.5일 때, 이 평균의 뜻을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 한 자료당 평균 7.5입니다</p><p>자료의 합을 자료 수로 나눈 대표값입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-decimal-multiplication-division",
+      "pdfPath": "/workbooks/g5-6-decimal-multiplication-division/g5-6-decimal-multiplication-division.pdf",
+      "transcriptPath": "/workbooks/g5-6-decimal-multiplication-division/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-decimal-multiplication-division/01-cover.txt",
+          "promptSha256": "70c9109ab61a62d3598ae16c43a9a6d60ef8d2646e22c6f48399e8fa132f3e14",
+          "expectedImagePath": "/workbooks/g5-6-decimal-multiplication-division/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-decimal-multiplication-division/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-decimal-multiplication-division/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-decimal-multiplication-division/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-decimal-multiplication-division/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-decimal-multiplication-division/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-decimal-multiplication-division/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-decimal-multiplication-division/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 소수의 곱셈과 나눗셈</h1><p>5-6학년군 · 수와 연산 · 소수의 곱셈과 나눗셈</p><p>성취기준: [6수01-13], [6수01-14], [6수01-15]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>2.4×3을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 7.2</p><p>24×3=72에서 소수점을 한 자리 옮겨 7.2입니다.</p></details></li><li><h2>foundation</h2><p>0.75×0.4를 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 0.3</p><p>75×4=300에서 소수점 세 자리를 옮기면 0.300=0.3입니다.</p></details></li><li><h2>standard</h2><p>3÷4를 소수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 0.75</p><p>3÷4=0.75입니다.</p></details></li><li><h2>standard</h2><p>7÷2를 소수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 3.5</p><p>7÷2=3.5입니다.</p></details></li><li><h2>challenge</h2><p>4.8÷0.6을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 8</p><p>두 수에 10을 곱하면 48÷6=8입니다.</p></details></li><li><h2>challenge</h2><p>5.3÷2를 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 2.65</p><p>5.3을 2로 똑같이 나누면 2.65입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-factors-multiples",
+      "pdfPath": "/workbooks/g5-6-factors-multiples/g5-6-factors-multiples.pdf",
+      "transcriptPath": "/workbooks/g5-6-factors-multiples/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-factors-multiples/01-cover.txt",
+          "promptSha256": "898ad780d117f57a9f36f9979334e36b78352f8022d31c76d4077d446d7cea9b",
+          "expectedImagePath": "/workbooks/g5-6-factors-multiples/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-factors-multiples/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-factors-multiples/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-factors-multiples/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-factors-multiples/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-factors-multiples/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-factors-multiples/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-factors-multiples/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 약수와 배수</h1><p>5-6학년군 · 수와 연산 · 약수와 배수</p><p>성취기준: [6수01-04], [6수01-05]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>12의 약수를 모두 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 1, 2, 3, 4, 6, 12</p><p>12를 나누어떨어지게 하는 수입니다.</p></details></li><li><h2>foundation</h2><p>5의 배수 중 30보다 크고 45보다 작은 수를 모두 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 35, 40</p><p>5씩 커지는 수를 찾습니다.</p></details></li><li><h2>standard</h2><p>18과 24의 최대공약수를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 6</p><p>공약수 1, 2, 3, 6 중 가장 큽니다.</p></details></li><li><h2>standard</h2><p>6과 8의 최소공배수를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 24</p><p>24는 6과 8의 가장 작은 공배수입니다.</p></details></li><li><h2>challenge</h2><p>사탕 24개와 과자 36개를 남김없이 똑같이 나누어 가능한 한 많은 꾸러미를 만들려고 합니다. 꾸러미는 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 12개</p><p>24와 36의 최대공약수는 12이므로 12꾸러미를 만들 수 있습니다.</p></details></li><li><h2>challenge</h2><p>두 신호등이 각각 6초와 8초마다 동시에 켜집니다. 지금 함께 켜졌다면 몇 초 뒤에 다시 함께 켜지나요?</p><details><summary>정답과 풀이</summary><p>정답: 24초</p><p>6과 8의 최소공배수는 24이므로 24초 뒤에 다시 함께 켜집니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-fraction-addition-subtraction",
+      "pdfPath": "/workbooks/g5-6-fraction-addition-subtraction/g5-6-fraction-addition-subtraction.pdf",
+      "transcriptPath": "/workbooks/g5-6-fraction-addition-subtraction/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-fraction-addition-subtraction/01-cover.txt",
+          "promptSha256": "7a6eab85accd1da59a1a531a1a119fe3a235872019ef047ffe4fe570da722d9a",
+          "expectedImagePath": "/workbooks/g5-6-fraction-addition-subtraction/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-addition-subtraction/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-fraction-addition-subtraction/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-addition-subtraction/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-fraction-addition-subtraction/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-addition-subtraction/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-fraction-addition-subtraction/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-addition-subtraction/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 분수의 덧셈과 뺄셈</h1><p>5-6학년군 · 수와 연산 · 분수의 덧셈과 뺄셈</p><p>성취기준: [6수01-06], [6수01-07], [6수01-08]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>18/24를 기약분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 3/4</p><p>분자와 분모를 최대공약수 6으로 나누면 3/4입니다.</p></details></li><li><h2>foundation</h2><p>5/8과 2/3 중 큰 분수를 고르고, 통분하여 설명하세요.</p><details><summary>정답과 풀이</summary><p>정답: 2/3</p><p>5/8=15/24, 2/3=16/24이므로 2/3이 더 큽니다.</p></details></li><li><h2>standard</h2><p>2와 1/5+1과 3/10을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 3과 1/2</p><p>1/5=2/10, 2/10+3/10=1/2입니다.</p></details></li><li><h2>standard</h2><p>2/3과 3/4을 분모가 12인 분수로 각각 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 8/12, 9/12</p><p>2/3에는 4/4를, 3/4에는 3/3을 곱하면 각각 8/12와 9/12입니다.</p></details></li><li><h2>challenge</h2><p>3/5과 7/10 중 큰 분수를 고르고, 통분하여 설명하세요.</p><details><summary>정답과 풀이</summary><p>정답: 7/10</p><p>3/5=6/10이고 6/10&lt;7/10이므로 7/10이 더 큽니다.</p></details></li><li><h2>challenge</h2><p>2-3/8을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 1과 5/8</p><p>2=1과 8/8이므로 1과 5/8입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-fraction-decimal-relationship",
+      "pdfPath": "/workbooks/g5-6-fraction-decimal-relationship/g5-6-fraction-decimal-relationship.pdf",
+      "transcriptPath": "/workbooks/g5-6-fraction-decimal-relationship/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-fraction-decimal-relationship/01-cover.txt",
+          "promptSha256": "8581160a7cd2ade2852b5a3d346058220ead1deef71f5fcdde6842a2b7a505d2",
+          "expectedImagePath": "/workbooks/g5-6-fraction-decimal-relationship/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-decimal-relationship/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-fraction-decimal-relationship/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-decimal-relationship/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-fraction-decimal-relationship/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-decimal-relationship/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-fraction-decimal-relationship/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-decimal-relationship/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 분수와 소수의 관계</h1><p>5-6학년군 · 수와 연산 · 분수와 소수의 관계</p><p>성취기준: [6수01-12]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>3/10을 소수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 0.3</p><p>3/10=0.3입니다.</p></details></li><li><h2>foundation</h2><p>0.25를 기약분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 1/4</p><p>0.25=25/100=1/4입니다.</p></details></li><li><h2>standard</h2><p>7/20을 소수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 0.35</p><p>7/20=35/100=0.35입니다.</p></details></li><li><h2>standard</h2><p>0.6을 기약분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 3/5</p><p>0.6=6/10=3/5입니다.</p></details></li><li><h2>challenge</h2><p>0.6과 3/5가 같은지 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 같습니다</p><p>3/5=6/10=0.6입니다.</p></details></li><li><h2>challenge</h2><p>0.375와 3/8의 크기를 비교하세요.</p><details><summary>정답과 풀이</summary><p>정답: 같습니다</p><p>3/8=0.375이므로 두 수는 같습니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-fraction-multiplication-division",
+      "pdfPath": "/workbooks/g5-6-fraction-multiplication-division/g5-6-fraction-multiplication-division.pdf",
+      "transcriptPath": "/workbooks/g5-6-fraction-multiplication-division/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-fraction-multiplication-division/01-cover.txt",
+          "promptSha256": "0f7084ad085ceb8bbcff39b21971021a0f43c44cd03ef31ddc7e0053859987d6",
+          "expectedImagePath": "/workbooks/g5-6-fraction-multiplication-division/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-multiplication-division/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-fraction-multiplication-division/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-multiplication-division/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-fraction-multiplication-division/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-multiplication-division/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-fraction-multiplication-division/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-fraction-multiplication-division/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 분수의 곱셈과 나눗셈</h1><p>5-6학년군 · 수와 연산 · 분수의 곱셈과 나눗셈</p><p>성취기준: [6수01-09], [6수01-10], [6수01-11]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>2/3×3/5을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 2/5</p><p>6/15=2/5입니다.</p></details></li><li><h2>foundation</h2><p>4/7×14/15을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 8/15</p><p>14와 7을 약분하면 8/15입니다.</p></details></li><li><h2>standard</h2><p>3÷4를 분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 3/4</p><p>자연수의 나눗셈 3÷4의 몫은 3/4입니다.</p></details></li><li><h2>standard</h2><p>7÷2를 대분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 3과 1/2</p><p>7÷2=7/2=3과 1/2입니다.</p></details></li><li><h2>challenge</h2><p>3/4÷1/2을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 1과 1/2</p><p>1/2의 역수 2를 곱해 3/2입니다.</p></details></li><li><h2>challenge</h2><p>5/6÷10/9을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 3/4</p><p>9/10을 곱하면 45/60=3/4입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-mixed-natural-calculation",
+      "pdfPath": "/workbooks/g5-6-mixed-natural-calculation/g5-6-mixed-natural-calculation.pdf",
+      "transcriptPath": "/workbooks/g5-6-mixed-natural-calculation/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-mixed-natural-calculation/01-cover.txt",
+          "promptSha256": "d713c1d8367f2aafa567f36ddb141df2711796219f77951400eaeaa9ad3eda40",
+          "expectedImagePath": "/workbooks/g5-6-mixed-natural-calculation/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-mixed-natural-calculation/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-mixed-natural-calculation/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-mixed-natural-calculation/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-mixed-natural-calculation/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-mixed-natural-calculation/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-mixed-natural-calculation/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-mixed-natural-calculation/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 자연수의 혼합 계산</h1><p>5-6학년군 · 수와 연산 · 자연수의 혼합 계산</p><p>성취기준: [6수01-01]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>18+4×3을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 30</p><p>계산 결과는 30입니다.</p></details></li><li><h2>foundation</h2><p>(18+4)×3을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 66</p><p>계산 결과는 66입니다.</p></details></li><li><h2>standard</h2><p>48÷6+7을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 15</p><p>계산 결과는 15입니다.</p></details></li><li><h2>standard</h2><p>60-5×8을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 20</p><p>계산 결과는 20입니다.</p></details></li><li><h2>challenge</h2><p>72÷(4+5)을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 8</p><p>계산 결과는 8입니다.</p></details></li><li><h2>challenge</h2><p>3×(12-5)+4를 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 25</p><p>계산 결과는 25입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-polygon-perimeter-area",
+      "pdfPath": "/workbooks/g5-6-polygon-perimeter-area/g5-6-polygon-perimeter-area.pdf",
+      "transcriptPath": "/workbooks/g5-6-polygon-perimeter-area/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-polygon-perimeter-area/01-cover.txt",
+          "promptSha256": "2c84f66194d38e35bf21375135f9b7f3041c8264a195abd9e6d75f08e9059438",
+          "expectedImagePath": "/workbooks/g5-6-polygon-perimeter-area/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-polygon-perimeter-area/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-polygon-perimeter-area/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-polygon-perimeter-area/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-polygon-perimeter-area/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-polygon-perimeter-area/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-polygon-perimeter-area/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-polygon-perimeter-area/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 다각형의 둘레와 넓이</h1><p>5-6학년군 · 도형과 측정 · 다각형의 둘레와 넓이</p><p>성취기준: [6수03-11], [6수03-12], [6수03-13], [6수03-14]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>가로가 7cm, 세로가 3cm인 직사각형의 둘레를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 20cm</p><p>직사각형의 둘레는 7+3+7+3=20cm입니다.</p></details></li><li><h2>foundation</h2><p>1m²는 몇 cm²인가요?</p><details><summary>정답과 풀이</summary><p>정답: 10,000cm²</p><p>1m=100cm이므로 1m²=100cm×100cm=10,000cm²입니다.</p></details></li><li><h2>standard</h2><p>가로 8cm, 세로 5cm인 직사각형의 넓이를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 40cm²</p><p>직사각형의 넓이는 가로×세로이므로 8×5=40입니다.</p></details></li><li><h2>standard</h2><p>밑변이 10cm, 높이가 6cm인 삼각형의 넓이를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 30cm²</p><p>삼각형의 넓이는 밑변×높이÷2이므로 10×6÷2=30입니다.</p></details></li><li><h2>challenge</h2><p>가로 12m, 세로 9m인 교실 바닥에 매트를 빈틈없이 깔려고 합니다. 필요한 매트의 넓이는 몇 m²인가요?</p><details><summary>정답과 풀이</summary><p>정답: 108m²</p><p>직사각형 바닥의 넓이는 12×9=108m²입니다.</p></details></li><li><h2>challenge</h2><p>윗변 8cm, 아랫변 14cm, 높이 5cm인 사다리꼴 모양 종이의 넓이를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 55cm²</p><p>사다리꼴의 넓이는 (8+14)×5÷2=55cm²입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-prisms-pyramids",
+      "pdfPath": "/workbooks/g5-6-prisms-pyramids/g5-6-prisms-pyramids.pdf",
+      "transcriptPath": "/workbooks/g5-6-prisms-pyramids/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-prisms-pyramids/01-cover.txt",
+          "promptSha256": "64e77e4ba97e38eec0d42dc817d5fdfc9d97fe15501fff2779487c0c2f1d51ea",
+          "expectedImagePath": "/workbooks/g5-6-prisms-pyramids/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-prisms-pyramids/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-prisms-pyramids/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-prisms-pyramids/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-prisms-pyramids/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-prisms-pyramids/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-prisms-pyramids/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-prisms-pyramids/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 각기둥과 각뿔</h1><p>5-6학년군 · 도형과 측정 · 각기둥과 각뿔</p><p>성취기준: [6수03-05], [6수03-06]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>삼각기둥의 밑면은 몇 개이고, 옆면은 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 밑면 2개, 옆면 3개</p><p>삼각기둥은 서로 평행하고 합동인 삼각형 밑면 2개와 직사각형 옆면 3개로 이루어집니다.</p></details></li><li><h2>foundation</h2><p>삼각기둥의 전개도에는 삼각형과 직사각형이 각각 몇 개 있나요?</p><details><summary>정답과 풀이</summary><p>정답: 삼각형 2개, 직사각형 3개</p><p>삼각기둥의 두 밑면은 삼각형이고 세 옆면은 직사각형입니다.</p></details></li><li><h2>standard</h2><p>밑면이 오각형인 각기둥의 면은 모두 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 7개</p><p>밑면 2개와 오각형의 변 수만큼인 옆면 5개가 있어 모두 7개입니다.</p></details></li><li><h2>standard</h2><p>밑면이 사각형인 각기둥의 전개도에서 옆면은 모두 몇 개의 직사각형으로 나타나나요?</p><details><summary>정답과 풀이</summary><p>정답: 4개</p><p>각기둥의 옆면 수는 밑면 다각형의 변 수와 같습니다.</p></details></li><li><h2>challenge</h2><p>사각뿔 모양의 천막을 만들었습니다. 밑면을 제외한 옆면은 몇 개의 삼각형인가요?</p><details><summary>정답과 풀이</summary><p>정답: 4개</p><p>사각뿔은 사각형 밑면의 네 변에 하나씩 삼각형 옆면이 있습니다.</p></details></li><li><h2>challenge</h2><p>삼각기둥 모양 상자의 전개도를 종이에 그리려고 합니다. 필요한 도형의 종류와 개수를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 삼각형 2개와 직사각형 3개</p><p>전개도는 두 삼각형 밑면과 세 직사각형 옆면을 모두 펼쳐 나타냅니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-probability",
+      "pdfPath": "/workbooks/g5-6-probability/g5-6-probability.pdf",
+      "transcriptPath": "/workbooks/g5-6-probability/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-probability/01-cover.txt",
+          "promptSha256": "4536a9f6fd91e7090e68d5c15c656855c65194a2bfcd4b53f6b43dc19048ad48",
+          "expectedImagePath": "/workbooks/g5-6-probability/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-probability/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-probability/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-probability/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-probability/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-probability/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-probability/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-probability/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 가능성</h1><p>5-6학년군 · 자료와 가능성 · 가능성</p><p>성취기준: [6수04-04], [6수04-05], [6수04-06]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>빨간 공 3개와 파란 공 1개 중 빨간 공을 뽑을 가능성이 파란 공보다 어떤지 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 더 큽니다</p><p>빨간 공이 더 많으므로 가능성이 더 큽니다.</p></details></li><li><h2>foundation</h2><p>공정한 동전을 한 번 던질 때 앞면이 나올 가능성을 말로 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 반반입니다</p><p>앞면과 뒷면은 같은 가능성입니다.</p></details></li><li><h2>standard</h2><p>1부터 6까지 적힌 주사위를 던질 때 짝수가 나올 가능성을 분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 1/2</p><p>짝수 2,4,6은 6가지 중 3가지이므로 3/6=1/2입니다.</p></details></li><li><h2>standard</h2><p>빨간 공 2개, 파란 공 3개가 있을 때 파란 공을 뽑을 가능성을 분수로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 3/5</p><p>전체 5개 중 파란 공이 3개입니다.</p></details></li><li><h2>challenge</h2><p>최근 10일 중 비가 온 날이 7일입니다. 내일 비가 올 가능성을 예상하여 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 높습니다</p><p>10일 중 7일로 비가 온 날이 많으므로 가능성이 높다고 예상할 수 있습니다.</p></details></li><li><h2>challenge</h2><p>비가 올 가능성이 매우 높다는 예보가 있을 때 우산을 가져갈지 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 가져갑니다</p><p>가능성이 높으면 우산을 준비하는 판단이 알맞습니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-proportions",
+      "pdfPath": "/workbooks/g5-6-proportions/g5-6-proportions.pdf",
+      "transcriptPath": "/workbooks/g5-6-proportions/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-proportions/01-cover.txt",
+          "promptSha256": "2c74f5fd83ce30ad69157cad09c7ab323c6e69a134cb92580f2f5efb6009bce3",
+          "expectedImagePath": "/workbooks/g5-6-proportions/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-proportions/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-proportions/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-proportions/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-proportions/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-proportions/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-proportions/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-proportions/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 비례식과 비례배분</h1><p>5-6학년군 · 변화와 관계 · 비례식과 비례배분</p><p>성취기준: [6수02-04], [6수02-05]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>2:3=8:□에서 □를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 12</p><p>2에서 8로 4배이므로 3도 4배한 12입니다.</p></details></li><li><h2>foundation</h2><p>5:7=□:21에서 □를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 15</p><p>7에서 21로 3배이므로 5도 3배한 15입니다.</p></details></li><li><h2>standard</h2><p>3:4=12:□에서 □를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 16</p><p>3에서 12로 4배이므로 4도 4배합니다.</p></details></li><li><h2>standard</h2><p>사과와 배를 2:3으로 나누어 모두 25개입니다. 사과는 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 10개</p><p>전체 5부분 중 사과는 2부분이므로 25×2/5=10입니다.</p></details></li><li><h2>challenge</h2><p>48을 5:3으로 비례배분할 때 큰 몫을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 30</p><p>전체 8부분 중 큰 몫은 5부분이므로 48×5/8=30입니다.</p></details></li><li><h2>challenge</h2><p>90을 2:3:4로 비례배분할 때 가장 작은 몫을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 20</p><p>전체 9부분 중 2부분이므로 90×2/9=20입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-rounding",
+      "pdfPath": "/workbooks/g5-6-rounding/g5-6-rounding.pdf",
+      "transcriptPath": "/workbooks/g5-6-rounding/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-rounding/01-cover.txt",
+          "promptSha256": "8581c56102e5b2ed09bd405a765811388cd2efaa8cd98e51b2512e124f686e27",
+          "expectedImagePath": "/workbooks/g5-6-rounding/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-rounding/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-rounding/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-rounding/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-rounding/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-rounding/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-rounding/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-rounding/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 수의 범위와 올림, 버림, 반올림</h1><p>5-6학년군 · 수와 연산 · 수의 범위와 올림, 버림, 반올림</p><p>성취기준: [6수01-02], [6수01-03]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>8 이상 12 미만인 자연수를 모두 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 8, 9, 10, 11</p><p>8과 12는 각각 경계이며, 8은 포함하고 12는 포함하지 않습니다.</p></details></li><li><h2>foundation</h2><p>47.36을 소수 첫째 자리까지 버림하여 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 47.3</p><p>소수 둘째 자리 이하를 버리면 47.3입니다.</p></details></li><li><h2>standard</h2><p>키가 120cm 이상인 사람이 탈 수 있는 놀이기구가 있습니다. 키가 119.9cm인 사람은 탈 수 있는지 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 탈 수 없습니다.</p><p>119.9cm는 경계인 120cm보다 작아 ‘120cm 이상’의 범위에 들지 않습니다.</p></details></li><li><h2>standard</h2><p>3486을 백의 자리까지 버림하여 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 3,400</p><p>십의 자리 이하를 버리면 3400입니다.</p></details></li><li><h2>challenge</h2><p>25 초과 30 이하인 자연수를 모두 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 26, 27, 28, 29, 30</p><p>25는 포함하지 않고 30은 포함하므로 26부터 30까지입니다.</p></details></li><li><h2>challenge</h2><p>일의 자리에서 반올림하여 십의 자리까지 나타내면 430이 되는 자연수의 범위를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 425 이상 435 미만</p><p>일의 자리에서 반올림해 430이 되는 자연수는 425부터 434까지이므로 425 이상 435 미만입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-spatial-sense",
+      "pdfPath": "/workbooks/g5-6-spatial-sense/g5-6-spatial-sense.pdf",
+      "transcriptPath": "/workbooks/g5-6-spatial-sense/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-spatial-sense/01-cover.txt",
+          "promptSha256": "33a8787bf9679865cf26a292dd58223758513f778b4f16e2f70796423329488c",
+          "expectedImagePath": "/workbooks/g5-6-spatial-sense/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-spatial-sense/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-spatial-sense/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-spatial-sense/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-spatial-sense/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-spatial-sense/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-spatial-sense/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-spatial-sense/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 입체도형의 공간 감각</h1><p>5-6학년군 · 도형과 측정 · 입체도형의 공간 감각</p><p>성취기준: [6수03-09], [6수03-10]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>쌓기나무 두 개를 아래층에 나란히 놓고, 왼쪽 쌓기나무 위에 한 개를 더 놓았습니다. 모두 몇 개의 쌓기나무를 사용했나요?</p><details><summary>정답과 풀이</summary><p>정답: 3개</p><p>아래층 2개와 위층 1개를 더하면 3개입니다.</p></details></li><li><h2>foundation</h2><p>쌓기나무 두 개를 왼쪽과 오른쪽으로 나란히 놓았습니다. 앞에서 보면 정사각형은 몇 개 보이나요?</p><details><summary>정답과 풀이</summary><p>정답: 2개</p><p>두 쌓기나무가 좌우로 나란히 있으므로 앞모양에는 정사각형 두 개가 보입니다.</p></details></li><li><h2>standard</h2><p>아래층에 쌓기나무를 2×2로 4개 놓고, 그 위에 2개를 놓았습니다. 사용한 쌓기나무는 모두 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 6개</p><p>아래층 4개와 위층 2개를 더합니다.</p></details></li><li><h2>standard</h2><p>왼쪽에는 쌓기나무가 2층으로, 오른쪽에는 1층으로 쌓여 있습니다. 앞에서 본 모양의 왼쪽과 오른쪽 높이를 차례로 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 왼쪽 2칸, 오른쪽 1칸</p><p>앞에서 본 모양에는 각 위치의 가장 높은 쌓기나무가 보입니다.</p></details></li><li><h2>challenge</h2><p>위에서 보니 쌓기나무가 놓인 자리는 3곳입니다. 각 자리의 높이가 차례로 2층, 1층, 3층이라면 사용한 쌓기나무는 모두 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 6개</p><p>각 자리의 높이를 더하면 2+1+3=6입니다.</p></details></li><li><h2>challenge</h2><p>위에서 본 모양이 좌우로 나란한 두 칸이고, 두 칸 모두 높이가 2층입니다. 앞에서 본 모양의 정사각형은 모두 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 4개</p><p>좌우 두 칸에 각각 높이 2칸이 보이므로 2×2=4개입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
+      "id": "g5-6-surface-area-volume",
+      "pdfPath": "/workbooks/g5-6-surface-area-volume/g5-6-surface-area-volume.pdf",
+      "transcriptPath": "/workbooks/g5-6-surface-area-volume/transcript.html",
+      "approvalStatus": "approved",
+      "pages": [
+        {
+          "pageId": "cover",
+          "order": 1,
+          "promptPath": "prompts/g5-6-surface-area-volume/01-cover.txt",
+          "promptSha256": "8eb2c1e92ed229596f172ab010c5a01edaf036477d6b91103df933df66c08138",
+          "expectedImagePath": "/workbooks/g5-6-surface-area-volume/01-cover.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-surface-area-volume/01-cover.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-1",
+          "order": 2,
+          "expectedImagePath": "/workbooks/g5-6-surface-area-volume/02-worksheet-1.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-surface-area-volume/02-worksheet-1.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "worksheet-2",
+          "order": 3,
+          "expectedImagePath": "/workbooks/g5-6-surface-area-volume/03-worksheet-2.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-surface-area-volume/03-worksheet-2.webp",
+          "approvalStatus": "approved"
+        },
+        {
+          "pageId": "answers",
+          "order": 4,
+          "expectedImagePath": "/workbooks/g5-6-surface-area-volume/04-answers.png",
+          "expectedThumbnailPath": "/workbooks/g5-6-surface-area-volume/04-answers.webp",
+          "approvalStatus": "approved"
+        }
+      ],
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 입체도형의 겉넓이와 부피</h1><p>5-6학년군 · 도형과 측정 · 입체도형의 겉넓이와 부피</p><p>성취기준: [6수03-17], [6수03-18], [6수03-19]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>한 모서리의 길이가 2cm인 정육면체의 겉넓이를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 24cm²</p><p>한 면의 넓이는 2×2=4cm²이고 면이 6개이므로 4×6=24cm²입니다.</p></details></li><li><h2>foundation</h2><p>1m³는 몇 cm³인가요?</p><details><summary>정답과 풀이</summary><p>정답: 1,000,000cm³</p><p>1m=100cm이므로 1m³=100×100×100=1,000,000cm³입니다.</p></details></li><li><h2>standard</h2><p>가로 4cm, 세로 3cm, 높이 2cm인 직육면체의 부피를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 24cm³</p><p>직육면체의 부피는 가로×세로×높이이므로 4×3×2=24cm³입니다.</p></details></li><li><h2>standard</h2><p>가로 5cm, 세로 4cm, 높이 3cm인 직육면체의 겉넓이를 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 94cm²</p><p>서로 다른 세 면의 넓이는 5×4=20, 5×3=15, 4×3=12cm²입니다. 각각 두 면씩 있어 2×(20+15+12)=94cm²입니다.</p></details></li><li><h2>challenge</h2><p>부피가 1m³인 정육면체 상자를 1cm³짜리 작은 정육면체로 빈틈없이 채우면 작은 정육면체는 몇 개 필요한가요?</p><details><summary>정답과 풀이</summary><p>정답: 1,000,000개</p><p>1m³=1,000,000cm³이므로 1cm³짜리 작은 정육면체가 1,000,000개 필요합니다.</p></details></li><li><h2>challenge</h2><p>가로 6m, 세로 4m, 높이 3m인 직육면체 모양 물탱크의 부피는 몇 m³인가요?</p><details><summary>정답과 풀이</summary><p>정답: 72m³</p><p>물탱크의 부피는 6×4×3=72m³입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+    },
+    {
       "id": "plane-shapes",
       "pdfPath": "/workbooks/plane-shapes/plane-shapes.pdf",
       "transcriptPath": "/workbooks/plane-shapes/transcript.html",
@@ -279,7 +2112,7 @@
           "approvalStatus": "approved"
         }
       ],
-      "transcriptHtml": "<main><h1>초등 수학 한 장: 두 자리 수 범위의 덧셈과 뺄셈</h1><p>1-2학년군 · 수와 연산 · 두 자리 수 범위의 덧셈과 뺄셈</p><p>성취기준: [2수01-05], [2수01-06], [2수01-07]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>사과가 23개 있습니다. 14개를 더 놓았습니다. 모두 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 37개</p><p>23+14=37</p></details></li><li><h2>foundation</h2><p>52-21을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 31</p><p>십의 자리와 일의 자리를 각각 빼면 31입니다.</p></details></li><li><h2>standard</h2><p>36+27을 계산하고, 계산 과정을 식으로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 63</p><p>36+20=56, 56+7=63</p></details></li><li><h2>standard</h2><p>45-18=27과 짝이 되는 덧셈식을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 27+18=45</p><p>뺄셈의 차에 뺀 수를 더하면 처음 수가 됩니다.</p></details></li><li><h2>challenge</h2><p>민아는 스티커 28개를 받고 16개를 더 받았습니다. 9개를 주었다면 몇 개가 남나요?</p><details><summary>정답과 풀이</summary><p>정답: 35개</p><p>28+16-9=35</p></details></li><li><h2>challenge</h2><p>63-27=36이 맞는지 덧셈으로 확인하고, 두 식의 관계를 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 36+27=63</p><p>차와 뺀 수를 더하면 처음 수가 되어 계산이 맞습니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
+      "transcriptHtml": "<main><h1>초등 수학 한 장: 두 자리 수 범위의 덧셈과 뺄셈</h1><p>1-2학년군 · 수와 연산 · 두 자리 수 범위의 덧셈과 뺄셈</p><p>성취기준: [2수01-05], [2수01-06], [2수01-07], [2수01-08], [2수01-09]</p><p>기초·표준·도전은 이 프로젝트의 학습 단계이며 국가의 공식 성취수준이 아닙니다.</p><ol><li><h2>foundation</h2><p>사과가 23개 있습니다. 14개를 더 놓았습니다. 모두 몇 개인가요?</p><details><summary>정답과 풀이</summary><p>정답: 37개</p><p>23+14=37</p></details></li><li><h2>foundation</h2><p>52-21을 계산하세요.</p><details><summary>정답과 풀이</summary><p>정답: 31</p><p>십의 자리와 일의 자리를 각각 빼면 31입니다.</p></details></li><li><h2>standard</h2><p>36+27을 계산하고, 계산 과정을 식으로 나타내세요.</p><details><summary>정답과 풀이</summary><p>정답: 63</p><p>36+20=56, 56+7=63</p></details></li><li><h2>standard</h2><p>45-18=27과 짝이 되는 덧셈식을 쓰세요.</p><details><summary>정답과 풀이</summary><p>정답: 27+18=45</p><p>뺄셈의 차에 뺀 수를 더하면 처음 수가 됩니다.</p></details></li><li><h2>challenge</h2><p>민아는 스티커 28개를 받고 16개를 더 받았습니다. 9개를 주었다면 몇 개가 남나요?</p><details><summary>정답과 풀이</summary><p>정답: 35개</p><p>28+16-9=35</p></details></li><li><h2>challenge</h2><p>63-27=□에서 □의 값을 구하세요.</p><details><summary>정답과 풀이</summary><p>정답: 36</p><p>63에서 27을 빼면 36이므로 □=36입니다.</p></details></li></ol><footer><p>© 2026 Taehyeong Lim · CC BY-NC-SA 4.0</p><p>이미지 제작에 공냥 프롬프트 킷을 사용했습니다.</p></footer></main>"
     }
   ]
 }

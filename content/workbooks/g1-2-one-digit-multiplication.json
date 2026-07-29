@@ -1,0 +1,180 @@
+{
+  "id": "g1-2-one-digit-multiplication",
+  "slug": "g1-2-one-digit-multiplication",
+  "title": "초등 수학 한 장: 한 자리 수의 곱셈",
+  "gradeBand": "1-2",
+  "domain": "수와 연산",
+  "module": "한 자리 수의 곱셈",
+  "standardCodes": [
+    "[2수01-10]",
+    "[2수01-11]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[2수01-10]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-10.application",
+      "prompt": "접시 4개에 귤이 3개씩 있습니다. 귤은 모두 몇 개인가요? 덧셈식과 곱셈식을 쓰세요.",
+      "answer": "12개, 3+3+3+3=12, 3×4=12",
+      "acceptableAnswers": [
+        "12개, 3+3+3+3=12, 3×4=12",
+        "3+3+3+3=12; 3×4=12; 12개"
+      ],
+      "unit": "개",
+      "explanation": "3개씩 4묶음이므로 3을 네 번 더하거나 3×4로 나타냅니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-10] 한 자리 수의 곱셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'한 자리 수의 곱셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[2수01-11]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-11.application",
+      "prompt": "6×7을 계산하세요.",
+      "answer": "42",
+      "acceptableAnswers": [
+        "42",
+        "사십이"
+      ],
+      "unit": null,
+      "explanation": "6단 곱셈구구에서 6×7=42입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-11] 한 자리 수의 곱셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'한 자리 수의 곱셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[2수01-10]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-10.application",
+      "prompt": "공책이 한 묶음에 4권씩, 5묶음 있습니다. 공책 수를 곱셈식으로 나타내고 답을 구하세요.",
+      "answer": "4×5=20, 20권",
+      "acceptableAnswers": [
+        "4×5=20, 20권",
+        "4×5=20"
+      ],
+      "unit": "권",
+      "explanation": "4권씩 5묶음이므로 4×5=20입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-10] 한 자리 수의 곱셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'한 자리 수의 곱셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[2수01-11]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-11.application",
+      "prompt": "8×9를 계산하고, 8×10을 이용한 방법을 쓰세요.",
+      "answer": "72, 80-8=72",
+      "acceptableAnswers": [
+        "72, 80-8=72",
+        "8×9=72; 8×10-8=72"
+      ],
+      "unit": null,
+      "explanation": "8×10=80에서 8을 한 번 빼면 8×9=72입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-11] 한 자리 수의 곱셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'한 자리 수의 곱셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[2수01-10]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-10.application",
+      "prompt": "의자가 한 줄에 6개씩 3줄 있습니다. 3×6과 6×3의 값이 같은 까닭을 배열로 설명하세요.",
+      "answer": "둘 다 18이며, 같은 배열을 가로와 세로로 본 것입니다.",
+      "acceptableAnswers": [
+        "둘 다 18이며, 같은 배열을 가로와 세로로 본 것입니다.",
+        "3×6=6×3=18, 같은 배열입니다."
+      ],
+      "unit": "개",
+      "explanation": "3줄에 6개인 배열을 돌려 보면 6줄에 3개인 같은 18개 배열입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-10] 한 자리 수의 곱셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'한 자리 수의 곱셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[2수01-11]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-11.application",
+      "prompt": "7×□=56에서 □에 알맞은 수를 쓰고 곱셈구구로 확인하세요.",
+      "answer": "8, 7×8=56",
+      "acceptableAnswers": [
+        "8, 7×8=56",
+        "□=8"
+      ],
+      "unit": null,
+      "explanation": "7단 곱셈구구에서 7×8=56이므로 □는 8입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-11] 한 자리 수의 곱셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'한 자리 수의 곱셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g1-2-one-digit-multiplication/01-cover.webp",
+      "thumbnailPath": "/workbooks/g1-2-one-digit-multiplication/01-cover.webp",
+      "sha256": "d6d6e21f4bd9b8ef2b7df4aca472e56845916a2d45446fdf78e612b6be1fcf7b",
+      "alt": "한 자리 수의 곱셈 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-one-digit-multiplication/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g1-2-one-digit-multiplication/02-worksheet-1.webp",
+      "sha256": "ce2fe927f71d10245d6c3fab3f96cf219a0f7822e292b744078d52a7da6c0ab5",
+      "alt": "한 자리 수의 곱셈 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-one-digit-multiplication/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g1-2-one-digit-multiplication/03-worksheet-2.webp",
+      "sha256": "7fd31b9c34bf7a7c3e1475aff93a8d9927118639510914fd78810ff074d0df2f",
+      "alt": "한 자리 수의 곱셈 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g1-2-one-digit-multiplication/04-answers.webp",
+      "thumbnailPath": "/workbooks/g1-2-one-digit-multiplication/04-answers.webp",
+      "sha256": "0220850c105565e757bc8f100244987cd7f7e647f2599cd3e6d4dfc3e1ce8caf",
+      "alt": "한 자리 수의 곱셈 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g1-2-one-digit-multiplication/g1-2-one-digit-multiplication.pdf",
+    "pageCount": 4,
+    "sha256": "5e3dec2a5fc9407607f3cb49b93e9e0dfe0d4bbbd309e2ecefa5ee4278935f6a"
+  },
+  "transcriptPath": "/workbooks/g1-2-one-digit-multiplication/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

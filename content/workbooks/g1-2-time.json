@@ -1,0 +1,183 @@
+{
+  "id": "g1-2-time",
+  "slug": "g1-2-time",
+  "title": "초등 수학 한 장: 시각과 시간",
+  "gradeBand": "1-2",
+  "domain": "도형과 측정",
+  "module": "시각과 시간",
+  "standardCodes": [
+    "[2수03-07]",
+    "[2수03-08]",
+    "[2수03-09]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[2수03-07]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-07.application",
+      "prompt": "긴바늘이 4, 짧은바늘이 3과 4 사이를 가리키는 시각을 읽으세요.",
+      "answer": "3시 20분",
+      "acceptableAnswers": [
+        "3시 20분",
+        "오후 3시 20분",
+        "오전 3시 20분"
+      ],
+      "unit": null,
+      "explanation": "긴바늘이 4를 가리키면 20분이고, 짧은바늘은 3시를 지난 곳에 있습니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-07] 시각과 시간 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[2수03-08]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-08.application",
+      "prompt": "1시간은 몇 분인가요?",
+      "answer": "60분",
+      "acceptableAnswers": [
+        "60분",
+        "60"
+      ],
+      "unit": "분",
+      "explanation": "시계의 분침이 한 바퀴 도는 60분이 1시간입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-08] 시각과 시간 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[2수03-09]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-09.application",
+      "prompt": "1주일은 며칠인가요?",
+      "answer": "7일",
+      "acceptableAnswers": [
+        "7일",
+        "7"
+      ],
+      "unit": "일",
+      "explanation": "월요일부터 일요일까지 7일이 한 주일입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-09] 시각과 시간 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[2수03-07]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-07.application",
+      "prompt": "긴바늘이 9, 짧은바늘이 8과 9 사이를 가리키는 시각을 읽으세요.",
+      "answer": "8시 45분",
+      "acceptableAnswers": [
+        "8시 45분",
+        "오전 8시 45분",
+        "오후 8시 45분"
+      ],
+      "unit": null,
+      "explanation": "긴바늘이 9를 가리키면 45분이고, 짧은바늘은 8시를 지난 곳에 있습니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-07] 시각과 시간 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[2수03-08]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-08.application",
+      "prompt": "2시간 30분은 모두 몇 분인가요?",
+      "answer": "150분",
+      "acceptableAnswers": [
+        "150분",
+        "150"
+      ],
+      "unit": "분",
+      "explanation": "2시간은 120분이고, 120+30=150분입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-08] 시각과 시간 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[2수03-09]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-09.application",
+      "prompt": "이번 주 월요일부터 다음 주 월요일까지는 며칠이며 몇 주일인가요?",
+      "answer": "7일, 1주일",
+      "acceptableAnswers": [
+        "7일, 1주일",
+        "7일이며 1주일"
+      ],
+      "unit": null,
+      "explanation": "같은 요일에서 다음 주의 같은 요일까지는 7일, 곧 1주일입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-09] 시각과 시간 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g1-2-time/01-cover.webp",
+      "thumbnailPath": "/workbooks/g1-2-time/01-cover.webp",
+      "sha256": "e56fd2a42bd2d5e84fa5e612cdd6ddc224c6791f5262e5fee21866b3759404de",
+      "alt": "시각과 시간 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-time/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g1-2-time/02-worksheet-1.webp",
+      "sha256": "d7b7034b6080d15114944f8558f067f0eb2fad784ffb9e7a0628d5d0412140de",
+      "alt": "시각과 시간 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-time/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g1-2-time/03-worksheet-2.webp",
+      "sha256": "f0418c4bcae613d3166bc897a41d8fa9b17476dd590dec560a902e4d2c6ec436",
+      "alt": "시각과 시간 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g1-2-time/04-answers.webp",
+      "thumbnailPath": "/workbooks/g1-2-time/04-answers.webp",
+      "sha256": "b13f20faf6765dba33d3a23c9c195f4f638412085e15622468ec63138e47d930",
+      "alt": "시각과 시간 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g1-2-time/g1-2-time.pdf",
+    "pageCount": 4,
+    "sha256": "cbf81ab7cd34299f5c8c22702230d2d3be3c8da4cce81e7fb69b064f26c1e903"
+  },
+  "transcriptPath": "/workbooks/g1-2-time/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

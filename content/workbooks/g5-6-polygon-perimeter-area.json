@@ -1,0 +1,201 @@
+{
+  "id": "g5-6-polygon-perimeter-area",
+  "slug": "g5-6-polygon-perimeter-area",
+  "title": "초등 수학 한 장: 다각형의 둘레와 넓이",
+  "gradeBand": "5-6",
+  "domain": "도형과 측정",
+  "module": "다각형의 둘레와 넓이",
+  "standardCodes": [
+    "[6수03-11]",
+    "[6수03-12]",
+    "[6수03-13]",
+    "[6수03-14]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수03-11]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-11.concept",
+      "prompt": "가로가 7cm, 세로가 3cm인 직사각형의 둘레를 구하세요.",
+      "answer": "20cm",
+      "acceptableAnswers": [
+        "20cm",
+        "20 cm"
+      ],
+      "unit": "cm",
+      "explanation": "직사각형의 둘레는 7+3+7+3=20cm입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-11] 다각형의 둘레와 넓이 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-11] 다각형의 둘레와 넓이 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'다각형의 둘레와 넓이'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-11]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수03-12]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-12.concept",
+      "prompt": "1m²는 몇 cm²인가요?",
+      "answer": "10,000cm²",
+      "acceptableAnswers": [
+        "10,000cm²",
+        "10000cm²",
+        "10,000 cm²"
+      ],
+      "unit": "cm²",
+      "explanation": "1m=100cm이므로 1m²=100cm×100cm=10,000cm²입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-12] 다각형의 둘레와 넓이 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-12] 다각형의 둘레와 넓이 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'다각형의 둘레와 넓이'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-12]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수03-13]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-13.representation",
+      "prompt": "가로 8cm, 세로 5cm인 직사각형의 넓이를 구하세요.",
+      "answer": "40cm²",
+      "acceptableAnswers": [
+        "40cm²",
+        "40 cm²"
+      ],
+      "unit": "cm²",
+      "explanation": "직사각형의 넓이는 가로×세로이므로 8×5=40입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-13] 다각형의 둘레와 넓이 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'다각형의 둘레와 넓이'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수03-14]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-14.representation",
+      "prompt": "밑변이 10cm, 높이가 6cm인 삼각형의 넓이를 구하세요.",
+      "answer": "30cm²",
+      "acceptableAnswers": [
+        "30cm²",
+        "30 cm²"
+      ],
+      "unit": "cm²",
+      "explanation": "삼각형의 넓이는 밑변×높이÷2이므로 10×6÷2=30입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-14] 다각형의 둘레와 넓이 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'다각형의 둘레와 넓이'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수03-13]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-13.application",
+      "prompt": "가로 12m, 세로 9m인 교실 바닥에 매트를 빈틈없이 깔려고 합니다. 필요한 매트의 넓이는 몇 m²인가요?",
+      "answer": "108m²",
+      "acceptableAnswers": [
+        "108m²",
+        "108 m²"
+      ],
+      "unit": "m²",
+      "explanation": "직사각형 바닥의 넓이는 12×9=108m²입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-13] 다각형의 둘레와 넓이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-13] 다각형의 둘레와 넓이 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'다각형의 둘레와 넓이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수03-14]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-14.application",
+      "prompt": "윗변 8cm, 아랫변 14cm, 높이 5cm인 사다리꼴 모양 종이의 넓이를 구하세요.",
+      "answer": "55cm²",
+      "acceptableAnswers": [
+        "55cm²",
+        "55 cm²"
+      ],
+      "unit": "cm²",
+      "explanation": "사다리꼴의 넓이는 (8+14)×5÷2=55cm²입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-14] 다각형의 둘레와 넓이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-14] 다각형의 둘레와 넓이 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'다각형의 둘레와 넓이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-polygon-perimeter-area/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-polygon-perimeter-area/01-cover.webp",
+      "sha256": "ff2bce1bf52f8b604ba789ae7e294938c0794eaabaaf544c2f066e77043eaf2b",
+      "alt": "다각형의 둘레와 넓이 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-polygon-perimeter-area/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-polygon-perimeter-area/02-worksheet-1.webp",
+      "sha256": "7532e766a2009f226363bb031f03008cbbf641bc14aa7983ab4a62a94ba3274f",
+      "alt": "다각형의 둘레와 넓이 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-polygon-perimeter-area/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-polygon-perimeter-area/03-worksheet-2.webp",
+      "sha256": "a6f905d4b59a8c290816fe72f77ca7260637122f0e69c83d6f9bd51a2beea243",
+      "alt": "다각형의 둘레와 넓이 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-polygon-perimeter-area/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-polygon-perimeter-area/04-answers.webp",
+      "sha256": "2266765776ccc741d975bbbadb22847cf047f5c975f26787a09d66b1c9ab323f",
+      "alt": "다각형의 둘레와 넓이 정답과 해설",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-polygon-perimeter-area/g5-6-polygon-perimeter-area.pdf",
+    "pageCount": 4,
+    "sha256": "509ca459292e69b32291f1e8c3609226cb5e5b8cf665770b40af435e5c06daf4"
+  },
+  "transcriptPath": "/workbooks/g5-6-polygon-perimeter-area/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

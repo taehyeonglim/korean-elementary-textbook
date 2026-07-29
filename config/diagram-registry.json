@@ -1,0 +1,3690 @@
+{
+  "version": 1,
+  "types": {
+    "blank-workspace": {
+      "version": 1,
+      "supportedGradeBands": [
+        "1-2",
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "columns",
+          "rows",
+          "cell",
+          "lines"
+        ]
+      }
+    },
+    "number_line": {
+      "version": 1,
+      "supportedGradeBands": [
+        "1-2",
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "min",
+          "max",
+          "start",
+          "end",
+        "step",
+        "ticks",
+        "majorEvery",
+          "points",
+          "arrows",
+          "length"
+        ]
+      }
+    },
+    "fraction-bar": {
+      "version": 1,
+      "supportedGradeBands": [
+        "1-2",
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "total",
+          "filled"
+        ]
+      }
+    },
+    "decimal-grid": {
+      "version": 1,
+      "supportedGradeBands": [
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "columns",
+          "rows",
+          "cell",
+          "filled"
+        ]
+      }
+    },
+    "analog-clock": {
+      "version": 1,
+      "supportedGradeBands": [
+        "1-2",
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "hour",
+          "minute",
+          "second",
+          "radius",
+          "labelMode"
+        ]
+      }
+    },
+    "ruler": {
+      "version": 1,
+      "supportedGradeBands": [
+        "1-2",
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "length",
+          "unit",
+          "scale",
+          "tickStep",
+          "startOffset",
+          "ticks"
+        ]
+      }
+    },
+    "solid": {
+      "version": 1,
+      "supportedGradeBands": [
+        "1-2",
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "solidType",
+          "solids",
+          "labels",
+          "selectable"
+        ]
+      }
+    },
+    "net": {
+      "version": 1,
+      "supportedGradeBands": [
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "solidType",
+          "faces",
+          "adjacency",
+          "foldEdges",
+          "tabs"
+        ]
+      }
+    },
+    "transform-grid": {
+      "version": 1,
+      "supportedGradeBands": [
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "grid",
+          "shapePoints",
+          "operation",
+          "params",
+          "showImage"
+        ]
+      }
+    },
+    "symmetry": {
+      "version": 1,
+      "supportedGradeBands": [
+        "1-2",
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "polygon",
+          "bitmapCells",
+          "axis"
+        ]
+      }
+    },
+    "perimeter-area": {
+      "version": 1,
+      "supportedGradeBands": [
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "boundary",
+          "grid",
+          "filledCells",
+          "unit",
+          "dimensions"
+        ]
+      }
+    },
+    "volume": {
+      "version": 1,
+      "supportedGradeBands": [
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "dimensions",
+          "occupiedCells",
+          "cubes",
+          "unit"
+        ]
+      }
+    },
+    "table": {
+      "version": 1,
+      "supportedGradeBands": [
+        "1-2",
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "headers",
+          "rows",
+          "totals",
+          "unknownCells",
+          "columns",
+          "cell"
+        ]
+      }
+    },
+    "chart": {
+      "version": 1,
+      "supportedGradeBands": [
+        "1-2",
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "categories",
+          "values",
+          "axisMin",
+          "axisMax",
+          "tickStep"
+        ]
+      }
+    },
+    "probability": {
+      "version": 1,
+      "supportedGradeBands": [
+        "3-4",
+        "5-6"
+      ],
+      "paramsSchema": {
+        "allowed": [
+          "sectors",
+          "pointerSeed"
+        ]
+      }
+    }
+  },
+  "workbooks": {
+    "g1-2-data-organization": {
+      "gradeBand": "1-2",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "chart",
+          "params": {
+            "values": [
+              3,
+              2,
+              4
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "chart",
+          "params": {
+            "values": [
+              4,
+              3,
+              2
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "chart",
+          "params": {
+            "values": [
+              1,
+              5,
+              3,
+              4
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "chart",
+          "params": {
+            "values": [
+              4,
+              3
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "chart",
+          "params": {
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "chart",
+          "params": {
+            "values": [
+              4,
+              2,
+              3,
+              1
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g1-2-length": {
+      "gradeBand": "1-2",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g1-2-numbers-to-100": {
+      "gradeBand": "1-2",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q2": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q3": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q4": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q5": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q6": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        }
+      }
+    },
+    "g1-2-one-digit-multiplication": {
+      "gradeBand": "1-2",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q2": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q3": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q4": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q5": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q6": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        }
+      }
+    },
+    "g1-2-patterns": {
+      "gradeBand": "1-2",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g1-2-quantity-comparison": {
+      "gradeBand": "1-2",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g1-2-solid-shapes": {
+      "gradeBand": "1-2",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g1-2-time": {
+      "gradeBand": "1-2",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "analog-clock",
+          "params": {
+            "hour": 3,
+            "minute": 20
+          },
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "analog-clock",
+          "params": {},
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "analog-clock",
+          "params": {},
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "analog-clock",
+          "params": {
+            "hour": 8,
+            "minute": 45
+          },
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "analog-clock",
+          "params": {},
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "analog-clock",
+          "params": {},
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-capacity": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-circle-elements": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-data-collection": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "chart",
+          "params": {
+            "values": [
+              3,
+              5,
+              4
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "chart",
+          "params": {
+            "values": [
+              18,
+              21,
+              19,
+              24
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "chart",
+          "params": {
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "chart",
+          "params": {
+            "values": [
+              12,
+              18,
+              15
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "chart",
+          "params": {
+            "values": [
+              10,
+              14,
+              13,
+              18
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "chart",
+          "params": {
+            "values": [
+              8,
+              5,
+              7
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-decimal-addition-subtraction": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-decimals": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-equality": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-estimation": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-fraction-addition-subtraction": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 7,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 9,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 5,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 8,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 12,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 7,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-geometry-basics": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-large-numbers": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q2": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q3": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q4": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q5": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q6": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        }
+      }
+    },
+    "g3-4-length": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "ruler",
+          "params": {
+            "ticks": 10
+          },
+          "geometry": "length-scale",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-mass": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "table",
+          "params": {},
+          "geometry": "quantity-comparison-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-plane-transformations": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "transform-grid",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "transform-grid",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "transform-grid",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "transform-grid",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "transform-grid",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "transform-grid",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-polygons": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-quadrilaterals": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-rules-expressions": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-three-digit-addition-subtraction": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q2": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q3": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q4": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q5": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q6": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        }
+      }
+    },
+    "g3-4-three-digit-division": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q2": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q3": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q4": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q5": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q6": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        }
+      }
+    },
+    "g3-4-three-digit-multiplication": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q2": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q3": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q4": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q5": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q6": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        }
+      }
+    },
+    "g3-4-time": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "analog-clock",
+          "params": {},
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "analog-clock",
+          "params": {},
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "analog-clock",
+          "params": {},
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "analog-clock",
+          "params": {},
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "analog-clock",
+          "params": {},
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "analog-clock",
+          "params": {
+            "hour": 10,
+            "minute": 15
+          },
+          "geometry": "time-reading-or-duration",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g3-4-triangles": {
+      "gradeBand": "3-4",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-congruence-symmetry": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "symmetry",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "symmetry",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "symmetry",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "symmetry",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "symmetry",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "symmetry",
+          "params": {},
+          "geometry": "transformation-grid",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-correspondence": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-cuboids-cubes": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-cylinder-cone-sphere": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-data-collection": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "chart",
+          "params": {
+            "values": [
+              4,
+              6,
+              8,
+              10
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "chart",
+          "params": {
+            "values": [
+              12,
+              15,
+              18
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "chart",
+          "params": {
+            "values": [
+              20,
+              8
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "chart",
+          "params": {
+            "values": [
+              40,
+              10
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "chart",
+          "params": {
+            "values": [
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "chart",
+          "params": {
+            "values": [
+              5,
+              7,
+              8,
+              10
+            ]
+          },
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-decimal-multiplication-division": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "decimal-grid",
+          "params": {
+            "columns": 10,
+            "rows": 10,
+            "cell": 18,
+            "filled": 0
+          },
+          "geometry": "decimal-place-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-factors-multiples": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-fraction-addition-subtraction": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 24,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 8,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 5,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 3,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 5,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 8,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-fraction-decimal-relationship": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 10,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 4,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 20,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 4,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 5,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 8,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-fraction-multiplication-division": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 3,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 7,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 4,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 4,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 4,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "fraction-bar",
+          "params": {
+            "total": 6,
+            "filled": 0
+          },
+          "geometry": "fraction-partition",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-mixed-natural-calculation": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q2": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q3": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q4": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q5": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        },
+        "q6": {
+          "type": "blank-workspace",
+          "params": {
+            "columns": 3,
+            "rows": 3,
+            "cell": 44,
+            "lines": 2
+          },
+          "geometry": "text-calculation-workspace",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": "text-calculation-workspace"
+        }
+      }
+    },
+    "g5-6-polygon-perimeter-area": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "perimeter-area",
+          "params": {},
+          "geometry": "shape-and-measurement-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-prisms-pyramids": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-probability": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "table",
+          "params": {},
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "table",
+          "params": {},
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "table",
+          "params": {},
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "table",
+          "params": {},
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "table",
+          "params": {},
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "table",
+          "params": {},
+          "geometry": "data-representation",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-proportions": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "table",
+          "params": {},
+          "geometry": "relationship-table",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-rounding": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "number_line",
+          "params": {
+            "start": 0,
+            "end": 10,
+            "ticks": 10,
+            "length": 200
+          },
+          "geometry": "number-relationship-line",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-spatial-sense": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    },
+    "g5-6-surface-area-volume": {
+      "gradeBand": "5-6",
+      "assignmentPolicy": "reviewed-q-level-v1",
+      "diagrams": {
+        "q1": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q2": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q3": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q4": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q5": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        },
+        "q6": {
+          "type": "solid",
+          "params": {},
+          "geometry": "solid-shape-model",
+          "assertions": {
+            "noDerivedAnswer": true
+          },
+          "fallbackReason": ""
+        }
+      }
+    }
+  },
+  "defaults": {
+    "kind": "blank-workspace",
+    "geometry": "student-workspace",
+    "assertions": {
+      "noDerivedAnswer": true
+    }
+  },
+  "assignmentSummary": {
+    "policy": "Each non-legacy question receives a reviewed deterministic visual assignment; blank workspace is permitted only for text-only calculation practice.",
+    "generatedBy": "scripts/populate_diagram_registry.py"
+  }
+}

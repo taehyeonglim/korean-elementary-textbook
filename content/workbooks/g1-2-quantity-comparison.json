@@ -1,0 +1,179 @@
+{
+  "id": "g1-2-quantity-comparison",
+  "slug": "g1-2-quantity-comparison",
+  "title": "초등 수학 한 장: 양의 비교",
+  "gradeBand": "1-2",
+  "domain": "도형과 측정",
+  "module": "양의 비교",
+  "standardCodes": [
+    "[2수03-06]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[2수03-06]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-06.application",
+      "prompt": "두 리본을 같은 곳에서 시작해 곧게 놓았습니다. 더 멀리 뻗은 가 리본과 나 리본 중 어느 것이 더 긴가요?",
+      "answer": "가 리본",
+      "acceptableAnswers": [
+        "가 리본",
+        "가"
+      ],
+      "unit": null,
+      "explanation": "같은 곳에서 시작했을 때 더 멀리 뻗은 가 리본이 더 깁니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-06] 양의 비교 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'양의 비교'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[2수03-06]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-06.application",
+      "prompt": "같은 크기의 두 컵에서 물 높이가 더 높은 것은 나 컵입니다. 물이 더 많은 컵은 무엇인가요?",
+      "answer": "나 컵",
+      "acceptableAnswers": [
+        "나 컵",
+        "나"
+      ],
+      "unit": null,
+      "explanation": "같은 크기의 컵에서는 물 높이가 더 높은 나 컵에 물이 더 많습니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-06] 양의 비교 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'양의 비교'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[2수03-06]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-06.application",
+      "prompt": "양팔저울에서 가 물건 쪽이 아래로 내려갔습니다. 어느 물건이 더 무거운가요?",
+      "answer": "가 물건",
+      "acceptableAnswers": [
+        "가 물건",
+        "가"
+      ],
+      "unit": null,
+      "explanation": "양팔저울에서 더 무거운 쪽이 아래로 내려갑니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-06] 양의 비교 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'양의 비교'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[2수03-06]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-06.application",
+      "prompt": "종이 가를 종이 나 위에 포개었더니 가가 나를 완전히 덮고도 남았습니다. 어느 종이가 더 넓은가요?",
+      "answer": "종이 가",
+      "acceptableAnswers": [
+        "종이 가",
+        "가"
+      ],
+      "unit": null,
+      "explanation": "포개었을 때 다른 종이를 완전히 덮고 남는 종이 가가 더 넓습니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-06] 양의 비교 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'양의 비교'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[2수03-06]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-06.application",
+      "prompt": "막대 가는 나보다 길고, 나는 다보다 깁니다. 세 막대를 긴 것부터 차례로 쓰세요.",
+      "answer": "가, 나, 다",
+      "acceptableAnswers": [
+        "가, 나, 다",
+        "가>나>다"
+      ],
+      "unit": null,
+      "explanation": "가는 나보다 길고 나도 다보다 길므로 가, 나, 다 순서입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-06] 양의 비교 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'양의 비교'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[2수03-06]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-06.application",
+      "prompt": "상자 가는 나보다 크지만, 양팔저울에서는 나 쪽이 내려갔습니다. 더 큰 상자와 더 무거운 상자를 각각 쓰세요.",
+      "answer": "더 큰 상자 가, 더 무거운 상자 나",
+      "acceptableAnswers": [
+        "더 큰 상자 가, 더 무거운 상자 나",
+        "크기 가, 무게 나"
+      ],
+      "unit": null,
+      "explanation": "겉보기 크기와 무게는 다를 수 있으며, 저울에서 내려간 나가 더 무겁습니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-06] 양의 비교 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'양의 비교'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g1-2-quantity-comparison/01-cover.webp",
+      "thumbnailPath": "/workbooks/g1-2-quantity-comparison/01-cover.webp",
+      "sha256": "7d81fe34530e521c029fe60acaee63ad50d7e757d6c1a72e266754530ad2bdb7",
+      "alt": "양의 비교 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-quantity-comparison/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g1-2-quantity-comparison/02-worksheet-1.webp",
+      "sha256": "e0ce24108fa69750e522cb9806f79885fda93de7aac04ed4952c0086a7db82a1",
+      "alt": "양의 비교 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-quantity-comparison/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g1-2-quantity-comparison/03-worksheet-2.webp",
+      "sha256": "ed71db532da0d9d277dbeae9a5f301183f16ffa97a95f88e5690cf34f594f957",
+      "alt": "양의 비교 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g1-2-quantity-comparison/04-answers.webp",
+      "thumbnailPath": "/workbooks/g1-2-quantity-comparison/04-answers.webp",
+      "sha256": "b46dca4bcdd5c84e4b973836cee60840352f1b5ba4c621149edec045cbcee987",
+      "alt": "양의 비교 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g1-2-quantity-comparison/g1-2-quantity-comparison.pdf",
+    "pageCount": 4,
+    "sha256": "c62b63d14617f4e4ad1b6d74e9e4d6c414109adf81bb64c6063b9104aeac64a3"
+  },
+  "transcriptPath": "/workbooks/g1-2-quantity-comparison/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

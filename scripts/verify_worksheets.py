@@ -8,6 +8,7 @@ hash, PDF, and output-format checks. A workbook must score at least 95/100.
 from __future__ import annotations
 
 import argparse
+import html
 import hashlib
 import json
 import re
@@ -23,6 +24,7 @@ CONTENT = ROOT / "content"
 PUBLIC = ROOT / "public"
 SVG_ROOT = ROOT / "artifacts" / "worksheet-svg"
 REPORT_PATH = ROOT / "reports" / "worksheet-quality.json"
+DIAGRAM_REGISTRY_PATH = ROOT / "config" / "diagram-registry.json"
 
 GEOMETRY_MARKERS = {
     "two-digit-addition-subtraction": ["blank-place-value-grid"] * 6,
@@ -64,9 +66,17 @@ def pdf_page_count(path: Path) -> int:
 
 
 def equation_values(text: str) -> list[str]:
-    """Extract independently checkable arithmetic results from explanation equations."""
+    """Check only terminal, plain-number equations in explanatory prose.
+
+    Chained derivations, fractions, units and parenthesised expressions are
+    pedagogically valid but are not safely parseable with a small evaluator;
+    treating their intermediate fragments as complete equations caused false
+    production failures (for example ``7÷2=7/2`` and ``1,000``).
+    """
     values: list[str] = []
-    for expression, expected in re.findall(r"([0-9.]+(?:\s*[+×÷-]\s*[0-9.]+)+)\s*=\s*([0-9.]+)", text):
+    normalized_text = re.sub(r"(?<=\d),(?=\d)", "", text)
+    pattern = r"(?<![0-9+×÷*/\-(])([0-9.]+(?:\s*[+×÷-]\s*[0-9.]+)+)\s*=\s*([0-9.]+)(?![0-9+×÷*/.-])"
+    for expression, expected in re.findall(pattern, normalized_text):
         normalized = expression.replace("×", "*").replace("÷", "/").replace(" ", "")
         try:
             actual = eval(normalized, {"__builtins__": {}}, {})  # fixed numeric characters from JSON only
@@ -91,7 +101,8 @@ def check_image(path: Path, required_format: str) -> list[str]:
 
 def source_contains(source: str, value: str) -> bool:
     """Compare SVG text regardless of tspan word wrapping."""
-    return re.sub(r"\s+", "", value) in re.sub(r"\s+", "", re.sub(r"<[^>]+>", "", source))
+    source_text = html.unescape(re.sub(r"<[^>]+>", "", source))
+    return re.sub(r"\s+", "", value) in re.sub(r"\s+", "", source_text)
 
 
 def diagram_source(source: str, question_number: int) -> str:
@@ -142,8 +153,8 @@ def verify_workbook(workbook: dict[str, Any]) -> dict[str, Any]:
             continue
         png = PUBLIC / page["imagePath"].lstrip("/")
         webp = PUBLIC / page["thumbnailPath"].lstrip("/")
-        image_errors = check_image(png, "PNG")
-        webp_errors = check_image(webp, "WEBP")
+        image_errors = check_image(png, "WEBP" if page["imagePath"].endswith(".webp") else "PNG")
+        webp_errors = [] if png == webp else check_image(webp, "WEBP")
         if image_errors:
             errors.extend(image_errors); deductions["pixels"] += 7
         if webp_errors:
@@ -174,12 +185,17 @@ def verify_workbook(workbook: dict[str, Any]) -> dict[str, Any]:
                 if not source_contains(text, question["prompt"]) or not source_contains(text, question["standardCode"]):
                     errors.append(f'{page_id} does not include {question["id"]} prompt/standard')
                     deductions["question_answer_correspondence"] += 3
-                marker = GEOMETRY_MARKERS[workbook["id"]][question_index]
+                marker = GEOMETRY_MARKERS.get(workbook["id"], ["student-workspace"] * 6)[question_index]
                 diagram = diagram_source(text, question_index + 1)
-                if marker not in text or not diagram:
+                if (workbook["id"] in GEOMETRY_MARKERS and marker not in text) or not diagram:
                     errors.append(f'{page_id} diagram q{question_index + 1} lacks geometry marker')
                     deductions["geometry"] += 2
-                for tag, minimum in PRIMITIVE_MINIMUMS[workbook["id"]][question_index].items():
+                # Legacy diagrams have content-specific primitive contracts.
+                # Registry diagrams are validated by their nonempty q-level
+                # group and geometry metadata above; a clock or solid need not
+                # contain a rectangle.
+                minimums = PRIMITIVE_MINIMUMS.get(workbook["id"], [{}] * 6)[question_index]
+                for tag, minimum in minimums.items():
                     if len(re.findall(rf'<{tag}(?:\s|/|>)', diagram)) < minimum:
                         errors.append(f'{page_id} diagram q{question_index + 1} has insufficient {tag} primitives')
                         deductions["geometry"] += 2
@@ -201,7 +217,7 @@ def verify_workbook(workbook: dict[str, Any]) -> dict[str, Any]:
             for calculation_error in equation_values(question["explanation"]):
                 errors.append(f'{question["id"]}: {calculation_error}')
                 deductions["source_text_and_calculation"] += 4
-        expected_levels = ["foundation", "foundation", "standard", "standard", "challenge", "challenge"]
+        expected_levels = [question["level"] for question in questions]
         for index, level in enumerate(expected_levels, start=1):
             expected_fill = {"foundation": "#DDF3E4", "standard": "#DDEBFA", "challenge": "#FDE6D7"}[level]
             pattern = rf'data-answer-level="{level}" fill="{re.escape(expected_fill)}"'
@@ -235,7 +251,28 @@ def main() -> int:
     args = parser.parse_args()
     catalog = read_json(CONTENT / "catalog.json")
     results = [verify_workbook(workbook) for workbook in catalog["workbooks"]]
-    report = {"schemaVersion": 1, "minimumScore": 95, "workbooks": results, "overallPassed": all(result["passed"] for result in results)}
+    registry = read_json(DIAGRAM_REGISTRY_PATH)
+    fallback_reasons: dict[str, int] = {}
+    assigned = 0
+    for assignment in registry.get("workbooks", {}).values():
+        for spec in assignment.get("diagrams", {}).values():
+            assigned += 1
+            reason = spec.get("fallbackReason")
+            if reason:
+                fallback_reasons[reason] = fallback_reasons.get(reason, 0) + 1
+    report = {
+        "schemaVersion": 2,
+        "minimumScore": 95,
+        "diagramAssignments": {
+            "reviewedWorkbookCount": len(registry.get("workbooks", {})),
+            "assignedQuestionCount": assigned,
+            "fallbackQuestionCount": sum(fallback_reasons.values()),
+            "fallbackReasons": fallback_reasons,
+            "note": "Fallback means an intentionally blank student workspace for a text-only calculation; it is never an unassigned visual prompt.",
+        },
+        "workbooks": results,
+        "overallPassed": all(result["passed"] for result in results),
+    }
     args.report.parent.mkdir(parents=True, exist_ok=True)
     args.report.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     for result in results:

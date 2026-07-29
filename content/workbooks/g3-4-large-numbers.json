@@ -1,0 +1,181 @@
+{
+  "id": "g3-4-large-numbers",
+  "slug": "g3-4-large-numbers",
+  "title": "초등 수학 한 장: 다섯 자리 이상의 수",
+  "gradeBand": "3-4",
+  "domain": "수와 연산",
+  "module": "다섯 자리 이상의 수",
+  "standardCodes": [
+    "[4수01-01]",
+    "[4수01-02]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수01-01]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-01.concept",
+      "prompt": "407,215에서 숫자 7이 나타내는 값은 얼마인가요?",
+      "answer": "7,000",
+      "acceptableAnswers": [
+        "7,000",
+        "7000"
+      ],
+      "unit": null,
+      "explanation": "7은 천의 자리에 있으므로 7×1,000=7,000입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-01] 다섯 자리 이상의 수 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'다섯 자리 이상의 수'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수01-01]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수01-01]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-01.representation",
+      "prompt": "‘육십만 오천사십’을 숫자로 쓰세요.",
+      "answer": "605,040",
+      "acceptableAnswers": [
+        "605,040",
+        "605040"
+      ],
+      "unit": null,
+      "explanation": "육십만은 600,000, 오천은 5,000, 사십은 40이므로 605,040입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-01] 다섯 자리 이상의 수 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'다섯 자리 이상의 수'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수01-02]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-02.representation",
+      "prompt": "398,000, 399,000, □, 401,000에서 □에 알맞은 수를 쓰세요.",
+      "answer": "400,000",
+      "acceptableAnswers": [
+        "400,000",
+        "400000"
+      ],
+      "unit": null,
+      "explanation": "1,000씩 커지는 수의 계열이므로 399,000 다음은 400,000입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-02] 다섯 자리 이상의 수 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'다섯 자리 이상의 수'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수01-02]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-02.concept",
+      "prompt": "572,904와 572,940 중 더 큰 수를 쓰세요.",
+      "answer": "572,940",
+      "acceptableAnswers": [
+        "572,940",
+        "572940"
+      ],
+      "unit": null,
+      "explanation": "십의 자리에서 4가 0보다 크므로 572,940이 더 큽니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-02] 다섯 자리 이상의 수 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'다섯 자리 이상의 수'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수01-02]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수01-01]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-01.application",
+      "prompt": "300,000+40,000+500+6으로 나타낸 수를 쓰고 읽으세요.",
+      "answer": "340,506, 삼십사만 오백육",
+      "acceptableAnswers": [
+        "340,506, 삼십사만 오백육",
+        "340506, 삼십사만 오백육",
+        "340,506(삼십사만 오백육)"
+      ],
+      "unit": null,
+      "explanation": "각 자릿값을 합하면 340,506이고, 삼십사만 오백육이라고 읽습니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-01] 다섯 자리 이상의 수 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'다섯 자리 이상의 수'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수01-02]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-02.application",
+      "prompt": "숫자 0, 2, 5, 7, 8, 9를 한 번씩 모두 사용하여 만들 수 있는 가장 큰 여섯 자리 수를 쓰세요.",
+      "answer": "987,520",
+      "acceptableAnswers": [
+        "987,520",
+        "987520"
+      ],
+      "unit": null,
+      "explanation": "큰 자리부터 9, 8, 7, 5, 2, 0을 차례로 놓으면 가장 큰 수 987,520이 됩니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-02] 다섯 자리 이상의 수 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'다섯 자리 이상의 수'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-large-numbers/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-large-numbers/01-cover.webp",
+      "sha256": "8698aab010baf7d6073f320cd21c892e9db880a2e3f790c2cd4565243e683eb0",
+      "alt": "다섯 자리 이상의 수 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-large-numbers/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-large-numbers/02-worksheet-1.webp",
+      "sha256": "5f3528b77c21ecdef411858940903a8a6d59f549c2c2e04c9c1af05c9806088e",
+      "alt": "다섯 자리 이상의 수 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-large-numbers/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-large-numbers/03-worksheet-2.webp",
+      "sha256": "bbbd64f8ce2d3b87075918dbc78a6a61ef1d64cae3016107a2f06f250bd2e270",
+      "alt": "다섯 자리 이상의 수 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-large-numbers/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-large-numbers/04-answers.webp",
+      "sha256": "5a8f323e07139d0d6f64136f53563834603d06d91a0408bcf9dc4db1636eb14e",
+      "alt": "다섯 자리 이상의 수 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-large-numbers/g3-4-large-numbers.pdf",
+    "pageCount": 4,
+    "sha256": "d0cb3bacd6f75109c8d429ab23a2968601387245dc0a7bff5c23fde61f0942a3"
+  },
+  "transcriptPath": "/workbooks/g3-4-large-numbers/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

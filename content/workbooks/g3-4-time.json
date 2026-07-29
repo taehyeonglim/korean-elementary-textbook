@@ -1,0 +1,180 @@
+{
+  "id": "g3-4-time",
+  "slug": "g3-4-time",
+  "title": "초등 수학 한 장: 시각과 시간",
+  "gradeBand": "3-4",
+  "domain": "도형과 측정",
+  "module": "시각과 시간",
+  "standardCodes": [
+    "[4수03-13]",
+    "[4수03-14]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수03-13]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-13.concept",
+      "prompt": "1분은 몇 초인가요?",
+      "answer": "60초",
+      "acceptableAnswers": [
+        "60초",
+        "60 초"
+      ],
+      "unit": "초",
+      "explanation": "1분은 60초입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-13] 시각과 시간 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-13]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수03-13]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-13.representation",
+      "prompt": "전자시계에 02:07:09라고 표시되어 있습니다. 시각을 몇 시 몇 분 몇 초로 읽나요?",
+      "answer": "2시 7분 9초",
+      "acceptableAnswers": [
+        "2시 7분 9초",
+        "02시 07분 09초"
+      ],
+      "unit": null,
+      "explanation": "시, 분, 초를 차례로 읽으면 2시 7분 9초입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-13] 시각과 시간 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수03-14]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-14.representation",
+      "prompt": "3분 25초와 2분 48초를 더하세요.",
+      "answer": "6분 13초",
+      "acceptableAnswers": [
+        "6분 13초",
+        "6 분 13 초"
+      ],
+      "unit": null,
+      "explanation": "25+48=73초는 1분 13초이므로 3분+2분+1분 13초=6분 13초입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-14] 시각과 시간 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수03-14]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-14.application",
+      "prompt": "8분 10초에서 3분 45초를 빼세요.",
+      "answer": "4분 25초",
+      "acceptableAnswers": [
+        "4분 25초",
+        "4 분 25 초"
+      ],
+      "unit": null,
+      "explanation": "8분 10초를 7분 70초로 바꾸면 7분 70초-3분 45초=4분 25초입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-14] 시각과 시간 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수03-13]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-13.application",
+      "prompt": "185초를 몇 분 몇 초로 나타내세요.",
+      "answer": "3분 5초",
+      "acceptableAnswers": [
+        "3분 5초",
+        "3 분 5 초"
+      ],
+      "unit": null,
+      "explanation": "185=60×3+5이므로 185초는 3분 5초입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-13] 시각과 시간 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수03-14]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-14.application",
+      "prompt": "동영상이 10시 15분 48초에 시작하여 2분 35초 동안 재생되었습니다. 끝난 시각은 몇 시 몇 분 몇 초인가요?",
+      "answer": "10시 18분 23초",
+      "acceptableAnswers": [
+        "10시 18분 23초",
+        "10:18:23"
+      ],
+      "unit": null,
+      "explanation": "48초+35초=83초는 1분 23초이므로 분은 15+2+1=18분, 초는 23초입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-14] 시각과 시간 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'시각과 시간'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-time/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-time/01-cover.webp",
+      "sha256": "1d7119aac4096dcd142d8513bdca98f02740cee2724e36f197394a1e7f58ae89",
+      "alt": "시각과 시간 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-time/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-time/02-worksheet-1.webp",
+      "sha256": "2a3ceaae9ebf4bcaaa8f8a5cc0ef9db79d3cc85dab553e02d6d42b63b64a9a05",
+      "alt": "시각과 시간 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-time/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-time/03-worksheet-2.webp",
+      "sha256": "95844c8463f042809fcd3a2437a457ed2b2cef938ec9d0fc4bb0785086be53d2",
+      "alt": "시각과 시간 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-time/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-time/04-answers.webp",
+      "sha256": "e6173b2495cb39b2731149d291d3bdfde57b9646187f500e6775657ddbcabb20",
+      "alt": "시각과 시간 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-time/g3-4-time.pdf",
+    "pageCount": 4,
+    "sha256": "3247ffaf713ca6637e1549055a76c69619991ccba30d4d06e0d23995d6f715dc"
+  },
+  "transcriptPath": "/workbooks/g3-4-time/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

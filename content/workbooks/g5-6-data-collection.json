@@ -1,0 +1,195 @@
+{
+  "id": "g5-6-data-collection",
+  "slug": "g5-6-data-collection",
+  "title": "초등 수학 한 장: 자료의 수집과 정리",
+  "gradeBand": "5-6",
+  "domain": "자료와 가능성",
+  "module": "자료의 수집과 정리",
+  "standardCodes": [
+    "[6수04-01]",
+    "[6수04-02]",
+    "[6수04-03]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수04-01]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-01.concept",
+      "prompt": "4, 6, 8, 10의 평균을 구하세요.",
+      "answer": "7",
+      "acceptableAnswers": [
+        "7"
+      ],
+      "unit": null,
+      "explanation": "(4+6+8+10)÷4=7입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-01] 자료의 수집과 정리 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "자료와 가능성 사례에서 [6수04-01] 자료의 수집과 정리 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수04-01]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수04-01]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-01.representation",
+      "prompt": "12, 15, 18의 평균을 구하세요.",
+      "answer": "15",
+      "acceptableAnswers": [
+        "15"
+      ],
+      "unit": null,
+      "explanation": "(12+15+18)÷3=15입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-01] 자료의 수집과 정리 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 자료와 가능성 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수04-02]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-02.concept",
+      "prompt": "띠그래프에서 전체 20명 중 축구 8명일 때 축구의 비율을 백분율로 나타내세요.",
+      "answer": "40%",
+      "acceptableAnswers": [
+        "40%"
+      ],
+      "unit": "%",
+      "explanation": "8÷20=0.4=40%입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-02] 자료의 수집과 정리 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "자료와 가능성 사례에서 [6수04-02] 자료의 수집과 정리 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수04-02]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수04-02]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-02.representation",
+      "prompt": "원그래프에서 전체 40명 중 독서 10명일 때 독서 부분의 중심각을 구하세요.",
+      "answer": "90°",
+      "acceptableAnswers": [
+        "90°"
+      ],
+      "unit": "°",
+      "explanation": "10/40×360=90입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-02] 자료의 수집과 정리 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 자료와 가능성 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수04-03]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-03.application",
+      "prompt": "탐구 문제 “우리 반 학생은 어떤 과일을 좋아할까?”에 알맞은 자료 수집 방법을 쓰세요.",
+      "answer": "설문 조사",
+      "acceptableAnswers": [
+        "설문 조사",
+        "질문지 조사",
+        "우리 반 학생에게 물어봅니다."
+      ],
+      "unit": null,
+      "explanation": "학생에게 직접 묻는 설문 조사가 알맞습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-03] 자료의 수집과 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수04-03] 자료의 수집과 정리 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수04-03]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-03.application",
+      "prompt": "자료 5, 7, 8, 10의 평균이 7.5일 때, 이 평균의 뜻을 쓰세요.",
+      "answer": "한 자료당 평균 7.5입니다",
+      "acceptableAnswers": [
+        "한 자료당 평균 7.5입니다"
+      ],
+      "unit": null,
+      "explanation": "자료의 합을 자료 수로 나눈 대표값입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-03] 자료의 수집과 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수04-03] 자료의 수집과 정리 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-data-collection/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-data-collection/01-cover.webp",
+      "sha256": "bd235370848ffecd51def29cd26dfa2ea709bd95d7552613cfed7c99091aeb1c",
+      "alt": "자료의 수집과 정리 cover 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-data-collection/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-data-collection/02-worksheet-1.webp",
+      "sha256": "66b413fc0ac975c879e6bee9f149b66bab32280fbf71622632e3c35cda8d080f",
+      "alt": "자료의 수집과 정리 worksheet-1 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-data-collection/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-data-collection/03-worksheet-2.webp",
+      "sha256": "178fc1b4b96bb88b55ee31748a33b5a5659c0fa26d8960acb8bdbe2c6887a3f0",
+      "alt": "자료의 수집과 정리 worksheet-2 초안",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-data-collection/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-data-collection/04-answers.webp",
+      "sha256": "3c8c445b5dbc26eff0c5e4407420466e77d7454b6a2f61536b4fb660e2f5ec17",
+      "alt": "자료의 수집과 정리 answers 초안",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-data-collection/g5-6-data-collection.pdf",
+    "pageCount": 4,
+    "sha256": "920f5426b845772bea44f99b0748bf36016104c5e867f0e45f8657810804f9b8"
+  },
+  "transcriptPath": "/workbooks/g5-6-data-collection/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

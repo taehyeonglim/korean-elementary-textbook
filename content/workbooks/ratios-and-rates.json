@@ -23,7 +23,18 @@
       "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-02.representation",
       "prompt": "빨간 구슬 6개와 노란 구슬 4개가 있습니다. 빨간 구슬 수와 노란 구슬 수의 비를 쓰세요.",
       "answer": "6:4",
-      "explanation": "비교하는 순서대로 6:4입니다."
+      "explanation": "비교하는 순서대로 6:4입니다.",
+      "acceptableAnswers": [
+        "6:4"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-02] 비와 비율 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 변화와 관계 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'비와 비율'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q2",
@@ -32,7 +43,18 @@
       "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-02.concept",
       "prompt": "전체 20명 중 8명이 안경을 썼습니다. 안경을 쓴 학생 수와 전체 학생 수의 비를 쓰세요.",
       "answer": "8:20",
-      "explanation": "안경을 쓴 학생 수를 먼저 씁니다."
+      "explanation": "안경을 쓴 학생 수를 먼저 씁니다.",
+      "acceptableAnswers": [
+        "8:20"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-02] 비와 비율 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "변화와 관계 사례에서 [6수02-02] 비와 비율 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'비와 비율'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수02-02]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
     },
     {
       "id": "q3",
@@ -41,7 +63,18 @@
       "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-03.representation",
       "prompt": "12/30를 기약분수, 소수, 백분율로 나타내세요.",
       "answer": "2/5, 0.4, 40%",
-      "explanation": "12/30=2/5=0.4=40%"
+      "explanation": "12/30=2/5=0.4=40%",
+      "acceptableAnswers": [
+        "2/5, 0.4, 40%"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-03] 비와 비율 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 변화와 관계 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'비와 비율'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q4",
@@ -50,7 +83,18 @@
       "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-03.representation",
       "prompt": "0.65를 기약분수와 백분율로 나타내세요.",
       "answer": "13/20, 65%",
-      "explanation": "0.65=65/100=13/20"
+      "explanation": "0.65=65/100=13/20",
+      "acceptableAnswers": [
+        "13/20, 65%"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-03] 비와 비율 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 변화와 관계 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'비와 비율'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q5",
@@ -59,7 +103,19 @@
       "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-03.application",
       "prompt": "학생 25명 중 60%가 자전거를 탑니다. 자전거를 타는 학생은 몇 명인가요?",
       "answer": "15명",
-      "explanation": "25×0.6=15"
+      "explanation": "25×0.6=15",
+      "acceptableAnswers": [
+        "15명",
+        "15"
+      ],
+      "unit": "명",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-03] 비와 비율 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수02-03] 비와 비율 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'비와 비율'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     },
     {
       "id": "q6",
@@ -68,7 +124,20 @@
       "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-03.application",
       "prompt": "가는 24문제 중 18문제, 나는 30문제 중 21문제를 맞혔습니다. 누가 몇 퍼센트포인트 더 높나요?",
       "answer": "가, 5퍼센트포인트",
-      "explanation": "가는 75%, 나는 70%입니다."
+      "explanation": "가는 75%, 나는 70%입니다.",
+      "acceptableAnswers": [
+        "가, 5퍼센트포인트",
+        "가, 5%p",
+        "가 5퍼센트포인트"
+      ],
+      "unit": "퍼센트포인트",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-03] 비와 비율 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수02-03] 비와 비율 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'비와 비율'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     }
   ],
   "pages": [
@@ -76,9 +145,9 @@
       "id": "cover",
       "order": 1,
       "role": "cover",
-      "imagePath": "/workbooks/ratios-and-rates/01-cover.png",
+      "imagePath": "/workbooks/ratios-and-rates/01-cover.webp",
       "thumbnailPath": "/workbooks/ratios-and-rates/01-cover.webp",
-      "sha256": "c5b812fd857e1fdc4d571fe073d22fc484d722cb4eb650e4c13ac0b4bbd50e1a",
+      "sha256": "5db803e70130ff0821465e0b5a8b27566f6204559f2d6edfe3bb0727bcc55c85",
       "alt": "비와 비율 학습지 표지",
       "approved": true
     },
@@ -86,9 +155,9 @@
       "id": "worksheet-1",
       "order": 2,
       "role": "worksheet",
-      "imagePath": "/workbooks/ratios-and-rates/02-worksheet-1.png",
+      "imagePath": "/workbooks/ratios-and-rates/02-worksheet-1.webp",
       "thumbnailPath": "/workbooks/ratios-and-rates/02-worksheet-1.webp",
-      "sha256": "ace2f6328d7e5220aa5aee410ee4fa234c21d3175f92f810732655cdc279832c",
+      "sha256": "20bb08e80783f9eef80c090ed237592902fca4e86ecf0c5be20c2ecb5e957508",
       "alt": "비와 비율 기초와 표준 문제 1쪽",
       "approved": true
     },
@@ -96,9 +165,9 @@
       "id": "worksheet-2",
       "order": 3,
       "role": "worksheet",
-      "imagePath": "/workbooks/ratios-and-rates/03-worksheet-2.png",
+      "imagePath": "/workbooks/ratios-and-rates/03-worksheet-2.webp",
       "thumbnailPath": "/workbooks/ratios-and-rates/03-worksheet-2.webp",
-      "sha256": "efd7be270b43a2bcc699644db30a63335dd2e85ad53ded47b1e279fda60188be",
+      "sha256": "8d69a0f00c5cda2cf6ebe5e890ec01e6fd44f8a933c34764eed32c676a463b90",
       "alt": "비와 비율 표준과 도전 문제 2쪽",
       "approved": true
     },
@@ -106,9 +175,9 @@
       "id": "answers",
       "order": 4,
       "role": "answer",
-      "imagePath": "/workbooks/ratios-and-rates/04-answers.png",
+      "imagePath": "/workbooks/ratios-and-rates/04-answers.webp",
       "thumbnailPath": "/workbooks/ratios-and-rates/04-answers.webp",
-      "sha256": "8dbca16e1a3031f4e1eee7e8b5b483f66370838eac2a1136da0550a662af2b15",
+      "sha256": "d9f1ddc736b8c4904b9bf4ccf2baf32b56ec9aacff14c7737ab9c6ed75590f57",
       "alt": "비와 비율 정답과 풀이",
       "approved": true
     }
@@ -116,7 +185,7 @@
   "pdf": {
     "path": "/workbooks/ratios-and-rates/ratios-and-rates.pdf",
     "pageCount": 4,
-    "sha256": "2dec927240e0911274aca01a71b4f4b00056970e17943da6055eb1cc3045ffdf"
+    "sha256": "193ccc2abad2a5c2fd01cf34c8c8214eb6af35780ad9630e5318c088bfe02ce3"
   },
   "transcriptPath": "/workbooks/ratios-and-rates/transcript.html",
   "license": "CC-BY-NC-SA-4.0",

@@ -8,14 +8,16 @@
   "standardCodes": [
     "[2수01-05]",
     "[2수01-06]",
-    "[2수01-07]"
+    "[2수01-07]",
+    "[2수01-08]",
+    "[2수01-09]"
   ],
   "levels": [
     "foundation",
     "standard",
     "challenge"
   ],
-  "curriculumSnapshotPath": "/content/curriculum/mcp-snapshots-2026-07-28.json",
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
   "questions": [
     {
       "id": "q1",
@@ -24,7 +26,19 @@
       "topicId": "kr.mt.math.number-operations.g1-2.s2-01-05.concept",
       "prompt": "사과가 23개 있습니다. 14개를 더 놓았습니다. 모두 몇 개인가요?",
       "answer": "37개",
-      "explanation": "23+14=37"
+      "explanation": "23+14=37",
+      "acceptableAnswers": [
+        "37개",
+        "37"
+      ],
+      "unit": "개",
+      "curriculumBasis": {
+        "evidence": [
+          "[2수01-05] 두 자리 수 범위의 덧셈과 뺄셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [2수01-05] 두 자리 수 범위의 덧셈과 뺄셈 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'두 자리 수 범위의 덧셈과 뺄셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [2수01-05]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
     },
     {
       "id": "q2",
@@ -33,7 +47,18 @@
       "topicId": "kr.mt.math.number-operations.g1-2.s2-01-06.concept",
       "prompt": "52-21을 계산하세요.",
       "answer": "31",
-      "explanation": "십의 자리와 일의 자리를 각각 빼면 31입니다."
+      "explanation": "십의 자리와 일의 자리를 각각 빼면 31입니다.",
+      "acceptableAnswers": [
+        "31"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[2수01-06] 두 자리 수 범위의 덧셈과 뺄셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [2수01-06] 두 자리 수 범위의 덧셈과 뺄셈 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'두 자리 수 범위의 덧셈과 뺄셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [2수01-06]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
     },
     {
       "id": "q3",
@@ -42,7 +67,18 @@
       "topicId": "kr.mt.math.number-operations.g1-2.s2-01-06.representation",
       "prompt": "36+27을 계산하고, 계산 과정을 식으로 나타내세요.",
       "answer": "63",
-      "explanation": "36+20=56, 56+7=63"
+      "explanation": "36+20=56, 56+7=63",
+      "acceptableAnswers": [
+        "63"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[2수01-06] 두 자리 수 범위의 덧셈과 뺄셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'두 자리 수 범위의 덧셈과 뺄셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q4",
@@ -51,25 +87,59 @@
       "topicId": "kr.mt.math.number-operations.g1-2.s2-01-07.representation",
       "prompt": "45-18=27과 짝이 되는 덧셈식을 쓰세요.",
       "answer": "27+18=45",
-      "explanation": "뺄셈의 차에 뺀 수를 더하면 처음 수가 됩니다."
+      "explanation": "뺄셈의 차에 뺀 수를 더하면 처음 수가 됩니다.",
+      "acceptableAnswers": [
+        "27+18=45"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[2수01-07] 두 자리 수 범위의 덧셈과 뺄셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'두 자리 수 범위의 덧셈과 뺄셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q5",
       "level": "challenge",
-      "standardCode": "[2수01-05]",
-      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-05.application",
+      "standardCode": "[2수01-08]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-08.application",
       "prompt": "민아는 스티커 28개를 받고 16개를 더 받았습니다. 9개를 주었다면 몇 개가 남나요?",
       "answer": "35개",
-      "explanation": "28+16-9=35"
+      "explanation": "28+16-9=35",
+      "acceptableAnswers": [
+        "35개",
+        "35"
+      ],
+      "unit": "개",
+      "curriculumBasis": {
+        "evidence": [
+          "[2수01-08] 두 자리 수 범위의 덧셈과 뺄셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [2수01-08] 두 자리 수 범위의 덧셈과 뺄셈 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'두 자리 수 범위의 덧셈과 뺄셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     },
     {
       "id": "q6",
       "level": "challenge",
-      "standardCode": "[2수01-07]",
-      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-07.application",
-      "prompt": "63-27=36이 맞는지 덧셈으로 확인하고, 두 식의 관계를 쓰세요.",
-      "answer": "36+27=63",
-      "explanation": "차와 뺀 수를 더하면 처음 수가 되어 계산이 맞습니다."
+      "standardCode": "[2수01-09]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-09.application",
+      "prompt": "63-27=□에서 □의 값을 구하세요.",
+      "answer": "36",
+      "explanation": "63에서 27을 빼면 36이므로 □=36입니다.",
+      "acceptableAnswers": [
+        "36"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[2수01-09] 두 자리 수 범위의 덧셈과 뺄셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [2수01-09] 두 자리 수 범위의 덧셈과 뺄셈 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'두 자리 수 범위의 덧셈과 뺄셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     }
   ],
   "pages": [
@@ -77,9 +147,9 @@
       "id": "cover",
       "order": 1,
       "role": "cover",
-      "imagePath": "/workbooks/two-digit-addition-subtraction/01-cover.png",
+      "imagePath": "/workbooks/two-digit-addition-subtraction/01-cover.webp",
       "thumbnailPath": "/workbooks/two-digit-addition-subtraction/01-cover.webp",
-      "sha256": "615ca8e954ab875c6727d7b0ff666b883831c9e013fdad882242425e40375172",
+      "sha256": "55f96f69668e6fe132ba9eb503b2a1f91466eff45222f92fee3ce96ed1cc2515",
       "alt": "두 자리 수 범위의 덧셈과 뺄셈 학습지 표지",
       "approved": true
     },
@@ -87,9 +157,9 @@
       "id": "worksheet-1",
       "order": 2,
       "role": "worksheet",
-      "imagePath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.png",
+      "imagePath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.webp",
       "thumbnailPath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.webp",
-      "sha256": "9c002557bea3c3009d61e0ced2940268dbec191d3f5113eed54d7b522b7d7508",
+      "sha256": "f7a9702315f1e25359c874621d4dc9b53e418ebc85f71c7df14fc1269aa05850",
       "alt": "두 자리 수 덧셈과 뺄셈 기초와 표준 문제 1쪽",
       "approved": true
     },
@@ -97,9 +167,9 @@
       "id": "worksheet-2",
       "order": 3,
       "role": "worksheet",
-      "imagePath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.png",
+      "imagePath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.webp",
       "thumbnailPath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.webp",
-      "sha256": "c43a39189fe43457473b0a58555e08224f1b45f39822aec10972df7dda15ca76",
+      "sha256": "1c979c12f0b3306412b0c7b108354abc3703b80f5ffd0478f900719871981f45",
       "alt": "두 자리 수 덧셈과 뺄셈 표준과 도전 문제 2쪽",
       "approved": true
     },
@@ -107,9 +177,9 @@
       "id": "answers",
       "order": 4,
       "role": "answer",
-      "imagePath": "/workbooks/two-digit-addition-subtraction/04-answers.png",
+      "imagePath": "/workbooks/two-digit-addition-subtraction/04-answers.webp",
       "thumbnailPath": "/workbooks/two-digit-addition-subtraction/04-answers.webp",
-      "sha256": "e97b2d708161cbcdd5a9e9dc1a273f2e37245dfbb95525c73dc339f3c06e237e",
+      "sha256": "81d76cab65cb29f743c846c6475948205cef6158ee9783ac9cba00335137e484",
       "alt": "두 자리 수 덧셈과 뺄셈 정답과 풀이",
       "approved": true
     }
@@ -117,7 +187,7 @@
   "pdf": {
     "path": "/workbooks/two-digit-addition-subtraction/two-digit-addition-subtraction.pdf",
     "pageCount": 4,
-    "sha256": "f73a928688e7b5854275091abfe159edcb6ba8b3b4c4af9eeff0b6810711ae35"
+    "sha256": "bfa5a14812e871631a6d259cefad2eb2f8e5a558b514c943a953cad746c825e8"
   },
   "transcriptPath": "/workbooks/two-digit-addition-subtraction/transcript.html",
   "license": "CC-BY-NC-SA-4.0",

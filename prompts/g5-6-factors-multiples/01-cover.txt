@@ -1,0 +1,13 @@
+# Scene
+세로형 초등 수학 학습지 표지. 5-6학년군 수와 연산의 약수와 배수 단원을 위한 따뜻한 종이 질감 교육 인포그래픽. 중앙에 약수와 배수의 핵심 개념을 나타내는 단순한 수학 도구와 도형, 명확한 읽기 순서와 넉넉한 여백.
+# Camera
+정면 A4 세로 표지, centered symmetrical composition, clear margin of ~5% on all edges.
+# Lighting
+부드러운 확산 인쇄광, 정돈된 얕은 그림자.
+# Color grading
+따뜻한 아이보리 #F7F4EC, 네이비 #0F1D30, 파랑 #2F80ED, 노랑 #F2C94C.
+# Texture/Medium
+재생지 질감, 색연필과 얇은 기하학 선, quality high.
+# Text-in-image
+headline "초등 수학 한 장". subhead "약수와 배수". caption "5-6학년군 · 수와 연산". standard label "[6수01-04] [6수01-05]". level label "기초 · 표준 · 도전". author "Taehyeong Lim". license "CC BY-NC-SA 4.0". credit "이미지 제작에 공냥 프롬프트 킷을 사용했습니다.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+AR 2:3

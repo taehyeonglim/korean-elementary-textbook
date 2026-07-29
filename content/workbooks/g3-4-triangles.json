@@ -1,0 +1,177 @@
+{
+  "id": "g3-4-triangles",
+  "slug": "g3-4-triangles",
+  "title": "초등 수학 한 장: 여러 가지 삼각형",
+  "gradeBand": "3-4",
+  "domain": "도형과 측정",
+  "module": "여러 가지 삼각형",
+  "standardCodes": [
+    "[4수03-08]",
+    "[4수03-09]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수03-08]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-08.concept",
+      "prompt": "세 변의 길이가 모두 같은 삼각형을 무엇이라고 하나요?",
+      "answer": "정삼각형",
+      "acceptableAnswers": [
+        "정삼각형"
+      ],
+      "unit": null,
+      "explanation": "세 변의 길이가 모두 같은 삼각형은 정삼각형입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-08] 여러 가지 삼각형 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'여러 가지 삼각형'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-08]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수03-09]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-09.concept",
+      "prompt": "한 각이 직각인 삼각형을 무엇이라고 하나요?",
+      "answer": "직각삼각형",
+      "acceptableAnswers": [
+        "직각삼각형"
+      ],
+      "unit": null,
+      "explanation": "세 각 중 한 각이 직각인 삼각형은 직각삼각형입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-09] 여러 가지 삼각형 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'여러 가지 삼각형'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-09]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수03-08]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-08.representation",
+      "prompt": "세 변의 길이가 5cm, 5cm, 8cm인 삼각형은 변의 길이에 따라 무엇이라고 하나요?",
+      "answer": "이등변삼각형",
+      "acceptableAnswers": [
+        "이등변삼각형"
+      ],
+      "unit": null,
+      "explanation": "길이가 같은 두 변이 있으므로 이등변삼각형입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-08] 여러 가지 삼각형 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'여러 가지 삼각형'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수03-09]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-09.representation",
+      "prompt": "세 각의 크기가 50°, 60°, 70°인 삼각형은 각의 크기에 따라 무엇이라고 하나요?",
+      "answer": "예각삼각형",
+      "acceptableAnswers": [
+        "예각삼각형"
+      ],
+      "unit": null,
+      "explanation": "세 각이 모두 90°보다 작으므로 예각삼각형입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-09] 여러 가지 삼각형 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'여러 가지 삼각형'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수03-08]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-08.application",
+      "prompt": "둘레가 27cm인 정삼각형의 한 변의 길이는 몇 cm인가요?",
+      "answer": "9cm",
+      "acceptableAnswers": [
+        "9cm",
+        "9 cm"
+      ],
+      "unit": "cm",
+      "explanation": "정삼각형은 세 변의 길이가 같으므로 27÷3=9cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-08] 여러 가지 삼각형 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'여러 가지 삼각형'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수03-09]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-09.application",
+      "prompt": "세 각의 크기가 45°, 45°, 90°인 삼각형을 변과 각의 특징에 따라 모두 분류하세요.",
+      "answer": "이등변삼각형이면서 직각삼각형",
+      "acceptableAnswers": [
+        "이등변삼각형이면서 직각삼각형",
+        "직각이등변삼각형",
+        "이등변삼각형, 직각삼각형"
+      ],
+      "unit": null,
+      "explanation": "45°인 두 각이 같아 마주 보는 두 변의 길이가 같고, 90°인 각이 있으므로 두 분류에 모두 해당합니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-09] 여러 가지 삼각형 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'여러 가지 삼각형'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-triangles/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-triangles/01-cover.webp",
+      "sha256": "1531beac6703be6b1d8e1aa43a764e8cd294dc21518453727b6625cd4f267653",
+      "alt": "여러 가지 삼각형 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-triangles/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-triangles/02-worksheet-1.webp",
+      "sha256": "dde77680afb6ddfda679055fb7a9ddd5b642aa085625917b47652b7d3e5bb1a4",
+      "alt": "여러 가지 삼각형 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-triangles/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-triangles/03-worksheet-2.webp",
+      "sha256": "5702ff46fe6a72168d6f6ea53d7b239f0a00558554e3f5d13e5d90ac91a01fea",
+      "alt": "여러 가지 삼각형 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-triangles/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-triangles/04-answers.webp",
+      "sha256": "d8ab40ea16516e2ac08f9e26b0b0d808ea82222789805067f7b8ac821fa9759b",
+      "alt": "여러 가지 삼각형 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-triangles/g3-4-triangles.pdf",
+    "pageCount": 4,
+    "sha256": "b89af81e2c94541d02191e51f84db94b69d0881d94562130cd2be94c243ab170"
+  },
+  "transcriptPath": "/workbooks/g3-4-triangles/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

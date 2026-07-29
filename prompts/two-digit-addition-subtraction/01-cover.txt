@@ -9,5 +9,5 @@ Color grading:
 Texture/Medium:
 무광 재생지, 색연필 미세 질감, 또렷한 벡터형 수 모형과 얇은 헤어라인 구분선, quality high.
 Text-in-image:
-headline "초등 수학 한 장" in bold Korean geometric sans-serif, top-center. subhead "두 자리 수 범위의 덧셈과 뺄셈" directly below. caption "1-2학년군 · 수와 연산". standard label "[2수01-05] [2수01-06] [2수01-07]". level label "기초 · 표준 · 도전". author "Taehyeong Lim". license "CC BY-NC-SA 4.0". credit "이미지 제작에 공냥 프롬프트 킷을 사용했습니다." All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+headline "초등 수학 한 장" in bold Korean geometric sans-serif, top-center. subhead "두 자리 수 범위의 덧셈과 뺄셈" directly below. caption "1-2학년군 · 수와 연산". standard label "[2수01-05] [2수01-06] [2수01-07] [2수01-08] [2수01-09]". level label "기초 · 표준 · 도전". author "Taehyeong Lim". license "CC BY-NC-SA 4.0". credit "이미지 제작에 공냥 프롬프트 킷을 사용했습니다." All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
 AR 2:3

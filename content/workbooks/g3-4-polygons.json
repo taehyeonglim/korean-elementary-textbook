@@ -1,0 +1,178 @@
+{
+  "id": "g3-4-polygons",
+  "slug": "g3-4-polygons",
+  "title": "초등 수학 한 장: 다각형",
+  "gradeBand": "3-4",
+  "domain": "도형과 측정",
+  "module": "다각형",
+  "standardCodes": [
+    "[4수03-11]",
+    "[4수03-12]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수03-11]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-11.concept",
+      "prompt": "선분만으로 둘러싸인 닫힌 평면도형을 무엇이라고 하나요?",
+      "answer": "다각형",
+      "acceptableAnswers": [
+        "다각형"
+      ],
+      "unit": null,
+      "explanation": "선분만으로 둘러싸여 있고 닫혀 있는 평면도형은 다각형입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-11] 다각형 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'다각형'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-11]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수03-11]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-11.representation",
+      "prompt": "변의 길이와 각의 크기가 각각 모두 같은 다각형을 무엇이라고 하나요?",
+      "answer": "정다각형",
+      "acceptableAnswers": [
+        "정다각형"
+      ],
+      "unit": null,
+      "explanation": "모든 변의 길이가 같고 모든 각의 크기도 같은 다각형은 정다각형입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-11] 다각형 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'다각형'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수03-12]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-12.representation",
+      "prompt": "두 직각삼각형의 변 길이가 각각 3cm, 4cm, 5cm입니다. 길이 5cm인 변끼리 맞대어 네 각이 직각이 되게 만들 수 있는 사각형은 무엇인가요?",
+      "answer": "직사각형",
+      "acceptableAnswers": [
+        "직사각형"
+      ],
+      "unit": null,
+      "explanation": "두 삼각형의 빗변을 맞대면 바깥쪽 변은 3cm와 4cm가 되고 네 각이 직각인 직사각형이 됩니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-12] 다각형 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'다각형'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수03-12]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-12.application",
+      "prompt": "한 각이 60°인 정삼각형 6개를 한 꼭짓점에 모으면 빈틈없이 채워집니다. 모인 각의 크기의 합은 몇 도인가요?",
+      "answer": "360°",
+      "acceptableAnswers": [
+        "360°",
+        "360도",
+        "360 도"
+      ],
+      "unit": "°",
+      "explanation": "정삼각형의 한 각은 60°이고 60×6=360이므로 한 점 둘레를 빈틈없이 채웁니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-12] 다각형 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'다각형'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수03-11]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-11.application",
+      "prompt": "한 변의 길이가 4cm인 정육각형의 둘레는 몇 cm인가요?",
+      "answer": "24cm",
+      "acceptableAnswers": [
+        "24cm",
+        "24 cm"
+      ],
+      "unit": "cm",
+      "explanation": "정육각형은 길이가 같은 변이 6개이므로 둘레는 4×6=24cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-11] 다각형 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'다각형'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수03-12]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-12.application",
+      "prompt": "한 변이 1cm인 정사각형 12개를 겹치지 않게 3줄에 4개씩 붙여 직사각형을 만들었습니다. 만든 도형의 둘레는 몇 cm인가요?",
+      "answer": "14cm",
+      "acceptableAnswers": [
+        "14cm",
+        "14 cm"
+      ],
+      "unit": "cm",
+      "explanation": "만든 직사각형의 가로는 4cm, 세로는 3cm이므로 둘레는 (4+3)×2=14cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-12] 다각형 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'다각형'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-polygons/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-polygons/01-cover.webp",
+      "sha256": "41c1bf0db1b0b5071a34408c377604888b1b32acfea2b6ae24f69400259c143b",
+      "alt": "다각형 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-polygons/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-polygons/02-worksheet-1.webp",
+      "sha256": "69b38b1a886c0c4b72b312ed69b2ddfa54c8032ae36f1a239b7e8db4d46345f4",
+      "alt": "다각형 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-polygons/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-polygons/03-worksheet-2.webp",
+      "sha256": "8f786f26acf0ef0211c78d3b0a2fa5b31816f806f9e42d93aa576c086b0c13cd",
+      "alt": "다각형 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-polygons/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-polygons/04-answers.webp",
+      "sha256": "0f3d70a94fc18799fb28b8551b2535b4b73d9677d28a47debf8d41a77bdfd034",
+      "alt": "다각형 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-polygons/g3-4-polygons.pdf",
+    "pageCount": 4,
+    "sha256": "6984930d74b1f8f62560a811a4bcc0e77a877413daefdd77495fc09f45de3c9a"
+  },
+  "transcriptPath": "/workbooks/g3-4-polygons/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

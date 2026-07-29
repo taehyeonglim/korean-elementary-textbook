@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 2480 3508" role="img">
+<rect width="100%" height="100%" fill="#FFFDF8"/>
+<g transform="scale(2.42187500 2.28385417)">
+<rect width="100%" height="184" fill="#1E3A5F"/>
+<text x="72" y="58" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="start" >초등 수학 한 장</text>
+<text x="72" y="112" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="43" font-weight="800" fill="#FFFFFF" text-anchor="start" >시각과 시간</text>
+<text x="72" y="152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="400" fill="#FFFFFF" text-anchor="start" >3-4학년군 · 문제</text>
+<text x="952" y="152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="end" >2</text>
+<rect x="72" y="213" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="213" width="14" height="391" rx="7" fill="#DDF3E4"/>
+<rect x="102" y="237" width="128" height="36" rx="18" fill="#DDF3E4"/>
+<text x="166" y="262" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >기초 다지기</text>
+<text x="102" y="319" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >1.</text>
+<text x="156" y="317" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">1분은 몇 초인가요?</tspan></text>
+<g id="diagram-q1" data-role="math-diagram" data-diagram-kind="analog-clock" data-geometry="time-reading-or-duration"><circle cx="824" cy="458" r="74.0" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="4"/><line x1="824.0" y1="394.0" x2="824.0" y2="384.0" stroke="#1E3A5F" stroke-width="2"/><line x1="856.0" y1="402.6" x2="861.0" y2="393.9" stroke="#1E3A5F" stroke-width="2"/><line x1="879.4" y1="426.0" x2="888.1" y2="421.0" stroke="#1E3A5F" stroke-width="2"/><line x1="888.0" y1="458.0" x2="898.0" y2="458.0" stroke="#1E3A5F" stroke-width="2"/><line x1="879.4" y1="490.0" x2="888.1" y2="495.0" stroke="#1E3A5F" stroke-width="2"/><line x1="856.0" y1="513.4" x2="861.0" y2="522.1" stroke="#1E3A5F" stroke-width="2"/><line x1="824.0" y1="522.0" x2="824.0" y2="532.0" stroke="#1E3A5F" stroke-width="2"/><line x1="792.0" y1="513.4" x2="787.0" y2="522.1" stroke="#1E3A5F" stroke-width="2"/><line x1="768.6" y1="490.0" x2="759.9" y2="495.0" stroke="#1E3A5F" stroke-width="2"/><line x1="760.0" y1="458.0" x2="750.0" y2="458.0" stroke="#1E3A5F" stroke-width="2"/><line x1="768.6" y1="426.0" x2="759.9" y2="421.0" stroke="#1E3A5F" stroke-width="2"/><line x1="792.0" y1="402.6" x2="787.0" y2="393.9" stroke="#1E3A5F" stroke-width="2"/><line x1="824" y1="458" x2="824.0" y2="419.5" stroke="#1E3A5F" stroke-width="6" stroke-linecap="round"/><line x1="824" y1="458" x2="824.0" y2="401.8" stroke="#E87A4B" stroke-width="4" stroke-linecap="round"/></g>
+<line x1="106" y1="483" x2="690" y2="483" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="525" x2="690" y2="525" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="567" x2="690" y2="567" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="580" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[4수03-13]</text>
+<rect x="72" y="626" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="626" width="14" height="391" rx="7" fill="#DDF3E4"/>
+<rect x="102" y="650" width="128" height="36" rx="18" fill="#DDF3E4"/>
+<text x="166" y="675" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >기초 다지기</text>
+<text x="102" y="732" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >2.</text>
+<text x="156" y="730" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">전자시계에 02:07:09라고 표시되어</tspan><tspan x="156" dy="37">있습니다. 시각을 몇 시 몇 분 몇 초로</tspan><tspan x="156" dy="37">읽나요?</tspan></text>
+<g id="diagram-q2" data-role="math-diagram" data-diagram-kind="analog-clock" data-geometry="time-reading-or-duration"><circle cx="824" cy="871" r="74.0" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="4"/><line x1="824.0" y1="807.0" x2="824.0" y2="797.0" stroke="#1E3A5F" stroke-width="2"/><line x1="856.0" y1="815.6" x2="861.0" y2="806.9" stroke="#1E3A5F" stroke-width="2"/><line x1="879.4" y1="839.0" x2="888.1" y2="834.0" stroke="#1E3A5F" stroke-width="2"/><line x1="888.0" y1="871.0" x2="898.0" y2="871.0" stroke="#1E3A5F" stroke-width="2"/><line x1="879.4" y1="903.0" x2="888.1" y2="908.0" stroke="#1E3A5F" stroke-width="2"/><line x1="856.0" y1="926.4" x2="861.0" y2="935.1" stroke="#1E3A5F" stroke-width="2"/><line x1="824.0" y1="935.0" x2="824.0" y2="945.0" stroke="#1E3A5F" stroke-width="2"/><line x1="792.0" y1="926.4" x2="787.0" y2="935.1" stroke="#1E3A5F" stroke-width="2"/><line x1="768.6" y1="903.0" x2="759.9" y2="908.0" stroke="#1E3A5F" stroke-width="2"/><line x1="760.0" y1="871.0" x2="750.0" y2="871.0" stroke="#1E3A5F" stroke-width="2"/><line x1="768.6" y1="839.0" x2="759.9" y2="834.0" stroke="#1E3A5F" stroke-width="2"/><line x1="792.0" y1="815.6" x2="787.0" y2="806.9" stroke="#1E3A5F" stroke-width="2"/><line x1="824" y1="871" x2="824.0" y2="832.5" stroke="#1E3A5F" stroke-width="6" stroke-linecap="round"/><line x1="824" y1="871" x2="824.0" y2="814.8" stroke="#E87A4B" stroke-width="4" stroke-linecap="round"/></g>
+<line x1="106" y1="896" x2="690" y2="896" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="938" x2="690" y2="938" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="980" x2="690" y2="980" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="993" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[4수03-13]</text>
+<rect x="72" y="1039" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="1039" width="14" height="391" rx="7" fill="#DDEBFA"/>
+<rect x="102" y="1063" width="128" height="36" rx="18" fill="#DDEBFA"/>
+<text x="166" y="1088" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >기본 완성</text>
+<text x="102" y="1145" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >3.</text>
+<text x="156" y="1143" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">3분 25초와 2분 48초를 더하세요.</tspan></text>
+<g id="diagram-q3" data-role="math-diagram" data-diagram-kind="analog-clock" data-geometry="time-reading-or-duration"><circle cx="824" cy="1284" r="74.0" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="4"/><line x1="824.0" y1="1220.0" x2="824.0" y2="1210.0" stroke="#1E3A5F" stroke-width="2"/><line x1="856.0" y1="1228.6" x2="861.0" y2="1219.9" stroke="#1E3A5F" stroke-width="2"/><line x1="879.4" y1="1252.0" x2="888.1" y2="1247.0" stroke="#1E3A5F" stroke-width="2"/><line x1="888.0" y1="1284.0" x2="898.0" y2="1284.0" stroke="#1E3A5F" stroke-width="2"/><line x1="879.4" y1="1316.0" x2="888.1" y2="1321.0" stroke="#1E3A5F" stroke-width="2"/><line x1="856.0" y1="1339.4" x2="861.0" y2="1348.1" stroke="#1E3A5F" stroke-width="2"/><line x1="824.0" y1="1348.0" x2="824.0" y2="1358.0" stroke="#1E3A5F" stroke-width="2"/><line x1="792.0" y1="1339.4" x2="787.0" y2="1348.1" stroke="#1E3A5F" stroke-width="2"/><line x1="768.6" y1="1316.0" x2="759.9" y2="1321.0" stroke="#1E3A5F" stroke-width="2"/><line x1="760.0" y1="1284.0" x2="750.0" y2="1284.0" stroke="#1E3A5F" stroke-width="2"/><line x1="768.6" y1="1252.0" x2="759.9" y2="1247.0" stroke="#1E3A5F" stroke-width="2"/><line x1="792.0" y1="1228.6" x2="787.0" y2="1219.9" stroke="#1E3A5F" stroke-width="2"/><line x1="824" y1="1284" x2="824.0" y2="1245.5" stroke="#1E3A5F" stroke-width="6" stroke-linecap="round"/><line x1="824" y1="1284" x2="824.0" y2="1227.8" stroke="#E87A4B" stroke-width="4" stroke-linecap="round"/></g>
+<line x1="106" y1="1309" x2="690" y2="1309" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="1351" x2="690" y2="1351" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="1393" x2="690" y2="1393" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="1406" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[4수03-14]</text>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#CFD7DE" stroke-width="2"/>
+<text x="72" y="1494" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1474" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="400" fill="#51606F" text-anchor="end" >이미지 제작: Gongnyang Prompt Kit</text>
+<text x="952" y="1501" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="400" fill="#51606F" text-anchor="end" >문항·해설은 학습지 JSON에서 결정론적으로 생성됨</text>
+</g></svg>

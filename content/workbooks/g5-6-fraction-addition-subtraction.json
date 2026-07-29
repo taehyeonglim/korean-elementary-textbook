@@ -1,0 +1,196 @@
+{
+  "id": "g5-6-fraction-addition-subtraction",
+  "slug": "g5-6-fraction-addition-subtraction",
+  "title": "초등 수학 한 장: 분수의 덧셈과 뺄셈",
+  "gradeBand": "5-6",
+  "domain": "수와 연산",
+  "module": "분수의 덧셈과 뺄셈",
+  "standardCodes": [
+    "[6수01-06]",
+    "[6수01-07]",
+    "[6수01-08]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수01-06]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-06.concept",
+      "prompt": "18/24를 기약분수로 나타내세요.",
+      "answer": "3/4",
+      "acceptableAnswers": [
+        "3/4"
+      ],
+      "unit": null,
+      "explanation": "분자와 분모를 최대공약수 6으로 나누면 3/4입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-06] 분수의 덧셈과 뺄셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [6수01-06] 분수의 덧셈과 뺄셈 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'분수의 덧셈과 뺄셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수01-06]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수01-07]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-07.concept",
+      "prompt": "5/8과 2/3 중 큰 분수를 고르고, 통분하여 설명하세요.",
+      "answer": "2/3",
+      "acceptableAnswers": [
+        "2/3",
+        "2/3이 더 큽니다."
+      ],
+      "unit": null,
+      "explanation": "5/8=15/24, 2/3=16/24이므로 2/3이 더 큽니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-07] 분수의 덧셈과 뺄셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [6수01-07] 분수의 덧셈과 뺄셈 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'분수의 덧셈과 뺄셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수01-07]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수01-08]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-08.representation",
+      "prompt": "2와 1/5+1과 3/10을 계산하세요.",
+      "answer": "3과 1/2",
+      "acceptableAnswers": [
+        "3과 1/2"
+      ],
+      "unit": null,
+      "explanation": "1/5=2/10, 2/10+3/10=1/2입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-08] 분수의 덧셈과 뺄셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'분수의 덧셈과 뺄셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수01-06]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-06.representation",
+      "prompt": "2/3과 3/4을 분모가 12인 분수로 각각 나타내세요.",
+      "answer": "8/12, 9/12",
+      "acceptableAnswers": [
+        "8/12, 9/12",
+        "2/3=8/12, 3/4=9/12"
+      ],
+      "unit": null,
+      "explanation": "2/3에는 4/4를, 3/4에는 3/3을 곱하면 각각 8/12와 9/12입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-06] 분수의 덧셈과 뺄셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'분수의 덧셈과 뺄셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수01-07]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-07.application",
+      "prompt": "3/5과 7/10 중 큰 분수를 고르고, 통분하여 설명하세요.",
+      "answer": "7/10",
+      "acceptableAnswers": [
+        "7/10",
+        "7/10이 더 큽니다."
+      ],
+      "unit": null,
+      "explanation": "3/5=6/10이고 6/10<7/10이므로 7/10이 더 큽니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-07] 분수의 덧셈과 뺄셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수01-07] 분수의 덧셈과 뺄셈 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'분수의 덧셈과 뺄셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수01-08]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-08.application",
+      "prompt": "2-3/8을 계산하세요.",
+      "answer": "1과 5/8",
+      "acceptableAnswers": [
+        "1과 5/8"
+      ],
+      "unit": null,
+      "explanation": "2=1과 8/8이므로 1과 5/8입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-08] 분수의 덧셈과 뺄셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수01-08] 분수의 덧셈과 뺄셈 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'분수의 덧셈과 뺄셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-fraction-addition-subtraction/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-addition-subtraction/01-cover.webp",
+      "sha256": "d384a20a9d7af4d37813ea7c5029450a96d6590ca0848a14db5485c1469d225d",
+      "alt": "분수의 덧셈과 뺄셈 cover 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-fraction-addition-subtraction/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-addition-subtraction/02-worksheet-1.webp",
+      "sha256": "47eeacd29a939b9c217f4922adda07fc81e92d4c4bac489b113a380fac05a7f1",
+      "alt": "분수의 덧셈과 뺄셈 worksheet-1 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-fraction-addition-subtraction/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-addition-subtraction/03-worksheet-2.webp",
+      "sha256": "ad948b7cdd9ce4c38bac60e33063fa43dfb6b6d6e173ac891623a5bac3ea69b8",
+      "alt": "분수의 덧셈과 뺄셈 worksheet-2 초안",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-fraction-addition-subtraction/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-addition-subtraction/04-answers.webp",
+      "sha256": "3402bdc4c77b788d8007bf116d5e8cb8384f2c41f245f1a3a9ded4a7d348f3b7",
+      "alt": "분수의 덧셈과 뺄셈 answers 초안",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-fraction-addition-subtraction/g5-6-fraction-addition-subtraction.pdf",
+    "pageCount": 4,
+    "sha256": "9db597fe24e3cf9927b771f9a6f232dc032eecf1abc276650af4f6b7de5f620a"
+  },
+  "transcriptPath": "/workbooks/g5-6-fraction-addition-subtraction/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

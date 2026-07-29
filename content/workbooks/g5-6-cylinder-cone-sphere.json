@@ -1,0 +1,198 @@
+{
+  "id": "g5-6-cylinder-cone-sphere",
+  "slug": "g5-6-cylinder-cone-sphere",
+  "title": "초등 수학 한 장: 원기둥, 원뿔, 구",
+  "gradeBand": "5-6",
+  "domain": "도형과 측정",
+  "module": "원기둥, 원뿔, 구",
+  "standardCodes": [
+    "[6수03-07]",
+    "[6수03-08]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수03-07]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-07.concept",
+      "prompt": "원기둥에는 원 모양의 밑면이 몇 개인가요?",
+      "answer": "2개",
+      "acceptableAnswers": [
+        "2개",
+        "2"
+      ],
+      "unit": "개",
+      "explanation": "원기둥에는 서로 평행하고 같은 크기의 원 모양 밑면이 위와 아래에 있습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-07] 원기둥, 원뿔, 구 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-07] 원기둥, 원뿔, 구 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'원기둥, 원뿔, 구'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-07]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수03-08]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-08.concept",
+      "prompt": "원기둥의 전개도는 원과 직사각형으로 이루어집니다. 원은 몇 개, 직사각형은 몇 개인가요?",
+      "answer": "원 2개, 직사각형 1개",
+      "acceptableAnswers": [
+        "원 2개, 직사각형 1개",
+        "원 2개와 직사각형 1개"
+      ],
+      "unit": "개",
+      "explanation": "원기둥의 위아래 밑면은 원 2개이고 옆면은 직사각형 1개입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-08] 원기둥, 원뿔, 구 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-08] 원기둥, 원뿔, 구 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'원기둥, 원뿔, 구'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-08]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수03-07]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-07.representation",
+      "prompt": "음료수 캔, 아이스크림 콘, 축구공을 원기둥·원뿔·구와 알맞게 짝 지으세요.",
+      "answer": "음료수 캔-원기둥, 아이스크림 콘-원뿔, 축구공-구",
+      "acceptableAnswers": [
+        "음료수 캔-원기둥, 아이스크림 콘-원뿔, 축구공-구",
+        "캔은 원기둥, 콘은 원뿔, 공은 구"
+      ],
+      "unit": null,
+      "explanation": "생활 속 물건의 모양을 각 입체도형의 특징과 연결할 수 있습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-07] 원기둥, 원뿔, 구 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'원기둥, 원뿔, 구'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수03-08]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-08.representation",
+      "prompt": "원기둥 전개도에서 직사각형의 서로 마주 보는 두 변에 원을 한 개씩 붙이는 까닭을 쓰세요.",
+      "answer": "두 원이 원기둥의 위와 아래 밑면이 되기 때문입니다.",
+      "acceptableAnswers": [
+        "두 원이 원기둥의 위와 아래 밑면이 되기 때문입니다.",
+        "위아래 밑면이 두 개의 원이기 때문입니다."
+      ],
+      "unit": null,
+      "explanation": "직사각형은 옆면이 되고, 서로 마주 보는 두 변에 붙인 원은 위와 아래의 밑면이 됩니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-08] 원기둥, 원뿔, 구 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'원기둥, 원뿔, 구'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수03-07]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-07.application",
+      "prompt": "어느 방향으로 굴려도 같은 모양으로 보이는 공 모양 장식에 알맞은 입체도형 이름을 쓰고, 그 까닭을 간단히 쓰세요.",
+      "answer": "구. 어느 방향에서 보아도 둥글고 꼭짓점이 없기 때문이다.",
+      "acceptableAnswers": [
+        "구. 어느 방향에서 보아도 둥글고 꼭짓점이 없기 때문이다.",
+        "구, 어느 방향으로도 잘 굴러가기 때문이다."
+      ],
+      "unit": null,
+      "explanation": "구는 모든 방향에서 둥근 모양이며 모서리와 꼭짓점이 없습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-07] 원기둥, 원뿔, 구 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-07] 원기둥, 원뿔, 구 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'원기둥, 원뿔, 구'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수03-08]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-08.application",
+      "prompt": "뚜껑과 바닥이 있는 원기둥 모양 상자의 전개도를 만들려 합니다. 잘라 낼 도형의 종류와 개수를 쓰세요.",
+      "answer": "원 2개와 직사각형 1개",
+      "acceptableAnswers": [
+        "원 2개와 직사각형 1개",
+        "원 2개, 직사각형 1개"
+      ],
+      "unit": "개",
+      "explanation": "닫힌 원기둥은 원형 밑면 2개와 옆면 직사각형 1개를 모두 필요로 합니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-08] 원기둥, 원뿔, 구 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-08] 원기둥, 원뿔, 구 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'원기둥, 원뿔, 구'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-cylinder-cone-sphere/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-cylinder-cone-sphere/01-cover.webp",
+      "sha256": "fa29805ed6dfb9165c244080dc0719a919b91a5a7332b1f4b791775274095432",
+      "alt": "원기둥, 원뿔, 구 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-cylinder-cone-sphere/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-cylinder-cone-sphere/02-worksheet-1.webp",
+      "sha256": "166a8084ae406edf5ed77fcdf81541a61a7f7df6e75115981bb7d3c907550df6",
+      "alt": "원기둥, 원뿔, 구 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-cylinder-cone-sphere/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-cylinder-cone-sphere/03-worksheet-2.webp",
+      "sha256": "ade26a4d7185db10176c4538828e6c24d7e6d12162a8242e7db406e42c0a6af9",
+      "alt": "원기둥, 원뿔, 구 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-cylinder-cone-sphere/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-cylinder-cone-sphere/04-answers.webp",
+      "sha256": "1a5694e05ad5a6d2672bbca62c3b2b4aa1e17a8cc8e683c65bddee124c7d7b82",
+      "alt": "원기둥, 원뿔, 구 정답과 해설",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-cylinder-cone-sphere/g5-6-cylinder-cone-sphere.pdf",
+    "pageCount": 4,
+    "sha256": "a84f121f9be87466d4a6be75baa60e28576e45adccdbd40277db718932fda96d"
+  },
+  "transcriptPath": "/workbooks/g5-6-cylinder-cone-sphere/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

@@ -1,0 +1,174 @@
+{
+  "id": "g3-4-quadrilaterals",
+  "slug": "g3-4-quadrilaterals",
+  "title": "초등 수학 한 장: 여러 가지 사각형",
+  "gradeBand": "3-4",
+  "domain": "도형과 측정",
+  "module": "여러 가지 사각형",
+  "standardCodes": [
+    "[4수03-10]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수03-10]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-10.concept",
+      "prompt": "네 각이 모두 직각인 사각형을 무엇이라고 하나요?",
+      "answer": "직사각형",
+      "acceptableAnswers": [
+        "직사각형"
+      ],
+      "unit": null,
+      "explanation": "네 각이 모두 직각인 사각형은 직사각형입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-10] 여러 가지 사각형 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'여러 가지 사각형'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-10]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수03-10]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-10.concept",
+      "prompt": "네 변의 길이가 모두 같고 네 각이 모두 직각인 사각형을 무엇이라고 하나요?",
+      "answer": "정사각형",
+      "acceptableAnswers": [
+        "정사각형"
+      ],
+      "unit": null,
+      "explanation": "네 변이 모두 같고 네 각이 모두 직각인 사각형은 정사각형입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-10] 여러 가지 사각형 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'여러 가지 사각형'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-10]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수03-10]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-10.representation",
+      "prompt": "마주 보는 변 한 쌍만 서로 평행하고 다른 한 쌍은 평행하지 않은 사각형을 무엇이라고 하나요?",
+      "answer": "사다리꼴",
+      "acceptableAnswers": [
+        "사다리꼴"
+      ],
+      "unit": null,
+      "explanation": "마주 보는 변 한 쌍이 서로 평행한 사각형은 사다리꼴로 분류할 수 있습니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-10] 여러 가지 사각형 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'여러 가지 사각형'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수03-10]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-10.representation",
+      "prompt": "마주 보는 두 쌍의 변이 각각 서로 평행한 사각형을 무엇이라고 하나요?",
+      "answer": "평행사변형",
+      "acceptableAnswers": [
+        "평행사변형"
+      ],
+      "unit": null,
+      "explanation": "마주 보는 두 쌍의 변이 각각 평행한 사각형은 평행사변형입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-10] 여러 가지 사각형 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'여러 가지 사각형'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수03-10]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-10.application",
+      "prompt": "네 변의 길이가 모두 같지만 직각은 하나도 없는 사각형을 무엇이라고 하나요?",
+      "answer": "마름모",
+      "acceptableAnswers": [
+        "마름모"
+      ],
+      "unit": null,
+      "explanation": "네 변의 길이가 모두 같은 사각형은 마름모이며, 직각이 없다는 조건으로 정사각형과 구별됩니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-10] 여러 가지 사각형 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'여러 가지 사각형'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수03-10]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-10.application",
+      "prompt": "정사각형은 직사각형과 마름모의 성질을 모두 가집니다. 그 까닭을 쓰세요.",
+      "answer": "네 각이 모두 직각이고 네 변의 길이가 모두 같기 때문",
+      "acceptableAnswers": [
+        "네 각이 모두 직각이고 네 변의 길이가 모두 같기 때문",
+        "네 각은 직각이고 네 변은 모두 같기 때문"
+      ],
+      "unit": null,
+      "explanation": "네 각이 모두 직각이어서 직사각형이고, 네 변이 모두 같아서 마름모이기도 합니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-10] 여러 가지 사각형 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'여러 가지 사각형'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-quadrilaterals/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-quadrilaterals/01-cover.webp",
+      "sha256": "43f45b225c4faeb731b34f902113e142aa814f39627022bfe1b94bd24f87b819",
+      "alt": "여러 가지 사각형 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-quadrilaterals/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-quadrilaterals/02-worksheet-1.webp",
+      "sha256": "58d89e9998cbcddd2cf270338ab85a9f817de2f3e2068092befa7bcbcbb459ec",
+      "alt": "여러 가지 사각형 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-quadrilaterals/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-quadrilaterals/03-worksheet-2.webp",
+      "sha256": "a037161ea427ef027c2915e99c8171ac4ecae04812815bed95e6f5319d1b3225",
+      "alt": "여러 가지 사각형 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-quadrilaterals/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-quadrilaterals/04-answers.webp",
+      "sha256": "4a095ddfd9f5f67435f33df8b0401e6d93c899472288798ad38a1069a262ca15",
+      "alt": "여러 가지 사각형 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-quadrilaterals/g3-4-quadrilaterals.pdf",
+    "pageCount": 4,
+    "sha256": "b5573a2ff951692a59ebd360803953851054937e30399c91a251fa419e771033"
+  },
+  "transcriptPath": "/workbooks/g3-4-quadrilaterals/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

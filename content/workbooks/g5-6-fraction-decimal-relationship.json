@@ -1,0 +1,193 @@
+{
+  "id": "g5-6-fraction-decimal-relationship",
+  "slug": "g5-6-fraction-decimal-relationship",
+  "title": "초등 수학 한 장: 분수와 소수의 관계",
+  "gradeBand": "5-6",
+  "domain": "수와 연산",
+  "module": "분수와 소수의 관계",
+  "standardCodes": [
+    "[6수01-12]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수01-12]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-12.concept",
+      "prompt": "3/10을 소수로 나타내세요.",
+      "answer": "0.3",
+      "acceptableAnswers": [
+        "0.3"
+      ],
+      "unit": null,
+      "explanation": "3/10=0.3입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-12] 분수와 소수의 관계 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [6수01-12] 분수와 소수의 관계 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'분수와 소수의 관계'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수01-12]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수01-12]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-12.concept",
+      "prompt": "0.25를 기약분수로 나타내세요.",
+      "answer": "1/4",
+      "acceptableAnswers": [
+        "1/4"
+      ],
+      "unit": null,
+      "explanation": "0.25=25/100=1/4입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-12] 분수와 소수의 관계 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [6수01-12] 분수와 소수의 관계 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'분수와 소수의 관계'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수01-12]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수01-12]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-12.representation",
+      "prompt": "7/20을 소수로 나타내세요.",
+      "answer": "0.35",
+      "acceptableAnswers": [
+        "0.35"
+      ],
+      "unit": null,
+      "explanation": "7/20=35/100=0.35입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-12] 분수와 소수의 관계 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'분수와 소수의 관계'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수01-12]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-12.representation",
+      "prompt": "0.6을 기약분수로 나타내세요.",
+      "answer": "3/5",
+      "acceptableAnswers": [
+        "3/5"
+      ],
+      "unit": null,
+      "explanation": "0.6=6/10=3/5입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-12] 분수와 소수의 관계 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'분수와 소수의 관계'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수01-12]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-12.application",
+      "prompt": "0.6과 3/5가 같은지 쓰세요.",
+      "answer": "같습니다",
+      "acceptableAnswers": [
+        "같습니다",
+        "같다"
+      ],
+      "unit": null,
+      "explanation": "3/5=6/10=0.6입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-12] 분수와 소수의 관계 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수01-12] 분수와 소수의 관계 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'분수와 소수의 관계'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수01-12]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-12.application",
+      "prompt": "0.375와 3/8의 크기를 비교하세요.",
+      "answer": "같습니다",
+      "acceptableAnswers": [
+        "같습니다",
+        "같다"
+      ],
+      "unit": null,
+      "explanation": "3/8=0.375이므로 두 수는 같습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-12] 분수와 소수의 관계 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수01-12] 분수와 소수의 관계 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'분수와 소수의 관계'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-fraction-decimal-relationship/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-decimal-relationship/01-cover.webp",
+      "sha256": "b5dd4c637ac8b49d95ecbd07890c1f2fdf232a41b5a315914a9bed6aa5fe8c71",
+      "alt": "분수와 소수의 관계 cover 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-fraction-decimal-relationship/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-decimal-relationship/02-worksheet-1.webp",
+      "sha256": "23622089dd949f90c9627c8b8e7574f6df38d3e612c2fdf45bd3c4f3c1ffce22",
+      "alt": "분수와 소수의 관계 worksheet-1 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-fraction-decimal-relationship/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-decimal-relationship/03-worksheet-2.webp",
+      "sha256": "a216d73c4fa97f47b80049ca109c20058e1b1dfb49133e4ee32408288219d196",
+      "alt": "분수와 소수의 관계 worksheet-2 초안",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-fraction-decimal-relationship/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-decimal-relationship/04-answers.webp",
+      "sha256": "f31f61076dca16d072a237dad784ceb85dfdb412e8a17e8baafddd59c91fe77c",
+      "alt": "분수와 소수의 관계 answers 초안",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-fraction-decimal-relationship/g5-6-fraction-decimal-relationship.pdf",
+    "pageCount": 4,
+    "sha256": "8155b6298ee1a2c36ec70c3b8724376101635b4a94edf9e5b29d6b02bad69997"
+  },
+  "transcriptPath": "/workbooks/g5-6-fraction-decimal-relationship/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

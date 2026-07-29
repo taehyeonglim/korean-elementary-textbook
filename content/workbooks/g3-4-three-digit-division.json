@@ -1,0 +1,180 @@
+{
+  "id": "g3-4-three-digit-division",
+  "slug": "g3-4-three-digit-division",
+  "title": "초등 수학 한 장: 세 자리 수 범위의 나눗셈",
+  "gradeBand": "3-4",
+  "domain": "수와 연산",
+  "module": "세 자리 수 범위의 나눗셈",
+  "standardCodes": [
+    "[4수01-05]",
+    "[4수01-06]",
+    "[4수01-07]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수01-05]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-05.concept",
+      "prompt": "7×8=56을 이용하여 56÷7의 몫을 구하세요.",
+      "answer": "8",
+      "acceptableAnswers": [
+        "8"
+      ],
+      "unit": null,
+      "explanation": "7×8=56이므로 56을 7씩 묶으면 8묶음입니다. 따라서 56÷7=8입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-05] 세 자리 수 범위의 나눗셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 나눗셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수01-05]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수01-06]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-06.representation",
+      "prompt": "84÷4를 계산하세요.",
+      "answer": "21",
+      "acceptableAnswers": [
+        "21"
+      ],
+      "unit": null,
+      "explanation": "80÷4=20, 4÷4=1이므로 84÷4=21입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-06] 세 자리 수 범위의 나눗셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 나눗셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수01-06]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-06.application",
+      "prompt": "157÷6의 몫과 나머지를 구하세요.",
+      "answer": "몫 26, 나머지 1",
+      "acceptableAnswers": [
+        "몫 26, 나머지 1",
+        "26 … 1",
+        "26, 나머지 1"
+      ],
+      "unit": null,
+      "explanation": "6×26=156이고 157-156=1이므로 몫은 26, 나머지는 1입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-06] 세 자리 수 범위의 나눗셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 나눗셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수01-07]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-07.representation",
+      "prompt": "864÷24를 계산하세요.",
+      "answer": "36",
+      "acceptableAnswers": [
+        "36"
+      ],
+      "unit": null,
+      "explanation": "24×30=720, 24×6=144이고 720+144=864이므로 864÷24=36입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-07] 세 자리 수 범위의 나눗셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 나눗셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수01-05]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-05.application",
+      "prompt": "학생 96명을 한 모둠에 8명씩 똑같이 나누면 몇 모둠이 되나요?",
+      "answer": "12모둠",
+      "acceptableAnswers": [
+        "12모둠",
+        "12 모둠"
+      ],
+      "unit": "모둠",
+      "explanation": "96÷8=12이므로 12모둠이 됩니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-05] 세 자리 수 범위의 나눗셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 나눗셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수01-07]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-07.application",
+      "prompt": "975÷32의 몫과 나머지를 구하세요.",
+      "answer": "몫 30, 나머지 15",
+      "acceptableAnswers": [
+        "몫 30, 나머지 15",
+        "30 … 15",
+        "30, 나머지 15"
+      ],
+      "unit": null,
+      "explanation": "32×30=960이고 975-960=15이므로 몫은 30, 나머지는 15입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-07] 세 자리 수 범위의 나눗셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'세 자리 수 범위의 나눗셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-three-digit-division/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-three-digit-division/01-cover.webp",
+      "sha256": "f6d6133286d2a79e01f89c4f54e8d9d46c888efa3a39fb10cb4f640dce63174b",
+      "alt": "세 자리 수 범위의 나눗셈 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-three-digit-division/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-three-digit-division/02-worksheet-1.webp",
+      "sha256": "20ee4189d6ae1f2a38cdfa70be13f65a6194c7f2c1c1a6377a2492af32587c61",
+      "alt": "세 자리 수 범위의 나눗셈 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-three-digit-division/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-three-digit-division/03-worksheet-2.webp",
+      "sha256": "c830f9addf3090d366a6439faa6882c0893c5f34649e15802853251d20145e48",
+      "alt": "세 자리 수 범위의 나눗셈 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-three-digit-division/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-three-digit-division/04-answers.webp",
+      "sha256": "6215db1f343fecf0eda8d08b071922827904e22451c79b0272972d3f0079f139",
+      "alt": "세 자리 수 범위의 나눗셈 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-three-digit-division/g3-4-three-digit-division.pdf",
+    "pageCount": 4,
+    "sha256": "d27e31b857a133435bed5a69e89d11518f00f5f35677c3ccf371ee566e12f3f7"
+  },
+  "transcriptPath": "/workbooks/g3-4-three-digit-division/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

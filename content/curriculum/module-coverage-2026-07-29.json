@@ -1,0 +1,666 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "mcp": "curriculum-kr",
+    "standardsPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+    "topicsPath": "/content/curriculum/full-math-topics-2026-07-29.json"
+  },
+  "generatedAt": "2026-07-29T00:00:00+09:00",
+  "totalModules": 53,
+  "totalStandards": 121,
+  "existingWorkbookCount": 6,
+  "draftWorkbookCount": 47,
+  "modules": [
+    {
+      "gradeBand": "1-2",
+      "domain": "수와 연산",
+      "module": "네 자리 이하의 수",
+      "standardCodes": [
+        "[2수01-01]",
+        "[2수01-02]",
+        "[2수01-03]",
+        "[2수01-04]"
+      ],
+      "workbookId": "g1-2-numbers-to-100",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g1-2-numbers-to-100/01-cover.txt"
+    },
+    {
+      "gradeBand": "1-2",
+      "domain": "수와 연산",
+      "module": "두 자리 수 범위의 덧셈과 뺄셈",
+      "standardCodes": [
+        "[2수01-05]",
+        "[2수01-06]",
+        "[2수01-07]",
+        "[2수01-08]",
+        "[2수01-09]"
+      ],
+      "workbookId": "two-digit-addition-subtraction",
+      "status": "existing-published",
+      "coverPromptPath": "prompts/two-digit-addition-subtraction/01-cover.txt"
+    },
+    {
+      "gradeBand": "1-2",
+      "domain": "수와 연산",
+      "module": "한 자리 수의 곱셈",
+      "standardCodes": [
+        "[2수01-10]",
+        "[2수01-11]"
+      ],
+      "workbookId": "g1-2-one-digit-multiplication",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g1-2-one-digit-multiplication/01-cover.txt"
+    },
+    {
+      "gradeBand": "1-2",
+      "domain": "변화와 관계",
+      "module": "규칙 찾기",
+      "standardCodes": [
+        "[2수02-01]",
+        "[2수02-02]"
+      ],
+      "workbookId": "g1-2-patterns",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g1-2-patterns/01-cover.txt"
+    },
+    {
+      "gradeBand": "1-2",
+      "domain": "도형과 측정",
+      "module": "입체도형의 모양",
+      "standardCodes": [
+        "[2수03-01]",
+        "[2수03-02]"
+      ],
+      "workbookId": "g1-2-solid-shapes",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g1-2-solid-shapes/01-cover.txt"
+    },
+    {
+      "gradeBand": "1-2",
+      "domain": "도형과 측정",
+      "module": "평면도형과 그 구성 요소",
+      "standardCodes": [
+        "[2수03-03]",
+        "[2수03-04]",
+        "[2수03-05]"
+      ],
+      "workbookId": "plane-shapes",
+      "status": "existing-published",
+      "coverPromptPath": "prompts/plane-shapes/01-cover.txt"
+    },
+    {
+      "gradeBand": "1-2",
+      "domain": "도형과 측정",
+      "module": "양의 비교",
+      "standardCodes": [
+        "[2수03-06]"
+      ],
+      "workbookId": "g1-2-quantity-comparison",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g1-2-quantity-comparison/01-cover.txt"
+    },
+    {
+      "gradeBand": "1-2",
+      "domain": "도형과 측정",
+      "module": "시각과 시간",
+      "standardCodes": [
+        "[2수03-07]",
+        "[2수03-08]",
+        "[2수03-09]"
+      ],
+      "workbookId": "g1-2-time",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g1-2-time/01-cover.txt"
+    },
+    {
+      "gradeBand": "1-2",
+      "domain": "도형과 측정",
+      "module": "길이",
+      "standardCodes": [
+        "[2수03-10]",
+        "[2수03-11]",
+        "[2수03-12]",
+        "[2수03-13]"
+      ],
+      "workbookId": "g1-2-length",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g1-2-length/01-cover.txt"
+    },
+    {
+      "gradeBand": "1-2",
+      "domain": "자료와 가능성",
+      "module": "자료의 정리",
+      "standardCodes": [
+        "[2수04-01]",
+        "[2수04-02]",
+        "[2수04-03]"
+      ],
+      "workbookId": "g1-2-data-organization",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g1-2-data-organization/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "수와 연산",
+      "module": "다섯 자리 이상의 수",
+      "standardCodes": [
+        "[4수01-01]",
+        "[4수01-02]"
+      ],
+      "workbookId": "g3-4-large-numbers",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-large-numbers/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "수와 연산",
+      "module": "세 자리 수의 덧셈과 뺄셈",
+      "standardCodes": [
+        "[4수01-03]"
+      ],
+      "workbookId": "g3-4-three-digit-addition-subtraction",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-three-digit-addition-subtraction/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "수와 연산",
+      "module": "세 자리 수 범위의 곱셈",
+      "standardCodes": [
+        "[4수01-04]"
+      ],
+      "workbookId": "g3-4-three-digit-multiplication",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-three-digit-multiplication/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "수와 연산",
+      "module": "세 자리 수 범위의 나눗셈",
+      "standardCodes": [
+        "[4수01-05]",
+        "[4수01-06]",
+        "[4수01-07]"
+      ],
+      "workbookId": "g3-4-three-digit-division",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-three-digit-division/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "수와 연산",
+      "module": "자연수의 어림셈",
+      "standardCodes": [
+        "[4수01-08]"
+      ],
+      "workbookId": "g3-4-estimation",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-estimation/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "수와 연산",
+      "module": "분수",
+      "standardCodes": [
+        "[4수01-09]",
+        "[4수01-10]",
+        "[4수01-11]"
+      ],
+      "workbookId": "fractions",
+      "status": "existing-published",
+      "coverPromptPath": "prompts/fractions/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "수와 연산",
+      "module": "소수",
+      "standardCodes": [
+        "[4수01-12]",
+        "[4수01-13]",
+        "[4수01-14]"
+      ],
+      "workbookId": "g3-4-decimals",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-decimals/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "수와 연산",
+      "module": "분수의 덧셈과 뺄셈",
+      "standardCodes": [
+        "[4수01-15]"
+      ],
+      "workbookId": "g3-4-fraction-addition-subtraction",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-fraction-addition-subtraction/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "수와 연산",
+      "module": "소수의 덧셈과 뺄셈",
+      "standardCodes": [
+        "[4수01-16]"
+      ],
+      "workbookId": "g3-4-decimal-addition-subtraction",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-decimal-addition-subtraction/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "변화와 관계",
+      "module": "규칙을 수나 식으로 나타내기",
+      "standardCodes": [
+        "[4수02-01]",
+        "[4수02-02]"
+      ],
+      "workbookId": "g3-4-rules-expressions",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-rules-expressions/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "변화와 관계",
+      "module": "등호와 동치 관계",
+      "standardCodes": [
+        "[4수02-03]"
+      ],
+      "workbookId": "g3-4-equality",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-equality/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "도형의 기초",
+      "standardCodes": [
+        "[4수03-01]",
+        "[4수03-02]",
+        "[4수03-03]"
+      ],
+      "workbookId": "g3-4-geometry-basics",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-geometry-basics/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "평면도형의 이동",
+      "standardCodes": [
+        "[4수03-04]",
+        "[4수03-05]"
+      ],
+      "workbookId": "g3-4-plane-transformations",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-plane-transformations/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "원의 구성 요소",
+      "standardCodes": [
+        "[4수03-06]",
+        "[4수03-07]"
+      ],
+      "workbookId": "g3-4-circle-elements",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-circle-elements/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "여러 가지 삼각형",
+      "standardCodes": [
+        "[4수03-08]",
+        "[4수03-09]"
+      ],
+      "workbookId": "g3-4-triangles",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-triangles/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "여러 가지 사각형",
+      "standardCodes": [
+        "[4수03-10]"
+      ],
+      "workbookId": "g3-4-quadrilaterals",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-quadrilaterals/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "다각형",
+      "standardCodes": [
+        "[4수03-11]",
+        "[4수03-12]"
+      ],
+      "workbookId": "g3-4-polygons",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-polygons/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "시각과 시간",
+      "standardCodes": [
+        "[4수03-13]",
+        "[4수03-14]"
+      ],
+      "workbookId": "g3-4-time",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-time/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "길이",
+      "standardCodes": [
+        "[4수03-15]",
+        "[4수03-16]"
+      ],
+      "workbookId": "g3-4-length",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-length/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "들이",
+      "standardCodes": [
+        "[4수03-17]",
+        "[4수03-18]",
+        "[4수03-19]"
+      ],
+      "workbookId": "g3-4-capacity",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-capacity/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "무게",
+      "standardCodes": [
+        "[4수03-20]",
+        "[4수03-21]",
+        "[4수03-22]",
+        "[4수03-23]"
+      ],
+      "workbookId": "g3-4-mass",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-mass/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "도형과 측정",
+      "module": "각도",
+      "standardCodes": [
+        "[4수03-24]",
+        "[4수03-25]"
+      ],
+      "workbookId": "angles",
+      "status": "existing-published",
+      "coverPromptPath": "prompts/angles/01-cover.txt"
+    },
+    {
+      "gradeBand": "3-4",
+      "domain": "자료와 가능성",
+      "module": "자료의 수집과 정리",
+      "standardCodes": [
+        "[4수04-01]",
+        "[4수04-02]",
+        "[4수04-03]"
+      ],
+      "workbookId": "g3-4-data-collection",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g3-4-data-collection/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "수와 연산",
+      "module": "자연수의 혼합 계산",
+      "standardCodes": [
+        "[6수01-01]"
+      ],
+      "workbookId": "g5-6-mixed-natural-calculation",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-mixed-natural-calculation/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "수와 연산",
+      "module": "수의 범위와 올림, 버림, 반올림",
+      "standardCodes": [
+        "[6수01-02]",
+        "[6수01-03]"
+      ],
+      "workbookId": "g5-6-rounding",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-rounding/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "수와 연산",
+      "module": "약수와 배수",
+      "standardCodes": [
+        "[6수01-04]",
+        "[6수01-05]"
+      ],
+      "workbookId": "g5-6-factors-multiples",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-factors-multiples/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "수와 연산",
+      "module": "분수의 덧셈과 뺄셈",
+      "standardCodes": [
+        "[6수01-06]",
+        "[6수01-07]",
+        "[6수01-08]"
+      ],
+      "workbookId": "g5-6-fraction-addition-subtraction",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-fraction-addition-subtraction/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "수와 연산",
+      "module": "분수의 곱셈과 나눗셈",
+      "standardCodes": [
+        "[6수01-09]",
+        "[6수01-10]",
+        "[6수01-11]"
+      ],
+      "workbookId": "g5-6-fraction-multiplication-division",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-fraction-multiplication-division/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "수와 연산",
+      "module": "분수와 소수의 관계",
+      "standardCodes": [
+        "[6수01-12]"
+      ],
+      "workbookId": "g5-6-fraction-decimal-relationship",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-fraction-decimal-relationship/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "수와 연산",
+      "module": "소수의 곱셈과 나눗셈",
+      "standardCodes": [
+        "[6수01-13]",
+        "[6수01-14]",
+        "[6수01-15]"
+      ],
+      "workbookId": "g5-6-decimal-multiplication-division",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-decimal-multiplication-division/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "변화와 관계",
+      "module": "대응 관계",
+      "standardCodes": [
+        "[6수02-01]"
+      ],
+      "workbookId": "g5-6-correspondence",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-correspondence/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "변화와 관계",
+      "module": "비와 비율",
+      "standardCodes": [
+        "[6수02-02]",
+        "[6수02-03]"
+      ],
+      "workbookId": "ratios-and-rates",
+      "status": "existing-published",
+      "coverPromptPath": "prompts/ratios-and-rates/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "변화와 관계",
+      "module": "비례식과 비례배분",
+      "standardCodes": [
+        "[6수02-04]",
+        "[6수02-05]"
+      ],
+      "workbookId": "g5-6-proportions",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-proportions/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "도형과 측정",
+      "module": "합동과 대칭",
+      "standardCodes": [
+        "[6수03-01]",
+        "[6수03-02]"
+      ],
+      "workbookId": "g5-6-congruence-symmetry",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-congruence-symmetry/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "도형과 측정",
+      "module": "직육면체와 정육면체",
+      "standardCodes": [
+        "[6수03-03]",
+        "[6수03-04]"
+      ],
+      "workbookId": "g5-6-cuboids-cubes",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-cuboids-cubes/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "도형과 측정",
+      "module": "각기둥과 각뿔",
+      "standardCodes": [
+        "[6수03-05]",
+        "[6수03-06]"
+      ],
+      "workbookId": "g5-6-prisms-pyramids",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-prisms-pyramids/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "도형과 측정",
+      "module": "원기둥, 원뿔, 구",
+      "standardCodes": [
+        "[6수03-07]",
+        "[6수03-08]"
+      ],
+      "workbookId": "g5-6-cylinder-cone-sphere",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-cylinder-cone-sphere/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "도형과 측정",
+      "module": "입체도형의 공간 감각",
+      "standardCodes": [
+        "[6수03-09]",
+        "[6수03-10]"
+      ],
+      "workbookId": "g5-6-spatial-sense",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-spatial-sense/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "도형과 측정",
+      "module": "다각형의 둘레와 넓이",
+      "standardCodes": [
+        "[6수03-11]",
+        "[6수03-12]",
+        "[6수03-13]",
+        "[6수03-14]"
+      ],
+      "workbookId": "g5-6-polygon-perimeter-area",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-polygon-perimeter-area/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "도형과 측정",
+      "module": "원주율과 원의 넓이",
+      "standardCodes": [
+        "[6수03-15]",
+        "[6수03-16]"
+      ],
+      "workbookId": "circle-pi-area",
+      "status": "existing-published",
+      "coverPromptPath": "prompts/circle-pi-area/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "도형과 측정",
+      "module": "입체도형의 겉넓이와 부피",
+      "standardCodes": [
+        "[6수03-17]",
+        "[6수03-18]",
+        "[6수03-19]"
+      ],
+      "workbookId": "g5-6-surface-area-volume",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-surface-area-volume/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "자료와 가능성",
+      "module": "자료의 수집과 정리",
+      "standardCodes": [
+        "[6수04-01]",
+        "[6수04-02]",
+        "[6수04-03]"
+      ],
+      "workbookId": "g5-6-data-collection",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-data-collection/01-cover.txt"
+    },
+    {
+      "gradeBand": "5-6",
+      "domain": "자료와 가능성",
+      "module": "가능성",
+      "standardCodes": [
+        "[6수04-04]",
+        "[6수04-05]",
+        "[6수04-06]"
+      ],
+      "workbookId": "g5-6-probability",
+      "status": "draft-unpublished",
+      "coverPromptPath": "prompts/g5-6-probability/01-cover.txt"
+    }
+  ]
+}

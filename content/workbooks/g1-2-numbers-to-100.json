@@ -1,0 +1,184 @@
+{
+  "id": "g1-2-numbers-to-100",
+  "slug": "g1-2-numbers-to-100",
+  "title": "초등 수학 한 장: 네 자리 이하의 수",
+  "gradeBand": "1-2",
+  "domain": "수와 연산",
+  "module": "네 자리 이하의 수",
+  "standardCodes": [
+    "[2수01-01]",
+    "[2수01-02]",
+    "[2수01-03]",
+    "[2수01-04]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[2수01-01]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-01.concept",
+      "prompt": "수 모형이 십 6개와 일 8개를 나타냅니다. 이 수를 쓰고 읽으세요.",
+      "answer": "68, 육십팔",
+      "acceptableAnswers": [
+        "68, 육십팔",
+        "68(육십팔)",
+        "육십팔, 68"
+      ],
+      "unit": null,
+      "explanation": "십 6개는 60, 일 8개는 8이므로 68이고 육십팔이라고 읽습니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-01] 네 자리 이하의 수 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'네 자리 이하의 수'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [2수01-01]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[2수01-02]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-02.representation",
+      "prompt": "3482에서 숫자 4가 나타내는 값은 얼마인가요?",
+      "answer": "400",
+      "acceptableAnswers": [
+        "400",
+        "사백"
+      ],
+      "unit": null,
+      "explanation": "4는 백의 자리에 있으므로 400을 나타냅니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-02] 네 자리 이하의 수 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'네 자리 이하의 수'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[2수01-03]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-03.application",
+      "prompt": "998, 999, □, 1001에서 □에 알맞은 수를 쓰세요.",
+      "answer": "1000",
+      "acceptableAnswers": [
+        "1000",
+        "천"
+      ],
+      "unit": null,
+      "explanation": "1씩 커지는 수의 계열이므로 999 다음 수는 1000입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-03] 네 자리 이하의 수 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'네 자리 이하의 수'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[2수01-04]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-04.application",
+      "prompt": "47을 십의 묶음과 낱개로 나누어 두 수의 합으로 나타내세요.",
+      "answer": "40+7=47",
+      "acceptableAnswers": [
+        "40+7=47",
+        "47=40+7",
+        "40+7"
+      ],
+      "unit": null,
+      "explanation": "47은 십의 묶음 4개인 40과 낱개 7로 분해할 수 있습니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-04] 네 자리 이하의 수 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'네 자리 이하의 수'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[2수01-02]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-02.representation",
+      "prompt": "오천이십삼을 숫자로 쓰고, 각 자리의 숫자를 차례로 쓰세요.",
+      "answer": "5023, 천의 자리 5·백의 자리 0·십의 자리 2·일의 자리 3",
+      "acceptableAnswers": [
+        "5023, 천의 자리 5·백의 자리 0·십의 자리 2·일의 자리 3",
+        "5023; 5, 0, 2, 3"
+      ],
+      "unit": null,
+      "explanation": "오천은 5000, 이십은 20, 삼은 3이므로 5023입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-02] 네 자리 이하의 수 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'네 자리 이하의 수'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[2수01-03]",
+      "topicId": "kr.mt.math.number-operations.g1-2.s2-01-03.application",
+      "prompt": "3098과 3089 중 큰 수를 고르고, 어느 자리에서 크기가 결정되는지 쓰세요.",
+      "answer": "3098, 십의 자리",
+      "acceptableAnswers": [
+        "3098, 십의 자리",
+        "3098; 십의 자리"
+      ],
+      "unit": null,
+      "explanation": "천과 백의 자리 숫자는 같고, 십의 자리에서 9가 8보다 크므로 3098이 더 큽니다.",
+      "curriculumBasis": {
+        "evidence": "[2수01-03] 네 자리 이하의 수 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'네 자리 이하의 수'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g1-2-numbers-to-100/01-cover.webp",
+      "thumbnailPath": "/workbooks/g1-2-numbers-to-100/01-cover.webp",
+      "sha256": "4e057e6d9cc28e122afa306be565a0694ba1ba5a6f0033d98e863c7b9db55a83",
+      "alt": "네 자리 이하의 수 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-numbers-to-100/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g1-2-numbers-to-100/02-worksheet-1.webp",
+      "sha256": "a31caee672abdcbe9c10d85f13ab6de69e22a6680c288fa5b8f4a3fce8b28e5e",
+      "alt": "네 자리 이하의 수 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-numbers-to-100/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g1-2-numbers-to-100/03-worksheet-2.webp",
+      "sha256": "acf1270512a7387d05cd31e4ef324475d483ed13c163d31fa7fb0517a5841f92",
+      "alt": "네 자리 이하의 수 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g1-2-numbers-to-100/04-answers.webp",
+      "thumbnailPath": "/workbooks/g1-2-numbers-to-100/04-answers.webp",
+      "sha256": "390364ff266e3ba35dc1123b885e15ae899121fe69c4582b40bb057f7a37e399",
+      "alt": "네 자리 이하의 수 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g1-2-numbers-to-100/g1-2-numbers-to-100.pdf",
+    "pageCount": 4,
+    "sha256": "d24e511967ca682617cf04eb8baded63c5fbda1bd4560a97b93446c7c717b798"
+  },
+  "transcriptPath": "/workbooks/g1-2-numbers-to-100/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

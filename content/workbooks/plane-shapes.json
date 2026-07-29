@@ -24,7 +24,18 @@
       "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-04.concept",
       "prompt": "가, 나, 다 중 세 변으로 둘러싸인 도형은 무엇인가요?",
       "answer": "나",
-      "explanation": "삼각형은 세 변으로 둘러싸입니다."
+      "explanation": "삼각형은 세 변으로 둘러싸입니다.",
+      "acceptableAnswers": [
+        "나"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[2수03-04] 평면도형과 그 구성 요소 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [2수03-04] 평면도형과 그 구성 요소 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'평면도형과 그 구성 요소'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [2수03-04]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
     },
     {
       "id": "q2",
@@ -33,7 +44,18 @@
       "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-03.concept",
       "prompt": "가, 나, 다 중 모서리가 없이 둥근 도형은 무엇인가요?",
       "answer": "가",
-      "explanation": "원은 모서리가 없이 둥글게 이어집니다."
+      "explanation": "원은 모서리가 없이 둥글게 이어집니다.",
+      "acceptableAnswers": [
+        "가"
+      ],
+      "unit": null,
+      "curriculumBasis": {
+        "evidence": [
+          "[2수03-03] 평면도형과 그 구성 요소 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [2수03-03] 평면도형과 그 구성 요소 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'평면도형과 그 구성 요소'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [2수03-03]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
     },
     {
       "id": "q3",
@@ -42,7 +64,18 @@
       "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-05.representation",
       "prompt": "삼각형의 변과 꼭짓점은 각각 몇 개인가요?",
       "answer": "변 3개, 꼭짓점 3개",
-      "explanation": "삼각형은 세 변과 세 꼭짓점이 있습니다."
+      "explanation": "삼각형은 세 변과 세 꼭짓점이 있습니다.",
+      "acceptableAnswers": [
+        "변 3개, 꼭짓점 3개"
+      ],
+      "unit": "개",
+      "curriculumBasis": {
+        "evidence": [
+          "[2수03-05] 평면도형과 그 구성 요소 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'평면도형과 그 구성 요소'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q4",
@@ -51,7 +84,18 @@
       "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-05.representation",
       "prompt": "사각형의 공통점을 두 가지 쓰세요.",
       "answer": "변 4개, 꼭짓점 4개",
-      "explanation": "사각형은 네 변과 네 꼭짓점을 가집니다."
+      "explanation": "사각형은 네 변과 네 꼭짓점을 가집니다.",
+      "acceptableAnswers": [
+        "변 4개, 꼭짓점 4개"
+      ],
+      "unit": "개",
+      "curriculumBasis": {
+        "evidence": [
+          "[2수03-05] 평면도형과 그 구성 요소 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'평면도형과 그 구성 요소'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q5",
@@ -60,7 +104,18 @@
       "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-03.application",
       "prompt": "삼각형 지붕 1개, 사각형 집 1개, 원 창문 1개로 만든 집에서 각 도형은 몇 개인가요?",
       "answer": "삼각형 1개, 사각형 1개, 원 1개",
-      "explanation": "집 그림을 도형별로 나누어 셉니다."
+      "explanation": "집 그림을 도형별로 나누어 셉니다.",
+      "acceptableAnswers": [
+        "삼각형 1개, 사각형 1개, 원 1개"
+      ],
+      "unit": "개",
+      "curriculumBasis": {
+        "evidence": [
+          "[2수03-03] 평면도형과 그 구성 요소 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [2수03-03] 평면도형과 그 구성 요소 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'평면도형과 그 구성 요소'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     },
     {
       "id": "q6",
@@ -69,7 +124,19 @@
       "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-04.application",
       "prompt": "같은 삼각형 두 개를 한 변끼리 맞대었습니다. 바깥쪽 변은 몇 개인가요?",
       "answer": "4개",
-      "explanation": "맞댄 두 변은 안쪽으로 들어가고 바깥쪽에 네 변이 남습니다."
+      "explanation": "맞댄 두 변은 안쪽으로 들어가고 바깥쪽에 네 변이 남습니다.",
+      "acceptableAnswers": [
+        "4개",
+        "4"
+      ],
+      "unit": "개",
+      "curriculumBasis": {
+        "evidence": [
+          "[2수03-04] 평면도형과 그 구성 요소 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [2수03-04] 평면도형과 그 구성 요소 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'평면도형과 그 구성 요소'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     }
   ],
   "pages": [
@@ -77,9 +144,9 @@
       "id": "cover",
       "order": 1,
       "role": "cover",
-      "imagePath": "/workbooks/plane-shapes/01-cover.png",
+      "imagePath": "/workbooks/plane-shapes/01-cover.webp",
       "thumbnailPath": "/workbooks/plane-shapes/01-cover.webp",
-      "sha256": "e172b8349857fd2d3a081fad7b6ad021d9fad64609e1ae06f2e1cd8180961288",
+      "sha256": "f6fa1a1f1ca2d75d87d2bdfce822a59ca5f63a38ec371146f1df1445042d0a08",
       "alt": "평면도형과 그 구성 요소 학습지 표지",
       "approved": true
     },
@@ -87,9 +154,9 @@
       "id": "worksheet-1",
       "order": 2,
       "role": "worksheet",
-      "imagePath": "/workbooks/plane-shapes/02-worksheet-1.png",
+      "imagePath": "/workbooks/plane-shapes/02-worksheet-1.webp",
       "thumbnailPath": "/workbooks/plane-shapes/02-worksheet-1.webp",
-      "sha256": "c107760e08fa6e1a811ea6b8af46ac50ec984812809b9d6db09a8f52a849cad4",
+      "sha256": "a71bdff1c7ee9f5944bab79e7eed4d1a9046d6e962df49b4482737a64338db7e",
       "alt": "평면도형 기초와 표준 문제 1쪽",
       "approved": true
     },
@@ -97,9 +164,9 @@
       "id": "worksheet-2",
       "order": 3,
       "role": "worksheet",
-      "imagePath": "/workbooks/plane-shapes/03-worksheet-2.png",
+      "imagePath": "/workbooks/plane-shapes/03-worksheet-2.webp",
       "thumbnailPath": "/workbooks/plane-shapes/03-worksheet-2.webp",
-      "sha256": "c1603fcdea9646e763529b0bf2d42b3cc00591752503a9a9a24bea04be8ef52c",
+      "sha256": "d024c1109ab1c8b858e920c2baa0d95582b9bd41398058e0b07f3249c3004b9f",
       "alt": "평면도형 표준과 도전 문제 2쪽",
       "approved": true
     },
@@ -107,9 +174,9 @@
       "id": "answers",
       "order": 4,
       "role": "answer",
-      "imagePath": "/workbooks/plane-shapes/04-answers.png",
+      "imagePath": "/workbooks/plane-shapes/04-answers.webp",
       "thumbnailPath": "/workbooks/plane-shapes/04-answers.webp",
-      "sha256": "fcc876cb6f3f90145d0ada43781760ffffd34df12710f13dc2e0980eb7a84a01",
+      "sha256": "0c153217a101ec9d23156b7ac756c6a6b29b55d548e94b9fa7513bf08b0a599a",
       "alt": "평면도형 정답과 풀이",
       "approved": true
     }
@@ -117,7 +184,7 @@
   "pdf": {
     "path": "/workbooks/plane-shapes/plane-shapes.pdf",
     "pageCount": 4,
-    "sha256": "56f41c78633f8bd4b153a1f15a83ee6a398ab644db9456895a559ae10b3dc6aa"
+    "sha256": "80544e20b70b5c0291c5de1272903ab0844476c46f355b8d4686f0953386aff6"
   },
   "transcriptPath": "/workbooks/plane-shapes/transcript.html",
   "license": "CC-BY-NC-SA-4.0",

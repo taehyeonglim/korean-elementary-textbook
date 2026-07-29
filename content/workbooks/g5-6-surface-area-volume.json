@@ -1,0 +1,200 @@
+{
+  "id": "g5-6-surface-area-volume",
+  "slug": "g5-6-surface-area-volume",
+  "title": "초등 수학 한 장: 입체도형의 겉넓이와 부피",
+  "gradeBand": "5-6",
+  "domain": "도형과 측정",
+  "module": "입체도형의 겉넓이와 부피",
+  "standardCodes": [
+    "[6수03-17]",
+    "[6수03-18]",
+    "[6수03-19]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수03-17]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-17.concept",
+      "prompt": "한 모서리의 길이가 2cm인 정육면체의 겉넓이를 구하세요.",
+      "answer": "24cm²",
+      "acceptableAnswers": [
+        "24cm²",
+        "24 cm²"
+      ],
+      "unit": "cm²",
+      "explanation": "한 면의 넓이는 2×2=4cm²이고 면이 6개이므로 4×6=24cm²입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-17] 입체도형의 겉넓이와 부피 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-17] 입체도형의 겉넓이와 부피 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'입체도형의 겉넓이와 부피'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-17]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수03-18]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-18.concept",
+      "prompt": "1m³는 몇 cm³인가요?",
+      "answer": "1,000,000cm³",
+      "acceptableAnswers": [
+        "1,000,000cm³",
+        "1000000cm³",
+        "1,000,000 cm³"
+      ],
+      "unit": "cm³",
+      "explanation": "1m=100cm이므로 1m³=100×100×100=1,000,000cm³입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-18] 입체도형의 겉넓이와 부피 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-18] 입체도형의 겉넓이와 부피 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'입체도형의 겉넓이와 부피'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-18]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수03-19]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-19.representation",
+      "prompt": "가로 4cm, 세로 3cm, 높이 2cm인 직육면체의 부피를 구하세요.",
+      "answer": "24cm³",
+      "acceptableAnswers": [
+        "24cm³",
+        "24 cm³"
+      ],
+      "unit": "cm³",
+      "explanation": "직육면체의 부피는 가로×세로×높이이므로 4×3×2=24cm³입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-19] 입체도형의 겉넓이와 부피 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'입체도형의 겉넓이와 부피'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수03-17]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-17.representation",
+      "prompt": "가로 5cm, 세로 4cm, 높이 3cm인 직육면체의 겉넓이를 구하세요.",
+      "answer": "94cm²",
+      "acceptableAnswers": [
+        "94cm²",
+        "94 cm²"
+      ],
+      "unit": "cm²",
+      "explanation": "서로 다른 세 면의 넓이는 5×4=20, 5×3=15, 4×3=12cm²입니다. 각각 두 면씩 있어 2×(20+15+12)=94cm²입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-17] 입체도형의 겉넓이와 부피 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'입체도형의 겉넓이와 부피'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수03-18]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-18.application",
+      "prompt": "부피가 1m³인 정육면체 상자를 1cm³짜리 작은 정육면체로 빈틈없이 채우면 작은 정육면체는 몇 개 필요한가요?",
+      "answer": "1,000,000개",
+      "acceptableAnswers": [
+        "1,000,000개",
+        "1000000개"
+      ],
+      "unit": "개",
+      "explanation": "1m³=1,000,000cm³이므로 1cm³짜리 작은 정육면체가 1,000,000개 필요합니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-18] 입체도형의 겉넓이와 부피 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-18] 입체도형의 겉넓이와 부피 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'입체도형의 겉넓이와 부피'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수03-19]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-19.application",
+      "prompt": "가로 6m, 세로 4m, 높이 3m인 직육면체 모양 물탱크의 부피는 몇 m³인가요?",
+      "answer": "72m³",
+      "acceptableAnswers": [
+        "72m³",
+        "72 m³"
+      ],
+      "unit": "m³",
+      "explanation": "물탱크의 부피는 6×4×3=72m³입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-19] 입체도형의 겉넓이와 부피 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-19] 입체도형의 겉넓이와 부피 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'입체도형의 겉넓이와 부피'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-surface-area-volume/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-surface-area-volume/01-cover.webp",
+      "sha256": "02a391d3015904160cf9ec0d8f2e85bc0d69f3ff1b7b2d2d0663673f8f95d860",
+      "alt": "입체도형의 겉넓이와 부피 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-surface-area-volume/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-surface-area-volume/02-worksheet-1.webp",
+      "sha256": "31ae0c88e16fe329148709897eabaa335c801a8051a0b95ba1b35a7b1b9d3ab5",
+      "alt": "입체도형의 겉넓이와 부피 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-surface-area-volume/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-surface-area-volume/03-worksheet-2.webp",
+      "sha256": "724f75af80b36362dfe0c36cdce0bde2592b53efc9da40a7b03d3e5e36c1988e",
+      "alt": "입체도형의 겉넓이와 부피 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-surface-area-volume/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-surface-area-volume/04-answers.webp",
+      "sha256": "e1c19d12bec4e9cad4d8608711dba960ca6bb883b7af26ef49a920244e25bcca",
+      "alt": "입체도형의 겉넓이와 부피 정답과 해설",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-surface-area-volume/g5-6-surface-area-volume.pdf",
+    "pageCount": 4,
+    "sha256": "de38c00ed15e94c7cec2b67eb894f7131fad48759a79b8af9f20a5dd8db3f8b1"
+  },
+  "transcriptPath": "/workbooks/g5-6-surface-area-volume/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

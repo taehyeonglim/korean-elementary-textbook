@@ -9,6 +9,7 @@ PDFs using the preserved GPT-generated covers plus the deterministic pages.
 from __future__ import annotations
 
 import argparse
+import base64
 import hashlib
 import html
 import json
@@ -23,12 +24,16 @@ from reportlab.lib.pagesizes import A4
 from reportlab.lib.utils import ImageReader
 from reportlab.pdfgen import canvas
 
+from diagram_registry import diagram_spec, load_registry, render as render_registry
+
 ROOT = Path(__file__).resolve().parents[1]
 CONTENT = ROOT / "content"
 PUBLIC = ROOT / "public"
 SVG_ROOT = ROOT / "artifacts" / "worksheet-svg"
 THEME_PATH = ROOT / "config" / "worksheet-theme.json"
 CATALOG_PATH = CONTENT / "catalog.json"
+COVER_REGISTRY_PATH = ROOT / "config" / "cover-masters.json"
+REGISTRY: dict[str, Any] = {}
 
 
 def read_json(path: Path) -> Any:
@@ -86,7 +91,7 @@ GEOMETRY_MARKERS = {
 }
 
 
-def diagram(workbook_id: str, question_index: int, x: int, y: int) -> str:
+def legacy_diagram(workbook_id: str, question_index: int, x: int, y: int) -> str:
     """Draw source-derived math aids from explicit geometry and numeric counts."""
     stroke = THEME["colors"]["brand"]
     accent = THEME["colors"]["accent"]
@@ -166,6 +171,28 @@ def diagram(workbook_id: str, question_index: int, x: int, y: int) -> str:
     return grid + lines + svg_text("계산 과정을 써 보세요", x + 104, y + 218, 17, muted, weight=700, anchor="middle")
 
 
+def resolved_spec(workbook: dict[str, Any], question: dict[str, Any]) -> dict[str, Any] | None:
+    return diagram_spec(REGISTRY, workbook["id"], question["id"])
+
+
+def diagram(workbook: dict[str, Any], question: dict[str, Any], question_index: int, x: int, y: int) -> str:
+    spec = resolved_spec(workbook, question)
+    if spec is not None:
+        return render_registry(spec, x, y, THEME)
+    if workbook["id"] in GEOMETRY_MARKERS:
+        return legacy_diagram(workbook["id"], question_index, x, y)
+    # A new module without a Sol registry entry can be rendered privately for
+    # author review, but uses no inferred mathematical result.
+    return render_registry(REGISTRY["defaults"], x, y, THEME)
+
+
+def geometry_marker(workbook: dict[str, Any], question: dict[str, Any], question_index: int) -> str:
+    spec = resolved_spec(workbook, question)
+    if spec is not None:
+        return spec.get("geometry", spec.get("type", spec.get("kind", "student-workspace")))
+    return GEOMETRY_MARKERS.get(workbook["id"], ["student-workspace"] * 6)[question_index]
+
+
 def page_shell(workbook: dict[str, Any], page_number: int, label: str) -> list[str]:
     c = THEME["colors"]
     width = THEME["canvas"]["width"]
@@ -196,6 +223,65 @@ def footer(parts: list[str]) -> None:
     parts.append("</g></svg>")
 
 
+def cover_svg(workbook: dict[str, Any], master: Path) -> str:
+    """Compose approved text-free masters with only JSON-derived metadata."""
+    c, canvas_config = THEME["colors"], THEME["canvas"]
+    source_data = base64.b64encode(master.read_bytes()).decode("ascii")
+    title_lines = wrap_korean(workbook["module"], 11)[:2]
+    if len(title_lines) > 2:
+        raise ValueError(f'{workbook["id"]}: cover title exceeds two lines')
+    width, height = canvas_config["width"], canvas_config["height"]
+    sx, sy = canvas_config["outputWidth"] / width, canvas_config["outputHeight"] / height
+    standards = " ".join(workbook["standardCodes"])
+    parts = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        f'<svg xmlns="http://www.w3.org/2000/svg" width="{canvas_config["physicalWidthMm"]}mm" height="{canvas_config["physicalHeightMm"]}mm" viewBox="0 0 {canvas_config["outputWidth"]} {canvas_config["outputHeight"]}" role="img">',
+        f'<image href="data:image/png;base64,{source_data}" x="0" y="0" width="{canvas_config["outputWidth"]}" height="{canvas_config["outputHeight"]}" preserveAspectRatio="xMidYMid slice"/>',
+        f'<g transform="scale({sx:.8f} {sy:.8f})">',
+        f'<rect x="72" y="72" width="880" height="118" rx="20" fill="{c["paper"]}" opacity=".95"/>',
+        svg_text("초등 수학 한 장", 104, 125, 28, c["brand"], weight=800),
+        svg_text(f'{workbook["gradeBand"]}학년군 · {workbook["domain"]}', 104, 166, 20, c["muted"], weight=700),
+        f'<rect x="72" y="892" width="880" height="300" rx="20" fill="{c["paper"]}" opacity=".95"/>',
+    ]
+    for index, line in enumerate(title_lines):
+        parts.append(svg_text(line, 104, 968 + index * 70, 54 if len(title_lines) == 1 else 46, c["brand"], weight=800))
+    parts.extend([
+        paragraph(standards, 104, 1138, 18, c["muted"], 56, 26, weight=700),
+        f'<rect x="72" y="1230" width="880" height="110" rx="20" fill="{c["paper"]}" opacity=".95"/>',
+        svg_text("기초", 240, 1298, 21, c["brand"], weight=800, anchor="middle"),
+        svg_text("표준", 512, 1298, 21, c["brand"], weight=800, anchor="middle"),
+        svg_text("도전", 784, 1298, 21, c["brand"], weight=800, anchor="middle"),
+        f'<rect x="72" y="1370" width="880" height="110" rx="20" fill="{c["paper"]}" opacity=".95"/>',
+        svg_text("Taehyeong Lim · CC BY-NC-SA 4.0", 104, 1412, 15, c["brand"], weight=700),
+        svg_text("이미지 제작에 공냥 프롬프트 킷을 사용했습니다.", 104, 1450, 15, c["brand"], weight=700),
+        "</g></svg>",
+    ])
+    return "\n".join(parts)
+
+
+def cover_master(workbook: dict[str, Any], registry: dict[str, Any]) -> Path:
+    domain_slug = registry.get("domainSlugs", {}).get(workbook["domain"])
+    if not domain_slug:
+        raise ValueError(f'{workbook["id"]}: no cover domain slug configured for {workbook["domain"]!r}')
+    expected = ROOT / "assets" / "cover-masters" / f'{workbook["gradeBand"]}-{domain_slug}.png'
+    match = next((item for item in registry.get("masters", []) if item.get("gradeBand") == workbook["gradeBand"] and item.get("domainSlug") == domain_slug and item.get("approved")), None)
+    if not match:
+        raise ValueError(f'{workbook["id"]}: no approved cover master registry entry for {workbook["gradeBand"]}/{domain_slug}')
+    if match.get("masterPath"):
+        expected = ROOT / match["masterPath"]
+    if not expected.exists():
+        raise ValueError(f'{workbook["id"]}: approved cover master missing: {expected.relative_to(ROOT)}')
+    prompt = ROOT / match["promptPath"]
+    if not prompt.exists() or sha256(prompt) != match.get("promptSha256"):
+        raise ValueError(f'{workbook["id"]}: cover master prompt hash does not match the approved registry')
+    if sha256(expected) != match.get("imageSha256"):
+        raise ValueError(f'{workbook["id"]}: cover master image hash does not match the approved registry')
+    with Image.open(expected) as image:
+        if image.size != (1024, 1536):
+            raise ValueError(f'{workbook["id"]}: cover master must be 1024x1536, got {image.size}')
+    return expected
+
+
 def problem_page(workbook: dict[str, Any], page_number: int, questions: list[dict[str, Any]], start_index: int) -> str:
     c = THEME["colors"]
     m = THEME["canvas"]["margin"]
@@ -212,8 +298,10 @@ def problem_page(workbook: dict[str, Any], page_number: int, questions: list[dic
         parts.append(svg_text(level_label(level), m + 94, y + 49, 17, c["ink"], weight=700, anchor="middle"))
         parts.append(svg_text(f"{start_index + index + 1}.", m + 30, y + 106, 32, c["brand"], weight=800))
         parts.append(paragraph(question["prompt"], m + 84, y + 104, THEME["type"]["body"], c["ink"], 25, 37, weight=650))
-        geometry = GEOMETRY_MARKERS[workbook["id"]][start_index + index]
-        parts.append(f'<g id="diagram-q{start_index + index + 1}" data-geometry="{geometry}">{diagram(workbook["id"], start_index + index, 724, y + 145)}</g>')
+        geometry = geometry_marker(workbook, question, start_index + index)
+        spec = resolved_spec(workbook, question)
+        kind = "legacy" if spec is None and workbook["id"] in GEOMETRY_MARKERS else (spec or REGISTRY["defaults"])["kind"]
+        parts.append(f'<g id="diagram-q{start_index + index + 1}" data-role="math-diagram" data-diagram-kind="{kind}" data-geometry="{geometry}">{diagram(workbook, question, start_index + index, 724, y + 145)}</g>')
         line_y = y + 270
         for line in range(3):
             parts.append(f'<line x1="{m + 34}" y1="{line_y + line * 42}" x2="{m + 618}" y2="{line_y + line * 42}" stroke="{c["line"]}" stroke-width="2"/>')
@@ -280,9 +368,13 @@ def sync_metadata(workbooks: list[tuple[Path, dict[str, Any]]]) -> None:
     for workbook_path, workbook in workbooks:
         for page in workbook["pages"]:
             page["sha256"] = sha256(PUBLIC / page["imagePath"].lstrip("/"))
-        workbook["pdf"]["sha256"] = sha256(PUBLIC / workbook["pdf"]["path"].lstrip("/"))
+        pdf_path = PUBLIC / workbook["pdf"]["path"].lstrip("/")
+        if pdf_path.exists():
+            workbook["pdf"]["sha256"] = sha256(pdf_path)
         workbook_path.write_text(json.dumps(workbook, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    catalog["workbooks"] = [by_id[item["id"]] for item in catalog["workbooks"]]
+    # A targeted repair may regenerate only the affected workbook pages. Keep
+    # all unrelated catalog records byte-for-byte as supplied by their owners.
+    catalog["workbooks"] = [by_id.get(item["id"], item) for item in catalog["workbooks"]]
     CATALOG_PATH.write_text(json.dumps(catalog, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
@@ -297,7 +389,9 @@ def load_workbooks(selected: set[str] | None) -> list[tuple[Path, dict[str, Any]
     return workbooks
 
 
-def render(workbooks: list[tuple[Path, dict[str, Any]]]) -> None:
+def render(workbooks: list[tuple[Path, dict[str, Any]]], *, rebuild_covers: bool) -> list[str]:
+    cover_registry = read_json(COVER_REGISTRY_PATH)
+    incomplete: list[str] = []
     for _, workbook in workbooks:
         if len(workbook.get("questions", [])) != 6:
             raise ValueError(f'{workbook["id"]}: exactly six JSON questions are required')
@@ -314,6 +408,13 @@ def render(workbooks: list[tuple[Path, dict[str, Any]]]) -> None:
             ("worksheet-2", problem_page(workbook, 3, workbook["questions"][3:], 3)),
             ("answers", answer_page(workbook)),
         ]
+        if rebuild_covers:
+            cover = pages["cover"]
+            source_path = svg_dir / Path(cover["imagePath"]).with_suffix(".svg").name
+            png_path = PUBLIC / cover["imagePath"].lstrip("/")
+            webp_path = PUBLIC / cover["thumbnailPath"].lstrip("/")
+            source_path.write_text(cover_svg(workbook, cover_master(workbook, cover_registry)), encoding="utf-8")
+            rasterize(source_path, png_path, webp_path)
         for page_id, source in page_specs:
             page = pages[page_id]
             source_path = svg_dir / Path(page["imagePath"]).with_suffix(".svg").name
@@ -323,23 +424,28 @@ def render(workbooks: list[tuple[Path, dict[str, Any]]]) -> None:
             rasterize(source_path, png_path, webp_path)
         cover = PUBLIC / pages["cover"]["imagePath"].lstrip("/")
         if not cover.exists():
-            raise ValueError(f'{workbook["id"]}: preserved cover is missing: {cover}')
+            incomplete.append(workbook["id"])
+            print(f'Rendered {workbook["id"]}: 3 deterministic pages; no approved cover so PDF/publication is blocked')
+            continue
         build_pdf(workbook, PUBLIC / workbook["pdf"]["path"].lstrip("/"))
         print(f'Rendered {workbook["id"]}: 3 deterministic pages + 4-page PDF')
+    return incomplete
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--workbook", action="append", help="Workbook ID to render; repeatable. Defaults to all.")
     parser.add_argument("--sync-metadata", action="store_true", help="Update generated PNG/PDF SHA-256 values in workbook JSON and catalog.")
+    parser.add_argument("--rebuild-covers", action="store_true", help="Compose 01-cover from approved grade-band/domain cover masters.")
     args = parser.parse_args()
-    global THEME
+    global THEME, REGISTRY
     THEME = read_json(THEME_PATH)
+    REGISTRY = load_registry()
     workbooks = load_workbooks(set(args.workbook) if args.workbook else None)
-    render(workbooks)
+    incomplete = render(workbooks, rebuild_covers=args.rebuild_covers)
+    if incomplete and any(workbook["published"] for _, workbook in workbooks if workbook["id"] in incomplete):
+        raise ValueError(f"Published workbooks require approved covers before publication: {', '.join(incomplete)}")
     if args.sync_metadata:
-        if args.workbook:
-            raise ValueError("--sync-metadata requires rendering all workbooks so the catalog remains consistent")
         sync_metadata(workbooks)
         print("Synchronized generated PNG/PDF hashes into content metadata.")
     return 0

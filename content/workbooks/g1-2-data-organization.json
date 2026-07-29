@@ -1,0 +1,183 @@
+{
+  "id": "g1-2-data-organization",
+  "slug": "g1-2-data-organization",
+  "title": "초등 수학 한 장: 자료의 정리",
+  "gradeBand": "1-2",
+  "domain": "자료와 가능성",
+  "module": "자료의 정리",
+  "standardCodes": [
+    "[2수04-01]",
+    "[2수04-02]",
+    "[2수04-03]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[2수04-01]",
+      "topicId": "kr.mt.math.data-probability.g1-2.s2-04-01.application",
+      "prompt": "사과 3개, 배 2개, 포도 4송이를 종류별로 분류했습니다. 가장 많은 것은 무엇인가요?",
+      "answer": "포도",
+      "acceptableAnswers": [
+        "포도",
+        "포도 4송이"
+      ],
+      "unit": null,
+      "explanation": "사과 3, 배 2, 포도 4이므로 포도가 가장 많습니다.",
+      "curriculumBasis": {
+        "evidence": "[2수04-01] 자료의 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자료의 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[2수04-02]",
+      "topicId": "kr.mt.math.data-probability.g1-2.s2-04-02.application",
+      "prompt": "좋아하는 동물을 조사한 표에서 고양이 4명, 강아지 3명, 토끼 2명입니다. 조사한 학생은 모두 몇 명인가요?",
+      "answer": "9명",
+      "acceptableAnswers": [
+        "9명",
+        "9"
+      ],
+      "unit": "명",
+      "explanation": "4+3+2=9이므로 모두 9명입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수04-02] 자료의 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자료의 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[2수04-03]",
+      "topicId": "kr.mt.math.data-probability.g1-2.s2-04-03.application",
+      "prompt": "○ 한 개가 1명을 나타내는 그래프에서 가 5개, 나 3개, 다 4개입니다. 가장 많은 항목은 무엇인가요?",
+      "answer": "가",
+      "acceptableAnswers": [
+        "가",
+        "가 항목"
+      ],
+      "unit": null,
+      "explanation": "○의 수가 각각 5, 3, 4이므로 가가 가장 많습니다.",
+      "curriculumBasis": {
+        "evidence": "[2수04-03] 자료의 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자료의 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[2수04-01]",
+      "topicId": "kr.mt.math.data-probability.g1-2.s2-04-01.application",
+      "prompt": "빨간 단추 4개와 파란 단추 3개를 색에 따라 분류했습니다. 분류 기준과 각 모둠의 개수를 쓰세요.",
+      "answer": "색, 빨강 4개·파랑 3개",
+      "acceptableAnswers": [
+        "색, 빨강 4개·파랑 3개",
+        "색깔; 빨간색 4개, 파란색 3개"
+      ],
+      "unit": "개",
+      "explanation": "색을 기준으로 나누면 빨강 모둠 4개와 파랑 모둠 3개가 됩니다.",
+      "curriculumBasis": {
+        "evidence": "[2수04-01] 자료의 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자료의 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[2수04-02]",
+      "topicId": "kr.mt.math.data-probability.g1-2.s2-04-02.application",
+      "prompt": "자료를 표로 나타내면 편리한 점을 한 가지 쓰세요.",
+      "answer": "항목별 개수를 한눈에 비교할 수 있습니다.",
+      "acceptableAnswers": [
+        "항목별 개수를 한눈에 비교할 수 있습니다.",
+        "개수를 쉽게 비교할 수 있습니다.",
+        "자료를 알아보기 쉽습니다."
+      ],
+      "unit": null,
+      "explanation": "표는 항목과 개수를 가지런히 보여 주어 자료를 비교하기 편리합니다.",
+      "curriculumBasis": {
+        "evidence": "[2수04-02] 자료의 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자료의 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[2수04-03]",
+      "topicId": "kr.mt.math.data-probability.g1-2.s2-04-03.application",
+      "prompt": "교통수단 표에서 버스 4명, 걷기 2명, 자전거 3명입니다. ○ 한 개를 1명으로 하여 자전거 그래프를 나타내세요.",
+      "answer": "○○○",
+      "acceptableAnswers": [
+        "○○○",
+        "○ ○ ○",
+        "원 3개"
+      ],
+      "unit": "명",
+      "explanation": "자전거는 3명이므로 ○를 3개 그립니다.",
+      "curriculumBasis": {
+        "evidence": "[2수04-03] 자료의 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자료의 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g1-2-data-organization/01-cover.webp",
+      "thumbnailPath": "/workbooks/g1-2-data-organization/01-cover.webp",
+      "sha256": "355e2c383dcfb17b4f9b798990ce63e36ab0d7591edd6a3191df3168e17a0eb2",
+      "alt": "자료의 정리 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-data-organization/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g1-2-data-organization/02-worksheet-1.webp",
+      "sha256": "027038b18c1c21131b86d860b700460fdff53e5a27406f1bdb68ab951d1461c2",
+      "alt": "자료의 정리 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-data-organization/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g1-2-data-organization/03-worksheet-2.webp",
+      "sha256": "212efbc4ac2112a1095dcae59161c3da4bf16e41e6ece6ac407bfc86a2b33de2",
+      "alt": "자료의 정리 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g1-2-data-organization/04-answers.webp",
+      "thumbnailPath": "/workbooks/g1-2-data-organization/04-answers.webp",
+      "sha256": "03d444e119a6b621a6d6e37bd6a01944280e3a72afcf9126305a6f3a99b5a90d",
+      "alt": "자료의 정리 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g1-2-data-organization/g1-2-data-organization.pdf",
+    "pageCount": 4,
+    "sha256": "80347740ca2060aa0fde7e3196efab964a1d7206cdf4ffc73678986d8df147d2"
+  },
+  "transcriptPath": "/workbooks/g1-2-data-organization/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

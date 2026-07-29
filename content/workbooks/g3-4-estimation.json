@@ -1,0 +1,184 @@
+{
+  "id": "g3-4-estimation",
+  "slug": "g3-4-estimation",
+  "title": "초등 수학 한 장: 자연수의 어림셈",
+  "gradeBand": "3-4",
+  "domain": "수와 연산",
+  "module": "자연수의 어림셈",
+  "standardCodes": [
+    "[4수01-08]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수01-08]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-08.concept",
+      "prompt": "398+205를 각각 백의 자리까지 어림하여 계산하세요.",
+      "answer": "약 600",
+      "acceptableAnswers": [
+        "약 600",
+        "600"
+      ],
+      "unit": null,
+      "explanation": "398은 약 400, 205는 약 200이므로 합은 약 600입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-08] 자연수의 어림셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'자연수의 어림셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수01-08]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수01-08]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-08.representation",
+      "prompt": "801-297을 각각 백의 자리까지 어림하여 계산하세요.",
+      "answer": "약 500",
+      "acceptableAnswers": [
+        "약 500",
+        "500"
+      ],
+      "unit": null,
+      "explanation": "801은 약 800, 297은 약 300이므로 차는 약 500입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-08] 자연수의 어림셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'자연수의 어림셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수01-08]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-08.representation",
+      "prompt": "49×21을 각각 십의 자리까지 어림하여 계산하세요.",
+      "answer": "약 1,000",
+      "acceptableAnswers": [
+        "약 1,000",
+        "약 1000",
+        "1,000",
+        "1000"
+      ],
+      "unit": null,
+      "explanation": "49는 약 50, 21은 약 20이므로 50×20=1,000입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-08] 자연수의 어림셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'자연수의 어림셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수01-08]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-08.application",
+      "prompt": "798÷41을 800÷40으로 어림하여 계산하세요.",
+      "answer": "약 20",
+      "acceptableAnswers": [
+        "약 20",
+        "20"
+      ],
+      "unit": null,
+      "explanation": "798을 800으로, 41을 40으로 보면 800÷40=20입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-08] 자연수의 어림셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자연수의 어림셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수01-08]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-08.application",
+      "prompt": "두 공연의 관람객이 1,976명과 3,084명입니다. 각각 백의 자리까지 반올림하여 전체 관람객 수를 어림하세요.",
+      "answer": "약 5,100명",
+      "acceptableAnswers": [
+        "약 5,100명",
+        "약 5100명",
+        "5,100명",
+        "5100명"
+      ],
+      "unit": "명",
+      "explanation": "1,976은 2,000, 3,084는 3,100으로 어림되므로 합은 약 5,100명입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-08] 자연수의 어림셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자연수의 어림셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수01-08]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-08.application",
+      "prompt": "3,048명을 한 대에 45명씩 태웁니다. 3,048을 3,000으로, 45를 50으로 어림하면 버스는 몇 대쯤인가요?",
+      "answer": "약 60대",
+      "acceptableAnswers": [
+        "약 60대",
+        "60대",
+        "약 60 대"
+      ],
+      "unit": "대",
+      "explanation": "3,000÷50=60이므로 버스는 약 60대로 어림할 수 있습니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-08] 자연수의 어림셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자연수의 어림셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-estimation/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-estimation/01-cover.webp",
+      "sha256": "3faa78d97f188e66bc2905277ac2ec88e9d76b3d9476222f47c1f8722b17ece1",
+      "alt": "자연수의 어림셈 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-estimation/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-estimation/02-worksheet-1.webp",
+      "sha256": "3ec51a40490fdb76613ab5f0b74e93769652da24fdc07c51e78d0cf07fc926b5",
+      "alt": "자연수의 어림셈 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-estimation/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-estimation/03-worksheet-2.webp",
+      "sha256": "b069b206b6cbad47f0c8b65c11adf7aded60faa8adb41d4cc6c9ce49e65aa5d2",
+      "alt": "자연수의 어림셈 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-estimation/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-estimation/04-answers.webp",
+      "sha256": "24467cbe73937079440c60cd14b6b8d8e3ad945e065e36dacfb871600e7f7259",
+      "alt": "자연수의 어림셈 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-estimation/g3-4-estimation.pdf",
+    "pageCount": 4,
+    "sha256": "060d87255b5fb5fcba5df649e590f9da1097a37ddac509ec5da38f6d7b6a14f0"
+  },
+  "transcriptPath": "/workbooks/g3-4-estimation/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

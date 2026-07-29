@@ -1,0 +1,177 @@
+{
+  "id": "g3-4-decimal-addition-subtraction",
+  "slug": "g3-4-decimal-addition-subtraction",
+  "title": "초등 수학 한 장: 소수의 덧셈과 뺄셈",
+  "gradeBand": "3-4",
+  "domain": "수와 연산",
+  "module": "소수의 덧셈과 뺄셈",
+  "standardCodes": [
+    "[4수01-16]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수01-16]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-16.concept",
+      "prompt": "2.3+1.4를 계산하세요.",
+      "answer": "3.7",
+      "acceptableAnswers": [
+        "3.7",
+        "3.70"
+      ],
+      "unit": null,
+      "explanation": "소수점을 맞추어 3/10+4/10=7/10으로 계산하면 3.7입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-16] 소수의 덧셈과 뺄셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'소수의 덧셈과 뺄셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수01-16]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수01-16]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-16.representation",
+      "prompt": "5.8-2.6을 계산하세요.",
+      "answer": "3.2",
+      "acceptableAnswers": [
+        "3.2",
+        "3.20"
+      ],
+      "unit": null,
+      "explanation": "소수점을 맞추어 빼면 5.8-2.6=3.2입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-16] 소수의 덧셈과 뺄셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'소수의 덧셈과 뺄셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수01-16]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-16.representation",
+      "prompt": "4.75+3.6을 계산하세요.",
+      "answer": "8.35",
+      "acceptableAnswers": [
+        "8.35"
+      ],
+      "unit": null,
+      "explanation": "3.6을 3.60으로 나타내어 소수점을 맞추면 4.75+3.60=8.35입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-16] 소수의 덧셈과 뺄셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'소수의 덧셈과 뺄셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수01-16]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-16.application",
+      "prompt": "9.02-4.87을 계산하세요.",
+      "answer": "4.15",
+      "acceptableAnswers": [
+        "4.15"
+      ],
+      "unit": null,
+      "explanation": "소수점을 맞추고 받아내림하여 계산하면 9.02-4.87=4.15입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-16] 소수의 덧셈과 뺄셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'소수의 덧셈과 뺄셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수01-16]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-16.application",
+      "prompt": "두 리본의 길이가 12.45m와 7.8m입니다. 이어 붙인 전체 길이는 몇 m인가요?",
+      "answer": "20.25m",
+      "acceptableAnswers": [
+        "20.25m",
+        "20.25 m"
+      ],
+      "unit": "m",
+      "explanation": "7.8을 7.80으로 나타내면 12.45+7.80=20.25이므로 20.25m입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-16] 소수의 덧셈과 뺄셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'소수의 덧셈과 뺄셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수01-16]",
+      "topicId": "kr.mt.math.number-operations.g3-4.s4-01-16.application",
+      "prompt": "물 15L 중 3.78L와 4.95L를 사용했습니다. 남은 물은 몇 L인가요?",
+      "answer": "6.27L",
+      "acceptableAnswers": [
+        "6.27L",
+        "6.27 L"
+      ],
+      "unit": "L",
+      "explanation": "사용한 물은 3.78+4.95=8.73L이고, 남은 물은 15.00-8.73=6.27L입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수01-16] 소수의 덧셈과 뺄셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'소수의 덧셈과 뺄셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-decimal-addition-subtraction/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-decimal-addition-subtraction/01-cover.webp",
+      "sha256": "c1b02ecd2549a4db372f6119e5642d17245bd0a84333716eaca6d8e5ee3c2add",
+      "alt": "소수의 덧셈과 뺄셈 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-decimal-addition-subtraction/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-decimal-addition-subtraction/02-worksheet-1.webp",
+      "sha256": "d85a2983a5471476c7c2284e538514444e94aa702a768a277b228aa4866cca65",
+      "alt": "소수의 덧셈과 뺄셈 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-decimal-addition-subtraction/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-decimal-addition-subtraction/03-worksheet-2.webp",
+      "sha256": "a00a9140a7e29f1cde842df2c481d4f0afcab3d7a49ed015379ecc6227f08ea2",
+      "alt": "소수의 덧셈과 뺄셈 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-decimal-addition-subtraction/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-decimal-addition-subtraction/04-answers.webp",
+      "sha256": "4c86dc8ff27575d209eb04d82120f908b625da289fa83e2ee1a6ad936e06da1c",
+      "alt": "소수의 덧셈과 뺄셈 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-decimal-addition-subtraction/g3-4-decimal-addition-subtraction.pdf",
+    "pageCount": 4,
+    "sha256": "25ef3ef3ed692c6aaca5b3117721c7a3f69c712c1a103b61e022f682dd40ada8"
+  },
+  "transcriptPath": "/workbooks/g3-4-decimal-addition-subtraction/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

@@ -1,0 +1,188 @@
+{
+  "id": "g1-2-length",
+  "slug": "g1-2-length",
+  "title": "초등 수학 한 장: 길이",
+  "gradeBand": "1-2",
+  "domain": "도형과 측정",
+  "module": "길이",
+  "standardCodes": [
+    "[2수03-10]",
+    "[2수03-11]",
+    "[2수03-12]",
+    "[2수03-13]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[2수03-10]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-10.application",
+      "prompt": "연필의 한쪽 끝이 자의 0cm, 다른 쪽 끝이 8cm 눈금에 있습니다. 연필의 길이는 얼마인가요?",
+      "answer": "8cm",
+      "acceptableAnswers": [
+        "8cm",
+        "8 cm",
+        "8센티미터"
+      ],
+      "unit": "cm",
+      "explanation": "0cm부터 8cm까지의 길이는 8cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-10] 길이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'길이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[2수03-11]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-11.application",
+      "prompt": "2m 35cm를 cm로 나타내세요.",
+      "answer": "235cm",
+      "acceptableAnswers": [
+        "235cm",
+        "235 cm",
+        "235센티미터"
+      ],
+      "unit": "cm",
+      "explanation": "2m는 200cm이므로 200+35=235cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-11] 길이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'길이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[2수03-12]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-12.application",
+      "prompt": "보통 연필 한 자루의 길이로 가장 알맞은 것을 고르세요: 2cm, 15cm, 2m",
+      "answer": "15cm",
+      "acceptableAnswers": [
+        "15cm",
+        "15 cm",
+        "15센티미터"
+      ],
+      "unit": "cm",
+      "explanation": "연필 한 자루는 2cm보다 길고 2m보다 훨씬 짧으므로 약 15cm가 알맞습니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-12] 길이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'길이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[2수03-13]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-13.application",
+      "prompt": "45cm인 리본과 27cm인 리본을 이어 붙였습니다. 전체 길이는 얼마인가요?",
+      "answer": "72cm",
+      "acceptableAnswers": [
+        "72cm",
+        "72 cm",
+        "72센티미터"
+      ],
+      "unit": "cm",
+      "explanation": "45+27=72이므로 전체 길이는 72cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-13] 길이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'길이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[2수03-11]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-11.application",
+      "prompt": "164cm를 몇 m 몇 cm로 나타내세요.",
+      "answer": "1m 64cm",
+      "acceptableAnswers": [
+        "1m 64cm",
+        "1 m 64 cm",
+        "1미터 64센티미터"
+      ],
+      "unit": null,
+      "explanation": "164cm는 100cm와 64cm이므로 1m 64cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-11] 길이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'길이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[2수03-13]",
+      "topicId": "kr.mt.math.geometry-measurement.g1-2.s2-03-13.application",
+      "prompt": "2m 30cm인 끈에서 80cm를 잘랐습니다. 남은 길이는 몇 m 몇 cm인가요?",
+      "answer": "1m 50cm",
+      "acceptableAnswers": [
+        "1m 50cm",
+        "1 m 50 cm",
+        "150cm"
+      ],
+      "unit": null,
+      "explanation": "2m 30cm는 230cm이고, 230-80=150cm이므로 1m 50cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[2수03-13] 길이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'길이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g1-2-length/01-cover.webp",
+      "thumbnailPath": "/workbooks/g1-2-length/01-cover.webp",
+      "sha256": "ffab577389890463fbb3bfcf3361ed1db48dd62eb5a78b7f3b6630f52527d77a",
+      "alt": "길이 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-length/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g1-2-length/02-worksheet-1.webp",
+      "sha256": "b372d9cd38524ac46f0d2d5a25ce1eeaca9f11cad520cfb1bff1dad04ce8e734",
+      "alt": "길이 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g1-2-length/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g1-2-length/03-worksheet-2.webp",
+      "sha256": "af8db71e245f90dc6ca02ee3824377ffa1d5af1099b5b915ea9088bb7fd65cf4",
+      "alt": "길이 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g1-2-length/04-answers.webp",
+      "thumbnailPath": "/workbooks/g1-2-length/04-answers.webp",
+      "sha256": "0098db403cbac9870e8f7d8715ef92fce17423014136fe09d438051c3a046b02",
+      "alt": "길이 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g1-2-length/g1-2-length.pdf",
+    "pageCount": 4,
+    "sha256": "5fd58ea280f82eed9c585922b5c0f9328f376595e5109483fca2cc27b9841c8b"
+  },
+  "transcriptPath": "/workbooks/g1-2-length/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

@@ -1,0 +1,185 @@
+{
+  "id": "g3-4-capacity",
+  "slug": "g3-4-capacity",
+  "title": "초등 수학 한 장: 들이",
+  "gradeBand": "3-4",
+  "domain": "도형과 측정",
+  "module": "들이",
+  "standardCodes": [
+    "[4수03-17]",
+    "[4수03-18]",
+    "[4수03-19]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수03-17]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-17.concept",
+      "prompt": "약을 먹는 작은 숟가락 한 개의 들이로 알맞은 것은 5mL와 5L 중 무엇인가요?",
+      "answer": "5mL",
+      "acceptableAnswers": [
+        "5mL",
+        "5 mL"
+      ],
+      "unit": "mL",
+      "explanation": "작은 숟가락의 들이는 매우 적으므로 5mL가 알맞습니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-17] 들이 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'들이'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-17]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수03-18]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-18.representation",
+      "prompt": "2L 350mL를 몇 mL로 나타낼 수 있나요?",
+      "answer": "2,350mL",
+      "acceptableAnswers": [
+        "2,350mL",
+        "2350mL",
+        "2,350 mL",
+        "2350 mL"
+      ],
+      "unit": "mL",
+      "explanation": "1L=1,000mL이므로 2L 350mL=2,000mL+350mL=2,350mL입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-18] 들이 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'들이'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수03-19]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-19.representation",
+      "prompt": "1L 750mL와 850mL를 더하면 몇 L 몇 mL인가요?",
+      "answer": "2L 600mL",
+      "acceptableAnswers": [
+        "2L 600mL",
+        "2 L 600 mL",
+        "2,600mL",
+        "2600mL"
+      ],
+      "unit": null,
+      "explanation": "1,750mL+850mL=2,600mL이고, 2,600mL=2L 600mL입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-19] 들이 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'들이'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수03-17]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-17.application",
+      "prompt": "청소용 물통 한 개의 들이를 어림한 값으로 알맞은 것은 8mL, 8L, 800L 중 무엇인가요?",
+      "answer": "8L",
+      "acceptableAnswers": [
+        "8L",
+        "8 L"
+      ],
+      "unit": "L",
+      "explanation": "손으로 들 수 있는 청소용 물통의 들이는 보통 몇 L이므로 8L가 알맞습니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-17] 들이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'들이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수03-18]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-18.application",
+      "prompt": "4,250mL를 몇 L 몇 mL로 나타낼 수 있나요?",
+      "answer": "4L 250mL",
+      "acceptableAnswers": [
+        "4L 250mL",
+        "4 L 250 mL"
+      ],
+      "unit": null,
+      "explanation": "4,250mL=4,000mL+250mL이고 4,000mL=4L이므로 4L 250mL입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-18] 들이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'들이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수03-19]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-19.application",
+      "prompt": "물 5L 중 1L 875mL와 2L 450mL를 사용했습니다. 남은 물은 몇 mL인가요?",
+      "answer": "675mL",
+      "acceptableAnswers": [
+        "675mL",
+        "675 mL"
+      ],
+      "unit": "mL",
+      "explanation": "사용한 물은 1,875+2,450=4,325mL이고, 5,000-4,325=675mL입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-19] 들이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'들이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-capacity/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-capacity/01-cover.webp",
+      "sha256": "49167e7cae0a8937ba8dbca1e3414ed031104a01561c39706e07c6c948142d35",
+      "alt": "들이 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-capacity/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-capacity/02-worksheet-1.webp",
+      "sha256": "55da9129b2d9a8914d8f25207bb7b10d4398e0e1ce1883ca84433e8996bf82eb",
+      "alt": "들이 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-capacity/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-capacity/03-worksheet-2.webp",
+      "sha256": "35fc11513109663c19128bf3449206bcd82d9f523a88dfa7bdeadcc9dad5611e",
+      "alt": "들이 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-capacity/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-capacity/04-answers.webp",
+      "sha256": "e30ed63a3124b3fb8fceb6f814965334b7f37966c803362f469c6d2044122032",
+      "alt": "들이 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-capacity/g3-4-capacity.pdf",
+    "pageCount": 4,
+    "sha256": "c8a9ecb978474f9f5a6d5c14031bd13f89096a69cacce010b25119c87b3678ca"
+  },
+  "transcriptPath": "/workbooks/g3-4-capacity/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

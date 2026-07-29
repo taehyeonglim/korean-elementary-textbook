@@ -13,7 +13,7 @@
 <text x="166" y="262" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >기본 완성</text>
 <text x="102" y="319" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >4.</text>
 <text x="156" y="317" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">사각형의 공통점을 두 가지 쓰세요.</tspan></text>
-<g id="diagram-q4" data-geometry="quadrilateral;sides=4"><rect x="742" y="400" width="72" height="72" fill="#EAF2FB" stroke="#1E3A5F" stroke-width="5"/><polygon points="846,400 926,416 908,480 830,464" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="5"/><text x="834" y="530" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="19" font-weight="700" fill="#51606F" text-anchor="middle" >여러 사각형</text></g>
+<g id="diagram-q4" data-role="math-diagram" data-diagram-kind="legacy" data-geometry="quadrilateral;sides=4"><rect x="742" y="400" width="72" height="72" fill="#EAF2FB" stroke="#1E3A5F" stroke-width="5"/><polygon points="846,400 926,416 908,480 830,464" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="5"/><text x="834" y="530" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="19" font-weight="700" fill="#51606F" text-anchor="middle" >여러 사각형</text></g>
 <line x1="106" y1="483" x2="690" y2="483" stroke="#CFD7DE" stroke-width="2"/>
 <line x1="106" y1="525" x2="690" y2="525" stroke="#CFD7DE" stroke-width="2"/>
 <line x1="106" y1="567" x2="690" y2="567" stroke="#CFD7DE" stroke-width="2"/>
@@ -24,7 +24,7 @@
 <text x="166" y="675" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >도전 확장</text>
 <text x="102" y="732" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >5.</text>
 <text x="156" y="730" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">삼각형 지붕 1개, 사각형 집 1개, 원 창문</tspan><tspan x="156" dy="37">1개로 만든 집에서 각 도형은 몇 개인가요?</tspan></text>
-<g id="diagram-q5" data-geometry="house=triangle1,rectangle1,circle1"><polygon points="754,851 828,789 902,851" fill="#EAF2FB" stroke="#1E3A5F" stroke-width="5"/><rect x="778" y="851" width="100" height="80" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="5"/><circle cx="828" cy="891" r="18" fill="#E87A4B"/></g>
+<g id="diagram-q5" data-role="math-diagram" data-diagram-kind="legacy" data-geometry="house=triangle1,rectangle1,circle1"><polygon points="754,851 828,789 902,851" fill="#EAF2FB" stroke="#1E3A5F" stroke-width="5"/><rect x="778" y="851" width="100" height="80" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="5"/><circle cx="828" cy="891" r="18" fill="#E87A4B"/></g>
 <line x1="106" y1="896" x2="690" y2="896" stroke="#CFD7DE" stroke-width="2"/>
 <line x1="106" y1="938" x2="690" y2="938" stroke="#CFD7DE" stroke-width="2"/>
 <line x1="106" y1="980" x2="690" y2="980" stroke="#CFD7DE" stroke-width="2"/>
@@ -35,7 +35,7 @@
 <text x="166" y="1088" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >도전 확장</text>
 <text x="102" y="1145" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >6.</text>
 <text x="156" y="1143" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">같은 삼각형 두 개를 한 변끼리 맞대었습니다.</tspan><tspan x="156" dy="37">바깥쪽 변은 몇 개인가요?</tspan></text>
-<g id="diagram-q6" data-geometry="equilateral-triangles=2;shared-side=1;exterior=4"><polygon points="776,1297 881,1297 828.5,1206" fill="#EAF2FB" stroke="#1E3A5F" stroke-width="5"/><polygon points="776,1297 881,1297 828.5,1388" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="5"/><line x1="776" y1="1297" x2="881" y2="1297" stroke="#E87A4B" stroke-width="5"/><text x="829" y="1415" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="700" fill="#51606F" text-anchor="middle" >바깥쪽 변 ___개</text></g>
+<g id="diagram-q6" data-role="math-diagram" data-diagram-kind="legacy" data-geometry="equilateral-triangles=2;shared-side=1;exterior=4"><polygon points="776,1297 881,1297 828.5,1206" fill="#EAF2FB" stroke="#1E3A5F" stroke-width="5"/><polygon points="776,1297 881,1297 828.5,1388" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="5"/><line x1="776" y1="1297" x2="881" y2="1297" stroke="#E87A4B" stroke-width="5"/><text x="829" y="1415" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="700" fill="#51606F" text-anchor="middle" >바깥쪽 변 ___개</text></g>
 <line x1="106" y1="1309" x2="690" y2="1309" stroke="#CFD7DE" stroke-width="2"/>
 <line x1="106" y1="1351" x2="690" y2="1351" stroke="#CFD7DE" stroke-width="2"/>
 <line x1="106" y1="1393" x2="690" y2="1393" stroke="#CFD7DE" stroke-width="2"/>

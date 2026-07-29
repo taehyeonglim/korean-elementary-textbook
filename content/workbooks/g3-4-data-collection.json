@@ -1,0 +1,182 @@
+{
+  "id": "g3-4-data-collection",
+  "slug": "g3-4-data-collection",
+  "title": "초등 수학 한 장: 자료의 수집과 정리",
+  "gradeBand": "3-4",
+  "domain": "자료와 가능성",
+  "module": "자료의 수집과 정리",
+  "standardCodes": [
+    "[4수04-01]",
+    "[4수04-02]",
+    "[4수04-03]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수04-01]",
+      "topicId": "kr.mt.math.data-probability.g3-4.s4-04-01.concept",
+      "prompt": "막대그래프에 읽은 책 수가 월요일 3권, 화요일 5권, 수요일 4권으로 나타나 있습니다. 가장 많이 읽은 요일과 책 수를 쓰세요.",
+      "answer": "화요일, 5권",
+      "acceptableAnswers": [
+        "화요일, 5권",
+        "화요일 5권",
+        "화요일에 5권"
+      ],
+      "unit": "권",
+      "explanation": "월요일 3권, 화요일 5권, 수요일 4권 중 5권이 가장 많으므로 화요일입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수04-01] 자료의 수집과 정리 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수04-01]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수04-02]",
+      "topicId": "kr.mt.math.data-probability.g3-4.s4-04-02.representation",
+      "prompt": "꺾은선그래프의 기온이 월요일 18°C, 화요일 21°C, 수요일 19°C, 목요일 24°C입니다. 기온이 가장 많이 오른 때와 오른 값을 쓰세요.",
+      "answer": "수요일에서 목요일, 5°C",
+      "acceptableAnswers": [
+        "수요일에서 목요일, 5°C",
+        "수요일에서 목요일 5°C",
+        "수요일부터 목요일까지 5°C"
+      ],
+      "unit": "°C",
+      "explanation": "월요일에서 화요일은 3°C 상승하고 수요일에서 목요일은 5°C 상승하므로 수요일에서 목요일이 가장 큽니다.",
+      "curriculumBasis": {
+        "evidence": "[4수04-02] 자료의 수집과 정리 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수04-03]",
+      "topicId": "kr.mt.math.data-probability.g3-4.s4-04-03.concept",
+      "prompt": "하루 동안 한 시간마다 측정한 기온이 시간에 따라 어떻게 변하는지 알아보려 합니다. 막대그래프와 꺾은선그래프 중 어느 것이 더 알맞나요?",
+      "answer": "꺾은선그래프",
+      "acceptableAnswers": [
+        "꺾은선그래프"
+      ],
+      "unit": null,
+      "explanation": "시간의 흐름에 따른 연속적인 변화를 살펴볼 때는 꺾은선그래프가 알맞습니다.",
+      "curriculumBasis": {
+        "evidence": "[4수04-03] 자료의 수집과 정리 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수04-03]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수04-01]",
+      "topicId": "kr.mt.math.data-probability.g3-4.s4-04-01.application",
+      "prompt": "막대그래프에 세 체험관의 방문 학생 수가 가 12명, 나 18명, 다 15명으로 나타나 있습니다. 세 체험관의 방문 학생은 모두 몇 명인가요?",
+      "answer": "45명",
+      "acceptableAnswers": [
+        "45명",
+        "45 명"
+      ],
+      "unit": "명",
+      "explanation": "12+18+15=45이므로 방문 학생은 모두 45명입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수04-01] 자료의 수집과 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수04-02]",
+      "topicId": "kr.mt.math.data-probability.g3-4.s4-04-02.application",
+      "prompt": "꺾은선그래프에 식물의 키가 월요일 10cm, 화요일 14cm, 수요일 13cm, 목요일 18cm로 나타나 있습니다. 월요일부터 목요일까지 전체적으로 몇 cm 커졌나요?",
+      "answer": "8cm",
+      "acceptableAnswers": [
+        "8cm",
+        "8 cm"
+      ],
+      "unit": "cm",
+      "explanation": "처음 10cm에서 마지막 18cm가 되었으므로 전체적으로 18-10=8cm 커졌습니다.",
+      "curriculumBasis": {
+        "evidence": "[4수04-02] 자료의 수집과 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수04-03]",
+      "topicId": "kr.mt.math.data-probability.g3-4.s4-04-03.application",
+      "prompt": "좋아하는 과일을 조사했더니 사과 8명, 배 5명, 포도 7명이었습니다. 배가 가장 많은 응답이 되려면 적어도 몇 명이 더 배를 골라야 하나요?",
+      "answer": "4명",
+      "acceptableAnswers": [
+        "4명",
+        "4 명"
+      ],
+      "unit": "명",
+      "explanation": "현재 가장 많은 사과는 8명입니다. 배가 8명보다 많아지려면 5명에서 9명이 되어야 하므로 4명이 더 필요합니다.",
+      "curriculumBasis": {
+        "evidence": "[4수04-03] 자료의 수집과 정리 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'자료의 수집과 정리'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-data-collection/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-data-collection/01-cover.webp",
+      "sha256": "5fd53f8399068f01cf724411952e974835efdfabc1c78afbb93d268be47b300a",
+      "alt": "자료의 수집과 정리 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-data-collection/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-data-collection/02-worksheet-1.webp",
+      "sha256": "e14d4be3c105b420c63c0fddd5a8dd9173af1124704de7e207b07c42c2476619",
+      "alt": "자료의 수집과 정리 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-data-collection/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-data-collection/03-worksheet-2.webp",
+      "sha256": "f8ea2140e0d502f3e5c5f0d89826a0d3cfec61696dcd6485f7c10d45846672c8",
+      "alt": "자료의 수집과 정리 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-data-collection/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-data-collection/04-answers.webp",
+      "sha256": "66152dd7417eaed215cc08ff8d7a6cdfcfd1108e0f2af1e60e130722cb5c037a",
+      "alt": "자료의 수집과 정리 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-data-collection/g3-4-data-collection.pdf",
+    "pageCount": 4,
+    "sha256": "27a065bae74d82232debc5c8a242edf06c62f9839c150120dc16c62bb9a49de8"
+  },
+  "transcriptPath": "/workbooks/g3-4-data-collection/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

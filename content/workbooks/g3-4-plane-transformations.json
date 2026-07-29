@@ -1,0 +1,180 @@
+{
+  "id": "g3-4-plane-transformations",
+  "slug": "g3-4-plane-transformations",
+  "title": "초등 수학 한 장: 평면도형의 이동",
+  "gradeBand": "3-4",
+  "domain": "도형과 측정",
+  "module": "평면도형의 이동",
+  "standardCodes": [
+    "[4수03-04]",
+    "[4수03-05]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수03-04]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-04.concept",
+      "prompt": "도형의 방향을 바꾸지 않고 오른쪽으로 3칸 옮기는 이동을 무엇이라고 하나요?",
+      "answer": "밀기",
+      "acceptableAnswers": [
+        "밀기",
+        "도형 밀기"
+      ],
+      "unit": null,
+      "explanation": "모양과 방향을 그대로 두고 위치만 옮기는 이동은 밀기입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-04] 평면도형의 이동 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'평면도형의 이동'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-04]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수03-04]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-04.representation",
+      "prompt": "거울에 비친 모습처럼 도형의 왼쪽과 오른쪽이 서로 바뀌는 이동을 무엇이라고 하나요?",
+      "answer": "뒤집기",
+      "acceptableAnswers": [
+        "뒤집기",
+        "도형 뒤집기"
+      ],
+      "unit": null,
+      "explanation": "한 직선을 기준으로 거울에 비친 것처럼 바뀌는 이동은 뒤집기입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-04] 평면도형의 이동 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'평면도형의 이동'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수03-05]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-05.representation",
+      "prompt": "점이 위에서 2째 줄, 왼쪽에서 3째 칸에 있습니다. 오른쪽으로 2칸 이동한 위치를 쓰세요.",
+      "answer": "위에서 2째 줄, 왼쪽에서 5째 칸",
+      "acceptableAnswers": [
+        "위에서 2째 줄, 왼쪽에서 5째 칸",
+        "2째 줄 5째 칸"
+      ],
+      "unit": null,
+      "explanation": "세로 위치는 그대로이고 가로 위치만 3+2=5가 됩니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-05] 평면도형의 이동 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'평면도형의 이동'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수03-05]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-05.application",
+      "prompt": "점이 위에서 5째 줄, 왼쪽에서 4째 칸에 있습니다. 위로 3칸, 왼쪽으로 1칸 이동한 위치를 쓰세요.",
+      "answer": "위에서 2째 줄, 왼쪽에서 3째 칸",
+      "acceptableAnswers": [
+        "위에서 2째 줄, 왼쪽에서 3째 칸",
+        "2째 줄 3째 칸"
+      ],
+      "unit": null,
+      "explanation": "위로 3칸 가면 5-3=2째 줄, 왼쪽으로 1칸 가면 4-1=3째 칸입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-05] 평면도형의 이동 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'평면도형의 이동'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수03-04]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-04.application",
+      "prompt": "위를 향한 화살표를 시계 방향으로 90° 돌리면 어느 방향을 향하나요?",
+      "answer": "오른쪽",
+      "acceptableAnswers": [
+        "오른쪽",
+        "오른쪽 방향"
+      ],
+      "unit": null,
+      "explanation": "위를 향한 화살표를 시계 방향으로 직각만큼 돌리면 오른쪽을 향합니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-04] 평면도형의 이동 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'평면도형의 이동'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수03-05]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-05.application",
+      "prompt": "점이 위에서 4째 줄, 왼쪽에서 2째 칸에 있습니다. 오른쪽 3칸, 위쪽 2칸, 왼쪽 1칸 이동한 위치를 쓰세요.",
+      "answer": "위에서 2째 줄, 왼쪽에서 4째 칸",
+      "acceptableAnswers": [
+        "위에서 2째 줄, 왼쪽에서 4째 칸",
+        "2째 줄 4째 칸"
+      ],
+      "unit": null,
+      "explanation": "가로로는 3칸 오른쪽 뒤 1칸 왼쪽이므로 2칸 오른쪽, 세로로는 2칸 위입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-05] 평면도형의 이동 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'평면도형의 이동'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-plane-transformations/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-plane-transformations/01-cover.webp",
+      "sha256": "6d2eca87a01dc49d6f683c4f4879fe95aab03e7ab03c210892c1aedbf6343467",
+      "alt": "평면도형의 이동 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-plane-transformations/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-plane-transformations/02-worksheet-1.webp",
+      "sha256": "ea48693477e83f2f3b0cbb7fb20734e16765c44af6a9443e94050079d0cfac92",
+      "alt": "평면도형의 이동 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-plane-transformations/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-plane-transformations/03-worksheet-2.webp",
+      "sha256": "fa4d6c4b15c62e5478e8e1524ac05f0d41ed6d81212402a7a4ae89e7b6347f94",
+      "alt": "평면도형의 이동 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-plane-transformations/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-plane-transformations/04-answers.webp",
+      "sha256": "db755e747e1a0324dc1b01925805f7e8257c4e0d0194dda8781a4364aef426c2",
+      "alt": "평면도형의 이동 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-plane-transformations/g3-4-plane-transformations.pdf",
+    "pageCount": 4,
+    "sha256": "f4cd3872dfb8ef7ccf544606bd40b12c6980a0089ec8c95e99061dc0cb076157"
+  },
+  "transcriptPath": "/workbooks/g3-4-plane-transformations/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

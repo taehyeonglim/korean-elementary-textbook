@@ -1,0 +1,11 @@
+Scene:
+세로형 초등 수학 학습지 표지용 wordless abstract educational collage. 1-2학년군 자료와 가능성 영역을 상징하는 색깔별 나무 칩 묶음, 표시 없는 짧은 막대 묶음, 투명 주머니를 중앙 25% 영역에 한 개의 조화로운 콜라주로 배치. 친근한 색연필과 종이 오려 붙임 질감, 큰 둥근 형태. 상단 18% 전체와 하단 57% 이후 전체는 따뜻한 아이보리 종이 질감만 보이는 quiet field로 유지하여 후속 표지 정보 배치를 위한 넉넉한 공간을 확보. 문자, 숫자, 수식, 로고 없이 순수한 시각 요소만 사용.
+Camera:
+정면 A4 세로 표지, centered symmetrical composition, clear margin of ~5% on all edges.
+Lighting:
+부드러운 확산 인쇄광, 얕고 자연스러운 종이 그림자.
+Color grading:
+따뜻한 아이보리 #F7F4EC, 네이비 #0F1D30, 파랑 #2F80ED, 코랄 #F2994A, 노랑 #F2C94C.
+Texture/Medium:
+재생지 질감, 색연필 결, 무광 종이 공작, quality high.
+AR 2:3

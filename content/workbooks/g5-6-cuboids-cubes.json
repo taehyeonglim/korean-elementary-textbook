@@ -1,0 +1,199 @@
+{
+  "id": "g5-6-cuboids-cubes",
+  "slug": "g5-6-cuboids-cubes",
+  "title": "초등 수학 한 장: 직육면체와 정육면체",
+  "gradeBand": "5-6",
+  "domain": "도형과 측정",
+  "module": "직육면체와 정육면체",
+  "standardCodes": [
+    "[6수03-03]",
+    "[6수03-04]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수03-03]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-03.concept",
+      "prompt": "정육면체의 면, 모서리, 꼭짓점은 각각 몇 개인가요?",
+      "answer": "면 6개, 모서리 12개, 꼭짓점 8개",
+      "acceptableAnswers": [
+        "면 6개, 모서리 12개, 꼭짓점 8개",
+        "6개, 12개, 8개"
+      ],
+      "unit": null,
+      "explanation": "정육면체는 같은 정사각형 면 6개로 이루어져 있습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-03] 직육면체와 정육면체 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-03] 직육면체와 정육면체 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'직육면체와 정육면체'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-03]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수03-04]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-04.concept",
+      "prompt": "직육면체의 겨냥도에서 보이지 않는 모서리는 보통 어떤 선으로 그리나요?",
+      "answer": "점선",
+      "acceptableAnswers": [
+        "점선",
+        "점선으로 그립니다."
+      ],
+      "unit": null,
+      "explanation": "겨냥도에서는 보이지 않는 모서리를 점선으로 나타냅니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-04] 직육면체와 정육면체 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-04] 직육면체와 정육면체 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'직육면체와 정육면체'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-04]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수03-03]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-03.representation",
+      "prompt": "가로 4cm, 세로 3cm, 높이 2cm인 직육면체의 모든 모서리 길이의 합을 구하세요.",
+      "answer": "36cm",
+      "acceptableAnswers": [
+        "36cm",
+        "36 cm"
+      ],
+      "unit": "cm",
+      "explanation": "가로·세로·높이 길이가 각각 4개씩 있으므로 4×(4+3+2)=36입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-03] 직육면체와 정육면체 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'직육면체와 정육면체'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수03-04]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-04.representation",
+      "prompt": "가로 5cm, 세로 3cm, 높이 2cm인 직육면체의 전개도에 필요한 직사각형의 크기와 개수를 모두 쓰세요.",
+      "answer": "5cm×3cm 2개, 5cm×2cm 2개, 3cm×2cm 2개",
+      "acceptableAnswers": [
+        "5cm×3cm 2개, 5cm×2cm 2개, 3cm×2cm 2개",
+        "5×3 직사각형 2개, 5×2 직사각형 2개, 3×2 직사각형 2개"
+      ],
+      "unit": null,
+      "explanation": "서로 마주 보는 합동인 면이 두 개씩 있으므로 세 종류의 직사각형이 각각 2개 필요합니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-04] 직육면체와 정육면체 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'직육면체와 정육면체'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수03-03]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-03.application",
+      "prompt": "한 모서리의 길이가 6cm인 정육면체의 12개 모서리를 각각 한 번씩 덮는 데 필요한 리본의 총길이는 몇 cm인가요?",
+      "answer": "72cm",
+      "acceptableAnswers": [
+        "72cm",
+        "72 cm"
+      ],
+      "unit": "cm",
+      "explanation": "정육면체의 모서리 12개가 모두 6cm이므로 총길이는 6×12=72cm입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-03] 직육면체와 정육면체 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-03] 직육면체와 정육면체 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'직육면체와 정육면체'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수03-04]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-04.application",
+      "prompt": "같은 크기의 정사각형 4개를 가로로 잇고, 왼쪽에서 두 번째 정사각형의 위와 아래에 한 개씩 붙였습니다. 이 모양은 정육면체의 전개도가 될 수 있나요?",
+      "answer": "될 수 있습니다.",
+      "acceptableAnswers": [
+        "될 수 있습니다.",
+        "네, 될 수 있습니다.",
+        "가능합니다."
+      ],
+      "unit": null,
+      "explanation": "여섯 정사각형을 접으면 겹치지 않고 정육면체의 여섯 면을 이룹니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-04] 직육면체와 정육면체 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-04] 직육면체와 정육면체 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'직육면체와 정육면체'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-cuboids-cubes/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-cuboids-cubes/01-cover.webp",
+      "sha256": "a5b8f02d682e0fa8e70efa151e550dc7db4fa5c6dbbbff1b49e4f0f7b35fd770",
+      "alt": "직육면체와 정육면체 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-cuboids-cubes/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-cuboids-cubes/02-worksheet-1.webp",
+      "sha256": "4d8b5a8cb4bd64837ddd092e177b66d65b23ea5bea178baa869888e680d91429",
+      "alt": "직육면체와 정육면체 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-cuboids-cubes/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-cuboids-cubes/03-worksheet-2.webp",
+      "sha256": "3aa5e90e51db450ac4549bd63deeab0d6647ce0311c9926a8935bd392bac846f",
+      "alt": "직육면체와 정육면체 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-cuboids-cubes/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-cuboids-cubes/04-answers.webp",
+      "sha256": "ff7fa0877bcba83ea5fde875a0636b61f5b4d6abbdb3703f0163758e9ce9d715",
+      "alt": "직육면체와 정육면체 정답과 해설",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-cuboids-cubes/g5-6-cuboids-cubes.pdf",
+    "pageCount": 4,
+    "sha256": "22d7b7ec5e21160668e11d8a08d99fdc77d5e6491a8fb606b7e227f413113fd6"
+  },
+  "transcriptPath": "/workbooks/g5-6-cuboids-cubes/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

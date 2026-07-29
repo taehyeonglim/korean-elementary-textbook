@@ -1,0 +1,194 @@
+{
+  "id": "g5-6-probability",
+  "slug": "g5-6-probability",
+  "title": "초등 수학 한 장: 가능성",
+  "gradeBand": "5-6",
+  "domain": "자료와 가능성",
+  "module": "가능성",
+  "standardCodes": [
+    "[6수04-04]",
+    "[6수04-05]",
+    "[6수04-06]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수04-04]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-04.concept",
+      "prompt": "빨간 공 3개와 파란 공 1개 중 빨간 공을 뽑을 가능성이 파란 공보다 어떤지 쓰세요.",
+      "answer": "더 큽니다",
+      "acceptableAnswers": [
+        "더 큽니다"
+      ],
+      "unit": null,
+      "explanation": "빨간 공이 더 많으므로 가능성이 더 큽니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-04] 가능성 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "자료와 가능성 사례에서 [6수04-04] 가능성 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'가능성'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수04-04]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수04-04]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-04.representation",
+      "prompt": "공정한 동전을 한 번 던질 때 앞면이 나올 가능성을 말로 쓰세요.",
+      "answer": "반반입니다",
+      "acceptableAnswers": [
+        "반반입니다",
+        "반반"
+      ],
+      "unit": null,
+      "explanation": "앞면과 뒷면은 같은 가능성입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-04] 가능성 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 자료와 가능성 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'가능성'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수04-05]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-05.concept",
+      "prompt": "1부터 6까지 적힌 주사위를 던질 때 짝수가 나올 가능성을 분수로 나타내세요.",
+      "answer": "1/2",
+      "acceptableAnswers": [
+        "1/2"
+      ],
+      "unit": null,
+      "explanation": "짝수 2,4,6은 6가지 중 3가지이므로 3/6=1/2입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-05] 가능성 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "자료와 가능성 사례에서 [6수04-05] 가능성 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'가능성'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수04-05]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수04-05]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-05.representation",
+      "prompt": "빨간 공 2개, 파란 공 3개가 있을 때 파란 공을 뽑을 가능성을 분수로 나타내세요.",
+      "answer": "3/5",
+      "acceptableAnswers": [
+        "3/5"
+      ],
+      "unit": null,
+      "explanation": "전체 5개 중 파란 공이 3개입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-05] 가능성 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 자료와 가능성 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'가능성'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수04-06]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-06.application",
+      "prompt": "최근 10일 중 비가 온 날이 7일입니다. 내일 비가 올 가능성을 예상하여 쓰세요.",
+      "answer": "높습니다",
+      "acceptableAnswers": [
+        "높습니다"
+      ],
+      "unit": null,
+      "explanation": "10일 중 7일로 비가 온 날이 많으므로 가능성이 높다고 예상할 수 있습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-06] 가능성 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수04-06] 가능성 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'가능성'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수04-06]",
+      "topicId": "kr.mt.math.data-probability.g5-6.s6-04-06.application",
+      "prompt": "비가 올 가능성이 매우 높다는 예보가 있을 때 우산을 가져갈지 쓰세요.",
+      "answer": "가져갑니다",
+      "acceptableAnswers": [
+        "가져갑니다"
+      ],
+      "unit": null,
+      "explanation": "가능성이 높으면 우산을 준비하는 판단이 알맞습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수04-06] 가능성 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수04-06] 가능성 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'가능성'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-probability/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-probability/01-cover.webp",
+      "sha256": "4c9d8f8ec3bf1a2ca664cdcc4cebc3089885c8e2f7c94bc77694b9ca43e8db04",
+      "alt": "가능성 cover 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-probability/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-probability/02-worksheet-1.webp",
+      "sha256": "35fdcbb0f0291a94dd9b5c4d5277adf7822be603d293f76f2d576a064c8ce699",
+      "alt": "가능성 worksheet-1 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-probability/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-probability/03-worksheet-2.webp",
+      "sha256": "d84acb88dec1813d6c41a1cf69a602327e9240f7bc9421a42075b2cba24f369a",
+      "alt": "가능성 worksheet-2 초안",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-probability/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-probability/04-answers.webp",
+      "sha256": "7c70a359463770a41efb246d7e9a7347c44a8eaf32863733eb96b99417c9b504",
+      "alt": "가능성 answers 초안",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-probability/g5-6-probability.pdf",
+    "pageCount": 4,
+    "sha256": "31d920da491cf056ef304c83821077d9c25b7ca42a2f9d7795f8af83bf53102c"
+  },
+  "transcriptPath": "/workbooks/g5-6-probability/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

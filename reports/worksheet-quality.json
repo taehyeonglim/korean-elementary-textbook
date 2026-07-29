@@ -1,6 +1,15 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "minimumScore": 95,
+  "diagramAssignments": {
+    "reviewedWorkbookCount": 47,
+    "assignedQuestionCount": 282,
+    "fallbackQuestionCount": 42,
+    "fallbackReasons": {
+      "text-calculation-workspace": 42
+    },
+    "note": "Fallback means an intentionally blank student workspace for a text-only calculation; it is never an unassigned visual prompt."
+  },
   "workbooks": [
     {
       "id": "angles",
@@ -56,6 +65,1228 @@
     },
     {
       "id": "fractions",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g1-2-data-organization",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g1-2-length",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g1-2-numbers-to-100",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g1-2-one-digit-multiplication",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g1-2-patterns",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g1-2-quantity-comparison",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g1-2-solid-shapes",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g1-2-time",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-capacity",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-circle-elements",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-data-collection",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-decimal-addition-subtraction",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-decimals",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-equality",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-estimation",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-fraction-addition-subtraction",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-geometry-basics",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-large-numbers",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-length",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-mass",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-plane-transformations",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-polygons",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-quadrilaterals",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-rules-expressions",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-three-digit-addition-subtraction",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-three-digit-division",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-three-digit-multiplication",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-time",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g3-4-triangles",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-congruence-symmetry",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-correspondence",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-cuboids-cubes",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-cylinder-cone-sphere",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-data-collection",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-decimal-multiplication-division",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-factors-multiples",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-fraction-addition-subtraction",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-fraction-decimal-relationship",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-fraction-multiplication-division",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-mixed-natural-calculation",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-polygon-perimeter-area",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-prisms-pyramids",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-probability",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-proportions",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-rounding",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-spatial-sense",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "g5-6-surface-area-volume",
       "score": 100,
       "passed": true,
       "checks": {

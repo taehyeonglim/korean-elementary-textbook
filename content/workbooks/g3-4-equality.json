@@ -1,0 +1,175 @@
+{
+  "id": "g3-4-equality",
+  "slug": "g3-4-equality",
+  "title": "초등 수학 한 장: 등호와 동치 관계",
+  "gradeBand": "3-4",
+  "domain": "변화와 관계",
+  "module": "등호와 동치 관계",
+  "standardCodes": [
+    "[4수02-03]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수02-03]",
+      "topicId": "kr.mt.math.change-relationships.g3-4.s4-02-03.concept",
+      "prompt": "7+5=□에서 □에 알맞은 수를 쓰세요.",
+      "answer": "12",
+      "acceptableAnswers": [
+        "12"
+      ],
+      "unit": null,
+      "explanation": "등호 양쪽의 값이 같아야 하므로 7+5=12입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수02-03] 등호와 동치 관계 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'등호와 동치 관계'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수02-03]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수02-03]",
+      "topicId": "kr.mt.math.change-relationships.g3-4.s4-02-03.representation",
+      "prompt": "18-6=3×4가 옳은 식인지 판단하세요.",
+      "answer": "옳다",
+      "acceptableAnswers": [
+        "옳다",
+        "맞다",
+        "참"
+      ],
+      "unit": null,
+      "explanation": "18-6=12이고 3×4=12이므로 등호 양쪽의 값이 같습니다.",
+      "curriculumBasis": {
+        "evidence": "[4수02-03] 등호와 동치 관계 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'등호와 동치 관계'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수02-03]",
+      "topicId": "kr.mt.math.change-relationships.g3-4.s4-02-03.representation",
+      "prompt": "□+17=45에서 □에 알맞은 수를 구하세요.",
+      "answer": "28",
+      "acceptableAnswers": [
+        "28"
+      ],
+      "unit": null,
+      "explanation": "등호 양쪽을 같게 하려면 □=45-17=28입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수02-03] 등호와 동치 관계 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'등호와 동치 관계'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수02-03]",
+      "topicId": "kr.mt.math.change-relationships.g3-4.s4-02-03.application",
+      "prompt": "6×8=□÷2에서 □에 알맞은 수를 구하세요.",
+      "answer": "96",
+      "acceptableAnswers": [
+        "96"
+      ],
+      "unit": null,
+      "explanation": "6×8=48이므로 □÷2=48입니다. 따라서 □=48×2=96입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수02-03] 등호와 동치 관계 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'등호와 동치 관계'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수02-03]",
+      "topicId": "kr.mt.math.change-relationships.g3-4.s4-02-03.application",
+      "prompt": "125+78=140+□에서 □에 알맞은 수를 구하세요.",
+      "answer": "63",
+      "acceptableAnswers": [
+        "63"
+      ],
+      "unit": null,
+      "explanation": "왼쪽은 125+78=203이므로 오른쪽도 203이어야 합니다. □=203-140=63입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수02-03] 등호와 동치 관계 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'등호와 동치 관계'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수02-03]",
+      "topicId": "kr.mt.math.change-relationships.g3-4.s4-02-03.application",
+      "prompt": "3□+27=65에서 □에 들어갈 한 자리 수를 구하세요.",
+      "answer": "8",
+      "acceptableAnswers": [
+        "8"
+      ],
+      "unit": null,
+      "explanation": "65-27=38이므로 3□는 38입니다. 따라서 □에 들어갈 숫자는 8입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수02-03] 등호와 동치 관계 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'등호와 동치 관계'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-equality/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-equality/01-cover.webp",
+      "sha256": "f6fa726306338de764fd6bf37003d3424bfa7befd1991ae40f8e03162f386f3b",
+      "alt": "등호와 동치 관계 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-equality/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-equality/02-worksheet-1.webp",
+      "sha256": "3cac1dbd927fd56235d0442e202539fe159879b606cfdf0d2ab147291ddd9bed",
+      "alt": "등호와 동치 관계 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-equality/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-equality/03-worksheet-2.webp",
+      "sha256": "9e6c9859e19a6fa4112f915739545124751381a9010f99e808f28cb6efb04573",
+      "alt": "등호와 동치 관계 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-equality/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-equality/04-answers.webp",
+      "sha256": "030b75cd791633e98d417a1d48a61a6108b6cb39f54f6f8c3b118ed879f3c94f",
+      "alt": "등호와 동치 관계 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-equality/g3-4-equality.pdf",
+    "pageCount": 4,
+    "sha256": "51c12800662c478a4e8df714117183e9e39c6f4717f20901478b7226b1015047"
+  },
+  "transcriptPath": "/workbooks/g3-4-equality/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

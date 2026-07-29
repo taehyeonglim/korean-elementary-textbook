@@ -2,21 +2,12 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { loadAndValidateContent, validateWorkbook } from "../scripts/validate-content.mjs";
 
-test("six curriculum-linked workbook records meet the catalog contract", async () => {
+test("53 curriculum-linked workbooks cover 121 standards with 212 published WebP pages", async () => {
   const { catalog, workbooks } = await loadAndValidateContent();
   assert.equal(catalog.version, 1);
-  assert.equal(workbooks.length, 6);
-  assert.deepEqual(
-    workbooks.map(({ id }) => id).sort(),
-    [
-      "angles",
-      "circle-pi-area",
-      "fractions",
-      "plane-shapes",
-      "ratios-and-rates",
-      "two-digit-addition-subtraction",
-    ],
-  );
+  assert.equal(workbooks.length, 53);
+  assert.equal(new Set(workbooks.flatMap(({ standardCodes }) => standardCodes)).size, 121);
+  assert.equal(workbooks.flatMap(({ pages }) => pages).length, 212);
   assert.deepEqual(new Set(workbooks.map(({ gradeBand }) => gradeBand)), new Set(["1-2", "3-4", "5-6"]));
 
   for (const workbook of workbooks) {
@@ -29,6 +20,7 @@ test("six curriculum-linked workbook records meet the catalog contract", async (
     assert.equal(workbook.pdf.pageCount, workbook.pages.length);
     assert.equal(workbook.published, true);
     assert.equal(workbook.pages.every(({ approved }) => approved), true);
+    assert.equal(workbook.pages.every(({ imagePath, thumbnailPath }) => imagePath === thumbnailPath && imagePath.endsWith(".webp")), true);
   }
 });
 

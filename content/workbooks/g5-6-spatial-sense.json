@@ -1,0 +1,198 @@
+{
+  "id": "g5-6-spatial-sense",
+  "slug": "g5-6-spatial-sense",
+  "title": "초등 수학 한 장: 입체도형의 공간 감각",
+  "gradeBand": "5-6",
+  "domain": "도형과 측정",
+  "module": "입체도형의 공간 감각",
+  "standardCodes": [
+    "[6수03-09]",
+    "[6수03-10]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수03-09]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-09.concept",
+      "prompt": "쌓기나무 두 개를 아래층에 나란히 놓고, 왼쪽 쌓기나무 위에 한 개를 더 놓았습니다. 모두 몇 개의 쌓기나무를 사용했나요?",
+      "answer": "3개",
+      "acceptableAnswers": [
+        "3개",
+        "3"
+      ],
+      "unit": "개",
+      "explanation": "아래층 2개와 위층 1개를 더하면 3개입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-09] 입체도형의 공간 감각 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-09] 입체도형의 공간 감각 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'입체도형의 공간 감각'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-09]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수03-10]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-10.concept",
+      "prompt": "쌓기나무 두 개를 왼쪽과 오른쪽으로 나란히 놓았습니다. 앞에서 보면 정사각형은 몇 개 보이나요?",
+      "answer": "2개",
+      "acceptableAnswers": [
+        "2개",
+        "2"
+      ],
+      "unit": "개",
+      "explanation": "두 쌓기나무가 좌우로 나란히 있으므로 앞모양에는 정사각형 두 개가 보입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-10] 입체도형의 공간 감각 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-10] 입체도형의 공간 감각 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'입체도형의 공간 감각'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-10]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수03-09]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-09.representation",
+      "prompt": "아래층에 쌓기나무를 2×2로 4개 놓고, 그 위에 2개를 놓았습니다. 사용한 쌓기나무는 모두 몇 개인가요?",
+      "answer": "6개",
+      "acceptableAnswers": [
+        "6개",
+        "6"
+      ],
+      "unit": "개",
+      "explanation": "아래층 4개와 위층 2개를 더합니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-09] 입체도형의 공간 감각 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'입체도형의 공간 감각'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수03-10]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-10.representation",
+      "prompt": "왼쪽에는 쌓기나무가 2층으로, 오른쪽에는 1층으로 쌓여 있습니다. 앞에서 본 모양의 왼쪽과 오른쪽 높이를 차례로 쓰세요.",
+      "answer": "왼쪽 2칸, 오른쪽 1칸",
+      "acceptableAnswers": [
+        "왼쪽 2칸, 오른쪽 1칸",
+        "2칸, 1칸"
+      ],
+      "unit": "칸",
+      "explanation": "앞에서 본 모양에는 각 위치의 가장 높은 쌓기나무가 보입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-10] 입체도형의 공간 감각 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'입체도형의 공간 감각'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수03-09]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-09.application",
+      "prompt": "위에서 보니 쌓기나무가 놓인 자리는 3곳입니다. 각 자리의 높이가 차례로 2층, 1층, 3층이라면 사용한 쌓기나무는 모두 몇 개인가요?",
+      "answer": "6개",
+      "acceptableAnswers": [
+        "6개",
+        "6"
+      ],
+      "unit": "개",
+      "explanation": "각 자리의 높이를 더하면 2+1+3=6입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-09] 입체도형의 공간 감각 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-09] 입체도형의 공간 감각 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'입체도형의 공간 감각'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수03-10]",
+      "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-10.application",
+      "prompt": "위에서 본 모양이 좌우로 나란한 두 칸이고, 두 칸 모두 높이가 2층입니다. 앞에서 본 모양의 정사각형은 모두 몇 개인가요?",
+      "answer": "4개",
+      "acceptableAnswers": [
+        "4개",
+        "4"
+      ],
+      "unit": "개",
+      "explanation": "좌우 두 칸에 각각 높이 2칸이 보이므로 2×2=4개입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-10] 입체도형의 공간 감각 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-10] 입체도형의 공간 감각 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'입체도형의 공간 감각'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-spatial-sense/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-spatial-sense/01-cover.webp",
+      "sha256": "d048ce66afc0a95da7c18978d7907418c8b6b603ac5ad82f3272737e3609d928",
+      "alt": "입체도형의 공간 감각 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-spatial-sense/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-spatial-sense/02-worksheet-1.webp",
+      "sha256": "ff23d83b422edb6067391ee20a298c1e6801fae10e859e38e6a666df0f9d7ba6",
+      "alt": "입체도형의 공간 감각 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-spatial-sense/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-spatial-sense/03-worksheet-2.webp",
+      "sha256": "1c5df5765804b297aa8840906503b168bb559a04bc7b230a289e48d914c427aa",
+      "alt": "입체도형의 공간 감각 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-spatial-sense/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-spatial-sense/04-answers.webp",
+      "sha256": "82f3a21cfdf124d1cb10b6adb8dc8e585785c99aa577d12abba2e2ccfbea463e",
+      "alt": "입체도형의 공간 감각 정답과 해설",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-spatial-sense/g5-6-spatial-sense.pdf",
+    "pageCount": 4,
+    "sha256": "6b12b9baecc08835468e28f9a91702e25ccacbffe03d278a3962a5527d3463fe"
+  },
+  "transcriptPath": "/workbooks/g5-6-spatial-sense/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

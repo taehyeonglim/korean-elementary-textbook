@@ -1,0 +1,190 @@
+{
+  "id": "g3-4-mass",
+  "slug": "g3-4-mass",
+  "title": "초등 수학 한 장: 무게",
+  "gradeBand": "3-4",
+  "domain": "도형과 측정",
+  "module": "무게",
+  "standardCodes": [
+    "[4수03-20]",
+    "[4수03-21]",
+    "[4수03-22]",
+    "[4수03-23]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수03-20]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-20.concept",
+      "prompt": "지우개 한 개의 무게로 알맞은 것은 25g과 25kg 중 무엇인가요?",
+      "answer": "25g",
+      "acceptableAnswers": [
+        "25g",
+        "25 g"
+      ],
+      "unit": "g",
+      "explanation": "지우개처럼 가벼운 물건의 무게는 g으로 나타내는 것이 알맞습니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-20] 무게 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'무게'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-20]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수03-21]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-21.representation",
+      "prompt": "3kg 450g을 몇 g으로 나타낼 수 있나요?",
+      "answer": "3,450g",
+      "acceptableAnswers": [
+        "3,450g",
+        "3450g",
+        "3,450 g",
+        "3450 g"
+      ],
+      "unit": "g",
+      "explanation": "1kg=1,000g이므로 3kg 450g=3,000g+450g=3,450g입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-21] 무게 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'무게'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수03-22]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-22.representation",
+      "prompt": "2t을 몇 kg으로 나타낼 수 있나요?",
+      "answer": "2,000kg",
+      "acceptableAnswers": [
+        "2,000kg",
+        "2000kg",
+        "2,000 kg",
+        "2000 kg"
+      ],
+      "unit": "kg",
+      "explanation": "1t=1,000kg이므로 2t=2×1,000=2,000kg입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-22] 무게 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'무게'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수03-23]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-23.representation",
+      "prompt": "1kg 750g과 850g을 더하면 몇 kg 몇 g인가요?",
+      "answer": "2kg 600g",
+      "acceptableAnswers": [
+        "2kg 600g",
+        "2 kg 600 g",
+        "2,600g",
+        "2600g"
+      ],
+      "unit": null,
+      "explanation": "1,750g+850g=2,600g이고, 2,600g=2kg 600g입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-23] 무게 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'무게'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수03-20]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-20.application",
+      "prompt": "수박 한 통의 무게를 어림한 값으로 알맞은 것은 4g, 4kg, 4t 중 무엇인가요?",
+      "answer": "4kg",
+      "acceptableAnswers": [
+        "4kg",
+        "4 kg"
+      ],
+      "unit": "kg",
+      "explanation": "수박 한 통은 보통 몇 kg이므로 4kg가 알맞습니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-20] 무게 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'무게'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수03-23]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-23.application",
+      "prompt": "최대 3t까지 실을 수 있는 트럭에 짐 1t 850kg을 실었습니다. 더 실을 수 있는 무게는 몇 t 몇 kg인가요?",
+      "answer": "1t 150kg",
+      "acceptableAnswers": [
+        "1t 150kg",
+        "1 t 150 kg",
+        "1,150kg",
+        "1150kg"
+      ],
+      "unit": null,
+      "explanation": "3t=3,000kg이고 1t 850kg=1,850kg이므로 3,000-1,850=1,150kg, 즉 1t 150kg입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-23] 무게 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'무게'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-mass/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-mass/01-cover.webp",
+      "sha256": "d32b3b45bc762b5ead45e95c13e96add8ddf133f3ec87445ab4bd71c08aa28d7",
+      "alt": "무게 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-mass/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-mass/02-worksheet-1.webp",
+      "sha256": "4c10b4ee85b7ebd373df0dd20bcf6de204f7a8eca90b9c69b021106e9454b00b",
+      "alt": "무게 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-mass/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-mass/03-worksheet-2.webp",
+      "sha256": "f23fbb88d5927e220b4a15610be5389429a6d3aff4ec31c18ff4795763c570a4",
+      "alt": "무게 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-mass/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-mass/04-answers.webp",
+      "sha256": "8cf90d680a7bba01bf001d9e70ce93226ff4e507aaf26534fc0af5d8eb784b7e",
+      "alt": "무게 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-mass/g3-4-mass.pdf",
+    "pageCount": 4,
+    "sha256": "bbd84d9027a50ea0984f7eec19e6c024dabcbd99a77af176323ed0bd3ef86579"
+  },
+  "transcriptPath": "/workbooks/g3-4-mass/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

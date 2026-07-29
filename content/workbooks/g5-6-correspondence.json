@@ -1,0 +1,192 @@
+{
+  "id": "g5-6-correspondence",
+  "slug": "g5-6-correspondence",
+  "title": "초등 수학 한 장: 대응 관계",
+  "gradeBand": "5-6",
+  "domain": "변화와 관계",
+  "module": "대응 관계",
+  "standardCodes": [
+    "[6수02-01]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수02-01]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-01.concept",
+      "prompt": "□가 1, 2, 3일 때 △가 4, 8, 12입니다. □가 5일 때 △를 구하세요.",
+      "answer": "20",
+      "acceptableAnswers": [
+        "20"
+      ],
+      "unit": null,
+      "explanation": "△는 □의 4배이므로 5×4=20입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-01] 대응 관계 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "변화와 관계 사례에서 [6수02-01] 대응 관계 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'대응 관계'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수02-01]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수02-01]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-01.concept",
+      "prompt": "□가 1, 2, 3일 때 △가 4, 8, 12입니다. 관계식을 쓰세요.",
+      "answer": "△=4×□",
+      "acceptableAnswers": [
+        "△=4×□"
+      ],
+      "unit": null,
+      "explanation": "□가 1 늘 때 △는 4씩 늘고 △는 □의 4배입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-01] 대응 관계 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "변화와 관계 사례에서 [6수02-01] 대응 관계 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'대응 관계'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수02-01]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수02-01]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-01.representation",
+      "prompt": "연필 1자루는 700원입니다. 연필 6자루의 가격을 구하세요.",
+      "answer": "4200원",
+      "acceptableAnswers": [
+        "4200원"
+      ],
+      "unit": "원",
+      "explanation": "700×6=4200입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-01] 대응 관계 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 변화와 관계 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'대응 관계'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수02-01]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-01.representation",
+      "prompt": "한 변이 □cm인 정사각형의 둘레 △cm를 식으로 쓰세요.",
+      "answer": "△=4×□",
+      "acceptableAnswers": [
+        "△=4×□"
+      ],
+      "unit": null,
+      "explanation": "정사각형의 네 변 길이가 같습니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-01] 대응 관계 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 변화와 관계 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'대응 관계'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수02-01]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-01.application",
+      "prompt": "한 병에 물을 0.4L씩 담습니다. 병 수를 □, 전체 물의 양을 △L라 할 때 관계식을 쓰고, 5병의 전체 양을 구하세요.",
+      "answer": "△=0.4×□, 2L",
+      "acceptableAnswers": [
+        "△=0.4×□, 2L",
+        "△=□×0.4, 2L"
+      ],
+      "unit": "L",
+      "explanation": "전체 양은 한 병의 양 0.4L에 병 수를 곱하므로 △=0.4×□이고, 5병이면 2L입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-01] 대응 관계 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수02-01] 대응 관계 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'대응 관계'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수02-01]",
+      "topicId": "kr.mt.math.change-relationships.g5-6.s6-02-01.application",
+      "prompt": "시속 60km로 □시간 달릴 때 거리 △km를 식으로 쓰세요.",
+      "answer": "△=60×□",
+      "acceptableAnswers": [
+        "△=60×□"
+      ],
+      "unit": "km",
+      "explanation": "거리=속력×시간입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수02-01] 대응 관계 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수02-01] 대응 관계 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'대응 관계'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-correspondence/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-correspondence/01-cover.webp",
+      "sha256": "bcac17f5a4594823dfed5bbf117bc0b18d0dad8cd9731bce6a96a6aeae983a75",
+      "alt": "대응 관계 cover 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-correspondence/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-correspondence/02-worksheet-1.webp",
+      "sha256": "24ce9dc174c1cd6a2e9cf862cfe1bccf3b91045e7f96ddd9a97b4a5e51aad0d1",
+      "alt": "대응 관계 worksheet-1 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-correspondence/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-correspondence/03-worksheet-2.webp",
+      "sha256": "77bafeb7b00cd52fc7a4f1b598f1c9bb13d13691837b2b9b3d0bd6cf3965b76a",
+      "alt": "대응 관계 worksheet-2 초안",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-correspondence/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-correspondence/04-answers.webp",
+      "sha256": "e270725a3bafd501a16cd6e912713e89fc40ac1e6e70e568963be450ae44e914",
+      "alt": "대응 관계 answers 초안",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-correspondence/g5-6-correspondence.pdf",
+    "pageCount": 4,
+    "sha256": "0cf4337fa1581923ef1c8e0adbea2c63ef5b30311a1b6deadd900be888fef416"
+  },
+  "transcriptPath": "/workbooks/g5-6-correspondence/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

@@ -1,0 +1,194 @@
+{
+  "id": "g5-6-fraction-multiplication-division",
+  "slug": "g5-6-fraction-multiplication-division",
+  "title": "초등 수학 한 장: 분수의 곱셈과 나눗셈",
+  "gradeBand": "5-6",
+  "domain": "수와 연산",
+  "module": "분수의 곱셈과 나눗셈",
+  "standardCodes": [
+    "[6수01-09]",
+    "[6수01-10]",
+    "[6수01-11]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[6수01-09]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-09.concept",
+      "prompt": "2/3×3/5을 계산하세요.",
+      "answer": "2/5",
+      "acceptableAnswers": [
+        "2/5"
+      ],
+      "unit": null,
+      "explanation": "6/15=2/5입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-09] 분수의 곱셈과 나눗셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [6수01-09] 분수의 곱셈과 나눗셈 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'분수의 곱셈과 나눗셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수01-09]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[6수01-09]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-09.representation",
+      "prompt": "4/7×14/15을 계산하세요.",
+      "answer": "8/15",
+      "acceptableAnswers": [
+        "8/15"
+      ],
+      "unit": null,
+      "explanation": "14와 7을 약분하면 8/15입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-09] 분수의 곱셈과 나눗셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'분수의 곱셈과 나눗셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[6수01-10]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-10.concept",
+      "prompt": "3÷4를 분수로 나타내세요.",
+      "answer": "3/4",
+      "acceptableAnswers": [
+        "3/4"
+      ],
+      "unit": null,
+      "explanation": "자연수의 나눗셈 3÷4의 몫은 3/4입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-10] 분수의 곱셈과 나눗셈 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "수와 연산 사례에서 [6수01-10] 분수의 곱셈과 나눗셈 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'분수의 곱셈과 나눗셈'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수01-10]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[6수01-10]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-10.representation",
+      "prompt": "7÷2를 대분수로 나타내세요.",
+      "answer": "3과 1/2",
+      "acceptableAnswers": [
+        "3과 1/2"
+      ],
+      "unit": null,
+      "explanation": "7÷2=7/2=3과 1/2입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-10] 분수의 곱셈과 나눗셈 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 수와 연산 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'분수의 곱셈과 나눗셈'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[6수01-11]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-11.application",
+      "prompt": "3/4÷1/2을 계산하세요.",
+      "answer": "1과 1/2",
+      "acceptableAnswers": [
+        "1과 1/2",
+        "3/2"
+      ],
+      "unit": null,
+      "explanation": "1/2의 역수 2를 곱해 3/2입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-11] 분수의 곱셈과 나눗셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수01-11] 분수의 곱셈과 나눗셈 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'분수의 곱셈과 나눗셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[6수01-11]",
+      "topicId": "kr.mt.math.number-operations.g5-6.s6-01-11.application",
+      "prompt": "5/6÷10/9을 계산하세요.",
+      "answer": "3/4",
+      "acceptableAnswers": [
+        "3/4"
+      ],
+      "unit": null,
+      "explanation": "9/10을 곱하면 45/60=3/4입니다.",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수01-11] 분수의 곱셈과 나눗셈 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수01-11] 분수의 곱셈과 나눗셈 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'분수의 곱셈과 나눗셈'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g5-6-fraction-multiplication-division/01-cover.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-multiplication-division/01-cover.webp",
+      "sha256": "322e42ff0cf48726425c039be65b42acf126f62663b6a716ac5a9069779f1de0",
+      "alt": "분수의 곱셈과 나눗셈 cover 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-fraction-multiplication-division/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-multiplication-division/02-worksheet-1.webp",
+      "sha256": "dc5c2ae9914238e12f487b766ceb911708c62a11d91ea70c9add3417abb8f4f7",
+      "alt": "분수의 곱셈과 나눗셈 worksheet-1 초안",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g5-6-fraction-multiplication-division/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-multiplication-division/03-worksheet-2.webp",
+      "sha256": "0ce6a9fdb7ee661de34e6646f5fe6806fe744939a88a21b17904047359904ee2",
+      "alt": "분수의 곱셈과 나눗셈 worksheet-2 초안",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g5-6-fraction-multiplication-division/04-answers.webp",
+      "thumbnailPath": "/workbooks/g5-6-fraction-multiplication-division/04-answers.webp",
+      "sha256": "29669f774532398982e3179357520cafd8a3746ddec111ee111db1ffb643348b",
+      "alt": "분수의 곱셈과 나눗셈 answers 초안",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g5-6-fraction-multiplication-division/g5-6-fraction-multiplication-division.pdf",
+    "pageCount": 4,
+    "sha256": "a2abf062047b8aae591f85a0e3d23c6f21dc55601a22b3660fe372c2983be4d8"
+  },
+  "transcriptPath": "/workbooks/g5-6-fraction-multiplication-division/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

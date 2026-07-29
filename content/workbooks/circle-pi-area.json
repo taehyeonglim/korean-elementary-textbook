@@ -23,7 +23,19 @@
       "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.concept",
       "prompt": "원주율은 3.14로 계산하세요. 지름이 10cm인 원의 원주를 구하세요.",
       "answer": "31.4cm",
-      "explanation": "10×3.14=31.4"
+      "explanation": "10×3.14=31.4",
+      "acceptableAnswers": [
+        "31.4cm",
+        "31.4"
+      ],
+      "unit": "cm",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-16] 원주율과 원의 넓이 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-16] 원주율과 원의 넓이 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'원주율과 원의 넓이'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-16]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
     },
     {
       "id": "q2",
@@ -32,7 +44,19 @@
       "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.concept",
       "prompt": "원주율은 3.14로 계산하세요. 반지름이 4cm인 원의 넓이를 구하세요.",
       "answer": "50.24cm²",
-      "explanation": "4×4×3.14=50.24"
+      "explanation": "4×4×3.14=50.24",
+      "acceptableAnswers": [
+        "50.24cm²",
+        "50.24"
+      ],
+      "unit": "cm²",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-16] 원주율과 원의 넓이 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+          "도형과 측정 사례에서 [6수03-16] 원주율과 원의 넓이 - 개념 확인이 드러나는 장면을 선택하고 판단 근거를 제시한다."
+        ],
+        "assessmentPrompt": "'원주율과 원의 넓이'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [6수03-16]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
     },
     {
       "id": "q3",
@@ -41,7 +65,19 @@
       "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-15.representation",
       "prompt": "원주율은 3.14로 계산하세요. 원주가 62.8cm인 원의 지름을 구하세요.",
       "answer": "20cm",
-      "explanation": "62.8÷3.14=20"
+      "explanation": "62.8÷3.14=20",
+      "acceptableAnswers": [
+        "20cm",
+        "20"
+      ],
+      "unit": "cm",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-15] 원주율과 원의 넓이 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'원주율과 원의 넓이'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q4",
@@ -50,7 +86,19 @@
       "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.representation",
       "prompt": "원주율은 3.14로 계산하세요. 지름이 12cm인 원의 넓이를 구하세요.",
       "answer": "113.04cm²",
-      "explanation": "반지름은 6cm이므로 6×6×3.14=113.04"
+      "explanation": "반지름은 6cm이므로 6×6×3.14=113.04",
+      "acceptableAnswers": [
+        "113.04cm²",
+        "113.04"
+      ],
+      "unit": "cm²",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-16] 원주율과 원의 넓이 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+          "자신의 표현물에서 도형과 측정 내용과 근거가 드러나는 부분을 찾아 설명한다."
+        ],
+        "assessmentPrompt": "'원주율과 원의 넓이'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
     },
     {
       "id": "q5",
@@ -59,7 +107,19 @@
       "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.application",
       "prompt": "원주율은 3.14로 계산하세요. 반지름이 5m인 원형 트랙을 3바퀴 돌았습니다. 이동한 거리를 구하세요.",
       "answer": "94.2m",
-      "explanation": "5×2×3.14×3=94.2"
+      "explanation": "5×2×3.14×3=94.2",
+      "acceptableAnswers": [
+        "94.2m",
+        "94.2"
+      ],
+      "unit": "m",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-16] 원주율과 원의 넓이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-16] 원주율과 원의 넓이 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'원주율과 원의 넓이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     },
     {
       "id": "q6",
@@ -68,7 +128,19 @@
       "topicId": "kr.mt.math.geometry-measurement.g5-6.s6-03-16.application",
       "prompt": "원주율은 3.14로 계산하세요. 한 변이 14cm인 정사각형 안에 가장 큰 원을 그렸습니다. 정사각형에서 원을 뺀 부분의 넓이를 구하세요.",
       "answer": "42.14cm²",
-      "explanation": "196-(7×7×3.14)=42.14"
+      "explanation": "196-(7×7×3.14)=42.14",
+      "acceptableAnswers": [
+        "42.14cm²",
+        "42.14"
+      ],
+      "unit": "cm²",
+      "curriculumBasis": {
+        "evidence": [
+          "[6수03-16] 원주율과 원의 넓이 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+          "수행 과정과 결과를 기록하고, [6수03-16] 원주율과 원의 넓이 - 적용과 설명의 다음 시도에서 바꿀 점을 한 가지 제시한다."
+        ],
+        "assessmentPrompt": "'원주율과 원의 넓이'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
     }
   ],
   "pages": [
@@ -76,9 +148,9 @@
       "id": "cover",
       "order": 1,
       "role": "cover",
-      "imagePath": "/workbooks/circle-pi-area/01-cover.png",
+      "imagePath": "/workbooks/circle-pi-area/01-cover.webp",
       "thumbnailPath": "/workbooks/circle-pi-area/01-cover.webp",
-      "sha256": "fcb82c03e0b0f84f40d79dd5de55a512edeeb9b8ab09b5747782221dcac11bc5",
+      "sha256": "d25a67b0de8458efce7ab50309face65f6dafc1dfa7522365f163c41093fe013",
       "alt": "원주율과 원의 넓이 학습지 표지",
       "approved": true
     },
@@ -86,9 +158,9 @@
       "id": "worksheet-1",
       "order": 2,
       "role": "worksheet",
-      "imagePath": "/workbooks/circle-pi-area/02-worksheet-1.png",
+      "imagePath": "/workbooks/circle-pi-area/02-worksheet-1.webp",
       "thumbnailPath": "/workbooks/circle-pi-area/02-worksheet-1.webp",
-      "sha256": "e8695b0e0e2deb5338c81c2aeb78890365075f81bd27e4e844b94c57e4d4394e",
+      "sha256": "f76e1e35a8c2d8c8d68e41c63fb78028c96d8ff2bc52d028f8d5d319e7d0a38f",
       "alt": "원주율과 원의 넓이 기초와 표준 문제 1쪽",
       "approved": true
     },
@@ -96,9 +168,9 @@
       "id": "worksheet-2",
       "order": 3,
       "role": "worksheet",
-      "imagePath": "/workbooks/circle-pi-area/03-worksheet-2.png",
+      "imagePath": "/workbooks/circle-pi-area/03-worksheet-2.webp",
       "thumbnailPath": "/workbooks/circle-pi-area/03-worksheet-2.webp",
-      "sha256": "a043750564a526d0f51d6c090af050e3f0890e9226c34c7f73f77411ea713eda",
+      "sha256": "e69faf25a3f8cc7c1e897bcf410e132ce5b58303179eb9a2b7343312c5ca5853",
       "alt": "원주율과 원의 넓이 표준과 도전 문제 2쪽",
       "approved": true
     },
@@ -106,9 +178,9 @@
       "id": "answers",
       "order": 4,
       "role": "answer",
-      "imagePath": "/workbooks/circle-pi-area/04-answers.png",
+      "imagePath": "/workbooks/circle-pi-area/04-answers.webp",
       "thumbnailPath": "/workbooks/circle-pi-area/04-answers.webp",
-      "sha256": "979c37628b371e59b5cf806e32c563494e07a54f2a63487f7b5eb200f02ade33",
+      "sha256": "7d31d32758311e009063652cec18cc0e4c55e57b95af429876f29b1eb3993415",
       "alt": "원주율과 원의 넓이 정답과 풀이",
       "approved": true
     }
@@ -116,7 +188,7 @@
   "pdf": {
     "path": "/workbooks/circle-pi-area/circle-pi-area.pdf",
     "pageCount": 4,
-    "sha256": "5dd29649aaad9215698863f21e09b999aad87fbd888d471c4b40f80f264d9a57"
+    "sha256": "d22b63b1c9b92032682626e35c06ae829f95f5dfde71edcf92d9c6a1e99bbe1d"
   },
   "transcriptPath": "/workbooks/circle-pi-area/transcript.html",
   "license": "CC-BY-NC-SA-4.0",

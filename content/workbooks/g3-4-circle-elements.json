@@ -1,0 +1,180 @@
+{
+  "id": "g3-4-circle-elements",
+  "slug": "g3-4-circle-elements",
+  "title": "초등 수학 한 장: 원의 구성 요소",
+  "gradeBand": "3-4",
+  "domain": "도형과 측정",
+  "module": "원의 구성 요소",
+  "standardCodes": [
+    "[4수03-06]",
+    "[4수03-07]"
+  ],
+  "levels": [
+    "foundation",
+    "standard",
+    "challenge"
+  ],
+  "curriculumSnapshotPath": "/content/curriculum/full-math-standards-2026-07-29.json",
+  "questions": [
+    {
+      "id": "q1",
+      "level": "foundation",
+      "standardCode": "[4수03-06]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-06.concept",
+      "prompt": "원의 중심과 원 위의 한 점을 이은 선분을 무엇이라고 하나요?",
+      "answer": "반지름",
+      "acceptableAnswers": [
+        "반지름"
+      ],
+      "unit": null,
+      "explanation": "원의 중심에서 원 위의 한 점까지 이은 선분은 반지름입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-06] 원의 구성 요소 - 개념 확인을 이루는 핵심 요소 두 가지 이상을 찾아 자신의 말로 설명한다.",
+        "assessmentPrompt": "'원의 구성 요소'에 관한 짧은 상황을 제시하고, 학생이 공식 성취기준 [4수03-06]의 핵심 개념을 자신의 말과 간단한 예로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q2",
+      "level": "foundation",
+      "standardCode": "[4수03-06]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-06.representation",
+      "prompt": "반지름이 4cm인 원의 지름은 몇 cm인가요?",
+      "answer": "8cm",
+      "acceptableAnswers": [
+        "8cm",
+        "8 cm"
+      ],
+      "unit": "cm",
+      "explanation": "지름은 반지름의 2배이므로 4×2=8cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-06] 원의 구성 요소 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'원의 구성 요소'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q3",
+      "level": "standard",
+      "standardCode": "[4수03-07]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-07.representation",
+      "prompt": "컴퍼스의 두 다리 사이를 3cm로 벌려 원을 그렸습니다. 이 원의 반지름은 몇 cm인가요?",
+      "answer": "3cm",
+      "acceptableAnswers": [
+        "3cm",
+        "3 cm"
+      ],
+      "unit": "cm",
+      "explanation": "컴퍼스의 침과 연필심 사이의 거리가 그린 원의 반지름이므로 3cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-07] 원의 구성 요소 - 표현과 연결을 말·글·표·그림·소리·움직임 중 알맞은 방식으로 표현한다.",
+        "assessmentPrompt": "'원의 구성 요소'에 관한 과제를 제시하고, 학생이 같은 수학적 의미를 두 가지 이상의 표현으로 나타낸 뒤 연결 이유를 설명하게 하라."
+      }
+    },
+    {
+      "id": "q4",
+      "level": "standard",
+      "standardCode": "[4수03-06]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-06.application",
+      "prompt": "지름이 14cm인 원의 반지름은 몇 cm인가요?",
+      "answer": "7cm",
+      "acceptableAnswers": [
+        "7cm",
+        "7 cm"
+      ],
+      "unit": "cm",
+      "explanation": "반지름은 지름의 절반이므로 14÷2=7cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-06] 원의 구성 요소 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'원의 구성 요소'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q5",
+      "level": "challenge",
+      "standardCode": "[4수03-07]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-07.application",
+      "prompt": "중심이 같은 반지름 2cm와 5cm인 두 원을 그리려 합니다. 컴퍼스를 각각 몇 cm로 벌려야 하나요?",
+      "answer": "2cm와 5cm",
+      "acceptableAnswers": [
+        "2cm와 5cm",
+        "2 cm와 5 cm",
+        "각각 2cm, 5cm"
+      ],
+      "unit": "cm",
+      "explanation": "컴퍼스를 원하는 반지름만큼 벌려야 하므로 각각 2cm와 5cm로 벌립니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-07] 원의 구성 요소 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'원의 구성 요소'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    },
+    {
+      "id": "q6",
+      "level": "challenge",
+      "standardCode": "[4수03-06]",
+      "topicId": "kr.mt.math.geometry-measurement.g3-4.s4-03-06.application",
+      "prompt": "한 원의 지름과 반지름의 길이를 더하면 18cm입니다. 이 원의 반지름은 몇 cm인가요?",
+      "answer": "6cm",
+      "acceptableAnswers": [
+        "6cm",
+        "6 cm"
+      ],
+      "unit": "cm",
+      "explanation": "지름은 반지름의 2배이므로 지름과 반지름의 합은 반지름의 3배입니다. 18÷3=6cm입니다.",
+      "curriculumBasis": {
+        "evidence": "[4수03-06] 원의 구성 요소 - 적용과 설명을 수행하는 순서와 주의할 점을 말한 뒤 과제를 끝까지 실행한다.",
+        "assessmentPrompt": "'원의 구성 요소'에 관한 생활 또는 탐구 문제를 제시하고, 학생이 풀이 전략, 계산 또는 표현, 답의 타당성을 차례로 설명하게 하라."
+      }
+    }
+  ],
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/g3-4-circle-elements/01-cover.webp",
+      "thumbnailPath": "/workbooks/g3-4-circle-elements/01-cover.webp",
+      "sha256": "16ac81546b29fca20b37cdba93ec7c95d434b5f735206fa177033e9832bdd1a0",
+      "alt": "원의 구성 요소 학습지 표지",
+      "approved": true
+    },
+    {
+      "id": "worksheet-1",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-circle-elements/02-worksheet-1.webp",
+      "thumbnailPath": "/workbooks/g3-4-circle-elements/02-worksheet-1.webp",
+      "sha256": "ee53aa3ab2ee5c794d26f28b24b958415d99b244d35564cb7f7b90e216193f84",
+      "alt": "원의 구성 요소 기초와 표준 문제 1쪽",
+      "approved": true
+    },
+    {
+      "id": "worksheet-2",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/g3-4-circle-elements/03-worksheet-2.webp",
+      "thumbnailPath": "/workbooks/g3-4-circle-elements/03-worksheet-2.webp",
+      "sha256": "24925a570ecdd31fd0567a203bd88d2e8809a06f7cede11eb3ba88caf674e7ec",
+      "alt": "원의 구성 요소 표준과 도전 문제 2쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 4,
+      "role": "answer",
+      "imagePath": "/workbooks/g3-4-circle-elements/04-answers.webp",
+      "thumbnailPath": "/workbooks/g3-4-circle-elements/04-answers.webp",
+      "sha256": "4d78b552a023906a5e015c443b65be816dbc156c36b5b662fb545fabe87b1522",
+      "alt": "원의 구성 요소 정답과 풀이",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/g3-4-circle-elements/g3-4-circle-elements.pdf",
+    "pageCount": 4,
+    "sha256": "17abd3c1b3485bd20855a2eadba9816e360fbfeeea5b2672771b8353169d4c19"
+  },
+  "transcriptPath": "/workbooks/g3-4-circle-elements/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}
