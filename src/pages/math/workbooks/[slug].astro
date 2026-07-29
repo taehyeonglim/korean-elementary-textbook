@@ -20,6 +20,7 @@ const pages = [...workbook.pages].sort((a, b) => a.order - b.order);
         <h1 class="detail-hero__title">{workbook.title}</h1>
         <p class="detail-hero__description">{workbook.module} 단원의 핵심 성취기준을 바탕으로 구성한 4쪽 학습지입니다. 개념을 확인하고, 적용하며, 한 번 더 생각하는 흐름으로 풀어보세요.</p>
         <div class="detail-actions">
+          {workbook.slug === "angles" && <a class="button button--tablet" href={`${import.meta.env.BASE_URL}math/workbooks/${workbook.slug}/solve/`}>태블릿으로 풀기 <span aria-hidden="true">✎</span></a>}
           <a class="button button--primary" href={publicAsset(workbook.pdf.path)} download>PDF 내려받기 <span aria-hidden="true">↓</span></a>
           <a class="button button--plain" href={publicAsset(workbook.transcriptPath)}>문항·정답 전문 보기 <span aria-hidden="true">↗</span></a>
         </div>

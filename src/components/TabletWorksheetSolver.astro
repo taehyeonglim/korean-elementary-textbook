@@ -1,0 +1,454 @@
+---
+import { publicAsset, type Workbook, type WorkbookPage } from "../lib/catalog";
+
+interface Props {
+  workbook: Workbook;
+  pages: WorkbookPage[];
+  backHref: string;
+}
+
+const { workbook, pages, backHref } = Astro.props;
+const pageData = pages.map((page) => ({
+  id: page.id,
+  order: page.order,
+  role: page.role,
+  alt: page.alt,
+  src: publicAsset(page.imagePath),
+}));
+---
+
+<section
+  class="tablet-solver"
+  data-tablet-solver
+  data-workbook-slug={workbook.slug}
+  data-workbook-title={workbook.title}
+  data-pages={JSON.stringify(pageData)}
+  aria-labelledby="tablet-solver-title"
+>
+  <a class="tablet-solver__back" href={backHref}><span aria-hidden="true">←</span> 학습지 자료실로 돌아가기</a>
+
+  <header class="tablet-solver__header">
+    <div>
+      <p class="eyebrow">TABLET WORKSHEET · BETA</p>
+      <h1 id="tablet-solver-title">각도를 태블릿으로 풀어 보세요.</h1>
+      <p>Apple Pencil, 손가락, 마우스로 학습지 위에 바로 쓰세요. 필기는 이 기기에 자동 저장되며, 로그인이나 계정은 필요하지 않습니다.</p>
+    </div>
+    <div class="tablet-solver__header-actions">
+      <button class="tablet-action tablet-action--quiet" type="button" data-reset-workbook>이 활동지 처음부터</button>
+      <button class="tablet-action tablet-action--primary" type="button" data-export-pdf>필기한 PDF 저장 <span aria-hidden="true">↓</span></button>
+    </div>
+  </header>
+
+  <p class="tablet-solver__status" data-save-status role="status" aria-live="polite">이 기기에 자동 저장됩니다.</p>
+
+  <div class="tablet-solver__controls" aria-label="학습지 도구">
+    <nav class="tablet-pager" aria-label="페이지 이동">
+      <button class="tablet-icon-button" type="button" data-previous-page aria-label="이전 페이지">←</button>
+      <span class="tablet-pager__label" data-page-label aria-live="polite"></span>
+      <button class="tablet-icon-button" type="button" data-next-page aria-label="다음 페이지">→</button>
+      <button class="tablet-answer-toggle" type="button" data-answer-toggle aria-pressed="false">정답 보기</button>
+    </nav>
+
+    <div class="tablet-toolbar" role="toolbar" aria-label="필기 도구">
+      <div class="tablet-tool-group" aria-label="도구 선택">
+        <button class="tablet-tool" type="button" data-tool="pen" aria-pressed="true">펜</button>
+        <button class="tablet-tool" type="button" data-tool="eraser" aria-pressed="false">지우개</button>
+      </div>
+
+      <div class="tablet-tool-group" aria-label="펜 색상">
+        <button class="tablet-colour tablet-colour--pine" type="button" data-colour="#17453e" aria-label="초록색 펜" aria-pressed="true"></button>
+        <button class="tablet-colour tablet-colour--berry" type="button" data-colour="#b54852" aria-label="빨간색 펜" aria-pressed="false"></button>
+        <button class="tablet-colour tablet-colour--blue" type="button" data-colour="#276b9b" aria-label="파란색 펜" aria-pressed="false"></button>
+        <button class="tablet-colour tablet-colour--graphite" type="button" data-colour="#30343a" aria-label="검은색 펜" aria-pressed="false"></button>
+      </div>
+
+      <div class="tablet-tool-group" aria-label="펜 굵기">
+        <button class="tablet-width" type="button" data-width="2" aria-label="가는 펜" aria-pressed="true"><i></i></button>
+        <button class="tablet-width" type="button" data-width="5" aria-label="보통 펜" aria-pressed="false"><i></i></button>
+        <button class="tablet-width" type="button" data-width="9" aria-label="굵은 펜" aria-pressed="false"><i></i></button>
+      </div>
+
+      <div class="tablet-tool-group tablet-tool-group--history" aria-label="되돌리기 도구">
+        <button class="tablet-tool tablet-tool--text" type="button" data-undo disabled>되돌리기</button>
+        <button class="tablet-tool tablet-tool--text" type="button" data-redo disabled>다시 하기</button>
+        <button class="tablet-tool tablet-tool--text" type="button" data-clear-page>현재 쪽 지우기</button>
+      </div>
+
+      <div class="tablet-tool-group tablet-tool-group--zoom" aria-label="확대 축소">
+        <button class="tablet-icon-button" type="button" data-zoom-out aria-label="축소">−</button>
+        <button class="tablet-tool tablet-tool--text" type="button" data-zoom-fit>맞춤 <span data-zoom-label>100%</span></button>
+        <button class="tablet-icon-button" type="button" data-zoom-in aria-label="확대">+</button>
+      </div>
+    </div>
+  </div>
+
+  <p class="tablet-solver__tip" id="tablet-solver-tip">페이지를 넘겨도 필기가 남습니다. 두 손가락 확대 대신 도구 모음의 확대 버튼을 사용하세요.</p>
+
+  <div class="tablet-sheet-viewport" data-sheet-viewport>
+    <div class="tablet-sheet" data-sheet>
+      <img data-page-image alt="" draggable="false" />
+      <canvas data-ink-canvas tabindex="0" aria-describedby="tablet-solver-tip" aria-label="학습지 위에 필기하는 영역">
+        이 브라우저에서는 필기 영역을 사용할 수 없습니다. PDF를 내려받아 인쇄용으로 이용해 주세요.
+      </canvas>
+    </div>
+  </div>
+
+  <footer class="tablet-solver__footer">
+    <p>이 베타 기능은 현재 이 활동지에서만 제공합니다. 저장한 필기는 사용 중인 기기에만 남으며, 브라우저 데이터를 지우면 함께 삭제될 수 있습니다.</p>
+    <a href={publicAsset(workbook.pdf.path)} download>원본 PDF 내려받기 <span aria-hidden="true">↓</span></a>
+  </footer>
+</section>
+
+<script>
+  import { PDFDocument } from "pdf-lib";
+
+  type PageRole = "cover" | "worksheet" | "answer";
+  type PageData = { id: string; order: number; role: PageRole; alt: string; src: string };
+  type Point = { x: number; y: number };
+  type Stroke = { tool: "pen" | "eraser"; colour: string; width: number; points: Point[] };
+  type Action = { kind: "stroke"; stroke: Stroke } | { kind: "clear"; strokes: Stroke[] };
+  type PageState = { strokes: Stroke[]; undoStack: Action[]; redoStack: Action[] };
+
+  const root = document.querySelector<HTMLElement>("[data-tablet-solver]");
+
+  if (root) {
+    const pages = JSON.parse(root.dataset.pages ?? "[]") as PageData[];
+    const workbookSlug = root.dataset.workbookSlug ?? "worksheet";
+    const workbookTitle = root.dataset.workbookTitle ?? "초등 학습지 한 장";
+    const canvas = root.querySelector<HTMLCanvasElement>("[data-ink-canvas]");
+    const pageImage = root.querySelector<HTMLImageElement>("[data-page-image]");
+    const sheet = root.querySelector<HTMLElement>("[data-sheet]");
+    const viewport = root.querySelector<HTMLElement>("[data-sheet-viewport]");
+    const pageLabel = root.querySelector<HTMLElement>("[data-page-label]");
+    const saveStatus = root.querySelector<HTMLElement>("[data-save-status]");
+    const previousButton = root.querySelector<HTMLButtonElement>("[data-previous-page]");
+    const nextButton = root.querySelector<HTMLButtonElement>("[data-next-page]");
+    const answerToggle = root.querySelector<HTMLButtonElement>("[data-answer-toggle]");
+    const undoButton = root.querySelector<HTMLButtonElement>("[data-undo]");
+    const redoButton = root.querySelector<HTMLButtonElement>("[data-redo]");
+    const clearButton = root.querySelector<HTMLButtonElement>("[data-clear-page]");
+    const resetButton = root.querySelector<HTMLButtonElement>("[data-reset-workbook]");
+    const exportButton = root.querySelector<HTMLButtonElement>("[data-export-pdf]");
+    const zoomLabel = root.querySelector<HTMLElement>("[data-zoom-label]");
+    const DISPLAY_WIDTH = 1200;
+    const STORAGE_PREFIX = "elementary-learning-one:tablet-solver:v1";
+    const states = new Map<string, PageState>();
+    let currentPageIndex = 0;
+    let answersVisible = false;
+    let tool: Stroke["tool"] = "pen";
+    let colour = "#17453e";
+    let width = 2;
+    let zoom = 1;
+    let activeStroke: Stroke | undefined;
+    let activePointerId: number | undefined;
+
+    const storageKey = (pageId: string) => `${STORAGE_PREFIX}:${workbookSlug}:${pageId}`;
+    const currentPage = () => pages[currentPageIndex];
+    const visiblePageIndexes = () => pages.flatMap((page, index) => page.role === "answer" && !answersVisible ? [] : [index]);
+    const context = () => canvas?.getContext("2d") ?? null;
+    const stateFor = (pageId: string) => {
+      const existing = states.get(pageId);
+      if (existing) return existing;
+      const state: PageState = { strokes: [], undoStack: [], redoStack: [] };
+      states.set(pageId, state);
+      return state;
+    };
+    const validPoint = (value: unknown): value is Point => typeof value === "object" && value !== null
+      && Number.isFinite((value as Point).x) && Number.isFinite((value as Point).y)
+      && (value as Point).x >= 0 && (value as Point).x <= 1 && (value as Point).y >= 0 && (value as Point).y <= 1;
+    const validStroke = (value: unknown): value is Stroke => typeof value === "object" && value !== null
+      && ((value as Stroke).tool === "pen" || (value as Stroke).tool === "eraser")
+      && typeof (value as Stroke).colour === "string"
+      && Number.isFinite((value as Stroke).width)
+      && (value as Stroke).width > 0 && (value as Stroke).width <= 40
+      && Array.isArray((value as Stroke).points) && (value as Stroke).points.every(validPoint);
+
+    const showStatus = (message: string) => {
+      if (saveStatus) saveStatus.textContent = message;
+    };
+    const savePage = (pageId = currentPage()?.id) => {
+      if (!pageId) return;
+      try {
+        localStorage.setItem(storageKey(pageId), JSON.stringify({ version: 1, strokes: stateFor(pageId).strokes }));
+        showStatus("저장됨 · 이 기기에서 계속 풀 수 있어요.");
+      } catch {
+        showStatus("이 브라우저에서는 자동 저장을 사용할 수 없습니다.");
+      }
+    };
+    const loadPage = (pageId: string) => {
+      const state = stateFor(pageId);
+      try {
+        const saved = JSON.parse(localStorage.getItem(storageKey(pageId)) ?? "null") as { strokes?: unknown } | null;
+        if (saved && Array.isArray(saved.strokes)) state.strokes = saved.strokes.filter(validStroke);
+      } catch {
+        // A broken or unavailable browser storage entry must never block the worksheet.
+      }
+      return state;
+    };
+    const drawStroke = (drawingContext: CanvasRenderingContext2D, stroke: Stroke, targetWidth: number, targetHeight: number) => {
+      if (!stroke.points.length) return;
+      drawingContext.save();
+      drawingContext.lineCap = "round";
+      drawingContext.lineJoin = "round";
+      drawingContext.lineWidth = Math.max(1, (stroke.width / 1000) * targetWidth);
+      drawingContext.strokeStyle = stroke.colour;
+      drawingContext.fillStyle = stroke.colour;
+      drawingContext.globalCompositeOperation = stroke.tool === "eraser" ? "destination-out" : "source-over";
+      const first = stroke.points[0];
+      if (stroke.points.length === 1) {
+        drawingContext.beginPath();
+        drawingContext.arc(first.x * targetWidth, first.y * targetHeight, drawingContext.lineWidth / 2, 0, Math.PI * 2);
+        drawingContext.fill();
+      } else {
+        drawingContext.beginPath();
+        drawingContext.moveTo(first.x * targetWidth, first.y * targetHeight);
+        stroke.points.slice(1).forEach((point) => drawingContext.lineTo(point.x * targetWidth, point.y * targetHeight));
+        drawingContext.stroke();
+      }
+      drawingContext.restore();
+    };
+    const redraw = () => {
+      const page = currentPage();
+      const drawingContext = context();
+      if (!page || !canvas || !drawingContext) return;
+      drawingContext.clearRect(0, 0, canvas.width, canvas.height);
+      stateFor(page.id).strokes.forEach((stroke) => drawStroke(drawingContext, stroke, canvas.width, canvas.height));
+      if (activeStroke) drawStroke(drawingContext, activeStroke, canvas.width, canvas.height);
+    };
+    const updateHistoryControls = () => {
+      const state = currentPage() ? stateFor(currentPage().id) : undefined;
+      if (undoButton) undoButton.disabled = !state?.undoStack.length;
+      if (redoButton) redoButton.disabled = !state?.redoStack.length;
+    };
+    const updateToolControls = () => {
+      root.querySelectorAll<HTMLButtonElement>("[data-tool]").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.tool === tool)));
+      root.querySelectorAll<HTMLButtonElement>("[data-colour]").forEach((button) => button.setAttribute("aria-pressed", String(button.dataset.colour === colour)));
+      root.querySelectorAll<HTMLButtonElement>("[data-width]").forEach((button) => button.setAttribute("aria-pressed", String(Number(button.dataset.width) === width)));
+      if (zoomLabel) zoomLabel.textContent = `${Math.round(zoom * 100)}%`;
+    };
+    const updatePager = () => {
+      const indexes = visiblePageIndexes();
+      const position = indexes.indexOf(currentPageIndex);
+      if (pageLabel) {
+        const role = currentPage()?.role;
+        pageLabel.textContent = `${position + 1} / ${indexes.length} · ${role === "cover" ? "표지" : role === "answer" ? "정답·해설" : "문제"}`;
+      }
+      if (previousButton) previousButton.disabled = position <= 0;
+      if (nextButton) nextButton.disabled = position < 0 || position >= indexes.length - 1;
+      if (answerToggle) {
+        answerToggle.textContent = answersVisible ? "정답 숨기기" : "정답 보기";
+        answerToggle.setAttribute("aria-pressed", String(answersVisible));
+      }
+    };
+    const resizeCanvasToPage = () => {
+      if (!canvas || !pageImage || !sheet) return;
+      const naturalWidth = pageImage.naturalWidth || DISPLAY_WIDTH;
+      const naturalHeight = pageImage.naturalHeight || Math.round(DISPLAY_WIDTH * 1.414);
+      canvas.width = DISPLAY_WIDTH;
+      canvas.height = Math.round(DISPLAY_WIDTH * (naturalHeight / naturalWidth));
+      sheet.style.aspectRatio = `${naturalWidth} / ${naturalHeight}`;
+      redraw();
+    };
+    const renderPage = (index: number) => {
+      const page = pages[index];
+      if (!page || !pageImage) return;
+      savePage();
+      currentPageIndex = index;
+      activeStroke = undefined;
+      pageImage.src = page.src;
+      pageImage.alt = page.alt;
+      loadPage(page.id);
+      if (pageImage.complete) resizeCanvasToPage();
+      updatePager();
+      updateHistoryControls();
+    };
+    const pointFromEvent = (event: PointerEvent): Point | undefined => {
+      if (!canvas) return undefined;
+      const bounds = canvas.getBoundingClientRect();
+      if (!bounds.width || !bounds.height) return undefined;
+      return {
+        x: Math.min(1, Math.max(0, (event.clientX - bounds.left) / bounds.width)),
+        y: Math.min(1, Math.max(0, (event.clientY - bounds.top) / bounds.height)),
+      };
+    };
+    const beginStroke = (event: PointerEvent) => {
+      if (!canvas || (event.pointerType === "mouse" && event.button !== 0)) return;
+      const point = pointFromEvent(event);
+      if (!point) return;
+      event.preventDefault();
+      activePointerId = event.pointerId;
+      canvas.setPointerCapture(event.pointerId);
+      activeStroke = { tool, colour, width, points: [point] };
+      redraw();
+    };
+    const extendStroke = (event: PointerEvent) => {
+      if (!activeStroke || activePointerId !== event.pointerId) return;
+      const point = pointFromEvent(event);
+      if (!point) return;
+      event.preventDefault();
+      const last = activeStroke.points.at(-1);
+      if (!last || Math.hypot(point.x - last.x, point.y - last.y) > 0.001) {
+        activeStroke.points.push(point);
+        redraw();
+      }
+    };
+    const finishStroke = (event?: PointerEvent) => {
+      if (!activeStroke || (event && activePointerId !== event.pointerId)) return;
+      const page = currentPage();
+      if (page) {
+        const state = stateFor(page.id);
+        state.strokes.push(activeStroke);
+        state.undoStack.push({ kind: "stroke", stroke: activeStroke });
+        state.redoStack = [];
+      }
+      activeStroke = undefined;
+      activePointerId = undefined;
+      redraw();
+      updateHistoryControls();
+      savePage();
+    };
+    const undo = () => {
+      const page = currentPage();
+      if (!page) return;
+      const state = stateFor(page.id);
+      const action = state.undoStack.pop();
+      if (!action) return;
+      if (action.kind === "stroke") state.strokes.pop();
+      else state.strokes = [...action.strokes];
+      state.redoStack.push(action);
+      redraw(); updateHistoryControls(); savePage();
+    };
+    const redo = () => {
+      const page = currentPage();
+      if (!page) return;
+      const state = stateFor(page.id);
+      const action = state.redoStack.pop();
+      if (!action) return;
+      if (action.kind === "stroke") state.strokes.push(action.stroke);
+      else state.strokes = [];
+      state.undoStack.push(action);
+      redraw(); updateHistoryControls(); savePage();
+    };
+    const clearCurrentPage = () => {
+      const page = currentPage();
+      if (!page) return;
+      const state = stateFor(page.id);
+      if (!state.strokes.length) return;
+      if (!window.confirm("이 페이지의 필기를 모두 지울까요? 되돌리기로 복구할 수 있습니다.")) return;
+      state.undoStack.push({ kind: "clear", strokes: [...state.strokes] });
+      state.redoStack = [];
+      state.strokes = [];
+      redraw(); updateHistoryControls(); savePage();
+    };
+    const setZoom = (nextZoom: number) => {
+      zoom = Math.min(1.6, Math.max(0.75, Math.round(nextZoom * 20) / 20));
+      if (sheet) sheet.style.setProperty("--worksheet-zoom", String(zoom));
+      updateToolControls();
+      viewport?.scrollTo({ left: 0, top: 0, behavior: "smooth" });
+    };
+    const loadImage = (source: string) => new Promise<HTMLImageElement>((resolve, reject) => {
+      const image = new Image();
+      image.onload = () => resolve(image);
+      image.onerror = () => reject(new Error("이미지를 불러오지 못했습니다."));
+      image.src = source;
+    });
+    const exportPdf = async () => {
+      if (!exportButton) return;
+      const originalLabel = exportButton.textContent;
+      exportButton.disabled = true;
+      exportButton.textContent = "PDF를 만드는 중…";
+      showStatus("필기한 페이지를 PDF로 만들고 있어요.");
+      try {
+        const pdf = await PDFDocument.create();
+        const exportIndexes = visiblePageIndexes();
+        for (const index of exportIndexes) {
+          const page = pages[index];
+          const image = await loadImage(page.src);
+          const targetWidth = Math.min(1600, image.naturalWidth || 1600);
+          const targetHeight = Math.round(targetWidth * ((image.naturalHeight || 2262) / (image.naturalWidth || 1600)));
+          const exportCanvas = document.createElement("canvas");
+          exportCanvas.width = targetWidth;
+          exportCanvas.height = targetHeight;
+          const exportContext = exportCanvas.getContext("2d");
+          if (!exportContext) throw new Error("PDF용 캔버스를 만들 수 없습니다.");
+          // Replaying eraser strokes on the worksheet canvas would remove the worksheet
+          // pixels as well. Keep ink transparent until every pen/eraser operation is done,
+          // then lay that completed ink layer over the original page image.
+          const inkCanvas = document.createElement("canvas");
+          inkCanvas.width = targetWidth;
+          inkCanvas.height = targetHeight;
+          const inkContext = inkCanvas.getContext("2d");
+          if (!inkContext) throw new Error("필기 레이어를 만들 수 없습니다.");
+          stateFor(page.id).strokes.forEach((stroke) => drawStroke(inkContext, stroke, targetWidth, targetHeight));
+          exportContext.drawImage(image, 0, 0, targetWidth, targetHeight);
+          exportContext.drawImage(inkCanvas, 0, 0, targetWidth, targetHeight);
+          const png = await fetch(exportCanvas.toDataURL("image/png")).then((response) => response.arrayBuffer());
+          const embedded = await pdf.embedPng(png);
+          const pdfPage = pdf.addPage([595.28, 841.89]);
+          pdfPage.drawImage(embedded, { x: 0, y: 0, width: 595.28, height: 841.89 });
+        }
+        pdf.setTitle(`${workbookTitle} · 풀이`);
+        pdf.setAuthor("Taehyeong Lim");
+        const bytes = await pdf.save();
+        const pdfBytes = new Uint8Array(bytes.byteLength);
+        pdfBytes.set(bytes);
+        const href = URL.createObjectURL(new Blob([pdfBytes.buffer], { type: "application/pdf" }));
+        const link = document.createElement("a");
+        link.href = href;
+        link.download = `${workbookSlug}-annotated.pdf`;
+        link.click();
+        window.setTimeout(() => URL.revokeObjectURL(href), 5000);
+        showStatus("필기한 PDF를 저장했습니다.");
+      } catch {
+        showStatus("PDF를 만들지 못했습니다. 원본 PDF 내려받기를 이용해 주세요.");
+      } finally {
+        exportButton.disabled = false;
+        exportButton.textContent = originalLabel ?? "필기한 PDF 저장";
+      }
+    };
+
+    pageImage?.addEventListener("load", resizeCanvasToPage);
+    canvas?.addEventListener("pointerdown", beginStroke);
+    canvas?.addEventListener("pointermove", extendStroke);
+    canvas?.addEventListener("pointerup", finishStroke);
+    canvas?.addEventListener("pointercancel", finishStroke);
+    root.querySelectorAll<HTMLButtonElement>("[data-tool]").forEach((button) => button.addEventListener("click", () => { tool = button.dataset.tool as Stroke["tool"]; updateToolControls(); }));
+    root.querySelectorAll<HTMLButtonElement>("[data-colour]").forEach((button) => button.addEventListener("click", () => { colour = button.dataset.colour ?? colour; tool = "pen"; updateToolControls(); }));
+    root.querySelectorAll<HTMLButtonElement>("[data-width]").forEach((button) => button.addEventListener("click", () => { width = Number(button.dataset.width) || width; tool = "pen"; updateToolControls(); }));
+    previousButton?.addEventListener("click", () => { const indexes = visiblePageIndexes(); renderPage(indexes[Math.max(0, indexes.indexOf(currentPageIndex) - 1)]); });
+    nextButton?.addEventListener("click", () => { const indexes = visiblePageIndexes(); renderPage(indexes[Math.min(indexes.length - 1, indexes.indexOf(currentPageIndex) + 1)]); });
+    answerToggle?.addEventListener("click", () => {
+      answersVisible = !answersVisible;
+      const answerIndex = pages.findIndex((page) => page.role === "answer");
+      if (answersVisible && answerIndex >= 0) renderPage(answerIndex);
+      else if (currentPage()?.role === "answer") renderPage(visiblePageIndexes().at(-1) ?? 0);
+      else updatePager();
+    });
+    undoButton?.addEventListener("click", undo);
+    redoButton?.addEventListener("click", redo);
+    clearButton?.addEventListener("click", clearCurrentPage);
+    resetButton?.addEventListener("click", () => {
+      if (!window.confirm("이 활동지의 모든 페이지에서 필기를 지울까요? 이 작업은 되돌릴 수 없습니다.")) return;
+      pages.forEach((page) => states.set(page.id, { strokes: [], undoStack: [], redoStack: [] }));
+      try {
+        pages.forEach((page) => localStorage.removeItem(storageKey(page.id)));
+      } catch {
+        // The on-screen state still resets when browser storage is unavailable.
+      }
+      redraw(); updateHistoryControls(); showStatus("이 활동지의 필기를 모두 지웠습니다.");
+    });
+    exportButton?.addEventListener("click", exportPdf);
+    root.querySelector<HTMLButtonElement>("[data-zoom-in]")?.addEventListener("click", () => setZoom(zoom + 0.1));
+    root.querySelector<HTMLButtonElement>("[data-zoom-out]")?.addEventListener("click", () => setZoom(zoom - 0.1));
+    root.querySelector<HTMLButtonElement>("[data-zoom-fit]")?.addEventListener("click", () => setZoom(1));
+    document.addEventListener("keydown", (event) => {
+      if (!(event.metaKey || event.ctrlKey) || event.key.toLowerCase() !== "z" || event.target instanceof HTMLInputElement || event.target instanceof HTMLTextAreaElement) return;
+      event.preventDefault();
+      if (event.shiftKey) redo(); else undo();
+    });
+
+    pages.forEach((page) => loadPage(page.id));
+    updateToolControls();
+    renderPage(0);
+  }
+</script>

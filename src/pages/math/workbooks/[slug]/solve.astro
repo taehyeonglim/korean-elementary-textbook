@@ -1,0 +1,18 @@
+---
+import TabletWorksheetSolver from "../../../../components/TabletWorksheetSolver.astro";
+import BaseLayout from "../../../../layouts/BaseLayout.astro";
+import { findWorkbook, type Workbook } from "../../../../lib/catalog";
+
+export function getStaticPaths() {
+  const workbook = findWorkbook("angles", "math");
+  return workbook ? [{ params: { slug: workbook.slug }, props: { workbook } }] : [];
+}
+
+const { workbook } = Astro.props as { workbook: Workbook };
+const pages = [...workbook.pages].sort((a, b) => a.order - b.order);
+const backHref = `${import.meta.env.BASE_URL}math/workbooks/${workbook.slug}/`;
+---
+
+<BaseLayout title={`${workbook.title} 태블릿 풀이 | 초등 수학 한 장`} description={`${workbook.title}를 Apple Pencil과 손가락으로 직접 풀 수 있는 태블릿 학습지`} page="workbook" subject="math">
+  <TabletWorksheetSolver workbook={workbook} pages={pages} backHref={backHref} />
+</BaseLayout>

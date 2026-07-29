@@ -78,6 +78,14 @@ export async function checkPublicOutput() {
     if (!legacy.includes('http-equiv="refresh"')) fail(`Legacy route does not redirect: ${legacyRoute}`);
     if (!mathArchive.includes(`${newRoute}/`)) fail(`Math archive does not link to: ${newRoute}`);
   }
+  const tabletSolver = await assertPage("math/workbooks/angles/solve", [
+    "각도를 태블릿으로 풀어 보세요.",
+    "Apple Pencil",
+    "필기한 PDF 저장",
+    "정답 보기"
+  ]);
+  if (!tabletSolver.includes("data-tablet-solver")) fail("Tablet worksheet route must include the interactive solver surface.");
+  await assertPage("math/workbooks/angles", ["태블릿으로 풀기", "math/workbooks/angles/solve/"]);
   for (const workbook of publishedEnglish) {
     const route = `english/workbooks/${workbook.slug}`;
     await assertPage(route, [workbook.title.split("&")[0].trim(), `${workbook.pdf.pageCount}쪽`]);
