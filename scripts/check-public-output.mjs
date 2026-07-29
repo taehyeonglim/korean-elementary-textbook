@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
-import { projectDir, fail } from "./lib/catalog-utils.mjs";
+import { projectDir, fail, loadCatalog, readJson } from "./lib/catalog-utils.mjs";
 
 const distDir = path.join(projectDir, "dist");
 const ALLOWED_EXTENSIONS = new Set([".html", ".css", ".js", ".json", ".map", ".png", ".jpg", ".jpeg", ".webp", ".svg", ".ico", ".pdf", ".txt", ".xml", ".woff", ".woff2"]);
@@ -17,6 +17,20 @@ async function filesIn(directory) {
   return nested.flat();
 }
 
+async function assertPage(relative, snippets = []) {
+  const target = path.join(distDir, relative, "index.html");
+  let body;
+  try {
+    body = await readFile(target, "utf8");
+  } catch {
+    fail(`Missing required page: ${relative || "/"}`);
+  }
+  for (const snippet of snippets) {
+    if (!body.includes(snippet)) fail(`Required page ${relative || "/"} is missing: ${snippet}`);
+  }
+  return body;
+}
+
 export async function checkPublicOutput() {
   const files = await filesIn(distDir);
   for (const file of files) {
@@ -30,7 +44,39 @@ export async function checkPublicOutput() {
       if (FORBIDDEN_CONTENT.some((pattern) => pattern.test(body))) fail(`Potentially private data in Pages output: ${relative}`);
     }
   }
-  console.log(`Public output allowlist passed (${files.length} files).`);
+
+  const catalog = await loadCatalog();
+  const publishedMath = catalog.workbooks.filter((workbook) => workbook.published === true && workbook.subject === "math");
+  const englishSummary = await readJson(path.join(projectDir, "content", "curriculum", "english-summary-2026-07-29.json"));
+
+  await assertPage("", ["초등 학습지 한 장", "초등 수학 한 장", "초등 영어 한 장"]);
+  const mathArchive = await assertPage("math", ["초등 수학 한 장", `${publishedMath.length}권`]);
+  await assertPage("english", [
+    "초등 영어 한 장",
+    `${englishSummary.standardCount}`,
+    "이해",
+    "표현",
+    "아직 내려받을 영어 학습지는 없습니다."
+  ]);
+  await assertPage("license", ["이용 안내"]);
+
+  for (const workbook of publishedMath) {
+    const newRoute = `math/workbooks/${workbook.slug}`;
+    const legacyRoute = `workbooks/${workbook.slug}`;
+    await assertPage(newRoute, [workbook.title]);
+    const legacy = await assertPage(legacyRoute, [newRoute, "새 주소로 이동"]);
+    if (!legacy.includes('http-equiv="refresh"')) fail(`Legacy route does not redirect: ${legacyRoute}`);
+    if (!mathArchive.includes(`${newRoute}/`)) fail(`Math archive does not link to: ${newRoute}`);
+  }
+
+  if (englishSummary.gradeBands["3-4"].standardCount !== 20 || englishSummary.gradeBands["5-6"].standardCount !== 20) {
+    fail("English curriculum summary must contain 20 standards in each grade band.");
+  }
+  if (englishSummary.officialAreas.map((area) => area.labelKorean).join(",") !== "이해,표현") {
+    fail("English curriculum summary must preserve the official understanding/expression areas.");
+  }
+
+  console.log(`Public output validation passed (${files.length} files, ${publishedMath.length} math workbook route pairs).`);
 }
 
 if (import.meta.main) {

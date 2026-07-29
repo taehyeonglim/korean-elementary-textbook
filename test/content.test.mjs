@@ -2,10 +2,11 @@ import test from "node:test";
 import assert from "node:assert/strict";
 import { loadAndValidateContent, validateWorkbook } from "../scripts/validate-content.mjs";
 
-test("53 curriculum-linked workbooks cover 121 standards with 212 published WebP pages", async () => {
+test("53 mathematics workbooks cover 121 standards with 212 published WebP pages", async () => {
   const { catalog, workbooks } = await loadAndValidateContent();
-  assert.equal(catalog.version, 1);
+  assert.equal(catalog.version, 2);
   assert.equal(workbooks.length, 53);
+  assert.equal(workbooks.every(({ subject }) => subject === "math"), true);
   assert.equal(new Set(workbooks.flatMap(({ standardCodes }) => standardCodes)).size, 121);
   assert.equal(workbooks.flatMap(({ pages }) => pages).length, 212);
   assert.deepEqual(new Set(workbooks.map(({ gradeBand }) => gradeBand)), new Set(["1-2", "3-4", "5-6"]));
@@ -26,7 +27,7 @@ test("53 curriculum-linked workbooks cover 121 standards with 212 published WebP
 
 test("published workbooks require approved pages", () => {
   assert.throws(() => validateWorkbook({
-    id: "test-book", slug: "test-book", title: "test", gradeBand: "1-2", domain: "수와 연산", module: "test",
+    id: "test-book", slug: "test-book", subject: "math", title: "test", gradeBand: "1-2", domain: "수와 연산", module: "test",
     standardCodes: ["[2수01-05]"], levels: ["foundation", "standard", "challenge"],
     pages: [{ id: "cover", order: 1, role: "cover", imagePath: "/workbooks/test-book/cover.png", thumbnailPath: "/workbooks/test-book/cover.webp", sha256: "a".repeat(64), alt: "test", approved: false }],
     pdf: { path: "/workbooks/test-book/book.pdf", pageCount: 1, sha256: "a".repeat(64) }, transcriptPath: "/workbooks/test-book/transcript.html",

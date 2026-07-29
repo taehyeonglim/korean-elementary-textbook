@@ -17,6 +17,12 @@ const PUBLIC_PATH = /^\/workbooks\/[a-z0-9][a-z0-9/_-]*\.(?:png|jpe?g|webp|pdf|h
 const LEVELS = ["foundation", "standard", "challenge"];
 const ROLES = new Set(["cover", "worksheet", "answer"]);
 const GRADE_BANDS = new Set(["1-2", "3-4", "5-6"]);
+const SUBJECTS = new Set(["math", "english"]);
+const SUBJECT_CODE_MARKERS = { math: "수", english: "영" };
+const SUBJECT_GRADE_BANDS = {
+  math: new Set(["1-2", "3-4", "5-6"]),
+  english: new Set(["3-4", "5-6"]),
+};
 
 function validatePage(page, workbook, index) {
   const label = `${workbook.id}.pages[${index}]`;
@@ -34,14 +40,19 @@ function validatePage(page, workbook, index) {
 export function validateWorkbook(workbook, source) {
   if (!isPlainObject(workbook)) fail(`${source} must contain an object`);
   const label = `Workbook ${source}`;
-  for (const key of ["id", "slug", "title", "domain", "module", "author", "publishedAt", "transcriptPath"]) {
+  for (const key of ["id", "slug", "subject", "title", "domain", "module", "author", "publishedAt", "transcriptPath"]) {
     assertString(workbook[key], `${label}.${key}`);
   }
   for (const key of ["id", "slug"]) assertString(workbook[key], `${label}.${key}`, { pattern: ID });
+  if (!SUBJECTS.has(workbook.subject)) fail(`${label}.subject must be math or english`);
   if (!GRADE_BANDS.has(workbook.gradeBand)) fail(`${label}.gradeBand must be 1-2, 3-4, or 5-6`);
+  if (!SUBJECT_GRADE_BANDS[workbook.subject].has(workbook.gradeBand)) fail(`${label}.gradeBand is not available for ${workbook.subject}`);
   if (workbook.grade !== undefined && ![1, 2, 3, 4, 5, 6].includes(workbook.grade)) fail(`${label}.grade must be 1–6 when supplied`);
   if (!Array.isArray(workbook.standardCodes) || workbook.standardCodes.length === 0) fail(`${label}.standardCodes must not be empty`);
   workbook.standardCodes.forEach((code, index) => assertString(code, `${label}.standardCodes[${index}]`, { pattern: STANDARD_CODE }));
+  if (workbook.standardCodes.some((code) => !code.includes(SUBJECT_CODE_MARKERS[workbook.subject]))) {
+    fail(`${label}.standardCodes must match subject ${workbook.subject}`);
+  }
   if (JSON.stringify(workbook.levels) !== JSON.stringify(LEVELS)) fail(`${label}.levels must exactly be foundation, standard, challenge`);
   if (!Array.isArray(workbook.pages) || workbook.pages.length === 0) fail(`${label}.pages must not be empty`);
   workbook.pages.forEach((page, index) => validatePage(page, workbook, index));
@@ -62,7 +73,7 @@ export function validateWorkbook(workbook, source) {
 
 export async function loadAndValidateContent() {
   const catalog = await loadCatalog();
-  if (!isPlainObject(catalog) || catalog.version !== 1 || !Array.isArray(catalog.workbooks)) fail("content/catalog.json must be a version 1 catalog with a workbooks array");
+  if (!isPlainObject(catalog) || catalog.version !== 2 || !Array.isArray(catalog.workbooks)) fail("content/catalog.json must be a version 2 catalog with a workbooks array");
   const files = await workbookFiles();
   const workbooks = await Promise.all(files.map(async (file) => validateWorkbook(await readJson(file), path.relative(projectDir, file))));
   const ids = new Set();

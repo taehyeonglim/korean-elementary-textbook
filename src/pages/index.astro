@@ -1,135 +1,84 @@
 ---
-import WorkbookCard from "../components/WorkbookCard.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import { GRADE_BAND_LABELS, coverPage, publicAsset, publishedWorkbooks } from "../lib/catalog";
+import { coverPage, publicAsset, publishedWorkbooks } from "../lib/catalog";
+import { SUBJECT_LIST } from "../lib/subjects";
 
-const workbooks = publishedWorkbooks();
-const gradeBands = ["1-2", "3-4", "5-6"] as const;
-const modules = [...new Set(workbooks.map((workbook) => workbook.module))].sort((a, b) => a.localeCompare(b, "ko"));
-const domains = [...new Set(workbooks.map((workbook) => workbook.domain))].sort((a, b) => a.localeCompare(b, "ko"));
-const heroCovers = workbooks.slice(0, 3).map((workbook) => {
+const mathWorkbooks = publishedWorkbooks("math");
+const mathCovers = mathWorkbooks.slice(0, 3).map((workbook) => {
   const cover = coverPage(workbook);
   return cover ? { src: publicAsset(cover.thumbnailPath || cover.imagePath), alt: `${workbook.title} 표지` } : undefined;
 });
 ---
 
-<BaseLayout title="초등 수학 한 장 | 무료 학습지" page="archive">
-  <section class="hero" aria-labelledby="intro-title">
-    <div class="hero__copy">
+<BaseLayout title="초등 학습지 한 장 | 무료 초등 학습지" page="home">
+  <section class="hub-hero" aria-labelledby="hub-title">
+    <div class="hub-hero__copy">
       <p class="eyebrow">OPEN WORKSHEET ARCHIVE · 2022 REVISED CURRICULUM</p>
-      <h1 class="hero__title" id="intro-title">초등 수학<br />한 장</h1>
-      <p class="hero__lead">성취기준에 연결한 짧고 정확한 수학 학습지. 아이의 오늘 수학에 딱 맞는 한 장을 찾아, 바로 인쇄해 보세요.</p>
-      <p class="hero__note">기초·표준·도전은 학습을 돕기 위한 프로젝트 자체 단계이며, 국가 공식 성취수준은 아닙니다.</p>
-      <div class="hero__stats" aria-label="학습지 구성">
-        <div><strong>{workbooks.length}</strong><span>학습지</span></div>
-        <div><strong>3</strong><span>학습 단계</span></div>
-        <div><strong>PDF</strong><span>바로 내려받기</span></div>
+      <h1 id="hub-title">초등 학습지<br />한 장</h1>
+      <p>배움의 흐름을 한눈에 보고, 필요한 과목의 한 장을 바로 찾아보세요. 교육과정 성취기준에 연결한 무료 학습지 아카이브입니다.</p>
+      <div class="hub-stats" aria-label="프로젝트 현황">
+        <div><strong>2</strong><span>과목 공간</span></div>
+        <div><strong>{mathWorkbooks.length}</strong><span>공개 학습지</span></div>
+        <div><strong>PDF</strong><span>무료 다운로드</span></div>
       </div>
     </div>
-    <div class="hero__fan" aria-label="학습지 표지 미리보기">
-      {[0, 1, 2].map((index) => {
-        const cover = heroCovers[index];
-        return (
-          <div class:list={["fan-card", !cover && "fan-card--placeholder"]}>
-            {cover ? <img src={cover.src} alt={cover.alt} loading={index === 0 ? "eager" : "lazy"} /> : <span aria-hidden="true">수학</span>}
-          </div>
-        );
-      })}
+    <div class="hub-hero__orbit" aria-hidden="true">
+      <span class="orbit-word orbit-word--math">MATH</span>
+      <span class="orbit-word orbit-word--english">ENGLISH</span>
+      <i></i><i></i><i></i>
     </div>
   </section>
 
-  <section class="archive" aria-labelledby="archive-title">
+  <section class="subject-archive" aria-labelledby="subject-title">
     <div class="section-heading">
       <div>
-        <p class="eyebrow">FIND YOUR SHEET</p>
-        <h2 id="archive-title">학습지 찾아보기</h2>
+        <p class="eyebrow">CHOOSE A SUBJECT</p>
+        <h2 id="subject-title">과목을 골라보세요</h2>
       </div>
-      <p>학년군, 수학 영역, 단원으로 원하는 학습지를 빠르게 좁혀 보세요.</p>
+      <p>같은 원칙과 품질 기준으로 과목별 학습지를 차근차근 확장합니다.</p>
     </div>
 
-    <div class="filter-shell">
-      <form class="filter-form" id="filters" aria-label="학습지 필터">
-        <label>학년군
-          <select name="gradeBand">
-            <option value="">전체 학년군</option>
-            {gradeBands.map((value) => <option value={value}>{GRADE_BAND_LABELS[value]}</option>)}
-          </select>
-        </label>
-        <label>수학 영역
-          <select name="domain">
-            <option value="">전체 영역</option>
-            {domains.map((value) => <option value={value}>{value}</option>)}
-          </select>
-        </label>
-        <label>단원
-          <select name="module">
-            <option value="">전체 단원</option>
-            {modules.map((value) => <option value={value}>{value}</option>)}
-          </select>
-        </label>
-        <button class="filter-reset" type="reset">초기화</button>
-      </form>
-    </div>
-
-    <div class="archive-status">
-      <p id="result-count" role="status" aria-live="polite"></p>
-      <strong>필터 상태는 링크에 저장됩니다</strong>
-    </div>
-    <ul class="workbook-grid" id="workbook-list" aria-label="학습지 목록">
-      {workbooks.map((workbook) => <li><WorkbookCard workbook={workbook} /></li>)}
-    </ul>
-    <div class="empty-state" id="empty-state" hidden>
-      <h3>아직 맞는 한 장이 없어요</h3>
-      <p>필터를 하나 지우거나, 다른 학년군과 단원을 살펴보세요.</p>
+    <div class="subject-grid">
+      {SUBJECT_LIST.map((subject) => (
+        <article class:list={["subject-card", `subject-card--${subject.accent}`]}>
+          <div class="subject-card__topline">
+            <span>{subject.englishLabel}</span>
+            <span class:list={["subject-status", subject.status === "preparing" && "subject-status--preparing"]}>
+              {subject.status === "published" ? "공개 중" : "준비 중"}
+            </span>
+          </div>
+          {subject.id === "math" ? (
+            <div class="subject-card__covers" aria-label="수학 학습지 표지">
+              {mathCovers.map((cover, index) => cover && <img src={cover.src} alt={cover.alt} loading={index ? "lazy" : "eager"} />)}
+            </div>
+          ) : (
+            <div class="english-motif" aria-hidden="true">
+              <span>A</span><span>B</span><span>C</span>
+              <i></i><i></i>
+            </div>
+          )}
+          <div class="subject-card__body">
+            <p class="eyebrow">{subject.shortLabel} · {subject.gradeBands.map((band) => `${band}학년군`).join(" · ")}</p>
+            <h3>{subject.label}</h3>
+            <p>{subject.summary}</p>
+            <dl>
+              <div><dt>성취기준</dt><dd>{subject.standardCount}개</dd></div>
+              <div><dt>영역</dt><dd>{subject.areas.join(" · ")}</dd></div>
+            </dl>
+            <a class="subject-card__link" href={`${import.meta.env.BASE_URL}${subject.slug}/`}>
+              {subject.status === "published" ? "학습지 찾아보기" : "영어 공간 살펴보기"} <span aria-hidden="true">→</span>
+            </a>
+          </div>
+        </article>
+      ))}
     </div>
   </section>
 
-  <script is:inline>
-    const form = document.querySelector("#filters");
-    const listItems = Array.from(document.querySelectorAll("#workbook-list > li"));
-    const empty = document.querySelector("#empty-state");
-    const count = document.querySelector("#result-count");
-    const supportedFields = ["gradeBand", "domain", "module"];
-
-    const loadFromUrl = () => {
-      if (!(form instanceof HTMLFormElement)) return;
-      const params = new URLSearchParams(window.location.search);
-      supportedFields.forEach((name) => {
-        const field = form.elements.namedItem(name);
-        const value = params.get(name) ?? "";
-        if (field instanceof HTMLSelectElement && Array.from(field.options).some((option) => option.value === value)) field.value = value;
-      });
-    };
-    const applyFilters = ({ updateUrl = true } = {}) => {
-      if (!(form instanceof HTMLFormElement)) return;
-      const values = new FormData(form);
-      let visible = 0;
-      listItems.forEach((item) => {
-        const card = item.querySelector("[data-grade-band]");
-        const matches = supportedFields.every((name) => {
-          const selected = String(values.get(name) ?? "");
-          return !selected || card?.dataset[name] === selected;
-        });
-        item.hidden = !matches;
-        if (matches) visible += 1;
-      });
-      if (empty instanceof HTMLElement) empty.hidden = visible !== 0;
-      if (count) count.textContent = `총 ${visible}개의 학습지`;
-      if (updateUrl) {
-        const next = new URLSearchParams();
-        supportedFields.forEach((name) => {
-          const value = String(values.get(name) ?? "");
-          if (value) next.set(name, value);
-        });
-        const query = next.toString();
-        window.history.replaceState(null, "", `${window.location.pathname}${query ? `?${query}` : ""}`);
-      }
-    };
-
-    loadFromUrl();
-    applyFilters({ updateUrl: false });
-    form?.addEventListener("change", () => applyFilters());
-    form?.addEventListener("reset", () => window.requestAnimationFrame(() => applyFilters()));
-    window.addEventListener("popstate", () => { loadFromUrl(); applyFilters({ updateUrl: false }); });
-  </script>
+  <section class="hub-principles" aria-label="제작 원칙">
+    <p class="eyebrow">ONE PAGE, CLEAR PURPOSE</p>
+    <div>
+      <h2>짧게 배우고<br />분명하게 확인합니다.</h2>
+      <p>각 학습지는 교육과정 근거, 접근 가능한 전문, 인쇄용 PDF와 함께 제공합니다. 과목이 늘어나도 이 원칙은 바뀌지 않습니다.</p>
+    </div>
+  </section>
 </BaseLayout>

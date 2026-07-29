@@ -1,14 +1,17 @@
 ---
 import "../styles/global.css";
+import type { SubjectId } from "../lib/catalog";
 
 interface Props {
   title: string;
   description?: string;
-  page?: "archive" | "workbook" | "license";
+  page?: "home" | "subject" | "workbook" | "license" | "legacy";
+  subject?: SubjectId;
+  canonicalPath?: string;
 }
 
-const { title, description = "2022 개정 교육과정 기반 초등 수학 학습지", page } = Astro.props;
-const canonical = new URL(Astro.url.pathname, Astro.site);
+const { title, description = "2022 개정 교육과정에 연결한 무료 초등 학습지", page, subject, canonicalPath } = Astro.props;
+const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site);
 ---
 
 <!doctype html>
@@ -18,21 +21,24 @@ const canonical = new URL(Astro.url.pathname, Astro.site);
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
+    <slot name="head" />
     <title>{title}</title>
   </head>
-  <body data-page={page}>
+  <body data-page={page} data-subject={subject}>
     <a class="skip-link" href="#main">본문으로 건너뛰기</a>
     <header class="site-header">
-      <a class="brand" href={import.meta.env.BASE_URL}>초등 수학 한 장</a>
+      <a class="brand" href={import.meta.env.BASE_URL}>초등 학습지 한 장</a>
       <nav class="site-nav" aria-label="주요 메뉴">
-        <a href={import.meta.env.BASE_URL} aria-current={page === "archive" ? "page" : undefined}>학습지</a>
+        <a href={import.meta.env.BASE_URL} aria-current={page === "home" ? "page" : undefined}>홈</a>
+        <a href={`${import.meta.env.BASE_URL}math/`} aria-current={subject === "math" && page === "subject" ? "page" : undefined}>수학</a>
+        <a href={`${import.meta.env.BASE_URL}english/`} aria-current={subject === "english" ? "page" : undefined}>영어</a>
         <a href={`${import.meta.env.BASE_URL}license/`} aria-current={page === "license" ? "page" : undefined}>이용 안내</a>
       </nav>
     </header>
     <main id="main"><slot /></main>
     <footer class="site-footer">
-      <p>프로젝트 자체 문항·편집물은 CC BY-NC-SA 4.0으로 제공합니다. 저자 Taehyeong Lim · 시각 학습지 이미지는 GPT Image와 Gongnyang Prompt Kit을 활용해 제작했습니다.</p>
-      <p class="site-footer__mark">Elementary Math / Open Worksheet</p>
+      <p>프로젝트 자체 문항·편집물은 CC BY-NC-SA 4.0으로 제공합니다. 저자 Taehyeong Lim · 공개된 시각 학습지 이미지는 GPT Image와 Gongnyang Prompt Kit을 활용해 제작했습니다.</p>
+      <p class="site-footer__mark">Elementary Learning / Open Worksheet</p>
     </footer>
   </body>
 </html>

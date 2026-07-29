@@ -3,10 +3,12 @@ import catalogJson from "../../content/catalog.json";
 export const GRADE_BANDS = ["1-2", "3-4", "5-6"] as const;
 export const LEVELS = ["foundation", "standard", "challenge"] as const;
 export const PAGE_ROLES = ["cover", "worksheet", "answer"] as const;
+export const SUBJECT_IDS = ["math", "english"] as const;
 
 export type GradeBand = (typeof GRADE_BANDS)[number];
 export type ProjectLevel = (typeof LEVELS)[number];
 export type PageRole = (typeof PAGE_ROLES)[number];
+export type SubjectId = (typeof SUBJECT_IDS)[number];
 
 export interface WorkbookPage {
   id: string;
@@ -28,6 +30,7 @@ export interface WorkbookPdf {
 export interface Workbook {
   id: string;
   slug: string;
+  subject: SubjectId;
   title: string;
   gradeBand: GradeBand;
   /** Only set when an official source supports this individual-grade mapping. */
@@ -47,7 +50,7 @@ export interface Workbook {
 }
 
 export interface WorkbookCatalog {
-  version: 1;
+  version: 2;
   workbooks: Workbook[];
 }
 
@@ -67,12 +70,12 @@ export const LEVEL_LABELS: Record<ProjectLevel, string> = {
   challenge: "도전",
 };
 
-export function publishedWorkbooks(): Workbook[] {
-  return catalog.workbooks.filter((workbook) => workbook.published);
+export function publishedWorkbooks(subject?: SubjectId): Workbook[] {
+  return catalog.workbooks.filter((workbook) => workbook.published && (!subject || workbook.subject === subject));
 }
 
-export function findWorkbook(slug: string): Workbook | undefined {
-  return publishedWorkbooks().find((workbook) => workbook.slug === slug);
+export function findWorkbook(slug: string, subject?: SubjectId): Workbook | undefined {
+  return publishedWorkbooks(subject).find((workbook) => workbook.slug === slug);
 }
 
 export function coverPage(workbook: Workbook): WorkbookPage | undefined {
@@ -81,4 +84,8 @@ export function coverPage(workbook: Workbook): WorkbookPage | undefined {
 
 export function publicAsset(path: string): string {
   return `${import.meta.env.BASE_URL}${path.replace(/^\//, "")}`;
+}
+
+export function workbookHref(workbook: Workbook): string {
+  return `${import.meta.env.BASE_URL}${workbook.subject}/workbooks/${workbook.slug}/`;
 }

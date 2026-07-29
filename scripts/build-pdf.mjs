@@ -30,8 +30,8 @@ export async function buildPdf(workbookId) {
   pdf.setTitle(workbook.title);
   pdf.setAuthor(workbook.author);
   pdf.setSubject(`${workbook.standardCodes.join(", ")} · ${workbook.license}`);
-  pdf.setKeywords(["초등 수학", "학습지", ...workbook.standardCodes, workbook.license]);
-  pdf.setCreator("초등 수학 한 장 static asset pipeline");
+  pdf.setKeywords([workbook.subject === "english" ? "초등 영어" : "초등 수학", "초등 학습지", ...workbook.standardCodes, workbook.license]);
+  pdf.setCreator("초등 학습지 한 장 static asset pipeline");
 
   for (const pageInfo of [...workbook.pages].sort((a, b) => a.order - b.order)) {
     const image = await embedImage(pdf, toPublicFile(pageInfo.imagePath));

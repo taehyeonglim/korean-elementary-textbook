@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "workbooks": [
     {
       "id": "angles",
@@ -194,7 +194,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-28",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "circle-pi-area",
@@ -392,7 +393,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-28",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "fractions",
@@ -585,7 +587,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-28",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g1-2-data-organization",
@@ -768,7 +771,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g1-2-length",
@@ -956,7 +960,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g1-2-numbers-to-100",
@@ -1140,7 +1145,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g1-2-one-digit-multiplication",
@@ -1320,7 +1326,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g1-2-patterns",
@@ -1500,7 +1507,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g1-2-quantity-comparison",
@@ -1679,7 +1687,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g1-2-solid-shapes",
@@ -1861,7 +1870,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g1-2-time",
@@ -2044,7 +2054,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-capacity",
@@ -2229,7 +2240,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-circle-elements",
@@ -2409,7 +2421,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-data-collection",
@@ -2591,7 +2604,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-decimal-addition-subtraction",
@@ -2768,7 +2782,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-decimals",
@@ -2946,7 +2961,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-equality",
@@ -3121,7 +3137,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-estimation",
@@ -3305,7 +3322,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-fraction-addition-subtraction",
@@ -3483,7 +3501,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-geometry-basics",
@@ -3660,7 +3679,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-large-numbers",
@@ -3841,7 +3861,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-length",
@@ -4024,7 +4045,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-mass",
@@ -4214,7 +4236,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-plane-transformations",
@@ -4394,7 +4417,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-polygons",
@@ -4572,7 +4596,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-quadrilaterals",
@@ -4746,7 +4771,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-rules-expressions",
@@ -4921,7 +4947,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-three-digit-addition-subtraction",
@@ -5096,7 +5123,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-three-digit-division",
@@ -5276,7 +5304,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-three-digit-multiplication",
@@ -5451,7 +5480,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-time",
@@ -5631,7 +5661,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g3-4-triangles",
@@ -5808,7 +5839,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-congruence-symmetry",
@@ -6006,7 +6038,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-correspondence",
@@ -6198,7 +6231,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-cuboids-cubes",
@@ -6397,7 +6431,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-cylinder-cone-sphere",
@@ -6595,7 +6630,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-data-collection",
@@ -6790,7 +6826,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-decimal-multiplication-division",
@@ -6983,7 +7020,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-factors-multiples",
@@ -7177,7 +7215,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-fraction-addition-subtraction",
@@ -7373,7 +7412,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-fraction-decimal-relationship",
@@ -7566,7 +7606,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-fraction-multiplication-division",
@@ -7760,7 +7801,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-mixed-natural-calculation",
@@ -7951,7 +7993,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-polygon-perimeter-area",
@@ -8152,7 +8195,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-prisms-pyramids",
@@ -8350,7 +8394,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-probability",
@@ -8544,7 +8589,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-proportions",
@@ -8736,7 +8782,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-rounding",
@@ -8929,7 +8976,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-spatial-sense",
@@ -9127,7 +9175,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "g5-6-surface-area-volume",
@@ -9327,7 +9376,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-29",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "plane-shapes",
@@ -9521,7 +9571,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-28",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "ratios-and-rates",
@@ -9716,7 +9767,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-28",
-      "published": true
+      "published": true,
+      "subject": "math"
     },
     {
       "id": "two-digit-addition-subtraction",
@@ -9913,7 +9965,8 @@
       "license": "CC-BY-NC-SA-4.0",
       "author": "Taehyeong Lim",
       "publishedAt": "2026-07-28",
-      "published": true
+      "published": true,
+      "subject": "math"
     }
   ]
 }

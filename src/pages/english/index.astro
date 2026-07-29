@@ -1,0 +1,76 @@
+---
+import englishSummary from "../../../content/curriculum/english-summary-2026-07-29.json";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { GRADE_BAND_LABELS } from "../../lib/catalog";
+import { subjectDefinition } from "../../lib/subjects";
+
+const english = subjectDefinition("english");
+const gradeBands = Object.entries(englishSummary.gradeBands);
+---
+
+<BaseLayout
+  title="초등 영어 한 장 | 초등 학습지 한 장"
+  description="2022 개정 영어과 교육과정 40개 성취기준을 바탕으로 준비 중인 초등 영어 학습지 공간"
+  page="subject"
+  subject="english"
+>
+  <section class="english-hero" aria-labelledby="english-title">
+    <div>
+      <a class="subject-backlink" href={import.meta.env.BASE_URL}>초등 학습지 한 장 <span aria-hidden="true">↗</span></a>
+      <p class="eyebrow">ENGLISH · CURRICULUM SPACE</p>
+      <h1 id="english-title">초등 영어<br />한 장</h1>
+      <p class="english-hero__lead">소리를 듣고 뜻을 이해하며, 익숙한 말과 글로 나를 표현하는 연습. 영어 학습지를 정확한 교육과정 근거 위에서 준비하고 있습니다.</p>
+      <div class="preparing-badge"><span aria-hidden="true"></span> 학습지 제작 준비 중</div>
+    </div>
+    <div class="english-letterfield" aria-hidden="true">
+      <span>A</span><span>hello</span><span>B</span><span>read</span><span>C</span><span>speak</span>
+    </div>
+  </section>
+
+  <section class="english-map" aria-labelledby="map-title">
+    <div class="section-heading">
+      <div>
+        <p class="eyebrow">2022 REVISED CURRICULUM</p>
+        <h2 id="map-title">영어 배움의 지도</h2>
+      </div>
+      <p>초등 영어는 3학년부터 시작하며, 교육과정은 이해와 표현의 두 영역으로 이어집니다.</p>
+    </div>
+
+    <div class="curriculum-stat-grid">
+      <article>
+        <strong>{english.standardCount}</strong>
+        <h3>성취기준</h3>
+        <p>3–4학년군 20개와 5–6학년군 20개를 확인했습니다.</p>
+      </article>
+      {englishSummary.officialAreas.map((area) => (
+        <article>
+          <strong>{area.labelKorean}</strong>
+          <h3>{area.standardCount}개 기준</h3>
+          <p>{area.id === "understanding" ? "듣기와 읽기를 중심으로 의미와 정보를 파악합니다." : "말하기와 쓰기를 중심으로 생각과 경험을 나타냅니다."}</p>
+        </article>
+      ))}
+    </div>
+
+    <div class="grade-band-map">
+      {gradeBands.map(([band, data]) => (
+        <article>
+          <div>
+            <p class="eyebrow">{band === "3-4" ? "FOUNDATION" : "EXPANSION"}</p>
+            <h3>{GRADE_BAND_LABELS[band as "3-4" | "5-6"]}</h3>
+          </div>
+          <strong>{data.standardCount}개</strong>
+          <p>{band === "3-4" ? "알파벳과 기초 어휘에서 시작해 주변의 쉬운 담화를 이해하고 표현합니다." : "강세·리듬·억양을 살피며 일상 주제의 정보와 생각을 더 넓게 이해하고 표현합니다."}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="preparing-panel" aria-labelledby="preparing-title">
+    <div>
+      <p class="eyebrow">HONESTLY IN PROGRESS</p>
+      <h2 id="preparing-title">아직 내려받을 영어 학습지는 없습니다.</h2>
+      <p>빈 카드나 임시 PDF를 공개하지 않습니다. 성취기준과 문항을 검토하고, 읽기 쉬운 이미지와 정답을 확인한 뒤 이곳에 순서대로 공개하겠습니다.</p>
+    </div>
+    <a class="button button--english" href={`${import.meta.env.BASE_URL}math/`}>먼저 수학 학습지 보기 <span aria-hidden="true">→</span></a>
+  </section>
+</BaseLayout>
