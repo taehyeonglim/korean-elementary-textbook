@@ -88,7 +88,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/ratios-and-rates/02-worksheet-1.png",
       "thumbnailPath": "/workbooks/ratios-and-rates/02-worksheet-1.webp",
-      "sha256": "de5ffb85214b2b7e7f76e043bbe5903ac0362777d27ef010f082236aeab56f4b",
+      "sha256": "ace2f6328d7e5220aa5aee410ee4fa234c21d3175f92f810732655cdc279832c",
       "alt": "비와 비율 기초와 표준 문제 1쪽",
       "approved": true
     },
@@ -98,7 +98,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/ratios-and-rates/03-worksheet-2.png",
       "thumbnailPath": "/workbooks/ratios-and-rates/03-worksheet-2.webp",
-      "sha256": "9485b63d8a4ce945d8f78076c8857d6f115498a27273ee4d7e77feb4e193df43",
+      "sha256": "efd7be270b43a2bcc699644db30a63335dd2e85ad53ded47b1e279fda60188be",
       "alt": "비와 비율 표준과 도전 문제 2쪽",
       "approved": true
     },
@@ -108,7 +108,7 @@
       "role": "answer",
       "imagePath": "/workbooks/ratios-and-rates/04-answers.png",
       "thumbnailPath": "/workbooks/ratios-and-rates/04-answers.webp",
-      "sha256": "40b5454045b1a1d6f6b32be68d6ad3173923ecfd94ba71690a5982b864711ea2",
+      "sha256": "8dbca16e1a3031f4e1eee7e8b5b483f66370838eac2a1136da0550a662af2b15",
       "alt": "비와 비율 정답과 풀이",
       "approved": true
     }
@@ -116,7 +116,7 @@
   "pdf": {
     "path": "/workbooks/ratios-and-rates/ratios-and-rates.pdf",
     "pageCount": 4,
-    "sha256": "5ea6887205c5a3023ab4d956803f9bce1965c3d83fdedf8dbea2852667b8aea4"
+    "sha256": "2dec927240e0911274aca01a71b4f4b00056970e17943da6055eb1cc3045ffdf"
   },
   "transcriptPath": "/workbooks/ratios-and-rates/transcript.html",
   "license": "CC-BY-NC-SA-4.0",

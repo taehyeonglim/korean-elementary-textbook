@@ -9,5 +9,5 @@ Color grading:
 Texture/Medium:
 무광 수학 공책 종이, 색연필 도형, 얇은 격자, quality high.
 Text-in-image:
-headline "원주율과 원의 넓이". section label "문제 4". level 표준. question "지름이 12cm인 원의 넓이를 구하세요.". section label "문제 5". level 도전. question "반지름이 5m인 원형 트랙을 3바퀴 돌았습니다. 이동한 거리를 구하세요.". section label "문제 6". level 도전. question "한 변이 14cm인 정사각형 안에 가장 큰 원을 그렸습니다. 정사각형에서 원을 뺀 부분의 넓이를 구하세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+headline "원주율과 원의 넓이". instruction "원주율은 3.14로 계산하세요." directly below the headline in a high-contrast notice strip. section label "문제 4". level 표준. question "지름이 12cm인 원의 넓이를 구하세요.". section label "문제 5". level 도전. question "반지름이 5m인 원형 트랙을 3바퀴 돌았습니다. 이동한 거리를 구하세요.". section label "문제 6". level 도전. question "한 변이 14cm인 정사각형 안에 가장 큰 원을 그렸습니다. 정사각형에서 원을 뺀 부분의 넓이를 구하세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
 AR 2:3

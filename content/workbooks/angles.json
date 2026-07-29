@@ -88,7 +88,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/angles/02-worksheet-1.png",
       "thumbnailPath": "/workbooks/angles/02-worksheet-1.webp",
-      "sha256": "40ab86c1192e60c020052d050a28bf66c2a5d9ca4f17e4ce6d0f6089ee86d392",
+      "sha256": "48479789bd187b034d5f3ca635d545ffb18b103a6d557d233c9747394f968f9a",
       "alt": "각도 기초와 표준 문제 1쪽",
       "approved": true
     },
@@ -98,7 +98,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/angles/03-worksheet-2.png",
       "thumbnailPath": "/workbooks/angles/03-worksheet-2.webp",
-      "sha256": "e87114e18c0510f79db008929cfed33c2a657f0cd3da3ed841a628bd469cf0f9",
+      "sha256": "9f1bb9c7ce5c95b7049b93c4fac0da9eaa0630397a7d4263b6bdc5336834556e",
       "alt": "각도 표준과 도전 문제 2쪽",
       "approved": true
     },
@@ -108,7 +108,7 @@
       "role": "answer",
       "imagePath": "/workbooks/angles/04-answers.png",
       "thumbnailPath": "/workbooks/angles/04-answers.webp",
-      "sha256": "28bd0344528a042b3af2ad519375b46457ec9e2c500f9c05a5a716caa6c9fc3e",
+      "sha256": "3d65ad7b494669408979b2bbffd550ed22b09d6431fbb61f7ea96c77412cdb35",
       "alt": "각도 정답과 풀이",
       "approved": true
     }
@@ -116,7 +116,7 @@
   "pdf": {
     "path": "/workbooks/angles/angles.pdf",
     "pageCount": 4,
-    "sha256": "81003b6b49e7202089d2e6abe72ac22408cd05edb6d26eaeabf97a342ebe7748"
+    "sha256": "04ce93c9c499d4b0715a22a5f111c08308bfed31ab03a86585df99b01b37bfc8"
   },
   "transcriptPath": "/workbooks/angles/transcript.html",
   "license": "CC-BY-NC-SA-4.0",

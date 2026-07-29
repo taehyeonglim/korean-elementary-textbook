@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "minimumScore": 95,
+  "workbooks": [
+    {
+      "id": "angles",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "circle-pi-area",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "fractions",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "plane-shapes",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "ratios-and-rates",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    },
+    {
+      "id": "two-digit-addition-subtraction",
+      "score": 100,
+      "passed": true,
+      "checks": {
+        "pixels": 20,
+        "formats": 10,
+        "question_answer_correspondence": 20,
+        "geometry": 10,
+        "source_text_and_calculation": 5,
+        "answer_level_color": 5,
+        "hashes": 15,
+        "pdf": 15
+      },
+      "deductions": {
+        "pixels": 0,
+        "formats": 0,
+        "question_answer_correspondence": 0,
+        "geometry": 0,
+        "source_text_and_calculation": 0,
+        "answer_level_color": 0,
+        "hashes": 0,
+        "pdf": 0
+      },
+      "errors": []
+    }
+  ],
+  "overallPassed": true
+}

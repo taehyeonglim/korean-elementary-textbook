@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 2480 3508" role="img">
+<rect width="100%" height="100%" fill="#FFFDF8"/>
+<g transform="scale(2.42187500 2.28385417)">
+<rect width="100%" height="184" fill="#1E3A5F"/>
+<text x="72" y="58" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="start" >초등 수학 한 장</text>
+<text x="72" y="112" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="43" font-weight="800" fill="#FFFFFF" text-anchor="start" >분수</text>
+<text x="72" y="152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="400" fill="#FFFFFF" text-anchor="start" >3-4학년군 · 문제</text>
+<text x="952" y="152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="end" >3</text>
+<rect x="72" y="213" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="213" width="14" height="391" rx="7" fill="#DDEBFA"/>
+<rect x="102" y="237" width="128" height="36" rx="18" fill="#DDEBFA"/>
+<text x="166" y="262" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >기본 완성</text>
+<text x="102" y="319" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >4.</text>
+<text x="156" y="317" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">3/7과 5/7 중 큰 수를 고르고 까닭을</tspan><tspan x="156" dy="37">쓰세요.</tspan></text>
+<g id="diagram-q4" data-geometry="bars=2;cells=7+7;filled=3+5"><rect x="724.00" y="376" width="28.57" height="42" fill="#E87A4B" stroke="#1E3A5F" stroke-width="3"/><rect x="752.57" y="376" width="28.57" height="42" fill="#E87A4B" stroke="#1E3A5F" stroke-width="3"/><rect x="781.14" y="376" width="28.57" height="42" fill="#E87A4B" stroke="#1E3A5F" stroke-width="3"/><rect x="809.71" y="376" width="28.57" height="42" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/><rect x="838.29" y="376" width="28.57" height="42" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/><rect x="866.86" y="376" width="28.57" height="42" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/><rect x="895.43" y="376" width="28.57" height="42" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/><text x="824" y="448" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="middle" >3/7</text><rect x="724.00" y="456" width="28.57" height="42" fill="#E87A4B" stroke="#1E3A5F" stroke-width="3"/><rect x="752.57" y="456" width="28.57" height="42" fill="#E87A4B" stroke="#1E3A5F" stroke-width="3"/><rect x="781.14" y="456" width="28.57" height="42" fill="#E87A4B" stroke="#1E3A5F" stroke-width="3"/><rect x="809.71" y="456" width="28.57" height="42" fill="#E87A4B" stroke="#1E3A5F" stroke-width="3"/><rect x="838.29" y="456" width="28.57" height="42" fill="#E87A4B" stroke="#1E3A5F" stroke-width="3"/><rect x="866.86" y="456" width="28.57" height="42" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/><rect x="895.43" y="456" width="28.57" height="42" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/><text x="824" y="528" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="middle" >5/7</text></g>
+<line x1="106" y1="483" x2="690" y2="483" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="525" x2="690" y2="525" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="567" x2="690" y2="567" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="580" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[4수01-11]</text>
+<rect x="72" y="626" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="626" width="14" height="391" rx="7" fill="#FDE6D7"/>
+<rect x="102" y="650" width="128" height="36" rx="18" fill="#FDE6D7"/>
+<text x="166" y="675" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >도전 확장</text>
+<text x="102" y="732" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >5.</text>
+<text x="156" y="730" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">1/3과 1/5 중 큰 수를 고르고, 같은</tspan><tspan x="156" dy="37">크기의 그림을 나눈다고 생각하여 설명하세요.</tspan></text>
+<g id="diagram-q5" data-geometry="equal-circles=2;sectors=3+5"><path d="M 776 849 L 776.0 803.0 A 46 46 0 0 1 815.8 872.0 Z" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><path d="M 776 849 L 815.8 872.0 A 46 46 0 0 1 736.2 872.0 Z" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><path d="M 776 849 L 736.2 872.0 A 46 46 0 0 1 776.0 803.0 Z" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><path d="M 892 849 L 892.0 803.0 A 46 46 0 0 1 935.7 834.8 Z" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><path d="M 892 849 L 935.7 834.8 A 46 46 0 0 1 919.0 886.2 Z" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><path d="M 892 849 L 919.0 886.2 A 46 46 0 0 1 865.0 886.2 Z" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><path d="M 892 849 L 865.0 886.2 A 46 46 0 0 1 848.3 834.8 Z" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/><path d="M 892 849 L 848.3 834.8 A 46 46 0 0 1 892.0 803.0 Z" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="2"/></g>
+<line x1="106" y1="896" x2="690" y2="896" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="938" x2="690" y2="938" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="980" x2="690" y2="980" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="993" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[4수01-11]</text>
+<rect x="72" y="1039" width="880" height="391" rx="24" fill="#FFFFFF" stroke="#CFD7DE" stroke-width="2"/>
+<rect x="72" y="1039" width="14" height="391" rx="7" fill="#FDE6D7"/>
+<rect x="102" y="1063" width="128" height="36" rx="18" fill="#FDE6D7"/>
+<text x="166" y="1088" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#18202B" text-anchor="middle" >도전 확장</text>
+<text x="102" y="1145" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="32" font-weight="800" fill="#1E3A5F" text-anchor="start" >6.</text>
+<text x="156" y="1143" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="25" font-weight="650" fill="#18202B"><tspan x="156" dy="0">1/4, 4/3, 3/3, 1과 1/2을</tspan><tspan x="156" dy="37">단위분수, 가분수, 대분수로 나누세요.</tspan></text>
+<g id="diagram-q6" data-geometry="cards=4;empty-zones=1"><rect x="724" y="1216" width="42" height="62" rx="6" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/><text x="745" y="1254" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="700" fill="#51606F" text-anchor="middle" >1/4</text><rect x="776" y="1216" width="42" height="62" rx="6" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/><text x="797" y="1254" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="700" fill="#51606F" text-anchor="middle" >4/3</text><rect x="828" y="1216" width="42" height="62" rx="6" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/><text x="849" y="1254" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="700" fill="#51606F" text-anchor="middle" >3/3</text><rect x="880" y="1216" width="42" height="62" rx="6" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="3"/><text x="901" y="1254" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="700" fill="#51606F" text-anchor="middle" >1½</text></g>
+<line x1="106" y1="1309" x2="690" y2="1309" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="1351" x2="690" y2="1351" stroke="#CFD7DE" stroke-width="2"/>
+<line x1="106" y1="1393" x2="690" y2="1393" stroke="#CFD7DE" stroke-width="2"/>
+<text x="106" y="1406" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >[4수01-10]</text>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#CFD7DE" stroke-width="2"/>
+<text x="72" y="1494" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1474" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="400" fill="#51606F" text-anchor="end" >이미지 제작: Gongnyang Prompt Kit</text>
+<text x="952" y="1501" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="400" fill="#51606F" text-anchor="end" >문항·해설은 학습지 JSON에서 결정론적으로 생성됨</text>
+</g></svg>

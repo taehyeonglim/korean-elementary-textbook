@@ -69,7 +69,7 @@
       "topicId": "kr.mt.math.number-operations.g3-4.s4-01-10.application",
       "prompt": "1/4, 4/3, 3/3, 1과 1/2을 단위분수, 가분수, 대분수로 나누세요.",
       "answer": "단위분수 1/4, 가분수 4/3·3/3, 대분수 1과 1/2",
-      "explanation": "분자가 1이면 단위분수, 분자가 분모 이상이면 가분수입니다."
+      "explanation": "분자가 1이면 단위분수, 분자가 분모 이상이면 가분수, 자연수와 진분수로 나타낸 수는 대분수입니다."
     }
   ],
   "pages": [
@@ -89,7 +89,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/fractions/02-worksheet-1.png",
       "thumbnailPath": "/workbooks/fractions/02-worksheet-1.webp",
-      "sha256": "0fc1e324059a723ee249e87207b743fa32c7284dab7330e6a331dc343061030a",
+      "sha256": "66e12851c97923a16a9025b7e0927b01c60072312d1ee6ea23a28c3ca1d793cd",
       "alt": "분수 기초와 표준 문제 1쪽",
       "approved": true
     },
@@ -99,7 +99,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/fractions/03-worksheet-2.png",
       "thumbnailPath": "/workbooks/fractions/03-worksheet-2.webp",
-      "sha256": "5beca32931c465f5da8053140211d9ab8a0d407bcab9daf0dd559f3aa2bda697",
+      "sha256": "2fe36694b1a5d47b723e073949d217b776458a81e19f640ce82f57f76559d7db",
       "alt": "분수 표준과 도전 문제 2쪽",
       "approved": true
     },
@@ -109,7 +109,7 @@
       "role": "answer",
       "imagePath": "/workbooks/fractions/04-answers.png",
       "thumbnailPath": "/workbooks/fractions/04-answers.webp",
-      "sha256": "42248f1588de884183d589e326ff6d35e188112916c3450740c79bac3c844cd7",
+      "sha256": "7f77c597bfc7e67a30965db0d1fd60fced1a2c0d8be396472a9f2ffeb4c997bf",
       "alt": "분수 정답과 풀이",
       "approved": true
     }
@@ -117,7 +117,7 @@
   "pdf": {
     "path": "/workbooks/fractions/fractions.pdf",
     "pageCount": 4,
-    "sha256": "ce982014b924b0d2dafc4a76fdd02823346daec57b859ab952fc20a86508e778"
+    "sha256": "9d14f60fffcf1712edfc611883fefb576cb4e59462fdb5c8a6db0974b410dc61"
   },
   "transcriptPath": "/workbooks/fractions/transcript.html",
   "license": "CC-BY-NC-SA-4.0",

@@ -89,7 +89,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/plane-shapes/02-worksheet-1.png",
       "thumbnailPath": "/workbooks/plane-shapes/02-worksheet-1.webp",
-      "sha256": "4db87aec552b799381ca0452c11b99eea3c1c9ba9de3e3eafa9c7adfd5ca353d",
+      "sha256": "c107760e08fa6e1a811ea6b8af46ac50ec984812809b9d6db09a8f52a849cad4",
       "alt": "평면도형 기초와 표준 문제 1쪽",
       "approved": true
     },
@@ -99,7 +99,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/plane-shapes/03-worksheet-2.png",
       "thumbnailPath": "/workbooks/plane-shapes/03-worksheet-2.webp",
-      "sha256": "27df22bc730735a4b816d9fbb2f896434ad30c00d67ab528cb3f33e56b3b3128",
+      "sha256": "c1603fcdea9646e763529b0bf2d42b3cc00591752503a9a9a24bea04be8ef52c",
       "alt": "평면도형 표준과 도전 문제 2쪽",
       "approved": true
     },
@@ -109,7 +109,7 @@
       "role": "answer",
       "imagePath": "/workbooks/plane-shapes/04-answers.png",
       "thumbnailPath": "/workbooks/plane-shapes/04-answers.webp",
-      "sha256": "b58ecf8cf56ee79b56555df50e3a9e83d4152917afa3488a1e302b08560870a7",
+      "sha256": "fcc876cb6f3f90145d0ada43781760ffffd34df12710f13dc2e0980eb7a84a01",
       "alt": "평면도형 정답과 풀이",
       "approved": true
     }
@@ -117,7 +117,7 @@
   "pdf": {
     "path": "/workbooks/plane-shapes/plane-shapes.pdf",
     "pageCount": 4,
-    "sha256": "70cd1113cb33cf2e734aab085d6e279e525c35d68662167dd039521978f70d83"
+    "sha256": "56f41c78633f8bd4b153a1f15a83ee6a398ab644db9456895a559ae10b3dc6aa"
   },
   "transcriptPath": "/workbooks/plane-shapes/transcript.html",
   "license": "CC-BY-NC-SA-4.0",

@@ -89,7 +89,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.png",
       "thumbnailPath": "/workbooks/two-digit-addition-subtraction/02-worksheet-1.webp",
-      "sha256": "4391eba88652bd5f8a28b46147428de9e19e8df5670f243f3b981decde4bc4e5",
+      "sha256": "9c002557bea3c3009d61e0ced2940268dbec191d3f5113eed54d7b522b7d7508",
       "alt": "두 자리 수 덧셈과 뺄셈 기초와 표준 문제 1쪽",
       "approved": true
     },
@@ -99,7 +99,7 @@
       "role": "worksheet",
       "imagePath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.png",
       "thumbnailPath": "/workbooks/two-digit-addition-subtraction/03-worksheet-2.webp",
-      "sha256": "c2c46d7ccac8764bfa72ced89e3f3a78f8fbca14480d81b7042e0daa7e500419",
+      "sha256": "c43a39189fe43457473b0a58555e08224f1b45f39822aec10972df7dda15ca76",
       "alt": "두 자리 수 덧셈과 뺄셈 표준과 도전 문제 2쪽",
       "approved": true
     },
@@ -109,7 +109,7 @@
       "role": "answer",
       "imagePath": "/workbooks/two-digit-addition-subtraction/04-answers.png",
       "thumbnailPath": "/workbooks/two-digit-addition-subtraction/04-answers.webp",
-      "sha256": "fef85e1375001b4e5b6f258c1bcbb20702e7cead2a505867a9c3ed6c86a98e9c",
+      "sha256": "e97b2d708161cbcdd5a9e9dc1a273f2e37245dfbb95525c73dc339f3c06e237e",
       "alt": "두 자리 수 덧셈과 뺄셈 정답과 풀이",
       "approved": true
     }
@@ -117,7 +117,7 @@
   "pdf": {
     "path": "/workbooks/two-digit-addition-subtraction/two-digit-addition-subtraction.pdf",
     "pageCount": 4,
-    "sha256": "7cae1a38497e9c1f3939d3f71bec920362a407e4080fa21b35a1404ac2786a5a"
+    "sha256": "f73a928688e7b5854275091abfe159edcb6ba8b3b4c4af9eeff0b6810711ae35"
   },
   "transcriptPath": "/workbooks/two-digit-addition-subtraction/transcript.html",
   "license": "CC-BY-NC-SA-4.0",

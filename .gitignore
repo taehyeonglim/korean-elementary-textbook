@@ -4,6 +4,8 @@ dist/
 .DS_Store
 coverage/
 *.log
+.generated/
+__pycache__/
 
 # Source prompts, MCP responses, and review records stay private and are not web assets.
 content/private/

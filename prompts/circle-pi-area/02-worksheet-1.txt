@@ -9,5 +9,5 @@ Color grading:
 Texture/Medium:
 재생지 질감, 색연필 원과 정밀한 치수선, quality high.
 Text-in-image:
-headline "원주율과 원의 넓이". section label "문제 1". level 기초. question "지름이 10cm인 원의 원주를 구하세요.". section label "문제 2". level 기초. question "반지름이 4cm인 원의 넓이를 구하세요.". section label "문제 3". level 표준. question "원주가 62.8cm인 원의 지름을 구하세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
+headline "원주율과 원의 넓이". instruction "원주율은 3.14로 계산하세요." directly below the headline in a high-contrast notice strip. section label "문제 1". level 기초. question "지름이 10cm인 원의 원주를 구하세요.". section label "문제 2". level 기초. question "반지름이 4cm인 원의 넓이를 구하세요.". section label "문제 3". level 표준. question "원주가 62.8cm인 원의 지름을 구하세요.". All text appears once, perfectly legible — no duplicate text, no extra words, no invented glyphs, no watermark.
 AR 2:3

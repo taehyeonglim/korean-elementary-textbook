@@ -1,0 +1,38 @@
+{
+  "canvas": {
+    "width": 1024,
+    "height": 1536,
+    "outputWidth": 2480,
+    "outputHeight": 3508,
+    "physicalWidthMm": 210,
+    "physicalHeightMm": 297,
+    "margin": 72
+  },
+  "colors": {
+    "paper": "#FFFDF8",
+    "ink": "#18202B",
+    "muted": "#51606F",
+    "brand": "#1E3A5F",
+    "accent": "#E87A4B",
+    "foundation": "#DDF3E4",
+    "standard": "#DDEBFA",
+    "challenge": "#FDE6D7",
+    "line": "#CFD7DE",
+    "answer": "#FFF3D8"
+  },
+  "type": {
+    "fontFamily": "Apple SD Gothic Neo, Noto Sans KR, sans-serif",
+    "title": 43,
+    "subtitle": 23,
+    "body": 25,
+    "small": 18,
+    "answer": 22
+  },
+  "layout": {
+    "headerHeight": 184,
+    "problemCardHeight": 391,
+    "answerCardHeight": 186,
+    "cardGap": 22,
+    "cardRadius": 24
+  }
+}

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 2480 3508" role="img">
+<rect width="100%" height="100%" fill="#FFFDF8"/>
+<g transform="scale(2.42187500 2.28385417)">
+<rect width="100%" height="184" fill="#1E3A5F"/>
+<text x="72" y="58" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="start" >초등 수학 한 장</text>
+<text x="72" y="112" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="43" font-weight="800" fill="#FFFFFF" text-anchor="start" >분수</text>
+<text x="72" y="152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="400" fill="#FFFFFF" text-anchor="start" >3-4학년군 · 정답·해설</text>
+<text x="952" y="152" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#FFFFFF" text-anchor="end" >4</text>
+<rect x="72.0" y="214" width="428.0" height="330" rx="24" data-answer-level="foundation" fill="#DDF3E4" stroke="#1E3A5F" stroke-width="2"/>
+<rect x="384.0" y="234" width="92" height="32" rx="16" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1"/>
+<text x="430.0" y="256" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="14" font-weight="700" fill="#1E3A5F" text-anchor="middle" >기초 다지기</text>
+<text x="96.0" y="267" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" font-weight="800" fill="#1E3A5F" text-anchor="start" >1.</text>
+<text x="146.0" y="254" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >정답</text>
+<text x="146.0" y="292" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#18202B"><tspan x="146.0" dy="0">3/8</tspan></text>
+<text x="96.0" y="362" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >풀이</text>
+<text x="96.0" y="396" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="400" fill="#18202B"><tspan x="96.0" dy="0">전체 8칸 중 3칸이므로</tspan><tspan x="96.0" dy="25">3/8입니다.</tspan></text>
+<rect x="524.0" y="214" width="428.0" height="330" rx="24" data-answer-level="foundation" fill="#DDF3E4" stroke="#1E3A5F" stroke-width="2"/>
+<rect x="836.0" y="234" width="92" height="32" rx="16" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1"/>
+<text x="882.0" y="256" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="14" font-weight="700" fill="#1E3A5F" text-anchor="middle" >기초 다지기</text>
+<text x="548.0" y="267" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" font-weight="800" fill="#1E3A5F" text-anchor="start" >2.</text>
+<text x="598.0" y="254" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >정답</text>
+<text x="598.0" y="292" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#18202B"><tspan x="598.0" dy="0">1/5</tspan></text>
+<text x="548.0" y="362" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >풀이</text>
+<text x="548.0" y="396" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="400" fill="#18202B"><tspan x="548.0" dy="0">분자가 1인 분수가</tspan><tspan x="548.0" dy="25">단위분수입니다.</tspan></text>
+<rect x="72.0" y="568" width="428.0" height="330" rx="24" data-answer-level="standard" fill="#DDEBFA" stroke="#1E3A5F" stroke-width="2"/>
+<rect x="384.0" y="588" width="92" height="32" rx="16" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1"/>
+<text x="430.0" y="610" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="14" font-weight="700" fill="#1E3A5F" text-anchor="middle" >기본 완성</text>
+<text x="96.0" y="621" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" font-weight="800" fill="#1E3A5F" text-anchor="start" >3.</text>
+<text x="146.0" y="608" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >정답</text>
+<text x="146.0" y="646" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#18202B"><tspan x="146.0" dy="0">1과 3/4</tspan></text>
+<text x="96.0" y="716" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >풀이</text>
+<text x="96.0" y="750" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="400" fill="#18202B"><tspan x="96.0" dy="0">7/4은 4/4와 3/4을 합한</tspan><tspan x="96.0" dy="25">수입니다.</tspan></text>
+<rect x="524.0" y="568" width="428.0" height="330" rx="24" data-answer-level="standard" fill="#DDEBFA" stroke="#1E3A5F" stroke-width="2"/>
+<rect x="836.0" y="588" width="92" height="32" rx="16" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1"/>
+<text x="882.0" y="610" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="14" font-weight="700" fill="#1E3A5F" text-anchor="middle" >기본 완성</text>
+<text x="548.0" y="621" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" font-weight="800" fill="#1E3A5F" text-anchor="start" >4.</text>
+<text x="598.0" y="608" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >정답</text>
+<text x="598.0" y="646" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#18202B"><tspan x="598.0" dy="0">5/7</tspan></text>
+<text x="548.0" y="716" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >풀이</text>
+<text x="548.0" y="750" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="400" fill="#18202B"><tspan x="548.0" dy="0">분모가 같으면 분자가 큰 분수가</tspan><tspan x="548.0" dy="25">큽니다.</tspan></text>
+<rect x="72.0" y="922" width="428.0" height="330" rx="24" data-answer-level="challenge" fill="#FDE6D7" stroke="#1E3A5F" stroke-width="2"/>
+<rect x="384.0" y="942" width="92" height="32" rx="16" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1"/>
+<text x="430.0" y="964" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="14" font-weight="700" fill="#1E3A5F" text-anchor="middle" >도전 확장</text>
+<text x="96.0" y="975" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" font-weight="800" fill="#1E3A5F" text-anchor="start" >5.</text>
+<text x="146.0" y="962" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >정답</text>
+<text x="146.0" y="1000" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#18202B"><tspan x="146.0" dy="0">1/3</tspan></text>
+<text x="96.0" y="1070" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >풀이</text>
+<text x="96.0" y="1104" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="400" fill="#18202B"><tspan x="96.0" dy="0">같은 전체를 더 적은 수로 나눈</tspan><tspan x="96.0" dy="25">한 조각이 더 큽니다.</tspan></text>
+<rect x="524.0" y="922" width="428.0" height="330" rx="24" data-answer-level="challenge" fill="#FDE6D7" stroke="#1E3A5F" stroke-width="2"/>
+<rect x="836.0" y="942" width="92" height="32" rx="16" fill="#FFFFFF" stroke="#1E3A5F" stroke-width="1"/>
+<text x="882.0" y="964" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="14" font-weight="700" fill="#1E3A5F" text-anchor="middle" >도전 확장</text>
+<text x="548.0" y="975" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" font-weight="800" fill="#1E3A5F" text-anchor="start" >6.</text>
+<text x="598.0" y="962" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >정답</text>
+<text x="598.0" y="1000" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="800" fill="#18202B"><tspan x="598.0" dy="0">단위분수 1/4, 가분수</tspan><tspan x="598.0" dy="31">4/3·3/3, 대분수 1과 1/2</tspan></text>
+<text x="548.0" y="1070" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="700" fill="#51606F" text-anchor="start" >풀이</text>
+<text x="548.0" y="1104" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="400" fill="#18202B"><tspan x="548.0" dy="0">분자가 1이면 단위분수, 분자가</tspan><tspan x="548.0" dy="25">분모 이상이면 가분수, 자연수와</tspan><tspan x="548.0" dy="25">진분수로 나타낸 수는</tspan><tspan x="548.0" dy="25">대분수입니다.</tspan></text>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#CFD7DE" stroke-width="2"/>
+<text x="72" y="1494" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="600" fill="#51606F" text-anchor="start" >Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1474" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="400" fill="#51606F" text-anchor="end" >이미지 제작: Gongnyang Prompt Kit</text>
+<text x="952" y="1501" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="400" fill="#51606F" text-anchor="end" >문항·해설은 학습지 JSON에서 결정론적으로 생성됨</text>
+</g></svg>
