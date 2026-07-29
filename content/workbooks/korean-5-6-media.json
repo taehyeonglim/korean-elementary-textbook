@@ -1,0 +1,186 @@
+{
+  "id": "korean-5-6-media",
+  "slug": "korean-5-6-media",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 정보 신뢰성과 책임 있는 제작",
+  "gradeBand": "5-6",
+  "domain": "매체",
+  "module": "정보 신뢰성과 책임 있는 제작",
+  "standardCodes": [
+    "[6국06-01]",
+    "[6국06-02]",
+    "[6국06-03]",
+    "[6국06-04]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "두 온라인 자료 비교",
+      "자료 가는 국립 기상 기관이 오늘 오전 9시에 발표했으며 측정 방법과 지역별 수치를 제시합니다.",
+      "자료 나는 작성자와 날짜가 없고 ‘올해는 역사상 가장 더울 것’이라고만 주장합니다.",
+      "정보를 고를 때에는 작성 주체, 최신성, 근거, 다른 자료와의 일치 여부를 살펴야 합니다."
+    ],
+    "questionsA": [
+      [
+        "자료 가의 작성 주체는 누구인가요?",
+        "국립 기상 기관"
+      ],
+      [
+        "자료 가가 제시한 근거 형태는 무엇인가요?",
+        "측정 방법과 지역별 수치"
+      ],
+      [
+        "자료 나에서 빠진 정보는 무엇인가요?",
+        "작성자, 날짜, 근거"
+      ],
+      [
+        "더 신뢰할 만한 자료와 까닭을 쓰세요.",
+        "자료 가. 작성 주체·날짜·근거가 분명해서"
+      ]
+    ],
+    "textB": [
+      "복합양식 안전 캠페인",
+      "수용자가 저학년이라면 짧은 문장과 쉬운 그림을 사용합니다.",
+      "핵심 행동은 큰 제목과 순서 그림으로 보여 줍니다.",
+      "배경 음악이나 효과음은 내용을 방해하지 않게 사용합니다.",
+      "완성한 자료는 친구 반응을 확인하고 고친 뒤 출처와 함께 공유합니다."
+    ],
+    "questionsB": [
+      [
+        "수용자는 누구인가요?",
+        "저학년 학생"
+      ],
+      [
+        "문장과 그림은 어떻게 하나요?",
+        "짧고 쉽게"
+      ],
+      [
+        "핵심 행동은 어떻게 보여 주나요?",
+        "큰 제목과 순서 그림"
+      ],
+      [
+        "공유 전에 할 일은 무엇인가요?",
+        "친구 반응을 확인해 고치고 출처를 밝힌다."
+      ]
+    ],
+    "focus": [
+      [
+        "검색어를 좁히는 방법은 무엇인가요?",
+        "핵심어에 지역·기간·자료 종류를 더한다."
+      ],
+      [
+        "뉴스 신뢰성 평가 기준을 쓰세요.",
+        "작성 주체·날짜·근거·출처·다른 자료와의 일치"
+      ],
+      [
+        "복합양식 자료란 무엇인가요?",
+        "글·그림·소리·영상 등을 함께 사용한 자료"
+      ],
+      [
+        "매체 이용 성찰 질문을 하나 쓰세요.",
+        "나는 목적 없이 너무 오래 사용하지 않았는가? 등"
+      ]
+    ],
+    "produce": [
+      "같은 주제의 온라인 자료 두 개를 찾아 신뢰성을 비교하는 계획을 세우세요.",
+      "대상과 매체를 정해 안전 캠페인 한 장 자료의 구성안을 만드세요."
+    ],
+    "model": "대상: 1학년 / 매체: 교실 포스터 / 핵심 행동: 계단에서 걷기 / 구성: 큰 제목, 세 단계 그림, 짧은 설명, 출처"
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-5-6-media/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-media/01-cover.webp",
+      "sha256": "6d5467ef95f9e88a4ef1a603a308e7f8089dd73c836ce00c967a82120119e393",
+      "alt": "정보 신뢰성과 책임 있는 제작 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-media/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-media/02-reading-a.webp",
+      "sha256": "7be6b57033d3b619dde53b7768cba9eb6be42fcfe9e39f909d3dac937f7e1517",
+      "alt": "정보 신뢰성과 책임 있는 제작 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-media/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-media/03-questions-a.webp",
+      "sha256": "f279f51b1698cd3b86026e04bc27d6949a5ea0dbaeb6477bab8e1ee2fc3c81bd",
+      "alt": "정보 신뢰성과 책임 있는 제작 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-media/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-media/04-reading-b.webp",
+      "sha256": "ca8b4bc31d8ce706ae2fd20d21a02bc7ac066458343c1522644750a0614d85b0",
+      "alt": "정보 신뢰성과 책임 있는 제작 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-media/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-media/05-questions-b.webp",
+      "sha256": "a4c55de7c28aae4221f1102977e23fd5493a1f777f40d4d5c8440ebc97bc8447",
+      "alt": "정보 신뢰성과 책임 있는 제작 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-media/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-media/06-focus.webp",
+      "sha256": "5eef0c9e6533a580299b7fa01fe4c7a35a98cb16ae8d351d6771751b56767fa7",
+      "alt": "정보 신뢰성과 책임 있는 제작 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-media/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-media/07-production.webp",
+      "sha256": "95f560314149dc516b18bfafb85abc20d3828c194949d7f0988c2712bf71c73c",
+      "alt": "정보 신뢰성과 책임 있는 제작 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-5-6-media/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-media/08-answers.webp",
+      "sha256": "1b6a01f0ecf8ee08929a9eb41f14fdaea54588253ba818bcfcd996f08bc0be56",
+      "alt": "정보 신뢰성과 책임 있는 제작 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-5-6-media/korean-5-6-media.pdf",
+    "pageCount": 8,
+    "sha256": "dda7501b81b116cedc694a1176e84e57866447bbd5dc5fb4906aff61eef0664e"
+  },
+  "transcriptPath": "/workbooks/korean-5-6-media/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

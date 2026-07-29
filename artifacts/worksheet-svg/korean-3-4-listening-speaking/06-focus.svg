@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1024 1536">
+<rect width="1024" height="1536" fill="#FFFCF5"/>
+<rect width="1024" height="184" fill="#62406F"/>
+<text x="72" y="54" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFF" text-anchor="start">초등 국어 한 장</text>
+<text x="72" y="108" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="38" font-weight="800" fill="#FFF" text-anchor="start">요약하고 의견 나누기</text>
+<text x="72" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#FFF" text-anchor="start">3-4학년군 · 듣기·말하기 · 개념 탐구</text>
+<text x="952" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFF" text-anchor="end">6</text>
+<text x="72" y="242" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#E97863" text-anchor="start">LANGUAGE &amp; LITERACY</text>
+<text x="72" y="286" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="29" font-weight="800" fill="#62406F" text-anchor="start">성취기준 핵심을 확인하세요.</text>
+<rect x="72" y="342" width="880" height="205" rx="22" fill="#EEE7F4"/>
+<text x="100" y="392" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#62406F" text-anchor="start">1.</text>
+<text x="150" y="392" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#2E2740"><tspan x="150" dy="0">준언어 표현의 예는 무엇인가요?</tspan></text>
+<text x="150" y="455" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="700" fill="#685F74" text-anchor="start">내 답</text>
+<line x1="212" y1="458" x2="917" y2="458" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="150" y1="500" x2="917" y2="500" stroke="#D8CEDB" stroke-width="2"/>
+<rect x="72" y="582" width="880" height="205" rx="22" fill="#E1F0EA"/>
+<text x="100" y="632" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#62406F" text-anchor="start">2.</text>
+<text x="150" y="632" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#2E2740"><tspan x="150" dy="0">비언어 표현의 예는 무엇인가요?</tspan></text>
+<text x="150" y="695" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="700" fill="#685F74" text-anchor="start">내 답</text>
+<line x1="212" y1="698" x2="917" y2="698" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="150" y1="740" x2="917" y2="740" stroke="#D8CEDB" stroke-width="2"/>
+<rect x="72" y="822" width="880" height="205" rx="22" fill="#EEE7F4"/>
+<text x="100" y="872" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#62406F" text-anchor="start">3.</text>
+<text x="150" y="872" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#2E2740"><tspan x="150" dy="0">예의 있게 반대하는 표현을 쓰세요.</tspan></text>
+<text x="150" y="935" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="700" fill="#685F74" text-anchor="start">내 답</text>
+<line x1="212" y1="938" x2="917" y2="938" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="150" y1="980" x2="917" y2="980" stroke="#D8CEDB" stroke-width="2"/>
+<rect x="72" y="1062" width="880" height="205" rx="22" fill="#E1F0EA"/>
+<text x="100" y="1112" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#62406F" text-anchor="start">4.</text>
+<text x="150" y="1112" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="22" font-weight="700" fill="#2E2740"><tspan x="150" dy="0">발표 자료는 어떻게 정리하나요?</tspan></text>
+<text x="150" y="1175" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="16" font-weight="700" fill="#685F74" text-anchor="start">내 답</text>
+<line x1="212" y1="1178" x2="917" y2="1178" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="150" y1="1220" x2="917" y2="1220" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#D8CEDB" stroke-width="2"/>
+<text x="72" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="600" fill="#685F74" text-anchor="start">Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="500" fill="#685F74" text-anchor="end">표지 이미지: GPT Image · Gongnyang Prompt Kit</text>
+</svg>

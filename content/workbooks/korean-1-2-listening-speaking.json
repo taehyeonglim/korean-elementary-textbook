@@ -1,0 +1,188 @@
+{
+  "id": "korean-1-2-listening-speaking",
+  "slug": "korean-1-2-listening-speaking",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 차례를 지키며 마음 나누기",
+  "gradeBand": "1-2",
+  "domain": "듣기·말하기",
+  "module": "차례를 지키며 마음 나누기",
+  "standardCodes": [
+    "[2국01-01]",
+    "[2국01-02]",
+    "[2국01-03]",
+    "[2국01-04]",
+    "[2국01-05]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "비 오는 아침",
+      "아침에 비가 내렸습니다.",
+      "서윤이는 우산을 챙겨 학교에 갔습니다.",
+      "교실 앞에서 젖은 친구를 보고 수건을 건넸습니다.",
+      "친구는 고맙다고 말했고 두 사람은 함께 웃었습니다."
+    ],
+    "questionsA": [
+      [
+        "언제 비가 내렸나요?",
+        "아침"
+      ],
+      [
+        "서윤이가 챙긴 것은 무엇인가요?",
+        "우산"
+      ],
+      [
+        "서윤이는 친구에게 무엇을 건넸나요?",
+        "수건"
+      ],
+      [
+        "일어난 일을 차례대로 쓰세요.",
+        "비가 옴 → 우산을 챙김 → 수건을 건넴 → 함께 웃음"
+      ]
+    ],
+    "textB": [
+      "마음을 나누는 대화",
+      "민준: 내 색연필이 부러져서 속상해.",
+      "하린: 많이 아끼던 색연필이었구나.",
+      "민준: 응. 내 말을 들어줘서 고마워.",
+      "하린: 함께 새 색연필을 찾아보자."
+    ],
+    "questionsB": [
+      [
+        "민준이의 감정은 무엇인가요?",
+        "속상함"
+      ],
+      [
+        "하린은 민준의 말을 어떻게 들었나요?",
+        "감정을 헤아리며 집중해서 들었다."
+      ],
+      [
+        "바르고 고운 말을 한 곳을 찾으세요.",
+        "내 말을 들어줘서 고마워."
+      ],
+      [
+        "두 사람이 대화할 때 지켜야 할 것은 무엇인가요?",
+        "말차례"
+      ]
+    ],
+    "focus": [
+      [
+        "발표할 때 몸은 어떻게 하나요?",
+        "바르게 선다."
+      ],
+      [
+        "친구가 말할 때 무엇을 하나요?",
+        "집중해서 듣는다."
+      ],
+      [
+        "내 차례가 아니면 어떻게 하나요?",
+        "기다린다."
+      ],
+      [
+        "경험 발표의 순서를 쓰세요.",
+        "언제·어디서 → 한 일 → 생각이나 느낌"
+      ]
+    ],
+    "produce": [
+      "최근에 친구와 마음을 나눈 경험을 세 문장으로 말해 보세요.",
+      "짝과 번갈아 질문하고 대답한 뒤, 잘 들었다는 표시를 해 보세요."
+    ],
+    "model": "어제 운동장에서 친구가 넘어졌습니다. 나는 친구의 말을 듣고 보건실에 함께 갔습니다. 친구가 안심해서 나도 기뻤습니다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-1-2-listening-speaking/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/01-cover.webp",
+      "sha256": "0389cee0e5b6d6290b621a952cb6e60aa0b0568968243f2e4d92ec6bde86dbee",
+      "alt": "차례를 지키며 마음 나누기 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-listening-speaking/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/02-reading-a.webp",
+      "sha256": "8f80d62c2b83f8f507610c46f66728e973b531ee6a7793bf3b489d1360912ce9",
+      "alt": "차례를 지키며 마음 나누기 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-listening-speaking/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/03-questions-a.webp",
+      "sha256": "b89547b9de7532938276a3d2103c0d39f695dba7c2bb8ee9634b75a7d48b50c4",
+      "alt": "차례를 지키며 마음 나누기 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-listening-speaking/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/04-reading-b.webp",
+      "sha256": "4f029f118bbfe4070079cae503270d43200054f70819be5657dde2b8e8b58953",
+      "alt": "차례를 지키며 마음 나누기 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-listening-speaking/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/05-questions-b.webp",
+      "sha256": "ad28c94cd8096e20b583ccec586b29990491350d63782b1fd9c2ca427afbb24a",
+      "alt": "차례를 지키며 마음 나누기 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-listening-speaking/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/06-focus.webp",
+      "sha256": "7c820fe7e6d59ff1bf52f9b1a8c1c4ec93d6a8816880ec3c3930f99d48d548f8",
+      "alt": "차례를 지키며 마음 나누기 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-listening-speaking/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/07-production.webp",
+      "sha256": "bbc202422fd35865165ecf8a7dc0372cabf9fc96189ebbab1fe1541101c67386",
+      "alt": "차례를 지키며 마음 나누기 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-1-2-listening-speaking/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/08-answers.webp",
+      "sha256": "6808185b80bb345ef2dbedd3d89ccdca1ca2dc1a55234be923ee648f28ca46fc",
+      "alt": "차례를 지키며 마음 나누기 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-1-2-listening-speaking/korean-1-2-listening-speaking.pdf",
+    "pageCount": 8,
+    "sha256": "fb4f41127f64a64391b8ba4cbb6cb514812f4b4cb840df4f8ccaa5994fd7b3d7"
+  },
+  "transcriptPath": "/workbooks/korean-1-2-listening-speaking/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

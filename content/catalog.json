@@ -12043,6 +12043,3379 @@
       "subject": "math"
     },
     {
+      "id": "korean-1-2-grammar",
+      "slug": "korean-1-2-grammar",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 한글 소리와 문장 부호",
+      "gradeBand": "1-2",
+      "domain": "문법",
+      "module": "한글 소리와 문장 부호",
+      "standardCodes": [
+        "[2국04-01]",
+        "[2국04-02]",
+        "[2국04-03]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "소리와 글자",
+          "‘ㄴ’의 이름은 ‘니은’이고 소릿값은 [ㄴ]입니다.",
+          "‘나무’는 ㄴ, ㅏ, ㅁ, ㅜ가 모여 만들어진 말입니다.",
+          "글자의 이름과 소리를 알면 처음 보는 말도 또박또박 읽을 수 있습니다."
+        ],
+        "questionsA": [
+          [
+            "ㄴ의 이름은 무엇인가요?",
+            "니은"
+          ],
+          [
+            "ㄴ의 소릿값은 무엇인가요?",
+            "[ㄴ]"
+          ],
+          [
+            "나무의 첫 자음은 무엇인가요?",
+            "ㄴ"
+          ],
+          [
+            "글자의 이름과 소리를 알면 무엇이 좋은가요?",
+            "처음 보는 말도 읽을 수 있다."
+          ]
+        ],
+        "textB": [
+          "문장 부호 탐정",
+          "“오늘은 어디에 갈까?” 하고 누나가 물었습니다.",
+          "나는 “동물원에 가고 싶어!” 하고 힘차게 대답했습니다.",
+          "물음표는 묻는 문장 끝에, 느낌표는 강한 느낌을 나타내는 문장 끝에 씁니다."
+        ],
+        "questionsB": [
+          [
+            "묻는 문장 끝의 부호는 무엇인가요?",
+            "물음표"
+          ],
+          [
+            "강한 느낌을 나타내는 부호는 무엇인가요?",
+            "느낌표"
+          ],
+          [
+            "‘오늘은 어디에 갈까’ 뒤의 부호를 쓰세요.",
+            "?"
+          ],
+          [
+            "‘정말 멋지다’에 강한 느낌을 더해 쓰세요.",
+            "정말 멋지다!"
+          ]
+        ],
+        "focus": [
+          [
+            "[꼳]으로 소리 나지만 바른 표기는 무엇인가요?",
+            "꽃"
+          ],
+          [
+            "[낟]으로 소리 나지만 바른 표기는 무엇인가요?",
+            "낮"
+          ],
+          [
+            "알리는 문장 끝의 부호는 무엇인가요?",
+            "마침표"
+          ],
+          [
+            "문장 첫 글자는 어떻게 쓰나요?",
+            "문장의 시작이 드러나게 바르게 쓴다."
+          ]
+        ],
+        "produce": [
+          "좋아하는 낱말 하나를 자음과 모음으로 나누어 보세요.",
+          "물음표·느낌표·마침표가 하나씩 들어간 세 문장을 쓰세요."
+        ],
+        "model": "구름: ㄱ, ㅜ, ㄹ, ㅡ, ㅁ / 오늘 하늘은 맑다. 어디로 갈까? 정말 신난다!"
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-1-2-grammar/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-grammar/01-cover.webp",
+          "sha256": "d3fa279b7987432cba8da947e5ebedb2c55c51dc323412d1d2535d8b0d7fc2c4",
+          "alt": "한글 소리와 문장 부호 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-grammar/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-grammar/02-reading-a.webp",
+          "sha256": "d4807487612cd2fce9a4a90ac4b96454e54ec0bf6c5fc10d5ee5a14d609f310b",
+          "alt": "한글 소리와 문장 부호 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-grammar/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-grammar/03-questions-a.webp",
+          "sha256": "893d2d09d7e0b2928e93b01e7e41f948b325804e1c6410ac05ea8b9ee919d2ee",
+          "alt": "한글 소리와 문장 부호 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-grammar/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-grammar/04-reading-b.webp",
+          "sha256": "27d6d3907c8ea8bdb60f3455129465fffed96b3bb5aef37e63ef06db190d961a",
+          "alt": "한글 소리와 문장 부호 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-grammar/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-grammar/05-questions-b.webp",
+          "sha256": "c07dc74fd44fa36c9ae8dab3f4cc6e1d0d20a29ee18a40cd59b3b80132897cd6",
+          "alt": "한글 소리와 문장 부호 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-grammar/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-grammar/06-focus.webp",
+          "sha256": "6538c2564c1e53c935fe15fb48cab02f2477e6b03aa7ffd1954933e74edab78e",
+          "alt": "한글 소리와 문장 부호 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-grammar/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-grammar/07-production.webp",
+          "sha256": "cc68d12c1e0a37dc82e4c4424a7a2ca2cd5fa3981b83f4d3800de2340e0c66fd",
+          "alt": "한글 소리와 문장 부호 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-1-2-grammar/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-grammar/08-answers.webp",
+          "sha256": "336fb4e2f46f34f988710318fff95fb64b4961d2049e01abefae4387d32f31b6",
+          "alt": "한글 소리와 문장 부호 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-1-2-grammar/korean-1-2-grammar.pdf",
+        "pageCount": 8,
+        "sha256": "636316c8b8ef7c654b2eb30f5c0e9feba93d68a9aa820658daa88f5e8c334bbd"
+      },
+      "transcriptPath": "/workbooks/korean-1-2-grammar/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-1-2-listening-speaking",
+      "slug": "korean-1-2-listening-speaking",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 차례를 지키며 마음 나누기",
+      "gradeBand": "1-2",
+      "domain": "듣기·말하기",
+      "module": "차례를 지키며 마음 나누기",
+      "standardCodes": [
+        "[2국01-01]",
+        "[2국01-02]",
+        "[2국01-03]",
+        "[2국01-04]",
+        "[2국01-05]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "비 오는 아침",
+          "아침에 비가 내렸습니다.",
+          "서윤이는 우산을 챙겨 학교에 갔습니다.",
+          "교실 앞에서 젖은 친구를 보고 수건을 건넸습니다.",
+          "친구는 고맙다고 말했고 두 사람은 함께 웃었습니다."
+        ],
+        "questionsA": [
+          [
+            "언제 비가 내렸나요?",
+            "아침"
+          ],
+          [
+            "서윤이가 챙긴 것은 무엇인가요?",
+            "우산"
+          ],
+          [
+            "서윤이는 친구에게 무엇을 건넸나요?",
+            "수건"
+          ],
+          [
+            "일어난 일을 차례대로 쓰세요.",
+            "비가 옴 → 우산을 챙김 → 수건을 건넴 → 함께 웃음"
+          ]
+        ],
+        "textB": [
+          "마음을 나누는 대화",
+          "민준: 내 색연필이 부러져서 속상해.",
+          "하린: 많이 아끼던 색연필이었구나.",
+          "민준: 응. 내 말을 들어줘서 고마워.",
+          "하린: 함께 새 색연필을 찾아보자."
+        ],
+        "questionsB": [
+          [
+            "민준이의 감정은 무엇인가요?",
+            "속상함"
+          ],
+          [
+            "하린은 민준의 말을 어떻게 들었나요?",
+            "감정을 헤아리며 집중해서 들었다."
+          ],
+          [
+            "바르고 고운 말을 한 곳을 찾으세요.",
+            "내 말을 들어줘서 고마워."
+          ],
+          [
+            "두 사람이 대화할 때 지켜야 할 것은 무엇인가요?",
+            "말차례"
+          ]
+        ],
+        "focus": [
+          [
+            "발표할 때 몸은 어떻게 하나요?",
+            "바르게 선다."
+          ],
+          [
+            "친구가 말할 때 무엇을 하나요?",
+            "집중해서 듣는다."
+          ],
+          [
+            "내 차례가 아니면 어떻게 하나요?",
+            "기다린다."
+          ],
+          [
+            "경험 발표의 순서를 쓰세요.",
+            "언제·어디서 → 한 일 → 생각이나 느낌"
+          ]
+        ],
+        "produce": [
+          "최근에 친구와 마음을 나눈 경험을 세 문장으로 말해 보세요.",
+          "짝과 번갈아 질문하고 대답한 뒤, 잘 들었다는 표시를 해 보세요."
+        ],
+        "model": "어제 운동장에서 친구가 넘어졌습니다. 나는 친구의 말을 듣고 보건실에 함께 갔습니다. 친구가 안심해서 나도 기뻤습니다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-1-2-listening-speaking/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/01-cover.webp",
+          "sha256": "0389cee0e5b6d6290b621a952cb6e60aa0b0568968243f2e4d92ec6bde86dbee",
+          "alt": "차례를 지키며 마음 나누기 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-listening-speaking/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/02-reading-a.webp",
+          "sha256": "8f80d62c2b83f8f507610c46f66728e973b531ee6a7793bf3b489d1360912ce9",
+          "alt": "차례를 지키며 마음 나누기 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-listening-speaking/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/03-questions-a.webp",
+          "sha256": "b89547b9de7532938276a3d2103c0d39f695dba7c2bb8ee9634b75a7d48b50c4",
+          "alt": "차례를 지키며 마음 나누기 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-listening-speaking/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/04-reading-b.webp",
+          "sha256": "4f029f118bbfe4070079cae503270d43200054f70819be5657dde2b8e8b58953",
+          "alt": "차례를 지키며 마음 나누기 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-listening-speaking/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/05-questions-b.webp",
+          "sha256": "ad28c94cd8096e20b583ccec586b29990491350d63782b1fd9c2ca427afbb24a",
+          "alt": "차례를 지키며 마음 나누기 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-listening-speaking/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/06-focus.webp",
+          "sha256": "7c820fe7e6d59ff1bf52f9b1a8c1c4ec93d6a8816880ec3c3930f99d48d548f8",
+          "alt": "차례를 지키며 마음 나누기 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-listening-speaking/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/07-production.webp",
+          "sha256": "bbc202422fd35865165ecf8a7dc0372cabf9fc96189ebbab1fe1541101c67386",
+          "alt": "차례를 지키며 마음 나누기 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-1-2-listening-speaking/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-listening-speaking/08-answers.webp",
+          "sha256": "6808185b80bb345ef2dbedd3d89ccdca1ca2dc1a55234be923ee648f28ca46fc",
+          "alt": "차례를 지키며 마음 나누기 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-1-2-listening-speaking/korean-1-2-listening-speaking.pdf",
+        "pageCount": 8,
+        "sha256": "fb4f41127f64a64391b8ba4cbb6cb514812f4b4cb840df4f8ccaa5994fd7b3d7"
+      },
+      "transcriptPath": "/workbooks/korean-1-2-listening-speaking/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-1-2-literature",
+      "slug": "korean-1-2-literature",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 말의 재미와 이야기 상상",
+      "gradeBand": "1-2",
+      "domain": "문학",
+      "module": "말의 재미와 이야기 상상",
+      "standardCodes": [
+        "[2국05-01]",
+        "[2국05-02]",
+        "[2국05-03]",
+        "[2국05-04]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "빗방울 연주회",
+          "톡톡 창문을 두드리는 빗방울",
+          "또르르 유리 미끄럼을 타는 빗방울",
+          "첨벙 웅덩이 북을 치는 빗방울",
+          "오늘 골목은 빗방울 연주회"
+        ],
+        "questionsA": [
+          [
+            "빗방울이 창문을 두드리는 소리는 무엇인가요?",
+            "톡톡"
+          ],
+          [
+            "유리에서 움직이는 모습은 무엇에 빗대었나요?",
+            "미끄럼"
+          ],
+          [
+            "웅덩이를 무엇에 빗대었나요?",
+            "북"
+          ],
+          [
+            "시를 읽고 떠오르는 느낌을 쓰세요.",
+            "즐겁고 경쾌하다."
+          ]
+        ],
+        "textB": [
+          "달팽이의 우산",
+          "달팽이는 비가 오자 커다란 버섯 아래로 갔습니다.",
+          "이미 개미 세 마리가 비를 피하고 있었습니다.",
+          "달팽이는 몸을 조금 접어 자리를 내주었습니다.",
+          "비가 그치자 모두 함께 무지개를 보았습니다."
+        ],
+        "questionsB": [
+          [
+            "달팽이는 어디로 갔나요?",
+            "버섯 아래"
+          ],
+          [
+            "누가 먼저 있었나요?",
+            "개미 세 마리"
+          ],
+          [
+            "달팽이가 한 행동은 무엇인가요?",
+            "몸을 접어 자리를 내주었다."
+          ],
+          [
+            "달팽이의 마음을 짐작하세요.",
+            "함께 비를 피하고 싶은 배려하는 마음"
+          ]
+        ],
+        "focus": [
+          [
+            "말놀이에서 비슷한 소리를 반복하면 어떤 느낌이 드나요?",
+            "리듬과 재미가 생긴다."
+          ],
+          [
+            "낭송할 때 살릴 것은 무엇인가요?",
+            "소리와 장면의 느낌"
+          ],
+          [
+            "이야기 인물을 상상할 단서는 무엇인가요?",
+            "말, 행동, 사건"
+          ],
+          [
+            "작품을 즐기는 방법을 하나 쓰세요.",
+            "낭송하기 / 그림으로 표현하기 / 생각 나누기"
+          ]
+        ],
+        "produce": [
+          "‘사각사각’처럼 재미있는 소리를 넣어 두 줄 시를 지으세요.",
+          "달팽이의 다음 행동을 그림과 두 문장으로 표현하세요."
+        ],
+        "model": "사각사각 연필이 걷는다. 하얀 종이 길 위에 생각 발자국을 남긴다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-1-2-literature/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-literature/01-cover.webp",
+          "sha256": "bf76dfa1fa0ec03716ccf219e37bd95b38af901727f429cd6df7ad53c5441ea1",
+          "alt": "말의 재미와 이야기 상상 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-literature/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-literature/02-reading-a.webp",
+          "sha256": "1763f068b9558b246c07f97030388103f8a9eb0e2e8fed63aa32a7c7549050a6",
+          "alt": "말의 재미와 이야기 상상 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-literature/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-literature/03-questions-a.webp",
+          "sha256": "904288afe92cd34fc7a3dd82cb41a62afff0a65686677f276a63d85e463e8c35",
+          "alt": "말의 재미와 이야기 상상 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-literature/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-literature/04-reading-b.webp",
+          "sha256": "b70322f2374911616bac3c879e508a215e42e9e41152fe2e14826774b15887c0",
+          "alt": "말의 재미와 이야기 상상 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-literature/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-literature/05-questions-b.webp",
+          "sha256": "346ba32c221a6a2060c4f818e7a83d6dfdccd9e8925151d3baf7482679e307cb",
+          "alt": "말의 재미와 이야기 상상 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-literature/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-literature/06-focus.webp",
+          "sha256": "d6773b4554a23aa061177cb94b12d03ace963246fac1bed033fe642595ee953d",
+          "alt": "말의 재미와 이야기 상상 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-literature/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-literature/07-production.webp",
+          "sha256": "bcaf9501d8618caa5cce8d0a6dc6b667ce4946abd48b86a034865998b8ab1485",
+          "alt": "말의 재미와 이야기 상상 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-1-2-literature/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-literature/08-answers.webp",
+          "sha256": "1d7ee2eec753ef61caa3429b08d085448103a893a15d7ecb6e96558241570943",
+          "alt": "말의 재미와 이야기 상상 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-1-2-literature/korean-1-2-literature.pdf",
+        "pageCount": 8,
+        "sha256": "68e9971bcf6d79176e3480fa9b32adf911ca3af7ae69b14742f26ed3e3655d49"
+      },
+      "transcriptPath": "/workbooks/korean-1-2-literature/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-1-2-media",
+      "slug": "korean-1-2-media",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 글과 그림으로 경험 표현하기",
+      "gradeBand": "1-2",
+      "domain": "매체",
+      "module": "글과 그림으로 경험 표현하기",
+      "standardCodes": [
+        "[2국06-01]",
+        "[2국06-02]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "우리 주변의 매체",
+          "책은 글과 그림으로 이야기를 전합니다.",
+          "라디오는 소리로 소식과 음악을 들려줍니다.",
+          "영상은 움직이는 그림과 소리를 함께 보여 줍니다.",
+          "매체마다 생각을 전하는 방법이 다릅니다."
+        ],
+        "questionsA": [
+          [
+            "책이 사용하는 두 가지는 무엇인가요?",
+            "글과 그림"
+          ],
+          [
+            "라디오는 무엇을 사용하나요?",
+            "소리"
+          ],
+          [
+            "영상은 무엇을 함께 보여 주나요?",
+            "움직이는 그림과 소리"
+          ],
+          [
+            "글의 중심 내용을 쓰세요.",
+            "매체마다 생각을 전하는 방법이 다르다."
+          ]
+        ],
+        "textB": [
+          "나의 하루 카드",
+          "아침: 창문을 열자 밝은 햇빛이 들어왔습니다.",
+          "낮: 친구와 운동장에서 공을 찼습니다.",
+          "저녁: 가족과 식탁에 둘러앉아 오늘 일을 이야기했습니다.",
+          "각 장면에 그림을 더하면 하루가 더 잘 떠오릅니다."
+        ],
+        "questionsB": [
+          [
+            "아침에 한 일은 무엇인가요?",
+            "창문을 열었다."
+          ],
+          [
+            "낮에 누구와 무엇을 했나요?",
+            "친구와 공을 찼다."
+          ],
+          [
+            "저녁에 가족과 무엇을 했나요?",
+            "오늘 일을 이야기했다."
+          ],
+          [
+            "그림을 더하면 무엇이 좋은가요?",
+            "장면이 더 잘 떠오른다."
+          ]
+        ],
+        "focus": [
+          [
+            "글이 잘 전하는 것은 무엇인가요?",
+            "자세한 내용"
+          ],
+          [
+            "그림이 잘 전하는 것은 무엇인가요?",
+            "모습과 분위기"
+          ],
+          [
+            "소리가 잘 전하는 것은 무엇인가요?",
+            "목소리와 느낌"
+          ],
+          [
+            "경험 카드에 필요한 두 요소는 무엇인가요?",
+            "글과 그림"
+          ]
+        ],
+        "produce": [
+          "책·라디오·영상 중 관심 있는 매체와 까닭을 말하세요.",
+          "오늘의 한 장면을 짧은 글과 그림 계획으로 표현하세요."
+        ],
+        "model": "장면: 비 온 뒤 운동장 / 글: 웅덩이에 구름이 비쳤다. / 그림: 파란 웅덩이와 하얀 구름"
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-1-2-media/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-media/01-cover.webp",
+          "sha256": "3e445f0fd29845f66f74705b9a6c8de017162f174c025a43ef96001ed8f2362a",
+          "alt": "글과 그림으로 경험 표현하기 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-media/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-media/02-reading-a.webp",
+          "sha256": "70123f21be7b1619f03b580cc3e383506ddc836881d69436f7842267f9138578",
+          "alt": "글과 그림으로 경험 표현하기 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-media/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-media/03-questions-a.webp",
+          "sha256": "3df5ae9d277ef36c268dc2b777abfc08625429c3c0b57c81235e87b27abfe5bd",
+          "alt": "글과 그림으로 경험 표현하기 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-media/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-media/04-reading-b.webp",
+          "sha256": "a0f97d4e5f7c9fa3cccdb564111073dd19e0425d2425773897af4bf682729fea",
+          "alt": "글과 그림으로 경험 표현하기 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-media/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-media/05-questions-b.webp",
+          "sha256": "26fa823ff63f348c5173ed0adb8fc2c081d0b02fd04150ad4319d4f588ce6206",
+          "alt": "글과 그림으로 경험 표현하기 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-media/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-media/06-focus.webp",
+          "sha256": "a07882505074d31a290d1b14c17389c65f1e0ff8793048389decdf8b8fa21a79",
+          "alt": "글과 그림으로 경험 표현하기 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-media/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-media/07-production.webp",
+          "sha256": "057605e03c7a351883f38df3219f362ea20c822917af22c7ef89a85749b9f90a",
+          "alt": "글과 그림으로 경험 표현하기 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-1-2-media/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-media/08-answers.webp",
+          "sha256": "a5161a7fb66410e39798cc60197e52fc5a57ca2df1ea5de7e009f1646e4bc954",
+          "alt": "글과 그림으로 경험 표현하기 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-1-2-media/korean-1-2-media.pdf",
+        "pageCount": 8,
+        "sha256": "246698645634c8de10def21e033484e2d936080763947a07866c4638b83d10da"
+      },
+      "transcriptPath": "/workbooks/korean-1-2-media/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-1-2-reading",
+      "slug": "korean-1-2-reading",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 또박또박 읽고 마음 짐작하기",
+      "gradeBand": "1-2",
+      "domain": "읽기",
+      "module": "또박또박 읽고 마음 짐작하기",
+      "standardCodes": [
+        "[2국02-01]",
+        "[2국02-02]",
+        "[2국02-03]",
+        "[2국02-04]",
+        "[2국02-05]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "화분의 새싹",
+          "지우는 작은 화분에 씨앗을 심었습니다.",
+          "매일 물을 주었지만 며칠 동안 아무 변화가 없었습니다.",
+          "어느 아침, 흙 사이로 연두색 새싹이 고개를 내밀었습니다.",
+          "지우는 두 손을 모으고 한참 새싹을 바라보았습니다."
+        ],
+        "questionsA": [
+          [
+            "지우가 심은 것은 무엇인가요?",
+            "씨앗"
+          ],
+          [
+            "며칠 동안 변화가 있었나요?",
+            "없었다."
+          ],
+          [
+            "어느 아침 무엇이 나왔나요?",
+            "연두색 새싹"
+          ],
+          [
+            "지우의 마음을 짐작하고 근거를 쓰세요.",
+            "기쁘고 신기하다. 두 손을 모으고 한참 바라보았기 때문이다."
+          ]
+        ],
+        "textB": [
+          "도서관 가는 날",
+          "우리 반은 금요일마다 도서관에 갑니다.",
+          "친구들은 읽고 싶은 책을 스스로 고릅니다.",
+          "책을 다 읽으면 기억에 남는 장면을 한 문장으로 적습니다.",
+          "우리는 서로의 문장을 읽으며 다음 책을 찾습니다."
+        ],
+        "questionsB": [
+          [
+            "언제 도서관에 가나요?",
+            "금요일마다"
+          ],
+          [
+            "책은 누가 고르나요?",
+            "친구들이 스스로"
+          ],
+          [
+            "읽은 뒤 무엇을 적나요?",
+            "기억에 남는 장면"
+          ],
+          [
+            "글의 중심 내용을 쓰세요.",
+            "우리 반은 도서관에서 즐겁게 책을 읽고 나눈다."
+          ]
+        ],
+        "focus": [
+          [
+            "의미가 잘 드러나게 읽으려면 무엇을 살피나요?",
+            "문장의 뜻과 알맞은 띄어 읽기"
+          ],
+          [
+            "쉼표에서는 어떻게 읽나요?",
+            "조금 쉰다."
+          ],
+          [
+            "마침표에서는 어떻게 읽나요?",
+            "문장을 마치며 쉰다."
+          ],
+          [
+            "읽고 싶은 책을 고르는 태도는 무엇인가요?",
+            "읽기에 흥미를 가지고 즐겨 읽는 태도"
+          ]
+        ],
+        "produce": [
+          "첫 번째 글을 의미가 드러나도록 띄어 소리 내어 읽어 보세요.",
+          "인물의 마음과 나의 비슷하거나 다른 경험을 두 문장으로 써 보세요."
+        ],
+        "model": "지우는 새싹을 보고 기뻤을 것입니다. 나도 심은 봉선화에서 싹이 났을 때 오래 바라보았습니다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-1-2-reading/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-reading/01-cover.webp",
+          "sha256": "651a7af9f55d5ba7d855dfa8d61ef5d9a9a3b84c622fd397c433d6a953272910",
+          "alt": "또박또박 읽고 마음 짐작하기 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-reading/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-reading/02-reading-a.webp",
+          "sha256": "7f4225c421af46f95e3ccdd6029b99d377b51f18004c84fda1c5a866b53432f3",
+          "alt": "또박또박 읽고 마음 짐작하기 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-reading/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-reading/03-questions-a.webp",
+          "sha256": "8e6600423ce965bd7412e28285b3ce61d9fc52c4df78701dc55b1d12c9cc58b3",
+          "alt": "또박또박 읽고 마음 짐작하기 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-reading/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-reading/04-reading-b.webp",
+          "sha256": "a35daf32d3e0b31f0d079b2bc875046575a1f50a8f9a8ac9a00a16b0b08de515",
+          "alt": "또박또박 읽고 마음 짐작하기 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-reading/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-reading/05-questions-b.webp",
+          "sha256": "970d60ffb438cea0ff36092cd16c53874d4deeda5fc7ab8215fa3bdc62546c0e",
+          "alt": "또박또박 읽고 마음 짐작하기 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-reading/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-reading/06-focus.webp",
+          "sha256": "038569d993d9485b7a7783fc88ad9172fce0d80c3e35c30c9274f66994922c10",
+          "alt": "또박또박 읽고 마음 짐작하기 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-reading/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-reading/07-production.webp",
+          "sha256": "e61e3001ce6f1682a691418a18fd83f080c958897f231e7e17d45f78526dbfdd",
+          "alt": "또박또박 읽고 마음 짐작하기 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-1-2-reading/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-reading/08-answers.webp",
+          "sha256": "ac01510819be6ecc966968da5f9b1c4d4391c3ea4760d408d0d0129fec5a4759",
+          "alt": "또박또박 읽고 마음 짐작하기 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-1-2-reading/korean-1-2-reading.pdf",
+        "pageCount": 8,
+        "sha256": "af9ce70205f73523db40eb417ff8d37f47954eefe7255610d06976b013fdb2ad"
+      },
+      "transcriptPath": "/workbooks/korean-1-2-reading/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-1-2-writing",
+      "slug": "korean-1-2-writing",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 소개하고 겪은 일 쓰기",
+      "gradeBand": "1-2",
+      "domain": "쓰기",
+      "module": "소개하고 겪은 일 쓰기",
+      "standardCodes": [
+        "[2국03-01]",
+        "[2국03-02]",
+        "[2국03-03]",
+        "[2국03-04]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "내 연필꽂이",
+          "내 책상에는 파란 연필꽂이가 있습니다.",
+          "연필꽂이는 둥글고 손바닥 두 개만큼 큽니다.",
+          "연필과 자를 한곳에 넣을 수 있어서 편리합니다.",
+          "나는 공부가 끝나면 연필을 꼭 제자리에 둡니다."
+        ],
+        "questionsA": [
+          [
+            "소개하는 대상은 무엇인가요?",
+            "연필꽂이"
+          ],
+          [
+            "무슨 색인가요?",
+            "파란색"
+          ],
+          [
+            "어떤 모양인가요?",
+            "둥근 모양"
+          ],
+          [
+            "편리한 까닭은 무엇인가요?",
+            "연필과 자를 한곳에 넣을 수 있어서"
+          ]
+        ],
+        "textB": [
+          "처음 자전거를 탄 날",
+          "지난 토요일에 공원에서 두발자전거를 탔습니다.",
+          "처음에는 자꾸 한쪽으로 기울어졌습니다.",
+          "아버지가 뒤에서 잡아 주셔서 다시 힘껏 발을 굴렀습니다.",
+          "혼자 앞으로 나아가자 바람까지 나를 응원하는 것 같았습니다."
+        ],
+        "questionsB": [
+          [
+            "언제 있었던 일인가요?",
+            "지난 토요일"
+          ],
+          [
+            "어디에서 자전거를 탔나요?",
+            "공원"
+          ],
+          [
+            "누가 도와주었나요?",
+            "아버지"
+          ],
+          [
+            "글쓴이의 느낌은 무엇인가요?",
+            "기쁘고 뿌듯하다."
+          ]
+        ],
+        "focus": [
+          [
+            "문장은 무엇으로 시작하나요?",
+            "알맞은 글자와 내용"
+          ],
+          [
+            "문장 끝에는 무엇을 쓰나요?",
+            "문장 부호"
+          ],
+          [
+            "소개 글에 넣을 내용을 두 가지 쓰세요.",
+            "생김새, 쓰임"
+          ],
+          [
+            "겪은 일 글에 넣을 내용을 쓰세요.",
+            "언제·어디서·무슨 일·느낌"
+          ]
+        ],
+        "produce": [
+          "내 주변 물건 하나를 골라 세 문장으로 소개하세요.",
+          "기억에 남는 일을 순서와 느낌이 드러나게 네 문장으로 쓰세요."
+        ],
+        "model": "내 가방은 초록색입니다. 주머니가 세 개라서 물건을 나누어 넣기 좋습니다. 나는 매일 가방을 스스로 정리합니다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-1-2-writing/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-writing/01-cover.webp",
+          "sha256": "f1514cf14617be92768afc5b033755a5c86695d82fa1b06fd58edbfb465f8b5e",
+          "alt": "소개하고 겪은 일 쓰기 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-writing/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-writing/02-reading-a.webp",
+          "sha256": "7f5a8ca052fda64e607cdc387bcda78d7af40593c35866020639e7d3d3c77e43",
+          "alt": "소개하고 겪은 일 쓰기 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-writing/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-writing/03-questions-a.webp",
+          "sha256": "d0c11a0c3e99262e7dc318d0e44d88966d2e0607c42def0a139a84b1a018848d",
+          "alt": "소개하고 겪은 일 쓰기 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-writing/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-writing/04-reading-b.webp",
+          "sha256": "120f426f2d12e656d097b91806936be6ce9d50cb2519adb5d45a2e903563d07e",
+          "alt": "소개하고 겪은 일 쓰기 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-writing/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-writing/05-questions-b.webp",
+          "sha256": "c9e0609a9a3a19966e6a6470c56d0a3d5b08556d2ba7c88d1cf6c93380d5a634",
+          "alt": "소개하고 겪은 일 쓰기 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-writing/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-writing/06-focus.webp",
+          "sha256": "31b58798d78e0eedf3253e186e3368716dcd8696ba46871891ef0a2870dfc4a3",
+          "alt": "소개하고 겪은 일 쓰기 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-1-2-writing/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-writing/07-production.webp",
+          "sha256": "10b765edd98e726768393f68fbf9ccea44f97953310b1bc6b3536a386f27849d",
+          "alt": "소개하고 겪은 일 쓰기 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-1-2-writing/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-1-2-writing/08-answers.webp",
+          "sha256": "8778f470005a4cb5c38739561cc82c250b3971dea8d6dba058dc155507e59b54",
+          "alt": "소개하고 겪은 일 쓰기 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-1-2-writing/korean-1-2-writing.pdf",
+        "pageCount": 8,
+        "sha256": "e7865cd6d920f1d132fbeab2643df3359990803e420d2f78061305f5e1e7bcd6"
+      },
+      "transcriptPath": "/workbooks/korean-1-2-writing/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-3-4-grammar",
+      "slug": "korean-3-4-grammar",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 단어 관계와 알맞은 문장",
+      "gradeBand": "3-4",
+      "domain": "문법",
+      "module": "단어 관계와 알맞은 문장",
+      "standardCodes": [
+        "[4국04-01]",
+        "[4국04-02]",
+        "[4국04-03]",
+        "[4국04-04]",
+        "[4국04-05]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "단어의 관계",
+          "‘기쁘다’와 ‘즐겁다’는 뜻이 비슷합니다.",
+          "‘넓다’와 ‘좁다’는 뜻이 서로 반대입니다.",
+          "‘과일’은 ‘사과, 배, 감’보다 넓은 뜻을 가진 말입니다.",
+          "단어의 관계를 알면 뜻을 더 정확히 이해할 수 있습니다."
+        ],
+        "questionsA": [
+          [
+            "기쁘다와 뜻이 비슷한 말은 무엇인가요?",
+            "즐겁다"
+          ],
+          [
+            "넓다와 뜻이 반대인 말은 무엇인가요?",
+            "좁다"
+          ],
+          [
+            "사과·배·감을 포함하는 말은 무엇인가요?",
+            "과일"
+          ],
+          [
+            "단어 관계를 알면 무엇이 좋은가요?",
+            "뜻을 더 정확히 이해할 수 있다."
+          ]
+        ],
+        "textB": [
+          "상황에 맞는 표현",
+          "할머니께서 방에 들어오십니다.",
+          "나는 친구에게 “이 책을 먼저 읽어. 그리고 나에게 알려 줘.”라고 말했습니다.",
+          "‘이’는 가까운 대상을 가리키고, ‘그리고’는 내용을 이어 줍니다.",
+          "말하는 상대와 상황에 따라 높임 표현을 알맞게 사용합니다."
+        ],
+        "questionsB": [
+          [
+            "높임 표현이 쓰인 말은 무엇인가요?",
+            "들어오십니다"
+          ],
+          [
+            "가까운 대상을 가리키는 말은 무엇인가요?",
+            "이"
+          ],
+          [
+            "내용을 이어 주는 말은 무엇인가요?",
+            "그리고"
+          ],
+          [
+            "높임 표현은 무엇을 고려하나요?",
+            "상대와 상황"
+          ]
+        ],
+        "focus": [
+          [
+            "‘새가 난다’에서 ‘새가’의 역할은 무엇인가요?",
+            "누가에 해당하는 부분"
+          ],
+          [
+            "‘새가 난다’에서 ‘난다’의 역할은 무엇인가요?",
+            "무엇을 한다에 해당하는 부분"
+          ],
+          [
+            "국어사전에서 단어를 찾을 때 무엇을 기준으로 하나요?",
+            "첫 글자부터 자모 순서"
+          ],
+          [
+            "언어는 관계 형성에 어떤 역할을 하나요?",
+            "마음과 생각을 주고받게 한다."
+          ]
+        ],
+        "produce": [
+          "비슷한 말·반대말·포함 관계의 예를 하나씩 찾으세요.",
+          "친구와 어른에게 같은 내용을 각각 알맞게 말하는 문장을 쓰세요."
+        ],
+        "model": "친구에게: 이 책 좀 봐. / 선생님께: 선생님, 이 책을 봐 주세요."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-3-4-grammar/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-grammar/01-cover.webp",
+          "sha256": "8b029454f9b42685d3cbd1e387def36344cd8e219e6c6f99460bfd315ae23324",
+          "alt": "단어 관계와 알맞은 문장 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-grammar/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-grammar/02-reading-a.webp",
+          "sha256": "61699386b475264dde7c775ad99e56ca6f7ce0f899be75c757e41bb4b8e987a5",
+          "alt": "단어 관계와 알맞은 문장 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-grammar/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-grammar/03-questions-a.webp",
+          "sha256": "9446cd934798eafa593f72b22b4768efca19701ca50ae6d8102c593ed598ea4d",
+          "alt": "단어 관계와 알맞은 문장 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-grammar/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-grammar/04-reading-b.webp",
+          "sha256": "6158881907376ab95146e3f8d81eea12fdb6307133702e757693443d86619df4",
+          "alt": "단어 관계와 알맞은 문장 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-grammar/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-grammar/05-questions-b.webp",
+          "sha256": "042289383b20fd6cdfc4dbfd7ac20cd3a75ab936a095321e19ae80ae07995b62",
+          "alt": "단어 관계와 알맞은 문장 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-grammar/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-grammar/06-focus.webp",
+          "sha256": "cbec738da6d007b12cd1efafc6cb05977b35365a928515d8bd95e805057480cb",
+          "alt": "단어 관계와 알맞은 문장 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-grammar/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-grammar/07-production.webp",
+          "sha256": "70179974cfb758fcab44e411c791f6bc8883adb572b7eb7b69894c050e6bbd7e",
+          "alt": "단어 관계와 알맞은 문장 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-3-4-grammar/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-grammar/08-answers.webp",
+          "sha256": "36a5394cad9008a967b60357d117db281ab435df406665747bf5b869eaec1a28",
+          "alt": "단어 관계와 알맞은 문장 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-3-4-grammar/korean-3-4-grammar.pdf",
+        "pageCount": 8,
+        "sha256": "1d6545dd72827d77c15f05832ae9d1b8722b925c4e2b50a8718179e19145e58c"
+      },
+      "transcriptPath": "/workbooks/korean-3-4-grammar/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-3-4-listening-speaking",
+      "slug": "korean-3-4-listening-speaking",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 요약하고 의견 나누기",
+      "gradeBand": "3-4",
+      "domain": "듣기·말하기",
+      "module": "요약하고 의견 나누기",
+      "standardCodes": [
+        "[4국01-01]",
+        "[4국01-02]",
+        "[4국01-03]",
+        "[4국01-04]",
+        "[4국01-05]",
+        "[4국01-06]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "교실 식물 돌보기 안내",
+          "화분은 햇빛이 잘 드는 창가에 둡니다.",
+          "흙이 말랐는지 손가락으로 확인한 뒤 물을 줍니다.",
+          "잎에 먼지가 쌓이면 부드러운 천으로 닦습니다.",
+          "모둠별로 날짜를 정해 꾸준히 돌봅니다."
+        ],
+        "questionsA": [
+          [
+            "안내의 주제는 무엇인가요?",
+            "교실 식물 돌보기"
+          ],
+          [
+            "물을 주기 전 확인할 것은 무엇인가요?",
+            "흙이 말랐는지"
+          ],
+          [
+            "잎의 먼지는 무엇으로 닦나요?",
+            "부드러운 천"
+          ],
+          [
+            "중요 내용을 한 문장으로 요약하세요.",
+            "모둠별로 정한 날짜에 식물 상태를 살펴 알맞게 돌본다."
+          ]
+        ],
+        "textB": [
+          "학급 쉬는 시간 토의",
+          "의견 가: 조용한 놀이 구역을 만들면 책이나 퍼즐을 좋아하는 친구가 편합니다.",
+          "의견 나: 공놀이 구역도 있어야 몸을 움직이고 싶은 친구가 즐겁습니다.",
+          "두 의견을 듣고 우리는 공간을 나누어 함께 사용하자고 정했습니다."
+        ],
+        "questionsB": [
+          [
+            "토의 주제는 무엇인가요?",
+            "쉬는 시간 공간 사용"
+          ],
+          [
+            "의견 가의 이유는 무엇인가요?",
+            "조용한 놀이를 좋아하는 친구가 편해서"
+          ],
+          [
+            "의견 나의 이유는 무엇인가요?",
+            "몸을 움직이고 싶은 친구가 즐거워서"
+          ],
+          [
+            "결정한 해결 방법은 무엇인가요?",
+            "공간을 나누어 함께 사용한다."
+          ]
+        ],
+        "focus": [
+          [
+            "준언어 표현의 예는 무엇인가요?",
+            "목소리 크기, 빠르기, 억양"
+          ],
+          [
+            "비언어 표현의 예는 무엇인가요?",
+            "표정, 몸짓, 시선"
+          ],
+          [
+            "예의 있게 반대하는 표현을 쓰세요.",
+            "그 생각도 이해하지만 저는 다르게 생각합니다."
+          ],
+          [
+            "발표 자료는 어떻게 정리하나요?",
+            "목적과 주제에 맞는 핵심 정보 중심으로"
+          ]
+        ],
+        "produce": [
+          "첫 글을 30초 안에 요약해 발표하세요.",
+          "쉬는 시간 공간에 대한 내 의견과 이유를 말하고 다른 의견에 답하세요."
+        ],
+        "model": "저는 공간을 나누어 쓰는 의견에 찬성합니다. 서로 다른 활동을 존중하면서 모두 안전하게 쉴 수 있기 때문입니다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-3-4-listening-speaking/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/01-cover.webp",
+          "sha256": "8e48686ec8471186094c08f10f4330c0b69e4ab65930b2674b10b47e829912a5",
+          "alt": "요약하고 의견 나누기 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-listening-speaking/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/02-reading-a.webp",
+          "sha256": "6dc253b7446a2b1436c9b3c7fd30eb1a833016eec297b47ac33f09bdb96b3c0b",
+          "alt": "요약하고 의견 나누기 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-listening-speaking/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/03-questions-a.webp",
+          "sha256": "babd235139a650839fd3d993a425b1eb80bd6e8b36420ea137fd2e9a6fe98133",
+          "alt": "요약하고 의견 나누기 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-listening-speaking/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/04-reading-b.webp",
+          "sha256": "745f8a16180e7e01a66cbc6eb6ea3ca5b36d0eaa03589341feaf992c416d49a9",
+          "alt": "요약하고 의견 나누기 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-listening-speaking/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/05-questions-b.webp",
+          "sha256": "eb7b5093865e31bd5083d72ba8a28a6df78519a3c7c26a847175e65137640c81",
+          "alt": "요약하고 의견 나누기 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-listening-speaking/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/06-focus.webp",
+          "sha256": "a265ff4131d3d4c1b30fd1fcdc637d973fa45291b910533a963c6ecdd9bf93a9",
+          "alt": "요약하고 의견 나누기 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-listening-speaking/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/07-production.webp",
+          "sha256": "31539db73174a2b9145094ab58f970784d407f940447ebeec7251f86e7a59b5b",
+          "alt": "요약하고 의견 나누기 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-3-4-listening-speaking/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/08-answers.webp",
+          "sha256": "92afb88661eb89c59d583263af6d14c97b0a67308ee11d226b83c1142aeeb184",
+          "alt": "요약하고 의견 나누기 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-3-4-listening-speaking/korean-3-4-listening-speaking.pdf",
+        "pageCount": 8,
+        "sha256": "442c0f8b3c4c95f856b7a2ad2d9884c219d8cfbda02771990be9d1a8e8ca5b11"
+      },
+      "transcriptPath": "/workbooks/korean-3-4-listening-speaking/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-3-4-literature",
+      "slug": "korean-3-4-literature",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 이야기 흐름과 감각적 표현",
+      "gradeBand": "3-4",
+      "domain": "문학",
+      "module": "이야기 흐름과 감각적 표현",
+      "standardCodes": [
+        "[4국05-01]",
+        "[4국05-02]",
+        "[4국05-03]",
+        "[4국05-04]",
+        "[4국05-05]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "바람이 두고 간 편지",
+          "아침 바람이 창문을 살짝 두드렸습니다.",
+          "수아가 창문을 열자 은행잎 한 장이 책상 위로 날아왔습니다.",
+          "수아는 노란 잎맥을 손끝으로 따라가며 가을이 보낸 편지라고 생각했습니다.",
+          "그날 수아는 잎을 책갈피에 고이 넣었습니다."
+        ],
+        "questionsA": [
+          [
+            "주인공은 누구인가요?",
+            "수아"
+          ],
+          [
+            "은행잎은 어디로 왔나요?",
+            "책상 위"
+          ],
+          [
+            "수아는 은행잎을 무엇이라고 생각했나요?",
+            "가을이 보낸 편지"
+          ],
+          [
+            "이야기의 흐름을 세 단계로 쓰세요.",
+            "바람이 창문을 두드림 → 잎이 날아옴 → 책갈피에 넣음"
+          ]
+        ],
+        "textB": [
+          "겨울 아침",
+          "하얀 입김이 몽글몽글 피어난다.",
+          "발밑 눈은 뽀드득 작은 북을 친다.",
+          "차가운 바람이 두 볼을 콕콕 찌른다.",
+          "나는 목도리 속에 웃음을 폭 감춘다."
+        ],
+        "questionsB": [
+          [
+            "눈 밟는 소리를 나타낸 말은 무엇인가요?",
+            "뽀드득"
+          ],
+          [
+            "바람이 볼에 닿는 느낌은 무엇인가요?",
+            "콕콕 찌르는 듯한 느낌"
+          ],
+          [
+            "시각을 나타내는 표현은 무엇인가요?",
+            "하얀 입김"
+          ],
+          [
+            "시의 분위기를 쓰세요.",
+            "춥지만 즐겁고 생생하다."
+          ]
+        ],
+        "focus": [
+          [
+            "현실과 작품 속 세계를 비교할 때 떠올릴 것은 무엇인가요?",
+            "나의 비슷한 경험"
+          ],
+          [
+            "작품을 소개할 때 필요한 것은 무엇인가요?",
+            "제목, 마음에 든 부분, 까닭"
+          ],
+          [
+            "감각적 표현은 어떤 감각을 활용하나요?",
+            "시각·청각·촉각 등"
+          ],
+          [
+            "작품을 즐겨 감상하는 태도의 예는 무엇인가요?",
+            "읽고 느낀 점을 나누거나 다시 읽기"
+          ]
+        ],
+        "produce": [
+          "첫 이야기와 비슷한 나의 경험을 말하세요.",
+          "겨울 장면을 감각적 표현 두 가지 이상으로 네 줄 시로 쓰세요."
+        ],
+        "model": "찬 공기가 코끝을 간질인다. / 얼음은 햇빛을 받아 반짝인다. / 발걸음마다 사각사각 / 겨울 길이 노래한다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-3-4-literature/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-literature/01-cover.webp",
+          "sha256": "55a04d86cbf38f6db191af81af952f1ed458a78b3aa4fef7cb21a34e25f259e5",
+          "alt": "이야기 흐름과 감각적 표현 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-literature/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-literature/02-reading-a.webp",
+          "sha256": "dcd2096b18ddf1a0dd6d1c3a5d8c6d0400c9e6fe58c77cd5bfbf5f3c60bd890e",
+          "alt": "이야기 흐름과 감각적 표현 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-literature/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-literature/03-questions-a.webp",
+          "sha256": "4922ca882f4d7806d9f3a13d6d2e24a13ceca757cede685574aff20209401d95",
+          "alt": "이야기 흐름과 감각적 표현 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-literature/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-literature/04-reading-b.webp",
+          "sha256": "865790fddf64598eba9d4555bd7d9d5738f4e9eaa13f994cd64e8b343b7f3f4c",
+          "alt": "이야기 흐름과 감각적 표현 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-literature/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-literature/05-questions-b.webp",
+          "sha256": "905c2868bf0788c4a0196ac96f3ba8ab76077c0e3757546d97ef4ad9f75f7a09",
+          "alt": "이야기 흐름과 감각적 표현 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-literature/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-literature/06-focus.webp",
+          "sha256": "774233f89f238660cee382c693a3a85247db78c814ead34cad2a1abd247f5f89",
+          "alt": "이야기 흐름과 감각적 표현 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-literature/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-literature/07-production.webp",
+          "sha256": "b16b1d3907417c2e69fd4e81764dbc7ed940b25c9d8e488e1b7fc250f0d2463d",
+          "alt": "이야기 흐름과 감각적 표현 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-3-4-literature/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-literature/08-answers.webp",
+          "sha256": "08f95e2ec5f493b1d6278105900a8437ce587912f2e0095fe8c0bd0a04fa4948",
+          "alt": "이야기 흐름과 감각적 표현 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-3-4-literature/korean-3-4-literature.pdf",
+        "pageCount": 8,
+        "sha256": "1da85a4803a1ffa8b1f30fae0c718c079f41b472a1e6e7b2465210712657f71e"
+      },
+      "transcriptPath": "/workbooks/korean-3-4-literature/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-3-4-media",
+      "slug": "korean-3-4-media",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 자료를 찾고 바르게 공유하기",
+      "gradeBand": "3-4",
+      "domain": "매체",
+      "module": "자료를 찾고 바르게 공유하기",
+      "standardCodes": [
+        "[4국06-01]",
+        "[4국06-02]",
+        "[4국06-03]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "발표 자료 찾기",
+          "주제가 ‘우리 지역의 나무’라면 먼저 필요한 정보를 정합니다.",
+          "공공기관이나 도서관 누리집에서 자료를 찾습니다.",
+          "작성자와 날짜를 확인하고 주제에 맞는 내용만 선택합니다.",
+          "선택한 자료의 출처를 기록합니다."
+        ],
+        "questionsA": [
+          [
+            "가장 먼저 할 일은 무엇인가요?",
+            "필요한 정보 정하기"
+          ],
+          [
+            "어디에서 자료를 찾나요?",
+            "공공기관이나 도서관 누리집"
+          ],
+          [
+            "확인할 두 가지는 무엇인가요?",
+            "작성자, 날짜"
+          ],
+          [
+            "선택한 뒤 기록할 것은 무엇인가요?",
+            "출처"
+          ]
+        ],
+        "textB": [
+          "한 장 발표 자료",
+          "제목은 발표 주제를 짧고 분명하게 보여 줍니다.",
+          "사진이나 그림은 핵심 내용을 이해하는 데 도움을 줍니다.",
+          "글자는 뒤에서도 읽을 수 있게 크게 씁니다.",
+          "다른 사람의 자료는 출처를 밝히고 허락된 범위에서 사용합니다."
+        ],
+        "questionsB": [
+          [
+            "제목은 어떻게 쓰나요?",
+            "짧고 분명하게"
+          ],
+          [
+            "사진이나 그림의 역할은 무엇인가요?",
+            "핵심 내용 이해를 돕는다."
+          ],
+          [
+            "글자는 왜 크게 쓰나요?",
+            "뒤에서도 읽을 수 있게"
+          ],
+          [
+            "다른 사람 자료를 쓸 때 지킬 것은 무엇인가요?",
+            "출처와 이용 범위"
+          ]
+        ],
+        "focus": [
+          [
+            "검색어는 어떻게 정하나요?",
+            "주제의 핵심 낱말로"
+          ],
+          [
+            "발표 자료 한 장에 정보를 너무 많이 넣으면 어떤가요?",
+            "핵심이 흐려진다."
+          ],
+          [
+            "온라인에서 친구 사진을 공유하기 전 필요한 것은 무엇인가요?",
+            "친구의 동의"
+          ],
+          [
+            "매체 소통 윤리의 핵심은 무엇인가요?",
+            "출처·개인정보·상대 존중"
+          ]
+        ],
+        "produce": [
+          "‘우리 학교의 좋은 점’ 발표에 필요한 검색어와 자료 출처를 계획하세요.",
+          "제목·핵심 문장·그림 설명·출처가 있는 한 장 발표 자료를 설계하세요."
+        ],
+        "model": "제목: 우리 학교의 작은 숲 / 핵심: 나무 18그루가 그늘과 쉼터를 만든다. / 출처: 학교 생태 조사표(2026)"
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-3-4-media/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-media/01-cover.webp",
+          "sha256": "22aa8cf2ab5c824b3aed85824bb382be4ae61b42555639bb974459cafb1c685c",
+          "alt": "자료를 찾고 바르게 공유하기 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-media/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-media/02-reading-a.webp",
+          "sha256": "ac01489ec7efae410dfeb72b25885e6c26bd2dda406b0b767d020b92766d812c",
+          "alt": "자료를 찾고 바르게 공유하기 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-media/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-media/03-questions-a.webp",
+          "sha256": "533a311a0297bff9c4f8be2d1066bb795977ac8d9f7196f9a2e4701fc1b612fe",
+          "alt": "자료를 찾고 바르게 공유하기 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-media/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-media/04-reading-b.webp",
+          "sha256": "595c7730e0968ed8c103daa4f28b7cf71609992a66badf8f1ab089a8a9afa557",
+          "alt": "자료를 찾고 바르게 공유하기 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-media/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-media/05-questions-b.webp",
+          "sha256": "f12dfc567b51dc893a1cce751f5cf1da0d67d19823428e212ad0738e479b550b",
+          "alt": "자료를 찾고 바르게 공유하기 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-media/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-media/06-focus.webp",
+          "sha256": "9dd3841366de49029241d64a3c0deccb36d30c4694599ea31276d769f2794e68",
+          "alt": "자료를 찾고 바르게 공유하기 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-media/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-media/07-production.webp",
+          "sha256": "0a9ebadf0befb79474e0fdc836ab5f85fe5a60647ad302aca58b976a0ae531a6",
+          "alt": "자료를 찾고 바르게 공유하기 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-3-4-media/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-media/08-answers.webp",
+          "sha256": "5cea18597db2af311a83f67a92038bd3cc5d95729f4ae04ac2d35254eeb1fe9c",
+          "alt": "자료를 찾고 바르게 공유하기 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-3-4-media/korean-3-4-media.pdf",
+        "pageCount": 8,
+        "sha256": "804f8c86999b402f247e3f821a6949811ce6c9064f91387a00cf1c734766aacc"
+      },
+      "transcriptPath": "/workbooks/korean-3-4-media/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-3-4-reading",
+      "slug": "korean-3-4-reading",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 중심 생각과 믿을 만한 출처",
+      "gradeBand": "3-4",
+      "domain": "읽기",
+      "module": "중심 생각과 믿을 만한 출처",
+      "standardCodes": [
+        "[4국02-01]",
+        "[4국02-02]",
+        "[4국02-03]",
+        "[4국02-04]",
+        "[4국02-05]",
+        "[4국02-06]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "도시의 작은 숲",
+          "학교와 집 사이의 작은 공원에도 나무와 풀이 자랍니다.",
+          "이곳은 새와 곤충에게 먹이와 쉴 곳을 줍니다.",
+          "사람들은 그늘에서 쉬고 계절의 변화를 느낍니다.",
+          "작은 녹지라도 생물과 사람 모두에게 소중합니다."
+        ],
+        "questionsA": [
+          [
+            "첫 문단의 중심 대상은 무엇인가요?",
+            "작은 공원"
+          ],
+          [
+            "동물에게 주는 도움은 무엇인가요?",
+            "먹이와 쉴 곳"
+          ],
+          [
+            "사람에게 주는 도움은 무엇인가요?",
+            "그늘과 계절 변화"
+          ],
+          [
+            "글의 중심 생각을 쓰세요.",
+            "작은 녹지도 생물과 사람에게 소중하다."
+          ]
+        ],
+        "textB": [
+          "자료 가와 자료 나",
+          "자료 가: 학교 과학관 누리집은 담당 기관과 작성 날짜를 밝히고 관찰 결과를 설명합니다.",
+          "자료 나: 작성자를 알 수 없는 게시물은 ‘무조건 맞다’고 주장하지만 근거와 날짜가 없습니다.",
+          "자료를 읽을 때에는 누가, 언제, 어떤 근거로 만들었는지 살펴야 합니다."
+        ],
+        "questionsB": [
+          [
+            "자료 가의 출처는 어디인가요?",
+            "학교 과학관 누리집"
+          ],
+          [
+            "자료 나에서 빠진 것은 무엇인가요?",
+            "작성자, 근거, 날짜"
+          ],
+          [
+            "더 믿을 만한 자료는 무엇인가요?",
+            "자료 가"
+          ],
+          [
+            "판단 기준 세 가지를 쓰세요.",
+            "작성자, 날짜, 근거"
+          ]
+        ],
+        "focus": [
+          [
+            "사실은 무엇인가요?",
+            "확인할 수 있는 내용"
+          ],
+          [
+            "의견은 무엇인가요?",
+            "생각이나 판단"
+          ],
+          [
+            "읽기 전 예측에 쓰는 단서는 무엇인가요?",
+            "제목, 그림, 질문"
+          ],
+          [
+            "읽은 뒤 점검할 것은 무엇인가요?",
+            "예측과 실제 내용, 이해하지 못한 부분"
+          ]
+        ],
+        "produce": [
+          "첫 글을 문단별 중심 문장으로 간추리세요.",
+          "인터넷 자료 하나를 정해 출처의 신뢰성을 점검하는 질문을 만드세요."
+        ],
+        "model": "누가 만들었는가? 언제 작성했는가? 근거와 출처가 제시되었는가? 다른 자료와 내용이 맞는가?"
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-3-4-reading/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-reading/01-cover.webp",
+          "sha256": "d0ab5173ae5102cee6e9cdaa11caa9938573005d607c222ba5a738e3e2d03b01",
+          "alt": "중심 생각과 믿을 만한 출처 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-reading/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-reading/02-reading-a.webp",
+          "sha256": "dfb2b6bad1be1ec8858fed72da19e33308f11c4c9438bbdd3ed8e9f0103ec1b1",
+          "alt": "중심 생각과 믿을 만한 출처 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-reading/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-reading/03-questions-a.webp",
+          "sha256": "56b1b5d4b98f595381a9be6d556664c480ddd634eca1e14bad73d943d93cde21",
+          "alt": "중심 생각과 믿을 만한 출처 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-reading/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-reading/04-reading-b.webp",
+          "sha256": "bff994068ccc7ea3089b05f8970556ca3e39268b0822555d4ef59228efb1c3b6",
+          "alt": "중심 생각과 믿을 만한 출처 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-reading/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-reading/05-questions-b.webp",
+          "sha256": "9d6e7ebfb5c8bfe64656660417f3a90ae3ace759062b92ee0040f7776dda3db8",
+          "alt": "중심 생각과 믿을 만한 출처 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-reading/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-reading/06-focus.webp",
+          "sha256": "dc35394e29b2485f5e922420ce595209e531bec38f6770850a48ca9f3f20e856",
+          "alt": "중심 생각과 믿을 만한 출처 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-reading/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-reading/07-production.webp",
+          "sha256": "c99b65e76ea4ac945073b8e433bc429473b5a85a747c18b242e3d2e0e6dc9063",
+          "alt": "중심 생각과 믿을 만한 출처 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-3-4-reading/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-reading/08-answers.webp",
+          "sha256": "860cd9f41ac9b2eb25ce996515db19103ca1231c0cb8ed53c2214cb1c3c006dd",
+          "alt": "중심 생각과 믿을 만한 출처 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-3-4-reading/korean-3-4-reading.pdf",
+        "pageCount": 8,
+        "sha256": "f402e37f1349a8ce7c20cdf75a9d4b84e6a8d4f9baeb1ccda9701bb561847e59"
+      },
+      "transcriptPath": "/workbooks/korean-3-4-reading/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-3-4-writing",
+      "slug": "korean-3-4-writing",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 문단과 목적에 맞는 글쓰기",
+      "gradeBand": "3-4",
+      "domain": "쓰기",
+      "module": "문단과 목적에 맞는 글쓰기",
+      "standardCodes": [
+        "[4국03-01]",
+        "[4국03-02]",
+        "[4국03-03]",
+        "[4국03-04]",
+        "[4국03-05]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "종이 다리 실험 보고",
+          "목적: 종이 모양에 따라 버티는 힘이 달라지는지 알아본다.",
+          "절차: 평평한 종이와 접은 종이를 같은 간격의 책 위에 올린다.",
+          "결과: 접은 종이가 더 많은 지우개를 버텼다.",
+          "알게 된 점: 종이를 접으면 더 단단해질 수 있다."
+        ],
+        "questionsA": [
+          [
+            "실험 목적은 무엇인가요?",
+            "종이 모양과 버티는 힘의 관계 확인"
+          ],
+          [
+            "비교한 종이 두 가지는 무엇인가요?",
+            "평평한 종이, 접은 종이"
+          ],
+          [
+            "결과는 무엇인가요?",
+            "접은 종이가 더 많은 지우개를 버텼다."
+          ],
+          [
+            "보고 글의 순서를 쓰세요.",
+            "목적 → 절차 → 결과 → 알게 된 점"
+          ]
+        ],
+        "textB": [
+          "고마운 마음을 전하는 글",
+          "지민아, 발표 연습을 할 때 내 말을 끝까지 들어줘서 고마워.",
+          "네가 고개를 끄덕여 준 덕분에 긴장이 줄었어.",
+          "다음 발표 준비 때에는 내가 네 연습을 도와줄게.",
+          "우리 서로 힘이 되어 주자."
+        ],
+        "questionsB": [
+          [
+            "글을 받는 사람은 누구인가요?",
+            "지민"
+          ],
+          [
+            "고마운 일은 무엇인가요?",
+            "발표 연습을 끝까지 들어준 일"
+          ],
+          [
+            "그 결과 어떤 변화가 있었나요?",
+            "긴장이 줄었다."
+          ],
+          [
+            "글의 목적은 무엇인가요?",
+            "고마운 마음을 전하기"
+          ]
+        ],
+        "focus": [
+          [
+            "문단의 중심 내용을 담은 문장은 무엇인가요?",
+            "중심 문장"
+          ],
+          [
+            "중심 문장을 자세히 설명하는 문장은 무엇인가요?",
+            "뒷받침 문장"
+          ],
+          [
+            "의견 글에 필요한 두 요소는 무엇인가요?",
+            "의견, 이유"
+          ],
+          [
+            "고쳐 쓸 때 살필 것은 무엇인가요?",
+            "문장과 문단의 연결, 정확한 표현"
+          ]
+        ],
+        "produce": [
+          "학교에서 바꾸고 싶은 점에 대한 의견 문단을 쓰세요.",
+          "고마운 사람에게 구체적인 일과 마음이 드러나는 글을 쓰세요."
+        ],
+        "model": "저는 교실에 종이 분리함을 더 놓아야 한다고 생각합니다. 종이를 다시 쓰거나 올바르게 버리기 쉬워지기 때문입니다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-3-4-writing/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-writing/01-cover.webp",
+          "sha256": "e486925dff17f5995e55c08b2830d65f39b7dc74b2a8ad966251f0ca5d74a612",
+          "alt": "문단과 목적에 맞는 글쓰기 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-writing/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-writing/02-reading-a.webp",
+          "sha256": "bfba479159b1295cc4152837c3d7c50fb40b859df530388d9a29c2bc4bbfab40",
+          "alt": "문단과 목적에 맞는 글쓰기 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-writing/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-writing/03-questions-a.webp",
+          "sha256": "d47e129fe68b373b1bc588a1a0e8c720918072d5faa1ed70cc9eea25adf85eab",
+          "alt": "문단과 목적에 맞는 글쓰기 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-writing/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-writing/04-reading-b.webp",
+          "sha256": "b34c7610a6cc05e111362f142bfd82da64ecba5004301b6f85e57cfbb233af7b",
+          "alt": "문단과 목적에 맞는 글쓰기 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-writing/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-writing/05-questions-b.webp",
+          "sha256": "d3c6283633d28fc2fa460ae9dd54f771500b8b34cf7571fd6b7f1bff4e5a416a",
+          "alt": "문단과 목적에 맞는 글쓰기 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-writing/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-writing/06-focus.webp",
+          "sha256": "1ddbcb2b009df5fd472eb567b5d84d6031481a0ce13327604fd029670104010d",
+          "alt": "문단과 목적에 맞는 글쓰기 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-3-4-writing/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-writing/07-production.webp",
+          "sha256": "72d2274dd412b28238b8240647e5ce4b431075ebfb7b3370966bc93bfb474178",
+          "alt": "문단과 목적에 맞는 글쓰기 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-3-4-writing/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-3-4-writing/08-answers.webp",
+          "sha256": "0714e13c8518f85782b037d56dff19b0c2903df50eb7e7952e54ddc58eee743a",
+          "alt": "문단과 목적에 맞는 글쓰기 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-3-4-writing/korean-3-4-writing.pdf",
+        "pageCount": 8,
+        "sha256": "b68d5fd8c1af425c9b3d75983a250b3e91575506c4b2c5877c339a3e87f1394d"
+      },
+      "transcriptPath": "/workbooks/korean-3-4-writing/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-5-6-grammar",
+      "slug": "korean-5-6-grammar",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 언어 다양성과 바른 문장",
+      "gradeBand": "5-6",
+      "domain": "문법",
+      "module": "언어 다양성과 바른 문장",
+      "standardCodes": [
+        "[6국04-01]",
+        "[6국04-02]",
+        "[6국04-03]",
+        "[6국04-04]",
+        "[6국04-05]",
+        "[6국04-06]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "표준어와 방언",
+          "표준어는 서로 다른 지역의 사람들이 널리 소통하는 데 도움을 줍니다.",
+          "방언은 지역의 역사와 생활 모습을 담고 있으며 같은 지역 사람 사이의 친밀감을 높이기도 합니다.",
+          "어느 한쪽이 더 우수한 것이 아니라 상황과 공동체에 따라 기능이 다릅니다."
+        ],
+        "questionsA": [
+          [
+            "표준어의 기능은 무엇인가요?",
+            "넓은 지역의 소통을 돕는다."
+          ],
+          [
+            "방언이 담는 것은 무엇인가요?",
+            "지역의 역사와 생활 모습"
+          ],
+          [
+            "방언의 관계 기능은 무엇인가요?",
+            "친밀감을 높이기도 한다."
+          ],
+          [
+            "두 언어의 관계를 어떻게 보아야 하나요?",
+            "상황과 공동체에 따라 기능이 다르다."
+          ]
+        ],
+        "textB": [
+          "문장 고쳐 쓰기",
+          "‘나는 결코 약속을 꼭 잊지 않겠다.’는 부사어의 호응이 어색합니다.",
+          "‘결코’는 보통 ‘않다’나 ‘없다’와 어울립니다.",
+          "따라서 ‘나는 약속을 결코 잊지 않겠다.’로 고치면 자연스럽습니다.",
+          "문장 성분과 호응을 살피면 뜻을 분명하게 전할 수 있습니다."
+        ],
+        "questionsB": [
+          [
+            "어색한 까닭은 무엇인가요?",
+            "부사어의 호응이 맞지 않아서"
+          ],
+          [
+            "결코와 어울리는 표현은 무엇인가요?",
+            "않다 / 없다"
+          ],
+          [
+            "바르게 고친 문장을 쓰세요.",
+            "나는 약속을 결코 잊지 않겠다."
+          ],
+          [
+            "호응을 살피면 무엇이 좋은가요?",
+            "뜻을 분명히 전할 수 있다."
+          ]
+        ],
+        "focus": [
+          [
+            "‘발이 넓다’의 관용적 뜻은 무엇인가요?",
+            "아는 사람이 많다."
+          ],
+          [
+            "‘어제 읽는다’를 바르게 고치세요.",
+            "어제 읽었다."
+          ],
+          [
+            "음성 언어의 특징은 무엇인가요?",
+            "목소리·억양·표정과 함께 전달된다."
+          ],
+          [
+            "문자 언어의 특징은 무엇인가요?",
+            "기록되어 다시 읽고 고칠 수 있다."
+          ]
+        ],
+        "produce": [
+          "가족이나 지역에서 쓰는 방언을 하나 조사해 뜻과 쓰임을 적으세요.",
+          "호응·시간 표현·띄어쓰기가 어색한 문장을 찾아 바르게 고치세요."
+        ],
+        "model": "고치기 전: 나는 내일 도서관에 갔다. / 고친 뒤: 나는 내일 도서관에 갈 것이다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-5-6-grammar/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-grammar/01-cover.webp",
+          "sha256": "c0881d478a5c0e23fb3054113cecaf7b5cb6d50868f7fb97719cd90f2db1e6b5",
+          "alt": "언어 다양성과 바른 문장 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-grammar/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-grammar/02-reading-a.webp",
+          "sha256": "3b0b0ab87037771d7afc814d52ccd2a63c6bc1723da0ef74b07a9e33b900c936",
+          "alt": "언어 다양성과 바른 문장 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-grammar/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-grammar/03-questions-a.webp",
+          "sha256": "09c68bb1596410e1075283acbb72ada31fdfcdd13dc961742cb0831e16dd0c75",
+          "alt": "언어 다양성과 바른 문장 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-grammar/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-grammar/04-reading-b.webp",
+          "sha256": "22cc085af3c01d675fb123d8b84c0d750b8904538a4f96e710789ab9f15878dc",
+          "alt": "언어 다양성과 바른 문장 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-grammar/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-grammar/05-questions-b.webp",
+          "sha256": "7b4f2ca78bd223da9fcbd1e09a56b8ac22b57014efc7fe5a4655741499891ec4",
+          "alt": "언어 다양성과 바른 문장 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-grammar/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-grammar/06-focus.webp",
+          "sha256": "00222891fa3bcd786199893c1b6c9c45f5ad4c1d8d32f392d5dba1c7273f4008",
+          "alt": "언어 다양성과 바른 문장 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-grammar/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-grammar/07-production.webp",
+          "sha256": "873ff175022b7f231f1c11428e8dbd9804210c4241c3a33ed161ace710bcd8d8",
+          "alt": "언어 다양성과 바른 문장 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-5-6-grammar/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-grammar/08-answers.webp",
+          "sha256": "d9ca4e4502bca7069801c88d2dc8da43216f95f885a510b831c9fd8da380e64f",
+          "alt": "언어 다양성과 바른 문장 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-5-6-grammar/korean-5-6-grammar.pdf",
+        "pageCount": 8,
+        "sha256": "4104fd0ca7ce3112a4152c3da5ab0072050e842c64e21e90741e76aa0f44a40c"
+      },
+      "transcriptPath": "/workbooks/korean-5-6-grammar/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-5-6-listening-speaking",
+      "slug": "korean-5-6-listening-speaking",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 질문하고 근거로 토론하기",
+      "gradeBand": "5-6",
+      "domain": "듣기·말하기",
+      "module": "질문하고 근거로 토론하기",
+      "standardCodes": [
+        "[6국01-01]",
+        "[6국01-02]",
+        "[6국01-03]",
+        "[6국01-04]",
+        "[6국01-05]",
+        "[6국01-06]",
+        "[6국01-07]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "학교 방송 면담",
+          "진행자: 도서관 이용 학생이 늘어난 까닭은 무엇인가요?",
+          "사서: 학생 추천 책 전시와 점심시간 독서 모임을 시작했기 때문입니다.",
+          "진행자: 앞으로 새롭게 해 보고 싶은 활동은 무엇인가요?",
+          "사서: 학생이 직접 책 소개 영상을 만드는 활동을 계획하고 있습니다."
+        ],
+        "questionsA": [
+          [
+            "면담 주제는 무엇인가요?",
+            "도서관 이용과 활동"
+          ],
+          [
+            "이용 학생이 늘어난 까닭은 무엇인가요?",
+            "추천 책 전시와 독서 모임"
+          ],
+          [
+            "앞으로 계획한 활동은 무엇인가요?",
+            "책 소개 영상 만들기"
+          ],
+          [
+            "추가로 물을 질문을 만드세요.",
+            "책 소개 영상은 어디에 공개하나요? 등"
+          ]
+        ],
+        "textB": [
+          "휴대 전화 보관 토론",
+          "주장 가: 수업 중에는 휴대 전화를 한곳에 보관해야 합니다. 알림 때문에 집중이 흐트러질 수 있습니다.",
+          "주장 나: 학습에 필요한 때에는 교사의 안내에 따라 사용할 수 있어야 합니다. 검색과 촬영에 도움이 됩니다.",
+          "두 주장은 모두 수업 집중과 학습 효과를 중요하게 생각합니다."
+        ],
+        "questionsB": [
+          [
+            "주장 가의 근거는 무엇인가요?",
+            "알림이 집중을 흐트러뜨릴 수 있다."
+          ],
+          [
+            "주장 나의 근거는 무엇인가요?",
+            "검색과 촬영이 학습에 도움 된다."
+          ],
+          [
+            "두 주장의 공통 관심은 무엇인가요?",
+            "수업 집중과 학습 효과"
+          ],
+          [
+            "조정안을 쓰세요.",
+            "평소에는 보관하고 교사 안내가 있을 때만 사용한다."
+          ]
+        ],
+        "focus": [
+          [
+            "생략된 내용을 추론할 때 무엇을 살피나요?",
+            "앞뒤 말과 상황"
+          ],
+          [
+            "면담 전에 준비할 것은 무엇인가요?",
+            "목적, 상대 정보, 질문"
+          ],
+          [
+            "토의에서 의견 조정은 무엇인가요?",
+            "공통점과 차이를 찾아 해결안을 만드는 것"
+          ],
+          [
+            "토론 근거는 어떠해야 하나요?",
+            "주장과 관련 있고 믿을 만하며 타당해야 한다."
+          ]
+        ],
+        "produce": [
+          "도서관 면담 질문을 목적에 맞게 세 개 더 만드세요.",
+          "휴대 전화 사용 주제로 주장·근거·예상 반론·답변을 준비해 토론하세요."
+        ],
+        "model": "주장: 교사의 안내가 있을 때만 사용해야 한다. 근거: 학습 도구로 활용하면서 불필요한 알림은 줄일 수 있다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-5-6-listening-speaking/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/01-cover.webp",
+          "sha256": "555885e3d6cd66d3c0e2126880c287c069e422d49a119f53a4380a0e2610ade8",
+          "alt": "질문하고 근거로 토론하기 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-listening-speaking/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/02-reading-a.webp",
+          "sha256": "ae01f2abcc6713f95155b4ea99f5ecd531b9798e9bb3c5500499232667fc8a44",
+          "alt": "질문하고 근거로 토론하기 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-listening-speaking/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/03-questions-a.webp",
+          "sha256": "6650a859d715e0d002c34b2650e9c3fc223237230ef2b6344bb03b91edad9b15",
+          "alt": "질문하고 근거로 토론하기 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-listening-speaking/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/04-reading-b.webp",
+          "sha256": "ac61d82932fab445aedba309fd5078c462f285d0d5cb3fe83eef186ca3b5f475",
+          "alt": "질문하고 근거로 토론하기 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-listening-speaking/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/05-questions-b.webp",
+          "sha256": "f9dab112fe7811a2a12b7a5a0289d3c193c4e959984b4ab2a35b74d9b06038cf",
+          "alt": "질문하고 근거로 토론하기 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-listening-speaking/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/06-focus.webp",
+          "sha256": "886443e3d9d5122402986e848febd01e81d01621688607c902af614aa603a96f",
+          "alt": "질문하고 근거로 토론하기 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-listening-speaking/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/07-production.webp",
+          "sha256": "19f4b0df32813b6b625b20f8373cfe70150000913cb838b95fa75308573df20d",
+          "alt": "질문하고 근거로 토론하기 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-5-6-listening-speaking/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/08-answers.webp",
+          "sha256": "df632cdfdc4962429e3882ff6ec13f7b45662d67f6656a09ea04d0b6dce807be",
+          "alt": "질문하고 근거로 토론하기 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-5-6-listening-speaking/korean-5-6-listening-speaking.pdf",
+        "pageCount": 8,
+        "sha256": "4a98c6e54b96ba10c2ea7bc86ea1be597da4e1d3faa06c60e93f9ca6b3e3e03b"
+      },
+      "transcriptPath": "/workbooks/korean-5-6-listening-speaking/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-5-6-literature",
+      "slug": "korean-5-6-literature",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 작가의 의도와 삶의 성찰",
+      "gradeBand": "5-6",
+      "domain": "문학",
+      "module": "작가의 의도와 삶의 성찰",
+      "standardCodes": [
+        "[6국05-01]",
+        "[6국05-02]",
+        "[6국05-03]",
+        "[6국05-04]",
+        "[6국05-05]",
+        "[6국05-06]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "빈 의자",
+          "운동장 끝 느티나무 아래에는 낡은 의자 하나가 있었습니다.",
+          "친구와 다툰 현우는 혼자 그 의자에 앉아 운동화를 바라보았습니다.",
+          "잠시 뒤 친구가 말없이 옆에 앉아 반으로 나눈 귤을 건넸습니다.",
+          "현우는 귤 한 쪽을 받아 들고 의자의 빈틈이 조금 줄었다고 느꼈습니다."
+        ],
+        "questionsA": [
+          [
+            "배경은 어디인가요?",
+            "운동장 끝 느티나무 아래"
+          ],
+          [
+            "현우가 혼자 있던 까닭은 무엇인가요?",
+            "친구와 다퉈서"
+          ],
+          [
+            "친구는 어떻게 화해의 뜻을 보였나요?",
+            "옆에 앉아 귤을 건넸다."
+          ],
+          [
+            "‘의자의 빈틈이 줄었다’가 뜻하는 것은 무엇인가요?",
+            "두 사람의 마음의 거리가 가까워졌다."
+          ]
+        ],
+        "textB": [
+          "등불",
+          "작은 친절은 어둔 길의 등불 같다.",
+          "눈부시게 세상을 다 밝히지는 못해도",
+          "바로 곁 한 사람의 발밑을 비추고",
+          "그 빛이 또 다른 등불을 깨운다."
+        ],
+        "questionsB": [
+          [
+            "작은 친절을 무엇에 비유했나요?",
+            "등불"
+          ],
+          [
+            "등불이 비추는 곳은 어디인가요?",
+            "곁에 있는 한 사람의 발밑"
+          ],
+          [
+            "마지막 행의 뜻을 쓰세요.",
+            "친절이 다른 친절로 이어진다."
+          ],
+          [
+            "비유의 효과는 무엇인가요?",
+            "친절의 가치와 퍼지는 모습을 생생하게 느끼게 한다."
+          ]
+        ],
+        "focus": [
+          [
+            "소설의 세 요소는 무엇인가요?",
+            "인물, 사건, 배경"
+          ],
+          [
+            "작가의 의도를 짐작할 단서는 무엇인가요?",
+            "인물의 변화, 반복 표현, 사건의 결말"
+          ],
+          [
+            "작품 의견에는 무엇이 필요한가요?",
+            "인상적인 부분과 그렇게 생각한 까닭"
+          ],
+          [
+            "삶과 연관 지어 성찰한다는 뜻은 무엇인가요?",
+            "작품을 내 경험과 선택에 비추어 생각하는 것"
+          ]
+        ],
+        "produce": [
+          "첫 작품에서 작가가 전하고 싶은 생각을 근거와 함께 쓰세요.",
+          "나의 경험을 시·소설·극·수필 중 알맞은 갈래로 짧게 표현하세요."
+        ],
+        "model": "작가는 먼저 다가가는 작은 행동이 관계를 회복할 수 있음을 전하려 했다. 친구가 말 대신 귤을 건네자 현우가 마음의 거리가 줄었다고 느꼈기 때문이다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-5-6-literature/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-literature/01-cover.webp",
+          "sha256": "4c5e006ec7ea9c74ec804349658528efdb09b8f9fdd9a4a1c2cec6e07fc2f831",
+          "alt": "작가의 의도와 삶의 성찰 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-literature/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-literature/02-reading-a.webp",
+          "sha256": "65a698366dada627e7dc5883fa506457b53d29d54a9901e833ed15098e256a61",
+          "alt": "작가의 의도와 삶의 성찰 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-literature/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-literature/03-questions-a.webp",
+          "sha256": "525c91992ee5135f7ed808ac2058a1c1d633f09434f89ba73a6d7d165876bdd6",
+          "alt": "작가의 의도와 삶의 성찰 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-literature/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-literature/04-reading-b.webp",
+          "sha256": "502726435e661c59a7ca2ac551528587e986598664114cb4a44450008d7e65ab",
+          "alt": "작가의 의도와 삶의 성찰 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-literature/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-literature/05-questions-b.webp",
+          "sha256": "2d28df92b196786e28be92c8da22e8a5d0d561b7721f5a270a30f4206d21a9cc",
+          "alt": "작가의 의도와 삶의 성찰 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-literature/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-literature/06-focus.webp",
+          "sha256": "9213bc969d11d33cdad18f087971ec3240b9bd1c2eabda4cb9a0fb9598049bec",
+          "alt": "작가의 의도와 삶의 성찰 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-literature/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-literature/07-production.webp",
+          "sha256": "2563c097e9641a8782705bdab7764427caea5390818b3eb5496bf197b9c38ab8",
+          "alt": "작가의 의도와 삶의 성찰 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-5-6-literature/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-literature/08-answers.webp",
+          "sha256": "7ab0097a16810f6b8addcb99aadd6468384c35d59a4662565a0446d30316fc61",
+          "alt": "작가의 의도와 삶의 성찰 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-5-6-literature/korean-5-6-literature.pdf",
+        "pageCount": 8,
+        "sha256": "1b457d2d14f1cf3faf3e357b41b6766a12f6ec242e1d474d77e6f52d9bf2f78e"
+      },
+      "transcriptPath": "/workbooks/korean-5-6-literature/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-5-6-media",
+      "slug": "korean-5-6-media",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 정보 신뢰성과 책임 있는 제작",
+      "gradeBand": "5-6",
+      "domain": "매체",
+      "module": "정보 신뢰성과 책임 있는 제작",
+      "standardCodes": [
+        "[6국06-01]",
+        "[6국06-02]",
+        "[6국06-03]",
+        "[6국06-04]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "두 온라인 자료 비교",
+          "자료 가는 국립 기상 기관이 오늘 오전 9시에 발표했으며 측정 방법과 지역별 수치를 제시합니다.",
+          "자료 나는 작성자와 날짜가 없고 ‘올해는 역사상 가장 더울 것’이라고만 주장합니다.",
+          "정보를 고를 때에는 작성 주체, 최신성, 근거, 다른 자료와의 일치 여부를 살펴야 합니다."
+        ],
+        "questionsA": [
+          [
+            "자료 가의 작성 주체는 누구인가요?",
+            "국립 기상 기관"
+          ],
+          [
+            "자료 가가 제시한 근거 형태는 무엇인가요?",
+            "측정 방법과 지역별 수치"
+          ],
+          [
+            "자료 나에서 빠진 정보는 무엇인가요?",
+            "작성자, 날짜, 근거"
+          ],
+          [
+            "더 신뢰할 만한 자료와 까닭을 쓰세요.",
+            "자료 가. 작성 주체·날짜·근거가 분명해서"
+          ]
+        ],
+        "textB": [
+          "복합양식 안전 캠페인",
+          "수용자가 저학년이라면 짧은 문장과 쉬운 그림을 사용합니다.",
+          "핵심 행동은 큰 제목과 순서 그림으로 보여 줍니다.",
+          "배경 음악이나 효과음은 내용을 방해하지 않게 사용합니다.",
+          "완성한 자료는 친구 반응을 확인하고 고친 뒤 출처와 함께 공유합니다."
+        ],
+        "questionsB": [
+          [
+            "수용자는 누구인가요?",
+            "저학년 학생"
+          ],
+          [
+            "문장과 그림은 어떻게 하나요?",
+            "짧고 쉽게"
+          ],
+          [
+            "핵심 행동은 어떻게 보여 주나요?",
+            "큰 제목과 순서 그림"
+          ],
+          [
+            "공유 전에 할 일은 무엇인가요?",
+            "친구 반응을 확인해 고치고 출처를 밝힌다."
+          ]
+        ],
+        "focus": [
+          [
+            "검색어를 좁히는 방법은 무엇인가요?",
+            "핵심어에 지역·기간·자료 종류를 더한다."
+          ],
+          [
+            "뉴스 신뢰성 평가 기준을 쓰세요.",
+            "작성 주체·날짜·근거·출처·다른 자료와의 일치"
+          ],
+          [
+            "복합양식 자료란 무엇인가요?",
+            "글·그림·소리·영상 등을 함께 사용한 자료"
+          ],
+          [
+            "매체 이용 성찰 질문을 하나 쓰세요.",
+            "나는 목적 없이 너무 오래 사용하지 않았는가? 등"
+          ]
+        ],
+        "produce": [
+          "같은 주제의 온라인 자료 두 개를 찾아 신뢰성을 비교하는 계획을 세우세요.",
+          "대상과 매체를 정해 안전 캠페인 한 장 자료의 구성안을 만드세요."
+        ],
+        "model": "대상: 1학년 / 매체: 교실 포스터 / 핵심 행동: 계단에서 걷기 / 구성: 큰 제목, 세 단계 그림, 짧은 설명, 출처"
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-5-6-media/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-media/01-cover.webp",
+          "sha256": "6d5467ef95f9e88a4ef1a603a308e7f8089dd73c836ce00c967a82120119e393",
+          "alt": "정보 신뢰성과 책임 있는 제작 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-media/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-media/02-reading-a.webp",
+          "sha256": "7be6b57033d3b619dde53b7768cba9eb6be42fcfe9e39f909d3dac937f7e1517",
+          "alt": "정보 신뢰성과 책임 있는 제작 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-media/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-media/03-questions-a.webp",
+          "sha256": "f279f51b1698cd3b86026e04bc27d6949a5ea0dbaeb6477bab8e1ee2fc3c81bd",
+          "alt": "정보 신뢰성과 책임 있는 제작 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-media/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-media/04-reading-b.webp",
+          "sha256": "ca8b4bc31d8ce706ae2fd20d21a02bc7ac066458343c1522644750a0614d85b0",
+          "alt": "정보 신뢰성과 책임 있는 제작 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-media/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-media/05-questions-b.webp",
+          "sha256": "a4c55de7c28aae4221f1102977e23fd5493a1f777f40d4d5c8440ebc97bc8447",
+          "alt": "정보 신뢰성과 책임 있는 제작 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-media/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-media/06-focus.webp",
+          "sha256": "5eef0c9e6533a580299b7fa01fe4c7a35a98cb16ae8d351d6771751b56767fa7",
+          "alt": "정보 신뢰성과 책임 있는 제작 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-media/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-media/07-production.webp",
+          "sha256": "95f560314149dc516b18bfafb85abc20d3828c194949d7f0988c2712bf71c73c",
+          "alt": "정보 신뢰성과 책임 있는 제작 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-5-6-media/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-media/08-answers.webp",
+          "sha256": "1b6a01f0ecf8ee08929a9eb41f14fdaea54588253ba818bcfcd996f08bc0be56",
+          "alt": "정보 신뢰성과 책임 있는 제작 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-5-6-media/korean-5-6-media.pdf",
+        "pageCount": 8,
+        "sha256": "dda7501b81b116cedc694a1176e84e57866447bbd5dc5fb4906aff61eef0664e"
+      },
+      "transcriptPath": "/workbooks/korean-5-6-media/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-5-6-reading",
+      "slug": "korean-5-6-reading",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 구조를 읽고 관점 평가하기",
+      "gradeBand": "5-6",
+      "domain": "읽기",
+      "module": "구조를 읽고 관점 평가하기",
+      "standardCodes": [
+        "[6국02-01]",
+        "[6국02-02]",
+        "[6국02-03]",
+        "[6국02-04]",
+        "[6국02-05]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "빗물 정원의 원리",
+          "빗물 정원은 비가 올 때 물을 잠시 모아 두는 낮은 공간입니다.",
+          "먼저 지붕과 길에서 흐른 빗물이 정원으로 들어옵니다.",
+          "그다음 흙과 식물 뿌리가 물을 천천히 흡수하고 일부 오염 물질을 거릅니다.",
+          "따라서 빗물 정원은 침수를 줄이고 생물의 작은 터전도 만듭니다."
+        ],
+        "questionsA": [
+          [
+            "빗물 정원은 무엇인가요?",
+            "빗물을 잠시 모아 두는 낮은 공간"
+          ],
+          [
+            "물이 들어온 뒤 무엇이 흡수하나요?",
+            "흙과 식물 뿌리"
+          ],
+          [
+            "두 가지 효과를 쓰세요.",
+            "침수 감소, 생물 터전 조성"
+          ],
+          [
+            "글의 구조에 맞게 요약하세요.",
+            "정의 → 작동 과정 → 효과"
+          ]
+        ],
+        "textB": [
+          "운동장 나무 심기 두 관점",
+          "관점 가: 나무를 심으면 그늘과 쉼터가 생기고 여름 운동장 온도를 낮출 수 있습니다.",
+          "관점 나: 경기 공간이 줄고 뿌리가 달리기를 방해하지 않도록 위치와 종류를 신중히 정해야 합니다.",
+          "문제를 해결하려면 장점과 우려를 함께 살펴 심을 장소와 수종을 결정해야 합니다."
+        ],
+        "questionsB": [
+          [
+            "관점 가가 강조한 장점은 무엇인가요?",
+            "그늘·쉼터·온도 감소"
+          ],
+          [
+            "관점 나가 걱정한 점은 무엇인가요?",
+            "경기 공간과 뿌리 안전"
+          ],
+          [
+            "두 관점을 함께 고려한 해결 방법은 무엇인가요?",
+            "경기를 방해하지 않는 곳에 알맞은 수종을 심는다."
+          ],
+          [
+            "글의 표현이 타당한 까닭은 무엇인가요?",
+            "두 관점의 이유를 구체적으로 제시했기 때문"
+          ]
+        ],
+        "focus": [
+          [
+            "함축된 표현은 어떻게 추론하나요?",
+            "문맥과 앞뒤 단서로"
+          ],
+          [
+            "주장은 무엇인가요?",
+            "글쓴이가 옳다고 내세우는 생각"
+          ],
+          [
+            "타당성 평가 기준은 무엇인가요?",
+            "근거의 관련성·충분성·신뢰성"
+          ],
+          [
+            "적극적 읽기의 예는 무엇인가요?",
+            "질문하고 메모하며 다른 자료와 연결하기"
+          ]
+        ],
+        "produce": [
+          "첫 글을 70자 안으로 요약하세요.",
+          "두 관점을 비교한 뒤 가장 타당한 해결안을 근거와 함께 쓰세요."
+        ],
+        "model": "운동장 가장자리에 뿌리가 깊게 퍼지지 않는 나무를 심자. 경기 공간과 안전을 지키면서 그늘을 만들 수 있다."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-5-6-reading/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-reading/01-cover.webp",
+          "sha256": "7ea588f27d5867eb96145df7c9ffd0c5370ddb40e4037d93c961eff001d449d1",
+          "alt": "구조를 읽고 관점 평가하기 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-reading/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-reading/02-reading-a.webp",
+          "sha256": "5aca3f0606451d1b12f37a8196eff8e0a9d28da58105877c62067b4d4ebc53cf",
+          "alt": "구조를 읽고 관점 평가하기 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-reading/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-reading/03-questions-a.webp",
+          "sha256": "94827740d064ca87327d73b6e174c40e2446adbe28e25c9443f2fee2bbfcafc4",
+          "alt": "구조를 읽고 관점 평가하기 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-reading/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-reading/04-reading-b.webp",
+          "sha256": "2f36ee876eeef0e7f9b72802a26308c5665906732d4bf678e25b156d022e174f",
+          "alt": "구조를 읽고 관점 평가하기 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-reading/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-reading/05-questions-b.webp",
+          "sha256": "33c2c36497d3a5801d456d6515b84692c5f415d09f98e4a71b1a47daeada32bb",
+          "alt": "구조를 읽고 관점 평가하기 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-reading/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-reading/06-focus.webp",
+          "sha256": "b145685c38b25aee5ea0fa190b7b85bd5e312744e8a8c0059ecadbc729c68d8a",
+          "alt": "구조를 읽고 관점 평가하기 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-reading/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-reading/07-production.webp",
+          "sha256": "228d4e7013f3ea2864f742ce418260441e5fa1be33f995aa3666de0c2c718c74",
+          "alt": "구조를 읽고 관점 평가하기 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-5-6-reading/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-reading/08-answers.webp",
+          "sha256": "18dec7ed02645d0684039a58d7e825989599a8a80627e9f9ebfe700af9a22133",
+          "alt": "구조를 읽고 관점 평가하기 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-5-6-reading/korean-5-6-reading.pdf",
+        "pageCount": 8,
+        "sha256": "429eb5b78057f1afa6b85a1322338913c88a2e479034016cb7e93a7eeca88001"
+      },
+      "transcriptPath": "/workbooks/korean-5-6-reading/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
+      "id": "korean-5-6-writing",
+      "slug": "korean-5-6-writing",
+      "subject": "korean",
+      "title": "초등 국어 한 장: 설명하고 근거로 주장하기",
+      "gradeBand": "5-6",
+      "domain": "쓰기",
+      "module": "설명하고 근거로 주장하기",
+      "standardCodes": [
+        "[6국03-01]",
+        "[6국03-02]",
+        "[6국03-03]",
+        "[6국03-04]",
+        "[6국03-05]",
+        "[6국03-06]"
+      ],
+      "levels": [
+        "read",
+        "explore",
+        "express"
+      ],
+      "activities": {
+        "textA": [
+          "도서관 자동 대출기의 특징",
+          "자동 대출기는 학생이 스스로 책을 빌리고 반납하도록 돕는 기기입니다.",
+          "화면의 안내에 따라 학생증과 책의 바코드를 차례로 인식합니다.",
+          "대출 결과를 바로 확인할 수 있어 기다리는 시간을 줄입니다.",
+          "다만 오류가 나면 사서에게 도움을 요청해야 합니다."
+        ],
+        "questionsA": [
+          [
+            "설명 대상은 무엇인가요?",
+            "도서관 자동 대출기"
+          ],
+          [
+            "사용 순서를 쓰세요.",
+            "화면 안내 → 학생증 인식 → 책 바코드 인식 → 결과 확인"
+          ],
+          [
+            "장점은 무엇인가요?",
+            "기다리는 시간을 줄인다."
+          ],
+          [
+            "주의할 점은 무엇인가요?",
+            "오류가 나면 사서에게 도움을 요청한다."
+          ]
+        ],
+        "textB": [
+          "학교 물병 사용 제안",
+          "주장: 학교에서 개인 물병 사용을 늘려야 합니다.",
+          "근거 1: 일회용 컵 사용량을 줄일 수 있습니다. 우리 반 일주일 조사에서 일회용 컵 86개가 사용되었습니다.",
+          "근거 2: 물을 자주 마시는 습관을 기르는 데 도움이 됩니다.",
+          "출처: 6학년 2반 생활 조사표, 2026년 7월."
+        ],
+        "questionsB": [
+          [
+            "글의 주장은 무엇인가요?",
+            "개인 물병 사용을 늘려야 한다."
+          ],
+          [
+            "수치가 있는 근거는 무엇인가요?",
+            "일주일에 일회용 컵 86개 사용"
+          ],
+          [
+            "근거의 출처는 무엇인가요?",
+            "6학년 2반 생활 조사표"
+          ],
+          [
+            "출처를 밝히는 까닭은 무엇인가요?",
+            "근거의 출처와 신뢰성을 확인하게 하려고"
+          ]
+        ],
+        "focus": [
+          [
+            "설명 글의 내용 선정 기준은 무엇인가요?",
+            "대상의 특성과 독자에게 필요한 정보"
+          ],
+          [
+            "주장 글의 근거는 어떠해야 하나요?",
+            "주장과 관련 있고 믿을 만해야 한다."
+          ],
+          [
+            "글 전체를 고칠 때 살필 것은 무엇인가요?",
+            "주제의 통일성, 문단 순서, 표현"
+          ],
+          [
+            "공유 전 고려할 것은 무엇인가요?",
+            "독자, 매체, 개인정보, 출처"
+          ]
+        ],
+        "produce": [
+          "학교 시설 하나를 골라 특징과 사용 방법을 설명하세요.",
+          "학교생활 개선 주장을 정하고 근거 두 개와 출처를 밝혀 글을 쓰세요."
+        ],
+        "model": "주장: 빈 교실의 불을 꺼야 한다. 근거: 에너지를 아끼고 불필요한 전력 사용을 줄인다. 출처: 학교 에너지 절약 안내문(2026)."
+      },
+      "pages": [
+        {
+          "id": "cover",
+          "order": 1,
+          "role": "cover",
+          "imagePath": "/workbooks/korean-5-6-writing/01-cover.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-writing/01-cover.webp",
+          "sha256": "9e8aaf7a6f52e13319ca8023b4b7b0fb3c428dc2e047574cab55a8e8ab53bb9c",
+          "alt": "설명하고 근거로 주장하기 1쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-a",
+          "order": 2,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-writing/02-reading-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-writing/02-reading-a.webp",
+          "sha256": "0951c3994577f4180ba6378f14688fca350e70a9b6cde6c517690f502d7b84f5",
+          "alt": "설명하고 근거로 주장하기 2쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-a",
+          "order": 3,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-writing/03-questions-a.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-writing/03-questions-a.webp",
+          "sha256": "657a32bfe2ae45ccd0e8419e2a4ed1d925bcb277f2ca48179d31dbf74d378347",
+          "alt": "설명하고 근거로 주장하기 3쪽",
+          "approved": true
+        },
+        {
+          "id": "reading-b",
+          "order": 4,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-writing/04-reading-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-writing/04-reading-b.webp",
+          "sha256": "8acad1aac79e58ba6442201cfac920700cd70b8214e36d47712de5ba0d35905e",
+          "alt": "설명하고 근거로 주장하기 4쪽",
+          "approved": true
+        },
+        {
+          "id": "questions-b",
+          "order": 5,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-writing/05-questions-b.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-writing/05-questions-b.webp",
+          "sha256": "b093fef42d62d7e090b1e3d261d37ccee29cf6c79f3f1a23aae92c038f8204c5",
+          "alt": "설명하고 근거로 주장하기 5쪽",
+          "approved": true
+        },
+        {
+          "id": "focus",
+          "order": 6,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-writing/06-focus.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-writing/06-focus.webp",
+          "sha256": "2497470c88e568bf9c484ff1e43b9e5862f14179f9dc979e6451c800ae8c6069",
+          "alt": "설명하고 근거로 주장하기 6쪽",
+          "approved": true
+        },
+        {
+          "id": "production",
+          "order": 7,
+          "role": "worksheet",
+          "imagePath": "/workbooks/korean-5-6-writing/07-production.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-writing/07-production.webp",
+          "sha256": "263de9edc0d0e8323899c488b0b9da85b6a9d8e29cd218293e2ee588c88a8a25",
+          "alt": "설명하고 근거로 주장하기 7쪽",
+          "approved": true
+        },
+        {
+          "id": "answers",
+          "order": 8,
+          "role": "answer",
+          "imagePath": "/workbooks/korean-5-6-writing/08-answers.webp",
+          "thumbnailPath": "/workbooks/korean-5-6-writing/08-answers.webp",
+          "sha256": "36e8d985483d176a3d6df8366a5f921fa81019df288a29bc95b88ceb28e4f841",
+          "alt": "설명하고 근거로 주장하기 8쪽",
+          "approved": true
+        }
+      ],
+      "pdf": {
+        "path": "/workbooks/korean-5-6-writing/korean-5-6-writing.pdf",
+        "pageCount": 8,
+        "sha256": "9b427480c509d1f9624bb6b4da592d54145a81742e0cef603602961fb0996c82"
+      },
+      "transcriptPath": "/workbooks/korean-5-6-writing/transcript.html",
+      "license": "CC-BY-NC-SA-4.0",
+      "author": "Taehyeong Lim",
+      "publishedAt": "2026-07-29",
+      "published": true
+    },
+    {
       "id": "plane-shapes",
       "slug": "plane-shapes",
       "title": "초등 수학 한 장: 평면도형과 그 구성 요소",

@@ -1,0 +1,187 @@
+{
+  "id": "korean-1-2-writing",
+  "slug": "korean-1-2-writing",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 소개하고 겪은 일 쓰기",
+  "gradeBand": "1-2",
+  "domain": "쓰기",
+  "module": "소개하고 겪은 일 쓰기",
+  "standardCodes": [
+    "[2국03-01]",
+    "[2국03-02]",
+    "[2국03-03]",
+    "[2국03-04]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "내 연필꽂이",
+      "내 책상에는 파란 연필꽂이가 있습니다.",
+      "연필꽂이는 둥글고 손바닥 두 개만큼 큽니다.",
+      "연필과 자를 한곳에 넣을 수 있어서 편리합니다.",
+      "나는 공부가 끝나면 연필을 꼭 제자리에 둡니다."
+    ],
+    "questionsA": [
+      [
+        "소개하는 대상은 무엇인가요?",
+        "연필꽂이"
+      ],
+      [
+        "무슨 색인가요?",
+        "파란색"
+      ],
+      [
+        "어떤 모양인가요?",
+        "둥근 모양"
+      ],
+      [
+        "편리한 까닭은 무엇인가요?",
+        "연필과 자를 한곳에 넣을 수 있어서"
+      ]
+    ],
+    "textB": [
+      "처음 자전거를 탄 날",
+      "지난 토요일에 공원에서 두발자전거를 탔습니다.",
+      "처음에는 자꾸 한쪽으로 기울어졌습니다.",
+      "아버지가 뒤에서 잡아 주셔서 다시 힘껏 발을 굴렀습니다.",
+      "혼자 앞으로 나아가자 바람까지 나를 응원하는 것 같았습니다."
+    ],
+    "questionsB": [
+      [
+        "언제 있었던 일인가요?",
+        "지난 토요일"
+      ],
+      [
+        "어디에서 자전거를 탔나요?",
+        "공원"
+      ],
+      [
+        "누가 도와주었나요?",
+        "아버지"
+      ],
+      [
+        "글쓴이의 느낌은 무엇인가요?",
+        "기쁘고 뿌듯하다."
+      ]
+    ],
+    "focus": [
+      [
+        "문장은 무엇으로 시작하나요?",
+        "알맞은 글자와 내용"
+      ],
+      [
+        "문장 끝에는 무엇을 쓰나요?",
+        "문장 부호"
+      ],
+      [
+        "소개 글에 넣을 내용을 두 가지 쓰세요.",
+        "생김새, 쓰임"
+      ],
+      [
+        "겪은 일 글에 넣을 내용을 쓰세요.",
+        "언제·어디서·무슨 일·느낌"
+      ]
+    ],
+    "produce": [
+      "내 주변 물건 하나를 골라 세 문장으로 소개하세요.",
+      "기억에 남는 일을 순서와 느낌이 드러나게 네 문장으로 쓰세요."
+    ],
+    "model": "내 가방은 초록색입니다. 주머니가 세 개라서 물건을 나누어 넣기 좋습니다. 나는 매일 가방을 스스로 정리합니다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-1-2-writing/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-writing/01-cover.webp",
+      "sha256": "f1514cf14617be92768afc5b033755a5c86695d82fa1b06fd58edbfb465f8b5e",
+      "alt": "소개하고 겪은 일 쓰기 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-writing/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-writing/02-reading-a.webp",
+      "sha256": "7f5a8ca052fda64e607cdc387bcda78d7af40593c35866020639e7d3d3c77e43",
+      "alt": "소개하고 겪은 일 쓰기 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-writing/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-writing/03-questions-a.webp",
+      "sha256": "d0c11a0c3e99262e7dc318d0e44d88966d2e0607c42def0a139a84b1a018848d",
+      "alt": "소개하고 겪은 일 쓰기 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-writing/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-writing/04-reading-b.webp",
+      "sha256": "120f426f2d12e656d097b91806936be6ce9d50cb2519adb5d45a2e903563d07e",
+      "alt": "소개하고 겪은 일 쓰기 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-writing/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-writing/05-questions-b.webp",
+      "sha256": "c9e0609a9a3a19966e6a6470c56d0a3d5b08556d2ba7c88d1cf6c93380d5a634",
+      "alt": "소개하고 겪은 일 쓰기 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-writing/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-writing/06-focus.webp",
+      "sha256": "31b58798d78e0eedf3253e186e3368716dcd8696ba46871891ef0a2870dfc4a3",
+      "alt": "소개하고 겪은 일 쓰기 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-writing/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-writing/07-production.webp",
+      "sha256": "10b765edd98e726768393f68fbf9ccea44f97953310b1bc6b3536a386f27849d",
+      "alt": "소개하고 겪은 일 쓰기 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-1-2-writing/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-writing/08-answers.webp",
+      "sha256": "8778f470005a4cb5c38739561cc82c250b3971dea8d6dba058dc155507e59b54",
+      "alt": "소개하고 겪은 일 쓰기 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-1-2-writing/korean-1-2-writing.pdf",
+    "pageCount": 8,
+    "sha256": "e7865cd6d920f1d132fbeab2643df3359990803e420d2f78061305f5e1e7bcd6"
+  },
+  "transcriptPath": "/workbooks/korean-1-2-writing/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

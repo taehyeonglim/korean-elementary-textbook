@@ -1,0 +1,40 @@
+---
+import WorkbookGallery from "../../../components/WorkbookGallery.astro";
+import BaseLayout from "../../../layouts/BaseLayout.astro";
+import { GRADE_BAND_LABELS, publicAsset, publishedWorkbooks, type Workbook } from "../../../lib/catalog";
+
+export function getStaticPaths() {
+  return publishedWorkbooks("korean").map((workbook) => ({ params: { slug: workbook.slug }, props: { workbook } }));
+}
+const { workbook } = Astro.props as { workbook: Workbook };
+const pages = [...workbook.pages].sort((a, b) => a.order - b.order);
+---
+
+<BaseLayout title={`${workbook.title} | 초등 국어 한 장`} description={`${workbook.title} 무료 국어 학습지`} page="workbook" subject="korean">
+  <article class="workbook-detail">
+    <a class="breadcrumb" href={`${import.meta.env.BASE_URL}korean/`}><span aria-hidden="true">←</span> 초등 국어 한 장</a>
+    <header class="detail-hero">
+      <div>
+        <p class="eyebrow">{GRADE_BAND_LABELS[workbook.gradeBand]} · {workbook.domain}</p>
+        <h1 class="detail-hero__title">{workbook.title}</h1>
+        <p class="detail-hero__description">두 편의 글을 읽고 내용을 확인한 뒤, 국어의 원리를 탐구하고 자신의 말과 글로 표현하는 8쪽 학습지입니다. 서술형 응답은 예시 답안을 참고해 근거와 과업 조건을 중심으로 확인하세요.</p>
+        <div class="detail-actions">
+          <a class="button button--primary" href={publicAsset(workbook.pdf.path)} download>PDF 내려받기 <span aria-hidden="true">↓</span></a>
+          <a class="button button--plain" href={publicAsset(workbook.transcriptPath)}>학습 내용·정답 전문 <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <aside class="detail-meta" aria-label="학습지 정보"><dl>
+        <dt>학년군</dt><dd>{GRADE_BAND_LABELS[workbook.gradeBand]}</dd>
+        <dt>국어 영역</dt><dd>{workbook.domain}</dd>
+        <dt>주제</dt><dd>{workbook.module}</dd>
+        <dt>성취기준</dt><dd><ul class="standard-list">{workbook.standardCodes.map((code) => <li><code>{code}</code></li>)}</ul></dd>
+        <dt>구성</dt><dd>글 읽기 2편 · 내용 확인 · 원리 탐구 · 표현 · 정답 / {workbook.pdf.pageCount}쪽</dd>
+      </dl></aside>
+    </header>
+    <WorkbookGallery workbookTitle={workbook.title} pages={pages} />
+    <section class="detail-bottom" aria-label="이용 및 접근성 안내">
+      <div class="transcript-panel"><p class="eyebrow">ACCESSIBLE TEXT</p><h2>텍스트로 읽고 답 확인하기</h2><p>읽기 글, 문항, 표현 활동, 정답과 예시 답안을 HTML 전문으로 제공합니다.</p><a class="button button--plain" href={publicAsset(workbook.transcriptPath)}>접근 가능한 전문 <span aria-hidden="true">↗</span></a></div>
+      <aside class="rights-panel"><p class="eyebrow">OPEN TO LEARN</p><h2>자유롭게, 바르게</h2><p>프로젝트 자체 글·문항·편집물은 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ko">CC BY-NC-SA 4.0</a>으로 제공합니다.</p><p>저자: {workbook.author}<br />표지 이미지: GPT Image · Gongnyang Prompt Kit</p></aside>
+    </section>
+  </article>
+</BaseLayout>

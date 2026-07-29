@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1024 1536">
+<rect width="1024" height="1536" fill="#FFFCF5"/>
+<rect width="1024" height="184" fill="#62406F"/>
+<text x="72" y="54" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFF" text-anchor="start">초등 국어 한 장</text>
+<text x="72" y="108" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="38" font-weight="800" fill="#FFF" text-anchor="start">문단과 목적에 맞는 글쓰기</text>
+<text x="72" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#FFF" text-anchor="start">3-4학년군 · 쓰기 · 둘째 글 읽기</text>
+<text x="952" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFF" text-anchor="end">4</text>
+<text x="72" y="240" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#E97863" text-anchor="start">ORIGINAL TEXT</text>
+<text x="72" y="286" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="31" font-weight="800" fill="#62406F" text-anchor="start">고마운 마음을 전하는 글</text>
+<rect x="72" y="330" width="880" height="900" rx="24" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
+<text x="110" y="405" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">지민아, 발표 연습을 할 때 내 말을 끝까지 들어줘서 고마워.</tspan></text>
+<text x="110" y="540" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">네가 고개를 끄덕여 준 덕분에 긴장이 줄었어.</tspan></text>
+<text x="110" y="675" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">다음 발표 준비 때에는 내가 네 연습을 도와줄게.</tspan></text>
+<text x="110" y="810" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">우리 서로 힘이 되어 주자.</tspan></text>
+<rect x="72" y="1260" width="880" height="124" rx="20" fill="#E1F0EA"/>
+<text x="98" y="1302" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="800" fill="#3E8276" text-anchor="start">읽기 도움</text>
+<text x="98" y="1340" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="600" fill="#2E2740"><tspan x="98" dy="0">핵심 낱말에 표시하고, 인물·사건·정보의 관계를 생각하며 두 번 읽으세요.</tspan></text>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#D8CEDB" stroke-width="2"/>
+<text x="72" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="600" fill="#685F74" text-anchor="start">Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="500" fill="#685F74" text-anchor="end">표지 이미지: GPT Image · Gongnyang Prompt Kit</text>
+</svg>

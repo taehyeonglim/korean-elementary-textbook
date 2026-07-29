@@ -1,0 +1,189 @@
+{
+  "id": "korean-5-6-writing",
+  "slug": "korean-5-6-writing",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 설명하고 근거로 주장하기",
+  "gradeBand": "5-6",
+  "domain": "쓰기",
+  "module": "설명하고 근거로 주장하기",
+  "standardCodes": [
+    "[6국03-01]",
+    "[6국03-02]",
+    "[6국03-03]",
+    "[6국03-04]",
+    "[6국03-05]",
+    "[6국03-06]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "도서관 자동 대출기의 특징",
+      "자동 대출기는 학생이 스스로 책을 빌리고 반납하도록 돕는 기기입니다.",
+      "화면의 안내에 따라 학생증과 책의 바코드를 차례로 인식합니다.",
+      "대출 결과를 바로 확인할 수 있어 기다리는 시간을 줄입니다.",
+      "다만 오류가 나면 사서에게 도움을 요청해야 합니다."
+    ],
+    "questionsA": [
+      [
+        "설명 대상은 무엇인가요?",
+        "도서관 자동 대출기"
+      ],
+      [
+        "사용 순서를 쓰세요.",
+        "화면 안내 → 학생증 인식 → 책 바코드 인식 → 결과 확인"
+      ],
+      [
+        "장점은 무엇인가요?",
+        "기다리는 시간을 줄인다."
+      ],
+      [
+        "주의할 점은 무엇인가요?",
+        "오류가 나면 사서에게 도움을 요청한다."
+      ]
+    ],
+    "textB": [
+      "학교 물병 사용 제안",
+      "주장: 학교에서 개인 물병 사용을 늘려야 합니다.",
+      "근거 1: 일회용 컵 사용량을 줄일 수 있습니다. 우리 반 일주일 조사에서 일회용 컵 86개가 사용되었습니다.",
+      "근거 2: 물을 자주 마시는 습관을 기르는 데 도움이 됩니다.",
+      "출처: 6학년 2반 생활 조사표, 2026년 7월."
+    ],
+    "questionsB": [
+      [
+        "글의 주장은 무엇인가요?",
+        "개인 물병 사용을 늘려야 한다."
+      ],
+      [
+        "수치가 있는 근거는 무엇인가요?",
+        "일주일에 일회용 컵 86개 사용"
+      ],
+      [
+        "근거의 출처는 무엇인가요?",
+        "6학년 2반 생활 조사표"
+      ],
+      [
+        "출처를 밝히는 까닭은 무엇인가요?",
+        "근거의 출처와 신뢰성을 확인하게 하려고"
+      ]
+    ],
+    "focus": [
+      [
+        "설명 글의 내용 선정 기준은 무엇인가요?",
+        "대상의 특성과 독자에게 필요한 정보"
+      ],
+      [
+        "주장 글의 근거는 어떠해야 하나요?",
+        "주장과 관련 있고 믿을 만해야 한다."
+      ],
+      [
+        "글 전체를 고칠 때 살필 것은 무엇인가요?",
+        "주제의 통일성, 문단 순서, 표현"
+      ],
+      [
+        "공유 전 고려할 것은 무엇인가요?",
+        "독자, 매체, 개인정보, 출처"
+      ]
+    ],
+    "produce": [
+      "학교 시설 하나를 골라 특징과 사용 방법을 설명하세요.",
+      "학교생활 개선 주장을 정하고 근거 두 개와 출처를 밝혀 글을 쓰세요."
+    ],
+    "model": "주장: 빈 교실의 불을 꺼야 한다. 근거: 에너지를 아끼고 불필요한 전력 사용을 줄인다. 출처: 학교 에너지 절약 안내문(2026)."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-5-6-writing/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-writing/01-cover.webp",
+      "sha256": "9e8aaf7a6f52e13319ca8023b4b7b0fb3c428dc2e047574cab55a8e8ab53bb9c",
+      "alt": "설명하고 근거로 주장하기 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-writing/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-writing/02-reading-a.webp",
+      "sha256": "0951c3994577f4180ba6378f14688fca350e70a9b6cde6c517690f502d7b84f5",
+      "alt": "설명하고 근거로 주장하기 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-writing/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-writing/03-questions-a.webp",
+      "sha256": "657a32bfe2ae45ccd0e8419e2a4ed1d925bcb277f2ca48179d31dbf74d378347",
+      "alt": "설명하고 근거로 주장하기 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-writing/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-writing/04-reading-b.webp",
+      "sha256": "8acad1aac79e58ba6442201cfac920700cd70b8214e36d47712de5ba0d35905e",
+      "alt": "설명하고 근거로 주장하기 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-writing/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-writing/05-questions-b.webp",
+      "sha256": "b093fef42d62d7e090b1e3d261d37ccee29cf6c79f3f1a23aae92c038f8204c5",
+      "alt": "설명하고 근거로 주장하기 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-writing/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-writing/06-focus.webp",
+      "sha256": "2497470c88e568bf9c484ff1e43b9e5862f14179f9dc979e6451c800ae8c6069",
+      "alt": "설명하고 근거로 주장하기 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-writing/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-writing/07-production.webp",
+      "sha256": "263de9edc0d0e8323899c488b0b9da85b6a9d8e29cd218293e2ee588c88a8a25",
+      "alt": "설명하고 근거로 주장하기 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-5-6-writing/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-writing/08-answers.webp",
+      "sha256": "36e8d985483d176a3d6df8366a5f921fa81019df288a29bc95b88ceb28e4f841",
+      "alt": "설명하고 근거로 주장하기 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-5-6-writing/korean-5-6-writing.pdf",
+    "pageCount": 8,
+    "sha256": "9b427480c509d1f9624bb6b4da592d54145a81742e0cef603602961fb0996c82"
+  },
+  "transcriptPath": "/workbooks/korean-5-6-writing/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

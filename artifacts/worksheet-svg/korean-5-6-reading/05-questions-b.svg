@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1024 1536">
+<rect width="1024" height="1536" fill="#FFFCF5"/>
+<rect width="1024" height="184" fill="#62406F"/>
+<text x="72" y="54" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFF" text-anchor="start">초등 국어 한 장</text>
+<text x="72" y="108" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="38" font-weight="800" fill="#FFF" text-anchor="start">구조를 읽고 관점 평가하기</text>
+<text x="72" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#FFF" text-anchor="start">5-6학년군 · 읽기 · 둘째 글 탐구</text>
+<text x="952" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFF" text-anchor="end">5</text>
+<text x="72" y="245" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="31" font-weight="800" fill="#62406F" text-anchor="start">생각 확인</text>
+<rect x="72" y="300" width="880" height="218" rx="22" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
+<circle cx="102" cy="342" r="25" fill="#E97863"/>
+<text x="102" y="351" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#FFF" text-anchor="middle">1</text>
+<text x="150" y="352" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">관점 가가 강조한 장점은 무엇인가요?</tspan></text>
+<line x1="108" y1="420" x2="920" y2="420" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="108" y1="454" x2="920" y2="454" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="108" y1="488" x2="920" y2="488" stroke="#D8CEDB" stroke-width="2"/>
+<rect x="72" y="550" width="880" height="218" rx="22" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
+<circle cx="102" cy="592" r="25" fill="#E97863"/>
+<text x="102" y="601" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#FFF" text-anchor="middle">2</text>
+<text x="150" y="602" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">관점 나가 걱정한 점은 무엇인가요?</tspan></text>
+<line x1="108" y1="670" x2="920" y2="670" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="108" y1="704" x2="920" y2="704" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="108" y1="738" x2="920" y2="738" stroke="#D8CEDB" stroke-width="2"/>
+<rect x="72" y="800" width="880" height="218" rx="22" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
+<circle cx="102" cy="842" r="25" fill="#E97863"/>
+<text x="102" y="851" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#FFF" text-anchor="middle">3</text>
+<text x="150" y="852" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">두 관점을 함께 고려한 해결 방법은 무엇인가요?</tspan></text>
+<line x1="108" y1="920" x2="920" y2="920" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="108" y1="954" x2="920" y2="954" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="108" y1="988" x2="920" y2="988" stroke="#D8CEDB" stroke-width="2"/>
+<rect x="72" y="1050" width="880" height="218" rx="22" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
+<circle cx="102" cy="1092" r="25" fill="#E97863"/>
+<text x="102" y="1101" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="24" font-weight="800" fill="#FFF" text-anchor="middle">4</text>
+<text x="150" y="1102" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="23" font-weight="680" fill="#2E2740"><tspan x="150" dy="0">글의 표현이 타당한 까닭은 무엇인가요?</tspan></text>
+<line x1="108" y1="1170" x2="920" y2="1170" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="108" y1="1204" x2="920" y2="1204" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="108" y1="1238" x2="920" y2="1238" stroke="#D8CEDB" stroke-width="2"/>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#D8CEDB" stroke-width="2"/>
+<text x="72" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="600" fill="#685F74" text-anchor="start">Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="500" fill="#685F74" text-anchor="end">표지 이미지: GPT Image · Gongnyang Prompt Kit</text>
+</svg>

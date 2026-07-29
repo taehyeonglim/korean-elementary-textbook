@@ -1,0 +1,184 @@
+{
+  "id": "korean-1-2-grammar",
+  "slug": "korean-1-2-grammar",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 한글 소리와 문장 부호",
+  "gradeBand": "1-2",
+  "domain": "문법",
+  "module": "한글 소리와 문장 부호",
+  "standardCodes": [
+    "[2국04-01]",
+    "[2국04-02]",
+    "[2국04-03]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "소리와 글자",
+      "‘ㄴ’의 이름은 ‘니은’이고 소릿값은 [ㄴ]입니다.",
+      "‘나무’는 ㄴ, ㅏ, ㅁ, ㅜ가 모여 만들어진 말입니다.",
+      "글자의 이름과 소리를 알면 처음 보는 말도 또박또박 읽을 수 있습니다."
+    ],
+    "questionsA": [
+      [
+        "ㄴ의 이름은 무엇인가요?",
+        "니은"
+      ],
+      [
+        "ㄴ의 소릿값은 무엇인가요?",
+        "[ㄴ]"
+      ],
+      [
+        "나무의 첫 자음은 무엇인가요?",
+        "ㄴ"
+      ],
+      [
+        "글자의 이름과 소리를 알면 무엇이 좋은가요?",
+        "처음 보는 말도 읽을 수 있다."
+      ]
+    ],
+    "textB": [
+      "문장 부호 탐정",
+      "“오늘은 어디에 갈까?” 하고 누나가 물었습니다.",
+      "나는 “동물원에 가고 싶어!” 하고 힘차게 대답했습니다.",
+      "물음표는 묻는 문장 끝에, 느낌표는 강한 느낌을 나타내는 문장 끝에 씁니다."
+    ],
+    "questionsB": [
+      [
+        "묻는 문장 끝의 부호는 무엇인가요?",
+        "물음표"
+      ],
+      [
+        "강한 느낌을 나타내는 부호는 무엇인가요?",
+        "느낌표"
+      ],
+      [
+        "‘오늘은 어디에 갈까’ 뒤의 부호를 쓰세요.",
+        "?"
+      ],
+      [
+        "‘정말 멋지다’에 강한 느낌을 더해 쓰세요.",
+        "정말 멋지다!"
+      ]
+    ],
+    "focus": [
+      [
+        "[꼳]으로 소리 나지만 바른 표기는 무엇인가요?",
+        "꽃"
+      ],
+      [
+        "[낟]으로 소리 나지만 바른 표기는 무엇인가요?",
+        "낮"
+      ],
+      [
+        "알리는 문장 끝의 부호는 무엇인가요?",
+        "마침표"
+      ],
+      [
+        "문장 첫 글자는 어떻게 쓰나요?",
+        "문장의 시작이 드러나게 바르게 쓴다."
+      ]
+    ],
+    "produce": [
+      "좋아하는 낱말 하나를 자음과 모음으로 나누어 보세요.",
+      "물음표·느낌표·마침표가 하나씩 들어간 세 문장을 쓰세요."
+    ],
+    "model": "구름: ㄱ, ㅜ, ㄹ, ㅡ, ㅁ / 오늘 하늘은 맑다. 어디로 갈까? 정말 신난다!"
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-1-2-grammar/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-grammar/01-cover.webp",
+      "sha256": "d3fa279b7987432cba8da947e5ebedb2c55c51dc323412d1d2535d8b0d7fc2c4",
+      "alt": "한글 소리와 문장 부호 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-grammar/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-grammar/02-reading-a.webp",
+      "sha256": "d4807487612cd2fce9a4a90ac4b96454e54ec0bf6c5fc10d5ee5a14d609f310b",
+      "alt": "한글 소리와 문장 부호 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-grammar/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-grammar/03-questions-a.webp",
+      "sha256": "893d2d09d7e0b2928e93b01e7e41f948b325804e1c6410ac05ea8b9ee919d2ee",
+      "alt": "한글 소리와 문장 부호 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-grammar/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-grammar/04-reading-b.webp",
+      "sha256": "27d6d3907c8ea8bdb60f3455129465fffed96b3bb5aef37e63ef06db190d961a",
+      "alt": "한글 소리와 문장 부호 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-grammar/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-grammar/05-questions-b.webp",
+      "sha256": "c07dc74fd44fa36c9ae8dab3f4cc6e1d0d20a29ee18a40cd59b3b80132897cd6",
+      "alt": "한글 소리와 문장 부호 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-grammar/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-grammar/06-focus.webp",
+      "sha256": "6538c2564c1e53c935fe15fb48cab02f2477e6b03aa7ffd1954933e74edab78e",
+      "alt": "한글 소리와 문장 부호 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-grammar/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-grammar/07-production.webp",
+      "sha256": "cc68d12c1e0a37dc82e4c4424a7a2ca2cd5fa3981b83f4d3800de2340e0c66fd",
+      "alt": "한글 소리와 문장 부호 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-1-2-grammar/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-grammar/08-answers.webp",
+      "sha256": "336fb4e2f46f34f988710318fff95fb64b4961d2049e01abefae4387d32f31b6",
+      "alt": "한글 소리와 문장 부호 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-1-2-grammar/korean-1-2-grammar.pdf",
+    "pageCount": 8,
+    "sha256": "636316c8b8ef7c654b2eb30f5c0e9feba93d68a9aa820658daa88f5e8c334bbd"
+  },
+  "transcriptPath": "/workbooks/korean-1-2-grammar/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

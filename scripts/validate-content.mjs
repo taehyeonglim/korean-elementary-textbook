@@ -16,13 +16,15 @@ const SHA256 = /^[a-f0-9]{64}$/;
 const PUBLIC_PATH = /^\/workbooks\/[a-z0-9][a-z0-9/_-]*\.(?:png|jpe?g|webp|pdf|html)$/;
 const LEVELS = ["foundation", "standard", "challenge"];
 const ENGLISH_STAGES = ["input", "practice", "production"];
+const KOREAN_STAGES = ["read", "explore", "express"];
 const ROLES = new Set(["cover", "worksheet", "answer"]);
 const GRADE_BANDS = new Set(["1-2", "3-4", "5-6"]);
-const SUBJECTS = new Set(["math", "english"]);
-const SUBJECT_CODE_MARKERS = { math: "수", english: "영" };
+const SUBJECTS = new Set(["math", "english", "korean"]);
+const SUBJECT_CODE_MARKERS = { math: "수", english: "영", korean: "국" };
 const SUBJECT_GRADE_BANDS = {
   math: new Set(["1-2", "3-4", "5-6"]),
   english: new Set(["3-4", "5-6"]),
+  korean: new Set(["1-2", "3-4", "5-6"]),
 };
 
 function validatePage(page, workbook, index) {
@@ -45,7 +47,7 @@ export function validateWorkbook(workbook, source) {
     assertString(workbook[key], `${label}.${key}`);
   }
   for (const key of ["id", "slug"]) assertString(workbook[key], `${label}.${key}`, { pattern: ID });
-  if (!SUBJECTS.has(workbook.subject)) fail(`${label}.subject must be math or english`);
+  if (!SUBJECTS.has(workbook.subject)) fail(`${label}.subject must be math, english, or korean`);
   if (!GRADE_BANDS.has(workbook.gradeBand)) fail(`${label}.gradeBand must be 1-2, 3-4, or 5-6`);
   if (!SUBJECT_GRADE_BANDS[workbook.subject].has(workbook.gradeBand)) fail(`${label}.gradeBand is not available for ${workbook.subject}`);
   if (workbook.grade !== undefined && ![1, 2, 3, 4, 5, 6].includes(workbook.grade)) fail(`${label}.grade must be 1–6 when supplied`);
@@ -54,11 +56,18 @@ export function validateWorkbook(workbook, source) {
   if (workbook.standardCodes.some((code) => !code.includes(SUBJECT_CODE_MARKERS[workbook.subject]))) {
     fail(`${label}.standardCodes must match subject ${workbook.subject}`);
   }
-  const expectedStages = workbook.subject === "math" ? LEVELS : ENGLISH_STAGES;
+  const expectedStages = workbook.subject === "math" ? LEVELS : workbook.subject === "english" ? ENGLISH_STAGES : KOREAN_STAGES;
   if (JSON.stringify(workbook.levels) !== JSON.stringify(expectedStages)) fail(`${label}.levels must match the subject learning flow`);
   if (workbook.subject === "english") {
     if (!isPlainObject(workbook.activities)) fail(`${label}.activities must describe the English input, practice, and production flow`);
     for (const key of ["words", "text", "practice", "check", "produce"]) {
+      if (!Array.isArray(workbook.activities[key]) || workbook.activities[key].length === 0) fail(`${label}.activities.${key} must not be empty`);
+    }
+    assertString(workbook.activities.model, `${label}.activities.model`);
+  }
+  if (workbook.subject === "korean") {
+    if (!isPlainObject(workbook.activities)) fail(`${label}.activities must describe the Korean read, explore, and express flow`);
+    for (const key of ["textA", "questionsA", "textB", "questionsB", "focus", "produce"]) {
       if (!Array.isArray(workbook.activities[key]) || workbook.activities[key].length === 0) fail(`${label}.activities.${key} must not be empty`);
     }
     assertString(workbook.activities.model, `${label}.activities.model`);

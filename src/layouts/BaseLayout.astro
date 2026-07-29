@@ -32,6 +32,7 @@ const canonical = new URL(canonicalPath ?? Astro.url.pathname, Astro.site);
         <a href={import.meta.env.BASE_URL} aria-current={page === "home" ? "page" : undefined}>홈</a>
         <a href={`${import.meta.env.BASE_URL}math/`} aria-current={subject === "math" && page === "subject" ? "page" : undefined}>수학</a>
         <a href={`${import.meta.env.BASE_URL}english/`} aria-current={subject === "english" ? "page" : undefined}>영어</a>
+        <a href={`${import.meta.env.BASE_URL}korean/`} aria-current={subject === "korean" ? "page" : undefined}>국어</a>
         <a href={`${import.meta.env.BASE_URL}license/`} aria-current={page === "license" ? "page" : undefined}>이용 안내</a>
       </nav>
     </header>

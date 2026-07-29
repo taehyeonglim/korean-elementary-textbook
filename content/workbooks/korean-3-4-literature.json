@@ -1,0 +1,188 @@
+{
+  "id": "korean-3-4-literature",
+  "slug": "korean-3-4-literature",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 이야기 흐름과 감각적 표현",
+  "gradeBand": "3-4",
+  "domain": "문학",
+  "module": "이야기 흐름과 감각적 표현",
+  "standardCodes": [
+    "[4국05-01]",
+    "[4국05-02]",
+    "[4국05-03]",
+    "[4국05-04]",
+    "[4국05-05]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "바람이 두고 간 편지",
+      "아침 바람이 창문을 살짝 두드렸습니다.",
+      "수아가 창문을 열자 은행잎 한 장이 책상 위로 날아왔습니다.",
+      "수아는 노란 잎맥을 손끝으로 따라가며 가을이 보낸 편지라고 생각했습니다.",
+      "그날 수아는 잎을 책갈피에 고이 넣었습니다."
+    ],
+    "questionsA": [
+      [
+        "주인공은 누구인가요?",
+        "수아"
+      ],
+      [
+        "은행잎은 어디로 왔나요?",
+        "책상 위"
+      ],
+      [
+        "수아는 은행잎을 무엇이라고 생각했나요?",
+        "가을이 보낸 편지"
+      ],
+      [
+        "이야기의 흐름을 세 단계로 쓰세요.",
+        "바람이 창문을 두드림 → 잎이 날아옴 → 책갈피에 넣음"
+      ]
+    ],
+    "textB": [
+      "겨울 아침",
+      "하얀 입김이 몽글몽글 피어난다.",
+      "발밑 눈은 뽀드득 작은 북을 친다.",
+      "차가운 바람이 두 볼을 콕콕 찌른다.",
+      "나는 목도리 속에 웃음을 폭 감춘다."
+    ],
+    "questionsB": [
+      [
+        "눈 밟는 소리를 나타낸 말은 무엇인가요?",
+        "뽀드득"
+      ],
+      [
+        "바람이 볼에 닿는 느낌은 무엇인가요?",
+        "콕콕 찌르는 듯한 느낌"
+      ],
+      [
+        "시각을 나타내는 표현은 무엇인가요?",
+        "하얀 입김"
+      ],
+      [
+        "시의 분위기를 쓰세요.",
+        "춥지만 즐겁고 생생하다."
+      ]
+    ],
+    "focus": [
+      [
+        "현실과 작품 속 세계를 비교할 때 떠올릴 것은 무엇인가요?",
+        "나의 비슷한 경험"
+      ],
+      [
+        "작품을 소개할 때 필요한 것은 무엇인가요?",
+        "제목, 마음에 든 부분, 까닭"
+      ],
+      [
+        "감각적 표현은 어떤 감각을 활용하나요?",
+        "시각·청각·촉각 등"
+      ],
+      [
+        "작품을 즐겨 감상하는 태도의 예는 무엇인가요?",
+        "읽고 느낀 점을 나누거나 다시 읽기"
+      ]
+    ],
+    "produce": [
+      "첫 이야기와 비슷한 나의 경험을 말하세요.",
+      "겨울 장면을 감각적 표현 두 가지 이상으로 네 줄 시로 쓰세요."
+    ],
+    "model": "찬 공기가 코끝을 간질인다. / 얼음은 햇빛을 받아 반짝인다. / 발걸음마다 사각사각 / 겨울 길이 노래한다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-3-4-literature/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-literature/01-cover.webp",
+      "sha256": "55a04d86cbf38f6db191af81af952f1ed458a78b3aa4fef7cb21a34e25f259e5",
+      "alt": "이야기 흐름과 감각적 표현 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-literature/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-literature/02-reading-a.webp",
+      "sha256": "dcd2096b18ddf1a0dd6d1c3a5d8c6d0400c9e6fe58c77cd5bfbf5f3c60bd890e",
+      "alt": "이야기 흐름과 감각적 표현 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-literature/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-literature/03-questions-a.webp",
+      "sha256": "4922ca882f4d7806d9f3a13d6d2e24a13ceca757cede685574aff20209401d95",
+      "alt": "이야기 흐름과 감각적 표현 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-literature/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-literature/04-reading-b.webp",
+      "sha256": "865790fddf64598eba9d4555bd7d9d5738f4e9eaa13f994cd64e8b343b7f3f4c",
+      "alt": "이야기 흐름과 감각적 표현 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-literature/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-literature/05-questions-b.webp",
+      "sha256": "905c2868bf0788c4a0196ac96f3ba8ab76077c0e3757546d97ef4ad9f75f7a09",
+      "alt": "이야기 흐름과 감각적 표현 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-literature/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-literature/06-focus.webp",
+      "sha256": "774233f89f238660cee382c693a3a85247db78c814ead34cad2a1abd247f5f89",
+      "alt": "이야기 흐름과 감각적 표현 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-literature/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-literature/07-production.webp",
+      "sha256": "b16b1d3907417c2e69fd4e81764dbc7ed940b25c9d8e488e1b7fc250f0d2463d",
+      "alt": "이야기 흐름과 감각적 표현 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-3-4-literature/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-literature/08-answers.webp",
+      "sha256": "08f95e2ec5f493b1d6278105900a8437ce587912f2e0095fe8c0bd0a04fa4948",
+      "alt": "이야기 흐름과 감각적 표현 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-3-4-literature/korean-3-4-literature.pdf",
+    "pageCount": 8,
+    "sha256": "1da85a4803a1ffa8b1f30fae0c718c079f41b472a1e6e7b2465210712657f71e"
+  },
+  "transcriptPath": "/workbooks/korean-3-4-literature/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210mm" height="297mm" viewBox="0 0 1024 1536">
+<rect width="1024" height="1536" fill="#FFFCF5"/>
+<rect width="1024" height="184" fill="#62406F"/>
+<text x="72" y="54" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFF" text-anchor="start">초등 국어 한 장</text>
+<text x="72" y="108" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="38" font-weight="800" fill="#FFF" text-anchor="start">설명하고 근거로 주장하기</text>
+<text x="72" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="20" font-weight="600" fill="#FFF" text-anchor="start">5-6학년군 · 쓰기 · 둘째 글 읽기</text>
+<text x="952" y="151" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="700" fill="#FFF" text-anchor="end">4</text>
+<text x="72" y="240" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="18" font-weight="800" fill="#E97863" text-anchor="start">ORIGINAL TEXT</text>
+<text x="72" y="286" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="31" font-weight="800" fill="#62406F" text-anchor="start">학교 물병 사용 제안</text>
+<rect x="72" y="330" width="880" height="900" rx="24" fill="#FFF" stroke="#D8CEDB" stroke-width="2"/>
+<text x="110" y="405" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">주장: 학교에서 개인 물병 사용을 늘려야 합니다.</tspan></text>
+<text x="110" y="540" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">근거 1: 일회용 컵 사용량을 줄일 수 있습니다. 우리 반 일주일 조사에서 일회용</tspan><tspan x="110" dy="37">컵 86개가 사용되었습니다.</tspan></text>
+<text x="110" y="675" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">근거 2: 물을 자주 마시는 습관을 기르는 데 도움이 됩니다.</tspan></text>
+<text x="110" y="810" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="27" font-weight="620" fill="#2E2740"><tspan x="110" dy="0">출처: 6학년 2반 생활 조사표, 2026년 7월.</tspan></text>
+<rect x="72" y="1260" width="880" height="124" rx="20" fill="#E1F0EA"/>
+<text x="98" y="1302" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="17" font-weight="800" fill="#3E8276" text-anchor="start">읽기 도움</text>
+<text x="98" y="1340" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="21" font-weight="600" fill="#2E2740"><tspan x="98" dy="0">핵심 낱말에 표시하고, 인물·사건·정보의 관계를 생각하며 두 번 읽으세요.</tspan></text>
+<line x1="72" y1="1460" x2="952" y2="1460" stroke="#D8CEDB" stroke-width="2"/>
+<text x="72" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="600" fill="#685F74" text-anchor="start">Taehyeong Lim · CC BY-NC-SA 4.0</text>
+<text x="952" y="1495" font-family="Apple SD Gothic Neo, Noto Sans KR, sans-serif" font-size="15" font-weight="500" fill="#685F74" text-anchor="end">표지 이미지: GPT Image · Gongnyang Prompt Kit</text>
+</svg>

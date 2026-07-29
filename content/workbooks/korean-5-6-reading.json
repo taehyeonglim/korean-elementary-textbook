@@ -1,0 +1,187 @@
+{
+  "id": "korean-5-6-reading",
+  "slug": "korean-5-6-reading",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 구조를 읽고 관점 평가하기",
+  "gradeBand": "5-6",
+  "domain": "읽기",
+  "module": "구조를 읽고 관점 평가하기",
+  "standardCodes": [
+    "[6국02-01]",
+    "[6국02-02]",
+    "[6국02-03]",
+    "[6국02-04]",
+    "[6국02-05]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "빗물 정원의 원리",
+      "빗물 정원은 비가 올 때 물을 잠시 모아 두는 낮은 공간입니다.",
+      "먼저 지붕과 길에서 흐른 빗물이 정원으로 들어옵니다.",
+      "그다음 흙과 식물 뿌리가 물을 천천히 흡수하고 일부 오염 물질을 거릅니다.",
+      "따라서 빗물 정원은 침수를 줄이고 생물의 작은 터전도 만듭니다."
+    ],
+    "questionsA": [
+      [
+        "빗물 정원은 무엇인가요?",
+        "빗물을 잠시 모아 두는 낮은 공간"
+      ],
+      [
+        "물이 들어온 뒤 무엇이 흡수하나요?",
+        "흙과 식물 뿌리"
+      ],
+      [
+        "두 가지 효과를 쓰세요.",
+        "침수 감소, 생물 터전 조성"
+      ],
+      [
+        "글의 구조에 맞게 요약하세요.",
+        "정의 → 작동 과정 → 효과"
+      ]
+    ],
+    "textB": [
+      "운동장 나무 심기 두 관점",
+      "관점 가: 나무를 심으면 그늘과 쉼터가 생기고 여름 운동장 온도를 낮출 수 있습니다.",
+      "관점 나: 경기 공간이 줄고 뿌리가 달리기를 방해하지 않도록 위치와 종류를 신중히 정해야 합니다.",
+      "문제를 해결하려면 장점과 우려를 함께 살펴 심을 장소와 수종을 결정해야 합니다."
+    ],
+    "questionsB": [
+      [
+        "관점 가가 강조한 장점은 무엇인가요?",
+        "그늘·쉼터·온도 감소"
+      ],
+      [
+        "관점 나가 걱정한 점은 무엇인가요?",
+        "경기 공간과 뿌리 안전"
+      ],
+      [
+        "두 관점을 함께 고려한 해결 방법은 무엇인가요?",
+        "경기를 방해하지 않는 곳에 알맞은 수종을 심는다."
+      ],
+      [
+        "글의 표현이 타당한 까닭은 무엇인가요?",
+        "두 관점의 이유를 구체적으로 제시했기 때문"
+      ]
+    ],
+    "focus": [
+      [
+        "함축된 표현은 어떻게 추론하나요?",
+        "문맥과 앞뒤 단서로"
+      ],
+      [
+        "주장은 무엇인가요?",
+        "글쓴이가 옳다고 내세우는 생각"
+      ],
+      [
+        "타당성 평가 기준은 무엇인가요?",
+        "근거의 관련성·충분성·신뢰성"
+      ],
+      [
+        "적극적 읽기의 예는 무엇인가요?",
+        "질문하고 메모하며 다른 자료와 연결하기"
+      ]
+    ],
+    "produce": [
+      "첫 글을 70자 안으로 요약하세요.",
+      "두 관점을 비교한 뒤 가장 타당한 해결안을 근거와 함께 쓰세요."
+    ],
+    "model": "운동장 가장자리에 뿌리가 깊게 퍼지지 않는 나무를 심자. 경기 공간과 안전을 지키면서 그늘을 만들 수 있다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-5-6-reading/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-reading/01-cover.webp",
+      "sha256": "7ea588f27d5867eb96145df7c9ffd0c5370ddb40e4037d93c961eff001d449d1",
+      "alt": "구조를 읽고 관점 평가하기 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-reading/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-reading/02-reading-a.webp",
+      "sha256": "5aca3f0606451d1b12f37a8196eff8e0a9d28da58105877c62067b4d4ebc53cf",
+      "alt": "구조를 읽고 관점 평가하기 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-reading/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-reading/03-questions-a.webp",
+      "sha256": "94827740d064ca87327d73b6e174c40e2446adbe28e25c9443f2fee2bbfcafc4",
+      "alt": "구조를 읽고 관점 평가하기 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-reading/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-reading/04-reading-b.webp",
+      "sha256": "2f36ee876eeef0e7f9b72802a26308c5665906732d4bf678e25b156d022e174f",
+      "alt": "구조를 읽고 관점 평가하기 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-reading/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-reading/05-questions-b.webp",
+      "sha256": "33c2c36497d3a5801d456d6515b84692c5f415d09f98e4a71b1a47daeada32bb",
+      "alt": "구조를 읽고 관점 평가하기 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-reading/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-reading/06-focus.webp",
+      "sha256": "b145685c38b25aee5ea0fa190b7b85bd5e312744e8a8c0059ecadbc729c68d8a",
+      "alt": "구조를 읽고 관점 평가하기 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-reading/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-reading/07-production.webp",
+      "sha256": "228d4e7013f3ea2864f742ce418260441e5fa1be33f995aa3666de0c2c718c74",
+      "alt": "구조를 읽고 관점 평가하기 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-5-6-reading/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-reading/08-answers.webp",
+      "sha256": "18dec7ed02645d0684039a58d7e825989599a8a80627e9f9ebfe700af9a22133",
+      "alt": "구조를 읽고 관점 평가하기 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-5-6-reading/korean-5-6-reading.pdf",
+    "pageCount": 8,
+    "sha256": "429eb5b78057f1afa6b85a1322338913c88a2e479034016cb7e93a7eeca88001"
+  },
+  "transcriptPath": "/workbooks/korean-5-6-reading/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

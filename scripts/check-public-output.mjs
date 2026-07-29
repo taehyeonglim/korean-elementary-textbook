@@ -48,9 +48,11 @@ export async function checkPublicOutput() {
   const catalog = await loadCatalog();
   const publishedMath = catalog.workbooks.filter((workbook) => workbook.published === true && workbook.subject === "math");
   const publishedEnglish = catalog.workbooks.filter((workbook) => workbook.published === true && workbook.subject === "english");
+  const publishedKorean = catalog.workbooks.filter((workbook) => workbook.published === true && workbook.subject === "korean");
   const englishSummary = await readJson(path.join(projectDir, "content", "curriculum", "english-summary-2026-07-29.json"));
+  const koreanSummary = await readJson(path.join(projectDir, "content", "curriculum", "korean-summary-2026-07-29.json"));
 
-  await assertPage("", ["초등 학습지 한 장", "초등 수학 한 장", "초등 영어 한 장"]);
+  await assertPage("", ["초등 학습지 한 장", "초등 수학 한 장", "초등 영어 한 장", "초등 국어 한 장"]);
   const mathArchive = await assertPage("math", ["초등 수학 한 장", `${publishedMath.length}권`]);
   const englishArchive = await assertPage("english", [
     "초등 영어 한 장",
@@ -58,6 +60,13 @@ export async function checkPublicOutput() {
     "이해",
     "표현",
     `${publishedEnglish.length}권 무료 배포 중`
+  ]);
+  const koreanArchive = await assertPage("korean", [
+    "초등 국어 한 장",
+    `${koreanSummary.standardCount}`,
+    "듣기·말하기",
+    "매체",
+    `${publishedKorean.length}권 무료 배포 중`
   ]);
   await assertPage("license", ["이용 안내"]);
 
@@ -74,6 +83,11 @@ export async function checkPublicOutput() {
     await assertPage(route, [workbook.title.split("&")[0].trim(), `${workbook.pdf.pageCount}쪽`]);
     if (!englishArchive.includes(`${route}/`)) fail(`English archive does not link to: ${route}`);
   }
+  for (const workbook of publishedKorean) {
+    const route = `korean/workbooks/${workbook.slug}`;
+    await assertPage(route, [workbook.title, `${workbook.pdf.pageCount}쪽`]);
+    if (!koreanArchive.includes(`${route}/`)) fail(`Korean archive does not link to: ${route}`);
+  }
 
   if (englishSummary.gradeBands["3-4"].standardCount !== 20 || englishSummary.gradeBands["5-6"].standardCount !== 20) {
     fail("English curriculum summary must contain 20 standards in each grade band.");
@@ -81,8 +95,14 @@ export async function checkPublicOutput() {
   if (englishSummary.officialAreas.map((area) => area.labelKorean).join(",") !== "이해,표현") {
     fail("English curriculum summary must preserve the official understanding/expression areas.");
   }
+  if (Object.values(koreanSummary.gradeBands).reduce((sum, band) => sum + band.standardCount, 0) !== 87) {
+    fail("Korean curriculum summary must contain 87 standards.");
+  }
+  if (koreanSummary.officialAreas.map((area) => area.labelKorean).join(",") !== "듣기·말하기,읽기,쓰기,문법,문학,매체") {
+    fail("Korean curriculum summary must preserve all six official areas.");
+  }
 
-  console.log(`Public output validation passed (${files.length} files, ${publishedMath.length} math and ${publishedEnglish.length} English workbooks).`);
+  console.log(`Public output validation passed (${files.length} files, ${publishedMath.length} math, ${publishedEnglish.length} English, and ${publishedKorean.length} Korean workbooks).`);
 }
 
 if (import.meta.main) {

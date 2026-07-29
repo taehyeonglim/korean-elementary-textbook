@@ -1,0 +1,20 @@
+{
+  "curriculumId": "kr-2022-elem-korean",
+  "title": "2022 개정 초등학교 국어과 교육과정",
+  "standardCount": 87,
+  "gradeBands": {
+    "1-2": { "standardCount": 23 },
+    "3-4": { "standardCount": 30 },
+    "5-6": { "standardCount": 34 }
+  },
+  "officialAreas": [
+    { "id": "listening-speaking", "labelKorean": "듣기·말하기" },
+    { "id": "reading", "labelKorean": "읽기" },
+    { "id": "writing", "labelKorean": "쓰기" },
+    { "id": "grammar", "labelKorean": "문법" },
+    { "id": "literature", "labelKorean": "문학" },
+    { "id": "media", "labelKorean": "매체" }
+  ],
+  "source": "curriculum-kr MCP",
+  "retrievedAt": "2026-07-29"
+}

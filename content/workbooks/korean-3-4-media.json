@@ -1,0 +1,186 @@
+{
+  "id": "korean-3-4-media",
+  "slug": "korean-3-4-media",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 자료를 찾고 바르게 공유하기",
+  "gradeBand": "3-4",
+  "domain": "매체",
+  "module": "자료를 찾고 바르게 공유하기",
+  "standardCodes": [
+    "[4국06-01]",
+    "[4국06-02]",
+    "[4국06-03]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "발표 자료 찾기",
+      "주제가 ‘우리 지역의 나무’라면 먼저 필요한 정보를 정합니다.",
+      "공공기관이나 도서관 누리집에서 자료를 찾습니다.",
+      "작성자와 날짜를 확인하고 주제에 맞는 내용만 선택합니다.",
+      "선택한 자료의 출처를 기록합니다."
+    ],
+    "questionsA": [
+      [
+        "가장 먼저 할 일은 무엇인가요?",
+        "필요한 정보 정하기"
+      ],
+      [
+        "어디에서 자료를 찾나요?",
+        "공공기관이나 도서관 누리집"
+      ],
+      [
+        "확인할 두 가지는 무엇인가요?",
+        "작성자, 날짜"
+      ],
+      [
+        "선택한 뒤 기록할 것은 무엇인가요?",
+        "출처"
+      ]
+    ],
+    "textB": [
+      "한 장 발표 자료",
+      "제목은 발표 주제를 짧고 분명하게 보여 줍니다.",
+      "사진이나 그림은 핵심 내용을 이해하는 데 도움을 줍니다.",
+      "글자는 뒤에서도 읽을 수 있게 크게 씁니다.",
+      "다른 사람의 자료는 출처를 밝히고 허락된 범위에서 사용합니다."
+    ],
+    "questionsB": [
+      [
+        "제목은 어떻게 쓰나요?",
+        "짧고 분명하게"
+      ],
+      [
+        "사진이나 그림의 역할은 무엇인가요?",
+        "핵심 내용 이해를 돕는다."
+      ],
+      [
+        "글자는 왜 크게 쓰나요?",
+        "뒤에서도 읽을 수 있게"
+      ],
+      [
+        "다른 사람 자료를 쓸 때 지킬 것은 무엇인가요?",
+        "출처와 이용 범위"
+      ]
+    ],
+    "focus": [
+      [
+        "검색어는 어떻게 정하나요?",
+        "주제의 핵심 낱말로"
+      ],
+      [
+        "발표 자료 한 장에 정보를 너무 많이 넣으면 어떤가요?",
+        "핵심이 흐려진다."
+      ],
+      [
+        "온라인에서 친구 사진을 공유하기 전 필요한 것은 무엇인가요?",
+        "친구의 동의"
+      ],
+      [
+        "매체 소통 윤리의 핵심은 무엇인가요?",
+        "출처·개인정보·상대 존중"
+      ]
+    ],
+    "produce": [
+      "‘우리 학교의 좋은 점’ 발표에 필요한 검색어와 자료 출처를 계획하세요.",
+      "제목·핵심 문장·그림 설명·출처가 있는 한 장 발표 자료를 설계하세요."
+    ],
+    "model": "제목: 우리 학교의 작은 숲 / 핵심: 나무 18그루가 그늘과 쉼터를 만든다. / 출처: 학교 생태 조사표(2026)"
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-3-4-media/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-media/01-cover.webp",
+      "sha256": "22aa8cf2ab5c824b3aed85824bb382be4ae61b42555639bb974459cafb1c685c",
+      "alt": "자료를 찾고 바르게 공유하기 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-media/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-media/02-reading-a.webp",
+      "sha256": "ac01489ec7efae410dfeb72b25885e6c26bd2dda406b0b767d020b92766d812c",
+      "alt": "자료를 찾고 바르게 공유하기 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-media/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-media/03-questions-a.webp",
+      "sha256": "533a311a0297bff9c4f8be2d1066bb795977ac8d9f7196f9a2e4701fc1b612fe",
+      "alt": "자료를 찾고 바르게 공유하기 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-media/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-media/04-reading-b.webp",
+      "sha256": "595c7730e0968ed8c103daa4f28b7cf71609992a66badf8f1ab089a8a9afa557",
+      "alt": "자료를 찾고 바르게 공유하기 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-media/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-media/05-questions-b.webp",
+      "sha256": "f12dfc567b51dc893a1cce751f5cf1da0d67d19823428e212ad0738e479b550b",
+      "alt": "자료를 찾고 바르게 공유하기 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-media/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-media/06-focus.webp",
+      "sha256": "9dd3841366de49029241d64a3c0deccb36d30c4694599ea31276d769f2794e68",
+      "alt": "자료를 찾고 바르게 공유하기 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-media/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-media/07-production.webp",
+      "sha256": "0a9ebadf0befb79474e0fdc836ab5f85fe5a60647ad302aca58b976a0ae531a6",
+      "alt": "자료를 찾고 바르게 공유하기 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-3-4-media/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-media/08-answers.webp",
+      "sha256": "5cea18597db2af311a83f67a92038bd3cc5d95729f4ae04ac2d35254eeb1fe9c",
+      "alt": "자료를 찾고 바르게 공유하기 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-3-4-media/korean-3-4-media.pdf",
+    "pageCount": 8,
+    "sha256": "804f8c86999b402f247e3f821a6949811ce6c9064f91387a00cf1c734766aacc"
+  },
+  "transcriptPath": "/workbooks/korean-3-4-media/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

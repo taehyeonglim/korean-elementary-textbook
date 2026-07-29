@@ -1,0 +1,188 @@
+{
+  "id": "korean-3-4-grammar",
+  "slug": "korean-3-4-grammar",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 단어 관계와 알맞은 문장",
+  "gradeBand": "3-4",
+  "domain": "문법",
+  "module": "단어 관계와 알맞은 문장",
+  "standardCodes": [
+    "[4국04-01]",
+    "[4국04-02]",
+    "[4국04-03]",
+    "[4국04-04]",
+    "[4국04-05]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "단어의 관계",
+      "‘기쁘다’와 ‘즐겁다’는 뜻이 비슷합니다.",
+      "‘넓다’와 ‘좁다’는 뜻이 서로 반대입니다.",
+      "‘과일’은 ‘사과, 배, 감’보다 넓은 뜻을 가진 말입니다.",
+      "단어의 관계를 알면 뜻을 더 정확히 이해할 수 있습니다."
+    ],
+    "questionsA": [
+      [
+        "기쁘다와 뜻이 비슷한 말은 무엇인가요?",
+        "즐겁다"
+      ],
+      [
+        "넓다와 뜻이 반대인 말은 무엇인가요?",
+        "좁다"
+      ],
+      [
+        "사과·배·감을 포함하는 말은 무엇인가요?",
+        "과일"
+      ],
+      [
+        "단어 관계를 알면 무엇이 좋은가요?",
+        "뜻을 더 정확히 이해할 수 있다."
+      ]
+    ],
+    "textB": [
+      "상황에 맞는 표현",
+      "할머니께서 방에 들어오십니다.",
+      "나는 친구에게 “이 책을 먼저 읽어. 그리고 나에게 알려 줘.”라고 말했습니다.",
+      "‘이’는 가까운 대상을 가리키고, ‘그리고’는 내용을 이어 줍니다.",
+      "말하는 상대와 상황에 따라 높임 표현을 알맞게 사용합니다."
+    ],
+    "questionsB": [
+      [
+        "높임 표현이 쓰인 말은 무엇인가요?",
+        "들어오십니다"
+      ],
+      [
+        "가까운 대상을 가리키는 말은 무엇인가요?",
+        "이"
+      ],
+      [
+        "내용을 이어 주는 말은 무엇인가요?",
+        "그리고"
+      ],
+      [
+        "높임 표현은 무엇을 고려하나요?",
+        "상대와 상황"
+      ]
+    ],
+    "focus": [
+      [
+        "‘새가 난다’에서 ‘새가’의 역할은 무엇인가요?",
+        "누가에 해당하는 부분"
+      ],
+      [
+        "‘새가 난다’에서 ‘난다’의 역할은 무엇인가요?",
+        "무엇을 한다에 해당하는 부분"
+      ],
+      [
+        "국어사전에서 단어를 찾을 때 무엇을 기준으로 하나요?",
+        "첫 글자부터 자모 순서"
+      ],
+      [
+        "언어는 관계 형성에 어떤 역할을 하나요?",
+        "마음과 생각을 주고받게 한다."
+      ]
+    ],
+    "produce": [
+      "비슷한 말·반대말·포함 관계의 예를 하나씩 찾으세요.",
+      "친구와 어른에게 같은 내용을 각각 알맞게 말하는 문장을 쓰세요."
+    ],
+    "model": "친구에게: 이 책 좀 봐. / 선생님께: 선생님, 이 책을 봐 주세요."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-3-4-grammar/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-grammar/01-cover.webp",
+      "sha256": "8b029454f9b42685d3cbd1e387def36344cd8e219e6c6f99460bfd315ae23324",
+      "alt": "단어 관계와 알맞은 문장 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-grammar/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-grammar/02-reading-a.webp",
+      "sha256": "61699386b475264dde7c775ad99e56ca6f7ce0f899be75c757e41bb4b8e987a5",
+      "alt": "단어 관계와 알맞은 문장 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-grammar/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-grammar/03-questions-a.webp",
+      "sha256": "9446cd934798eafa593f72b22b4768efca19701ca50ae6d8102c593ed598ea4d",
+      "alt": "단어 관계와 알맞은 문장 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-grammar/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-grammar/04-reading-b.webp",
+      "sha256": "6158881907376ab95146e3f8d81eea12fdb6307133702e757693443d86619df4",
+      "alt": "단어 관계와 알맞은 문장 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-grammar/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-grammar/05-questions-b.webp",
+      "sha256": "042289383b20fd6cdfc4dbfd7ac20cd3a75ab936a095321e19ae80ae07995b62",
+      "alt": "단어 관계와 알맞은 문장 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-grammar/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-grammar/06-focus.webp",
+      "sha256": "cbec738da6d007b12cd1efafc6cb05977b35365a928515d8bd95e805057480cb",
+      "alt": "단어 관계와 알맞은 문장 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-grammar/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-grammar/07-production.webp",
+      "sha256": "70179974cfb758fcab44e411c791f6bc8883adb572b7eb7b69894c050e6bbd7e",
+      "alt": "단어 관계와 알맞은 문장 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-3-4-grammar/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-grammar/08-answers.webp",
+      "sha256": "36a5394cad9008a967b60357d117db281ab435df406665747bf5b869eaec1a28",
+      "alt": "단어 관계와 알맞은 문장 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-3-4-grammar/korean-3-4-grammar.pdf",
+    "pageCount": 8,
+    "sha256": "1d6545dd72827d77c15f05832ae9d1b8722b925c4e2b50a8718179e19145e58c"
+  },
+  "transcriptPath": "/workbooks/korean-3-4-grammar/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

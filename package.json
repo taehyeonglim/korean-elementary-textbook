@@ -19,6 +19,7 @@
     "build:pdf": "node scripts/build-pdf.mjs",
     "build:thumbnails": "node scripts/build-thumbnails.mjs",
     "render:worksheets": "python3 scripts/render_worksheets.py --sync-metadata",
+    "render:korean": "python3 scripts/render_korean_worksheets.py",
     "verify:worksheets": "python3 scripts/verify_worksheets.py",
     "check:image-prompt": "./scripts/check-image-prompt"
   },

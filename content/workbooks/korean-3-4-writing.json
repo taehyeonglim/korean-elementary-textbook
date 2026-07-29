@@ -1,0 +1,188 @@
+{
+  "id": "korean-3-4-writing",
+  "slug": "korean-3-4-writing",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 문단과 목적에 맞는 글쓰기",
+  "gradeBand": "3-4",
+  "domain": "쓰기",
+  "module": "문단과 목적에 맞는 글쓰기",
+  "standardCodes": [
+    "[4국03-01]",
+    "[4국03-02]",
+    "[4국03-03]",
+    "[4국03-04]",
+    "[4국03-05]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "종이 다리 실험 보고",
+      "목적: 종이 모양에 따라 버티는 힘이 달라지는지 알아본다.",
+      "절차: 평평한 종이와 접은 종이를 같은 간격의 책 위에 올린다.",
+      "결과: 접은 종이가 더 많은 지우개를 버텼다.",
+      "알게 된 점: 종이를 접으면 더 단단해질 수 있다."
+    ],
+    "questionsA": [
+      [
+        "실험 목적은 무엇인가요?",
+        "종이 모양과 버티는 힘의 관계 확인"
+      ],
+      [
+        "비교한 종이 두 가지는 무엇인가요?",
+        "평평한 종이, 접은 종이"
+      ],
+      [
+        "결과는 무엇인가요?",
+        "접은 종이가 더 많은 지우개를 버텼다."
+      ],
+      [
+        "보고 글의 순서를 쓰세요.",
+        "목적 → 절차 → 결과 → 알게 된 점"
+      ]
+    ],
+    "textB": [
+      "고마운 마음을 전하는 글",
+      "지민아, 발표 연습을 할 때 내 말을 끝까지 들어줘서 고마워.",
+      "네가 고개를 끄덕여 준 덕분에 긴장이 줄었어.",
+      "다음 발표 준비 때에는 내가 네 연습을 도와줄게.",
+      "우리 서로 힘이 되어 주자."
+    ],
+    "questionsB": [
+      [
+        "글을 받는 사람은 누구인가요?",
+        "지민"
+      ],
+      [
+        "고마운 일은 무엇인가요?",
+        "발표 연습을 끝까지 들어준 일"
+      ],
+      [
+        "그 결과 어떤 변화가 있었나요?",
+        "긴장이 줄었다."
+      ],
+      [
+        "글의 목적은 무엇인가요?",
+        "고마운 마음을 전하기"
+      ]
+    ],
+    "focus": [
+      [
+        "문단의 중심 내용을 담은 문장은 무엇인가요?",
+        "중심 문장"
+      ],
+      [
+        "중심 문장을 자세히 설명하는 문장은 무엇인가요?",
+        "뒷받침 문장"
+      ],
+      [
+        "의견 글에 필요한 두 요소는 무엇인가요?",
+        "의견, 이유"
+      ],
+      [
+        "고쳐 쓸 때 살필 것은 무엇인가요?",
+        "문장과 문단의 연결, 정확한 표현"
+      ]
+    ],
+    "produce": [
+      "학교에서 바꾸고 싶은 점에 대한 의견 문단을 쓰세요.",
+      "고마운 사람에게 구체적인 일과 마음이 드러나는 글을 쓰세요."
+    ],
+    "model": "저는 교실에 종이 분리함을 더 놓아야 한다고 생각합니다. 종이를 다시 쓰거나 올바르게 버리기 쉬워지기 때문입니다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-3-4-writing/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-writing/01-cover.webp",
+      "sha256": "e486925dff17f5995e55c08b2830d65f39b7dc74b2a8ad966251f0ca5d74a612",
+      "alt": "문단과 목적에 맞는 글쓰기 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-writing/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-writing/02-reading-a.webp",
+      "sha256": "bfba479159b1295cc4152837c3d7c50fb40b859df530388d9a29c2bc4bbfab40",
+      "alt": "문단과 목적에 맞는 글쓰기 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-writing/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-writing/03-questions-a.webp",
+      "sha256": "d47e129fe68b373b1bc588a1a0e8c720918072d5faa1ed70cc9eea25adf85eab",
+      "alt": "문단과 목적에 맞는 글쓰기 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-writing/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-writing/04-reading-b.webp",
+      "sha256": "b34c7610a6cc05e111362f142bfd82da64ecba5004301b6f85e57cfbb233af7b",
+      "alt": "문단과 목적에 맞는 글쓰기 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-writing/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-writing/05-questions-b.webp",
+      "sha256": "d3c6283633d28fc2fa460ae9dd54f771500b8b34cf7571fd6b7f1bff4e5a416a",
+      "alt": "문단과 목적에 맞는 글쓰기 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-writing/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-writing/06-focus.webp",
+      "sha256": "1ddbcb2b009df5fd472eb567b5d84d6031481a0ce13327604fd029670104010d",
+      "alt": "문단과 목적에 맞는 글쓰기 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-writing/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-writing/07-production.webp",
+      "sha256": "72d2274dd412b28238b8240647e5ce4b431075ebfb7b3370966bc93bfb474178",
+      "alt": "문단과 목적에 맞는 글쓰기 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-3-4-writing/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-writing/08-answers.webp",
+      "sha256": "0714e13c8518f85782b037d56dff19b0c2903df50eb7e7952e54ddc58eee743a",
+      "alt": "문단과 목적에 맞는 글쓰기 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-3-4-writing/korean-3-4-writing.pdf",
+    "pageCount": 8,
+    "sha256": "b68d5fd8c1af425c9b3d75983a250b3e91575506c4b2c5877c339a3e87f1394d"
+  },
+  "transcriptPath": "/workbooks/korean-3-4-writing/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

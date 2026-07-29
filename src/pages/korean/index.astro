@@ -1,0 +1,80 @@
+---
+import koreanSummary from "../../../content/curriculum/korean-summary-2026-07-29.json";
+import WorkbookCard from "../../components/WorkbookCard.astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { GRADE_BAND_LABELS, publishedWorkbooks } from "../../lib/catalog";
+import { subjectDefinition } from "../../lib/subjects";
+
+const korean = subjectDefinition("korean");
+const gradeBands = Object.entries(koreanSummary.gradeBands);
+const workbooks = publishedWorkbooks("korean");
+const domains = korean.areas;
+---
+
+<BaseLayout title="초등 국어 한 장 | 초등 학습지 한 장" description="2022 개정 국어과 교육과정 87개 성취기준을 모두 연결한 무료 초등 국어 학습지 18권" page="subject" subject="korean">
+  <section class="english-hero korean-hero" aria-labelledby="korean-title">
+    <div>
+      <a class="subject-backlink" href={import.meta.env.BASE_URL}>초등 학습지 한 장 <span aria-hidden="true">↗</span></a>
+      <p class="eyebrow">KOREAN · CURRICULUM SPACE</p>
+      <h1 id="korean-title">초등 국어<br />한 장</h1>
+      <p class="english-hero__lead">두 편의 글을 충분히 읽고, 말과 글의 원리를 탐구한 뒤 자신의 생각으로 표현합니다. 87개 성취기준을 학년군과 영역별로 묶은 8쪽 학습지입니다.</p>
+      <div class="preparing-badge"><span aria-hidden="true"></span> {workbooks.length}권 무료 배포 중</div>
+    </div>
+    <div class="english-letterfield korean-letterfield" aria-hidden="true">
+      <span>가</span><span>읽기</span><span>나</span><span>쓰기</span><span>다</span><span>말하기</span>
+    </div>
+  </section>
+
+  <section class="english-map" aria-labelledby="map-title">
+    <div class="section-heading">
+      <div><p class="eyebrow">2022 REVISED CURRICULUM</p><h2 id="map-title">국어 배움의 지도</h2></div>
+      <p>여섯 영역을 1–2, 3–4, 5–6학년군의 발달 흐름에 맞춰 읽기 · 탐구 · 표현 활동으로 연결했습니다.</p>
+    </div>
+    <div class="curriculum-stat-grid curriculum-stat-grid--korean">
+      <article><strong>{korean.standardCount}</strong><h3>성취기준</h3><p>교육과정 MCP에서 확인한 초등 국어 전체 기준입니다.</p></article>
+      {koreanSummary.officialAreas.map((area) => <article><strong>{area.labelKorean}</strong><h3>국어 영역</h3><p>학년군별 핵심 성취기준을 한 권에 모았습니다.</p></article>)}
+    </div>
+    <div class="grade-band-map">
+      {gradeBands.map(([band, data]) => (
+        <article>
+          <div><p class="eyebrow">{band === "1-2" ? "BEGIN" : band === "3-4" ? "GROW" : "DEEPEN"}</p><h3>{GRADE_BAND_LABELS[band as "1-2" | "3-4" | "5-6"]}</h3></div>
+          <strong>{data.standardCount}개</strong>
+          <p>{band === "1-2" ? "말과 글의 기초를 익히고 즐겁게 소통합니다." : band === "3-4" ? "내용과 형식을 살피며 생각을 분명하게 표현합니다." : "관점과 맥락을 비판적으로 살피고 주도적으로 소통합니다."}</p>
+        </article>
+      ))}
+    </div>
+  </section>
+
+  <section class="archive" aria-labelledby="archive-title">
+    <div class="section-heading">
+      <div><p class="eyebrow">READ · EXPLORE · EXPRESS</p><h2 id="archive-title">국어 학습지 찾아보기</h2></div>
+      <p>학년군과 국어 영역으로 골라 PDF를 내려받거나, 8쪽 전체를 이미지로 넘겨볼 수 있습니다.</p>
+    </div>
+    <div class="filter-shell">
+      <form class="filter-form filter-form--english" id="filters" aria-label="국어 학습지 필터">
+        <label>학년군<select name="gradeBand"><option value="">전체 학년군</option><option value="1-2">1–2학년군</option><option value="3-4">3–4학년군</option><option value="5-6">5–6학년군</option></select></label>
+        <label>국어 영역<select name="domain"><option value="">전체 영역</option>{domains.map((value) => <option value={value}>{value}</option>)}</select></label>
+        <button class="filter-reset" type="reset">초기화</button>
+      </form>
+    </div>
+    <div class="archive-status"><p id="result-count" role="status" aria-live="polite"></p><strong>87개 성취기준 전체 연결</strong></div>
+    <ul class="workbook-grid" id="workbook-list" aria-label="국어 학습지 목록">{workbooks.map((workbook) => <li><WorkbookCard workbook={workbook} /></li>)}</ul>
+    <div class="empty-state" id="empty-state" hidden><h3>조건에 맞는 학습지가 없어요</h3><p>필터를 초기화하고 다시 살펴보세요.</p></div>
+  </section>
+  <script is:inline>
+    const form = document.querySelector("#filters");
+    const items = Array.from(document.querySelectorAll("#workbook-list > li"));
+    const apply = () => {
+      if (!(form instanceof HTMLFormElement)) return;
+      const values = new FormData(form); let visible = 0;
+      items.forEach((item) => {
+        const card = item.querySelector("[data-grade-band]");
+        const matches = ["gradeBand", "domain"].every((name) => !String(values.get(name) ?? "") || card?.dataset[name] === String(values.get(name)));
+        item.hidden = !matches; if (matches) visible += 1;
+      });
+      const empty = document.querySelector("#empty-state"); if (empty instanceof HTMLElement) empty.hidden = visible !== 0;
+      const count = document.querySelector("#result-count"); if (count) count.textContent = `총 ${visible}개의 국어 학습지`;
+    };
+    apply(); form?.addEventListener("change", apply); form?.addEventListener("reset", () => requestAnimationFrame(apply));
+  </script>
+</BaseLayout>

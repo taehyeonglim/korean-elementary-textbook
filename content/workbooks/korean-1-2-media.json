@@ -1,0 +1,185 @@
+{
+  "id": "korean-1-2-media",
+  "slug": "korean-1-2-media",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 글과 그림으로 경험 표현하기",
+  "gradeBand": "1-2",
+  "domain": "매체",
+  "module": "글과 그림으로 경험 표현하기",
+  "standardCodes": [
+    "[2국06-01]",
+    "[2국06-02]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "우리 주변의 매체",
+      "책은 글과 그림으로 이야기를 전합니다.",
+      "라디오는 소리로 소식과 음악을 들려줍니다.",
+      "영상은 움직이는 그림과 소리를 함께 보여 줍니다.",
+      "매체마다 생각을 전하는 방법이 다릅니다."
+    ],
+    "questionsA": [
+      [
+        "책이 사용하는 두 가지는 무엇인가요?",
+        "글과 그림"
+      ],
+      [
+        "라디오는 무엇을 사용하나요?",
+        "소리"
+      ],
+      [
+        "영상은 무엇을 함께 보여 주나요?",
+        "움직이는 그림과 소리"
+      ],
+      [
+        "글의 중심 내용을 쓰세요.",
+        "매체마다 생각을 전하는 방법이 다르다."
+      ]
+    ],
+    "textB": [
+      "나의 하루 카드",
+      "아침: 창문을 열자 밝은 햇빛이 들어왔습니다.",
+      "낮: 친구와 운동장에서 공을 찼습니다.",
+      "저녁: 가족과 식탁에 둘러앉아 오늘 일을 이야기했습니다.",
+      "각 장면에 그림을 더하면 하루가 더 잘 떠오릅니다."
+    ],
+    "questionsB": [
+      [
+        "아침에 한 일은 무엇인가요?",
+        "창문을 열었다."
+      ],
+      [
+        "낮에 누구와 무엇을 했나요?",
+        "친구와 공을 찼다."
+      ],
+      [
+        "저녁에 가족과 무엇을 했나요?",
+        "오늘 일을 이야기했다."
+      ],
+      [
+        "그림을 더하면 무엇이 좋은가요?",
+        "장면이 더 잘 떠오른다."
+      ]
+    ],
+    "focus": [
+      [
+        "글이 잘 전하는 것은 무엇인가요?",
+        "자세한 내용"
+      ],
+      [
+        "그림이 잘 전하는 것은 무엇인가요?",
+        "모습과 분위기"
+      ],
+      [
+        "소리가 잘 전하는 것은 무엇인가요?",
+        "목소리와 느낌"
+      ],
+      [
+        "경험 카드에 필요한 두 요소는 무엇인가요?",
+        "글과 그림"
+      ]
+    ],
+    "produce": [
+      "책·라디오·영상 중 관심 있는 매체와 까닭을 말하세요.",
+      "오늘의 한 장면을 짧은 글과 그림 계획으로 표현하세요."
+    ],
+    "model": "장면: 비 온 뒤 운동장 / 글: 웅덩이에 구름이 비쳤다. / 그림: 파란 웅덩이와 하얀 구름"
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-1-2-media/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-media/01-cover.webp",
+      "sha256": "3e445f0fd29845f66f74705b9a6c8de017162f174c025a43ef96001ed8f2362a",
+      "alt": "글과 그림으로 경험 표현하기 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-media/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-media/02-reading-a.webp",
+      "sha256": "70123f21be7b1619f03b580cc3e383506ddc836881d69436f7842267f9138578",
+      "alt": "글과 그림으로 경험 표현하기 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-media/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-media/03-questions-a.webp",
+      "sha256": "3df5ae9d277ef36c268dc2b777abfc08625429c3c0b57c81235e87b27abfe5bd",
+      "alt": "글과 그림으로 경험 표현하기 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-media/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-media/04-reading-b.webp",
+      "sha256": "a0f97d4e5f7c9fa3cccdb564111073dd19e0425d2425773897af4bf682729fea",
+      "alt": "글과 그림으로 경험 표현하기 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-media/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-media/05-questions-b.webp",
+      "sha256": "26fa823ff63f348c5173ed0adb8fc2c081d0b02fd04150ad4319d4f588ce6206",
+      "alt": "글과 그림으로 경험 표현하기 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-media/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-media/06-focus.webp",
+      "sha256": "a07882505074d31a290d1b14c17389c65f1e0ff8793048389decdf8b8fa21a79",
+      "alt": "글과 그림으로 경험 표현하기 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-media/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-media/07-production.webp",
+      "sha256": "057605e03c7a351883f38df3219f362ea20c822917af22c7ef89a85749b9f90a",
+      "alt": "글과 그림으로 경험 표현하기 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-1-2-media/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-media/08-answers.webp",
+      "sha256": "a5161a7fb66410e39798cc60197e52fc5a57ca2df1ea5de7e009f1646e4bc954",
+      "alt": "글과 그림으로 경험 표현하기 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-1-2-media/korean-1-2-media.pdf",
+    "pageCount": 8,
+    "sha256": "246698645634c8de10def21e033484e2d936080763947a07866c4638b83d10da"
+  },
+  "transcriptPath": "/workbooks/korean-1-2-media/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

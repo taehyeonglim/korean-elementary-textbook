@@ -1,0 +1,11 @@
+# 1. Scene
+A child-friendly editorial key art for an early elementary Korean language workbook cover: two Korean children on a warm classroom rug arranging colorful abstract wooden blocks beside an open wordless picture book, one child telling a story with expressive hands while the other listens closely, with blank paper speech shapes, a pencil, a blank notebook, and purely pictorial story-sequence cards flowing upward. Every paper, book, block, wall, and card surface is blank or carries only simple flowers, dots, arrows, and animal pictures. Reserve a calm cream band across the upper quarter and a clean pale-paper band across the lower eighth for deterministic title and credit overlays.
+# 2. Camera
+Slightly elevated three-quarter view, medium-wide vertical composition, clear silhouettes and generous cover spacing.
+# 3. Lighting
+Soft morning light from upper left, open shadows, warm reflected fill, gentle plum rim accents.
+# 4. Color grading
+Deep plum #6B3F72, warm cream #FFF4DD, coral #E97863, forest #356B5D, mustard #E1B84B.
+# 5. Texture/Medium
+Layered cut-paper gouache illustration, visible paper fibers, rounded shapes, restrained screen-print grain.
+AR 2:3

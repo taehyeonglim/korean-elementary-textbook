@@ -1,0 +1,189 @@
+{
+  "id": "korean-5-6-literature",
+  "slug": "korean-5-6-literature",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 작가의 의도와 삶의 성찰",
+  "gradeBand": "5-6",
+  "domain": "문학",
+  "module": "작가의 의도와 삶의 성찰",
+  "standardCodes": [
+    "[6국05-01]",
+    "[6국05-02]",
+    "[6국05-03]",
+    "[6국05-04]",
+    "[6국05-05]",
+    "[6국05-06]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "빈 의자",
+      "운동장 끝 느티나무 아래에는 낡은 의자 하나가 있었습니다.",
+      "친구와 다툰 현우는 혼자 그 의자에 앉아 운동화를 바라보았습니다.",
+      "잠시 뒤 친구가 말없이 옆에 앉아 반으로 나눈 귤을 건넸습니다.",
+      "현우는 귤 한 쪽을 받아 들고 의자의 빈틈이 조금 줄었다고 느꼈습니다."
+    ],
+    "questionsA": [
+      [
+        "배경은 어디인가요?",
+        "운동장 끝 느티나무 아래"
+      ],
+      [
+        "현우가 혼자 있던 까닭은 무엇인가요?",
+        "친구와 다퉈서"
+      ],
+      [
+        "친구는 어떻게 화해의 뜻을 보였나요?",
+        "옆에 앉아 귤을 건넸다."
+      ],
+      [
+        "‘의자의 빈틈이 줄었다’가 뜻하는 것은 무엇인가요?",
+        "두 사람의 마음의 거리가 가까워졌다."
+      ]
+    ],
+    "textB": [
+      "등불",
+      "작은 친절은 어둔 길의 등불 같다.",
+      "눈부시게 세상을 다 밝히지는 못해도",
+      "바로 곁 한 사람의 발밑을 비추고",
+      "그 빛이 또 다른 등불을 깨운다."
+    ],
+    "questionsB": [
+      [
+        "작은 친절을 무엇에 비유했나요?",
+        "등불"
+      ],
+      [
+        "등불이 비추는 곳은 어디인가요?",
+        "곁에 있는 한 사람의 발밑"
+      ],
+      [
+        "마지막 행의 뜻을 쓰세요.",
+        "친절이 다른 친절로 이어진다."
+      ],
+      [
+        "비유의 효과는 무엇인가요?",
+        "친절의 가치와 퍼지는 모습을 생생하게 느끼게 한다."
+      ]
+    ],
+    "focus": [
+      [
+        "소설의 세 요소는 무엇인가요?",
+        "인물, 사건, 배경"
+      ],
+      [
+        "작가의 의도를 짐작할 단서는 무엇인가요?",
+        "인물의 변화, 반복 표현, 사건의 결말"
+      ],
+      [
+        "작품 의견에는 무엇이 필요한가요?",
+        "인상적인 부분과 그렇게 생각한 까닭"
+      ],
+      [
+        "삶과 연관 지어 성찰한다는 뜻은 무엇인가요?",
+        "작품을 내 경험과 선택에 비추어 생각하는 것"
+      ]
+    ],
+    "produce": [
+      "첫 작품에서 작가가 전하고 싶은 생각을 근거와 함께 쓰세요.",
+      "나의 경험을 시·소설·극·수필 중 알맞은 갈래로 짧게 표현하세요."
+    ],
+    "model": "작가는 먼저 다가가는 작은 행동이 관계를 회복할 수 있음을 전하려 했다. 친구가 말 대신 귤을 건네자 현우가 마음의 거리가 줄었다고 느꼈기 때문이다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-5-6-literature/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-literature/01-cover.webp",
+      "sha256": "4c5e006ec7ea9c74ec804349658528efdb09b8f9fdd9a4a1c2cec6e07fc2f831",
+      "alt": "작가의 의도와 삶의 성찰 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-literature/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-literature/02-reading-a.webp",
+      "sha256": "65a698366dada627e7dc5883fa506457b53d29d54a9901e833ed15098e256a61",
+      "alt": "작가의 의도와 삶의 성찰 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-literature/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-literature/03-questions-a.webp",
+      "sha256": "525c91992ee5135f7ed808ac2058a1c1d633f09434f89ba73a6d7d165876bdd6",
+      "alt": "작가의 의도와 삶의 성찰 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-literature/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-literature/04-reading-b.webp",
+      "sha256": "502726435e661c59a7ca2ac551528587e986598664114cb4a44450008d7e65ab",
+      "alt": "작가의 의도와 삶의 성찰 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-literature/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-literature/05-questions-b.webp",
+      "sha256": "2d28df92b196786e28be92c8da22e8a5d0d561b7721f5a270a30f4206d21a9cc",
+      "alt": "작가의 의도와 삶의 성찰 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-literature/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-literature/06-focus.webp",
+      "sha256": "9213bc969d11d33cdad18f087971ec3240b9bd1c2eabda4cb9a0fb9598049bec",
+      "alt": "작가의 의도와 삶의 성찰 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-literature/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-literature/07-production.webp",
+      "sha256": "2563c097e9641a8782705bdab7764427caea5390818b3eb5496bf197b9c38ab8",
+      "alt": "작가의 의도와 삶의 성찰 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-5-6-literature/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-literature/08-answers.webp",
+      "sha256": "7ab0097a16810f6b8addcb99aadd6468384c35d59a4662565a0446d30316fc61",
+      "alt": "작가의 의도와 삶의 성찰 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-5-6-literature/korean-5-6-literature.pdf",
+    "pageCount": 8,
+    "sha256": "1b457d2d14f1cf3faf3e357b41b6766a12f6ec242e1d474d77e6f52d9bf2f78e"
+  },
+  "transcriptPath": "/workbooks/korean-5-6-literature/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

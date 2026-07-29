@@ -3,7 +3,7 @@ import catalogJson from "../../content/catalog.json";
 export const GRADE_BANDS = ["1-2", "3-4", "5-6"] as const;
 export const LEVELS = ["foundation", "standard", "challenge"] as const;
 export const PAGE_ROLES = ["cover", "worksheet", "answer"] as const;
-export const SUBJECT_IDS = ["math", "english"] as const;
+export const SUBJECT_IDS = ["math", "english", "korean"] as const;
 
 export type GradeBand = (typeof GRADE_BANDS)[number];
 export type ProjectLevel = (typeof LEVELS)[number];
@@ -39,7 +39,7 @@ export interface Workbook {
   module: string;
   standardCodes: string[];
   /** Subject-specific project learning flow; not a national achievement-level label. */
-  levels: ["foundation", "standard", "challenge"] | ["input", "practice", "production"];
+  levels: ["foundation", "standard", "challenge"] | ["input", "practice", "production"] | ["read", "explore", "express"];
   pages: WorkbookPage[];
   pdf: WorkbookPdf;
   transcriptPath: string;

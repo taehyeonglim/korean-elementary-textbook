@@ -1,0 +1,189 @@
+{
+  "id": "korean-5-6-listening-speaking",
+  "slug": "korean-5-6-listening-speaking",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 질문하고 근거로 토론하기",
+  "gradeBand": "5-6",
+  "domain": "듣기·말하기",
+  "module": "질문하고 근거로 토론하기",
+  "standardCodes": [
+    "[6국01-01]",
+    "[6국01-02]",
+    "[6국01-03]",
+    "[6국01-04]",
+    "[6국01-05]",
+    "[6국01-06]",
+    "[6국01-07]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "학교 방송 면담",
+      "진행자: 도서관 이용 학생이 늘어난 까닭은 무엇인가요?",
+      "사서: 학생 추천 책 전시와 점심시간 독서 모임을 시작했기 때문입니다.",
+      "진행자: 앞으로 새롭게 해 보고 싶은 활동은 무엇인가요?",
+      "사서: 학생이 직접 책 소개 영상을 만드는 활동을 계획하고 있습니다."
+    ],
+    "questionsA": [
+      [
+        "면담 주제는 무엇인가요?",
+        "도서관 이용과 활동"
+      ],
+      [
+        "이용 학생이 늘어난 까닭은 무엇인가요?",
+        "추천 책 전시와 독서 모임"
+      ],
+      [
+        "앞으로 계획한 활동은 무엇인가요?",
+        "책 소개 영상 만들기"
+      ],
+      [
+        "추가로 물을 질문을 만드세요.",
+        "책 소개 영상은 어디에 공개하나요? 등"
+      ]
+    ],
+    "textB": [
+      "휴대 전화 보관 토론",
+      "주장 가: 수업 중에는 휴대 전화를 한곳에 보관해야 합니다. 알림 때문에 집중이 흐트러질 수 있습니다.",
+      "주장 나: 학습에 필요한 때에는 교사의 안내에 따라 사용할 수 있어야 합니다. 검색과 촬영에 도움이 됩니다.",
+      "두 주장은 모두 수업 집중과 학습 효과를 중요하게 생각합니다."
+    ],
+    "questionsB": [
+      [
+        "주장 가의 근거는 무엇인가요?",
+        "알림이 집중을 흐트러뜨릴 수 있다."
+      ],
+      [
+        "주장 나의 근거는 무엇인가요?",
+        "검색과 촬영이 학습에 도움 된다."
+      ],
+      [
+        "두 주장의 공통 관심은 무엇인가요?",
+        "수업 집중과 학습 효과"
+      ],
+      [
+        "조정안을 쓰세요.",
+        "평소에는 보관하고 교사 안내가 있을 때만 사용한다."
+      ]
+    ],
+    "focus": [
+      [
+        "생략된 내용을 추론할 때 무엇을 살피나요?",
+        "앞뒤 말과 상황"
+      ],
+      [
+        "면담 전에 준비할 것은 무엇인가요?",
+        "목적, 상대 정보, 질문"
+      ],
+      [
+        "토의에서 의견 조정은 무엇인가요?",
+        "공통점과 차이를 찾아 해결안을 만드는 것"
+      ],
+      [
+        "토론 근거는 어떠해야 하나요?",
+        "주장과 관련 있고 믿을 만하며 타당해야 한다."
+      ]
+    ],
+    "produce": [
+      "도서관 면담 질문을 목적에 맞게 세 개 더 만드세요.",
+      "휴대 전화 사용 주제로 주장·근거·예상 반론·답변을 준비해 토론하세요."
+    ],
+    "model": "주장: 교사의 안내가 있을 때만 사용해야 한다. 근거: 학습 도구로 활용하면서 불필요한 알림은 줄일 수 있다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-5-6-listening-speaking/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/01-cover.webp",
+      "sha256": "555885e3d6cd66d3c0e2126880c287c069e422d49a119f53a4380a0e2610ade8",
+      "alt": "질문하고 근거로 토론하기 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-listening-speaking/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/02-reading-a.webp",
+      "sha256": "ae01f2abcc6713f95155b4ea99f5ecd531b9798e9bb3c5500499232667fc8a44",
+      "alt": "질문하고 근거로 토론하기 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-listening-speaking/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/03-questions-a.webp",
+      "sha256": "6650a859d715e0d002c34b2650e9c3fc223237230ef2b6344bb03b91edad9b15",
+      "alt": "질문하고 근거로 토론하기 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-listening-speaking/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/04-reading-b.webp",
+      "sha256": "ac61d82932fab445aedba309fd5078c462f285d0d5cb3fe83eef186ca3b5f475",
+      "alt": "질문하고 근거로 토론하기 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-listening-speaking/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/05-questions-b.webp",
+      "sha256": "f9dab112fe7811a2a12b7a5a0289d3c193c4e959984b4ab2a35b74d9b06038cf",
+      "alt": "질문하고 근거로 토론하기 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-listening-speaking/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/06-focus.webp",
+      "sha256": "886443e3d9d5122402986e848febd01e81d01621688607c902af614aa603a96f",
+      "alt": "질문하고 근거로 토론하기 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-listening-speaking/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/07-production.webp",
+      "sha256": "19f4b0df32813b6b625b20f8373cfe70150000913cb838b95fa75308573df20d",
+      "alt": "질문하고 근거로 토론하기 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-5-6-listening-speaking/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-listening-speaking/08-answers.webp",
+      "sha256": "df632cdfdc4962429e3882ff6ec13f7b45662d67f6656a09ea04d0b6dce807be",
+      "alt": "질문하고 근거로 토론하기 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-5-6-listening-speaking/korean-5-6-listening-speaking.pdf",
+    "pageCount": 8,
+    "sha256": "4a98c6e54b96ba10c2ea7bc86ea1be597da4e1d3faa06c60e93f9ca6b3e3e03b"
+  },
+  "transcriptPath": "/workbooks/korean-5-6-listening-speaking/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

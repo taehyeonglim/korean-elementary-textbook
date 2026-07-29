@@ -3,13 +3,7 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import { coverPage, publicAsset, publishedWorkbooks } from "../lib/catalog";
 import { SUBJECT_LIST } from "../lib/subjects";
 
-const mathWorkbooks = publishedWorkbooks("math");
-const englishWorkbooks = publishedWorkbooks("english");
 const allWorkbooks = publishedWorkbooks();
-const mathCovers = mathWorkbooks.slice(0, 3).map((workbook) => {
-  const cover = coverPage(workbook);
-  return cover ? { src: publicAsset(cover.thumbnailPath || cover.imagePath), alt: `${workbook.title} 표지` } : undefined;
-});
 ---
 
 <BaseLayout title="초등 학습지 한 장 | 무료 초등 학습지" page="home">
@@ -19,7 +13,7 @@ const mathCovers = mathWorkbooks.slice(0, 3).map((workbook) => {
       <h1 id="hub-title">초등 학습지<br />한 장</h1>
       <p>배움의 흐름을 한눈에 보고, 필요한 과목의 한 장을 바로 찾아보세요. 교육과정 성취기준에 연결한 무료 학습지 아카이브입니다.</p>
       <div class="hub-stats" aria-label="프로젝트 현황">
-        <div><strong>2</strong><span>과목 공간</span></div>
+        <div><strong>{SUBJECT_LIST.length}</strong><span>과목 공간</span></div>
         <div><strong>{allWorkbooks.length}</strong><span>공개 학습지</span></div>
         <div><strong>PDF</strong><span>무료 다운로드</span></div>
       </div>
@@ -27,6 +21,7 @@ const mathCovers = mathWorkbooks.slice(0, 3).map((workbook) => {
     <div class="hub-hero__orbit" aria-hidden="true">
       <span class="orbit-word orbit-word--math">MATH</span>
       <span class="orbit-word orbit-word--english">ENGLISH</span>
+      <span class="orbit-word orbit-word--korean">KOREAN</span>
       <i></i><i></i><i></i>
     </div>
   </section>
@@ -49,18 +44,12 @@ const mathCovers = mathWorkbooks.slice(0, 3).map((workbook) => {
               {subject.status === "published" ? "공개 중" : "준비 중"}
             </span>
           </div>
-          {subject.id === "math" ? (
-            <div class="subject-card__covers" aria-label="수학 학습지 표지">
-              {mathCovers.map((cover, index) => cover && <img src={cover.src} alt={cover.alt} loading={index ? "lazy" : "eager"} />)}
-            </div>
-          ) : (
-            <div class="subject-card__covers subject-card__covers--english" aria-label="영어 학습지 표지">
-              {englishWorkbooks.slice(0, 3).map((workbook) => {
-                const cover = coverPage(workbook);
-                return cover && <img src={publicAsset(cover.thumbnailPath || cover.imagePath)} alt={`${workbook.title} 표지`} loading="lazy" />;
-              })}
-            </div>
-          )}
+          <div class:list={["subject-card__covers", `subject-card__covers--${subject.id}`]} aria-label={`${subject.shortLabel} 학습지 표지`}>
+            {publishedWorkbooks(subject.id).slice(0, 3).map((workbook, index) => {
+              const cover = coverPage(workbook);
+              return cover && <img src={publicAsset(cover.thumbnailPath || cover.imagePath)} alt={`${workbook.title} 표지`} loading={subject.id === "math" && index === 0 ? "eager" : "lazy"} />;
+            })}
+          </div>
           <div class="subject-card__body">
             <p class="eyebrow">{subject.shortLabel} · {subject.gradeBands.map((band) => `${band}학년군`).join(" · ")}</p>
             <h3>{subject.label}</h3>

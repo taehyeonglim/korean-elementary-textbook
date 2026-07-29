@@ -1,0 +1,188 @@
+{
+  "id": "korean-3-4-listening-speaking",
+  "slug": "korean-3-4-listening-speaking",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 요약하고 의견 나누기",
+  "gradeBand": "3-4",
+  "domain": "듣기·말하기",
+  "module": "요약하고 의견 나누기",
+  "standardCodes": [
+    "[4국01-01]",
+    "[4국01-02]",
+    "[4국01-03]",
+    "[4국01-04]",
+    "[4국01-05]",
+    "[4국01-06]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "교실 식물 돌보기 안내",
+      "화분은 햇빛이 잘 드는 창가에 둡니다.",
+      "흙이 말랐는지 손가락으로 확인한 뒤 물을 줍니다.",
+      "잎에 먼지가 쌓이면 부드러운 천으로 닦습니다.",
+      "모둠별로 날짜를 정해 꾸준히 돌봅니다."
+    ],
+    "questionsA": [
+      [
+        "안내의 주제는 무엇인가요?",
+        "교실 식물 돌보기"
+      ],
+      [
+        "물을 주기 전 확인할 것은 무엇인가요?",
+        "흙이 말랐는지"
+      ],
+      [
+        "잎의 먼지는 무엇으로 닦나요?",
+        "부드러운 천"
+      ],
+      [
+        "중요 내용을 한 문장으로 요약하세요.",
+        "모둠별로 정한 날짜에 식물 상태를 살펴 알맞게 돌본다."
+      ]
+    ],
+    "textB": [
+      "학급 쉬는 시간 토의",
+      "의견 가: 조용한 놀이 구역을 만들면 책이나 퍼즐을 좋아하는 친구가 편합니다.",
+      "의견 나: 공놀이 구역도 있어야 몸을 움직이고 싶은 친구가 즐겁습니다.",
+      "두 의견을 듣고 우리는 공간을 나누어 함께 사용하자고 정했습니다."
+    ],
+    "questionsB": [
+      [
+        "토의 주제는 무엇인가요?",
+        "쉬는 시간 공간 사용"
+      ],
+      [
+        "의견 가의 이유는 무엇인가요?",
+        "조용한 놀이를 좋아하는 친구가 편해서"
+      ],
+      [
+        "의견 나의 이유는 무엇인가요?",
+        "몸을 움직이고 싶은 친구가 즐거워서"
+      ],
+      [
+        "결정한 해결 방법은 무엇인가요?",
+        "공간을 나누어 함께 사용한다."
+      ]
+    ],
+    "focus": [
+      [
+        "준언어 표현의 예는 무엇인가요?",
+        "목소리 크기, 빠르기, 억양"
+      ],
+      [
+        "비언어 표현의 예는 무엇인가요?",
+        "표정, 몸짓, 시선"
+      ],
+      [
+        "예의 있게 반대하는 표현을 쓰세요.",
+        "그 생각도 이해하지만 저는 다르게 생각합니다."
+      ],
+      [
+        "발표 자료는 어떻게 정리하나요?",
+        "목적과 주제에 맞는 핵심 정보 중심으로"
+      ]
+    ],
+    "produce": [
+      "첫 글을 30초 안에 요약해 발표하세요.",
+      "쉬는 시간 공간에 대한 내 의견과 이유를 말하고 다른 의견에 답하세요."
+    ],
+    "model": "저는 공간을 나누어 쓰는 의견에 찬성합니다. 서로 다른 활동을 존중하면서 모두 안전하게 쉴 수 있기 때문입니다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-3-4-listening-speaking/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/01-cover.webp",
+      "sha256": "8e48686ec8471186094c08f10f4330c0b69e4ab65930b2674b10b47e829912a5",
+      "alt": "요약하고 의견 나누기 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-listening-speaking/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/02-reading-a.webp",
+      "sha256": "6dc253b7446a2b1436c9b3c7fd30eb1a833016eec297b47ac33f09bdb96b3c0b",
+      "alt": "요약하고 의견 나누기 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-listening-speaking/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/03-questions-a.webp",
+      "sha256": "babd235139a650839fd3d993a425b1eb80bd6e8b36420ea137fd2e9a6fe98133",
+      "alt": "요약하고 의견 나누기 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-listening-speaking/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/04-reading-b.webp",
+      "sha256": "745f8a16180e7e01a66cbc6eb6ea3ca5b36d0eaa03589341feaf992c416d49a9",
+      "alt": "요약하고 의견 나누기 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-listening-speaking/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/05-questions-b.webp",
+      "sha256": "eb7b5093865e31bd5083d72ba8a28a6df78519a3c7c26a847175e65137640c81",
+      "alt": "요약하고 의견 나누기 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-listening-speaking/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/06-focus.webp",
+      "sha256": "a265ff4131d3d4c1b30fd1fcdc637d973fa45291b910533a963c6ecdd9bf93a9",
+      "alt": "요약하고 의견 나누기 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-3-4-listening-speaking/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/07-production.webp",
+      "sha256": "31539db73174a2b9145094ab58f970784d407f940447ebeec7251f86e7a59b5b",
+      "alt": "요약하고 의견 나누기 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-3-4-listening-speaking/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-3-4-listening-speaking/08-answers.webp",
+      "sha256": "92afb88661eb89c59d583263af6d14c97b0a67308ee11d226b83c1142aeeb184",
+      "alt": "요약하고 의견 나누기 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-3-4-listening-speaking/korean-3-4-listening-speaking.pdf",
+    "pageCount": 8,
+    "sha256": "442c0f8b3c4c95f856b7a2ad2d9884c219d8cfbda02771990be9d1a8e8ca5b11"
+  },
+  "transcriptPath": "/workbooks/korean-3-4-listening-speaking/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

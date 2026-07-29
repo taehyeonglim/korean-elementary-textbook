@@ -1,0 +1,187 @@
+{
+  "id": "korean-1-2-literature",
+  "slug": "korean-1-2-literature",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 말의 재미와 이야기 상상",
+  "gradeBand": "1-2",
+  "domain": "문학",
+  "module": "말의 재미와 이야기 상상",
+  "standardCodes": [
+    "[2국05-01]",
+    "[2국05-02]",
+    "[2국05-03]",
+    "[2국05-04]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "빗방울 연주회",
+      "톡톡 창문을 두드리는 빗방울",
+      "또르르 유리 미끄럼을 타는 빗방울",
+      "첨벙 웅덩이 북을 치는 빗방울",
+      "오늘 골목은 빗방울 연주회"
+    ],
+    "questionsA": [
+      [
+        "빗방울이 창문을 두드리는 소리는 무엇인가요?",
+        "톡톡"
+      ],
+      [
+        "유리에서 움직이는 모습은 무엇에 빗대었나요?",
+        "미끄럼"
+      ],
+      [
+        "웅덩이를 무엇에 빗대었나요?",
+        "북"
+      ],
+      [
+        "시를 읽고 떠오르는 느낌을 쓰세요.",
+        "즐겁고 경쾌하다."
+      ]
+    ],
+    "textB": [
+      "달팽이의 우산",
+      "달팽이는 비가 오자 커다란 버섯 아래로 갔습니다.",
+      "이미 개미 세 마리가 비를 피하고 있었습니다.",
+      "달팽이는 몸을 조금 접어 자리를 내주었습니다.",
+      "비가 그치자 모두 함께 무지개를 보았습니다."
+    ],
+    "questionsB": [
+      [
+        "달팽이는 어디로 갔나요?",
+        "버섯 아래"
+      ],
+      [
+        "누가 먼저 있었나요?",
+        "개미 세 마리"
+      ],
+      [
+        "달팽이가 한 행동은 무엇인가요?",
+        "몸을 접어 자리를 내주었다."
+      ],
+      [
+        "달팽이의 마음을 짐작하세요.",
+        "함께 비를 피하고 싶은 배려하는 마음"
+      ]
+    ],
+    "focus": [
+      [
+        "말놀이에서 비슷한 소리를 반복하면 어떤 느낌이 드나요?",
+        "리듬과 재미가 생긴다."
+      ],
+      [
+        "낭송할 때 살릴 것은 무엇인가요?",
+        "소리와 장면의 느낌"
+      ],
+      [
+        "이야기 인물을 상상할 단서는 무엇인가요?",
+        "말, 행동, 사건"
+      ],
+      [
+        "작품을 즐기는 방법을 하나 쓰세요.",
+        "낭송하기 / 그림으로 표현하기 / 생각 나누기"
+      ]
+    ],
+    "produce": [
+      "‘사각사각’처럼 재미있는 소리를 넣어 두 줄 시를 지으세요.",
+      "달팽이의 다음 행동을 그림과 두 문장으로 표현하세요."
+    ],
+    "model": "사각사각 연필이 걷는다. 하얀 종이 길 위에 생각 발자국을 남긴다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-1-2-literature/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-literature/01-cover.webp",
+      "sha256": "bf76dfa1fa0ec03716ccf219e37bd95b38af901727f429cd6df7ad53c5441ea1",
+      "alt": "말의 재미와 이야기 상상 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-literature/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-literature/02-reading-a.webp",
+      "sha256": "1763f068b9558b246c07f97030388103f8a9eb0e2e8fed63aa32a7c7549050a6",
+      "alt": "말의 재미와 이야기 상상 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-literature/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-literature/03-questions-a.webp",
+      "sha256": "904288afe92cd34fc7a3dd82cb41a62afff0a65686677f276a63d85e463e8c35",
+      "alt": "말의 재미와 이야기 상상 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-literature/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-literature/04-reading-b.webp",
+      "sha256": "b70322f2374911616bac3c879e508a215e42e9e41152fe2e14826774b15887c0",
+      "alt": "말의 재미와 이야기 상상 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-literature/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-literature/05-questions-b.webp",
+      "sha256": "346ba32c221a6a2060c4f818e7a83d6dfdccd9e8925151d3baf7482679e307cb",
+      "alt": "말의 재미와 이야기 상상 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-literature/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-literature/06-focus.webp",
+      "sha256": "d6773b4554a23aa061177cb94b12d03ace963246fac1bed033fe642595ee953d",
+      "alt": "말의 재미와 이야기 상상 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-literature/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-literature/07-production.webp",
+      "sha256": "bcaf9501d8618caa5cce8d0a6dc6b667ce4946abd48b86a034865998b8ab1485",
+      "alt": "말의 재미와 이야기 상상 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-1-2-literature/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-literature/08-answers.webp",
+      "sha256": "1d7ee2eec753ef61caa3429b08d085448103a893a15d7ecb6e96558241570943",
+      "alt": "말의 재미와 이야기 상상 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-1-2-literature/korean-1-2-literature.pdf",
+    "pageCount": 8,
+    "sha256": "68e9971bcf6d79176e3480fa9b32adf911ca3af7ae69b14742f26ed3e3655d49"
+  },
+  "transcriptPath": "/workbooks/korean-1-2-literature/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

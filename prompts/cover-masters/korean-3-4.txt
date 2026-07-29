@@ -1,0 +1,11 @@
+# 1. Scene
+A child-friendly editorial key art for a middle-elementary Korean language workbook cover: three Korean children gathered around a low library table, one reading a wordless picture story, one organizing blank idea cards into a three-step pictorial path, and one preparing to present with a small picture board. Books, blank dialogue cards, a magnifying glass, blank pencil-note sheets, and flowing paper ribbons connect listening, reading, writing, literature, and media. Every paper, book, board, wall, and card surface is blank or carries only simple flowers, dots, arrows, and landscape pictures. Reserve a calm cream band across the upper quarter and a clean pale-paper band across the lower eighth for deterministic title and credit overlays.
+# 2. Camera
+Slightly elevated three-quarter view, medium-wide vertical composition with a clear upward visual path.
+# 3. Lighting
+Soft afternoon daylight, open shadows, warm reflected fill, subtle teal edge light.
+# 4. Color grading
+Deep plum #62406F, warm cream #FFF4DD, coral #E97863, teal #3E8276, mustard #E1B84B.
+# 5. Texture/Medium
+Layered cut-paper gouache illustration, visible paper fibers, crisp cards and book shapes, subtle screen-print grain.
+AR 2:3

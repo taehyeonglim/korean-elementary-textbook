@@ -1,0 +1,188 @@
+{
+  "id": "korean-1-2-reading",
+  "slug": "korean-1-2-reading",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 또박또박 읽고 마음 짐작하기",
+  "gradeBand": "1-2",
+  "domain": "읽기",
+  "module": "또박또박 읽고 마음 짐작하기",
+  "standardCodes": [
+    "[2국02-01]",
+    "[2국02-02]",
+    "[2국02-03]",
+    "[2국02-04]",
+    "[2국02-05]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "화분의 새싹",
+      "지우는 작은 화분에 씨앗을 심었습니다.",
+      "매일 물을 주었지만 며칠 동안 아무 변화가 없었습니다.",
+      "어느 아침, 흙 사이로 연두색 새싹이 고개를 내밀었습니다.",
+      "지우는 두 손을 모으고 한참 새싹을 바라보았습니다."
+    ],
+    "questionsA": [
+      [
+        "지우가 심은 것은 무엇인가요?",
+        "씨앗"
+      ],
+      [
+        "며칠 동안 변화가 있었나요?",
+        "없었다."
+      ],
+      [
+        "어느 아침 무엇이 나왔나요?",
+        "연두색 새싹"
+      ],
+      [
+        "지우의 마음을 짐작하고 근거를 쓰세요.",
+        "기쁘고 신기하다. 두 손을 모으고 한참 바라보았기 때문이다."
+      ]
+    ],
+    "textB": [
+      "도서관 가는 날",
+      "우리 반은 금요일마다 도서관에 갑니다.",
+      "친구들은 읽고 싶은 책을 스스로 고릅니다.",
+      "책을 다 읽으면 기억에 남는 장면을 한 문장으로 적습니다.",
+      "우리는 서로의 문장을 읽으며 다음 책을 찾습니다."
+    ],
+    "questionsB": [
+      [
+        "언제 도서관에 가나요?",
+        "금요일마다"
+      ],
+      [
+        "책은 누가 고르나요?",
+        "친구들이 스스로"
+      ],
+      [
+        "읽은 뒤 무엇을 적나요?",
+        "기억에 남는 장면"
+      ],
+      [
+        "글의 중심 내용을 쓰세요.",
+        "우리 반은 도서관에서 즐겁게 책을 읽고 나눈다."
+      ]
+    ],
+    "focus": [
+      [
+        "의미가 잘 드러나게 읽으려면 무엇을 살피나요?",
+        "문장의 뜻과 알맞은 띄어 읽기"
+      ],
+      [
+        "쉼표에서는 어떻게 읽나요?",
+        "조금 쉰다."
+      ],
+      [
+        "마침표에서는 어떻게 읽나요?",
+        "문장을 마치며 쉰다."
+      ],
+      [
+        "읽고 싶은 책을 고르는 태도는 무엇인가요?",
+        "읽기에 흥미를 가지고 즐겨 읽는 태도"
+      ]
+    ],
+    "produce": [
+      "첫 번째 글을 의미가 드러나도록 띄어 소리 내어 읽어 보세요.",
+      "인물의 마음과 나의 비슷하거나 다른 경험을 두 문장으로 써 보세요."
+    ],
+    "model": "지우는 새싹을 보고 기뻤을 것입니다. 나도 심은 봉선화에서 싹이 났을 때 오래 바라보았습니다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-1-2-reading/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-reading/01-cover.webp",
+      "sha256": "651a7af9f55d5ba7d855dfa8d61ef5d9a9a3b84c622fd397c433d6a953272910",
+      "alt": "또박또박 읽고 마음 짐작하기 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-reading/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-reading/02-reading-a.webp",
+      "sha256": "7f4225c421af46f95e3ccdd6029b99d377b51f18004c84fda1c5a866b53432f3",
+      "alt": "또박또박 읽고 마음 짐작하기 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-reading/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-reading/03-questions-a.webp",
+      "sha256": "8e6600423ce965bd7412e28285b3ce61d9fc52c4df78701dc55b1d12c9cc58b3",
+      "alt": "또박또박 읽고 마음 짐작하기 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-reading/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-reading/04-reading-b.webp",
+      "sha256": "a35daf32d3e0b31f0d079b2bc875046575a1f50a8f9a8ac9a00a16b0b08de515",
+      "alt": "또박또박 읽고 마음 짐작하기 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-reading/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-reading/05-questions-b.webp",
+      "sha256": "970d60ffb438cea0ff36092cd16c53874d4deeda5fc7ab8215fa3bdc62546c0e",
+      "alt": "또박또박 읽고 마음 짐작하기 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-reading/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-reading/06-focus.webp",
+      "sha256": "038569d993d9485b7a7783fc88ad9172fce0d80c3e35c30c9274f66994922c10",
+      "alt": "또박또박 읽고 마음 짐작하기 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-1-2-reading/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-reading/07-production.webp",
+      "sha256": "e61e3001ce6f1682a691418a18fd83f080c958897f231e7e17d45f78526dbfdd",
+      "alt": "또박또박 읽고 마음 짐작하기 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-1-2-reading/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-1-2-reading/08-answers.webp",
+      "sha256": "ac01510819be6ecc966968da5f9b1c4d4391c3ea4760d408d0d0129fec5a4759",
+      "alt": "또박또박 읽고 마음 짐작하기 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-1-2-reading/korean-1-2-reading.pdf",
+    "pageCount": 8,
+    "sha256": "af9ce70205f73523db40eb417ff8d37f47954eefe7255610d06976b013fdb2ad"
+  },
+  "transcriptPath": "/workbooks/korean-1-2-reading/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}

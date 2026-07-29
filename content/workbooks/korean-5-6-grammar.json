@@ -1,0 +1,188 @@
+{
+  "id": "korean-5-6-grammar",
+  "slug": "korean-5-6-grammar",
+  "subject": "korean",
+  "title": "초등 국어 한 장: 언어 다양성과 바른 문장",
+  "gradeBand": "5-6",
+  "domain": "문법",
+  "module": "언어 다양성과 바른 문장",
+  "standardCodes": [
+    "[6국04-01]",
+    "[6국04-02]",
+    "[6국04-03]",
+    "[6국04-04]",
+    "[6국04-05]",
+    "[6국04-06]"
+  ],
+  "levels": [
+    "read",
+    "explore",
+    "express"
+  ],
+  "activities": {
+    "textA": [
+      "표준어와 방언",
+      "표준어는 서로 다른 지역의 사람들이 널리 소통하는 데 도움을 줍니다.",
+      "방언은 지역의 역사와 생활 모습을 담고 있으며 같은 지역 사람 사이의 친밀감을 높이기도 합니다.",
+      "어느 한쪽이 더 우수한 것이 아니라 상황과 공동체에 따라 기능이 다릅니다."
+    ],
+    "questionsA": [
+      [
+        "표준어의 기능은 무엇인가요?",
+        "넓은 지역의 소통을 돕는다."
+      ],
+      [
+        "방언이 담는 것은 무엇인가요?",
+        "지역의 역사와 생활 모습"
+      ],
+      [
+        "방언의 관계 기능은 무엇인가요?",
+        "친밀감을 높이기도 한다."
+      ],
+      [
+        "두 언어의 관계를 어떻게 보아야 하나요?",
+        "상황과 공동체에 따라 기능이 다르다."
+      ]
+    ],
+    "textB": [
+      "문장 고쳐 쓰기",
+      "‘나는 결코 약속을 꼭 잊지 않겠다.’는 부사어의 호응이 어색합니다.",
+      "‘결코’는 보통 ‘않다’나 ‘없다’와 어울립니다.",
+      "따라서 ‘나는 약속을 결코 잊지 않겠다.’로 고치면 자연스럽습니다.",
+      "문장 성분과 호응을 살피면 뜻을 분명하게 전할 수 있습니다."
+    ],
+    "questionsB": [
+      [
+        "어색한 까닭은 무엇인가요?",
+        "부사어의 호응이 맞지 않아서"
+      ],
+      [
+        "결코와 어울리는 표현은 무엇인가요?",
+        "않다 / 없다"
+      ],
+      [
+        "바르게 고친 문장을 쓰세요.",
+        "나는 약속을 결코 잊지 않겠다."
+      ],
+      [
+        "호응을 살피면 무엇이 좋은가요?",
+        "뜻을 분명히 전할 수 있다."
+      ]
+    ],
+    "focus": [
+      [
+        "‘발이 넓다’의 관용적 뜻은 무엇인가요?",
+        "아는 사람이 많다."
+      ],
+      [
+        "‘어제 읽는다’를 바르게 고치세요.",
+        "어제 읽었다."
+      ],
+      [
+        "음성 언어의 특징은 무엇인가요?",
+        "목소리·억양·표정과 함께 전달된다."
+      ],
+      [
+        "문자 언어의 특징은 무엇인가요?",
+        "기록되어 다시 읽고 고칠 수 있다."
+      ]
+    ],
+    "produce": [
+      "가족이나 지역에서 쓰는 방언을 하나 조사해 뜻과 쓰임을 적으세요.",
+      "호응·시간 표현·띄어쓰기가 어색한 문장을 찾아 바르게 고치세요."
+    ],
+    "model": "고치기 전: 나는 내일 도서관에 갔다. / 고친 뒤: 나는 내일 도서관에 갈 것이다."
+  },
+  "pages": [
+    {
+      "id": "cover",
+      "order": 1,
+      "role": "cover",
+      "imagePath": "/workbooks/korean-5-6-grammar/01-cover.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-grammar/01-cover.webp",
+      "sha256": "c0881d478a5c0e23fb3054113cecaf7b5cb6d50868f7fb97719cd90f2db1e6b5",
+      "alt": "언어 다양성과 바른 문장 1쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-a",
+      "order": 2,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-grammar/02-reading-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-grammar/02-reading-a.webp",
+      "sha256": "3b0b0ab87037771d7afc814d52ccd2a63c6bc1723da0ef74b07a9e33b900c936",
+      "alt": "언어 다양성과 바른 문장 2쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-a",
+      "order": 3,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-grammar/03-questions-a.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-grammar/03-questions-a.webp",
+      "sha256": "09c68bb1596410e1075283acbb72ada31fdfcdd13dc961742cb0831e16dd0c75",
+      "alt": "언어 다양성과 바른 문장 3쪽",
+      "approved": true
+    },
+    {
+      "id": "reading-b",
+      "order": 4,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-grammar/04-reading-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-grammar/04-reading-b.webp",
+      "sha256": "22cc085af3c01d675fb123d8b84c0d750b8904538a4f96e710789ab9f15878dc",
+      "alt": "언어 다양성과 바른 문장 4쪽",
+      "approved": true
+    },
+    {
+      "id": "questions-b",
+      "order": 5,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-grammar/05-questions-b.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-grammar/05-questions-b.webp",
+      "sha256": "7b4f2ca78bd223da9fcbd1e09a56b8ac22b57014efc7fe5a4655741499891ec4",
+      "alt": "언어 다양성과 바른 문장 5쪽",
+      "approved": true
+    },
+    {
+      "id": "focus",
+      "order": 6,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-grammar/06-focus.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-grammar/06-focus.webp",
+      "sha256": "00222891fa3bcd786199893c1b6c9c45f5ad4c1d8d32f392d5dba1c7273f4008",
+      "alt": "언어 다양성과 바른 문장 6쪽",
+      "approved": true
+    },
+    {
+      "id": "production",
+      "order": 7,
+      "role": "worksheet",
+      "imagePath": "/workbooks/korean-5-6-grammar/07-production.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-grammar/07-production.webp",
+      "sha256": "873ff175022b7f231f1c11428e8dbd9804210c4241c3a33ed161ace710bcd8d8",
+      "alt": "언어 다양성과 바른 문장 7쪽",
+      "approved": true
+    },
+    {
+      "id": "answers",
+      "order": 8,
+      "role": "answer",
+      "imagePath": "/workbooks/korean-5-6-grammar/08-answers.webp",
+      "thumbnailPath": "/workbooks/korean-5-6-grammar/08-answers.webp",
+      "sha256": "d9ca4e4502bca7069801c88d2dc8da43216f95f885a510b831c9fd8da380e64f",
+      "alt": "언어 다양성과 바른 문장 8쪽",
+      "approved": true
+    }
+  ],
+  "pdf": {
+    "path": "/workbooks/korean-5-6-grammar/korean-5-6-grammar.pdf",
+    "pageCount": 8,
+    "sha256": "4104fd0ca7ce3112a4152c3da5ab0072050e842c64e21e90741e76aa0f44a40c"
+  },
+  "transcriptPath": "/workbooks/korean-5-6-grammar/transcript.html",
+  "license": "CC-BY-NC-SA-4.0",
+  "author": "Taehyeong Lim",
+  "publishedAt": "2026-07-29",
+  "published": true
+}
